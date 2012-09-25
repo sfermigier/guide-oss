@@ -1,0 +1,203 @@
+Outils de développement
+=======================
+
+Cette section présente les outils utiles aux développements d’applications, web notamment.
+
+On y trouve des outils de gestion de projet comme Redmine ou Maven, des outils d’automatisation comme Ant ou Phing, des environnements de développement comme Eclipse, des gestionnaires de tickets comme MantisBT, des outils de gestion de source comme Subversion ou Git, et des solutions de collaboration et d’ingénierie logicielle comme Tuleap.
+
+Comme on le voit, l’open source offre également d’excellentes briques de développement pour bâtir des projets ambitieux dans des conditions optimales.
+
+
+
+Compte de tenu de la diversité des outils sélectionnés dans cette catégorie, les graphiques suivants ne présentent pas de moyenne.
+
+
+
+
+Ant
+---
+
+:Version: 1.8.2
+:Site: http://ant.apache.org
+:Porteur: une fondation (Apache)
+
+Ant ("Another Neat Tool") est un outil d’automatisation de tâches tout au long du cycle de développement logiciel. Ant a été conçu par James Duncan Davidson en 2000 (sortie de la première version).
+
+Ant permet donc d’automatiser des opérations répétitives tout au long d’un projet, à l’instar de ce que peuvent faire les commandes Make. Ant est principalement utilisé dans le cadre de projets écrits en Java même s’il peut être utilisé dans des projets faisant appels à d’autres technologies. Parmi les tâches que l’on confie souvent à Ant, on peut lister : l’exécution d’outils externes comme Checkstyle ou FindBugs, la génération des documentations (Javadoc), la compilation des programmes, l’archivage, la sauvegarde, etc.
+
+Ant est distribué sous la licence Apache, et soutenu par la fondation du même nom.
+
+Ant est écrit en Java.
+
+
+
+
+Phing
+-----
+
+:Version: 2.4.7.1
+:Site: www.phing.info/trac
+:Porteur: une communauté
+
+Phing est un outil de gestion de cycle de vie de projet informatique, inspiré de Ant et développé à l'origine par Andreas Aderhold. Il est notamment utilisé pour automatiser les tâches récurrentes lors du développement de projets informatiques tels que lancement de tests unitaires ou d'outils d'analyse de code ou encore pour la gestion des livraisons.
+
+Phing utilise, comme Ant, un fichier XML pour définir une liste d'actions ("target"), comportant chacune une ou plusieurs tâches (copy de fichiers, lancement d'une commande), pouvant être lancées en ligne de commande. Il intègre une large liste de tâches en natif (exécution de tests PHPUnit, analyse de code avec PHP CodeSniffer, PHP Mess Detector, manipulation de fichiers, travail avec des gestionnaires de versions de sources), qu'il est très facile d'étendre en fonction de ses besoins par l'intermédiaire de nouvelles classes PHP. Distribué à travers le gestionnaire de paquets PEAR, Phing peut utiliser, pour certaines de ses tâches, des librairies annexes telles que Xdebug, phpcs.
+
+Phing est distribué sous licence LGPL (Lesser Public General License) en version 3.
+
+Phing est développé en PHP et est compatible avec les plateformes Windows, Linux et Max OS X.Eclipse
+
+:Version: 3.7
+:Site: www.eclipse.org
+:Porteur: une fondation (Eclipse)
+
+Eclipse est un environnement de développement extensible et polyvalent, initié par IBM en 2001.
+
+Conçu autour d'une plateforme commune à laquelle s'agrègent des composants dérivatifs, le projet est ainsi constitué de nombreux sous-projets spécifiques aux technologies sous-jacentes. L’object de la solution Eclipse est de fournir des outils favorisant la productivité, mais pas seulement celle qui concerne le codage logiciel. On y trouve des environnements de développement intégré mais également de conception, de modélisation, de tests, de reporting, etc. Eclipse a beau être écrit en Java, il peut être utilisé pour développer sous n’importe quel langage de programmation.
+
+Eclipse est publié sous la licence EPL (Eclipse Public License). La fondation Eclipse en est désormais le porteur officiel.
+
+Eclipse est écrit en Java.
+
+
+
+
+MantisBT
+--------
+
+:Version: 1.2.8
+:Site: www.mantisbt.org
+:Porteur: une communauté
+
+MantisBT est un outil web très populaire de suivi de tickets (anomalies, demandes d'évolutions, demandes d'intervention, ...), adapté à tous types de projets. Kenzaburo Ito, initiateur du projet en novembre 2000, est rapidement rejoint en 2002 par Jeroen Latour, Victor Boctor et Julian Fitzell pour constituer le cœur de l'équipe de développement.
+
+MantisBT permet une répartition des tickets par projet. Il est également possible de qualifier les demandes suivant différents critères (type, catégorie, sévérité, priorité, privé/public). L'outil dispose notamment de fonctionnalités comme : un workflow d’enchaînement d'états paramétrables, un système de notification, un formulaire de recherche de tickets avec filtres, une page personnalisée pour chaque utilisateur listant les tickets dont il est l'auteur ainsi que les tickets qui lui sont assignés, une gestion de droits utilisateurs, une rubrique d'administration par projet permettant d'ajouter/supprimer des utilisateurs au projet, la création de sous projets, etc.
+
+MantisBT est distribué sous licence GNU General Public License 2 (GPL v2).
+
+MantisBT est développé en PHP et nécessite l'utilisation d'une base de données (MySQL, PostgreSQL, MS SQL ou DB2). Il est principalement testé pour les serveurs Web Apache et IIS.
+
+
+
+
+Maven
+-----
+
+:Version: 3.0.3
+:Site: http://maven.apache.org
+:Porteur: une fondation (Apache)
+
+Maven est un outil de gestion de projet technique. Son développement est assuré principalement par la fondation Apache.
+
+Maven permet de standardiser la forme d'un projet ainsi que son utilisation. Il permet également de gérer les dépendances d'un projet, d'effectuer une livraison complète et automatique, de déployer une application, et de faciliter le déploiement d'un projet au sein d'une plate-forme d'intégration continue. Maven offre également une intégration poussée de nombreux outils de reporting (Surefire, PMD, CheckStyle, NCSS, etc.). Maven est destiné aux projets Java en général et aux projets Java EE en particulier.
+
+Maven est distribué sous la licence Apache.
+
+Maven est écrit en Java.
+
+
+
+
+Subversion
+----------
+
+:Version: 1.6.17
+:Site: http://subversion.apache.org
+:Porteur: une fondation (Apache)
+
+Subversion (SVN) est un système de gestion de version centralisé. Issu de CVS, son développement est initialisé en 2000 par la société Collabnet. Il est devenu officiellement un projet de la fondation Apache en 2010.
+
+Standard et populaire, il a été choisi par de nombreuses communautés du logiciel libre. De nombreux outils et ressources sont disponibles pour l'exploiter au mieux. Apache Subversion a été écrit pour combler les manques de CVS dont seul l’implémentation avait été remis en cause (i.e pas son concept). Certaines fonctionnalités ont été ajoutées : les répertoires et les métadonnées sont versionnées, les numéros de révision sont globaux pour l’ensemble du dépôt, il est possible de renommer ou de déplacer des fichiers sans perte de l’historique, etc.
+
+Subversion est distribué sous licence Apache et BSD.
+
+Subversion est écrit en C.
+
+
+
+
+Git
+---
+
+:Version: 1.7.6.1
+:Site: http://git-scm.com
+:Porteur: une communauté
+
+Git est un système de gestion de versionnement décentralisé (DVCS). Il est notamment utilisé pour le noyau Linux ou pour PHP. C'est un logiciel libre créé par Linus Torvalds en 2005.
+
+Git permet notamment de "commiter" localement puis de pousser aux autres développeurs un ensemble de commits locaux. Il permet également d'utiliser un workflow de développement en soumettant par exemple l'envoi de code à l'approbation d'un des développeurs. La faculté de Git à créer des branches facilement ainsi que de permettre leur administration de façon simple en fait un outil de choix dans le cadre de développement de projets open source.
+
+Git est distribué sous la licence GPL v2.
+
+Git est écrit en C, Bourne Shell et Perl.
+
+
+
+
+Redmine
+-------
+
+:Version: 1.2.1
+:Site: www.redmine.org
+:Porteur: une communauté
+
+Redmine est un outil collaboratif permettant, à travers une interface web sécurisée, de gérer des projets. Il a été créé par Jean-Philippe Lang en 2006.
+
+Redmine offre les fonctionnalités suivantes :
+
+gestion multi-projets sécurisée
+
+gestion des utilisateurs, des profils et des droits, en fonction de chaque projet
+
+gestion de documents, classement par catégorie, propriétaire, titre, date, etc.
+
+gestion des demandes, de leur statut, de leur priorité et de leur historique, assignation de ces demandes aux acteurs pertinents du projet.
+
+visualisation de l’actualité du projet sous forme de diagramme de Gantt
+
+notification par mail ou par flux RSS
+
+etc.
+
+Redmine est distribué sous la licence GPL v2.
+
+Redmine a été développé en Ruby sur la base du framework Ruby on Rails.
+
+
+
+
+Tuleap
+------
+
+:Version: 4.0.21
+:Site: www.enalean.com/produits/tuleap
+:Porteur: un éditeur (Enalean)
+
+Tuleap est une Suite Logicielle open source qui fournit les outils nécessaires  aux entreprises pour un développement logiciel et une collaboration efficace. Egalement appelé Forge Logicielle ou ALM (application life cycle management), Tuleap a été développé par la société Enalean.
+
+Tuleap est un logiciel utilisé par plusieurs dizaines de milliers d'utilisateurs dans le monde pour leurs développements professionnels, dans de grandes entreprises telles que STMicroelectronics, ST-Ericsson ou encore Orange. Tuleap est une suite ALM complète : tracking de bugs, de tests, de risques, etc, gestion de versions, intégration continue, gestion documentaire, outils de collaboration, etc.
+
+Tuleap est distribué sous la licence GPL. L'éditeur de Tuleap, Enalean, a fondé son modèle économique sur le support et les services professionnels
+
+Tuleap est écrit majoritairement en PHP.
+
+
+
+
+Autres
+------
+
+Parmi les produits de l’univers Outils de développement, on peut compléter la liste avec les outils ci-dessous :
+
+
+
+Nom	URL / Site web
+
+CVS	http://cvs.nongnu.org
+
+Gforge	http://gforge.org/gf
+
+Trac	http://trac.edgewall.org
+
+Mercurial	http://mercurial.selenic.com
+

@@ -1,0 +1,73 @@
+Décisionnel : Suite
+===================
+
+Les suites décisionnelles regroupent généralement les deux catégories présentées précédemment ; c'est-à-dire l’ETL et le reporting.
+
+Ainsi, le périmètre des suites décisionnelles est très vaste : exécution des rapports, analyse OLAP avec Mondrian, aide à la création de requêtes, ETL,   module de gestion du workflow de publication, etc..
+
+L’offre décisionnelle open source est très riche avec 4 outils de grande qualité : JasperSoft, SpagoBI, Palo et Pentaho.
+
+
+
+
+SpagoBI
+-------
+
+:Version: 3.0
+:Site: www.spagoworld.org
+:Porteur: un éditeur (Engineering Ingegneria Informatica)
+
+SpagoBI est une suite décisionnelle développée par la société italienne Engineering Ingegneria Informatica. Ce projet a été initié en 2005. Au moment où nous écrivons ces lignes,  SpagoBI Server est disponible dans sa version 3.0.
+
+Le périmètre des fonctionnalités de SpagoBI comprend, à l’instar de Pentaho et Jasperserver : exécution des rapports JasperReports (réalisés avec iReport) et BIRT, l’analyse OLAP avec Mondrian, un composant d’aide à la création de requêtes (Query By Example, QbE), gestion des métadonnées, analyse géo-localisée, etc. L’ETL utilisé par défaut est Talend. Cette suite propose en plus un module de gestion du workflow de publication (états de brouillon non visibles dans le portail web).
+
+SpagoBI est disponible en licence LGPL, c’est-à-dire uniquement en open source, il n’existe pas de version commerciale.
+
+
+
+
+JasperSoft
+----------
+
+:Version: 4.1
+:Site: www.jaspersoft.com
+:Porteur: un éditeur (JasperSoft)
+
+JasperServer est la plateforme décisionnelle de JasperSoft, société qui développe également le générateur d’états JasperReports disponible depuis 2001. Cette plateforme propose des fonctionnalités de reporting et d’analyse.
+
+En version community, JasperServer propose la conception et génération de rapports (avec IReport). Dans sa version commerciale, il propose la création de domaines métier, couches sémantiques et techniques au dessus des bases SQL relationnelles, permettant à la fois de définir un lexique métier, de s’abstraire de la technique et du SQL, ainsi que d’ajouter simplement une sécurité d’accès aux données. Une autre fonctionnalité majeure consiste en la création de rapport Ad Hoc, c’est-à-dire que l’utilisateur final peut créer ses propres rapports via une interface web conviviale. De plus, à l’instar des autres plateformes BI, Jasper propose la création de cube OLAP (brique Mondrian) et intègre Talend en tant qu’ETL.
+
+JasperServer existe en version communautaire (GPL) et commerciale (licence propriétaire).
+
+
+
+
+Pentaho
+-------
+
+:Version: 4
+:Site: www.pentaho.com
+:Porteur: un éditeur (Pentaho)
+
+Pentaho est une suite logicielle qui permet la distribution de fonctionnalités et documents décisionnels à un grand nombre de personnes par l'intermédiaire d'une interface Web. Le projet a été initié en 2007.
+
+A l’instar de JasperServer, Pentaho regroupe toutes les fonctionnalités d’une suite BI : l’ETL (Pentaho Data Integration), l’analyse OLAP (Mondrian), le reporting Ad Hoc, la couche métadonnée, et le reporting classique (Pentaho Report Designer). Les différences sont les suivantes : le reporting Ad Hoc est disponible dès la version communautaire mais est beaucoup moins évolué que celui du JasperServer commercial, le reporting n’inclut pas encore les tableaux croisés dynamiques et la gestion de la sécurité des données est plus complexe à mettre en place. Globalement, la suite Pentaho est plus complète que la suite Jasper en version communautaire, mais la tendance s’inverse en version commerciale, JasperServer proposant des fonctionnalités très intéressantes (Domaines, Ad Hoc évolué,…)
+
+Pentaho existe en version communautaire (GPL) et commerciale (licence propriétaire).
+
+
+
+
+Palo
+----
+
+:Version: 3.2
+:Site: www.jedox.com/fr/produits/Palo-Suite-Apercu.html
+:Porteur: un éditeur (Palo)
+
+Jedox, société allemande fondée en 2002, est l'éditeur de la suite Palo, ainsi que de  différents composants connexes permettant d’en faire une suite décisionnelle complète.
+
+Cette suite se compose des éléments suivants: le serveur OLAP qui permet de gérer les bases de données multidimensionnelles (organisées sous forme de cubes et de dimensions), un add-on pour Microsoft Excel et OpenOffice.org Calc (cet add-on supporte la lecture et l'écriture dans les cubes), un tableur web "Excel-like", reprenant toutes les fonctions d'Excel (formules, graphiques, macro...), permettant la saisie et la consultation en ligne des données du serveur OLAP, un ETL qui permet d'interfacer des bases opérationnelles pour alimenter les bases de données Palo et un observateur d'événements (Supervision Server) qui permet également de déclencher des événements en fonction de certaines actions.
+
+Palo BI Suite est disponible en version communautaire (licence GPL) et commerciale. La version commerciale comprend le gestionnaire de rapports web, le Supervision Server, ainsi qu'un convertisseur de fichiers Excel en classeurs web, en plus des fonctionnalités de la version communautaire.
+
