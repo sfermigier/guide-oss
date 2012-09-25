@@ -41,6 +41,8 @@ ERP5 fait partie de cette nouvelle classe d’ERP dont les fondations conceptuel
 
 Ainsi, son périmètre est relativement large. Citons notamment : finance et comptabilité, gestion de la relation client (CRM), gestion des achats, des ventes et de l'e-commerce, gestion de la chaine d'approvisionnement (SCM), gestion de la production (PDM), gestion des stocks, de la logistique et des ressources humaines. Ainsi ERP5 est à la fois un ERP, mais aussi un CRM, un MRP, un SCM et un PDM.
 
+ERP5 est développé par la société française, membre de Systematic, Nexedi.
+
 ERP5 est écrit en Python et est basé à la fois sur la base objets Zope et sur MySQL.
 
 

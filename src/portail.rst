@@ -38,12 +38,11 @@ Silverpeas
 :Version: 7.4
 :Site: www.silverpeas.com
 :Porteur: un éditeur (Groupe Oevo)
+:Licence: Affero GPL v3
 
 Silverpeas est un portail collaboratif et social. Développé entre 2001 et 2003, la solution a connu une première vie dans le monde des logiciels propriétaires avant de récemment devenir open source.
 
 Silverpeas se distingue par un apport fonctionnel plutôt riche et une ergonomie d'ensemble assez confortable. Même si la visibilité du produit reste essentiellement nationale pour l'instant, Silverpeas est une alternative très intéressante pour construire rapidement un portail collaboratif simple. SilverPeas n'est pas qu’un portail, ni un CMS, ni un outil de travail collaboratif. En fait, il est à la croisée de tous ces mondes. C'est un portail, car il est capable d'agréger des ressources hétérogènes. C’est un CMS, car il permet de construire simplement des mini-sites avec une interface WYSIWYG simple. C’est un outil collaboratif, car il fournit des outils de gestion de projet avec tâches et visuel Gantt intégré, un agenda partagé, un forum, un blog ou encore un annuaire commun.
-
-Silverpeas est distribué sous licence Affero GPL v3.
 
 Silverpeas est écrit en Java, conforme aux normes JSR 168 et 286.
 
@@ -56,12 +55,11 @@ Liferay
 :Version: 6.0
 :Site: www.liferay.com
 :Porteur: un éditeur (Liferay, Inc)
+:Licence: LGPL et licence commerciale
 
 Liferay est une solution de portail d'entreprise open source d’un très bon niveau qui permet, entre autres, l'agrégation de contenus et d'informations, le partage des ressources et la collaboration. Liferay a été créé en 2000 à l’origine pour une église américaine.
 
 L’une des forces de Liferay est la facilité de personnalisation par l'utilisateur final. Liferay offre également plus de 60 portlets dont une palette complète d’outils collaboratifs et sociaux (blog, forum, wiki, centre de tâches, notifications, réservation de ressources, …), une gestion intuitive des communautés de pratiques et de l'organisation hiérarchique de l'entité qui l'emploie. Liferay est en outre d'une grande flexibilité pour la gestion des droits ou l’adaptation de l’apparence graphique des pages, et il propose une solution puissante de staging. Liferay est une excellente solution pour un portail d'entreprise, permettant l'intégration standardisée de tous les applicatifs existants.
-
-Liferay est distribuée via un modèle de licence double. La version open source (Liferay Portal Community Edition) est disponible sous la licence LGPL.
 
 Liferay est écrit en Java et est conforme aux normes JSR 168, JSR 286 et JSR 170.
 

@@ -21,6 +21,7 @@
 .. include:: src/deploiement-et-sauvegarde.rst
 .. include:: src/haute-disponibilite.rst
 .. include:: src/securite.rst
+.. include:: src/firewalls.rst
 .. include:: src/vpn.rst
 .. include:: src/supervision-et-metrologie.rst
 .. include:: src/systeme-dexploitation-linux-bsd.rst

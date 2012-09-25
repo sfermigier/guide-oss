@@ -38,15 +38,19 @@ Tsung
 :Version: 1.4.0
 :Site: http://tsung.erlang-projects.org
 :Porteur: une communauté
+:Licence: GPL
 
 Tsung est un outil d'injection de trafic, utilisé pour les tests de charge de différents types de serveurs.
 
 Il supporte HTTP et quelques dérivés (SOAP, WebDAV), les bases MySQL et PostgreSQL, ainsi que XMPP. Réalisé en ERLANG, un langage spécialisé dans les applications hautes performances, il ne souffre pas des limites traditionnelles de ce type d'outils, et peut donc simuler un trafic très important. Il dispose d'un générateur automatique de statistiques.
 
-Initialement crée par la société française Idealx, il est désormais développé par une communauté indépendante. Il est disponible sous licence GPL.
+Initialement crée par la société française Idealx, il est désormais développé par une communauté indépendante.
 
 
+FunkLoad
+--------
 
+TODO
 
 
 
@@ -62,6 +66,3 @@ Nom	URL / Site web
 CLIF	http://clif.ow2.org
 
 OpenSTA	http://opensta.org
-
-FunkLoad	http://funkload.nuxeo.org
-

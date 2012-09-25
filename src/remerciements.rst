@@ -3,9 +3,7 @@ Remerciements
 
 Un livre comme celui-ci ne peut être écrit par une seule personne tant il mobilise de compétences et de connaissances sur des outils aussi variés que les VPN et l’E-Learning. Un grand remerciement donc à toutes les personnes y ayant travaillées.
 
-
-
-Benoît JACQUEMONT
+Benoît JACQUEMONT
 
 Maxime BESSON
 
@@ -68,12 +66,6 @@ Marc MAURICE
 Sylvain BANNIER
 
 …
-
-.
-
-
-
-
 
 Et à tous les collaborateurs de Smile, de plus en plus nombreux, pour leur curiosité et leur engagement, jour après jour, dans l’open source.
 
