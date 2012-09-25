@@ -1,0 +1,8 @@
+TODO
+====
+
+- Projets de CS:
+  - Prelude
+  - Vigilo
+
+-

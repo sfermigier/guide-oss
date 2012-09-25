@@ -18,11 +18,9 @@ Talend
 :Version: 4.2.3
 :Site: www.talend.com
 :Porteur: un éditeur (Talend)
+:Licence: GPL et propriétaire
 
 Talend Open Studio est un ETL open source apparu en 2005, développé par la société Talend, basée en France. C’est un ETL de type « générateur de code », c’est-à-dire qu’il permet de créer graphiquement des processus de manipulation et de transformation de données puis de générer l’exécutable correspondant sous forme de programme Java ou Perl. Une liste très exhaustive de composants permet de se connecter à tout type de base de données ou d’applications (SAP, SugarCRM,…). En 2010, une brique MDM a vu le jour.
-
-Talend Open Studio, la brique de base de Talend, ne comprenant que l’ETL, est sous licence GPL. Les autres versions sont sous licences commerciales, avec une souscription par an. Deux versions sont disponibles : l’ETL  « TIS (Talend Integration Suite) » et le MDM « Talend MDM ». Le périmètre de TIS comprend la définition de processus (jobs), de modèles métiers, de déploiement des processus, et d’administration des déploiements. La version MDM comprend, en plus, la gestion de données référentielles ainsi qu’un module de qualité de données.
-
 
 
 
@@ -32,14 +30,10 @@ Pentaho Data Integration
 :Version: 4.1.0
 :Site: http://kettle.pentaho.com
 :Porteur: un éditeur (Pentaho)
+:Licence: GPL
 
 Pentaho Data Integration (PDI) est un ETL open source qui permet de concevoir et d’exécuter des opérations de manipulation et de transformation de données. Au moment où nous écrivons ces lignes,  Pentaho Data Integration est disponible dans sa version 4.1.
 
-Grâce à un modèle graphique à base d’étapes, il est possible de créer sans programmation des processus composés d’imports et d’exports de données, et de différentes opérations de transformation telles que des conversions, des jointures, l’application de filtres, ou même l’exécution de fonctions javascript. Un planificateur permet aussi de planifier l’exécution des jobs. Un module commercial « Agile BI » permet de visualiser graphiquement les résultats de transformations de données dès les premières étapes de développement.
+Grâce à un modèle graphique à base d’étapes, il est possible de créer sans programmation des processus composés d’imports et d’exports de données, et de différentes opérations de transformation telles que des conversions, des jointures, l’application de filtres, ou même l’exécution de fonctions javascript. Un planificateur permet aussi de planifier l’exécution des jobs.
 
-PDI est disponible en version GPL, le module Agile BI étant sous licence commerciale.
-
-
-
-
-
+Un module complémentaire propriétaire commercial, « Agile BI », permet de visualiser graphiquement les résultats de transformations de données dès les premières étapes de développement.

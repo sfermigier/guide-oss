@@ -1,3 +1,12 @@
+:Title: Guide des solutions Open Source
+:Authors: Smile, Stefane Fermigier
+:Date: 25 septembre 2012
+
+
+============
+Applications
+============
+
 .. include:: src/applications/dimension-applications.rst
 .. include:: src/applications/crm.rst
 .. include:: src/applications/decisionnel-etl.rst
@@ -15,6 +24,11 @@
 .. include:: src/applications/suivi-daudience.rst
 .. include:: src/applications/autres.rst
 
+
+==============
+Infrastructure
+==============
+
 .. include:: src/infrastructure/dimension-infrastructure.rst
 .. include:: src/infrastructure/controle-de-postes-a-distance.rst
 .. include:: src/infrastructure/gestion-de-parc-et-inventaires.rst
@@ -30,6 +44,10 @@
 .. include:: src/infrastructure/messagerie-emailing-groupware.rst
 .. include:: src/infrastructure/accelerateur-http.rst
 #.. include:: src/autres.rst
+
+=======================================
+Développement et couches intermédiaires
+=======================================
 
 .. include:: src/developpement-middleware/dimension-developpement-et-couches-intermediaires.rst
 .. include:: src/developpement-middleware/annuaire-dentreprise.rst
@@ -47,6 +65,10 @@
 .. include:: src/developpement-middleware/serveurs-http-et-serveurs-dapplications.rst
 .. include:: src/developpement-middleware/mom-eai.rst
 #.. include:: src/autres.rst
+
+==========
+Pour finir
+==========
 
 .. include:: src/conclusion.rst
 .. include:: src/remerciements.rst

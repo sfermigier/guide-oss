@@ -16,6 +16,7 @@ Magento
 :Version: 1.6 (version Community) et 1.11 (version Enterprise)
 :Site: www.magentocommerce.com
 :Porteur: un éditeur (Magento Inc.)
+:Licence: OSL et propriétaire
 
 Dès les premières versions bêta parues en 2007, cet outil - porté par l'éditeur américain Magento Inc. (anciennement Varien) - a généré un buzz phénoménal, au niveau mondial, permettant de fédérer en un temps record une communauté extrêmement active.
 

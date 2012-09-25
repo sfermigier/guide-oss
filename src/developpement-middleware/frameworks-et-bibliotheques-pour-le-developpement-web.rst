@@ -119,8 +119,8 @@ Prototype est écrit en JavaScript et est compatible avec la vaste majorité des
 
 
 
-Play !
-------
+Play!
+-----
 
 :Version: 1.2.3
 :Site: www.playframework.org
@@ -131,34 +131,30 @@ Play! est un framework Java orienté Web créé par Guillaume Bort en 2007.
 
 Le principe de Play! est de réduire la durée du cycle de développement Java, ainsi que limiter la complexité applicative souvent associée aux projets Java. On y trouvera donc la transposition en Java des concepts principaux de frameworks tel que RoR, Django ou encore Symfony : MVC, Convention over Configuration, Don't Repeat Yourself, .... Play! dispose également de son propre gestionnaire technique de projets, permettant la création des interfaces CRUD, et de son propre serveur d'application (même s'il peut se déployer facilement dans un Tomcat), ce qui lui permet par exemple le rechargement transparent et à chaud du code modifié.
 
-Play! a été développé par la société française Zenexity qui réalise développement et le support sur le produit.
+Play! a été développé par la société française Zenexity. Le support en est à présent assuré par la société américaine Typesafe.
 
-Play! est écrit en Java, les templates en Groovy et le gestionnaire de projets en Python.
-
-
+Play! est écrit en Java en en Scala, les templates en Groovy et le gestionnaire de projets en Python.
 
 
 Django
 ------
 
-:Version: 1.3.1
+:Version: 1.4.1
 :Site: https://www.djangoproject.com
 :Porteur: une fondation (Django Software Foundation)
 :Licence: BSD
 
-Django est le framework Web de référence en Python. Il a été créé en 2005 par la société Lawrence Journal-World.
+Django un framework Web en Python qui a été créé en 2005 par le groupe de presse Lawrence Journal-World.
 
-Django est basé sur le paradigme MVC et sur le principe du Don't Repeat Yourself, en fournissant le maximum d'éléments pré-existants, tels qu'une couche d'abstraction à la base, un système de cache, une infrastructure de manipulation des formulaires et de validation des entrées, un moteur de templating, une interface au framework de tests unitaires Python (PyUnit), des outils de créations d'interface CRUD, des systèmes de préventions des attaques Web classiques (XSS, CSRF, injection SQL, etc...). A noter que Django est disponible sur la plateforme Google App Engine. Parmi les sites notables de l'Internet utilisant Django, on peut citer Disqus ou encore Spotify.
+Django est basé sur le paradigme MVC et sur le principe du *Don't Repeat Yourself*, en fournissant le maximum d'éléments pré-existants, tels qu'une couche d'abstraction à la base, un système de cache, une infrastructure de manipulation des formulaires et de validation des entrées, un moteur de templating, une interface au framework de tests unitaires Python (PyUnit), des outils de créations d'interface CRUD, des systèmes de préventions des attaques Web classiques (XSS, CSRF, injection SQL, etc...). A noter que Django est disponible sur la plateforme Google App Engine. Parmi les sites notables de l'Internet utilisant Django, on peut citer Disqus ou encore Spotify.
 
 Django est développé en Python.
-
-
 
 
 Ruby On Rails
 -------------
 
-:Version: 3.1
+:Version: 3.2.8
 :Site: http://rubyonrails.org
 :Porteur: une communauté
 :Licence: MIT
