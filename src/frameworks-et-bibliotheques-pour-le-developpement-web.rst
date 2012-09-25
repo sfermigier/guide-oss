@@ -16,6 +16,7 @@ Symfony
 :Version: 2.0.0
 :Site: www.symfony-project.org
 :Porteur: un éditeur (Sensio Labs)
+:Licence: MIT
 
 Symfony est un framework Web MVC écrit en PHP. Créé par Fabien Potencier, la première version est sortie en 2005, et la version 2.0, fortement attendue est arrivée en août 2011.
 
@@ -23,7 +24,7 @@ Symfony est un framework dont les principes de fonctionnement sont similaires à
 
 Symfony fournit également un ensemble d'outils en ligne de commande permettant de gérer le cache, de générer automatiquement une interface d'administration (admin generator), de générer la structure de la base et les écrans d'éditions pour les objets déclarés (scaffolding), ...
 
-Symfony est distribué sous la licence MIT et développé par Sensio Labs.
+Symfony est développé par la société française Sensio Labs.
 
 
 
@@ -124,12 +125,13 @@ Play !
 :Version: 1.2.3
 :Site: www.playframework.org
 :Porteur: un éditeur (Zenexity)
+:Licence: Apache
 
 Play! est un framework Java orienté Web créé par Guillaume Bort en 2007.
 
 Le principe de Play! est de réduire la durée du cycle de développement Java, ainsi que limiter la complexité applicative souvent associée aux projets Java. On y trouvera donc la transposition en Java des concepts principaux de frameworks tel que RoR, Django ou encore Symfony : MVC, Convention over Configuration, Don't Repeat Yourself, .... Play! dispose également de son propre gestionnaire technique de projets, permettant la création des interfaces CRUD, et de son propre serveur d'application (même s'il peut se déployer facilement dans un Tomcat), ce qui lui permet par exemple le rechargement transparent et à chaud du code modifié.
 
-Play! est distribué sous licence Apache 2. La société Zenexity contribue au projet et réalise développement et le support sur le produit.
+Play! a été développé par la société française Zenexity qui réalise développement et le support sur le produit.
 
 Play! est écrit en Java, les templates en Groovy et le gestionnaire de projets en Python.
 
@@ -142,12 +144,11 @@ Django
 :Version: 1.3.1
 :Site: https://www.djangoproject.com
 :Porteur: une fondation (Django Software Foundation)
+:Licence: BSD
 
 Django est le framework Web de référence en Python. Il a été créé en 2005 par la société Lawrence Journal-World.
 
 Django est basé sur le paradigme MVC et sur le principe du Don't Repeat Yourself, en fournissant le maximum d'éléments pré-existants, tels qu'une couche d'abstraction à la base, un système de cache, une infrastructure de manipulation des formulaires et de validation des entrées, un moteur de templating, une interface au framework de tests unitaires Python (PyUnit), des outils de créations d'interface CRUD, des systèmes de préventions des attaques Web classiques (XSS, CSRF, injection SQL, etc...). A noter que Django est disponible sur la plateforme Google App Engine. Parmi les sites notables de l'Internet utilisant Django, on peut citer Disqus ou encore Spotify.
-
-Django est distribué sous licence BSD.
 
 Django est développé en Python.
 
@@ -160,12 +161,11 @@ Ruby On Rails
 :Version: 3.1
 :Site: http://rubyonrails.org
 :Porteur: une communauté
+:Licence: MIT
 
 Ruby On Rails est un framework Web. La première version, écrite par David Heinemeier Hansson, est sortie en 2004.
 
 Le framework Ruby On Rails se caractérise par le concept du Don't Repeat Yourself, en fournissant un certain nombre de générateurs de codes et d'interfaces (scaffolding). Ceux-ci évitent au développeur de refaire les mêmes opérations et de recoder des fonctionnalités standards toujours similaires. Dans le même état d'esprit, les couches basses classiques (sécurité, accès aux bases de données, gestion du HTTP, appels Ajax) sont intégrées au framework et permettent au développeur de se concentrer sur la logique métier plutôt que sur les aspects techniques. Parmi les success story de RoR, on peut citer Twitter, même si certaines parties (non liée au front office) ont été ré-écrites en Scala, suite à des problèmes de tenue en charge de l’interpréteur Ruby.
-
-Ruby On Rails est distribué sous licence MIT.
 
 Ruby On Rails est développé en Ruby.
 

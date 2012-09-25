@@ -52,12 +52,11 @@ Oxid
 :Version: 4.5
 :Site: www.oxid-esales.com
 :Porteur: un éditeur (Oxid)
+:Licence: GPL v3
 
 Sortie en novembre 2008, la solution allemande Oxid a très rapidement conquis le marché germanophone grâce à une solution très riche fonctionnellement. Devenue en très peu de temps la première solution e-commerce de l'autre côté du Rhin, Oxid est arrivée en France mi-2011 avec une version complètement adaptée aux spécificités du marché français.
 
 Sans doute la solution la plus riche sur le plan fonctionnel après Magento. Oxid est un outil pensé pour servir de référentiel multi-canal : web, mobile, bornes interactives, etc. Tout est conçu pour permettre aux utilisateurs de diffuser leur catalogue sur plusieurs périphériques. Si l'ergonomie du back-office est parfois perfectible, Oxid reste un outil à destination des sites marchands les plus ambitieux.
-
-Oxid est distribuée sous licence GPL v3.
 
 Oxid est développé intégralement en PHP/MySQL. Il intègre le framework Ajax jQuery, et dispose d'une API et d'une couverture WebService complète, permettant d'adapter l'outil à de nouveaux besoins et contextes spécifiques.
 
@@ -70,12 +69,13 @@ RBS Change
 :Version: 3.0.4
 :Site: www.rbschange.fr
 :Porteur: un éditeur (Ready Business System)
+:Licence: GPL v3
 
 Le modèle open source attire bien des éditeurs de logiciels. RBS fait partie de ceux qui se sont tournés vers un tel modèle en livrant en février 2010 ses applications Change CMS et e-commerce sous licence open source.
 
 Fruit de 5 ans de développement et plus d’une centaine de projets, cette solution est très prometteuse tant d’un point de vue technique que fonctionnel. Notons quelques aspects différenciants de la solution : CMS et e-commerce totalement intégrés et couplés, un backoffice de gestion utilisant la technologie Ajax, une version entreprise pour des fonctionnalités avancées (prévisualisation du site à une date donnée, gestion automatique des promotions…), etc.
 
-RBS Change est publiée sous la licence Affero GPL v3. En contrepartie de ce récent virage vers l’open source, RBS Change compte peu d’acteurs dans sa communauté, ne bénéficiant pas encore de cet atout essentiel à la pérennité d’une solution libre.
+Du fait de son récent virage vers l’open source, RBS Change compte peu d’acteurs dans sa communauté, ne bénéficiant pas encore de cet atout essentiel à la pérennité d’une solution libre.
 
 RBS Change est écrit en PHP et s’appuie sur un framework PHP5 développé par l’éditeur offrant un environnement de développement avancé.
 
@@ -88,12 +88,11 @@ Drupal Commerce
 :Version: 1.0
 :Site: www.drupalcommerce.org
 :Porteur: un éditeur (Commerce Guys)
+:Licence: GPL v3
 
 Sortie en août 2011, Drupal Commerce est la branche e-commerce du CMS mondialement connu, Drupal. Successeur de l'extension Ubercart, Drupal Commerce bénéficie du support de deux sociétés : Commerce Guys pour la gestion de la roadmap et l'animation de la communauté et Acquia (société du fondateur de Drupal : Dries Buytaert) pour les offres de support.
 
 Si à l'heure actuelle le périmètre fonctionnel de Drupal Commerce reste un peu moins riche que ses aînés, c'est la seule solution avec RBSChange à offrir de vraies fonctionnalités de gestion de contenus en s'appuyant sur l'efficacité reconnue de Drupal. A l'image du CMS, Drupal Commerce est par ailleurs une solution extrêmement modulaire qui bénéficie d'une communauté trés active.
-
-Drupal Commerce est distribuée sous licence GPL v3.
 
 Drupal Commerce est développé intégralement en PHP/MySQL. Il est fourni sous forme de module pour Drupal 7.
 

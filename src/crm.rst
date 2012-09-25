@@ -1,9 +1,9 @@
 CRM
 ===
 
-Les CRM (« Customer Relationship Management »), également appelé GRC (« Gestion de la Relation Client ») sont des outils destinés à capter, traiter et analyser les informations sur des clients ou prospects.
+Les outils de CRM (« Customer Relationship Management »), appelée en français GRC (« Gestion de la Relation Client »), sont des outils destinés à capter, traiter et analyser les informations sur des clients ou prospects.
 
-Le périmètre de ces outils est donc potentiellement très (très) large puisqu’il traite de toutes les actions permettant de fidéliser des clients et prospects en leur offrant le meilleur service possible.
+Le périmètre de ces outils est donc potentiellement très large puisqu’il traite de toutes les actions permettant de fidéliser des clients et prospects en leur offrant le meilleur service possible.
 
 Parmi les fonctionnalités que l’on trouve dans les CRM, on peut citer : gestion multi-entités, service Client, gestion de cas et groupware, cycle des ventes, campagnes de marketing et de diffusion massive, gestion des contacts et des comptes, etc.
 
@@ -36,12 +36,13 @@ SugarCRM
 :Version: 6.3.0
 :Site: www.sugarcrm.com
 :Porteur: un éditeur (SugarCRM Inc)
+:Licence: Affero GNU Public License Version 3
 
 SugarCRM est une suite open source de management de la relation Client. Elle a été distribuée pour la première fois en 2004 et n’a cessée d’être développée et maintenue par SugarCRM Inc depuis. Ces derniers sont basés à Cupertino en Californie.
 
 SugarCRM a évolué pour couvrir toutes les caractéristiques principales de la gestion des clients et du cycle des ventes. La liste des fonctionnalités est impressionnante, des campagnes de marketing et de diffusion massive, aux leads, en passant par la gestion des contacts et des comptes, etc. Les dernières versions (notamment depuis la version 6) ont mis l'accent sur le CRM mobile (applications natives) et l'intégration d’une dimension Social CRM.
 
-SugarCRM a trois types d'offres, une édition Community (libre et gratuite), une édition Enterprise (avec un ensemble de fonctionnalités supplémentaires) et une édition Saas (à la demande). La version Community (publiée sous Affero GNU Public License Version 3) a un périmètre bien inférieur aux autres éditions.
+SugarCRM a trois types d'offres, une édition Community (libre et gratuite), une édition Enterprise (avec un ensemble de fonctionnalités supplémentaires) et une édition Saas (à la demande). La version Community a un périmètre bien inférieur aux autres éditions.
 
 Le produit est basé sur une plateforme LAMP, avec quelques variantes possibles concernant les bases de données et serveurs Web (tant que PHP peut être exécuté).
 

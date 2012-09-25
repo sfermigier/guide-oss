@@ -1,3 +1,20 @@
+.. include:: src/dimension-applications.rst
+.. include:: src/crm.rst
+.. include:: src/decisionnel-etl.rst
+.. include:: src/decisionnel-reporting.rst
+.. include:: src/decisionnel-suite.rst
+.. include:: src/e-commerce.rst
+.. include:: src/erp-pgi.rst
+.. include:: src/cms.rst
+.. include:: src/ged-ecm.rst
+.. include:: src/bibliotheque-documentation.rst
+.. include:: src/portail.rst
+.. include:: src/reseaux-sociaux-dentreprise-rse.rst
+.. include:: src/blog-wiki-et-forum.rst
+.. include:: src/e-learning.rst
+.. include:: src/suivi-daudience.rst
+.. include:: src/autres.rst
+
 .. include:: src/dimension-infrastructure.rst
 .. include:: src/controle-de-postes-a-distance.rst
 .. include:: src/gestion-de-parc-et-inventaires.rst
@@ -12,6 +29,7 @@
 .. include:: src/messagerie-emailing-groupware.rst
 .. include:: src/accelerateur-http.rst
 .. include:: src/autres.rst
+
 .. include:: src/dimension-developpement-et-couches-intermediaires.rst
 .. include:: src/annuaire-dentreprise.rst
 .. include:: src/bases-de-donnees.rst
@@ -28,20 +46,6 @@
 .. include:: src/serveurs-http-et-serveurs-dapplications.rst
 .. include:: src/mom-eai.rst
 .. include:: src/autres.rst
-.. include:: src/dimension-applications.rst
-.. include:: src/crm.rst
-.. include:: src/decisionnel-etl.rst
-.. include:: src/decisionnel-suite.rst
-.. include:: src/e-commerce.rst
-.. include:: src/erp-pgi.rst
-.. include:: src/cms.rst
-.. include:: src/ged-ecm.rst
-.. include:: src/bibliotheque-documentation.rst
-.. include:: src/portail.rst
-.. include:: src/reseaux-sociaux-dentreprise-rse.rst
-.. include:: src/blog-wiki-et-forum.rst
-.. include:: src/e-learning.rst
-.. include:: src/suivi-daudience.rst
-.. include:: src/autres.rst
+
 .. include:: src/conclusion.rst
 .. include:: src/remerciements.rst

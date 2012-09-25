@@ -3,7 +3,7 @@ CMS
 
 La gestion de contenus recouvre aujourd’hui une large palette de besoins : sites d’informations ; sites Corporate, sites de services, extranets sécurisés, intranets participatifs, espaces communautaire...
 
-Pour couvrir ce périmètre, il existe d’excellentes solutions open source au périmètre très large comme : eZ Publish, Drupal, TYPO3, Jahia, Infoglue, Spip, HippoCMS, Joomla, Plone… lesquelles sont devenues des standards dans l’univers de la gestion de contenus tant elles dominent par leur capacité, leur modularité et leur périmètre fonctionnel et technique.
+Pour couvrir ce périmètre, il existe d’excellentes solutions open source au périmètre très large comme : eZ Publish, Drupal, TYPO3, Jahia, Infoglue, SPIP, HippoCMS, Joomla, Plone… lesquelles sont devenues des standards dans l’univers de la gestion de contenus tant elles dominent par leur capacité, leur modularité et leur périmètre fonctionnel et technique.
 
 Elles sont devenues, au fil des années, plus que des alternatives sérieuses dans le domaine de l’Enterprise Content Management. Elles dominent désormais le marché.
 
@@ -82,6 +82,7 @@ Jahia est bâtie sur des technologies JEE : persistance via Hibernate, support d
 
 
 Joomla
+------
 
 :Version: 1.7
 :Site: www.joomla.org
@@ -101,17 +102,17 @@ Joomla est écrit en PHP et utilise une base de données MySQL.
 SPIP
 ----
 
-:Version: 2.1.10
-:Site: www.spip.net
+:Version: 3.0.4
+:Site: www.SPIP.net
 :Porteur: une communauté
 
-A l’origine, en 2001, Spip était principalement utilisé par des internautes pour gérer leur site web personnel, ou pour des sites d'associations, mais Spip a grandi et est maintenant utilisé par des organismes privés ou publics, pour gérer leur site web professionnel.
+A l’origine, en 2001, SPIP était principalement utilisé par des internautes pour gérer leur site web personnel, ou pour des sites d'associations, mais SPIP a grandi et est maintenant utilisé par des organismes privés ou publics, pour gérer leur site web professionnel.
 
-Spip fait partie des rares CMS à pouvoir prétendre à plusieurs milliers de références à travers le monde. Cette réussite s’explique par la simplicité du produit : simplicité d’utilisation, mais aussi simplicité de déploiement et d’adaptation. En contrepartie de cette simplicité, Spip présente quelques limitations sur des fonctionnalités clés de gestion de contenus, ce qui le limite clairement au monde des outils de gestion de contenus orienté ‘web’, et non pas ‘entreprise’.
+SPIP fait partie des rares CMS à pouvoir prétendre à plusieurs milliers de références à travers le monde. Cette réussite s’explique par la simplicité du produit : simplicité d’utilisation, mais aussi simplicité de déploiement et d’adaptation. En contrepartie de cette simplicité, SPIP présente quelques limitations sur des fonctionnalités clés de gestion de contenus, ce qui le limite clairement au monde des outils de gestion de contenus orienté ‘web’, et non pas ‘entreprise’.
 
-Spip est un projet open source français (licence GPL), et sa communauté peut être qualifiée d’active, avec plusieurs versions par an et des centaines – voire des milliers – de membres.
+SPIP est un projet open source français (licence GPL), et sa communauté peut être qualifiée d’active, avec plusieurs versions par an et des centaines – voire des milliers – de membres.
 
-SPIP est un logiciel écrit en PHP qui s'appuie sur la base de données MySQL. Près de 2 ans après la sortie de la version 1.9.2, Spip a sorti sa version 2.0. Cette nouvelle branche offre de nombreuses nouveautés : installation possible sur PostGreSQL et SQLite, interface privée simplifiée basée sur l’Ajax, page de téléchargement et d’installation de plugins, gestion des conflits, API et nouvelles fonctions pour le développement de templates.
+SPIP est un logiciel écrit en PHP qui s'appuie sur les bases de données MySQL, PostgreSQL et SQLite. Il propose un interface privée simplifiée basée sur l’Ajax, une page de téléchargement et d’installation de plugins, la gestion des conflits, une API et de nouvelles fonctions pour le développement de templates.
 
 
 
@@ -122,12 +123,11 @@ TYPO3
 :Version: 4.5 LTS
 :Site: www.typo3.org
 :Porteur: une communauté
+:Licence: GPL
 
 TYPO3 est le fruit de plusieurs années de travail d’un gourou danois du nom de Kasper Skårhøj. Le produit est sorti fin 2000, et depuis une communauté très active s’est développée, particulièrement dans les pays germaniques.
 
 En termes de fonctionnalités prêtes à l’emploi, TYPO3 est l’un des outils les plus riches que nous ayons trouvés à ce jour. Il offre à peu près tout ce que l’on peut souhaiter, et cela avec un bon niveau de finition. Gestion des droits et des contributions, cache, habilitations, gabarits, etc., tout y est, avec peu de limitations. Parmi les fonctionnalités offertes par TYPO3, on peut citer la manipulation d’images, qui permet de redimensionner des images, de créer des vignettes et également de générer dynamiquement des titres en tant qu’images. L’une des grandes forces de TYPO3 réside dans son extensibilité par modules. Un module peut ajouter un ensemble de fonctionnalités à TYPO3, mais aussi modifier une fonctionnalité déjà intégrée, sans modifier le code de TYPO3, et donc, le laissant compatible avec les futures versions de TYPO3.
-
-TYPO3 est une solution 100% communautaire publiée sous licence GPL.
 
 TYPO3 est écrit en PHP et utilise une base de données MySQL.
 

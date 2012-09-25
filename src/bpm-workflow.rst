@@ -52,10 +52,11 @@ Activiti
 :Version: 5.7
 :Site: www.activiti.org
 :Porteur: un éditeur (Alfresco)
+:Licence: Apache
 
 Activiti a été publié par l'éditeur d'ECM Alfresco, qui souhaitait développer une alternative à JBPM pour ses propres besoins. En choisissant d’en faire un composant indépendant, Alfresco parie sur le dynamisme de l'open source (le produit a été reversé à la communauté Spring) et souhaite en faire l'outil de référence du BPM open source. Activiti est ainsi techniquement à l'état de l'Art et bénéficie d'un très bon dynamisme grâce à la grande popularité de son porteur.
 
 Activiti est aujourd'hui un moteur BPM léger et robuste. Sa jeunesse le destine plutôt à une fonction de brique BPM intégrée à des projets plus complexes, comme il l’est à Alfresco par exemple. Activiti présente néanmoins des interfaces agréables pour les utilisateurs finaux (dessin de processus) qui permettront aux équipes fonctionnelles et techniques de travailler conjointement sur la modélisation des processus. Sa mise en œuvre à proprement parler nécessitera toutefois impérativement de réelles compétences techniques.
 
-Activiti est publié sous licence Apache et est développé en Java.
+Activiti est développé en Java.
 
