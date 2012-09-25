@@ -7,10 +7,6 @@ Les bases de données, comme MySQL ou PostgreSQL, sont de type relationnel utili
 
 Depuis 2009, une nouvelle mouvance – le NoSQL – est apparue. Elle propose une alternative au SQL et au modèle relationnel afin de permettre un haut niveau de scalabilité (extensibilité).
 
-Désormais, les plus grands SGBD sont open source comme MySQL et PostgreSQL.
-
-
-
 
 MySQL
 -----
