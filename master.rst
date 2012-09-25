@@ -1,19 +1,19 @@
-.. include:: src/dimension-applications.rst
-.. include:: src/crm.rst
-.. include:: src/decisionnel-etl.rst
-.. include:: src/decisionnel-reporting.rst
-.. include:: src/decisionnel-suite.rst
-.. include:: src/e-commerce.rst
-.. include:: src/erp-pgi.rst
-.. include:: src/cms.rst
-.. include:: src/ged-ecm.rst
-.. include:: src/bibliotheque-documentation.rst
-.. include:: src/portail.rst
-.. include:: src/reseaux-sociaux-dentreprise-rse.rst
-.. include:: src/blog-wiki-et-forum.rst
-.. include:: src/e-learning.rst
-.. include:: src/suivi-daudience.rst
-.. include:: src/autres.rst
+.. include:: src/applications/dimension-applications.rst
+.. include:: src/applications/crm.rst
+.. include:: src/applications/decisionnel-etl.rst
+.. include:: src/applications/decisionnel-reporting.rst
+.. include:: src/applications/decisionnel-suite.rst
+.. include:: src/applications/e-commerce.rst
+.. include:: src/applications/erp-pgi.rst
+.. include:: src/applications/cms.rst
+.. include:: src/applications/ged-ecm.rst
+.. include:: src/applications/bibliotheque-documentation.rst
+.. include:: src/applications/portail.rst
+.. include:: src/applications/reseaux-sociaux-dentreprise-rse.rst
+.. include:: src/applications/blog-wiki-et-forum.rst
+.. include:: src/applications/e-learning.rst
+.. include:: src/applications/suivi-daudience.rst
+.. include:: src/applications/autres.rst
 
 .. include:: src/dimension-infrastructure.rst
 .. include:: src/controle-de-postes-a-distance.rst
@@ -29,7 +29,7 @@
 .. include:: src/voip-telephonie.rst
 .. include:: src/messagerie-emailing-groupware.rst
 .. include:: src/accelerateur-http.rst
-.. include:: src/autres.rst
+#.. include:: src/autres.rst
 
 .. include:: src/dimension-developpement-et-couches-intermediaires.rst
 .. include:: src/annuaire-dentreprise.rst
@@ -46,7 +46,7 @@
 .. include:: src/moteurs-de-recherche.rst
 .. include:: src/serveurs-http-et-serveurs-dapplications.rst
 .. include:: src/mom-eai.rst
-.. include:: src/autres.rst
+#.. include:: src/autres.rst
 
 .. include:: src/conclusion.rst
 .. include:: src/remerciements.rst
