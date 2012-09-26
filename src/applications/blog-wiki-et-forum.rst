@@ -101,15 +101,13 @@ XWiki est développé en Java sur une base Hibernate. Les langages de programmat
 PmWiki
 ------
 :version: 2.2.43
-:Site: http://www.pmwiki.org
+:Site: http://www.pmwiki.org/
 :Porteur: Une communauté
 :Licence: GPL v2
 
 PmWiki est un moteur de wiki libre programmé par Patrick Michaud. Il utilise le language PHP et ne nécessite pas de base de données.
 
-L'approche de PmWiki est d'être centré sur les rédacteurs plutôt que les lecteurs, ce qui implique certaines limites aux documents rédigés, notamment dans leur forme. PmWiki se concentre également sur un nombre de fonctionnalités répondant à des besoins bien spécifiques plutôt que des choses identifiées comme "pouvant être utiles". Ce ce fait, PmWiki dispose d'un champ fonctionnel réduit mais extremement pointu. L'approche modulaire de PmWiki permet également à chacun de se créer et de partager une fonctionnalité qu'il trouve intéressante.
-
-
+L'approche de PmWiki est d'être centré sur les rédacteurs plutôt que les lecteurs, ce qui implique certaines limites aux documents rédigés, notamment dans leur présentation. PmWiki se concentre également sur un nombre de fonctionnalités répondant à des besoins bien spécifiques plutôt que des choses identifiées comme "pouvant être utiles". Ce ce fait, PmWiki dispose d'un champ fonctionnel réduit mais extremement pointu. L'approche modulaire de PmWiki permet également à chacun de se créer et de partager une fonctionnalité qu'il trouve intéressante.
 
 
 Autres
