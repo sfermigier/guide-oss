@@ -340,12 +340,13 @@ Ces offres logicielles sont complétées par une gamme de services professionnel
 LOGILAB
 -------
 
-Adresse: 104 Boulevard Auguste Blanqui, 75013 PARIS
+Adresse: 104 Boulevard Louis-Auguste Blanqui, 75013 PARIS
 
 Site: www.logilab.fr
 
-Nous construisons pas à pas notre réputation et travaillons de préférence sur le long terme avec les clients qui recherchent de l'expertise technique. Société reconnue pour ses prestations de haut-niveau dans les domaines de l'informatique scientifique et de la gestion de connaissances, et du Web sémantique.
-Conseil, formation, développements sur mesure de logiciels.
+Logilab est reconnue pour son expertise dans les domaines de l'informatique
+scientifique et du Web sémantique, sur la base de Python, Debian et des méthodes
+agiles.
 
 MAARCH
 ------

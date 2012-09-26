@@ -182,12 +182,26 @@ L'éditeur de Tuleap, Enalean, est une société française qui a fondé son mod
 
 Tuleap est écrit majoritairement en PHP.
 
+Mercurial
+---------
+
+:Version: 2.3
+:Site: http://mercurial.selenic.com
+:Porteur: une communauté
+:Licence: GPL
+
+Mercurial est un logiciel de gestion de versions décentralisé (DVCS) disponible sur la plupart des systèmes Unix, Windows et Mac OS X.
+
+Il a été créé pour s'utiliser via la ligne de commande, mais propose une intégration forte avec le bureau Windows (TortoiseHg), des interfaces graphiques avancées pour l'affichage de l'historique (HgView) et une interface web intégrée.
+
+Ses principales caractéristiques sont sa capacité à gérer les gros projets, son fonctionnement complètement distribué ne nécessitant pas de serveur, sa gestion avancée des branches et des fusions, ainsi que l'ajout récent de la traçabilité de l'évolution de l'historique.
+
+Mercurial est écrit principalement en Python.
 
 Autres
 ------
 
 Parmi les produits de l’univers Outils de développement, on peut compléter la liste avec les outils ci-dessous :
-
 
 
 Nom	URL / Site web
@@ -198,5 +212,4 @@ Gforge	http://gforge.org/gf
 
 Trac	http://trac.edgewall.org
 
-Mercurial	http://mercurial.selenic.com
 
