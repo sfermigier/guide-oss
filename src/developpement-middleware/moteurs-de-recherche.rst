@@ -68,7 +68,7 @@ OpenSearchServer
 :Version: 1.2.1
 :Site: www.open-search-server.com
 :Porteur: un éditeur (OpenSearchServer)
-:Licence: TODO
+:Licence: GPL
 
 OpenSearchServer est un serveur de recherche, créé par Emmanuel Keller. La première version open source est sortie en 2008.
 
@@ -87,14 +87,11 @@ Autres
 Parmi les produits de l’univers Moteurs de recherche, on peut compléter la liste avec les outils ci-dessous :
 
 
+- Nutch:	http://nutch.apache.org
 
-Nom	URL / Site web
+- Sphinx:	http://sphinxsearch.com
 
-Nutch	http://nutch.apache.org
+- Flax:	http://www.flax.co.uk
 
-Sphinx	http://sphinxsearch.com
-
-Flax	http://www.flax.co.uk
-
-LucidWorks	http://www.lucidimagination.com/products/lucidworks-search-platform
+- LucidWorks:	http://www.lucidimagination.com/products/lucidworks-search-platform
 
