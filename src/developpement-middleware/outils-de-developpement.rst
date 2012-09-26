@@ -14,13 +14,28 @@ Compte de tenu de la diversité des outils sélectionnés dans cette catégorie,
 
 
 
+Acceleo
+---
+
+:Version: 3.3.0
+:Site: http://www.eclipse.org
+:Porteur: une fondation (Eclipse)
+:Licence: EPL (Eclipse Public License)
+
+Acceleo est un générateur de code qui permet de transformer des modèles vers du code (approche MDA - Model driven Architecture). 
+Acceleo a l'originalité de laisser à l'utilisateur le choix dans le formalisme de modélisation en entrée, et dans le type de langage et de framework à générer en sortie. Ainsi, de nombreux éditeurs sous Eclipse ont été créés pour simplifier la création de générateurs sur mesure, via une approche basée sur des templates et une syntaxe standardisée.
+
+Acceleo est écrit en Java.
+
+
+
 Ant
 ---
 
 :Version: 1.8.2
 :Site: http://ant.apache.org
 :Porteur: une fondation (Apache)
-:Licence: Apacje
+:Licence: Apache
 
 Ant ("Another Neat Tool") est un outil d’automatisation de tâches tout au long du cycle de développement logiciel. Ant a été conçu par James Duncan Davidson en 2000 (sortie de la première version).
 
