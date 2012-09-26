@@ -384,6 +384,15 @@ Site: www.nuxeo.com
 
 Nuxeo est le pionnier et le leader de la gestion de contenu d'entreprise (ECM) en open source. Nuxeo développe une plateforme open source d'ECM, basée sur les standards de l'informatique d'entreprise (Java EE) ; travaille avec un réseau de partenaires, notamment intégrateurs et ISVs, à la mise en oeuvre d'applications développées sur cette plateforme chez des clients, grosses PME, grands comptes ou administrations ; vend, sous forme de souscription, des prestations de support et de maintenance propres à sécuriser l'usage de son logiciel par les équipes de développement et d'exploitation.
 
+OBEO
+-----
+
+Adresse: 2 route de la Noue - BP 76, 91193 Gif-Sur-Yvette
+
+Site: www.obeo.fr
+
+Obeo propose des solutions d'usines à logiciels, allant de la génération de code à la modernisation d'applications. Obeo est connu pour son implication dans la fondation Eclipse en tant que membre stratégique et comme 4e plus gros contributeur au monde sur cette plateforme (notamment via le projet Acceleo). Son domaine de prédilection est la fabrication sur mesure d'outils de modélisation pour l'industrie et pour l'architecture de systèmes d'information.
+
 OPEN WIDE
 ---------
 
