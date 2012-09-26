@@ -34,3 +34,15 @@ Pentaho Data Integration (PDI) est un ETL open source qui permet de concevoir et
 Grâce à un modèle graphique à base d’étapes, il est possible de créer sans programmation des processus composés d’imports et d’exports de données, et de différentes opérations de transformation telles que des conversions, des jointures, l’application de filtres, ou même l’exécution de fonctions javascript. Un planificateur permet aussi de planifier l’exécution des jobs.
 
 Un module complémentaire propriétaire commercial, « Agile BI », permet de visualiser graphiquement les résultats de transformations de données dès les premières étapes de développement.
+
+
+Autres
+------
+
+Nom	URL / Site web
+
+Scriptella	http://scriptella.javaforge.com/
+JasperETL	http://www.jaspersoft.com/jasperetl
+CloverETL	http://www.cloveretl.com/
+Benetl	http://www.benetl.net/	
+Toolsverse ETL Framework	http://www.toolsverse.com/
