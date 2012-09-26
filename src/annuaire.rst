@@ -369,7 +369,7 @@ Mandriva facilite l'installation et l'utilisation du système d'exploitation lin
 NEXEDI
 ------
 
-Adresse: 270 Boulevard Georges Clemenceau, 59700 MARCQ-EN-BAROEUL
+Adresse: 39 Rue Erlanger, 75016 PARIS
 
 Site: www.nexedi.com
 
@@ -382,7 +382,7 @@ Adresse: 18, Rue Soleillet, 75020 PARIS
 
 Site: www.nuxeo.com
 
-Nuxeo est le pionnier et le leader de la gestion de contenu d'entreprise (ECM) en open source. Nuxeo développe une plateforme open source d'ECM, basée sur les standards de l'informatique d'entreprise (Java EE) ; travaille avec un réseau de partenaires, notamment intégrateurs et ISVs, à la mise en oeuvre d'applications développées sur cette plateforme chez des clients, grosses PME, grands comptes ou administrations ; vend, sous forme de souscription, des prestations de support et de maintenance propres à sécuriser l'usage de son logiciel par les équipes de développement et d'exploitation.
+Nuxeo est le pionnier de la gestion de contenu d'entreprise (ECM) en open source. Nuxeo développe une plateforme open source d'ECM, basée sur les standards de l'informatique d'entreprise (Java EE) ; travaille avec un réseau de partenaires, notamment intégrateurs et ISVs, à la mise en oeuvre d'applications développées sur cette plateforme chez des clients, grosses PME, grands comptes ou administrations ; vend, sous forme de souscription, des outils de développement et de maintenance propres à sécuriser l'usage de son logiciel par les équipes de développement et d'exploitation.
 
 OBEO
 -----
