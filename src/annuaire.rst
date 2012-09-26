@@ -13,7 +13,9 @@ ACAPI
 
 Adresse: 16 Rue Des Chateaupieds, 92565 RUEIL-MALMAISON CEDEX
 
-Site: None
+Site: www.acapi.fr
+
+ACAPI est une société spécialisée dans l'analyse et l'amélioration des processus Etudes : développement de projets et maintenance des applications. ACAPI appuie son expertise sur l'utilisation du modèle CMMI et sur l'expérience de ses consultants acquise tout au long de leur parcours professionnel et au cours de multiples missions de conseil. ACAPI est officiellement habilitée à délivrer des prestations de formation et d'évaluation sur la base du modèle CMMI.
 
 
 ADACORE
@@ -30,7 +32,7 @@ ALFSTORE
 
 Adresse: 44 Rue Cauchy, 94110, ARCUEIL
 
-Site: None
+Site: www.alfstore.com
 
 Alfstore est un éditeur de logiciels spécialisé dans le domaine des Réseaux Sociaux d'Entreprise (RSE). Nous nous positionnons comme un équipementier pour les principales plateformes sociales et collaboratives du marché (Jive, IBM, Liferay, etc). Notre offre de modules ECM permet d'enrichir ces plateformes, en apportant des fonctions métier type GED, CMS et BPM.
 
@@ -39,7 +41,7 @@ Alixen
 
 Adresse: 20 Rue Jean Rostand, 91400, ORSAY
 
-Site: http://www.alixen.fr/
+Site: www.alixen.fr
 
 
 ALTER WAY
@@ -92,7 +94,7 @@ BEARSTECH
 
 Adresse: 42 Boulevard De Sebastopol, 75003 PARIS
 
-Site: bearstech.com
+Site: www.bearstech.com
 
 Logiciel libre et services pour l'hébergement et l'administration système.
 
@@ -101,8 +103,9 @@ CARA-MEL
 
 Adresse: 5, Rue Marguerite, 91200 ATHIS-MONS
 
-Site: http://www.cara-mel.fr/
+Site: www.cara-mel.fr
 
+La société CARA-MEL a développé le progiciel Info-Dialog, première plateforme de travail collaboratif qui met au service des entreprises l’ensemble des outils de communication modernes pour stimuler et animer le travail en équipe.
 
 CELI
 ----
@@ -153,7 +156,7 @@ eNovance
 
 Adresse: 56 Rue De La Rochefoucauld, 75009 PARIS
 
-Site: None
+Site: www.enovance.com
 
 eNovance est une société composée d'une quinzaine d'experts spécialisés travaillant autour d'une philosophie commune : la diffusion et le développement des technologies Open Source. Depuis sa création eNovance s'est positionnée sur une double activité : une activité de service et une activité de R&D autour de l'Open Source.
 
@@ -198,7 +201,7 @@ GENYMOBILE
 
 Adresse: 87 Rue De Turbigo, 75003 PARIS
 
-Site: None
+Site: www.genymobile.com
 
 Société de service, GENYMOBILE est spécialisée en conseil et ingénierie en technologie mobile à destination des grands comptes et industriels. Nos domaines d'expertise sont les suivants :  Conseil Technologique - Ingénierie Mobile - Formation - Accompagnement sur programme de R&D et innovation - Sujets techniques pointus : Virtualisation d'Android, customisation de Rom, sécurisation des OS mobiles, mobile device management... - Informatique embarquée et domotique.
 
@@ -207,7 +210,7 @@ GLOBALIS media systems
 
 Adresse: 6 Bis, Rue Auguste Vitu, 75015 PARIS
 
-Site: http://www.globalis-ms.com/
+Site: www.globalis-ms.com
 
 
 GONTRAN
@@ -232,7 +235,7 @@ HEDERA TECHNOLOGIES
 
 Adresse: 38, Rue Du Chemin Vert, 75011 PARIS
 
-Site: None
+Site: http://www.hederatech.com/
 
 Hedera Technology est une start-up focalisée sur l'innovation des infrastructures IT. Avec nos solutions logicielles, les infrastructures IT sont agiles et fluides, l'IT devient une commodité. Les applications métiers sécurisées et redondées sont déployées en quelques clics. La configuration, le déploiement et l'administration sont complétement automatisés pour une optimisation du cycle de vie des infrastructures physiques et virtuelles.
 
@@ -253,7 +256,7 @@ IMPROVE SA
 
 Adresse: 124, Rue De Verdun, 92800, PUTEAUX
 
-Site:
+Site: www.improve.fr
 
 
 INNOVIMAX
@@ -270,7 +273,9 @@ Jaeksoft
 
 Adresse: 89 Rue De Meaux, 93410, VAUJOURS
 
-Site: None
+Site: www.open-search-server.com
+
+Éditeur d'OpenSearchServer un logiciel de moteur de recherche construit autour des meilleurs outils open source.
 
 
 KALIS
@@ -280,7 +285,6 @@ Adresse: 2 Rue Eugène Pottier, Promopole, 78190 TRAPPES
 
 Site: www.kalis.fr
 
-Volonté d’entreprendre et de donner un sens à la vie de l’entreprise. Réelle capacité à rester focalisé pour développer un savoir-faire et créer une position compétitive forte et reconnue par les grandes entreprises…
 KALIS a conçu et mis en oeuvre des Offres de Services dans le domaine de l'Amélioration de la Qualité du Système d'Information - KaliITG : une offre de Conseil 'outillée' pour les DSI s'appuyant sur une méthodologie, des expériences et une solution logicielle innovante et performante(XAGA). - KaliSOFT une offre simple permettant aisément l'amélioration de la Qualité des patrimoines Applicatifs (JAVA/C++/...) en s'appuyant sur de la Méthodologie et sur une solution de Qualimétrie Open Source (SQUALE). - KaliTEST une Offre de Tests & Recette s'appuyant sur une méthodologie et une démarche éprouvées, des expériences concrètes et une solution Outillée Open Source à très fort ROI(TESTLINK/MANTIS). - KaliCHANGE une Offre pour supporter le Cycle de vie Applicatif prenant en compte la Gestion des Exigences (Référentiel de traçabilité des Exigences), la Gestion de Configuration logicielle, la standardisation des processus de développement CMMi et de production ITIL
 
 KELIS
@@ -325,7 +329,7 @@ MAARCH
 
 Adresse: 11 Boulevard Du Sud Est, 92000 NANTERRE
 
-Site: None
+Site: www.maarch.com
 
 Maarch est une infrastructure d’archivage GED Open source complète pour la conservation de gros volumes de ressources numériques. Cette plateforme offre les fonctions d'importation et de restitution de documents afin de permettre la conservation et l'exploitation des ressources numériques d'une organisation sur le long terme, en contribuant au respect des régulations françaises et internationales concernant l'archivage documentaire.
 Maarch existe aujourd’hui en français, anglais et supporte le multilingue.
@@ -442,7 +446,7 @@ RESTLET
 
 Adresse: ESSEC Venturis, CNIT, BP230 - 2, Place de la Défense, 92053 PARIS LA DEFENSE
 
-Site: None
+Site: www.restlet.com
 
 Restlet SAS est un éditeur de middleware, spécialiste des APIs web. Nos produits phares sont le logiciel open source Restlet Framework, leader pour le développement d'APIs web de style REST en Java ainsi que la plateforme en ligne API Spark, simplifiant la création et l'hébergement d'APIs web.
 
@@ -496,7 +500,10 @@ SYSRA
 
 Adresse: 30 Avenue Général Leclerc, 91330 YERRES
 
-Site: None
+Site: www.sysra.com
+
+Depuis sa création en 1993, SYSRA propose services, développements, support et formation sur les technologies objets pour les projets les plus exigeants.
+SYSRA est le leader du projet EyeDB, un Système de Gestion de Bases de Données Objet open source innovant.
 
 
 TAGMATICA
@@ -531,7 +538,7 @@ WEBISTEM
 
 Adresse: 26 Rue Pierre Sémard, 92320 CHÂTILLON
 
-Site: None
+Site: www.webistem.com
 
 Webistem met à la disposition des communautés scientifiques une gamme d’outils de travail clé en main, accessibles en ligne.
 Webistem place au cœur de sa réflexion les membres de la communauté, afin de leur garantir efficacité et gain de temps tout au long de la conduite de leur projet.
@@ -554,7 +561,7 @@ YSANCE
 
 Adresse: 4 Place Louis Armand, 75012 PARIS
 
-Site: None
+Site: www.ysance.com
 
 Ysance est une société de conseil et de développement spécialisée sur les problématiques projet à forts enjeux pour ses clients en particuliers dans le domaine de la Business Intelligence, du CRM, du web et du cloud computing.
 Ysance met l'innovation technologique au services des enjeux de ses clients tout en proposant des solutions éprouvées. Investissement massivement en R&D, Ysance sélectionne ses partenaires sur des critères d'excellence technique et de pertinence métier ce qui lui permet de proposer une approche projet simplifiée pour le client.
@@ -564,6 +571,6 @@ ZENIKA
 
 Adresse: 51 Rue Le Peletier, 75009 PARIS
 
-Site: http://www.zenika.com
+Site: www.zenika.com
 
 Zenika est un cabinet de conseil informatique spécialisé dans les nouvelles technologies et présent sur Paris, Rennes, Lyon, Athènes et Londres. Nous sommes plus particulièrement versés dans l’Open-Source et contribuons à développer cet écosystème en France. Nous ne recrutons que des consultants justifiant d'une expertise forte et reconnue au niveau national ou international. Zenika intervient tout du long des projets informatiques. Depuis la prise en charge de la définition des architectures applicatives jusqu'aux livraisons finales, Zenika peut vous aider à industrialiser votre développement et réduire la prise de risque technologique.

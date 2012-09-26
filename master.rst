@@ -63,4 +63,8 @@
 Annexe: annuaire des prestataires en IdF
 ========================================
 
+La liste qui suit regroupe des sociétés présentent en Île-de-France, actives au sein des associations reconnues du secteur du logiciel libre (Pôles de compétitivité, consortia et associations professionnelles).
+
+Leur présence dans cet annuaire est cependant bien évidemment purement indicative, et ne saurait constituer à elle seule un label indiscutable de qualité ou de respect des valeurs et des principes du logiciel libre et de l'open source.
+
 .. include:: src/annuaire.rst
