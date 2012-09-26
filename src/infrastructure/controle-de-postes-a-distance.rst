@@ -55,3 +55,14 @@ Dans le monde des serveurs UNIX, il s'agit du logiciel favori des administrateur
 OpenSSH est développé depuis 1999 par la fondation OpenBSD, qui référence un certain nombre de sociétés assurant son support.
 
 Comme la majorité des projets BSD, OpenSSH est écrit en C.
+
+
+Autres
+------
+
+Nom	URL / Site web
+
+FreeRDP	http://www.freerdp.com/
+KRDC	http://www.kde.org/applications/internet/krdc/
+AnywhereTS	http://anywherets.com/
+Chrome Remote Desktop	https://chrome.google.com/remotedesktop
