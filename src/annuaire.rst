@@ -12,7 +12,7 @@ ACAPI
 
 Adresse: 16 Rue Des Chateaupieds, 92565 RUEIL-MALMAISON CEDEX
 
-Site: http://www.acapi.fr/
+Site: www.acapi.fr
 
 ACAPI est une société spécialisée dans l'analyse et l'amélioration des processus Etudes : développement de projets et maintenance des applications.
 
@@ -32,7 +32,7 @@ ALFSTORE
 
 Adresse: 44 Rue Cauchy, 94110, ARCUEIL
 
-Site: http://www.alfstore.com/web/
+Site: www.alfstore.com
 
 Alfstore est un éditeur de logiciels spécialisé dans le domaine des Réseaux Sociaux d'Entreprise (RSE). Nous nous positionnons comme un équipementier pour les principales plateformes sociales et collaboratives du marché (Jive, IBM, Liferay, etc). Notre offre de modules ECM permet d'enrichir ces plateformes, en apportant des fonctions métier type GED, CMS et BPM.
 
@@ -41,7 +41,7 @@ Alixen
 
 Adresse: 20 Rue Jean Rostand, 91400, ORSAY
 
-Site: http://www.alixen.fr/
+Site: www.alixen.fr
 
 Alixen a été créée en octobre 2002 par une équipe d'ingénieurs et de commerciaux expérimentés dans l'intégration et la maintenance de systèmes d'informations basés sur des Logiciels Libres. La connaissance et l'expérience sur les solutions mises en oeuvre ont permis à Alixen de concevoir une offre de produits et de services parfaitement adaptée aux besoins des entreprises, administrations et collectivités. Alixen s'est construite autour de valeurs, partagées par l'ensemble de ses collaborateurs, visant à promouvoir les logiciels libres et les formats ouverts. Nous estimons, en effet, qu'il est important de pouvoir disposer des sources des logiciels et d'avoir le droit de les modifier pour être maître de son système d'information. Cette liberté permet de garantir une pérennité des données de l'entreprise.
 
@@ -100,9 +100,18 @@ BEARSTECH
 
 Adresse: 42 Boulevard De Sebastopol, 75003 PARIS
 
-Site: bearstech.com
+Site: www.bearstech.com
 
 Logiciel libre et services pour l'hébergement et l'administration système.
+
+CAPGEMINI
+---------
+
+Adresse: 11 Rue De Tilsitt, 75017 PARIS
+
+Site: www.capgemini.com
+
+Capgemini est l'un des leaders mondiaux du conseil, des services informatiques et de l'infogérance.
 
 
 CELI
@@ -138,7 +147,7 @@ eNovance
 
 Adresse: 56 Rue De La Rochefoucauld, 75009 PARIS
 
-Site: http://www.enovance.com/
+Site: www.enovance.com
 
 eNovance est une société composée d'une quinzaine d'experts spécialisés travaillant autour d'une philosophie commune : la diffusion et le développement des technologies Open Source. Depuis sa création eNovance s'est positionnée sur une double activité : une activité de service et une activité de R&D autour de l'Open Source.
 
@@ -185,7 +194,7 @@ GENYMOBILE
 
 Adresse: 87 Rue De Turbigo, 75003 PARIS
 
-Site: http://www.genymobile.com/
+Site: www.genymobile.com
 
 Société de service, GENYMOBILE est spécialisée en conseil et ingénierie en technologie mobile à destination des grands comptes et industriels. Nos domaines d'expertise sont les suivants :  Conseil Technologique - Ingénierie Mobile - Formation - Accompagnement sur programme de R&D et innovation - Sujets techniques pointus : Virtualisation d'Android, customisation de Rom, sécurisation des OS mobiles, mobile device management... - Informatique embarquée et domotique.
 
@@ -243,7 +252,7 @@ Jaeksoft
 
 Adresse: 89 Rue De Meaux, 93410, VAUJOURS
 
-Site: http://www.open-search-server.com/
+Site: www.open-search-server.com
 
 Éditeur du moteur de recherche OpenSearchServer est un logiciel de moteur de recherche construit autour des meilleurs outils open source.
 
@@ -300,7 +309,7 @@ MAARCH
 
 Adresse: 11 Boulevard Du Sud Est, 92000 NANTERRE
 
-Site: http://www.maarch.org/
+Site: www.maarch.org
 
 Maarch est une infrastructure d’archivage GED Open source complète pour la conservation de gros volumes de ressources numériques. Cette plateforme offre les fonctions d'importation et de restitution de documents afin de permettre la conservation et l'exploitation des ressources numériques d'une organisation sur le long terme, en contribuant au respect des régulations françaises et internationales concernant l'archivage documentaire.
 Maarch existe aujourd’hui en français, anglais et supporte le multilingue.
@@ -319,7 +328,7 @@ NEXEDI
 
 Adresse: 39 Rue Erlanger, 75016 PARIS
 
-Site: http://www.nexedi.com/
+Site: www.nexedi.com
 
 Nexedi a été fondée en 2001 avec la création du projet ERP5, dont la première mise en œuvre a été élu « Meilleur projet ERP » en 2004.
 
@@ -366,7 +375,7 @@ Adresse: 7 Avenue Jean Jaures, 78340 LES-CLAYES-SOUS-BOIS
 
 Site: www.ow2.org
 
-OW2 est une communauté open-source indépendante et mondiale. La mission d'OW2 est de
+OW2 est une communauté open-source indépendante et mondiale. La mission d'OW2 est de:
 a) promouvoir le développement de middleware open-source, les applications métiers génériques, les plates-formes de cloud computing et
 b) de favoriser une communauté dynamique et un écosystème d'affaires.
 
@@ -421,7 +430,7 @@ RESTLET
 
 Adresse: ESSEC Venturis, CNIT, BP230 - 2, Place de la Défense, 92053 PARIS LA DEFENSE
 
-Site: http://www.restlet.org/
+Site: www.restlet.org/
 
 Restlet SAS est un éditeur de middleware, spécialiste des APIs web. Nos produits phares sont le logiciel open source Restlet Framework, leader pour le développement d'APIs web de style REST en Java ainsi que la plateforme en ligne API Spark, simplifiant la création et l'hébergement d'APIs web.
 
@@ -475,7 +484,7 @@ SYSRA
 
 Adresse: 30 Avenue Général Leclerc, 91330 YERRES
 
-Site: http://www.sysra.com/
+Site: www.sysra.com
 
 Depuis sa création en 1993, SYSRA propose services, développements, support et formation sur les technologies objets pour les projets les plus exigeants.
 SYSRA est le leader du projet EyeDB, un Système de Gestion de Bases de Données Objet open source innovant.
@@ -513,7 +522,7 @@ WEBISTEM
 
 Adresse: 26 Rue Pierre Sémard, 92320 CHÂTILLON
 
-Site: http://webistem.com/
+Site: www.webistem.com
 
 Webistem met à la disposition des communautés scientifiques une gamme d’outils de travail clé en main, accessibles en ligne.
 Webistem place au cœur de sa réflexion les membres de la communauté, afin de leur garantir efficacité et gain de temps tout au long de la conduite de leur projet.
@@ -536,7 +545,7 @@ YSANCE
 
 Adresse: 4 Place Louis Armand, 75012 PARIS
 
-Site: http://www.ysance.com/
+Site: www.ysance.com
 
 Ysance est une société de conseil et de développement spécialisée sur les problématiques projet à forts enjeux pour ses clients en particuliers dans le domaine de la Business Intelligence, du CRM, du web et du cloud computing.
 Ysance met l'innovation technologique au services des enjeux de ses clients tout en proposant des solutions éprouvées. Investissement massivement en R&D, Ysance sélectionne ses partenaires sur des critères d'excellence technique et de pertinence métier ce qui lui permet de proposer une approche projet simplifiée pour le client.
@@ -546,6 +555,6 @@ ZENIKA
 
 Adresse: 51 Rue Le Peletier, 75009 PARIS
 
-Site: http://www.zenika.com
+Site: www.zenika.com
 
 Zenika est un cabinet de conseil informatique spécialisé dans les nouvelles technologies et présent sur Paris, Rennes, Lyon, Athènes et Londres. Nous sommes plus particulièrement versés dans l’Open-Source et contribuons à développer cet écosystème en France. Nous ne recrutons que des consultants justifiant d'une expertise forte et reconnue au niveau national ou international. Zenika intervient tout du long des projets informatiques. Depuis la prise en charge de la définition des architectures applicatives jusqu'aux livraisons finales, Zenika peut vous aider à industrialiser votre développement et réduire la prise de risque technologique.
