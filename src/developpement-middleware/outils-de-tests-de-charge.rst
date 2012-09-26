@@ -12,8 +12,6 @@ En sortie des tests de charge, les applications proposent généralement de nomb
 Parmi les outils open source, on peut citer JMeter, Tsung et aussi Funkload.
 
 
-
-
 JMeter
 ------
 
@@ -30,8 +28,6 @@ JMeter est distribuée sous licence Apache.
 Son développement a commencé en 2001, il est réalisé en Java.
 
 
-
-
 Tsung
 -----
 
@@ -42,7 +38,7 @@ Tsung
 
 Tsung est un outil d'injection de trafic, utilisé pour les tests de charge de différents types de serveurs.
 
-Il supporte HTTP et quelques dérivés (SOAP, WebDAV), les bases MySQL et PostgreSQL, ainsi que XMPP. Réalisé en ERLANG, un langage spécialisé dans les applications hautes performances, il ne souffre pas des limites traditionnelles de ce type d'outils, et peut donc simuler un trafic très important. Il dispose d'un générateur automatique de statistiques.
+Il supporte HTTP et quelques dérivés (SOAP, WebDAV), les bases MySQL et PostgreSQL, ainsi que XMPP. Réalisé en Erlang, un langage spécialisé dans les applications hautes performances, il ne souffre pas des limites traditionnelles de ce type d'outils, et peut donc simuler un trafic très important. Il dispose d'un générateur automatique de statistiques.
 
 Initialement crée par la société française Idealx, il est désormais développé par une communauté indépendante.
 
@@ -50,8 +46,14 @@ Initialement crée par la société française Idealx, il est désormais dévelo
 FunkLoad
 --------
 
-TODO
+:Version: 1.16.1
+:Site: funkload.nuxeo.org
+:Porteur: une société (Nuxeo)
+:Licence: GPL
 
+Funkload est un outil de tests fonctionnels et de charge pour applications et services web développé par la société française Nuxeo, pour ses besoins propres. Il a été utilisé entre autres par Google et Mozilla.
+
+Funkload est développé en Python.
 
 
 Autres
@@ -59,10 +61,6 @@ Autres
 
 Parmi les produits de l’univers Outils de tests de charge, on peut compléter la liste avec les outils ci-dessous :
 
+- CLIF	http://clif.ow2.org
 
-
-Nom	URL / Site web
-
-CLIF	http://clif.ow2.org
-
-OpenSTA	http://opensta.org
+- OpenSTA	http://opensta.org
