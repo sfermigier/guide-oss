@@ -65,6 +65,19 @@ Site: www.anakeen.com
 
 Développeur et commerce de solution logiciel pour la gestion de fichiers et l'accès aux données.
 
+ANT'INNO
+--------
+
+Adresse: 29, Rue De La Beaune, 93100 MONTREUIL
+
+Site: www.antinno.fr
+
+Ant'inno est un éditeur de logiciel. Ant'inno développe et commercialise un logiciel de gestion collaborative de documents,
+l'Ant'box. Le critère différenciant de la solution Ant'box est le caractère optionnel du classement des documents qui est
+possible mais pas obligatoire. Cette particularité fonctionnelle impose l'intégration d'un moteur de recherche textuel très
+performant en terme de pertinence. L'industrialisation du moteur de recherche en langage naturel du CEA ainsi que la gestion
+des ressources linguistiques multilingues sont aussi au coeur de métier d'Ant'inno.
+
 ARAOK!
 ------
 
@@ -179,8 +192,6 @@ GLOBALIS media systems
 ----------------------
 
 Adresse: 6 Bis, Rue Auguste Vitu, 75015 PARIS
-
-Site: http://www.globalis-ms.com/
 
 GLOBALIS est la seule SSII au positionnement intégralement dédié à la plateforme PHP / LAMP. Nous concevons et réalisons des solutions (applications et sites) Internet, Intranet et mobiles depuis plus de 15 ans. Etudes, développement, intégration, assistance, TMA, interventions en régie ou au forfait, nos prestations ont déjà séduit plus de 300 clients issus de l’industrie, de la banque, des médias ou de la distribution. Chaque année, plus de 100 000 utilisateurs pratiquent nos applications…avec satisfaction. Nous sommes agréés au titre du CIR par le Ministère de la Recherche depuis 2007.
 
