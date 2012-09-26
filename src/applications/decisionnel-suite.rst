@@ -61,3 +61,13 @@ Jedox, société allemande fondée en 2002, est l'éditeur de la suite Palo, ain
 
 Cette suite se compose des éléments suivants: le serveur OLAP qui permet de gérer les bases de données multidimensionnelles (organisées sous forme de cubes et de dimensions), un add-on pour Microsoft Excel et OpenOffice.org Calc (cet add-on supporte la lecture et l'écriture dans les cubes), un tableur web "Excel-like", reprenant toutes les fonctions d'Excel (formules, graphiques, macro...), permettant la saisie et la consultation en ligne des données du serveur OLAP, un ETL qui permet d'interfacer des bases opérationnelles pour alimenter les bases de données Palo et un observateur d'événements (Supervision Server) qui permet également de déclencher des événements en fonction de certaines actions.
 
+
+Autres
+------
+
+Nom	URL / Site web
+
+Vanilla	http://forge.bpm-conseil.com/projects/vanilla/
+KNIME	http://www.knime.org/
+RapidMiner	http://sourceforge.net/projects/rapidminer/
+BIRT Project	http://www.eclipse.org/birt/phoenix/
