@@ -5,7 +5,6 @@ Adresse: 60 Rue D’Alsace, 92110 CLICHY
 
 Site: www.4d.com
 
-
 4D est l'éditeur de Wakanda, plateforme open source de développement et de déploiement end-to-end JavaScript, s'appuyant sur les derniers standards du Web, qui ambitionne de révolutionner la création d'applications Web. Les trois axes majeurs de développement de 4D pour Wakanda sont la démultiplication de la productivité du développeur par rapport aux outils actuels du marché, le déploiement client cross-platform dans n'importe quel navigateur Desktop ou mobile (tablettes et smartphones) à partir d'un projet de développement unique, et enfin la mise en oeuvre d'une offre PAAS « Platform as a service » permettant un déploiement simple et performant des applications Wakanda sur le Cloud.
 
 ACAPI
@@ -13,9 +12,9 @@ ACAPI
 
 Adresse: 16 Rue Des Chateaupieds, 92565 RUEIL-MALMAISON CEDEX
 
-ACAPI est une société spécialisée dans l'analyse et l'amélioration des processus Etudes : développement de projets et maintenance des applications.
-
 Site: http://www.acapi.fr/
+
+ACAPI est une société spécialisée dans l'analyse et l'amélioration des processus Etudes : développement de projets et maintenance des applications.
 
 
 ADACORE
@@ -168,6 +167,8 @@ Adresse: 17, Rue Pascal, 75005 PARIS
 
 Site: www.eureva.fr
 
+Eureva est une société de conseil en management et technologies spécialisée dans l'innovation logicielle et propose son expertise sur: La virtualisation d’infrastructures; Les architectures mobiles; Les architectures d’entreprises.
+
 
 EXOSEC
 ------
@@ -204,14 +205,14 @@ Adresse: 1 Mail Gay Lussac, Cedex, 95015 CERGY
 
 Site: www.hamburware.com
 
-mi-chemin entre l'éditeur d'applications web et la web agency
+A mi-chemin entre l'éditeur d'applications web et la web agency.
 
 HEDERA TECHNOLOGIES
 -------------------
 
 Adresse: 38, Rue Du Chemin Vert, 75011 PARIS
 
-Site: None
+Site: www.hederatech.com
 
 Hedera Technology est une start-up focalisée sur l'innovation des infrastructures IT. Avec nos solutions logicielles, les infrastructures IT sont agiles et fluides, l'IT devient une commodité. Les applications métiers sécurisées et redondées sont déployées en quelques clics. La configuration, le déploiement et l'administration sont complétement automatisés pour une optimisation du cycle de vie des infrastructures physiques et virtuelles.
 
@@ -365,8 +366,8 @@ Adresse: 7 Avenue Jean Jaures, 78340 LES-CLAYES-SOUS-BOIS
 
 Site: www.ow2.org
 
-OW2 est une communauté open-source indépendante et mondiale. La mission d'OW2 est de 
-a) promouvoir le développement de middleware open-source, les applications métiers génériques, les plates-formes de cloud computing et 
+OW2 est une communauté open-source indépendante et mondiale. La mission d'OW2 est de
+a) promouvoir le développement de middleware open-source, les applications métiers génériques, les plates-formes de cloud computing et
 b) de favoriser une communauté dynamique et un écosystème d'affaires.
 
 
