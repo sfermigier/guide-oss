@@ -82,6 +82,7 @@ DSPAM est distribué sous licence GPL.
 
 
 
+
 Zimbra
 ------
 
@@ -152,6 +153,29 @@ OpenEMM est distribué sous la licence « Common Public Attribution License » 1
 OpenEMM repose sur les langages C, Java et Python. Il utilise la base de données MySQL pour le stockage de ses informations.Autres
 
 Parmi les produits de l’univers Messagerie, Emailing & Groupware, on peut compléter la liste avec les outils ci-dessous :
+
+
+
+
+
+
+OBM
+----
+
+:Version: 2.4.1
+:Site: www.obm.org
+:Porteur: un éditeur (Linagora http://www.linagora.com/)
+
+OBM est une solution de messagerie collaborative, entièrement Open Source. Elle est fortement utilisée dans les services publics français et dispose aussi d'une offre SAAS.
+
+OBM apporte depuis 1999 une alternative crédible aux produits Microsoft Exchange et Lotus Domino. Basé sur une architecture distribué, le logiciel consolide de célèbres composants open source pour fournir une solution professionnelle. OBM dispose d'un front-end web permettant l'administration de la solution, ainsi que l'accès aux calendriers, contacts et aux emails via roundcube. Des connecteurs pour Mozilla Thunderbird et Microsoft Outlook sont disponibles, ainsi que la connectivité Smartphone via le standard de fait ActiveSync.
+
+OBM est publié sous la License Affero GPL v3.
+
+OBM utilise Postfix et Cyrus pour la gestion des emails, OpenLDAP comme annuaire, supporte les bases de données MySQL et PostgreSQL. Le front-end web repose sur Apache/PHP, avec RoundCube pour la partie webmail. Les web-services ainsi que connectivité smartphone sont réalisés en Java.
+
+
+
 
 
 
