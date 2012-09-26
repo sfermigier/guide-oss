@@ -178,16 +178,6 @@ Adresse: 19, Avenue Mirabeau, 78000 VERSAILLES
 Site: None
 
 
-DETEXIA
--------
-
-Adresse: 10 Avenue De L'Entreprise, Parc Saint Christophe, 95800 CERGY
-
-Site: www.detexia.com
-
-Un consortium technique spécialisé visant à réaliser complètement, au forfait, des systèmes complexes, grâce à la fusion des compétences industrielles: Electronique, Logiciel, Télécom et Mécanique.
-
-
 eNovance
 --------
 
