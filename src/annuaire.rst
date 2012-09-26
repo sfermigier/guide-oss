@@ -13,9 +13,9 @@ ACAPI
 
 Adresse: 16 Rue Des Chateaupieds, 92565 RUEIL-MALMAISON CEDEX
 
-Site: www.acapi.fr
+ACAPI est une société spécialisée dans l'analyse et l'amélioration des processus Etudes : développement de projets et maintenance des applications.
 
-ACAPI est une société spécialisée dans l'analyse et l'amélioration des processus Etudes : développement de projets et maintenance des applications. ACAPI appuie son expertise sur l'utilisation du modèle CMMI et sur l'expérience de ses consultants acquise tout au long de leur parcours professionnel et au cours de multiples missions de conseil. ACAPI est officiellement habilitée à délivrer des prestations de formation et d'évaluation sur la base du modèle CMMI.
+Site: http://www.acapi.fr/
 
 
 ADACORE
@@ -27,12 +27,13 @@ Site: www.adacore.com
 
 La vision d’AdaCore est la création d’une solution 100% libre pour la certification de logiciels critiques dans l’aéronautique, le spatial et le transport. AdaCore est le principal éditeur de solutions de développement pour Ada 83, Ada 95, et Ada 2005, le langage de programmation spécifiquement conçu pour les projets logiciels de grande dimension et de longue durée dans lesquels la fiabilité, l’efficacité et la sécurité sont critiques. GNAT Pro, le produit phare d’AdaCore, comprend un ensemble complet d’outils de développement (compilateur, debugger, IDE, divers librairies, outils de vérification de mémoire, de couverture, de test, kit de certification DO-178B, …) et un support technique de très haut niveau, ce qui garantit des réponses rapides et adaptées aux besoins de ses clients.
 
+
 ALFSTORE
 --------
 
 Adresse: 44 Rue Cauchy, 94110, ARCUEIL
 
-Site: www.alfstore.com
+Site: http://www.alfstore.com/web/
 
 Alfstore est un éditeur de logiciels spécialisé dans le domaine des Réseaux Sociaux d'Entreprise (RSE). Nous nous positionnons comme un équipementier pour les principales plateformes sociales et collaboratives du marché (Jive, IBM, Liferay, etc). Notre offre de modules ECM permet d'enrichir ces plateformes, en apportant des fonctions métier type GED, CMS et BPM.
 
@@ -41,8 +42,9 @@ Alixen
 
 Adresse: 20 Rue Jean Rostand, 91400, ORSAY
 
-Site: www.alixen.fr
+Site: http://www.alixen.fr/
 
+Alixen a été créée en octobre 2002 par une équipe d'ingénieurs et de commerciaux expérimentés dans l'intégration et la maintenance de systèmes d'informations basés sur des Logiciels Libres. La connaissance et l'expérience sur les solutions mises en oeuvre ont permis à Alixen de concevoir une offre de produits et de services parfaitement adaptée aux besoins des entreprises, administrations et collectivités. Alixen s'est construite autour de valeurs, partagées par l'ensemble de ses collaborateurs, visant à promouvoir les logiciels libres et les formats ouverts. Nous estimons, en effet, qu'il est important de pouvoir disposer des sources des logiciels et d'avoir le droit de les modifier pour être maître de son système d'information. Cette liberté permet de garantir une pérennité des données de l'entreprise.
 
 ALTER WAY
 ---------
@@ -53,14 +55,6 @@ Site: www.alterway.fr
 
 Alter Way entend donner à la démarche Open Source une dimension industrielle qui en accroîtra l’attractivité et en garantira la pérennité. Les donneurs d’ordre trouveront, auprès d’Alter Way, acteur Open Source majeur, une véritable alternative aux grands intégrateurs traditionnels. Les domaines d'intervention d'Alter Way sont: Intégration en Open Source; Gestion de contenu; Administration systèmes et réseaux; Business Intelligence; Hébergement; Formation.
 
-AMEXIO
-------
-
-Adresse: 8, Avenue Kléber, 75008 PARIS
-
-Site: www.amexio.fr
-
-AMEXIO est une société de service spécialisée dans la conduite de projets de gestion des contenus, qu’il s’agisse de documents ou de données. Notre offre consiste à accompagner les entreprises dans leurs projets de mise en valeur de leurs informations : dématérialisation, gestion collaborative des contenus, refonte, intégration aux processus de l’entreprise, publication, archivage...
 
 ANAKEEN
 -------
@@ -89,36 +83,15 @@ Site: www.artenum.com
 
 Artenum est la solution adaptée à votre R&D. Entreprise indépendante située à Paris, Artenum travaille avec des partenaires européens afin de faciliter le travail numérique et collaboratif. À l'interface entre la recherche et industrie, Artenum apporte les technologies OpenSource les plus innovantes pour les deux secteurs.
 
-Arrow Financial Consulting
---------------------------
-
-Adresse: 30 rue Miromesnil, 75008 PARIS
-
-Site: www.arrowfinco.com
-
-Arrow Financial Consulting est un cabinet de conseil spécialisé en finance de marché, qui mène par ailleurs des activités de formation et d'édition de logiciel libre:
-
-- Camaris : solution online de gestion de portefeuille dédiée aux gestionnaires d'actifs.
-- Square : CRM online dédié aux mutuelles.
-- UbiDream : Framework cross/trans média pour les applications mobiles.
-
 BEARSTECH
 ---------
 
 Adresse: 42 Boulevard De Sebastopol, 75003 PARIS
 
-Site: www.bearstech.com
+Site: bearstech.com
 
 Logiciel libre et services pour l'hébergement et l'administration système.
 
-CARA-MEL
---------
-
-Adresse: 5, Rue Marguerite, 91200 ATHIS-MONS
-
-Site: www.cara-mel.fr
-
-La société CARA-MEL a développé le progiciel Info-Dialog, première plateforme de travail collaboratif qui met au service des entreprises l’ensemble des outils de communication modernes pour stimuler et animer le travail en équipe.
 
 CELI
 ----
@@ -148,28 +121,12 @@ Site: www.c-s.fr
 
 Concevoir, intégrer, exploiter des applications, des systèmes et des infrastructures critiques, CS met au service de ses clients les technologies les plus innovantes pour construire des solutions globales de haute performance. Grâce à sa capacité d’innovation et à son potentiel humain et technologique, CS se situe parmi les leaders européens sur ses marchés : Aéronautique, Aviation civile et militaire, Spatial, Défense, Énergie et Utilities, Banque et Finance, Industrie et Automobile, Télécommunications, Administrations et Collectivités locales, Assurance et Prévoyance, Distribution et Logistique, Transports terrestres.
 
-Data Publica
-------------
-
-Adresse: 8 Rue Jouffroy D'Abbans, 75017 PARIS
-
-Site: www.data-publica.com
-
-
-Déductions
-----------
-
-Adresse: 19, Avenue Mirabeau, 78000 VERSAILLES
-
-Site: None
-
-
 eNovance
 --------
 
 Adresse: 56 Rue De La Rochefoucauld, 75009 PARIS
 
-Site: www.enovance.com
+Site: http://www.enovance.com/
 
 eNovance est une société composée d'une quinzaine d'experts spécialisés travaillant autour d'une philosophie commune : la diffusion et le développement des technologies Open Source. Depuis sa création eNovance s'est positionnée sur une double activité : une activité de service et une activité de R&D autour de l'Open Source.
 
@@ -214,7 +171,7 @@ GENYMOBILE
 
 Adresse: 87 Rue De Turbigo, 75003 PARIS
 
-Site: www.genymobile.com
+Site: http://www.genymobile.com/
 
 Société de service, GENYMOBILE est spécialisée en conseil et ingénierie en technologie mobile à destination des grands comptes et industriels. Nos domaines d'expertise sont les suivants :  Conseil Technologique - Ingénierie Mobile - Formation - Accompagnement sur programme de R&D et innovation - Sujets techniques pointus : Virtualisation d'Android, customisation de Rom, sécurisation des OS mobiles, mobile device management... - Informatique embarquée et domotique.
 
@@ -223,16 +180,9 @@ GLOBALIS media systems
 
 Adresse: 6 Bis, Rue Auguste Vitu, 75015 PARIS
 
-Site: www.globalis-ms.com
+Site: http://www.globalis-ms.com/
 
-
-GONTRAN
--------
-
-Adresse: 21 Rue Des Filles-Du-Calvaire, 75003 PARIS
-
-Site: None
-
+GLOBALIS est la seule SSII au positionnement intégralement dédié à la plateforme PHP / LAMP. Nous concevons et réalisons des solutions (applications et sites) Internet, Intranet et mobiles depuis plus de 15 ans. Etudes, développement, intégration, assistance, TMA, interventions en régie ou au forfait, nos prestations ont déjà séduit plus de 300 clients issus de l’industrie, de la banque, des médias ou de la distribution. Chaque année, plus de 100 000 utilisateurs pratiquent nos applications…avec satisfaction. Nous sommes agréés au titre du CIR par le Ministère de la Recherche depuis 2007.
 
 HAMBURWARE
 ----------
@@ -248,7 +198,7 @@ HEDERA TECHNOLOGIES
 
 Adresse: 38, Rue Du Chemin Vert, 75011 PARIS
 
-Site: http://www.hederatech.com/
+Site: None
 
 Hedera Technology est une start-up focalisée sur l'innovation des infrastructures IT. Avec nos solutions logicielles, les infrastructures IT sont agiles et fluides, l'IT devient une commodité. Les applications métiers sécurisées et redondées sont déployées en quelques clics. La configuration, le déploiement et l'administration sont complétement automatisés pour une optimisation du cycle de vie des infrastructures physiques et virtuelles.
 
@@ -263,13 +213,6 @@ Site: www.henix.com
 - Etre pionnier en terme de mise en oeuvre et d'outillage de centre de service qualité logicielle.
 - Qualité logicielle et centre de service qualification
 - Assistance à maitrise d'ouvrage dans les domaines de la santé et en banque/finance
-
-IMPROVE SA
-----------
-
-Adresse: 124, Rue De Verdun, 92800, PUTEAUX
-
-Site: www.improve.fr
 
 
 INNOVIMAX
@@ -286,9 +229,9 @@ Jaeksoft
 
 Adresse: 89 Rue De Meaux, 93410, VAUJOURS
 
-Site: www.open-search-server.com
+Site: http://www.open-search-server.com/
 
-Éditeur d'OpenSearchServer un logiciel de moteur de recherche construit autour des meilleurs outils open source.
+Éditeur du moteur de recherche OpenSearchServer est un logiciel de moteur de recherche construit autour des meilleurs outils open source.
 
 
 KALIS
@@ -298,6 +241,7 @@ Adresse: 2 Rue Eugène Pottier, Promopole, 78190 TRAPPES
 
 Site: www.kalis.fr
 
+Volonté d’entreprendre et de donner un sens à la vie de l’entreprise. Réelle capacité à rester focalisé pour développer un savoir-faire et créer une position compétitive forte et reconnue par les grandes entreprises…
 KALIS a conçu et mis en oeuvre des Offres de Services dans le domaine de l'Amélioration de la Qualité du Système d'Information - KaliITG : une offre de Conseil 'outillée' pour les DSI s'appuyant sur une méthodologie, des expériences et une solution logicielle innovante et performante(XAGA). - KaliSOFT une offre simple permettant aisément l'amélioration de la Qualité des patrimoines Applicatifs (JAVA/C++/...) en s'appuyant sur de la Méthodologie et sur une solution de Qualimétrie Open Source (SQUALE). - KaliTEST une Offre de Tests & Recette s'appuyant sur une méthodologie et une démarche éprouvées, des expériences concrètes et une solution Outillée Open Source à très fort ROI(TESTLINK/MANTIS). - KaliCHANGE une Offre pour supporter le Cycle de vie Applicatif prenant en compte la Gestion des Exigences (Référentiel de traçabilité des Exigences), la Gestion de Configuration logicielle, la standardisation des processus de développement CMMi et de production ITIL
 
 KELIS
@@ -342,7 +286,7 @@ MAARCH
 
 Adresse: 11 Boulevard Du Sud Est, 92000 NANTERRE
 
-Site: www.maarch.com
+Site: http://www.maarch.org/
 
 Maarch est une infrastructure d’archivage GED Open source complète pour la conservation de gros volumes de ressources numériques. Cette plateforme offre les fonctions d'importation et de restitution de documents afin de permettre la conservation et l'exploitation des ressources numériques d'une organisation sur le long terme, en contribuant au respect des régulations françaises et internationales concernant l'archivage documentaire.
 Maarch existe aujourd’hui en français, anglais et supporte le multilingue.
@@ -361,9 +305,9 @@ NEXEDI
 
 Adresse: 39 Rue Erlanger, 75016 PARIS
 
-Site: www.nexedi.com
+Site: http://www.nexedi.com/
 
-Développe et déploie des solutions d'entreprise dans le domaine de l'ERP, du CRM et du commerce électronique autour d'architectures et de logiciels libres.
+Nexedi a été fondée en 2001 avec la création du projet ERP5, dont la première mise en œuvre a été élu « Meilleur projet ERP » en 2004.
 
 NUXEO
 -----
@@ -407,6 +351,10 @@ OW2 CONSORTIUM
 Adresse: 7 Avenue Jean Jaures, 78340 LES-CLAYES-SOUS-BOIS
 
 Site: www.ow2.org
+
+OW2 est une communauté open-source indépendante et mondiale. La mission d'OW2 est de 
+a) promouvoir le développement de middleware open-source, les applications métiers génériques, les plates-formes de cloud computing et 
+b) de favoriser une communauté dynamique et un écosystème d'affaires.
 
 
 PAQTIGO
@@ -459,7 +407,7 @@ RESTLET
 
 Adresse: ESSEC Venturis, CNIT, BP230 - 2, Place de la Défense, 92053 PARIS LA DEFENSE
 
-Site: www.restlet.com
+Site: http://www.restlet.org/
 
 Restlet SAS est un éditeur de middleware, spécialiste des APIs web. Nos produits phares sont le logiciel open source Restlet Framework, leader pour le développement d'APIs web de style REST en Java ainsi que la plateforme en ligne API Spark, simplifiant la création et l'hébergement d'APIs web.
 
@@ -513,7 +461,7 @@ SYSRA
 
 Adresse: 30 Avenue Général Leclerc, 91330 YERRES
 
-Site: www.sysra.com
+Site: http://www.sysra.com/
 
 Depuis sa création en 1993, SYSRA propose services, développements, support et formation sur les technologies objets pour les projets les plus exigeants.
 SYSRA est le leader du projet EyeDB, un Système de Gestion de Bases de Données Objet open source innovant.
@@ -551,7 +499,7 @@ WEBISTEM
 
 Adresse: 26 Rue Pierre Sémard, 92320 CHÂTILLON
 
-Site: www.webistem.com
+Site: http://webistem.com/
 
 Webistem met à la disposition des communautés scientifiques une gamme d’outils de travail clé en main, accessibles en ligne.
 Webistem place au cœur de sa réflexion les membres de la communauté, afin de leur garantir efficacité et gain de temps tout au long de la conduite de leur projet.
@@ -574,7 +522,7 @@ YSANCE
 
 Adresse: 4 Place Louis Armand, 75012 PARIS
 
-Site: www.ysance.com
+Site: http://www.ysance.com/
 
 Ysance est une société de conseil et de développement spécialisée sur les problématiques projet à forts enjeux pour ses clients en particuliers dans le domaine de la Business Intelligence, du CRM, du web et du cloud computing.
 Ysance met l'innovation technologique au services des enjeux de ses clients tout en proposant des solutions éprouvées. Investissement massivement en R&D, Ysance sélectionne ses partenaires sur des critères d'excellence technique et de pertinence métier ce qui lui permet de proposer une approche projet simplifiée pour le client.
@@ -584,6 +532,6 @@ ZENIKA
 
 Adresse: 51 Rue Le Peletier, 75009 PARIS
 
-Site: www.zenika.com
+Site: http://www.zenika.com
 
 Zenika est un cabinet de conseil informatique spécialisé dans les nouvelles technologies et présent sur Paris, Rennes, Lyon, Athènes et Londres. Nous sommes plus particulièrement versés dans l’Open-Source et contribuons à développer cet écosystème en France. Nous ne recrutons que des consultants justifiant d'une expertise forte et reconnue au niveau national ou international. Zenika intervient tout du long des projets informatiques. Depuis la prise en charge de la définition des architectures applicatives jusqu'aux livraisons finales, Zenika peut vous aider à industrialiser votre développement et réduire la prise de risque technologique.
