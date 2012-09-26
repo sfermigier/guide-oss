@@ -39,6 +39,18 @@ Le périmètre fonctionnel de PostGreSQL est très large et comparable aux autre
 
 PostgreSQL est écrit en C et fonctionne sur un très large nombre de plateformes, que ce soit celles basées sous Unix (Linux, Solaris, BSD) que sous Windows.
 
+PostGIS
+-------
+
+:Version: 2.0.1
+:Site: http://postgis.refractions.net/
+:Porteur: une communauté
+:Licence: GPL-2.0
+
+PostGIS est la cartouche spatiale de PostgreSQL. PostGIS permet de traiter de l'information géographique dans la base de donnée PostgreSQL de la même façon que l'on traite des données alphanumériques. Cette solution implémente les standards normalisés par l'OGC et l'ISO dans ce domaine. 
+De nombreuses fonctionnalités sont disponibles, permettant le traitement de géométries vectorielles, d'images raster et de topologie. Des modules additionnels offrent d'autres services, tels que pgRouting pour le calcul d'itinéraire. Les fonctionnalités de stockage et traitement d'objets 3D sont actuellement en développement.
+
+PostGIS est aujourd'hui le standard pour les bases de données spatiales opensource. Elle est supportée par la grande majorité des outils SIG du marché. Elle est utilisée par de nombreux organismes sur des bases transactionnelles comme pour le traitement de données avancé dans des domaines d'applications variés.
 
 MongoDB
 -------
