@@ -17,7 +17,7 @@ Dans cette catégorie, nous présentons les meilleures solutions open source : D
 DotClear
 --------
 
-:Version: 2.3.1
+:Version: 2.4.4
 :Site: http://fr.dotclear.org
 :Porteur: une communauté
 :Licence: GPL v2
@@ -26,7 +26,7 @@ Dotclear est un logiciel libre de publication web créé en 2002 par Olivier Meu
 
 Dotclear dispose d'une richesse fonctionnelle faisant de lui un outil de publication de grande qualité, égalant et allant parfois plus loin que d'autres outils du même ordre. Au-delà des fonctionnalités, Dotclear est conçu pour apporter le maximum de confort à l'utilisateur : une installation automatisée qui ne comprend que 2 étapes. De plus, de nombreux thèmes et plugins sont disponibles pour le personnaliser facilement. Les pages générées ont une structure qui optimise leur référencement naturel.
 
-DotClear est développé en PHP et supporte les bases PostgreSQL (8.0 minimum), MySQL (4.1 minimum avec InnoDB) et SQLite.
+DotClear2 est développé en PHP5 et supporte les bases PostgreSQL (8.0 minimum), MySQL (4.1 minimum avec InnoDB) et SQLite.
 
 
 
@@ -96,6 +96,18 @@ La solution XWiki a été créée en 2004 par Ludovic Dubost. Elle est aujourd�
 Wiki applicatif de seconde génération, XWiki est utilisé pour du travail collaboratif, du partage d'informations, ou encore la mise en ligne de contenu structuré ou non. En plus des fonctionnalités wiki usuelles (mise-en-forme facilitée, gestion des droits d'accès, édition collaborative...), il offre la possibilité de programmer au sein même des pages du wiki. C'est ce qui en fait un wiki applicatif, c'est-à-dire capable d'évoluer en fonction des besoins de ses utilisateurs.
 
 XWiki est développé en Java sur une base Hibernate. Les langages de programmation au sein du wiki sont Velocityy et Groovy. Il dispose de plusieurs API et d’un système de plugins et de portlets.
+
+
+PmWiki
+------
+:version: 2.2.43
+:Site: http://www.pmwiki.org
+:Porteur: Une communauté
+:Licence: GPL v2
+
+PmWiki est un moteur de wiki libre programmé par Patrick Michaud. Il utilise le language PHP et ne nécessite pas de base de données.
+
+L'approche de PmWiki est d'être centré sur les rédacteurs plutôt que les lecteurs, ce qui implique certaines limites aux documents rédigés, notamment dans leur forme. PmWiki se concentre également sur un nombre de fonctionnalités répondant à des besoins bien spécifiques plutôt que des choses identifiées comme "pouvant être utiles". Ce ce fait, PmWiki dispose d'un champ fonctionnel réduit mais extremement pointu. L'approche modulaire de PmWiki permet également à chacun de se créer et de partager une fonctionnalité qu'il trouve intéressante.
 
 
 
