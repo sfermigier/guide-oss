@@ -193,6 +193,8 @@ GLOBALIS media systems
 
 Adresse: 6 Bis, Rue Auguste Vitu, 75015 PARIS
 
+Site: www.globalis-ms.com
+
 GLOBALIS est la seule SSII au positionnement intégralement dédié à la plateforme PHP / LAMP. Nous concevons et réalisons des solutions (applications et sites) Internet, Intranet et mobiles depuis plus de 15 ans. Etudes, développement, intégration, assistance, TMA, interventions en régie ou au forfait, nos prestations ont déjà séduit plus de 300 clients issus de l’industrie, de la banque, des médias ou de la distribution. Chaque année, plus de 100 000 utilisateurs pratiquent nos applications…avec satisfaction. Nous sommes agréés au titre du CIR par le Ministère de la Recherche depuis 2007.
 
 HAMBURWARE
