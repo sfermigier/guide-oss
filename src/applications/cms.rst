@@ -139,38 +139,35 @@ Autres
 Dans l’univers de la gestion de contenu, l’offre open source est particulièrement vigoureuse. Pour preuve, au-delà des produits présentés précédemment, on peut également citer les outils ci-dessous :
 
 
+- Plone	http://plone.org
 
-Nom	URL / Site web
+- Infoglue	http://www.infoglue.org
 
-Plone	http://plone.org
+- Mambo	http://www.mamboserver.com
 
-Infoglue	http://www.infoglue.org
+- Apache Lenya	http://lenya.apache.org
 
-Mambo	http://www.mamboserver.com
+- Zope	http://www.zope.org
 
-Apache Lenya	http://lenya.apache.org
+- SilverStripe	http://www.silverstripe.com
 
-Zope	http://www.zope.org
+- Modx	http://modx.com
 
-SilverStripe	http://www.silverstripe.com
+- CMS Made Simple	http://www.cmsmadesimple.fr
 
-Modx	http://modx.com
+- Sympal	http://www.sympalphp.org
 
-CMS Made Simple	http://www.cmsmadesimple.fr
+- Apostrophe	http://apostrophenow.com
 
-Sympal	http://www.sympalphp.org
+- Cayaha	http://cahaya-project.org
 
-Apostrophe	http://apostrophenow.com
+- Magnolia	http://www.magnolia-cms.com
 
-Cayaha	http://cahaya-project.org
+- Silverpeas	http://www.silverpeas.com
 
-Magnolia	http://www.magnolia-cms.com
+- Umbraco	http://umbraco.com
 
-Silverpeas	http://www.silverpeas.com
+- Centurion	http://centurion-project.org
 
-Umbraco	http://umbraco.com
-
-Centurion	http://centurion-project.org
-
-OpenCMS	http://www.opencms.org
+- OpenCMS	http://www.opencms.org
 

@@ -91,21 +91,17 @@ Autres
 
 Dans l’univers des réseaux sociaux d’entreprise, l’offre open source est particulièrement vigoureuse. Pour preuve, au-delà des produits présentés précédemment, on peut également citer les outils ci-dessous :
 
+- eZ Teamroom:	http://www.ez.no
 
+- eXo Social:	http://www.exoplatform.com
 
-Nom	URL / Site web
+- Lovdbyless:	http://lovdbyless.com
 
-eZ Teamroom	http://www.ez.no
+- Mahara:	http://mahara.org
 
-eXo Social	http://www.exoplatform.com
+- Noserub:	http://www.noserub.com
 
-Lovdbyless	http://lovdbyless.com
+- Pligg:	http://pligg.com
 
-Mahara	http://mahara.org
-
-Noserub	http://www.noserub.com
-
-Pligg	http://pligg.com
-
-Spree	http://project.askspree.de
+- Spree:	http://project.askspree.de
 

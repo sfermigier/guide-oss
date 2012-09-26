@@ -65,9 +65,10 @@ Cette suite se compose des éléments suivants: le serveur OLAP qui permet de g�
 Autres
 ------
 
-Nom	URL / Site web
+- Vanilla:	http://forge.bpm-conseil.com/projects/vanilla/
 
-Vanilla	http://forge.bpm-conseil.com/projects/vanilla/
-KNIME	http://www.knime.org/
-RapidMiner	http://sourceforge.net/projects/rapidminer/
-BIRT Project	http://www.eclipse.org/birt/phoenix/
+- KNIME:	http://www.knime.org/
+
+- RapidMiner:	http://sourceforge.net/projects/rapidminer/
+
+- BIRT Project:	http://www.eclipse.org/birt/phoenix/

@@ -39,10 +39,12 @@ Un module complémentaire propriétaire commercial, « Agile BI », permet de vi
 Autres
 ------
 
-Nom	URL / Site web
+- Scriptella:	http://scriptella.javaforge.com/
 
-Scriptella	http://scriptella.javaforge.com/
-JasperETL	http://www.jaspersoft.com/jasperetl
-CloverETL	http://www.cloveretl.com/
-Benetl	http://www.benetl.net/	
-Toolsverse ETL Framework	http://www.toolsverse.com/
+- JasperETL:	http://www.jaspersoft.com/jasperetl
+
+-  CloverETL:	http://www.cloveretl.com/
+
+- Benetl:	http://www.benetl.net/
+
+- Toolsverse ETL Framework:	http://www.toolsverse.com/

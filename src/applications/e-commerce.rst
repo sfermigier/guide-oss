@@ -104,12 +104,13 @@ osCommerce
 :Version: 3.0.2
 :Site: www.oscommerce.com
 :Porteur: une communauté
+:Licence: GPL
 
 Difficile de ne pas évoquer OsCommerce quand on parle de solution e-commerce open source. Cet outil, apparu dans sa première version en mars 2000, s'est rapidement imposé comme la solution incontournable en matière de e-commerce et comme porte-étendard de l’offre open source à une époque où elle était encore naissante.
 
 Mais ces dernières années, cette communauté a commencé à se désolidariser de l'équipe de développement et a développé de nombreux « forks ». Le développement de la solution a fortement ralenti depuis 2006. Le code vieillissant rendant l'application très difficile à maintenir, l'équipe a entamé une refonte totale de l'outil et une V3 est sortie récemment après plusieurs années d’attente.
 
-Diffusé sous licence GPL, OsCommerce est un outil reposant entièrement sur une communauté autrefois très large et très active.
+OsCommerce est un outil reposant entièrement sur une communauté autrefois très large et très active.
 
 Développé intégralement en PHP/MySQL, OsCommerce doit en grande partie son succès à l'absence d'alternatives dans le domaine open source et à l'explosion du e-business dans le début des années 2000. C'est encore aujourd'hui le webshop le plus déployé au monde.
 

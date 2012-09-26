@@ -9,7 +9,7 @@ Quantum GIS
 -----------
 
 :Version: 1.8
-:Site: http://www.qgis.org
+:Site: www.qgis.org
 :Porteur: La communauté
 :Licence: GPL v2
 
@@ -33,8 +33,6 @@ OpenX est une solution de gestion d’espaces publicitaires open source. C’est
 OpenX a un périmétre fonctionnel relativement large : gestion multi sites, multi-annonceurs, affichage de bannières selon un calendrier (date début/fin), affichage rotatif dans un même espace (zone), multi-formatz (IAB et plus), limitation à un nombre de clic ou d’affichage par jour, gestion des priorités à certaines campagnes, etc. OpenX supporte toute une variété de médias (Images, Html, Javascript, Flash, Google Ad Sense, Doubleclick, Atlas, Yahoo). On peut également suivre les statistiques pour chaque campagne : suivi des affichages, suivi des clics et rapport selon les canaux, export Excel, HTML, CSV des rapports, etc.
 
 L’application est capable de gérer plusieurs centaines de millions d’impressions par mois. Elle s’exécute sur un serveur web Apache (ou httpd) disposant de PHP, de MySQL, et d’un accélérateur PHP.
-
-
 
 
 LimeSurvey

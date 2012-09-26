@@ -115,17 +115,13 @@ Autres
 
 Dans l’univers des réseaux blogs, wikis et forums, l’offre open source est particulièrement dynamique. Pour preuve, au-delà des produits présentés précédemment, on peut également citer les outils ci-dessous :
 
+- DokuWiki:	http://www.dokuwiki.org/dokuwiki
 
+- FSB:	http://www.fire-soft-board.com
 
-Nom	URL / Site web
+- MediaWiki:	http://www.mediawiki.org
 
-DokuWiki	http://www.dokuwiki.org/dokuwiki
+- PunBB:	http://punbb.informer.com
 
-FSB	http://www.fire-soft-board.com
-
-MediaWiki	http://www.mediawiki.org
-
-PunBB	http://punbb.informer.com
-
-SMF	http://www.simplemachines.org
+- SMF:	http://www.simplemachines.org
 

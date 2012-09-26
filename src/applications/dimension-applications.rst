@@ -7,37 +7,4 @@ Une grande majorité de ces outils est développée par des éditeurs ; contrair
 
 Aujourd’hui, il n’existe presque plus de catégories qui ne seraient pas représentées par l’open source. Même dans des domaines pointues comme la gestion de bibliothèques ou le décisionnel, des solutions libres sont disponibles.
 
-Plus de 50 solutions ont été évaluées dans cette dimension ; et près de 100 solutions y sont recensées parmi les catégories suivantes :
-
-
-
-CRM
-
-Décisionnel : ETL
-
-Décisionnel : Reporting
-
-Décisionnel : Suite
-
-E-Commerce
-
-ERP / PGI
-
-CMS
-
-GED & ECM
-
-Bibliothèque & Documentation
-
-Portail
-
-Réseaux sociaux d’entreprise
-
-Blog, Wiki et Forum
-
-E-Learning
-
-Suivi d’audience
-
-Autres
-
+Plus de 50 solutions ont été évaluées dans cette dimension ; et près de 100 solutions y sont recensées.

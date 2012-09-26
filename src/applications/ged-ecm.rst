@@ -71,13 +71,11 @@ Dans l’univers de la gestion documentaire, l’offre open source est particuli
 
 
 
-Nom	URL / Site web
+- Jahia:	http://www.jahia.com
 
-Jahia	http://www.jahia.com
+- Freedom:	http://www.dynacase.org
 
-Freedom	http://www.dynacase.org
+- Quotero:	http://www.quotero.com
 
-Quotero	http://www.quotero.com
-
-Exo DMS	http://www.exoplatform.com
+- Exo DMS:	http://www.exoplatform.com
 

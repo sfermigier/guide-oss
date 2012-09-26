@@ -72,15 +72,13 @@ Dans l’univers des portails, l’offre open source est particulièrement vigou
 
 
 
-Nom	URL / Site web
+- JBoss / Gatein:	http://www.jboss.org/gatein
 
-JBoss / Gatein	http://www.jboss.org/gatein
+- Apache Pluto:	http://portals.apache.org/pluto
 
-Apache Pluto	http://portals.apache.org/pluto
+- Sakai:	http://sakaiproject.org
 
-Sakai	http://sakaiproject.org
+- JetSpeed2:	http://portals.apache.org/jetspeed-2
 
-JetSpeed2	http://portals.apache.org/jetspeed-2
-
-Lutece	http://fr.lutece.paris.fr
+- Lutece:	http://fr.lutece.paris.fr
 
