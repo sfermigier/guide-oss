@@ -10,8 +10,6 @@ Les outils d’ETL disposent généralement de connecteurs permettant l’import
 Parmi les outils open source, on citera Talend ou Pentaho Data Integration (anciennement kettle).
 
 
-
-
 Talend
 ------
 
@@ -21,7 +19,6 @@ Talend
 :Licence: GPL et propriétaire
 
 Talend Open Studio est un ETL open source apparu en 2005, développé par la société Talend, basée en France. C’est un ETL de type « générateur de code », c’est-à-dire qu’il permet de créer graphiquement des processus de manipulation et de transformation de données puis de générer l’exécutable correspondant sous forme de programme Java ou Perl. Une liste très exhaustive de composants permet de se connecter à tout type de base de données ou d’applications (SAP, SugarCRM,…). En 2010, une brique MDM a vu le jour.
-
 
 
 Pentaho Data Integration

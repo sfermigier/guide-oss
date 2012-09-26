@@ -37,5 +37,5 @@ LimeSurvey (anciennement PHPSurveyor) est un logiciel libre de sondage en ligne.
 
 LimeSurvey est un outil open source complet dédié à la création de questionnaires de tout type. Le programme permet de réaliser des questionnaires comportant un nombre de catégories et de questions illimitées. 20 styles de questions sont proposés lors de la création d'un questionnaire : date, évaluation, liste déroulante, classement, entrée numérique, etc. LimeSurvey est utilisé par un grand nombre de personnes privées, par de grandes entreprises, dans les milieux universitaires et dans des institutions gouvernementales à travers le monde. Parmi les références les plus marquantes nous pouvons retenir OpenOffice.org, Ubuntu ou encore Gnome.
 
-LimeSurvey  est écrit en PHP couplée à une base de données MySQL, PostgreSQL ou Microsoft SQL Server.
+LimeSurvey est écrit en PHP couplé à une base de données MySQL, PostgreSQL ou Microsoft SQL Server.
 

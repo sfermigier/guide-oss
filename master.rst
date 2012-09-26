@@ -1,11 +1,8 @@
 :Title: Guide des solutions Open Source
-:Authors: Smile, Stefane Fermigier
+:Authors: Divers
 :Date: 25 septembre 2012
 
-
-============
-Applications
-============
+.. contents:: Table des matières
 
 .. include:: src/applications/dimension-applications.rst
 .. include:: src/applications/crm.rst
@@ -25,10 +22,6 @@ Applications
 .. include:: src/applications/autres.rst
 
 
-==============
-Infrastructure
-==============
-
 .. include:: src/infrastructure/dimension-infrastructure.rst
 .. include:: src/infrastructure/controle-de-postes-a-distance.rst
 .. include:: src/infrastructure/gestion-de-parc-et-inventaires.rst
@@ -43,11 +36,7 @@ Infrastructure
 .. include:: src/infrastructure/voip-telephonie.rst
 .. include:: src/infrastructure/messagerie-emailing-groupware.rst
 .. include:: src/infrastructure/accelerateur-http.rst
-#.. include:: src/autres.rst
-
-=======================================
-Développement et couches intermédiaires
-=======================================
+.. include:: src/infrastructure/autres.rst
 
 .. include:: src/developpement-middleware/dimension-developpement-et-couches-intermediaires.rst
 .. include:: src/developpement-middleware/annuaire-dentreprise.rst
@@ -64,11 +53,13 @@ Développement et couches intermédiaires
 .. include:: src/developpement-middleware/moteurs-de-recherche.rst
 .. include:: src/developpement-middleware/serveurs-http-et-serveurs-dapplications.rst
 .. include:: src/developpement-middleware/mom-eai.rst
-#.. include:: src/autres.rst
-
-==========
-Pour finir
-==========
+.. include:: src/developpement-middleware/autres.rst
 
 .. include:: src/conclusion.rst
 .. include:: src/remerciements.rst
+
+
+Annexe: annuaire des prestataires en IdF
+========================================
+
+.. include:: src/annuaire.rst

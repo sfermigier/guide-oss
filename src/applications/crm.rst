@@ -27,8 +27,6 @@ Quelques-uns des principaux développeurs travaillent dans des entreprises fourn
 OpenCRX est une application JEE qui supporte la plupart des bases de données relationnelles, y compris Oracle, DB2, MySQL et PostgreSQL.
 
 
-
-
 SugarCRM
 --------
 
@@ -69,11 +67,4 @@ Autres
 
 Parmi les produits de l’univers du CRM, on peut compléter la liste avec les outils ci-dessous :
 
-
-
-Nom	URL / Site web
-
-CiviCRM	http://civicrm.org
-
-OpenERP	http://www.openerp.com
-
+- CiviCRM:	http://civicrm.org

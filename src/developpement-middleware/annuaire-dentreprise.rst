@@ -35,7 +35,7 @@ OpenLDAP
 :Version: 2.4.26
 :Site: www.openldap.org
 :Porteur: une communauté
-:Licence: OpenLDAP Public License, compatible avec la licence GPL et validé par la Free Software Fundation.
+:Licence: OpenLDAP Public License, compatible avec la licence GPL
 
 OpenLDAP est un annuaire d’entreprise libre. Il représente une alternative solide aux annuaires commerciaux. OpenLDAP a été créé en 1998 par Kurt Zeilenga.
 
@@ -51,10 +51,7 @@ Autres
 Parmi les produits de l’univers Annuaire d’entreprise, on peut compléter la liste avec les outils ci-dessous :
 
 
+- Apache Directory:	http://directory.apache.org
 
-Nom	URL / Site web
-
-Apache Directory	http://directory.apache.org
-
-OpenDS	http://www.opends.org
+- OpenDS:	http://www.opends.org
 
