@@ -146,12 +146,10 @@ CORE-TECHS
 
 Adresse: 218, Avenue Jean Jaurès, 75019 PARIS
 
-Site: None
+Site: www.core-techs.fr
 
-Core-Techs est un acteur Open Source exerçant deux métiers :
-
-- Editeur d’une solution de Gestion Documentaire Open Source : Quotero
-- Intégrateur de solutions Open Source de Gestion de Contenu / Travail Collaboratif / Ecommerce pour concevoir des applications interactives numériques innovantes
+Core-Techs est un société spécialiste dans la conception et le déploiement de solutions Web : portails Web, plateformes Ecommerce, Intranet, Extranets, développements spécifiques.
+Ses réalisations s'appuient sur l'exploitation de solutions de gestion de contenu Open Source et de frameworks PHP et Java.
 
 CS
 --
@@ -342,12 +340,13 @@ Ces offres logicielles sont complétées par une gamme de services professionnel
 LOGILAB
 -------
 
-Adresse: 104 Boulevard Auguste Blanqui, 75013 PARIS
+Adresse: 104 Boulevard Louis-Auguste Blanqui, 75013 PARIS
 
 Site: www.logilab.fr
 
-Nous construisons pas à pas notre réputation et travaillons de préférence sur le long terme avec les clients qui recherchent de l'expertise technique. Société reconnue pour ses prestations de haut-niveau dans les domaines de l'informatique scientifique et de la gestion de connaissances, et du Web sémantique.
-Conseil, formation, développements sur mesure de logiciels.
+Logilab est reconnue pour son expertise dans les domaines de l'informatique
+scientifique et du Web sémantique, sur la base de Python, Debian et des méthodes
+agiles.
 
 MAARCH
 ------
@@ -371,7 +370,7 @@ Mandriva facilite l'installation et l'utilisation du système d'exploitation lin
 NEXEDI
 ------
 
-Adresse: 270 Boulevard Georges Clemenceau, 59700 MARCQ-EN-BAROEUL
+Adresse: 39 Rue Erlanger, 75016 PARIS
 
 Site: www.nexedi.com
 
@@ -384,7 +383,16 @@ Adresse: 18, Rue Soleillet, 75020 PARIS
 
 Site: www.nuxeo.com
 
-Nuxeo est le pionnier et le leader de la gestion de contenu d'entreprise (ECM) en open source. Nuxeo développe une plateforme open source d'ECM, basée sur les standards de l'informatique d'entreprise (Java EE) ; travaille avec un réseau de partenaires, notamment intégrateurs et ISVs, à la mise en oeuvre d'applications développées sur cette plateforme chez des clients, grosses PME, grands comptes ou administrations ; vend, sous forme de souscription, des prestations de support et de maintenance propres à sécuriser l'usage de son logiciel par les équipes de développement et d'exploitation.
+Nuxeo est le pionnier de la gestion de contenu d'entreprise (ECM) en open source. Nuxeo développe une plateforme open source d'ECM, basée sur les standards de l'informatique d'entreprise (Java EE) ; travaille avec un réseau de partenaires, notamment intégrateurs et ISVs, à la mise en oeuvre d'applications développées sur cette plateforme chez des clients, grosses PME, grands comptes ou administrations ; vend, sous forme de souscription, des outils de développement et de maintenance propres à sécuriser l'usage de son logiciel par les équipes de développement et d'exploitation.
+
+OBEO
+-----
+
+Adresse: 2 route de la Noue - BP 76, 91193 Gif-Sur-Yvette
+
+Site: www.obeo.fr
+
+Obeo propose des solutions d'usines à logiciels, allant de la génération de code à la modernisation d'applications. Obeo est connu pour son implication dans la fondation Eclipse en tant que membre stratégique et comme 4e plus gros contributeur au monde sur cette plateforme (notamment via le projet Acceleo). Son domaine de prédilection est la fabrication sur mesure d'outils de modélisation pour l'industrie et pour l'architecture de systèmes d'information.
 
 OPEN WIDE
 ---------

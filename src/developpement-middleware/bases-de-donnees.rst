@@ -28,14 +28,14 @@ MySQL est développé en C et C++ et fonctionne sur un très large nombre de pla
 PostgreSQL
 ----------
 
-:Version: 9.0.4
+:Version: 9.2.1
 :Site: www.postgresql.org
 :Porteur: une communauté
 :Licence: PostgreSQL License, approuvée par l'Open Source Initiative
 
 PostgreSQL est le SGBDR open source le plus complet aujourd’hui. PostgreSQL est issue de Ingres. Le projet a été lancé en 1985 par Michael Stonebraker. La première version bâtie sur l'architecture actuelle est sortie en 1995.
 
-Le périmètre fonctionnel de PostGreSQL est très large et comparable aux autres bases de données Entreprise du marché. Il supporte les procédures stockées, les déclencheurs, les fonctions spécifiques, indexes sur fonctions, transactions, règles customs permettant de modifier le chemin d'exécution des requêtes, un large types de données, de l'héritage de tables, de la recherche full-text, etc. Ses performances et sa stabilité lui permettent de s'intégrer à une plateforme de production exigeante.
+Le périmètre fonctionnel de PostGreSQL est très large et comparable aux autres bases de données *entreprise* du marché. Il supporte les procédures stockées, les déclencheurs, les fonctions spécifiques, indexes sur fonctions, transactions, règles customs permettant de modifier le chemin d'exécution des requêtes, un large types de données, de l'héritage de tables, de la recherche full-text, la répartition de charge sur plusieurs bases, etc. Ses performances et sa stabilité lui permettent de s'intégrer à une plateforme de production exigeante.
 
 PostgreSQL est écrit en C et fonctionne sur un très large nombre de plateformes, que ce soit celles basées sous Unix (Linux, Solaris, BSD) que sous Windows.
 

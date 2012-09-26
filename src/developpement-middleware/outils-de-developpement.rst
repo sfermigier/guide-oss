@@ -14,13 +14,28 @@ Compte de tenu de la diversité des outils sélectionnés dans cette catégorie,
 
 
 
+Acceleo
+---
+
+:Version: 3.3.0
+:Site: http://www.eclipse.org
+:Porteur: une fondation (Eclipse)
+:Licence: EPL (Eclipse Public License)
+
+Acceleo est un générateur de code qui permet de transformer des modèles vers du code (approche MDA - Model driven Architecture). 
+Acceleo a l'originalité de laisser à l'utilisateur le choix dans le formalisme de modélisation en entrée, et dans le type de langage et de framework à générer en sortie. Ainsi, de nombreux éditeurs sous Eclipse ont été créés pour simplifier la création de générateurs sur mesure, via une approche basée sur des templates et une syntaxe standardisée.
+
+Acceleo est écrit en Java.
+
+
+
 Ant
 ---
 
 :Version: 1.8.2
 :Site: http://ant.apache.org
 :Porteur: une fondation (Apache)
-:Licence: Apacje
+:Licence: Apache
 
 Ant ("Another Neat Tool") est un outil d’automatisation de tâches tout au long du cycle de développement logiciel. Ant a été conçu par James Duncan Davidson en 2000 (sortie de la première version).
 
@@ -167,12 +182,26 @@ L'éditeur de Tuleap, Enalean, est une société française qui a fondé son mod
 
 Tuleap est écrit majoritairement en PHP.
 
+Mercurial
+---------
+
+:Version: 2.3
+:Site: http://mercurial.selenic.com
+:Porteur: une communauté
+:Licence: GPL
+
+Mercurial est un logiciel de gestion de versions décentralisé (DVCS) disponible sur la plupart des systèmes Unix, Windows et Mac OS X.
+
+Il a été créé pour s'utiliser via la ligne de commande, mais propose une intégration forte avec le bureau Windows (TortoiseHg), des interfaces graphiques avancées pour l'affichage de l'historique (HgView) et une interface web intégrée.
+
+Ses principales caractéristiques sont sa capacité à gérer les gros projets, son fonctionnement complètement distribué ne nécessitant pas de serveur, sa gestion avancée des branches et des fusions, ainsi que l'ajout récent de la traçabilité de l'évolution de l'historique.
+
+Mercurial est écrit principalement en Python.
 
 Autres
 ------
 
 Parmi les produits de l’univers Outils de développement, on peut compléter la liste avec les outils ci-dessous :
-
 
 
 Nom	URL / Site web
@@ -183,5 +212,4 @@ Gforge	http://gforge.org/gf
 
 Trac	http://trac.edgewall.org
 
-Mercurial	http://mercurial.selenic.com
 

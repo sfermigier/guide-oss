@@ -166,7 +166,26 @@ Le framework Ruby On Rails se caractérise par le concept du Don't Repeat Yourse
 Ruby On Rails est développé en Ruby.
 
 
+CubicWeb
+--------
 
+:Version: 3.15.4
+:Site: http://www.cubicweb.org/
+:Porteur: une communauté
+:Licence: LGPL
+
+CubicWeb est un framework en Python pour le Web Sémantique qui a été créé en 2001 par la société Logilab.
+
+Au-delà des fonctionnalités habituelles de ce genre d'outil (CRUD, sécurité,
+RESTful, développement agile, tests unitaires, indépendance vis-à-vis de la base
+de données sous-jacente, etc), CubicWeb met l'accent sur la réutilisation et la
+fusion de données disponibles sur le Web (Linked Open Data) et leur
+visualisation dynamique dans un navigateur, le tout en respectant les standards
+du W3C (RDF, OWL, etc). Les applications typiques concernent la publication de
+catalogues de plusieurs dizaines de millions d'objets ou des bases dédiées à la
+recherche médicale.
+
+CubicWeb est développé en Python.
 
 Autres
 ------
