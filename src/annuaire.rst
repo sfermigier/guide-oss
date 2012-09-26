@@ -89,6 +89,19 @@ Site: www.artenum.com
 
 Artenum est la solution adaptée à votre R&D. Entreprise indépendante située à Paris, Artenum travaille avec des partenaires européens afin de faciliter le travail numérique et collaboratif. À l'interface entre la recherche et industrie, Artenum apporte les technologies OpenSource les plus innovantes pour les deux secteurs.
 
+Arrow Financial Consulting
+--------------------------
+
+Adresse: 30 rue Miromesnil, 75008 PARIS
+
+Site: www.arrowfinco.com
+
+Arrow Financial Consulting est un cabinet de conseil spécialisé en finance de marché, qui mène par ailleurs des activités de formation et d'édition de logiciel libre:
+
+- Camaris : solution online de gestion de portefeuille dédiée aux gestionnaires d'actifs.
+- Square : CRM online dédié aux mutuelles.
+- UbiDream : Framework cross/trans média pour les applications mobiles.
+
 BEARSTECH
 ---------
 
