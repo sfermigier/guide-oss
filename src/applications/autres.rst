@@ -3,9 +3,21 @@ Autres
 
 Dans cette dernière rubrique de la dimension « Applications », nous présentons d’autres outils open source qui peuvent trouver leur intérêt dans les entreprises même s’il était difficile d’en faire une catégorie à part entière.
 
-Nous présentons notamment OpenX (un outil de régie publicitaire) et Limesurvey (un outil avancé de création de sondages et d’enquêtes professionnels).
+Nous présentons notamment QGis (un système d'information géographique bureautique), OpenX (un outil de régie publicitaire) et Limesurvey (un outil avancé de création de sondages et d’enquêtes professionnels).
 
+Quantum GIS
+-----------
 
+:Version: 1.8
+:Site: http://www.qgis.org
+:Porteur: La communauté
+:Licence: GPL v2
+
+Quantum GIS, ou QGIS, est un système d'information géographique bureautique. QGIS permet d'ouvrir les fichiers contenant de l'information géographique (Shapefiles, bases de données PostGIS, KML...), et de les visualiser. Il possède des fonctions d'édition de donnée, ainsi que de croisement et de traitement de l'information. Il supporte les standards en vigueur.
+
+QGIS est extensible et possède des centaines de plugins pour des usages divers, de la connexion à des catalogues OpenData, jusqu'à l'édition de jeux de cartes, en passant par des usages métiers spécifiques.
+
+Au delà d'un simple logiciel bureautique, QGIS est aussi une plateforme permettant de développer des solutions basées sur des données cartographiques de façon efficace.
 
 
 OpenX
