@@ -146,12 +146,10 @@ CORE-TECHS
 
 Adresse: 218, Avenue Jean Jaurès, 75019 PARIS
 
-Site: None
+Site: www.core-techs.fr
 
-Core-Techs est un acteur Open Source exerçant deux métiers :
-
-- Editeur d’une solution de Gestion Documentaire Open Source : Quotero
-- Intégrateur de solutions Open Source de Gestion de Contenu / Travail Collaboratif / Ecommerce pour concevoir des applications interactives numériques innovantes
+Core-Techs est un société spécialiste dans la conception et le déploiement de solutions Web : portails Web, plateformes Ecommerce, Intranet, Extranets, développements spécifiques.
+Ses réalisations s'appuient sur l'exploitation de solutions de gestion de contenu Open Source et de frameworks PHP et Java.
 
 CS
 --
