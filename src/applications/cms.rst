@@ -134,6 +134,7 @@ TYPO3 est écrit en PHP et utilise une base de données MySQL.
 
 
 Autres
+------
 
 Dans l’univers de la gestion de contenu, l’offre open source est particulièrement vigoureuse. Pour preuve, au-delà des produits présentés précédemment, on peut également citer les outils ci-dessous :
 
