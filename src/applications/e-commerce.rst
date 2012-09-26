@@ -98,8 +98,6 @@ Si à l'heure actuelle le périmètre fonctionnel de Drupal Commerce reste un pe
 Drupal Commerce est développé intégralement en PHP/MySQL. Il est fourni sous forme de module pour Drupal 7.
 
 
-
-
 osCommerce
 ----------
 
@@ -122,16 +120,13 @@ Autres
 Parmi les produits de l’univers du E-Commerce, on peut compléter la liste avec les outils ci-dessous :
 
 
+- Thelia:	http://thelia.net
 
-Nom	URL / Site web
+- Wordpress Commerce: http://wordpress.org/extend/plugins/wp-e-commerce/
 
-Thelia	http://thelia.net
+- OFBiz:	http://ofbiz.apache.org
 
-Wordpress Commerce http://wordpress.org/extend/plugins/wp-e-commerce/
+- Spree:	http://spreecommerce.com
 
-OFBiz	http://ofbiz.apache.org
-
-Spree	http://spreecommerce.com
-
-Broadleaf Commerce	http://www.broadleafcommerce.org
+- Broadleaf Commerce:	http://www.broadleafcommerce.org
 

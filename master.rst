@@ -57,6 +57,7 @@
 
 .. include:: src/conclusion.rst
 .. include:: src/remerciements.rst
+.. include:: src/licences.rst
 
 
 Annexe: annuaire des prestataires en IdF

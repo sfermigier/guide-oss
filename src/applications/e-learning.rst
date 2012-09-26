@@ -33,7 +33,7 @@ Moodle est une application LAMP (Linux, Apache, MySQL et PHP). Elle fonctionne a
 Claroline
 ---------
 
-:Version: 1.10.5
+:Version: 1.11.2
 :Site: www.claroline.net
 :Porteur: un consortium
 :Licence: GPL
@@ -54,12 +54,9 @@ Autres
 Parmi les produits de l’univers E-Learning, on peut compléter la liste avec les outils ci-dessous :
 
 
+- Dokéos:	http://www.dokeos.com
 
-Nom	URL / Site web
+- Chamilo:	http://www.chamilo.org
 
-Dokéos	http://www.dokeos.com
-
-Chamilo	http://www.chamilo.org
-
-Ilias	http://www.ilias.de
+- Ilias:	http://www.ilias.de
 
