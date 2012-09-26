@@ -127,6 +127,8 @@ Nom	URL / Site web
 
 Thelia	http://thelia.net
 
+Wordpress Commerce http://wordpress.org/extend/plugins/wp-e-commerce/
+
 OFBiz	http://ofbiz.apache.org
 
 Spree	http://spreecommerce.com
