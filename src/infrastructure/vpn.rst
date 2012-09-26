@@ -1,11 +1,11 @@
 VPN
 ===
 
-Un VPN, Réseau Privé Virtuel en français, peut être définie, assez largement, par les différentes techniques permettant d’étendre le Réseau de l’entreprise en préservant la confidentialité des données et en traversant les barrières physiques des réseaux traditionnels.
+Un VPN, Réseau Privé Virtuel en français, peut être défini, de manière assez large, comme les différentes techniques permettant d’étendre le Réseau de l’entreprise en préservant la confidentialité des données et en traversant les barrières physiques des réseaux traditionnels.
 
-Les solutions VPN apportent généralement les bénéfices suivants : authentification par clé publique, confidentialité des échanges, confidentialité a posteriori en cas de compromission des secrets cryptographiques et transport de paquets à destination d’un réseau privé via un réseau public.
+Les solutions VPN apportent généralement les bénéfices suivants : authentification par clé publique, confidentialité des échanges, confidentialité *a posteriori* en cas de compromission des secrets cryptographiques et transport de paquets à destination d’un réseau privé via un réseau public.
 
-Dans l’univers de l’open source, on compte de nombreuses solutions de qualité dont OpenVPN et OpenSWAN présenté ci-après.
+Dans l’univers de l’open source, on compte de nombreuses solutions de qualité dont OpenVPN et OpenSWAN présentés ci-après.
 
 
 OpenVPN

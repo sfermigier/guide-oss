@@ -8,8 +8,6 @@ Parmi les fonctionnalités que l’on retrouve dans les outils de sauvegarde, on
 Les outils de déploiement, tel que Puppet, permettent de préparer à distance des environnements selon des réglés prédéfinies ou selon un état final attendu. Toutes les grandes entreprises utilisent des logiciels de déploiement pour faciliter l’administration de leur parc.
 
 
-
-
 Bacula
 ------
 
@@ -48,22 +46,25 @@ Autres
 Parmi les produits de l’univers Déploiement et Sauvegarde, on peut compléter la liste avec les outils ci-dessous :
 
 
+- Chef: http://www.opscode.com/chef/
 
-Nom	URL / Site web
+- Salt: http://saltstack.com/
 
-Kdump	http://lse.sourceforge.net/kdump
+- Ansible: http://ansible.cc/
 
-mkCDrec	http://mkcdrec.sourceforge.net
+- Kdump	http://lse.sourceforge.net/kdump
 
-SIS	http://sourceforge.net/projects/sisuite
+- mkCDrec	http://mkcdrec.sourceforge.net
 
-CloneZilla	http://clonezilla.org
+- SIS	http://sourceforge.net/projects/sisuite
 
-Partimage	http://www.partimage.org
+- CloneZilla	http://clonezilla.org
 
-OCS Inventory NG	http://www.ocsinventory-ng.org
+- Partimage	http://www.partimage.org
 
-Amanda	http://www.amanda.org/
+- OCS Inventory NG	http://www.ocsinventory-ng.org
 
-BackupPC	http://backuppc.sourceforge.net/
+- Amanda	http://www.amanda.org/
+
+- BackupPC	http://backuppc.sourceforge.net/
 

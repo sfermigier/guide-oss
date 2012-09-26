@@ -8,8 +8,6 @@ Ces solutions ont un périmètre large comme la gestion du parc matériel de la 
 Les outils de gestion de parc et d’inventaires peuvent également disposer d’une dimension financière (module de suivi de coûts, calcul d’amortissement, etc.).
 
 
-
-
 GLPI
 ----
 
@@ -22,11 +20,11 @@ GLPI est un outil d'inventaire de parc informatique et de Helpdesk, lancé en 20
 
 Il permet :
 
-la gestion du parc matériel de la société avec leurs contrats associés : ordinateurs (avec remonté automatique si couplé à OCS-NG ou Fusion Inventory), périphériques, imprimantes, éléments réseau, consommables.
+- la gestion du parc matériel de la société avec leurs contrats associés : ordinateurs (avec remonté automatique si couplé à OCS-NG ou Fusion Inventory), périphériques, imprimantes, éléments réseau, consommables.
 
-des fonctions d'assistance : accès utilisateur ou non, gestion fine des droits, notifications automatiques avec modèles personnalisables, SLA.
+- des fonctions d'assistance : accès utilisateur ou non, gestion fine des droits, notifications automatiques avec modèles personnalisables, SLA.
 
-une grande extensibilité grâce à ses plugins : intégration à des logiciels de supervision, gestion de projets, nouveaux éléments d'inventaire, etc.
+- une grande extensibilité grâce à ses plugins : intégration à des logiciels de supervision, gestion de projets, nouveaux éléments d'inventaire, etc.
 
 GLPI est basé sur les technologies PHP/MySQL.
 
@@ -56,7 +54,7 @@ Pulse 2
 :Porteur: un éditeur (Mandriva)
 :Licence: GPL
 
-Pulse 2 est un logiciel d'inventaire de parc informatique, d'imaging de poste et de télédéploiement créé par Mandriva, société française membre de Systematic.
+Pulse 2 est un logiciel d'inventaire de parc informatique, d'imaging de poste et de télédéploiement créé par Mandriva, société francilienne membre de Systematic.
 
 Grâce à un agent installé sur les postes, Pulse 2 permet la remonté des caractéristiques matériels et logiciels des postes. L'agent permet également la prise en main à distance sur les postes par les administrateurs au travers du protocole VNC sur un canal sécurisé (SSH). Le télédéploiement se fait par packages, éventuellement de manière distribuée, avec reporting et planification. Les plateformes Windows, Mac et Linux sont supportées. L'imaging de poste permet de créer des masters et de les installer rapidement et à distance sur des postes sans aucune intervention des administrateurs (Contrôle à distance, PXE).
 
@@ -69,10 +67,7 @@ Autres
 Parmi les produits de l’univers Gestion de parc et inventaires, on peut compléter la liste avec les outils ci-dessous :
 
 
+- Fusion Inventory	http://fusioninventory.org
 
-Nom	URL / Site web
-
-Fusion Inventory	http://fusioninventory.org
-
-Linbox Rescue Server	http://lrs.linbox.org
+- Linbox Rescue Server	http://lrs.linbox.org
 

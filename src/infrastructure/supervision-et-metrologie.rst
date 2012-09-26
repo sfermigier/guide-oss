@@ -5,12 +5,6 @@ La supervision et de la métrologie est un domaine bien servie par l’open sour
 
 Les outils de supervision permettent la surveillance de réseaux, machines, services, etc. Parmi les fonctionnalités que l’on peut trouver, on peut citer : la consultation de l'état des services et des machines supervisés, la métrologie, le reporting, l'accès aux évènements de supervision, la gestion avancée des utilisateurs et des ACL, mais aussi les dépendances, l'escalade de notification, les templates de services et d'hôtes, le support des surveillances actives et passives, etc.
 
-Dans cette rubrique, 6 solutions open source sont évaluées.
-
-
-
-Compte de tenu de la diversité des outils sélectionnés dans cette catégorie, les graphiques suivants ne présentent pas de moyenne.
-
 
 Vigilo
 ------
@@ -22,8 +16,6 @@ Vigilo
 TODO
 
 Vigilo est développé par la société française CS, membre de Systematic.
-
-
 
 
 Shinken
@@ -137,12 +129,9 @@ Autres
 Parmi les produits de l’univers Supervision et Métrologie, on peut compléter la liste avec les outils ci-dessous :
 
 
+- MRTG:	http://oss.oetiker.ch/mrtg
 
-Nom	URL / Site web
+- Zenoss:	http://community.zenoss.org
 
-MRTG	http://oss.oetiker.ch/mrtg
-
-Zenoss	http://community.zenoss.org
-
-Icinga	https://www.icinga.org
+- Icinga:	https://www.icinga.org
 

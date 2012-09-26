@@ -7,16 +7,12 @@ Le principe de la virtualisation est donc un principe de partage : les différen
 
 Pour être utile de manière opérationnelle, la virtualisation doit respecter deux principes fondamentaux : le cloisonnement (chaque système d’exploitation a un fonctionnement indépendant, et ne peut interférer avec les autres en aucune manière) et la transparence (le fait de fonctionner en mode virtualisé ne change rien au fonctionnement du système d’exploitation et a fortiori des applications).
 
-Dans cette catégorie, 4 outils open ont été sélectionnés dont les plus connus dans l’univers professionnel, Xen et KVM.
-
-
-
 
 Xen
 ---
 
 :Version: 4.1.1
-:Site: http://xen.org
+:Site: www.xen.org
 :Porteur: un éditeur (Citrix)
 :Licence: GPL
 
@@ -63,15 +59,16 @@ VirtualBox est une solution de virtualisation, créée en 2007 et destinée aux 
 
 VirtualBox supporte un grand nombre de systèmes d'exploitation invités, et dispose de fonctionnalités d'interaction avec ces systèmes : partage de fichiers, intégration du pointeur de souris, fusion du bureau avec le bureau hôte. Certaines options, telles le partage des périphériques USB, peuvent être ajoutées sous forme de plugins propriétaires.
 
+QEMU
+----
 
-Autres
-------
+:Version: 1.2.0
+:Site: www.qemu.org
+:Porteur: une communauté
+:Licence: GPL
 
-Parmi les produits de l’univers Virtualisation, on peut compléter la liste avec les outils ci-dessous :
+QEMU est un émulateur de système libre développé à l'origine par Fabrice Bellard.
 
+QEMU fonctionne sur les plateformes x86, x64, PPC, Sparc et ARM et fonctionne sous les systèmes d'exploitation Linux, FreeBSD, NetBSD, OpenBSD, Mac OS X, Unix et Microsoft Windows. Il sait émuler des systèmes à base de processeurs x86, PowerPC, ARM et SPARC. Du fait de sa versatilité, il est souvent utilisé dans le cadre de travaux de recherche et développement.
 
-
-Nom	URL / Site web
-
-Qemu	http://wiki.qemu.org
-
+Utilisé conjointement à KVM, il permet de virtualiser un système x86 au-dessus d'un processeur x86 avec une perte de performance minimale.

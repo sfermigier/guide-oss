@@ -2,7 +2,6 @@
 :Authors: Divers
 :Date: 25 septembre 2012
 
-.. contents:: Table des matières
 
 .. include:: src/applications/dimension-applications.rst
 .. include:: src/applications/crm.rst
@@ -60,11 +59,11 @@
 .. include:: src/licences.rst
 
 
-Annexe: annuaire des prestataires en IdF
-========================================
+Annexe: annuaire des prestataires et fournisseurs de solutions en Île-de-France
+===============================================================================
 
-La liste qui suit regroupe des sociétés présentent en Île-de-France, actives au sein des associations reconnues du secteur du logiciel libre (Pôles de compétitivité, consortia et associations professionnelles).
+La liste qui suit regroupe des sociétés présentes en Île-de-France, actives au sein des associations reconnues du secteur du logiciel libre (Pôles de compétitivité, consortia et associations professionnelles).
 
-Leur présence dans cet annuaire est cependant bien évidemment purement indicative, et ne saurait constituer à elle seule un label indiscutable de qualité ou de respect des valeurs et des principes du logiciel libre et de l'open source.
+Leur présence dans cet annuaire est bien évidemment purement indicative, et ne saurait constituer à elle seule un label indiscutable de qualité ou de respect des valeurs et des principes du logiciel libre et de l'open source. Nous vous invitons à vous en assurer en les contactant.
 
 .. include:: src/annuaire.rst

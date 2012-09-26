@@ -67,18 +67,15 @@ Autres
 Parmi les produits de l’univers VOIP/Téléphonie, on peut compléter la liste avec les outils ci-dessous :
 
 
+- CallWeaver:	http://www.callweaver.org
 
-Nom	URL / Site web
+- SER:	http://www.iptel.org/ser
 
-CallWeaver	http://www.callweaver.org
+- sipXecs:	http://www.sipfoundry.org
 
-SER	http://www.iptel.org/ser
+- Trixbox:	http://fonality.com/trixbox
 
-sipXecs	http://www.sipfoundry.org
+- Yate:	http://yate.null.ro/pmwiki
 
-Trixbox	http://fonality.com/trixbox
-
-Yate	http://yate.null.ro/pmwiki
-
-FreeSwitch	http://www.freeswitch.org
+- FreeSwitch:	http://www.freeswitch.org
 

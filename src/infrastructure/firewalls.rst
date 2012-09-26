@@ -10,8 +10,6 @@ Le firewall peut également être utilisé dans un rôle plus qualitatif, plus f
 En matière de firewall, l’offre open source est très riche avec des produits tels que Packet Filter, NetFilter ou pfSense.
 
 
-
-
 pf (Packet Filter)
 ------------------
 
@@ -53,24 +51,19 @@ Très fréquemment rencontré dans les PME et les petites structures, pfSense of
 Un support officiel est proposé par la société BSD Perimeter.
 
 
-
-
 Autres
 ------
 
 Parmi les produits de l’univers Firewalls, on peut compléter la liste avec les outils ci-dessous :
 
 
+- NuFW:  http://www.nufw.org
 
-Nom URL / Site web
+- Uncomplicated Firewall:  https://launchpad.net/ufw
 
-NuFW  http://www.nufw.org
+- Firewall Builder:  http://www.fwbuilder.org
 
-Uncomplicated Firewall  https://launchpad.net/ufw
+- Ferm: http://ferm.foo-projects.org
 
-Firewall Builder  http://www.fwbuilder.org
-
-Ferm  http://ferm.foo-projects.org
-
-ShoreWall http://shorewall.net
+- ShoreWall: http://shorewall.net
 
