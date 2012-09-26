@@ -25,14 +25,6 @@ Site: www.adacore.com
 
 La vision d’AdaCore est la création d’une solution 100% libre pour la certification de logiciels critiques dans l’aéronautique, le spatial et le transport. AdaCore est le principal éditeur de solutions de développement pour Ada 83, Ada 95, et Ada 2005, le langage de programmation spécifiquement conçu pour les projets logiciels de grande dimension et de longue durée dans lesquels la fiabilité, l’efficacité et la sécurité sont critiques. GNAT Pro, le produit phare d’AdaCore, comprend un ensemble complet d’outils de développement (compilateur, debugger, IDE, divers librairies, outils de vérification de mémoire, de couverture, de test, kit de certification DO-178B, …) et un support technique de très haut niveau, ce qui garantit des réponses rapides et adaptées aux besoins de ses clients.
 
-AGORANOV
---------
-
-Adresse: 3, Rue Castex, 75004 PARIS
-
-Site: -
-
-
 ALFSTORE
 --------
 
@@ -77,26 +69,6 @@ Site: www.anakeen.com
 
 Développeur et commerce de solution logiciel pour la gestion de fichiers et l'accès aux données.
 
-ANT'INNO
---------
-
-Adresse: 29, Rue De La Beaune, 93100, MONTREUIL
-
-Site: www.antinno.fr
-
-Ant'inno est un éditeur de logiciel. Ant'inno développe et commercialise un logiciel de gestion collaborative de documents,
-l'Ant'box. Le critère différenciant de la solution Ant'box est le caractère optionnel du classement des documents qui est
-possible mais pas obligatoire. Cette particularité fonctionnelle impose l'intégration d'un moteur de recherche textuel très
-performant en terme de pertinence. L'industrialisation du moteur de recherche en langage naturel du CEA ainsi que la gestion
-des ressources linguistiques multilingues sont aussi au coeur de métier d'Ant'inno.
-Le marché cible d'Ant'inno pour son logiciel Ant'box est constitué de petites et moyennes structures où les documents et les
-connaissances sont très importants et ont la nécessité d'être disponibles et partagés sur un mode collaboratif L'autre marché
-cible d'Ant'inno est la distribution de l'analyseur linguistique LIMA du CEA ainsi que la production de données linguistiques
-générales et spécifiques.
-C’est une société qui est à la fois neuve et innovante et qui a un passé très riche. Ses fondateurs travaillent ensemble depuis de nombreuses années sur la gestion de données et sur des sujets connexes comme le moteur de recherche syntaxique.
-
-Le profil et l’expérience des fondateurs d’Ant’inno sont riches, variés et complémentaires. L’un a une formation de mathématicien, d’informaticien théorique et de psychologue, avec l’expérience de l’enseignement, du conseil et de la direction d’entreprise. Un autre a une formation d’ingénieur en informatique et de marketing, avec l’expérience de l’enseignement, de l’informatique industrielle et temps réel, de la linguistique et du traitement pixellique. Un autre a une formation de biologiste et d’ingénieur en informatique avec l’expérience du logiciel industriel, de la direction de projet, de la direction technique. Un autre a une formation d’ingénieur en informatique avec l’expérience des technologies du web.
-
 ARAOK!
 ------
 
@@ -129,7 +101,7 @@ CARA-MEL
 
 Adresse: 5, Rue Marguerite, 91200 ATHIS-MONS
 
-Site: None
+Site: http://www.cara-mel.fr/
 
 
 CELI
