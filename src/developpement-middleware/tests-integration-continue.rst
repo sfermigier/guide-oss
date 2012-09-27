@@ -47,7 +47,7 @@ Selenium IDE
 :Porteur: une communauté
 :Licence: Apache
 
-Selenium est un outil de tests d'interfaces. Le projet a débuté en 2004 chez ThoughtWorks à Chicago grâce à Jason Huggins lequel voulait tester les temps de réponse de diverses applications (Python, Plone, etc.).
+Selenium est un outil de tests d'interfaces. Le projet a débuté en 2004 chez ThoughtWorks à Chicago grâce à Jason Huggins, lequel voulait tester les temps de réponse de diverses applications (Python, Plone, etc.).
 
 Selenium IDE permet d'enregistrer des tests d'interfaces depuis Firefox puis de les sauvegarder afin de les rejouer avec Selenium. Cet outil est très utile pour vérifier qu'une interface est conforme à ce qui est attendu. De plus, il peut être intégré à une plateforme d'intégration continue afin d'automatiser les tests d'interfaces. Selenium IDE n'est pas seulement un outil d'enregistrement : il s'agit d'un environnement de développement intégré (IDE). L'utilisateur peut choisir d'utiliser sa capacité d'enregistrement, ou peut modifier les scripts à la main.
 
