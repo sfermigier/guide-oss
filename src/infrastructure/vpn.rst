@@ -33,5 +33,5 @@ OpenSwan
 
 Openswan est une implémentation IPsec pour Linux, descendante du projet FreeS/WAN (remontant à 1999).
 
-OpenSwan permet la mise en place de liens IPsec entre machines, mais également de tunnels VPN, et ce aussi bien entre réseaux d'entreprises que pour des clients nomades. Il est compatible avec un grand nombre de systèmes d’exploitation et de solutions propriétaires.
+OpenSwan permet la mise en place de liens IPsec entre machines, mais également de tunnels VPN, et ce, aussi bien entre réseaux d'entreprises que pour des clients nomades. Il est compatible avec un grand nombre de systèmes d’exploitation et de solutions propriétaires.
 
