@@ -35,15 +35,15 @@ ERP5
 :Porteur: un éditeur (Nexedi)
 :Licence: GPL
 
-ERP5 a été développé à partir de 2001 par l'Ingénieur de Mines Jean-Paul Smets. Grâce à sa conception radicalement différente des autres ERP, c'est aujourd'hui probablement le seul ERP open source à avoir remplacé avec succès des ERP propriétaires dans plusieurs entreprises multinationales, notamment au Japon et en Allemagne, ainsi que dans une banque centrale.
+ERP5 a été développé à partir de 2001 par l'Ingénieur de Mines Jean-Paul Smets. Grâce à sa conception radicalement différente des autres ERP, ERP5 a remplacé avec succès des ERP propriétaires dans plusieurs entreprises multinationales, notamment au Japon et en Allemagne, ainsi que dans une banque centrale.
 
 Selon Brian Prentice, analyste chez Gartner, la force d'ERP5 tient à la fois à son modèle conceptuel et à son architecture technique.
 
-Alors que la plupart des ERP a besoin de milliers de tables, ERP5 parvient à unifier les sciences de gestion autour d'un modèle abstrait à 5 classes qui a fait l'objet de plusieurs publications scientifiques et a prouvé sa capacité à épouser un très large spectre de besoins fonctionnels: budget, comptabilité, CRM, achats, ventes, stock, production, RH, supply chain, projets, logistique, KM. C'est aussi un CMS multilingue complet intégrant une suite bureautique en ligne, une GED capable de reconnaissance optique des textes numérisés, un moteur de workflows d'entreprise et un système de e-business capable d'intégrer les ventes de plusieurs sites, notamment Prestashop, Magento et OSCommerce. C'est aussi depuis peu un système de gestion et de facturation pour le Cloud Computing.
+Alors que la plupart des ERP a besoin de milliers de tables, ERP5 parvient à unifier les sciences de gestion autour d'un modèle abstrait à 5 classes qui a fait l'objet de plusieurs publications scientifiques et a prouvé sa capacité à épouser un très large spectre de besoins fonctionnels: budget, comptabilité, CRM, achats, ventes, stock, production, RH, supply chain, projets, logistique, KM. Il intègre également un CMS multilingue complet, une suite bureautique en ligne, une GED, un moteur de workflows d'entreprise et un système de e-business capable d'intégrer les ventes de plusieurs sites, notamment Prestashop, Magento et OSCommerce. C'est aussi depuis peu un système de gestion et de facturation pour le Cloud Computing.
 
-Alors que la plupart des ERP modernes fait appel à une architecture de type Object Relational Mapper (ORM), ERP5 fait appel à une base NoSQL de type objet (NEO) associée à un moteur d'indexation relationnel (MariaDB) et plein texte (Mroonga, Sphinx). ERP5 résout ainsi les limites connues des ORM et permet la migration de données sans interruption de service lors des mises à jour. Cette architecture "search based" est adaptée aux systèmes critiques en 24/7. Son moteur de sécurité par règles simplifie la gestion de droits d'accès dans les grandes organisations à organigramme matriciel (site, fonction, projet, service). ERP5 intègre le support natif du protocole git et permet le développement en ligne du code dans le navigateur de façon collaborative.
+Alors que la plupart des ERP modernes fait appel à une architecture de type Object Relational Mapper (ORM), ERP5 fait appel à une base NoSQL de type objet (NEO) associée à un moteur d'indexation relationnel (MariaDB) et plein texte (Mroonga, Sphinx). ERP5 permet ainsi la migration de données sans interruption de service lors des mises à jour. Cette architecture "search based" est adaptée aux systèmes critiques en 24/7. Son moteur de sécurité par règles simplifie la gestion de droits d'accès dans les grandes organisations à organigramme matriciel (site, fonction, projet, service). ERP5 intègre le support natif du protocole git et permet le développement en ligne du code dans le navigateur de façon collaborative.
 
-ERP5 est développé par la société française Nexedi, membre de Systematic. ERP5 fait partie du portail du logiciel public du gouvernement brésilien avec un communauté de plus de 9000 membres. Il est enseigné dans plusieurs dizaines d'universités dans le monde dans le cadre du programme "One Student One ERP".
+ERP5 est développé par la société française Nexedi, membre de Systematic.
 
 
 OFBiz
@@ -59,8 +59,6 @@ Le projet Open For Business (« Ofbiz ») est né en 2001, et a terminé sa prem
 Depuis le projet s’est enrichi de nombreux modules fonctionnels. En 2006, il a même été soumis comme projet « incubator » à la fondation Apache. Il en est très rapidement sorti comme projet approuvé de très bon niveau. A la différence de Compiere ou d’OpenERP, OFBiz n’a pas la vocation à être un ERP clé en main. Il s’agit d’un framework ERP pour développer des logiciels d’entreprise. D’ailleurs l’outil s’est fortement spécialisé dans les interfaces d’e-commerce ces dernières années.
 
 OFBiz est écrit en Java.
-
-
 
 
 Openbravo

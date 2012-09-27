@@ -1,7 +1,21 @@
 Big Data et NoSQL
 =================
 
-Depuis 2009, une nouvelle mouvance – le NoSQL – est apparue. Elle propose une alternative au SQL et au modèle relationnel afin de permettre un haut niveau de scalabilité (extensibilité), et permettre aux entreprises de toutes tailles d'exploiter au mieux le déluge de données (*big data*) qu'elles sont capables de
+Depuis 2009, une nouvelle mouvance – le NoSQL – est apparue. Elle propose une alternative au SQL et au modèle relationnel afin de permettre un haut niveau de scalabilité (extensibilité), et permettre aux entreprises de toutes tailles d'exploiter au mieux le déluge de données (*big data*) qu'elles sont capables de générer ou d'acquérir.
+
+Apache Hadoop
+-------------
+
+:Version: 1.0.3
+:Site: http://hadoop.apache.org/
+:Porteur: une fondation (Apache)
+:Licence: Apache
+
+Apache Hadoop est une plateforme Java pour développer des applications distribuées autour de jeux de données massifs. Hadoop comprend un nombre significatifs de sous-projets, dont les plus importants
+
+Apache Hadoop is an open-source software framework that supports data-intensive distributed applications, licensed under the Apache v2 license.[1] It enables applications to work with thousands of computational independent computers and petabytes of data. Hadoop was derived from Google's MapReduce and Google File System (GFS) papers.
+The entire Apache Hadoop “platform” is now commonly considered to consist of the Hadoop kernel, MapReduce and HDFS, as well as a number of related projects – including Apache Hive, Apache Hbase, and others.[2]
+Hadoop is a top-level Apache project being built and used by a global community of contributors,[3] written in the Java programming language. The Apache Hadoop project and its related projects (Hive, HBase, Zookeeper, and so on) have many contributors from across the ecosystem.[4]
 
 
 MongoDB
@@ -43,7 +57,7 @@ Redis
 
 Redis est un dépot de données clé/valeur issue de la mouvance NoSQL. Le projet est sponsorisé par VMware. La première version a été publiée en 2009 par Salvatore Sanfilippo et Pieter Noordhuis.
 
-Comme la plupart des datastore key / value, Redis propose une interface HTTP REST. Son originalité par rapport aux autres solutions disponibles réside dans le fait que Redis dispose d'un ensemble de fonctions de manipulation de données principalement axées sur la manipulation des chaines de caractères qui sont stockées, conférant à Redis la capacité de construire des requêtes légèrement plus complexes que ses concurrents traditionnellement limités aux opérations CRUD (Create Reade Update Delete). Les bonnes performances de Redis, que ce soit en lecture ou en écriture, le positionnent comme un excellent choix pour l'implémentation de backend de cache ou de gestionnaire de session.
+Comme la plupart des *datastores* key / value, Redis propose une interface HTTP REST. Son originalité par rapport aux autres solutions disponibles réside dans le fait que Redis dispose d'un ensemble de fonctions de manipulation de données principalement axées sur la manipulation des chaines de caractères qui sont stockées, conférant à Redis la capacité de construire des requêtes légèrement plus complexes que ses concurrents traditionnellement limités aux opérations CRUD (Create Reade Update Delete). Les bonnes performances de Redis, que ce soit en lecture ou en écriture, le positionnent comme un excellent choix pour l'implémentation de backend de cache ou de gestionnaire de session.
 
 Redis est écrit en C.
 
@@ -58,7 +72,7 @@ Apache Cassandra
 
 Cassandra est une autre base de données de la mouvance NoSQL. Initialement développée par Facebook en 2008, elle a été par la suite libérée et son développement est aujourd'hui assuré par la fondation Apache.
 
-Cassandra est une base de données orientée colonne. Etudiée pour des déploiements massivement distribués (éventuellement sur plusieurs datacenters), Cassandra est l'une des bases les plus performantes dès lors qu'il s'agit de répondre à des problématiques de traitement de données massif. Son architecture complètement décentralisée lui confère par ailleurs une résistance à la panne très importante. Comme la plupart des bases orientées colonnes, elle est par ailleurs particulièrement adaptée aux problématiques décisionnelles.
+Cassandra est une base de données dite "orientée colonne". Etudiée pour des déploiements massivement distribués (éventuellement sur plusieurs datacenters), Cassandra est l'une des bases les plus performantes dès lors qu'il s'agit de répondre à des problématiques de traitement de données massif. Son architecture complètement décentralisée lui confère par ailleurs une résistance à la panne très importante. Comme la plupart des bases orientées colonnes, elle est par ailleurs particulièrement adaptée aux problématiques décisionnelles.
 
 Cassandra est écrit en Java.
 
@@ -68,10 +82,8 @@ Autres
 
 L'univers Big Data / NoSQL est particulièrement dynamique, on peut compléter la liste avec les outils ci-dessous :
 
-- db4o  http://www.db4o.com
+- CouchDB: http://couchdb.apache.org
 
-- CouchDB http://couchdb.apache.org
+- Neo4j: http://neo4j.org
 
-- Neo4j http://neo4j.org
-
-- Voldemort http://www.project-voldemort.com
+- Voldemort: http://www.project-voldemort.com
