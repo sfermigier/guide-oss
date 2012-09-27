@@ -1,9 +1,9 @@
 Gestion de parc et inventaires
 ==============================
 
-Les outils de gestion de parc et d’inventaires open source sont de plus en plus plébiscités dans les entreprises avec des références phrases comme GLPI ou OCS Inventory NG utilisées par nombreux acteurs du CAC 40.
+Les outils de gestion de parc et d’inventaires open source sont de plus en plus plébiscités dans les entreprises avec des références phares comme GLPI ou OCS Inventory NG utilisées par de nombreux acteurs du CAC 40.
 
-Ces solutions ont un périmètre large comme la gestion du parc matériel de la société, la gestion des contrats associés (ordinateurs, périphériques, imprimantes, éléments réseau, consommables, etc.), des fonctions d'assistance (accès utilisateur ou non, gestion fine des droits, notifications automatiques avec modèles personnalisables, SLA), la gestion des licences, etc.
+Ces solutions ont un périmètre fonctionnel large incluant la gestion du parc matériel de la société, la gestion des contrats associés (ordinateurs, périphériques, imprimantes, éléments réseau, consommables, etc.), des fonctions d'assistance (accès utilisateur ou non, gestion fine des droits, notifications automatiques avec modèles personnalisables, SLA), la gestion des licences, etc.
 
 Les outils de gestion de parc et d’inventaires peuvent également disposer d’une dimension financière (module de suivi de coûts, calcul d’amortissement, etc.).
 
@@ -20,7 +20,7 @@ GLPI est un outil d'inventaire de parc informatique et de Helpdesk, lancé en 20
 
 Il permet :
 
-- la gestion du parc matériel de la société avec leurs contrats associés : ordinateurs (avec remonté automatique si couplé à OCS-NG ou Fusion Inventory), périphériques, imprimantes, éléments réseau, consommables.
+- la gestion du parc matériel de la société avec leurs contrats associés : ordinateurs (avec remontée automatique si couplé à OCS-NG ou Fusion Inventory), périphériques, imprimantes, éléments réseau, consommables.
 
 - des fonctions d'assistance : accès utilisateur ou non, gestion fine des droits, notifications automatiques avec modèles personnalisables, SLA.
 
@@ -56,7 +56,7 @@ Pulse 2
 
 Pulse 2 est un logiciel d'inventaire de parc informatique, d'imaging de poste et de télédéploiement créé par Mandriva, société francilienne membre de Systematic.
 
-Grâce à un agent installé sur les postes, Pulse 2 permet la remonté des caractéristiques matériels et logiciels des postes. L'agent permet également la prise en main à distance sur les postes par les administrateurs au travers du protocole VNC sur un canal sécurisé (SSH). Le télédéploiement se fait par packages, éventuellement de manière distribuée, avec reporting et planification. Les plateformes Windows, Mac et Linux sont supportées. L'imaging de poste permet de créer des masters et de les installer rapidement et à distance sur des postes sans aucune intervention des administrateurs (Contrôle à distance, PXE).
+Grâce à un agent installé sur les postes, Pulse 2 permet la remontée des caractéristiques matériels et logiciels des postes. L'agent permet également la prise en main à distance sur les postes par les administrateurs au travers du protocole VNC sur un canal sécurisé (SSH). Le télédéploiement se fait par packages, éventuellement de manière distribuée, avec reporting et planification. Les plateformes Windows, Mac et Linux sont supportées. L'imaging de poste permet de créer des masters et de les installer rapidement et à distance sur des postes sans aucune intervention des administrateurs (Contrôle à distance, PXE).
 
 Pulse 2 est construit sur plusieurs technologies : Python, MySQL et C++.
 
