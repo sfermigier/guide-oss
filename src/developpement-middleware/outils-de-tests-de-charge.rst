@@ -23,7 +23,7 @@ Jmeter est un outil d'injection de trafic édité par la fondation Apache.
 
 Il est utilisé pour réaliser des tests de charge sur plusieurs types de serveurs : Web, LDAP, Bases de données, etc. Il dispose d'une interface graphique qui rend la création de scénarios d'utilisation plus facile. Les scénarios en eux-mêmes peuvent être d'une grande complexité, avec des boucles, conditions, extraction et réutilisation de variables, chargement de variables depuis un fichier externe, et de nombreux types de graphes et de statistiques.
 
-JMeter est distribuée sous licence Apache.
+JMeter est distribué sous licence Apache.
 
 Son développement a commencé en 2001, il est réalisé en Java.
 
