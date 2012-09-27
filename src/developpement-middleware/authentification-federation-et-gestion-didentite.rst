@@ -53,11 +53,11 @@ OpenAM
 :Porteur: un éditeur (ForgeRock)
 :Licence: CDDL (Common Development and Distribution License, licence open source créée par Sun Microsystems, basée sur la Mozilla Public License, version 1.1).
 
-OpenAM est une solution complète de gestion d'identités. Suite à la décision de Sun d'arrêter le développement d'OpenSSO, la société ForgeRock a initié une branche qu'elle a nommé OpenAM et qu'elle continue de développer et de maintenir depuis lors. Elle a annoncé qu'elle allait poursuivre la sortie de nouvelles versions d'OpenAM en suivant la feuille de route d'origine de Sun Microsystems.
+OpenAM est une solution complète de gestion d'identités. Suite à la décision de Sun d'arrêter le développement d'OpenSSO, la société ForgeRock a initié une branche qu'elle a nommée OpenAM et qu'elle continue de développer et de maintenir depuis lors. Elle a annoncé qu'elle allait poursuivre la sortie de nouvelles versions d'OpenAM en suivant la feuille de route d'origine de Sun Microsystems.
 
 OpenAM est une brique d'infrastructure permettant d'assurer de façon transparente les fonctions de Single Sign On aussi bien pour des applications WEB que pour des Middleware.  OpenAM fournit une solution permettant un déploiement facilité des projets de gestion des droits d’accès Web : la passerelle universelle.
 
-OpenAM est développé en Java.
+OpenAM est développée en Java.
 
 
 
@@ -115,9 +115,6 @@ Autres
 
 Parmi les produits de l’univers Authentification, fédération et gestion d’identité, on peut compléter la liste avec les outils ci-dessous :
 
-
-
-Nom	URL / Site web
 
 OpenSSO	http://java.net/projects/opensso
 
