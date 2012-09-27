@@ -234,7 +234,7 @@ Adresse: 45-47, Avenue Pierre Brossolette, 92120 MONTROUGE
 
 Site: www.henix.com
 
-Henix est une société de Service en Ingénierie Informatique créée en 1999, spécialisée en Qualification Logicielle et en Assistance à Maîtrise d'Ouvrage. 
+Henix est une société de Service en Ingénierie Informatique créée en 1999, spécialisée en Qualification Logicielle et en Assistance à Maîtrise d'Ouvrage.
 Henix propose à ses clients des équipes dédiées aux tests, organisées en Centre de Service Recette. Son outillage open source, développé dans le cadre du projet R&D Squash, lui a permis de démocratiser l'accès à une alternative open source mature, de renforcer sa visibilité sur ce créneau auprès de grands comptes (groupes, ministères,...) et de renforcer la légitimité de ses services de qualification logicielle et de ses services supports. Via sa filiale École de la Qualité Logicielle, Henix contribue également à la professionnalisation/montée en technicité des métiers de la qualité logicielle.
 Henix anime le Club Qualité Logicielle, créé en 2006 à l’initiative de responsables informatiques qualité/méthode/outils de grandes sociétés françaises. Le Club s’intéresse aux différentes facettes de la qualité, aux travers d'échanges entre grands comptes (normalisation, échange de bonnes pratiques, retour d'expérience), de présentations de solutions, et de groupes de travail.
 En assistance à maitrise d'ouvrage, Henix intervient en analyse métier et fonctionnelle, en conduite de projet / PMO et en accompagnement du changement, dans les domaines de la santé, de l'énergie, en banque/finance et transports/logistique.
@@ -286,14 +286,15 @@ Adresse: 80, Rue Roque De Fillol, 92800 PUTEAUX
 
 Site: www.linagora.com
 
-LINAGORA, société spécialisée en Logiciel Libre, édite ses propres logiciels et propose une gamme de services professionnels.
-L'activité d'édition s'articule autour de 4 produits : 
+Linagora, société spécialisée en Logiciel Libre, édite ses propres logiciels et propose une gamme de services professionnels.
+L'activité d'édition s'articule autour de 4 produits :
+
 - OBM (outils de messagerie et de travail collaboratif) ;
-- LinPKI (solutions de confiance numérique et de sécurité) ; 
+- LinPKI (solutions de confiance numérique et de sécurité) ;
 - LinID (applications de gestion et de fédération des identités) ;
 - Petals (l'ESB libre qui s'adapte aux infrastructure étendues et grande échelle).
 
-LINAGORA propose également l'Open Source Software Assurance (www.0800LINUX.com), offre de support et maintenance contractuellement garantis sur plus de 200 logiciels libres.
+Linagora propose également l'Open Source Software Assurance (www.0800LINUX.com), offre de support et maintenance contractuellement garantis sur plus de 200 logiciels libres.
 Les services de développement et intégration, de création web, de formations et de conseil complètent l'offre de Linagora.
 
 LOGILAB

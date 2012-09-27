@@ -127,11 +127,11 @@ OBM
 :Porteur: un éditeur (Linagora)
 :Licence: Affero GPL v3
 
-OBM est une solution de messagerie collaborative, entièrement Open Source. Elle est fortement utilisée dans les services publics français et dispose aussi d'une offre SaaS. Elle est développée par la société francilienne Linagora, membre de Systematic.
+OBM est une solution de messagerie collaborative. Elle est utilisée dans les services publics français et propose aussi une offre SaaS. Elle est développée par la société francilienne Linagora, membre de Systematic.
 
-OBM apporte depuis 1999 une alternative crédible aux produits Microsoft Exchange et Lotus Domino. Basé sur une architecture distribué, le logiciel consolide de célèbres composants open source pour fournir une solution professionnelle. OBM dispose d'un front-end web permettant l'administration de la solution, ainsi que l'accès aux calendriers, contacts et aux emails via roundcube. Des connecteurs pour Mozilla Thunderbird et Microsoft Outlook sont disponibles, ainsi que la connectivité Smartphone via le standard de fait ActiveSync.
+OBM apporte depuis 1999 une alternative crédible aux produits Microsoft Exchange et Lotus Domino. OBM dispose d'un front-end web permettant l'administration de la solution, ainsi que l'accès aux calendriers, contacts et aux emails via roundcube. Des connecteurs pour Mozilla Thunderbird et Microsoft Outlook sont disponibles, ainsi que la connectivité Smartphone via le standard de fait ActiveSync.
 
-OBM utilise Postfix et Cyrus pour la gestion des emails, OpenLDAP comme annuaire, supporte les bases de données MySQL et PostgreSQL. Le front-end web repose sur Apache/PHP, avec RoundCube pour la partie webmail. Les web-services ainsi que connectivité smartphone sont réalisés en Java.
+Basé sur une architecture distribué, OBM utilise Postfix et Cyrus pour la gestion des emails, OpenLDAP comme annuaire, supporte les bases de données MySQL et PostgreSQL. Le front-end web repose sur Apache/PHP, avec RoundCube pour la partie webmail. Les web-services ainsi que connectivité smartphone sont réalisés en Java.
 
 Blue Mind
 ---------
@@ -156,9 +156,9 @@ Autres
 
 Parmi les produits de l’univers Messagerie, Emailing & Groupware, on peut compléter la liste avec les outils ci-dessous :
 
-- RoundCube	http://roundcube.net
+- RoundCube:	http://roundcube.net
 
-- EGroupware	http://www.egroupware.org
+- EGroupware:	http://www.egroupware.org
 
-- Open-Xchange	http://www.open-xchange.com
+- Open-Xchange:	http://www.open-xchange.com
 

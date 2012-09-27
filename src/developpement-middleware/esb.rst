@@ -10,8 +10,6 @@ Les ESB interviennent en tant que « médiateur » entre les clients et les four
 Dans l’univers de l’open source, des solutions de référence existent comme Talend ESB, Mule et Petals.
 
 
-
-
 Talend ESB
 ----------
 
@@ -40,8 +38,8 @@ Mule est une plateforme favorisant les échanges multiples entre différentes ap
 Mule est écrit en Java.
 
 
-Petals
-------
+Petals ESB
+----------
 
 :Version: 3.1.3
 :Site: http://petals.ow2.org
@@ -58,13 +56,9 @@ Autres
 
 Parmi les produits de l’univers ESB, on peut compléter la liste avec les outils ci-dessous :
 
+- JBoss Enterprise Service Bus:	http://www.jboss.org/jbossesb
 
+- ServiceMix:	http://servicemix.apache.org
 
-Nom	URL / Site web
-
-JBoss Enterprise Service Bus	http://www.jboss.org/jbossesb
-
-ServiceMix	http://servicemix.apache.org
-
-Synapse	http://synapse.apache.org
+- Synapse:	http://synapse.apache.org
 
