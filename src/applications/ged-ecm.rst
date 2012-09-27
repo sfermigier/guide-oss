@@ -20,7 +20,7 @@ Alfresco
 :Porteur: un éditeur (Alfresco Software)
 :Licence: GPL et propriétaire
 
-Alfresco est solution d’ECM, créé en 2005, par un éditeur anglais Alfresco Software fondé en 2005 par d'anciens dirigeants de Documentum et Business Object. La société est aujourd'hui présente directement en Angleterre, en France et aux Etats-Unis.
+Alfresco est une solution d’ECM, créé en 2005, par l'éditeur anglais Alfresco Software, une société fondée par d'anciens dirigeants de Documentum et Business Object. La société est aujourd'hui présente directement en Angleterre, en France et aux Etats-Unis.
 
 Alfresco propose l’ensemble des fonctionnalités attendues du domaine de la gestion documentaire : métadonnées, types de documents, workflow documentaire et avancé, gestion de catégories, outils de collaboration, recherche, gestion de plusieurs bases indépendantes, gestion de contenu Web, etc.
 
