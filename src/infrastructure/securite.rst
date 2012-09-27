@@ -60,7 +60,7 @@ OpenVAS
 
 OpenVAS (Open source Vulnerability Assessment Scanner) est un projet issu du célèbre scanner Nessus dont la première version date de 1998.
 
-Il permet de tester la présence, dans les systèmes à tester, de failles de sécurité. Contrairement à Nessus, OpenVAS est complètement open source et dispose de mises à jours gratuites fournies par la communauté. Des mises à jour payantes, à la disponibilité garantie, et une interface d'administration graphique sont proposés par l'éditeur Greenbone.
+Il permet de tester la présence, dans les systèmes à tester, de failles de sécurité. Contrairement à Nessus, OpenVAS est complètement open source et dispose de mises à jours gratuites fournies par la communauté. Des mises à jour payantes, à la disponibilité garantie, et une interface d'administration graphique sont proposées par l'éditeur Greenbone.
 
 
 
@@ -76,7 +76,7 @@ Wireshark (anciennement Ethereal, changement pour des raisons de copyright essen
 
 Il est utilisé par grand nombre d'administrateurs pour diagnostiquer des problèmes réseaux complexes. Disponible sous forme d'une application graphique lourde ainsi qu'une interface en mode texte, il est capable de décoder un très grand nombre de protocoles, y compris chiffrés.
 
-Wireshark est multi-plateformes, il fonctionne sous Windows, Mac OS X, Linux, Solaris, ainsi que sous FreeBSD. Wireshark reconnait 759 protocoles.
+Wireshark est multi-plateforme, il fonctionne sous Windows, Mac OS X, Linux, Solaris, ainsi que sous FreeBSD. Wireshark reconnait 759 protocoles.
 
 
 
