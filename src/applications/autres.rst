@@ -1,7 +1,7 @@
 Autres
 ======
 
-Dans cette dernière rubrique de la dimension « Applications », nous présentons d’autres outils open source qui peuvent trouver leur intérêt dans les entreprises même s’il était difficile d’en faire une catégorie à part entière.
+Dans cette dernière rubrique de la dimension « Applications », nous présentons d’autres outils open source qui peuvent trouver leur intérêt dans les entreprises même s’il est difficile d’en faire une catégorie à part entière.
 
 Nous présentons notamment QGis (un système d'information géographique bureautique), OpenX (un outil de régie publicitaire) et Limesurvey (un outil avancé de création de sondages et d’enquêtes professionnels).
 
@@ -30,7 +30,7 @@ OpenX
 
 OpenX est une solution de gestion d’espaces publicitaires open source. C’est la société américaine OpenX qui édite et supporte cet outil. OpenX permet de bien maîtriser les campagnes publicitaires d’un ou plusieurs sites, et d’en connaître ses performances.
 
-OpenX a un périmétre fonctionnel relativement large : gestion multi sites, multi-annonceurs, affichage de bannières selon un calendrier (date début/fin), affichage rotatif dans un même espace (zone), multi-formatz (IAB et plus), limitation à un nombre de clic ou d’affichage par jour, gestion des priorités à certaines campagnes, etc. OpenX supporte toute une variété de médias (Images, Html, Javascript, Flash, Google Ad Sense, Doubleclick, Atlas, Yahoo). On peut également suivre les statistiques pour chaque campagne : suivi des affichages, suivi des clics et rapport selon les canaux, export Excel, HTML, CSV des rapports, etc.
+OpenX a un périmétre fonctionnel relativement large : gestion multi-sites, multi-annonceurs, affichage de bannières selon un calendrier (date début/fin), affichage rotatif dans un même espace (zone), multi-formats (IAB et plus), limitation à un nombre de clic ou d’affichage par jour, gestion des priorités à certaines campagnes, etc. OpenX supporte toute une variété de médias (Images, Html, Javascript, Flash, Google Ad Sense, Doubleclick, Atlas, Yahoo). On peut également suivre les statistiques pour chaque campagne : suivi des affichages, suivi des clics et rapport selon les canaux, export Excel, HTML, CSV des rapports, etc.
 
 L’application est capable de gérer plusieurs centaines de millions d’impressions par mois. Elle s’exécute sur un serveur web Apache (ou httpd) disposant de PHP, de MySQL, et d’un accélérateur PHP.
 
