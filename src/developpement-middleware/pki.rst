@@ -37,13 +37,13 @@ OpenSSL
 :Porteur: une communauté
 :Licence: Apache et BSD
 
-OpenSSL est la librairie open source, quasiment élevé au rang de standard, en ce qui concerne les fonctions cryptographiques. En particulier, il implémente complètement le standard des PKI, i.e la norme X509.
+OpenSSL est la librairie open source, quasiment élevée au rang de standard, en ce qui concerne les fonctions cryptographiques. En particulier, elle implémente complètement le standard des PKI, i.e la norme X509.
 
-En plus d'offrir le chiffrement ainsi que le hachage possible avec n'importe quel algorithme connu (MD5, AES, blowfish...) il permet également, avec le support X509, d'émettre et de révoquer des certificats ainsi que de parfaitement gérer des chaînes de certification. Il peut écrire et réécrire les certificats dans les formats les plus courants du marché, et nombre d'outils plus avancés en terme d'utilisabilité sont basés sur OpenSSL.
+En plus d'offrir le chiffrement ainsi que le hachage possible avec n'importe quel algorithme connu (MD5, AES, blowfish...) elle permet également, avec le support X509, d'émettre et de révoquer des certificats ainsi que de parfaitement gérer des chaînes de certification. Elle peut écrire et réécrire les certificats dans les formats les plus courants du marché, et nombre d'outils plus avancés en terme d'utilisabilité sont basés sur OpenSSL.
 
 Le développement d'OpenSSL est ancien et a débuté avant 1998.
 
-Développé en C, il reste la référence dans le domaine Linux et BSD et se retrouve souvent utilisé par tout contexte nécessitant un chiffrement (allant des protocoles 802.11 aux communications HTTPS, en passant par SSH et FTPS).
+Développé en C, elle reste la référence dans le domaine Linux et BSD et se retrouve souvent utilisée dans tout contexte nécessitant un chiffrement (allant des protocoles 802.11 aux communications HTTPS, en passant par SSH et FTPS).
 
 
 
