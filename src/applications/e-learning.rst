@@ -38,7 +38,7 @@ Claroline
 :Porteur: un consortium
 :Licence: GPL
 
-Créée en 2000 par l'université catholique de Louvain, Claroline est la seconde application d'apprentissage en ligne la plus utilisée en Europe. Son usage est simple, en partie du à une moindre richesse fonctionnelle par rapport à Moodle. A noter qu'elle a donné lieu au fork Dokéos (géré maintenant par une entreprise), qui lui même a donné lieu dans sa version 1.8.6 au fork Chamilo (prometteur).
+Créée en 2000 par l'université catholique de Louvain, Claroline est la seconde application d'apprentissage en ligne la plus utilisée en Europe. Son usage est simple, en partie dû à une moindre richesse fonctionnelle par rapport à Moodle. A noter qu'elle a donné lieu au fork Dokéos (géré maintenant par une entreprise), qui lui même a donné lieu dans sa version 1.8.6 au fork Chamilo (prometteur).
 
 Parmi ses principales fonctionnalités, on peut citer : gestion des professeurs, élèves et cours, création d'exercices et de cours, compatibilité SCORM et IMS/QTI 2, outils collaboratifs (wiki, forums), planning, statistiques de fréquentation et de réussite aux exercices.
 
