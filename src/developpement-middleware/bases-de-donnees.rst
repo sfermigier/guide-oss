@@ -25,6 +25,21 @@ MySQL est largement utilisé auprès de sociétés comme Google ou Facebook, ou 
 MySQL est développé en C et C++ et fonctionne sur un très large nombre de plateformes, que ce soit celles basées sous Unix (Linux, Solaris, BSD) que sous Windows.
 
 
+MariaDB
+-------
+
+:Version: 5.5
+:Site: mariadb.org
+:Porteur: une communauté
+:Licence: GPL avec lining exception
+
+MariaDB est un SGBDR rapide et robuste, particulièrement déployé dans les environnements Internet. MariaDB est un fork de MySQL développé par Michael "Monty" Widenius, l'auteur de MySQL, suite au rachet de MySQL par Oracle.
+
+MariaDB comporte de nombreuses extensions par rapport à MySQL, notamment dans le domaine de l'indexation plein texte et pour le support des langues asiatiques. MariaDB comporte plusieurs moteurs de stockage à hautes performances qui ne sont pas encore présents dans MySQL.
+
+Le mode de développement communautaire ainsi que des offres de maintenances commerciales attractives provenant de plusieurs sociétés independantes assurent à MariaDB un avenir certain.
+
+
 PostgreSQL
 ----------
 
@@ -67,6 +82,18 @@ Elle dispose de capacité à évoluer en environnement distribué via des mécan
 La base de données est par ailleurs supportée par une entité commerciale, la société 10gen Inc.
 
 MongoDB est écrit en C++.
+
+NEO
+---
+
+:Version: 1.0
+:Site: http://www.neoppod.org/
+:Porteur: un éditeur (Nexedi)
+:Licence: GPL-2.0
+
+NEO est une base de données NoSQL de type objet qui est la fois transactionnelle, répartie et redondante. NEO a fait l'objet dans le cadre de Systematic  d'un projet de recherche conjoint de Nexedi, Pilot Systems, l'Université de Paris 13 et l'Université de Paris 6. La cohérence transactionnelle de NEO sur un cluster de stockage réparti a ainsi pu être démontrée ce qui ouvre la voie à une application des technologes NoSQL aux systèmes de paiements et aux systèmes bancaires. 
+
+NEO est écrit en python et en C.
 
 
 Redis
