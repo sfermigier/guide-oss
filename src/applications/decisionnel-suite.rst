@@ -8,8 +8,6 @@ Ainsi, le périmètre des suites décisionnelles est très vaste : exécution de
 L’offre décisionnelle open source est très riche avec 4 outils de grande qualité : JasperSoft, SpagoBI, Palo et Pentaho.
 
 
-
-
 Rapid-Miner
 -----------
 

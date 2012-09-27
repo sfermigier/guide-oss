@@ -3,27 +3,9 @@ E-Commerce
 
 Le domaine de l’e-commerce est également très vaste. Que ce soit pour faire connaître sa e-boutique et obtenir du trafic, pour informer le client sur les produits, de lui faire vivre une expérience de shopping, d’assurer la vente, et l’après vente…  de nombreuses solutions sont disponibles.
 
-Dans cette catégorie, toutefois, nous nous sommes focalisés sur les solutions open source de boutique en ligne en présentant des outils phrares comme Magento ou Prestashop. Au côté de ces solutions dominantes, la convergence ERP/CRM/CMS/e-business poussée par l'intégration du e-commerce au coeur de métier de l'entreprise a conduit plusieurs ERP open source et CMS open source à fournir des fonctions de e-commerce comparables mais avec une intégration plus forte en matière d'achat, de gestion de stock, de comptabilité ou de gestion de contenu.
+Dans cette catégorie, toutefois, nous nous sommes focalisés sur les solutions open source de boutique en ligne en présentant des outils phrares comme Magento ou Prestashop. Au côté de ces solutions dominantes, la convergence ERP/CRM/CMS/e-business poussée par l'intégration du e-commerce au coeur de métier de l'entreprise a conduit plusieurs ERP open source et CMS open source à fournir des fonctions de e-commerce comparables avec une intégration plus forte d'autres fonctions métiers.
 
 Le périmétre des e-boutiques est devenu très important avec des fonctionnalités comme : la catégorisation avancée, la définition de familles de produits, la gestion des produits configurables, des fonctions de cross-selling et de up-selling, les moteurs de promotions, la gestion multi-boutiques, la gestion avancée des devises et des taux de TVA, etc.
-
-
-ERP5 Commerce
--------------
-
-:Version: 5.4.7
-:Site: www.erp5.com
-:Porteur: un éditeur (Nexedi)
-:Licence: GPL
-
-ERP5 Commerce est un module du PGI ERP5 destiné à la gestion de la vente en ligne. ERP5 Commerce s'inscrit dans le mouvement de convergence entre les plate-formes de e-commerce, les ERP et les CMS qui tendent à devenir un seul et même outil.
-
-ERP5 Commerce possède l'essentiel des fonctionnalités que l'on peut attendre d'un logiciel de e-commerce : gestion du catalogue, gestion des propriétés globales, gestion des variantes individuelles, prise de commande, livraison, gestion des reliquats, gestion de stock, workflow de validation, magasin multi-sites, multilinguisme, multi-devise. Outre les fonctions de base, ERP5 Commerce est souvent déployé conjointement avec ERP5 CRM pour le suivi de la relation client et avec le PGI ERP5 pour la gestion des achats, des fournisseurs et la comptabilité.
-
-Sur le plan technique, ERP5 Web est écrit en python à partir du framework ERP5. Il exploite plusieurs bases de données (ZEO, NEO, MySQL, MariaDB), plusieurs moteurs de recherche (Sphinx, Mroonga) et gère 4 caches différents (RAM, memcached, kumofs, HTTP). Il est compatible avec les systèmes de paiement Paypal, Payzen, Paybox. Des connecteurs - développés dans le cadre d'un projet labellisé par Systematic -  permettent d'interfacer ERP5 Commerce à Drupal, Joomal, Magento, OSCommerce, Prestashop et Salesforce.
-
-ERP5 Commerce est développé par la société française Nexedi, membre de Systematic.
-
 
 
 Magento
@@ -59,8 +41,6 @@ D'un point de vue fonctionnel, Prestashop se révèle également très complet :
 Prestashop est distribuée sous licence OSL.
 
 Prestashop est développé intégralement en PHP/MySQL. Il dispose d'une API et d'une couverture WebService complète, permettant d'adapter l'outil à de nouveaux besoins et contextes spécifiques.
-
-
 
 
 Oxid
@@ -129,6 +109,16 @@ Mais ces dernières années, cette communauté a commencé à se désolidariser 
 OsCommerce est un outil reposant entièrement sur une communauté autrefois très large et très active.
 
 Développé intégralement en PHP/MySQL, OsCommerce doit en grande partie son succès à l'absence d'alternatives dans le domaine open source et à l'explosion du e-business dans le début des années 2000. C'est encore aujourd'hui le webshop le plus déployé au monde.
+
+
+Voir également
+--------------
+
+Les logiciels ci-dessous disposent de fonctions de e-commerce et sont traités dans d'autres sections du guide:
+
+- ERP5 (section ERP)
+
+- Jommla (section CMS)
 
 
 Autres

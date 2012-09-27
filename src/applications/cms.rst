@@ -27,24 +27,6 @@ Drupal est publié sous licence GNU GPL et est pleinement open source. Des offre
 D’un point de vue technique, Drupal est bâti autour des technologies LAMP (PHP et MySQL notamment).
 
 
-
-ERP5 Web
---------
-
-:Version: 5.4.7
-:Site: www.erp5.com
-:Porteur: un éditeur (Nexedi)
-:Licence: GPL
-
-ERP5 Web est un module du PGI ERP5 destiné à la réalisation de sites d'informations ou de site collaboratifs. Il possède l'essentiel des fonctionnalités que l'on peut attendre d'un CMS : édition de modèle de document, création de contenu, multilinguisme, gestion de versions, staging, templating, système de widgets, workflow de publication, multi-sites, édition de contenu en direct, conversion en temps réel multi-format, etc.
-
-ERP5 Web est un logiciel libre publié sous licence GPL. Il a été notamment utilisé pour réaliser le réseau social professionnel innov24 (www.innov24.com). L'interface utilisateur est intégrée au site sous forme d'une barre d'édition en bas de page qui ne perturbe pas le design du site. Plusieurs modules d'extension permettent d'intégrer un blog, un forum, un calendrier et même un système de gestion bureautique en ligne.
-
-Sur le plan technique, ERP5 Web est écrit en python à partir du framework ERP5. Il exploite plusieurs bases de données (ZEO, NEO, MySQL, MariaDB), plusieurs moteurs de recherche (Sphinx, Mroonga) et gère 4 caches différents (RAM, memcached, kumofs, HTTP). Son moteur de sécurité par règles  simplifie la gestion de très grandes bases d'utilisateurs par rapport aux approches traditionelles par groupes.
-
-ERP5 Web est développé par la société française Nexedi, membre de Systematic. 
-
-
 eZ Publish
 ----------
 
@@ -97,7 +79,6 @@ Jahia constitue une excellente alternative aux solutions de portail des grands �
 Jahia est bâtie sur des technologies JEE : persistance via Hibernate, support des normes JSR 170, moteur de recherche Apache Lucene, support des standards de portlets JSR 168, etc.
 
 
-
 Joomla
 ------
 
@@ -112,8 +93,6 @@ Cet outil se démarque principalement par la convivialité de son interface d’
 Joomla est une solution 100% communautaire publiée sous licence GNU GPL.
 
 Joomla est écrit en PHP et utilise une base de données MySQL.
-
-
 
 
 SPIP
@@ -132,8 +111,6 @@ SPIP est un projet open source français (licence GPL), et sa communauté peut �
 SPIP est un logiciel écrit en PHP qui s'appuie sur les bases de données MySQL, PostgreSQL et SQLite. Il propose un interface privée simplifiée basée sur l’Ajax, une page de téléchargement et d’installation de plugins, la gestion des conflits, une API et de nouvelles fonctions pour le développement de templates.
 
 
-
-
 TYPO3
 -----
 
@@ -148,6 +125,15 @@ En termes de fonctionnalités prêtes à l’emploi, TYPO3 est l’un des outils
 
 TYPO3 est écrit en PHP et utilise une base de données MySQL.
 
+
+Voir également
+--------------
+
+Les logiciels ci-dessous disposent de fonctions de CMS et sont traités dans d'autres sections du guide:
+
+- ERP5 (section ERP)
+
+- OpenERP (section ERP)
 
 
 Autres
