@@ -80,6 +80,43 @@ Wireshark est multi-plateforme, il fonctionne sous Windows, Mac OS X, Linux, Sol
 
 
 
+LinShare
+--------
+
+:Version: 0.11.2
+:Site: www.linshare.org
+:Porteur: un éditeur (LINAGORA)
+:Licence: GNU Affero GPL v3
+
+LinShare est une application de partage de fichiers volumineux et sécurisés créée en 2008, qui se focalise sur la traçabilité, la confidentialité et l’intégrité des données.
+
+Cette application propose plusieurs interfaces d’utilisation telles que : une interface web, des plugins (Outlook, Thunderbird, OBM), une API REST. Elle est utilisée dans l’entreprise pour déposer des fichiers dans son espace personnel (tel qu’un coffre-fort) et partager des fichiers avec des utilisateurs internes ou externes, ou des invités ponctuels.
+
+Les points forts de LinShare sont : la sécurité des échanges (horodatage, signature et chiffrement), la traçabilité des échanges (notifications, historique, journaux, reporting, etc.), l’utilisation et la configuration par multi-domaines.
+
+LinShare est une application Java JEE multi-plateformes (GNU/Linux, Windows, etc.). Elle fonctionne dans un conteneur applicatif (Tomcat, Jetty) et s’appuie sur une base de données (PostgreSQL, MySQL) et un annuaire (LDAP, Active Directory).
+
+
+LinSign
+-------
+
+:Version: 1.1
+:Site: www.linsign.org
+:Porteur: un éditeur (LINAGORA)
+:Licence: GNU Affero GPL v3
+
+LinSign est une application de signature électronique de documents créée en 2008, multi-documents et multi-signatures.
+
+Spécialement conçue pour signer électroniquement des documents, des contrats et des données sensibles, LinSign garantit l’authentification du signataire, l’intégrité, la non-répudiation et l’invariance sémantique des données signées. Nombreux formats de documents à signer (PDF, OpenDocument, XML, etc.), de signatures (PDF, XAdES, XML-Dsig) et supporte divers types de magasins de certificats (PKCS #12, carte à puce, token USB, navigateur web).
+
+LinSign peut être : soit installée sur le poste de travail, soit installée sur un serveur web, soit intégrée dans une autre application web (e.g. une GED). Elle s’appuie sur un système de politiques de signature pour signer des documents avec des certificats numériques X.509 qui peuvent être stockés sur des cartes à puce.
+
+LinSign est une application Java JEE multi-plateformes (GNU/Linux, Windows, etc.).
+
+LinSign est conforme au Profil de protection Application de création de signature électronique, et est en cours de certification ANSSI-CSPN (Certification de sécurité de premier niveau).
+
+
+
 
 Autres
 ------
