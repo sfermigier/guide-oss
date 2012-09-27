@@ -26,7 +26,7 @@ Porté par la fondation Apache, le projet Lucene est la solution retenue, entre 
 
 Lucene se définit avant tout comme une bibliothèque de recherche et d'indexation de contenus. Comme la plupart des moteurs de recherche, Lucene se base sur le concept de l’indexation automatique, c'est-à-dire en traitant une seule fois les données d’entrée et en leur donnant de multiples liens. Coté fonctionnel, Lucene support la recherche de formes approximatives d'un même mot (féminin, pluriel, conjugaison), la gestion des synonymes, la pertinence paramétrable, etc. Le tout avec un niveau de performances exceptionnels.
 
-Lucene est écrit en Java. Il peut être intégré au sein d’applications Java mais également dans d’autres langages tels que le Ruby, le Perl, le PHP, le C++, etc.
+Lucene est écrit en Java. Il peut être intégré au sein d’applications écrites dans différents langages : Java, Ruby, Perl, PHP, C++, etc.
 
 
 Solr
