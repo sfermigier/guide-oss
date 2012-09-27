@@ -28,8 +28,6 @@ CAS permet de faire du Single Sign On entre plusieurs sites, y compris dans des 
 CAS est écrit en Java, et fournit des clients CAS pour intégrer les applications au SSO, ceci en Java, PHP et .Net. Un module Apache est également disponible.
 
 
-
-
 LemonLDAP::NG
 --------------
 

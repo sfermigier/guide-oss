@@ -292,10 +292,9 @@ L'activité d'édition s'articule autour de 4 produits :
 - OBM (outils de messagerie et de travail collaboratif) ;
 - LinPKI (solutions de confiance numérique et de sécurité) ;
 - LinID (applications de gestion et de fédération des identités) ;
-- Petals (l'ESB libre qui s'adapte aux infrastructure étendues et grande échelle).
+- Petals (ESB libre qui s'adapte aux infrastructure étendues et grande échelle).
 
-Linagora propose également l'Open Source Software Assurance (www.0800LINUX.com), offre de support et maintenance contractuellement garantis sur plus de 200 logiciels libres.
-Les services de développement et intégration, de création web, de formations et de conseil complètent l'offre de Linagora.
+Linagora propose également l'Open Source Software Assurance, offre de support et maintenance contractuellement garantis sur plus de 200 logiciels libres, ainsi que des services de développement et intégration, de création web, de formations et de conseil.
 
 LOGILAB
 -------
