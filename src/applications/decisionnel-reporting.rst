@@ -1,7 +1,7 @@
 Décisionnel : Reporting
 =======================
 
-Une des briques essentielles du décisionnel constiste à établir des rapports.
+Une des briques essentielles du décisionnel consiste à établir des rapports.
 
 Les outils de reporting, tel que BIRT, permettent non seulement de générer des rapports (paramétrés ou non) au format HTML, PDF, XLS, DOC, PPT, etc.) mais aussi de construire des tableaux croisés dynamiques.
 
