@@ -32,18 +32,20 @@ Alfresco est écrit en JEE et dispose d’une forte dynamique de développement,
 Maarch
 ------
 
-:Version: 1.2
-:Site: www.maarch.com
-:Porteur: un éditeur (Maerys)
+:Version: 1.3
+:Site: www.maarch.org / www.maarch.com
+:Porteur: un éditeur (Maarch)
 :Licence: GPL v3
 
-Maarch est une solution d’ECM développée par la société française Maerys. L’offre comporte Maarch Entreprise et Letter Box, application dédiée à la gestion de courrier.
+Maarch est une solution GED/GEC/SAE développée par la société française Maarch, membre de Systematic. Les domaines d'application privilégiés de Maarch sont les Systèmes d'Archivage Electroniques (SAE), la Gestion Electronique du Courrier (GEC), et la gestion de dossier. 
 
-Letter Box est une application verticalisée qui sait notamment s’interfacer avec un scanner ou  gérer le cycle de vie du courrier dans l’entreprise : réception, traitement de la réponse et recherche. Elle est livrée avec un ensemble de fonctions et une interface totalement orientée vers la gestion de courrier. Maarch Entreprise est dédié à la conception d'applications. Cette distribution inclut les fonctions nécessaires à une GED d’entreprise.
+Maarch suit un certain nombre de normes sur l'archivage, en particulier ISO 14721 (OAIS) et NFZ42-013. La version 1.3 comprend la gestion du cycle de vie, la réplication, et la prise en charge de paquets d'archives compressés (AIP).
+Maarch dispose d'un mode GEC verticalisé qui sait notamment s’interfacer avec un scanner ou gérer le cycle de distribution du courrier dans l’entreprise : réception, distribution, annotation, versionning, modèles de réponse et recherche.
 
-La communauté autour de la solution est de petite taille, concentrée autour de son éditeur.
+La communauté autour de la solution est de petite taille, concentrée autour de son éditeur. Le forum est actif est comprend un millier d'inscrits.
 
-Enfin, Maarch est bâtie sur un framework PHP maison : Maarch Framework 3. Cette orientation permet de disposer d’une solution de conception d’applications documentaires pour l’entreprise.
+Maarch est construit sur un framework PHP maison.
+La société Maarch est basée à Nanterre, France, et Dakar, Sénégal.
 
 
 
