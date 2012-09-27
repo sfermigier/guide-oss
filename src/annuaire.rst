@@ -225,17 +225,19 @@ Site: www.hederatech.com
 
 Hedera Technology est une start-up focalisée sur l'innovation des infrastructures IT. Avec nos solutions logicielles, les infrastructures IT sont agiles et fluides, l'IT devient une commodité. Les applications métiers sécurisées et redondées sont déployées en quelques clics. La configuration, le déploiement et l'administration sont complétement automatisés pour une optimisation du cycle de vie des infrastructures physiques et virtuelles.
 
+
+
 HENIX
 -----
 
-Adresse: 45, Avenue Pierre Brossolette, 92120 MONTROUGE
+Adresse: 45-47, Avenue Pierre Brossolette, 92120 MONTROUGE
 
 Site: www.henix.com
 
-- Accompagner la professionnalisation/montée en technicité des métiers de la qualité logicielle
-- Etre pionnier en terme de mise en oeuvre et d'outillage de centre de service qualité logicielle.
-- Qualité logicielle et centre de service qualification
-- Assistance à maitrise d'ouvrage dans les domaines de la santé et en banque/finance
+Henix est une société de Service en Ingénierie Informatique créée en 1999, spécialisée en Qualification Logicielle et en Assistance à Maîtrise d'Ouvrage. 
+Henix propose à ses clients des équipes dédiées aux tests, organisées en Centre de Service Recette. Son outillage open source, développé dans le cadre du projet R&D Squash, lui a permis de démocratiser l'accès à une alternative open source mature, de renforcer sa visibilité sur ce créneau auprès de grands comptes (groupes, ministères,...) et de renforcer la légitimité de ses services de qualification logicielle et de ses services supports. Via sa filiale École de la Qualité Logicielle, Henix contribue également à la professionnalisation/montée en technicité des métiers de la qualité logicielle.
+Henix anime le Club Qualité Logicielle, créé en 2006 à l’initiative de responsables informatiques qualité/méthode/outils de grandes sociétés françaises. Le Club s’intéresse aux différentes facettes de la qualité, aux travers d'échanges entre grands comptes (normalisation, échange de bonnes pratiques, retour d'expérience), de présentations de solutions, et de groupes de travail.
+En assistance à maitrise d'ouvrage, Henix intervient en analyse métier et fonctionnelle, en conduite de projet / PMO et en accompagnement du changement, dans les domaines de la santé, de l'énergie, en banque/finance et transports/logistique.
 
 
 INNOVIMAX
@@ -423,7 +425,9 @@ Adresse: 73-75, Rue De La Plaine, 75020 PARIS
 
 Site: www.qualixo.com
 
-Animation du club Qualimétrie France (normalisation, échange de bonnes pratiques, retour d'expérience). Fédérer autour du portail Squale en open source une communauté autour de la qualimétrie. Devenir un leader européen en qualimétrie (mesure de la qualité logicielle). Domaines d'interventions: Consulting sur la mise en oeuvre de démarche/outillage qualimétrie; Audit ponctuel ou récurrent (centre de service qualité logiciels).
+Qualixo est spécialisée en qualimétrie - mesure de la qualité logicielle - et en qualification technique : tests de performances, de sécurité applicative, compliance open source. Nous intervenons en conseil sur la mise en œuvre de démarche/outillage, et en audit ponctuel ou récurrent (centre de service qualité logiciels).
+
+Positionnée sur une niche, notre capacité d'innovation a été reconnue dès notre création par le Ministère de la Recherche et de la Technologie grâce au label Jeune Entreprise Innovante (JEI). Porteur du Projet Squale (Sofware Quality Enhancement) labellisé par pôle de compétitivité Sytem@tic Paris-Region et financé par le Fond Unique Interministériel, Qualixo engage une partie de ses charges en R&D afin de valoriser les résultats de ses travaux de recherche.
 
 RESTLET
 -------
