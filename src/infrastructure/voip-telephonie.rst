@@ -38,7 +38,7 @@ Kamailio
 
 Kamailio est un Server SIP open source. Ce fork du projet OpenSER (en 2005) est l'un des PBX les plus complets.
 
-Il supporte des transactions asynchrone TCP, UDP et SCTP, l'encryptage des communications via TLS, la répartition de charge, un mécanisme natif de fail-over, l'authentification sur des backend Radius, Mysql, LDAP ou via transport XMLRCP. Il est utilisé aussi bien par des opérateurs télécoms comme plate-forme de service VoIP que pour les solutions classiques de téléphonie d'entreprise. C'est une alternative à Freeswitch et Asterisk les deux autres poids lourds du domaine.
+Il supporte des transactions asynchrones TCP, UDP et SCTP, l'encryptage des communications via TLS, la répartition de charge, un mécanisme natif de fail-over, l'authentification sur des backend Radius, Mysql, LDAP ou via transport XMLRCP. Il est utilisé aussi bien par des opérateurs télécoms comme plate-forme de service VoIP que pour les solutions classiques de téléphonie d'entreprise. C'est une alternative à Freeswitch et Asterisk les deux autres poids lourds du domaine.
 
 
 
@@ -53,7 +53,7 @@ Kannel
 
 Kannel a été développé en 1998 par la société WAPit Ltd qui n’existe plus à ce jour. Le projet est désormais géré par les membres d’un groupe (« The Kannel Group ») qui inclut de grandes entreprises.
 
-Kannel est une Gateway SMS et WAP Open Source Carrier Grade, il supporte les protocoles des SMSC standard : UCP/EMI, SMPP, HTTP, CIMD. Kannel fournit un ensemble d'API lui permettant d'être utilisé comme front end à des middlewares ou applications Web nécessitant des sorties WAP ou SMS. Intégré comme brique d'infrastructure, il sécurise l'accès aux ressources des opérateurs tout en fournissant un support SMS et WAP fiable et robuste.
+Kannel est une Gateway SMS et WAP Open Source Carrier Grade, elle supporte les protocoles des SMSC standard : UCP/EMI, SMPP, HTTP, CIMD. Kannel fournit un ensemble d'API lui permettant d'être utilisée comme front end à des middlewares ou applications Web nécessitant des sorties WAP ou SMS. Intégrée comme brique d'infrastructure, elle sécurise l'accès aux ressources des opérateurs tout en fournissant un support SMS et WAP fiable et robuste.
 
 
 Kannel est écrit en C.
