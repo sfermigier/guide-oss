@@ -39,6 +39,20 @@ JasperReports est un moteur de rapport développé par la société  JasperSoft 
 Le moteur JasperReports permet la génération de rapports au format PDF, HTML, XML, CSV, RTF, XLS et TXT. Il utilise JFreeChart pour générer les graphiques et peut être intégré dans toute application développée avec le langage Java. Il supporte, en plus des bases de données classiques, les serveurs d’analyse multidimensionnelle ce qui permet d’exploiter les possibilités du serveur Mondrian directement dans  un rapport JasperReports. Le concepteur de rapport, IReport, est utilisé pour le design des rapports.
 
 
+Jedox / Palo
+------------
+
+:Version: 3.2
+:Site: http://www.palo.net/
+:Porteur: un éditeur (Jedox)
+:Licence: GPL et proprietaire
+
+Palo est un moteur OLAP comportant un ETL et des modules simplifiant son usage sous Excel ou OpenOffice. Jedox est l'éditeur
+de Palo. Jedox fournit en licence open source la version précédente de Palo alors que la dernière version est diffusée sous licence propriétaire.
+
+Palo est probablement aujourd'hui l'outil de reporting le plus simple d'emploi. Palo ne nécessite aucune programmation et s'utilise soit à partir d'un tableur (Excel, OpenOffice) soit au travers d'un tableur Web intégré. Palo convient à des applications de type reporting budgétaire, reporting comptable, analayse des ventes. Palo intègre un portail Web et une gestion des utilisateurs et peut donc être utilisé dans devoir installer un logiciel client.
+
+
 Pentaho Report Designer
 -----------------------
 
