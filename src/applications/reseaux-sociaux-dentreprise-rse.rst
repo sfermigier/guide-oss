@@ -5,7 +5,7 @@ Le succès des réseaux sociaux publics tels que Facebook, Twitter, LinkedIn, et
 
 Les RSE (« Réseaux sociaux d’Enteprise ») sont nés du constat que l’entreprise pouvait également utiliser ce support pour générer de la valeur.
 
-C’est en ce sens que les réseaux sociaux sont utilisés par les entreprises : pour créer de la richesse. L’usage des réseaux sociaux est désormais intégré et ce sont dorénavant les entreprises qui encouragent leurs collaborateurs à les utiliser pour communiquer.
+L’usage des réseaux sociaux est désormais intégré et ce sont dorénavant les entreprises qui encouragent leurs collaborateurs à les utiliser pour communiquer.
 
 Pour couvrir ce besoin, on trouve de plus en plus de solutions open source de qualité telles que Drupal Commons, Elgg ou Liferay Social Office.
 
@@ -40,11 +40,11 @@ Drupal Commons
 
 Drupal Commons est une distribution Drupal orientée « Réseaux sociaux » publiée en 2010 par Acquia (société de services fondée par le créateur de Drupal). Drupal a été conçu dans les années 2000 par Dries Buytaert et connaît depuis un succès mondial.
 
-Le périmètre des portails communautaires créés sous Drupal dépend des modules disponibles (plus de 10 000 – mais une partie seulement concerne les RSE). Citons : Homebox (pour les pages personnalisées), Invite Friends (pour gérer ses amis), Content Profile (pour gérer les données des profils), FriendList (liste des amis), Organic Group (gestion des groupes), Privatemsg (messagerie privée), etc. La distribution Drupal Commons offre nativement un périmètre large permettant de mettre en œuvre rapidement un véritable réseau social.
+Le périmètre des portails communautaires créés sous Drupal dépend des modules disponibles (plus de 10 000 – mais une partie seulement concerne les RSE). Citons : Homebox (pour les pages personnalisées), Invite Friends (pour gérer ses amis), Content Profile (pour gérer les données des profils), FriendList (liste des amis), Organic Group (gestion des groupes), Privatemsg (messagerie privée), etc. La distribution Drupal Commons offre nativement un périmètre fonctionnel large permettant de mettre en œuvre rapidement un véritable réseau social.
 
 Une offre de support existe via la société Acquia (fondée par Dries Buytaert).
 
-D’un point de vue technique, Drupal est bâti autour des technologies LAMP (PHP et MySQL notamment). La dernière version, la 7, offre plus de stabilité et une périmètre fonctionnel plus large.
+D’un point de vue technique, Drupal est bâti autour des technologies LAMP (PHP et MySQL notamment). La dernière version, la 7, offre plus de stabilité et un périmètre fonctionnel plus large.
 
 
 
@@ -77,7 +77,7 @@ Liferay Social Office
 
 Liferay Social Office est un produit de la société Liferay, déjà éditrice du portail Liferay. Social Office est une solution de collaboration sociale pour l’entreprise. Le portail Liferay a vu le jour au début des années 2000, lancé par Brian Chan. Fin 2008, Liferay a lancé une déclinaison de son portail avec un packaging spécifique au travail collaboratif : Liferay Social Office.
 
-Son périmètre fonctionnel est très orienté entreprise : profile/membre, gestion de document, calendrier, événements, groupes, chat, wiki, etc. On retrouve de nombreuses fonctionnalités Projet et peu d’éléments conversationnels. On peut tout de même souligner la qualité du Chat embarqué sous Liferay.
+Son périmètre fonctionnel est très orienté entreprise : profil/membre, gestion de document, calendrier, événements, groupes, chat, wiki, etc. On retrouve de nombreuses fonctionnalités Projet et peu d’éléments conversationnels. On peut tout de même souligner la qualité du Chat embarqué sous Liferay.
 
 Social Office est distribué sous la licence Affero GPL pour la version Community (la version en cours, la 1.5, est en béta). Une version Entreprise existe, incluant un support de l’éditeur.
 
