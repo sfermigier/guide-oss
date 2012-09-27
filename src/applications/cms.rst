@@ -3,11 +3,12 @@ CMS
 
 La gestion de contenus recouvre aujourd’hui une large palette de besoins : sites d’informations, sites Corporate, sites de services, extranets sécurisés, intranets participatifs, espaces communautaire...
 
-Pour couvrir ce périmètre, il existe d’excellentes solutions open source au périmètre très large comme : eZ Publish, Drupal, TYPO3, Jahia, Infoglue, SPIP, HippoCMS, Joomla, Plone… lesquelles sont devenues des standards dans l’univers de la gestion de contenus tant elles dominent par leur capacité, leur modularité et leur périmètre fonctionnel et technique.
+Pour couvrir ce périmètre, il existe d’excellentes solutions open source au périmètre très large
+comme : eZ Publish, Drupal, TYPO3, Jahia, Infoglue, SPIP, HippoCMS, Joomla, Plone… lesquelles sont devenues des standards dans l’univers de la gestion de contenus tant elles dominent par leur capacité, leur modularité et leur périmètre fonctionnel et technique.
 
 Elles sont devenues, au fil des années, plus que des alternatives sérieuses dans le domaine de l’Enterprise Content Management : elles dominent désormais le marché.
 
-
+Au côté de ces solutions dominantes, la convergence ERP/CRM/CMS/e-business poussée par la croissance e-commerce conduit des applicatifs issus d'autres domaines fonctionnels (ERP, CRM) à intégrer des fonctions de CMS équivalents aux meilleurs produits dédiés du marché. 
 
 
 Drupal
@@ -24,8 +25,6 @@ La force de ce CMS est son extensibilité. Il accueille très facilement de nomb
 Drupal est publié sous licence GNU GPL et est pleinement open source. Des offres de support existent, notamment via la société Acquia (www.acquia.com).
 
 D’un point de vue technique, Drupal est bâti autour des technologies LAMP (PHP et MySQL notamment).
-
-
 
 
 eZ Publish
@@ -80,7 +79,6 @@ Jahia constitue une excellente alternative aux solutions de portail des grands �
 Jahia est bâtie sur des technologies JEE : persistance via Hibernate, support des normes JSR 170, moteur de recherche Apache Lucene, support des standards de portlets JSR 168, etc.
 
 
-
 Joomla
 ------
 
@@ -95,8 +93,6 @@ Cet outil se démarque principalement par la convivialité de son interface d’
 Joomla est une solution 100% communautaire publiée sous licence GNU GPL.
 
 Joomla est écrit en PHP et utilise une base de données MySQL.
-
-
 
 
 SPIP
@@ -115,8 +111,6 @@ SPIP est un projet open source français (licence GPL), et sa communauté peut �
 SPIP est un logiciel écrit en PHP qui s'appuie sur les bases de données MySQL, PostgreSQL et SQLite. Il propose un interface privée simplifiée basée sur l’Ajax, une page de téléchargement et d’installation de plugins, la gestion des conflits, une API et de nouvelles fonctions pour le développement de templates.
 
 
-
-
 TYPO3
 -----
 
@@ -131,6 +125,15 @@ En termes de fonctionnalités prêtes à l’emploi, TYPO3 est l’un des outils
 
 TYPO3 est écrit en PHP et utilise une base de données MySQL.
 
+
+Voir également
+--------------
+
+Les logiciels ci-dessous disposent de fonctions de CMS et sont traités dans d'autres sections du guide:
+
+- ERP5 (section ERP)
+
+- OpenERP (section ERP)
 
 
 Autres

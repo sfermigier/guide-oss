@@ -10,8 +10,6 @@ Aujourd'hui, les solutions de GED open source ont atteint un exceptionnel niveau
 Alfresco, Nuxeo, Knowledge Tree, Maarch, Jahia... l’offre open source de la gestion documentaire est de plus en plus riche.
 
 
-
-
 Alfresco
 --------
 
@@ -27,6 +25,7 @@ Alfresco propose l’ensemble des fonctionnalités attendues du domaine de la ge
 Alfresco est disponible en deux versions : une version « Labs », gratuite, sous licence GPL et une version « Entreprise », qui donne accès à la garantie de l’éditeur, aux modules de RM et de clustering intégré ainsi qu’aux mises à jour intermédiaires.
 
 Alfresco est écrit en JEE et dispose d’une forte dynamique de développement, ainsi que d’une communauté d’utilisateurs et de développeurs importante. On notera l’existence du site Alfresco Forge, qui héberge de nombreux plugins.
+
 
 
 Maarch
@@ -48,7 +47,6 @@ Maarch est construit sur un framework PHP maison.
 La société Maarch est basée à Nanterre, France, et Dakar, Sénégal.
 
 
-
 Nuxeo
 -----
 
@@ -64,14 +62,18 @@ Il s'agit d'une solution complète de gestion de contenu d’entreprise : métad
 Nuxeo est bâtie sur des technologies JEE avec l'utilisation de composants open source issus des projets JBoss, Apache, Eclipse et des projets libres de Sun.
 
 
+Voir également
+--------------
+
+Les logiciels ci-dessous disposent de fonctions de GED/ECM et sont traités dans d'autres sections du guide:
+
+- ERP5 (section ERP)
 
 
 Autres
 ------
 
 Dans l’univers de la gestion documentaire, l’offre open source est particulièrement vigoureuse. Pour preuve, au-delà des produits présentés précédemment, on peut également citer les outils ci-dessous :
-
-
 
 - Jahia:	http://www.jahia.com
 

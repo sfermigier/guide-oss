@@ -7,9 +7,7 @@ Dans un premier temps, les ERP open source permettent à des petites PME de disp
 
 Le domaine étant extrêmement vaste, des différences de couverture fonctionnelle peuvent destiner un produit de préférence à tel ou tel secteur d'activité. Mais l'un des critères de choix les plus importants est la flexibilité, l'extensibilité, et donc les bases technologiques qui permettront à un produit donné d'être adapté à une diversité de contextes, avec très peu de développements spécifiques.
 
-Des produits comme Compière, OpenERP, OpenBravo ou ERP5 tiennent la corde des ERP open source.
-
-
+Des produits comme Compiere, ERP5, OpenBravo ou OpenERP tiennent la corde des ERP open source. la convergence ERP/CRM/CMS/e-business poussée par l'intégration du e-commerce au coeur de métier de l'entreprise conduit égalemet des logiciels de e-commerce à proposer des fonctions de plus en plus proches de celles d'un ERP.
 
 
 Compiere
@@ -32,20 +30,30 @@ Compiere est écrit sur une base Java.
 ERP5
 ----
 
-:Version: 5.4.6
+:Version: 5.4.7
 :Site: www.erp5.com
 :Porteur: un éditeur (Nexedi)
 :Licence: GPL
 
-ERP5 fait partie de cette nouvelle classe d’ERP dont les fondations conceptuelles - plus ambitieuses - ont rendu plus simple le développement des solutions métiers. ERP5 a été créé et est actuellement principalement maintenue par Nexedi, un éditeur open source basé, entre autres, à Lille.
+ERP5 a été développé à partir de 2001 par l'ingénieur de Mines Jean-Paul Smets, pour gérer l'émission monétaire d'une banque centrale et la production d'un industriel de l'habillement. Grâce à sa conception radicalement différente des autres ERP, c'est aujourd'hui probablement le seul ERP open source à avoir remplacé des ERP propriétaires dans plusieurs entreprises multinationales, notamment au Japon et en Allemagne.
 
-Ainsi, son périmètre est étendu. Citons notamment : finance et comptabilité, gestion de la relation client (CRM), gestion des achats, des ventes et de l'e-commerce, gestion de la chaine d'approvisionnement (SCM), gestion de la production (PDM), gestion des stocks, de la logistique et des ressources humaines. Ainsi ERP5 est à la fois un ERP, mais aussi un CRM, un MRP, un SCM et un PDM.
+La force d'ERP5 tient à la fois à son modèle conceptuel et à son architecture technique.
 
-ERP5 est développé par la société française Nexedi, membre de Systematic.
+Alors que la plupart des ERP a besoin de milliers de tables ou d'ontologies à plusieurs milliers de termes, ERP5 parvient à unifier les sciences de gestion autour d'un modèle abstrait à 5 classes qui a fait l'objet de plusieurs publications scientifiques et a prouvé sa capacité à épouser un très large spectre de besoins fonctionnels:  finance et comptabilité, gestion de la relation client (CRM), gestion des achats, des ventes et de l'e-commerce, gestion de la chaine d'approvisionnement (SCM), gestion de la production (PDM), gestion des stocks, de la logistique et des ressources humaines, gestion documentaire, gestion des connaissances. Ainsi ERP5 est à la fois un ERP, mais aussi un CRM, un MRP, un SCM, un PDM, un CMS, une plate-forme de e-Business et un KM.
 
-ERP5 est écrit en Python et est basé à la fois sur la base objets Zope et sur MySQL.
+ERP5 CRM possède l'essentiel des fonctionnalités que l'on peut attendre d'un CRM : campagnes de marketing, campagnes d'achat, tickets de support, opportunités de ventes, gestion de contacts, gestion d'événements, workflows, leads, etc. Une version mobile a été publiée dès 2007.
 
+ERP5 possède l'essentiel des fonctionnalités que l'on peut attendre d'un logiciel de e-commerce : gestion du catalogue, gestion des propriétés globales, gestion des variantes individuelles, prise de commande, livraison, gestion des reliquats, gestion de stock, workflow de validation, magasin multi-sites, multilinguisme, multi-devise.
 
+ERP5 possède aussi l'essentiel des fonctionnalités que l'on peut attendre d'un CMS : édition de modèle de document, création de contenu, multilinguisme, gestion de versions, staging, templating, système de widgets, workflow de publication, multi-sites, édition de contenu en direct, conversions de formats en ligne (bureautique, photo, vidéo), etc.
+
+ERP5 possède enfin l'essentiel des fonctionnalités d'un système gestion de connaissances : catégories, métadonnées, types de documents, workflows (publication, traduction, validation), reconnaissance optique de textes numérisés, relations explicites ou implicites entre documents.
+
+Alors que la plupart des ERP modernes fait appel à une architecture de type Object Relational Mapper (ORM), ERP5 fait appel à une base NoSQL de type objet (NEO) associée à un moteur d'indexation relationnel (MariaDB) et plein texte (Mroonga). ERP5 résoud ainsi les limites connues des ORM et permet la migration de données sans interruption de service lors des mises à jour du code ou des changements de modèles de données. Cette architecture "search based" permet la mise en oeuvres de systèmes critiques en 24/7, notamment dans l'aérospatiale et pour les systèmes de paiements. ERP5 permet également un développement intégralement en ligne dans le navigateur "à chaud", à l'image des PaaS les plus récents, avec une gestion native du protocole git pour la gestion des révisions. Son moteur de sécurité par règles simplifie enfin outre la gestion de droits d'accès dans les grandes organisations à organigramme matriciel par site, fonction, projet et direction.
+
+ERP5 est développé par la société française Nexedi, membre de Systematic. ERP5 fait également partie du portail du logiciel public du gouvernement brésilien avec un communauté de plus de 9000 membres et est enseigné dans plusieurs dizaines d'universités dans le monde dans le cadre du programme "One Student One ERP".
+
+Dernière différence: suivant les recommandations Brian Prentice, analyste chez Gartner, Nexedi considère que la communauté d'ERP5 sont ses utilisateurs et non les intégrateurs. C'est pourquoi Nexedi encourage les entreprises qui adoptent ERP5 à développer en interne des compétences et à contribuer à son coeur fonctionnel.
 
 
 OFBiz

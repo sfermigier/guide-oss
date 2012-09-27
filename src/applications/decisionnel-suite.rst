@@ -8,6 +8,18 @@ Ainsi, le périmètre des suites décisionnelles est très vaste : exécution de
 L’offre décisionnelle open source est très riche avec 4 outils de grande qualité : JasperSoft, SpagoBI, Palo et Pentaho.
 
 
+Rapid-Miner
+-----------
+
+:Version: 5.2
+:Site: http://rapid-i.com/
+:Porteur: un éditeur (Rapid-I)
+:Licence: AGPL et proprietaire
+
+Rapid-Miner est une suite décionnelle complète conçue pour le Big Data. Rapid-Miner comporte un module d'analyse de données,
+de reporting, un module OLAP, un module HADOOP, et un ETL. Il intègre tous les outils de business intelligence y compris les modules R et la bibliothèque Weka. Son interface utilisateur permet de dessiner des chaînes de traitement et des rapports à la souris. Son moteur de calcul est capable de répartir les calculs sur un cluster.
+
+Rapid-Miner est issu de la recherche universitaire allemande et est aujourd'hui largement diffusé dans les banques et compagnies outre-Rhin où il parvient à remplacer le leader du marché sur le segment du décisionnel. Rapid-Miner s'interface avec de nombreuses bases de données et notamment Vectorwise pour atteindre de très hautes performances sur les fermes de données.
 
 
 SpagoBI

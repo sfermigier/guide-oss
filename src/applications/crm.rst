@@ -7,7 +7,7 @@ Le périmètre de ces outils est donc potentiellement très large puisqu’il tr
 
 Parmi les fonctionnalités que l’on trouve dans les CRM, on peut citer : gestion multi-entités, service Client, gestion de cas et groupware, cycle des ventes, campagnes de marketing et de diffusion massive, gestion des contacts et des comptes, etc.
 
-Dans l’univers open source, on trouve des produits de grande qualité comme SugarCRM ou VTiger.
+Dans l’univers open source, on trouve des produits de grande qualité comme SugarCRM ou VTiger. On trouve également des ERP dont le module de CRM est au meilleur niveau (voir section ERP).
 
 
 OpenCRX
@@ -60,6 +60,14 @@ VTiger est une société présente à Bangalore, en Inde et à Sunnyvale, en Cal
 Le produit est bâti sur une plateforme LAMP/WAMP. VTiger OnDemand (basé sur le Cloud) est hébergé sur la plateforme d'Amazon EC2. Le code issu du fork de SugarCRM est sous la licence publique de SugarCRM, et les modifications VTiger sont sous la licence MPL.
 
 
+Voir également
+--------------
+
+Les logiciels ci-dessous disposent de fonctions de CRM et sont traités dans d'autres sections du guide:
+
+- ERP5 (section ERP)
+
+- OpenERP (section ERP)
 
 
 Autres
