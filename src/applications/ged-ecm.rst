@@ -29,6 +29,24 @@ Alfresco est disponible en deux versions : une version « Labs », gratuite, sou
 Alfresco est écrit en JEE et dispose d’une forte dynamique de développement, ainsi que d’une communauté d’utilisateurs et de développeurs importante. On notera l’existence du site Alfresco Forge, qui héberge de nombreux plugins.
 
 
+ERP5 KM
+-------
+:Version: 5.4.7
+:Site: www.erp5.com
+:Porteur: un éditeur (Nexedi)
+:Licence: GPL
+
+ERP5 KM est un module du PGI ERP5 destiné à la gestion de connaissances et à la gestion documentaire. Développé initialement pour l'Union Africaine, il est désormais déployé dans le cadre de projet de gestion de grandes bases de documents réglementaires pour des entreprises multinationales.
+
+ERP5 KM possède l'essentiel des fonctionnalités d'un système gestion de contenu d’entreprise : catégories, métadonnées, types de documents, workflows de publication, workflows de traduction, workflows de validation, conversions de formats en ligne (bureautique, photo, vidéo), reconnaissance optique de textes numérisés, relations explicites entre documents, relations implicites. ERP5 KM intègre au niveau de l'interface utilsiateur un moteur de gadgets permettant de créer des tableaux de bord synthétiques e ainsi qu'un système de thèmes permettant la publication d'une même base documentaire selon plusieurs facettes organisées selon des hiérarchies de sections de publications différentes.
+
+ERP5 KM se distingue des autres systèmes de gestion de contenu par son module de gestion des utilisateurs proche d'une gestion des ressources humaines. ERP5 permet ainsi un partage des connaissances au travers d'une classification fine des compétences des utilisateurs et du suivi de leurs affectations (projets, direction) au sein d'une entreprise. Son moteur de sécurité par règles  simplifie en outre la gestion de contenu d’entreprise dans les très grandes organisations soumises à un organigramme matriciel par site, fonction, projet et direction.
+
+Sur le plan technique, ERP5 Web est écrit en python à partir du framework ERP5. Il exploite plusieurs bases de données (ZEO, NEO, MySQL, MariaDB), plusieurs moteurs de recherche (Sphinx, Mroonga) et gère 4 caches différents (RAM, memcached, kumofs, HTTP). 
+
+ERP5 KM est développé par la société française Nexedi, membre de Systematic.
+
+
 Maarch
 ------
 
