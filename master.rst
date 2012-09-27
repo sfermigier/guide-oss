@@ -3,6 +3,9 @@
 :Date: 25 septembre 2012
 
 
+.. include:: src/introduction.rst
+
+
 .. include:: src/applications/dimension-applications.rst
 .. include:: src/applications/crm.rst
 .. include:: src/applications/decisionnel-etl.rst
