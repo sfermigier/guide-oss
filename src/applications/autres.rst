@@ -49,3 +49,23 @@ LimeSurvey est un outil open source complet dédié à la création de questionn
 
 LimeSurvey est écrit en PHP couplé à une base de données MySQL, PostgreSQL ou Microsoft SQL Server.
 
+
+Squash
+----------
+
+:Version : 1.3.0
+:Site : www.squashtest.org
+:Porteur : une communauté
+:Licence : LGPL v2
+
+La suite open source Squash se compose de plusieurs outils dédiés à l’industrialisation des tests fonctionnels.
+
+Squash TM est un outil open source de gestion de référentiels de tests. Nativement "multi-" et "inter-" projets, il permet de gérer l'ensemble des étapes d'une recette, de la gestion des exigences à l'exécution des campagnes de test. Squash TM est un outil "full web" proposant une interface qui se veut ergonomique et intuitive.
+
+Squash TA est un outillage open source d'automatisation des tests fonctionnels et d'industrialisation de leurs exécutions. Compatible avec plusieurs automates open source (Selenium, Sahi...), Squash TA propose une bibliothèque de fonctions pour gérer les tests automatisés d'applications Web, de webservices, de batchs, et les jeux de données associés (base de données ou fichiers).
+
+Outre Squash TM et Squash TA, la suite open source Squash se compose de Squash Data pour la gestion des jeux de données et Squash SC pour le pilotage et l'administration de Centres de Services Qualité Logicielle.
+
+Le projet Squash a été sélectionné par le pôle Systematic et est soutenu par la région Ile de France, le Conseil Général des Hauts de Seine, Oséo et la Direction générale de la compétitivité, de l'industrie et des services (DGCIS). 
+
+
