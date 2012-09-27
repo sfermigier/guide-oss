@@ -1,7 +1,7 @@
 Bibliothèque & Documentation
 ============================
 
-Adossé à l’univers de la gestion documentaire, des outils open source de gestion bibliothécaire et de documentation ont vu le jour ces dernières années.
+Adossés à l’univers de la gestion documentaire, des outils open source de gestion bibliothécaire et de documentation ont vu le jour ces dernières années.
 
 On peut notamment citer Koha ou PMB.
 
@@ -37,7 +37,7 @@ Créé en 2003 par la société française PMB Services, ce SIGB très complet s
 
 Parmi les principales fonctionnalités de PMB, on peut citer : catalogage de tout type de document (textuel, multimédia, web) avec attachement de fichiers. L'indexation fulltext est prévue dans la roadmap ;  import de notices (Unimarc, csv, etc), gestion de thesaurus, OPAC (interface de consultation à destination des utilisateurs), DSI (diffusion selon centres d'intérêt), gestion des lecteurs, gestion des prêts/retours, gestion des périodiques et des achats, client Z3950.
 
-A noter qu’il n’existe pas à ce jour de réseau de partenaires établit.
+A noter qu’il n’existe pas à ce jour de réseau de partenaires établi.
 
 PMB a été développé autour d’une plateforme LAMP/WAMP (plateforme Apache, PHP, MySQL), qui peut donc fonctionner sous Linux, Mac OS X ou Microsoft Windows.
 
