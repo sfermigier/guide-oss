@@ -43,7 +43,7 @@ Autres
 
 - JasperETL:	http://www.jaspersoft.com/jasperetl
 
--  CloverETL:	http://www.cloveretl.com/
+- CloverETL:	http://www.cloveretl.com/
 
 - Benetl:	http://www.benetl.net/
 

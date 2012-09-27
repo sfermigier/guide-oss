@@ -7,35 +7,19 @@ On constate ainsi qu’au-delà des applicatifs tels que les CMS, les boutiques 
 
 Plus de 50 solutions ont été évaluées dans cette dimension ; et près de 110 solutions y sont recensées parmi les catégories suivantes :
 
-
-
-Annuaire d’entreprise
-
-Bases de données
-
-BPM / Workflow
-
-Outils de développement
-
-Tests & Intégration continue
-
-ESB
-
-Frameworks et bibliothèques pour le développement Web
-
-Frameworks mobiles cross-platform
-
-PKI
-
-Authentification, fédération et gestion d’identité
-
-Outils de tests de charge
-
-Moteur de recherche
-
-Serveurs http et serveurs d’applications
-
-MOM & EAI
-
-Autres
-
+- Annuaire d’entreprise
+- Bases de données relationnelles
+- Big Data et NoSQL
+- BPM / Workflow
+- Outils de développement
+- Tests et Intégration continue
+- ESB
+- Frameworks et bibliothèques pour le développement Web
+- Frameworks mobiles cross-platform
+- PKI
+- Authentification, fédération et gestion d’identité
+- Outils de tests de charge
+- Moteur de recherche
+- Serveurs http et serveurs d’applications
+- MOM & EAI
+- Autres
