@@ -11,11 +11,11 @@ Apache Hadoop
 :Porteur: une fondation (Apache)
 :Licence: Apache
 
-Apache Hadoop est une plateforme Java pour développer des applications distribuées autour de jeux de données massifs. Hadoop comprend un nombre significatifs de sous-projets, dont les plus importants
+Apache Hadoop est une plateforme Java pour développer des applications distribuées autour de jeux de données massifs. Hadoop comprend un nombre significatif de sous-projets, dont les plus fondamentaux sont MapReduce, framework de calcul distribué massivement parallèle et HDFS, système de fichier distribué qui permet l'accès à haut débit à des jeux de données massifs.
 
-Apache Hadoop is an open-source software framework that supports data-intensive distributed applications, licensed under the Apache v2 license.[1] It enables applications to work with thousands of computational independent computers and petabytes of data. Hadoop was derived from Google's MapReduce and Google File System (GFS) papers.
-The entire Apache Hadoop “platform” is now commonly considered to consist of the Hadoop kernel, MapReduce and HDFS, as well as a number of related projects – including Apache Hive, Apache Hbase, and others.[2]
-Hadoop is a top-level Apache project being built and used by a global community of contributors,[3] written in the Java programming language. The Apache Hadoop project and its related projects (Hive, HBase, Zookeeper, and so on) have many contributors from across the ecosystem.[4]
+Plusieurs autres projets Apache viennent Hadoop, comme par exemple ZooKeeper, qui permet de coordonner la configurations des différents serveurs d'un cluster de calcul, ou Hive et Pig, qui implémentent des langages de requêtes spécifiques aux jobs MapReduce exécutés par Hadoop.
+
+Hadoop est écrit en Java, et soutenu par plusieurs startups américaines.
 
 
 MongoDB
@@ -87,3 +87,12 @@ L'univers Big Data / NoSQL est particulièrement dynamique, on peut compléter l
 - Neo4j: http://neo4j.org
 
 - Voldemort: http://www.project-voldemort.com
+
+- Riak: http://wiki.basho.com/
+
+- HBase: http://hbase.apache.org/
+
+- Hypertable: http://www.hypertable.com>
+
+- Disco: http://discoproject.org/
+

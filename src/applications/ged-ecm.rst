@@ -24,8 +24,7 @@ Alfresco propose l’ensemble des fonctionnalités attendues du domaine de la ge
 
 Alfresco est disponible en deux versions : une version « Labs », gratuite, sous licence GPL et une version « Entreprise », qui donne accès à la garantie de l’éditeur, aux modules de RM et de clustering intégré ainsi qu’aux mises à jour intermédiaires.
 
-Alfresco est écrit en JEE et dispose d’une forte dynamique de développement, ainsi que d’une communauté d’utilisateurs et de développeurs importante. On notera l’existence du site Alfresco Forge, qui héberge de nombreux plugins.
-
+Alfresco est écrit en JEE.
 
 
 Maarch
@@ -36,28 +35,29 @@ Maarch
 :Porteur: un éditeur (Maarch)
 :Licence: GPL v3
 
-Maarch est une solution GED/GEC/SAE développée par la société française Maarch, membre de Systematic. Les domaines d'application privilégiés de Maarch sont les Systèmes d'Archivage Electroniques (SAE), la Gestion Electronique du Courrier (GEC), et la gestion de dossier. 
+Maarch est une solution GED/GEC/SAE développée par la société française Maarch, membre de Systematic. Les domaines d'application privilégiés de Maarch sont les Systèmes d'Archivage Electroniques (SAE), la Gestion Electronique du Courrier (GEC), et la gestion de dossier.
 
 Maarch suit un certain nombre de normes sur l'archivage, en particulier ISO 14721 (OAIS) et NFZ42-013. La version 1.3 comprend la gestion du cycle de vie, la réplication, et la prise en charge de paquets d'archives compressés (AIP).
 Maarch dispose d'un mode GEC verticalisé qui sait notamment s’interfacer avec un scanner ou gérer le cycle de distribution du courrier dans l’entreprise : réception, distribution, annotation, versionning, modèles de réponse et recherche.
 
 La communauté autour de la solution est de petite taille, concentrée autour de son éditeur. Le forum est actif est comprend un millier d'inscrits.
 
-Maarch est construit sur un framework PHP maison.
-La société Maarch est basée à Nanterre, France, et Dakar, Sénégal.
+Maarch est construit sur un framework PHP maison. La société Maarch est basée à Nanterre, France, et Dakar, Sénégal.
 
 
 Nuxeo
 -----
 
-:Version: 5.4.2
+:Version: 5.6
 :Site: www.nuxeo.com
 :Porteur: un éditeur (Nuxeo)
 :Licence: LGPL
 
-Nuxeo est une société française membre de Systematic, qui produit une solution de GED open source depuis 2001. Nuxeo Enterprise Plateform est le résultat de la migration en Java de la version basée sur Zope Python. La société est aujourd'hui présente en France et aux Etats Unis.
+Nuxeo est une société française membre de Systematic, qui produit une solution de GED open source depuis 2001. Nuxeo Enterprise Platform est le résultat de la migration en Java de la version basée sur Zope et Python. La société est aujourd'hui présente en France et aux Etats Unis.
 
 Il s'agit d'une solution complète de gestion de contenu d’entreprise : métadonnées, types de documents, workflow avancé, gestion de catégories, fonctions de collaboration, recherche, gestion de contenu complexe (web, multi-fichiers, structurés), gestion multi bases. L’outil se distingue par différents éléments : éditeur de thèmes, notion de « relations » qui permet de réaliser des liens typés entre contenus, gestion des vocabulaires, notion de section de publication, une architecture totalement modulaire, etc.
+
+Elle propose également, sous forme d'extensions, des fonctions de Digital Asset Management (DAM), de gestion des cas et d'intranet social.
 
 Nuxeo est bâtie sur des technologies JEE avec l'utilisation de composants open source issus des projets JBoss, Apache, Eclipse et des projets libres de Sun.
 

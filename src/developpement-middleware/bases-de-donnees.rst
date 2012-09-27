@@ -6,17 +6,19 @@ Les bases de données sont devenues des éléments incontournables du paysage in
 Les bases de données traditionnelles, comme MySQL ou PostgreSQL, sont de type relationnel et utilisent le langage SQL pour l’interrogation de leurs données.
 
 
-Cubrid
-------
+PostgreSQL
+----------
 
-:Version: 8.4.1
-:Site: www.cubrid.org
-:Porteur: un éditeur (Naver)
-:Licence: GPL
+:Version: 9.2.1
+:Site: www.postgresql.org
+:Porteur: une communauté
+:Licence: PostgreSQL License, approuvée par l'Open Source Initiative
 
-Cubrid est une base de données relationnelle développée par le géant coréen de l'Internet Naver qui est aussi l'une des 20 premières capitalisations boursières de l'Internet. Cubrid a été conçu par Naver pour remplacer une base de données propriétaire très connue et propulser toutes ses applications de réseaux sociaux, dont le plus grand réseau social de gamers.
+PostgreSQL est le SGBDR open source le plus complet aujourd’hui. PostgreSQL est issue de Ingres. Le projet a été lancé en 1985 par Michael Stonebraker. La première version bâtie sur l'architecture actuelle est sortie en 1995.
 
-Cubrid a la particularité de tenir la charge grâce à une version clusterisée et de d'utiliser Java comme langage procédural à la place de PL/SQL. Cubrid a été optimisée pour les architectures à base de disques SSD.
+Le périmètre fonctionnel de PostGreSQL est très large et comparable aux autres bases de données *entreprise* du marché. Il supporte les procédures stockées, les déclencheurs, les fonctions spécifiques, les indexes sur fonctions, les transactions, les règles customs permettant de modifier le chemin d'exécution des requêtes, un large éventail de types de données, de l'héritage de tables, de la recherche full-text, la répartition de charge sur plusieurs bases, etc. Ses performances et sa stabilité lui permettent de s'intégrer à une plateforme de production exigeante.
+
+PostgreSQL est écrit en C et fonctionne sur un très grand nombre de plateformes Unix (Linux, Solaris, BSD) ou Windows.
 
 
 MySQL
@@ -51,19 +53,18 @@ MariaDB comporte de nombreuses extensions par rapport à MySQL, notamment dans l
 Le mode de développement communautaire ainsi que des offres de maintenances commerciales attractives provenant de plusieurs sociétés independantes assurent à MariaDB un avenir certain.
 
 
-PostgreSQL
-----------
+Cubrid
+------
 
-:Version: 9.2.1
-:Site: www.postgresql.org
-:Porteur: une communauté
-:Licence: PostgreSQL License, approuvée par l'Open Source Initiative
+:Version: 8.4.1
+:Site: www.cubrid.org
+:Porteur: un éditeur (Naver)
+:Licence: GPL
 
-PostgreSQL est le SGBDR open source le plus complet aujourd’hui. PostgreSQL est issue de Ingres. Le projet a été lancé en 1985 par Michael Stonebraker. La première version bâtie sur l'architecture actuelle est sortie en 1995.
+Cubrid est une base de données relationnelle développée par le géant coréen de l'Internet Naver. Cubrid a été conçu par Naver pour remplacer une base de données propriétaire très connue et propulser toutes ses applications de réseaux sociaux, dont le plus grand réseau social de gamers.
 
-Le périmètre fonctionnel de PostGreSQL est très large et comparable aux autres bases de données *entreprise* du marché. Il supporte les procédures stockées, les déclencheurs, les fonctions spécifiques, les indexes sur fonctions, les transactions, les règles customs permettant de modifier le chemin d'exécution des requêtes, un large éventail de types de données, de l'héritage de tables, de la recherche full-text, la répartition de charge sur plusieurs bases, etc. Ses performances et sa stabilité lui permettent de s'intégrer à une plateforme de production exigeante.
+Cubrid a la particularité de tenir la charge grâce à une version clusterisée et de d'utiliser Java comme langage procédural à la place de PL/SQL. Cubrid a été optimisée pour les architectures à base de disques SSD.
 
-PostgreSQL est écrit en C et fonctionne sur un très grand nombre de plateformes Unix (Linux, Solaris, BSD) ou Windows.
 
 PostGIS
 -------
@@ -83,16 +84,16 @@ PostGIS est aujourd'hui le standard pour les bases de données spatiales open so
 Autres
 ------
 
-Parmi les produits de l’univers Base de données relationnelles, on peut compléter la liste avec les outils ci-dessous :
+Parmi les produits de l’univers Base de données relationnelles (et incidemment, objets ou clef/valeur), on peut compléter la liste avec les outils ci-dessous :
 
-- Berkeley DB	http://www.oracle.com/us/products/database/berkeley-db
+- Berkeley DB:	http://www.oracle.com/us/products/database/berkeley-db
 
-- db4o	http://www.db4o.com
+- db4o:	http://www.db4o.com
 
-- Apache Derby	http://db.apache.org/derby
+- Apache Derby:	http://db.apache.org/derby
 
-- FireBird	http://www.firebirdsql.org
+- FireBird:	http://www.firebirdsql.org
 
-- HSQLDB	http://hsqldb.org
+- HSQLDB:	http://hsqldb.org
 
-- SQLite	http://www.sqlite.org
+- SQLite:	http://www.sqlite.org

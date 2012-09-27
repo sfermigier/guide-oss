@@ -17,7 +17,7 @@ Rapid-Miner
 :Licence: AGPL et proprietaire
 
 Rapid-Miner est une suite décionnelle complète conçue pour le Big Data. Rapid-Miner comporte un module d'analyse de données,
-de reporting, un module OLAP, un module HADOOP, et un ETL. Il intègre tous les outils de business intelligence y compris les modules R et la bibliothèque Weka. Son interface utilisateur permet de dessiner des chaînes de traitement et des rapports à la souris. Son moteur de calcul est capable de répartir les calculs sur un cluster.
+de reporting, un module OLAP, un module Hadoop, et un ETL. Il intègre tous les outils de business intelligence y compris les modules R et la bibliothèque Weka. Son interface utilisateur permet de dessiner des chaînes de traitement et des rapports à la souris. Son moteur de calcul est capable de répartir les calculs sur un cluster.
 
 Rapid-Miner est issu de la recherche universitaire allemande et est aujourd'hui largement diffusé dans les banques et compagnies outre-Rhin où il parvient à remplacer le leader du marché sur le segment du décisionnel. Rapid-Miner s'interface avec de nombreuses bases de données et notamment Vectorwise pour atteindre de très hautes performances sur les fermes de données.
 
@@ -80,7 +80,5 @@ Autres
 - Vanilla:	http://forge.bpm-conseil.com/projects/vanilla/
 
 - KNIME:	http://www.knime.org/
-
-- RapidMiner:	http://sourceforge.net/projects/rapidminer/
 
 - BIRT Project:	http://www.eclipse.org/birt/phoenix/
