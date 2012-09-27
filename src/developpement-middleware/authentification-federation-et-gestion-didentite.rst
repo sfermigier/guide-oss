@@ -94,6 +94,20 @@ Shibboleth permet la mise en place d'un système d'authentification centralisé 
 Shibboleth est écrit en Java et C++.
 
 
+LinID Directory Manager
+------------------------
+
+:Version: 1.0
+:Site: http://www.linid.org/projects/directory-manager
+:Porteur: un éditeur (Linagora)
+:Licence: AGPLv3
+
+
+LinID Directory Manager est un framework Java basé sur Spring et Tapestry 5 permettant de concevoir des interfaces de gestion d'identités en interagissant directement avec les données d'un annuaire LDAPv3.
+
+Le framework fournit de nombreux composants, comme le formulaire de changement de mot de passe, le blocage/déblocage de comptes, l'association de membres à des groupes, la gestion des valeurs par liste de sélection ou cases à cocher.
+
+Il permet de créer des interfaces allant de l'utilisation très technique (par exemple LinID OpenLDAP Manager, console d'administration de la configuration OpenLDAP), à utilisation très fonctionnelle, comme des pages blanches/pages jaunes ou un trombinoscope.
 
 
 Autres
