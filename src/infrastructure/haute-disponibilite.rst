@@ -3,7 +3,7 @@ Haute disponibilité
 
 La haute disponibilité est un terme fréquemment utilisé dans l’univers du Web, à propos d'architectures de systèmes ou de services pour désigner le fait qu’ils soient disponibles un maximum de temps, 100% idéalement.
 
-Dans les entreprises, il est très important de mettre en place des techniques de hautes disponibles tant l’informatique représente souvent le système nerveux de l’organisation. Elles peuvent être mises en œuvre de différentes manières : d’un point de vue physique ou d’un point de vue logique notamment.
+Dans les entreprises, il est très important de mettre en place des techniques de hautes disponibilité et de résilience tant l’informatique représente souvent le système nerveux de l’organisation. Elles peuvent être mises en œuvre de différentes manières : d’un point de vue physique ou d’un point de vue logique notamment.
 
 Il existe d’excellents outils open source pour s’assurer que les services répondent en permanence. Keepalived par exemple qui fonctionne tel un routeur pour aiguiller les demandes selon l’état des services, ou Linux-HA qui permet la communication entre serveurs pour changer à chaud des configurations selon les états des autres serveurs.
 
