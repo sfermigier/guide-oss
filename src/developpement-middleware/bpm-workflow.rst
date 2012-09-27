@@ -64,11 +64,11 @@ Petals BPM
 
 :Version: 1.0-alpha-3
 :Site: http://research.petalslink.org/display/petalsbpm/
-:Porteur: LINAGORA (éditeur / SSLL)
+:Porteur: un éditeur (LINAGORA)
 :Licence: AGPL
 
-Petals BPM est un outil open source de modélisation de processus métier. Il se présente sous la forme d'une application web, qui permet à travers une interface graphique de créer des diagrammes au standard BPMN 2.0, et à terme, les traduire en processus BPEL exécutables. L’utilisation combinée de Petals BPM, Petals Master (annuaire de
-services) et Petals ESB (bus de services) assure ainsi la gestion du cycle de vie complet de vos processus métier à travers une plate-forme cohérente.
-C'est un moteur léger, conforme aux standards et ergonomique, qui permettra à terme de créer et importer ses propres modèles grâce à une API. 
-Il représente la solution idéale pour concevoir et exéctuer vos processus métiers au sein d'une infrastructure de services, et est activement développé par l'équipe de Petals, désormais intégrée à LINAGORA, leader français de l'édition et prestation de services open source.
-Vous pouvez le découvrir sur le site de démonstration : http://bpmneditor.ebmwebsourcing.com/
+Petals BPM est un outil open source de modélisation de processus métier. Il se présente sous la forme d'une application web, qui permet à travers une interface graphique de créer des diagrammes au standard BPMN 2.0, et à terme, les traduire en processus BPEL exécutables. 
+Il peut s'interfacer avec le bus de services Petals ESB, ainsi que l'annuaire de services Petals Master, pour assurer la gestion complète du cycle de vie des processus métiers.
+
+C'est un moteur léger, conforme aux standards et ergonomique. Il est activement développé au sein de LINAGORA, et permettra à terme d'étendre ses modèles grâce à une API dédiée,e.
+Une version de démonstration est disponible à cette adresse : http://bpmneditor.ebmwebsourcing.com/
