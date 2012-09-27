@@ -125,7 +125,7 @@ TYPO3
 :Porteur: une communauté
 :Licence: GPL
 
-TYPO3 est le fruit de plusieurs années de travail d’un gourou danois du nom de Kasper Skårhøj. Le produit est sorti fin 2000, et depuis une communauté très active s’est développée, particulièrement dans les pays germaniques.
+TYPO3 est le fruit de plusieurs années de travail d’un gourou danois du nom de Kasper Skårhøj. Le produit est sorti fin 2000, et depuis, une communauté très active s’est développée, particulièrement dans les pays germaniques.
 
 En termes de fonctionnalités prêtes à l’emploi, TYPO3 est l’un des outils les plus riches que nous ayons trouvés à ce jour. Il offre à peu près tout ce que l’on peut souhaiter, et cela avec un bon niveau de finition. Gestion des droits et des contributions, cache, habilitations, gabarits, etc., tout y est, avec peu de limitations. Parmi les fonctionnalités offertes par TYPO3, on peut citer la manipulation d’images, qui permet de redimensionner des images, de créer des vignettes et également de générer dynamiquement des titres en tant qu’images. L’une des grandes forces de TYPO3 réside dans son extensibilité par modules. Un module peut ajouter un ensemble de fonctionnalités à TYPO3, mais aussi modifier une fonctionnalité déjà intégrée, sans modifier le code de TYPO3, et donc, le laissant compatible avec les futures versions de TYPO3.
 
