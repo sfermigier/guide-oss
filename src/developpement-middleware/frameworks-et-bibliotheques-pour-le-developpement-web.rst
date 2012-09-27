@@ -1,11 +1,11 @@
 Frameworks et bibliothèques pour le développement Web
 =====================================================
 
-Un framework permet de réduire les temps de développement des applications en répondant de façon efficace aux problèmes les plus courants rencontrés par les développeurs. Il inclut généralement de nombreuses fonctionnalités prêtes à l’emploi dont les implémentations sont bien rodées et utilisent des modèles de conceptions standard et bien implémentés. Le temps ainsi gagné sur les questions génériques pourra être mis à profit sur les parties spécifiques de l’application.
+La plupart des applications modernes s’appuie sur des frameworks ou bibliothèques web.
+
+Un framework permet de réduire les temps de développement des applications en répondant de façon efficace aux problèmes les plus courants rencontrés par les développeurs. Il inclut généralement de nombreuses fonctionnalités prêtes à l’emploi dont les implémentations sont bien rodées et utilisent des modèles de conceptions standards et bien implémentés. Le temps ainsi gagné sur les questions génériques pourra être mis à profit sur les parties spécifiques de l’application.
 
 Les frameworks disponibles sont généralement de grande qualité. On en trouve pour tous les langages (Java, Php, Javascript, Python, Ruby, etc.) avec des approches parfois très différentes.
-
-La plupart des applications modernes s’appuie sur des frameworks ou bibliothèques web.
 
 
 
@@ -193,8 +193,6 @@ Autres
 Parmi les produits de l’univers Frameworks et bibliothèques pour le développement Web, on peut compléter la liste avec les outils ci-dessous :
 
 
-
-Nom	URL / Site web
 
 CakePHP	http://cakephp.org
 
