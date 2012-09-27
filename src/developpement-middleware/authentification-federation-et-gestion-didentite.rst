@@ -30,15 +30,15 @@ CAS est écrit en Java, et fournit des clients CAS pour intégrer les applicatio
 
 
 
-LemonLDAP ::NG
+LemonLDAP::NG
 --------------
 
-:Version: 1.1.1
+:Version: 1.2.2
 :Site: http://lemonldap-ng.org
 :Porteur: un consortium (OW2)
 :Licence: GPL
 
-LemonLDAP::NG est un système d'authentification de type SSO Web, initié en 2004 par la société Linagora, et aujourd'hui repris par le consortium OW2. Il nécessite l’utilisation d’un serveur Apache, mais un mode reverse proxy permet de l'utiliser avec des applications fonctionnant sous un autre serveur (IIS, Tomcat, etc.)
+LemonLDAP::NG est un système de SSO et de contrôle d'accès Web, initié en 2003 par le Ministère des finances, puis repris par la Gendarmerie Nationale et Linagora. Il intègre le consortium OW2 en 2007. Il nécessite l’utilisation d’un serveur Apache, mais un mode reverse proxy permet de l'utiliser avec des applications fonctionnant sous un autre serveur (IIS, Tomcat, etc.)
 
 LemonLDAP::NG permet de baser l'authentification des applications web sur un annuaire LDAP, mais aussi sur de nombreux autres annuaires, bases de données, ainsi que sur d'autres systèmes tels que OpenID et SAML. Il peut également servir de fournisseur CAS, OpenID et SAML. Le contrôle d'accès peut se faire par URL pour chaque application à protéger. LemonLDAP::NG permet aussi la traçabilité des accès. Il propose une interface d'administration Web.
 
