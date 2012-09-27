@@ -8,6 +8,19 @@ Les bases de données, comme MySQL ou PostgreSQL, sont de type relationnel utili
 Depuis 2009, une nouvelle mouvance – le NoSQL – est apparue. Elle propose une alternative au SQL et au modèle relationnel afin de permettre un haut niveau de scalabilité (extensibilité).
 
 
+Cubrid
+------
+
+:Version: 8.4.1
+:Site: www.cubrid.org
+:Porteur: un éditeur (Naver)
+:Licence: GPL
+
+Cubrid est une base de données relationnelle développée par le géant coréen de l'Internet Naver qui est aussi l'une des 20 premières capitalisations boursières de l'Internet. Cubrid a été conçu par Naver pour remplacer une base de données propriétaire très connue et propulser toutes ses applications de réseaux sociaux, dont le plus grand réseau social de gamers.
+
+Cubrid a la particularité de tenir la charge grâce à une version clusterisée et de d'utiliser Java comme langage procédural à la place de PL/SQL. Cubrid a été optimisée pour les architectures à base de disques SSD.
+
+
 MySQL
 -----
 
