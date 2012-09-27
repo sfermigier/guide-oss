@@ -11,14 +11,14 @@ Comme on le voit, l’open source offre d’excellentes briques de développemen
 
 
 Acceleo
----
+-------
 
 :Version: 3.3.0
 :Site: http://www.eclipse.org
 :Porteur: une fondation (Eclipse)
 :Licence: EPL (Eclipse Public License)
 
-Acceleo est un générateur de code qui permet de transformer des modèles vers du code (approche MDA - Model driven Architecture). 
+Acceleo est un générateur de code qui permet de transformer des modèles vers du code (approche MDA - Model driven Architecture).
 Acceleo a l'originalité de laisser à l'utilisateur le choix dans le formalisme de modélisation en entrée, et dans le type de langage et de framework à générer en sortie. Ainsi, de nombreux éditeurs sous Eclipse ont été créés pour simplifier la création de générateurs sur mesure, via une approche basée sur des templates et une syntaxe standardisée.
 
 Acceleo est écrit en Java.
@@ -200,12 +200,10 @@ Autres
 Parmi les produits de l’univers Outils de développement, on peut compléter la liste avec les outils ci-dessous :
 
 
-Nom	URL / Site web
+- CVS:	http://cvs.nongnu.org
 
-CVS	http://cvs.nongnu.org
+- Gforge:	http://gforge.org/gf
 
-Gforge	http://gforge.org/gf
-
-Trac	http://trac.edgewall.org
+- Trac:	http://trac.edgewall.org
 
 

@@ -67,10 +67,6 @@ Tomcat est distribué sous la licence Apache.
 Tomcat a été écrit en langage Java. Il peut donc s'exécuter via la machine virtuelle Java sur n'importe quel système d'exploitation la supportant.
 
 
-
-
-
-
 GlassFish
 ---------
 
@@ -88,26 +84,17 @@ GlassFish est écrit en Java.
 
 
 
-
-
-
-
-
-
 Autres
 ------
 
 Parmi les produits de l’univers Serveurs HTTP et serveurs d’applications, on peut compléter la liste avec les outils ci-dessous :
 
 
+- EasyBeans:	http://wiki.easybeans.org
 
-Nom	URL / Site web
+- Geronimo:	http://geronimo.apache.org
 
-EasyBeans	http://wiki.easybeans.org
+- JOnAS:	http://wiki.jonas.ow2.org
 
-Geronimo	http://geronimo.apache.org
-
-JOnAS	http://wiki.jonas.ow2.org
-
-Lighttpd	http://www.lighttpd.net
+- Lighttpd:	http://www.lighttpd.net
 
