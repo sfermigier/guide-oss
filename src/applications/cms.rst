@@ -3,11 +3,12 @@ CMS
 
 La gestion de contenus recouvre aujourd’hui une large palette de besoins : sites d’informations, sites Corporate, sites de services, extranets sécurisés, intranets participatifs, espaces communautaire...
 
-Pour couvrir ce périmètre, il existe d’excellentes solutions open source au périmètre très large comme : eZ Publish, Drupal, TYPO3, Jahia, Infoglue, SPIP, HippoCMS, Joomla, Plone… lesquelles sont devenues des standards dans l’univers de la gestion de contenus tant elles dominent par leur capacité, leur modularité et leur périmètre fonctionnel et technique.
+Pour couvrir ce périmètre, il existe d’excellentes solutions open source au périmètre très large
+comme : eZ Publish, Drupal, TYPO3, Jahia, Infoglue, SPIP, HippoCMS, Joomla, Plone… lesquelles sont devenues des standards dans l’univers de la gestion de contenus tant elles dominent par leur capacité, leur modularité et leur périmètre fonctionnel et technique.
 
 Elles sont devenues, au fil des années, plus que des alternatives sérieuses dans le domaine de l’Enterprise Content Management : elles dominent désormais le marché.
 
-
+Au côté de ces solutions dominantes, la convergence ERP/CRM/CMS/e-business poussée par la croissance e-commerce conduit des applicatifs issus d'autres domaines fonctionnels (ERP, CRM) à intégrer des fonctions de CMS équivalents aux meilleurs produits dédiés du marché. 
 
 
 Drupal
@@ -26,6 +27,22 @@ Drupal est publié sous licence GNU GPL et est pleinement open source. Des offre
 D’un point de vue technique, Drupal est bâti autour des technologies LAMP (PHP et MySQL notamment).
 
 
+
+ERP5 Web
+--------
+
+:Version: 5.4.7
+:Site: www.erp5.com
+:Porteur: un éditeur (Nexedi)
+:Licence: GPL
+
+ERP5 Web est un module du PGI ERP5 destiné à la réalisation de sites d'informations ou de site collaboratifs. Il possède l'essentiel des fonctionnalités que l'on peut attendre d'un CMS : édition de modèle de document, création de contenu, multilinguisme, gestion de versions, staging, templating, système de widgets, workflow de publication, multi-sites, édition de contenu en direct, conversion en temps réel multi-format, etc.
+
+ERP5 Web est un logiciel libre publié sous licence GPL. Il a été notamment utilisé pour réaliser le réseau social professionnel innov24 (www.innov24.com). L'interface utilisateur est intégrée au site sous forme d'une barre d'édition en bas de page qui ne perturbe pas le design du site. Plusieurs modules d'extension permettent d'intégrer un blog, un forum, un calendrier et même un système de gestion bureautique en ligne.
+
+Sur le plan technique, ERP5 Web est écrit en python à partir du framework ERP5. Il exploite plusieurs bases de données (ZEO, NEO, MySQL, MariaDB), plusieurs moteurs de recherche (Sphinx, Mroonga) et gère 4 caches différents (RAM, memcached, kumofs, HTTP). Son moteur de sécurité par règles  simplifie la gestion de très grandes bases d'utilisateurs par rapport aux approches traditionelles par groupes.
+
+ERP5 Web est développé par la société française Nexedi, membre de Systematic. 
 
 
 eZ Publish

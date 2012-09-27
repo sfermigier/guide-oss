@@ -7,7 +7,25 @@ Le périmètre de ces outils est donc potentiellement très large puisqu’il tr
 
 Parmi les fonctionnalités que l’on trouve dans les CRM, on peut citer : gestion multi-entités, service Client, gestion de cas et groupware, cycle des ventes, campagnes de marketing et de diffusion massive, gestion des contacts et des comptes, etc.
 
-Dans l’univers open source, on trouve des produits de grande qualité comme SugarCRM ou VTiger.
+Dans l’univers open source, on trouve des produits de grande qualité comme ERP5 CRM, SugarCRM ou VTiger.
+
+
+ERP5 CRM
+--------
+
+:Version: 5.4.7
+:Site: www.erp5.com
+:Porteur: un éditeur (Nexedi)
+:Licence: GPL
+
+ERP5 CRM est un module du PGI ERP5 destiné à la gestion de la relation client. Il a été déployé notamment pour la gestion d'abonnés à des services de péages autoroutiers et pour la gestion des donateurs d'organisations non gouvernmetales internationales.
+
+ERP5 CRM possède l'essentiel des fonctionnalités que l'on peut attendre d'un CRM : campagnes de marketing, campagnes d'achat, tickets de support, opportunités de ventes, gestion de contacts, gestion d'événements, workflows, leads, etc. Une version mobile a été publiée dès 2007. ERP5 CRM est souvent déployé en même temps que ERP5 Web qui propulse le frontal Web du CRM et ERP5 KM qui fournit la gestion documentaire des documents du CRM, notamment la reconnaissance optique des courriers papiers associés à chaque contact.
+
+Sur le plan technique, ERP5 Web est écrit en python à partir du framework ERP5. Il exploite plusieurs bases de données (ZEO, NEO, MySQL, MariaDB), plusieurs moteurs de recherche (Sphinx, Mroonga) et gère 4 caches différents (RAM, memcached, kumofs, HTTP). Son moteur de sécurité par règles  simplifie la gestion de très grandes bases de contacts par rapport aux approches traditionelles par groupes.
+
+ERP5 CRM est développé par la société française Nexedi, membre de Systematic.
+
 
 
 OpenCRX

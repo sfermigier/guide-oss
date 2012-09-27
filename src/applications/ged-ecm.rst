@@ -7,9 +7,7 @@ L’ECM permet d’accroître l’efficacité de votre organisation en offrant �
 
 Aujourd'hui, les solutions de GED open source ont atteint un exceptionnel niveau de maturité, et rivalisent à armes égales avec les plus grandes offres commerciales, apportant des bénéfices uniques en termes d'ouverture, de pérennité, et de coûts.
 
-Alfresco, Nuxeo, Knowledge Tree, Maarch, Jahia... l’offre open source de la gestion documentaire est de plus en plus riche.
-
-
+Alfresco, ERP5 KM, Nuxeo, Knowledge Tree, Maarch, Jahia... l’offre open source de la gestion documentaire est de plus en plus riche.
 
 
 Alfresco
@@ -27,6 +25,24 @@ Alfresco propose l’ensemble des fonctionnalités attendues du domaine de la ge
 Alfresco est disponible en deux versions : une version « Labs », gratuite, sous licence GPL et une version « Entreprise », qui donne accès à la garantie de l’éditeur, aux modules de RM et de clustering intégré ainsi qu’aux mises à jour intermédiaires.
 
 Alfresco est écrit en JEE et dispose d’une forte dynamique de développement, ainsi que d’une communauté d’utilisateurs et de développeurs importante. On notera l’existence du site Alfresco Forge, qui héberge de nombreux plugins.
+
+
+ERP5 KM
+-------
+:Version: 5.4.7
+:Site: www.erp5.com
+:Porteur: un éditeur (Nexedi)
+:Licence: GPL
+
+ERP5 KM est un module du PGI ERP5 destiné à la gestion de connaissances et à la gestion documentaire. Développé initialement pour l'Union Africaine, il est désormais déployé pour la gestion de grandes bases réglementaires d'entreprises multinationales.
+
+ERP5 KM possède l'essentiel des fonctionnalités d'un système gestion de contenu d’entreprise : catégories, métadonnées, types de documents, workflows (publication, traduction, validation), conversions de formats en ligne (bureautique, photo, vidéo), reconnaissance optique de textes numérisés, relations explicites ou implicites entre documents. ERP5 KM intègre au niveau de l'interface utilsiateur un moteur de gadgets pour créer des tableaux de bord modulaires ainsi qu'un système de thèmes permettant la publication d'une même base documentaire selon plusieurs facettes et plusieurs hiérarchies de sections.
+
+ERP5 KM se distingue des autres systèmes de gestion de contenu car il permet un meilleur partage des connaissances au travers d'une classification fine des compétences des utilisateurs et du suivi historisé de leurs affectations (projets, direction) au sein d'une entreprise. Son moteur de sécurité par règles simplifie en outre la gestion de droits d'accès dans les grandes organisations à organigramme matriciel par site, fonction, projet et direction.
+
+Sur le plan technique, ERP5 Web est écrit en python à partir du framework ERP5. Il exploite plusieurs bases de données (ZEO, NEO, MySQL, MariaDB), plusieurs moteurs de recherche (Sphinx, Mroonga) et gère 4 caches différents (RAM, memcached, kumofs, HTTP).
+
+ERP5 KM est développé par la société française Nexedi, membre de Systematic.
 
 
 ERP5 KM
