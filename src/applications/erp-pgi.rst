@@ -39,7 +39,7 @@ ERP5
 
 ERP5 fait partie de cette nouvelle classe d’ERP dont les fondations conceptuelles - plus ambitieuses - ont rendu plus simple le développement des solutions métiers. ERP5 a été créé et est actuellement principalement maintenue par Nexedi, un éditeur open source basé, entre autres, à Lille.
 
-Ainsi, son périmètre est relativement large. Citons notamment : finance et comptabilité, gestion de la relation client (CRM), gestion des achats, des ventes et de l'e-commerce, gestion de la chaine d'approvisionnement (SCM), gestion de la production (PDM), gestion des stocks, de la logistique et des ressources humaines. Ainsi ERP5 est à la fois un ERP, mais aussi un CRM, un MRP, un SCM et un PDM.
+Ainsi, son périmètre est étendu. Citons notamment : finance et comptabilité, gestion de la relation client (CRM), gestion des achats, des ventes et de l'e-commerce, gestion de la chaine d'approvisionnement (SCM), gestion de la production (PDM), gestion des stocks, de la logistique et des ressources humaines. Ainsi ERP5 est à la fois un ERP, mais aussi un CRM, un MRP, un SCM et un PDM.
 
 ERP5 est développé par la société française Nexedi, membre de Systematic.
 
@@ -75,7 +75,7 @@ Openbravo
 
 Openbravo est une solution d’origine espagnole basée sur l’ERP Compiere (autre produit open source présenté dans ce livre) créé en 2001. Le projet, appelé initialement Tecnicia est devenu open source en 2005.
 
-Openbravo a forké tout le code métier en PL/SQL de Compiere ainsi que son moteur de gestion d’entities et l’a transposé dans une interface web assise sur un serveur Java. Interfaces qui constituent le point fort du produit : peut être les plus séduisantes et les plus ergonomiques. Malgré une grosse levée de fonds en 2005, le produit a un dynamisme modéré notamment en termes de références. Openbravo cible le marché des ERP pour PME et dispose d’un périmètre large bien qu’inférieur à OpenERP.
+Openbravo a forké tout le code métier en PL/SQL de Compiere ainsi que son moteur de gestion d’entities et l’a transposé dans une interface web assise sur un serveur Java. Interfaces qui constituent le point fort du produit : parmi les plus séduisantes et les plus ergonomiques. Malgré une grosse levée de fonds en 2005, le produit a un dynamisme modéré notamment en termes de références. Openbravo cible le marché des ERP pour PME et dispose d’un périmètre large bien qu’inférieur à OpenERP.
 
 L’éditeur est solide et apte à fournir un support professionnel.
 
