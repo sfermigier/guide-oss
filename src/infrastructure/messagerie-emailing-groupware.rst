@@ -44,7 +44,7 @@ SpamAssassin
 
 SpamAssassin est un antispam utilisant un grand nombre de techniques différentes. Il date de 1997 et est mené par la Apache Software Foundation, auteur du très célèbre serveur Web Apache HTTP Server.
 
-Il s'agit d'un outil très répandu sur les serveurs de mails, y compris dans les infrastructures des grands fournisseurs. Parmi les techniques utilisées, on retrouve l'analyse Bayesienne, basée sur l'apprentissage de mots-clés, divers systèmes de listes noires (URIBL, DNSBL), l'analyse du contenu (Razor, DCC), et un certains nombre de critères sur le formatage du message (taux images/texte, absence de version texte, émetteur invalide, etc.).
+Il s'agit d'un outil très répandu sur les serveurs de mails, y compris dans les infrastructures des grands fournisseurs. Parmi les techniques utilisées, on retrouve l'analyse Bayesienne, basée sur l'apprentissage de mots-clés, divers systèmes de listes noires (URIBL, DNSBL), l'analyse du contenu (Razor, DCC), et un certain nombre de critères sur le formatage du message (taux images/texte, absence de version texte, émetteur invalide, etc.).
 
 SpamAssassin est écrit en Perl.
 
@@ -114,7 +114,7 @@ OpenEMM
 
 OpenEMM est une solution d’emaling open source développée depuis 1999 par la société allemande Agintas. OpenEMM est utilisé par de grands groupes tels que BenQ, Siemens, etc.
 
-OpenEMM est utilisé pour gérer les newsletters et les campagnes marketing par email des entreprises. Il existe peu de solutions d’emailing open source disposant d’un large périmètre ce pourquoi, OpenEMM a toute sa place dans ce guide open source. D’un point de vue fonctionnel, l’outil est relativement riche. Citons par exemple : une interface entièrement web, disponible en plusieurs langues dont le français et l’anglais, outils de ciblage, statistiques en temps réel, gestion des templates, modules d’importation et d’extraction de masse, bonne documentation, utilisation possible de webservices, gestion des erreurs de retours, etc.
+OpenEMM est utilisé pour gérer les newsletters et les campagnes marketing par email des entreprises. Il existe peu de solutions d’emailing open source disposant d’un périmètre fonctionnel aussi large : une interface entièrement web, disponible en plusieurs langues dont le français et l’anglais, outils de ciblage, statistiques en temps réel, gestion des templates, modules d’importation et d’extraction de masse, bonne documentation, utilisation possible de webservices, gestion des erreurs de retours, etc.
 
 OpenEMM repose sur les langages C, Java et Python. Il utilise la base de données MySQL pour le stockage de ses informations.
 
