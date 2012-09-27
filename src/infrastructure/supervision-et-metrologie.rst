@@ -1,27 +1,10 @@
 Supervision et Métrologie
 =========================
 
-La supervision et de la métrologie est un domaine bien servie par l’open source avec de nombreux produits de qualité, comme Nagios notamment qui dispose également d’une grande notoriété.
+Les outils de supervision permettent la surveillance de réseaux, machines, services, etc. Parmi les fonctionnalités que l’on peut trouver, on peut citer : la consultation de l'état des services et des machines supervisés, la métrologie, le reporting, l'accès aux évènements de supervision, la gestion avancée des utilisateurs et des ACL, mais aussi les dépendances, l'escalade de notification, les templates de services et d'hôtes, le support des surveillances actives et passives, etc
 
-Les outils de supervision permettent la surveillance de réseaux, machines, services, etc. Parmi les fonctionnalités que l’on peut trouver, on peut citer : la consultation de l'état des services et des machines supervisés, la métrologie, le reporting, l'accès aux évènements de supervision, la gestion avancée des utilisateurs et des ACL, mais aussi les dépendances, l'escalade de notification, les templates de services et d'hôtes, le support des surveillances actives et passives, etc.
+La Supervision et métrologie est un domaine bien servi par l’open source avec de nombreux produits de qualité, comme Nagios notamment qui dispose également d’une grande notoriété.
 
-
-Vigilo
-------
-
-:Version: 2.1
-:Site: www.projet-vigilo.org
-:Licence: GPL v2 et propriétaire
-
-TODO
-
-Vigilo est développé par la société française CS, membre de Systematic.
-
-
-Shinken
--------
-
-TODO
 
 
 Cacti
@@ -116,7 +99,7 @@ Munin
 :Porteur: une communauté
 :Licence: GPL
 
-Le projet existe depuis 2004, créé par la société Redpill Linpro puis rapidement rejoint par de nombreux autres développeurs. Le projet reste très actif aujourd'hui.
+Le projet existe depuis 2004. Il a été créé par la société Redpill Linpro puis rapidement rejoint par de nombreux autres développeurs. Le projet reste très actif aujourd'hui.
 
 Munin permet de surveiller n'importe quel paramètre des serveurs, et rend l'information disponible sous forme de graphes dans une interface Web. Il permet également d’évaluer n'importe quelle métrique: système, réseau, applications, jusqu'aux limites de votre imagination. Ses principaux atouts sont sa simplicité et le grand nombre de plugins disponibles (par centaines) pour ajouter des graphes supplémentaires.
 
@@ -130,6 +113,10 @@ Parmi les produits de l’univers Supervision et Métrologie, on peut compléter
 
 
 - MRTG:	http://oss.oetiker.ch/mrtg
+
+- Shinken: http://www.shinken-monitoring.org
+
+- Vigilo: http://www.projet-vigilo.org
 
 - Zenoss:	http://community.zenoss.org
 
