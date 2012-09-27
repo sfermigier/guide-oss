@@ -286,14 +286,15 @@ Adresse: 80, Rue Roque De Fillol, 92800 PUTEAUX
 
 Site: www.linagora.com
 
-LINAGORA édite ses propres logiciels Open Source et propose une gamme de services professionnels pour réussir les grands projets du Libre. L’activité d’édition Open Source s’articule autour de 4 offres innovantes :
+LINAGORA, société spécialisée en Logiciel Libre, édite ses propres logiciels et propose une gamme de services professionnels.
+L'activité d'édition s'articule autour de 4 produits : 
+- OBM (outils de messagerie et de travail collaboratif) ;
+- LinPKI (solutions de confiance numérique et de sécurité) ; 
+- LinID (applications de gestion et de fédération des identités) ;
+- Petals (l'ESB libre qui s'adapte aux infrastructure étendues et grande échelle).
 
-- OBM : Outils de messagerie et de travail collaboratif ;
-- LinPKI : Solutions de sécurité ;
-- LinID : Applications de gestion et de fédération des identités ;
-- LinSM : Solutions de Service Management.
-
-Ces offres logicielles sont complétées par une gamme de services professionnels et de formations visant à accompagner les grands utilisateurs de logiciels libres dans le projet de transformation de leur SI.
+LINAGORA propose également l'Open Source Software Assurance (www.0800LINUX.com), offre de support et maintenance contractuellement garantis sur plus de 200 logiciels libres.
+Les services de développement et intégration, de création web, de formations et de conseil complètent l'offre de Linagora.
 
 LOGILAB
 -------
