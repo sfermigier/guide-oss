@@ -43,6 +43,7 @@
 .. include:: src/developpement-middleware/dimension-developpement-et-couches-intermediaires.rst
 .. include:: src/developpement-middleware/annuaire-dentreprise.rst
 .. include:: src/developpement-middleware/bases-de-donnees.rst
+.. include:: src/developpement-middleware/nosql.rst
 .. include:: src/developpement-middleware/bpm-workflow.rst
 .. include:: src/developpement-middleware/outils-de-developpement.rst
 .. include:: src/developpement-middleware/tests-integration-continue.rst
