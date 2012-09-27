@@ -20,7 +20,7 @@ Talend ESB
 
 Talend, société française membre de Systematic, a acquis Sopera, éditeur allemand de solutions SOA et de plateforme middleware, connu outre-rhin pour ses références prestigieuses telles que Deutsche Post, Zurich Insurance ou encore Landesbank Berlin. La fusion des solutions Talend Data Management et Sopera ASF a permis la naissance d'un outil middleware intégré de haut niveau alliant la souplesse d'utilisation d'un framework de management de services d'entreprise à la puissance des outils de manipulation de données.
 
-Ainsi, Talend ESB est un outil de premier plan permettant de jouer à la fois sur le tableau de la Qualité de Données et de la Qualité de Service. Les key features qui démarquent cette solution sont : une plateforme de médiation très bien outillée, une capacité de distribution des services, un monitoring technique centralisé et de haut niveau, l’intégration de la suite Talend. C’est un très bon produit à découvrir.
+Talend ESB permet de jouer à la fois sur le tableau de la Qualité de Données et de la Qualité de Service. Les key features qui démarquent cette solution sont : une plateforme de médiation, une capacité de distribution des services, un monitoring technique centralisé et de haut niveau, l’intégration de la suite Talend.
 
 
 Mule
