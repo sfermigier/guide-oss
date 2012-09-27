@@ -3,7 +3,7 @@ Annuaire d’entreprise
 
 Les annuaires d’entreprise, également appélés Annuaire électroniques, sont des bases de données spécialisées destinées à contenir de façon hiérarchique des éléments d’organisation de l’entreprise.
 
-La plupart du temps, on y stocke des personnes (utilisateurs), des groupes et des ressources (imprimantes, etc.). Cependant l’usage d’un annuaire d’entreprise ne se limite pas à des recherches textuelles, on peut également l’utiliser pour constituer des carnets d’adresses, pour authentifier les utilisateurs, pour définir la politique de sécurité de l’entreprise, etc.
+La plupart du temps, on y stocke des personnes (utilisateurs), des groupes et des ressources (imprimantes, etc.). Cependant l’usage d’un annuaire d’entreprise ne se limite pas à des recherches textuelles, on peut également l’utiliser pour constituer des carnets d’adresses, pour authentifier les utilisateurs, pour piloter la politique de sécurité de l’entreprise, etc.
 
 Il existe un standard utilisé dans la plupart des annuaires d’entreprise pour effectuer des requêtes (protocole LDAP).
 
