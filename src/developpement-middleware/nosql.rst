@@ -1,7 +1,7 @@
 Big Data et NoSQL
 =================
 
-Depuis 2009, une nouvelle mouvance – le NoSQL – est apparue. Elle propose une alternative au SQL et au modèle relationnel afin de permettre un haut niveau de scalabilité (extensibilité).
+Depuis 2009, une nouvelle mouvance – le NoSQL – est apparue. Elle propose une alternative au SQL et au modèle relationnel afin de permettre un haut niveau de scalabilité (extensibilité), et permettre aux entreprises de toutes tailles d'exploiter au mieux le déluge de données (*big data*) qu'elles sont capables de
 
 
 MongoDB
