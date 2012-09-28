@@ -3,7 +3,7 @@ Accélérateur Http
 
 Les accélérateurs HTTP, également appelés « Reverse Proxies », sont implémentés du côté des serveurs Internet. Ils ont différents usages comme : la sécurité, la répartition de charge, l’accélération SSL, la compression et le cache.
 
-C’est notamment ce dernier point que nous présentons dans cette rubrique. Les internautes « passent » par l’intermédiaire des reverse proxies pour accéder aux applications de serveurs internes. Des politiques de cache adaptées permettent de réduire la charge des serveurs d’applications Web quel que soit le langage utilisé. Certains accélérateurs HTTP gèrent le cache par fragment en supportant notamment la norme ESI.
+C’est notamment ce dernier point que nous présentons dans cette rubrique. Les internautes « passent » par l’intermédiaire des reverse proxies pour accéder aux applications de serveurs internes. Des politiques de cache adaptées permettent de réduire la charge des serveurs d’applications Web quel que soit le langage utilisé. Certains accélérateurs HTTP gèrent le cache par fragment en supportant notamment le standard ESI (Edge Side Includes).
 
 
 Squid

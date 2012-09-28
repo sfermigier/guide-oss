@@ -68,7 +68,7 @@ QEMU
 :Porteur: une communauté
 :Licence: GPL
 
-QEMU est un émulateur de système libre développé à l'origine par Fabrice Bellard.
+QEMU est un émulateur de système libre développé à l'origine par Fabrice Bellard et à présent étendu par une large communauté de contributeurs.
 
 QEMU fonctionne sur les plateformes x86, x64, PPC, Sparc et ARM et fonctionne sous les systèmes d'exploitation Linux, FreeBSD, NetBSD, OpenBSD, Mac OS X, Unix et Microsoft Windows. Il sait émuler des systèmes à base de processeurs x86, PowerPC, ARM et SPARC. Du fait de sa versatilité, il est souvent utilisé dans le cadre de travaux de recherche et développement.
 

@@ -60,8 +60,6 @@ MnoGoSearch est distribué sous licence GPL pour les environnements Unix, tandis
 MnoGoSearch est développé en C.
 
 
-
-
 OpenSearchServer
 ----------------
 
@@ -74,11 +72,9 @@ OpenSearchServer est un serveur de recherche, créé par Emmanuel Keller. La pre
 
 OpenSearchServer a été développé en interne dans le cadre du site l'Usine Nouvelle. Basé sur Lucene, il se différencie de SolR par une interface d'administration graphique accessible en HTTP, une capacité de crawling de site très avancée (gestion des threads, exclusion de pages, programmation de l'indexation, etc...), un système d'indexation de base de données et un crawler de fichiers. OpenSearchServer peut également facilement s'interfacer avec toute application, à travers une interface REST. De plus, OpenSearchServer peut être étendu facilement à travers des modules spécifiques qui viendront enrichir ses fonctionnalités. OpenSearchServer est également capable d'interpréter le contenu de plusieurs formats de fichiers (OpenOffice, Ms Office, PDF, etc...).
 
-La société Jaeksoft, basée sur Paris et membre de Systematic, la majeure partie des développements et fournit du support sur l'outil.
+La société Jaeksoft, basée sur Paris et membre de Systematic, assure la majeure partie des développements et fournit du support sur l'outil.
 
 OpenSearchServer est écrit en Java.
-
-
 
 
 Autres
