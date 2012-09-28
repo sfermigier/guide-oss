@@ -23,7 +23,7 @@ Sélection des solutions
 
 Dans de nombreux domaines, le secteur du logiciel libre est très concurrentiel. Des choix doivent être réalisés entre de nombreuses solutions, motivés par les critères suivants : dynamisme, périmètre fonctionnel, qualité du socle technique, souplesse / extensibilité, notoriété sur le marché français, existence de ressources sur le territoire français. Ces sont des critères en partie subjectifs, qui dépendent en partie de la perception et de l'expérience de chacun, ce qui explique que certaines solutions ne soient pas représentées.
 
-Nous espérons que cette sélection vous fournira les premières pistes pour avancer dans vos recherches, tout en vous recommandant d'effectuer le cas échéant des recherches complémentaires, par exemple sur Wikipedia.
+Nous espérons que cette sélection vous fournira les premières pistes pour avancer dans vos recherches, tout en vous recommandant d'effectuer le cas échéant des recherches complémentaires, par exemple en partant de Wikipedia.
 
 Evolution future de ce document
 -------------------------------

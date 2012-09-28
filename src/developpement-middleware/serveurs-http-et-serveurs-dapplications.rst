@@ -27,12 +27,6 @@ Apache est le serveur web le plus utilisé au monde. Son développement a commen
 Il offre une grande souplesse de configuration et un grand nombre modules pour une couverture fonctionnelle toujours inégalée. La version 2 a notamment apportée le support de plusieurs plateformes (dont Windows), une nouvelle API et le support d’IPv6. En plus de son périmétre initial, Apache est conçu pour être modulaire et permettre l’accueil de fonctionnalités additionnelles comme l’interprétation du language PERL, PHP, Python et Ruby, le support des tags SSI et des CGI, etc.
 
 
-Nginx
------
-
-TODO
-
-
 JBoss AS
 --------
 
