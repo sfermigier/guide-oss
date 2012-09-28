@@ -32,4 +32,6 @@ Dans l'esprit de collaboration du logiciel libre auquel nous sommes attachés, l
 
 ``https://github.com/GTLL/guide-oss``
 
-Si vous souhaitez collaborer à des évolutions futures de cet ouvrage, dans le respect des licences sus-citées, vous pouvez nous envoyer vos suggestions via les mécanismes de collaboration intégrés à GitHub.
+Si vous souhaitez collaborer à des évolutions futures de cet ouvrage, dans le respect des licences sus-citées, vous pouvez nous envoyer vos suggestions via les mécanismes de collaboration intégrés à GitHub. Les nouvelles versions de ce document seront rendues publiques sur le site :
+
+``http://www.guide-solutions-opensource.com/``
