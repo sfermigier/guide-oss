@@ -54,6 +54,16 @@ Site: www.alterway.fr
 
 Alter Way entend donner à la démarche Open Source une dimension industrielle qui en accroîtra l’attractivité et en garantira la pérennité. Les donneurs d’ordre trouveront, auprès d’Alter Way, acteur Open Source majeur, une véritable alternative aux grands intégrateurs traditionnels. Les domaines d'intervention d'Alter Way sont: Intégration en Open Source; Gestion de contenu; Administration systèmes et réseaux; Business Intelligence; Hébergement; Formation.
 
+af83
+---------
+
+Adresse : 15 rue Poissonnière 75002 Paris
+
+Site : www.af83.com
+
+Fondé en 2006 à Paris par Stéphane Distinguin et Louis Montagne, af83 crée en 2007 le framework Turbulences et lance en 2008 sa filiale américaine, af83 Inc. à San Francisco. En 2010, af83 lance CommerceGuys, spécialiste du segment E-Commerce avec Drupal, et sa filiale orientée nouveaux médias, af83média. af83 se concentre aujourd'hui sur la nouvelle génération d'applications exploitant Ruby on Rails, MongoDB et NodeJS. 
+af83 est une équipe d'ingénieurs et de designers qui conçoivent la nouvelle génération d'applications. Nos ingénieurs mettent en œuvre les technologies les plus avancées, nos designers conçoivent des expériences signifiantes et notre R&D joue un rôle moteur au seins des communautés et de projets Open Source.
+
 
 ANAKEEN
 -------
