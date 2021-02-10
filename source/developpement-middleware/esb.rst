@@ -7,48 +7,40 @@ Les ESB sont souvent présentés comme des architectures nouvelles qui exploiten
 
 Les ESB interviennent en tant que « médiateur » entre les clients et les fournisseurs de services (applications).
 
-Dans l’univers de l’open source, des solutions de référence existent comme Talend ESB, Mule et Petals.
+Plus d'infos: https://fr.wikipedia.org/wiki/Enterprise_service_bus
 
-
-Talend ESB
-----------
-
-:Version: 4.2.1
-:Site: http://fr.talend.com
-:Porteur: un éditeur (Talend)
-:Licence: Apache
-
-Talend, société française membre de Systematic, a acquis Sopera, éditeur allemand de solutions SOA et de plateforme middleware, connu outre-rhin pour ses références prestigieuses telles que Deutsche Post, Zurich Insurance ou encore Landesbank Berlin. La fusion des solutions Talend Data Management et Sopera ASF a permis la naissance d'un outil middleware intégré de haut niveau alliant la souplesse d'utilisation d'un framework de management de services d'entreprise à la puissance des outils de manipulation de données.
-
-Talend ESB permet de jouer à la fois sur le tableau de la Qualité de Données et de la Qualité de Service. Les key features qui démarquent cette solution sont : une plateforme de médiation, une capacité de distribution des services, un monitoring technique centralisé et de haut niveau, l’intégration de la suite Talend.
-
-
-Mule
+Zato
 ----
 
-:Version: 3.2.0
-:Site: www.mulesoft.org
-:Porteur: un éditeur (MuleSoft Inc)
-:Licence: CPAL (« Common Public Attribution License »)
+:Site: https://zato.io/
+:Porteur: un éditeur (Zato Source)
+:Licence: LGPL v3
 
-Mule est à la fois un ESB et un EAI. Le projet open source a été développé en 2003 par Ross Mason, aujourd’hui CTO de la société MuleSoft (anciennement MuleSource).
+Zato est une plate-forme middleware et un serveur d'applications open source basé sur Python. Il a été conçu comme un ESB (Enterprise Service Bus) agile visant à construire des systèmes de systèmes *on premise* ou dans le Cloud. Zato fournit une SOA (*Service Oriented Architecture*), REST (*Representational State Transfer*), des API et une intégration dans le Cloud, ainsi qu'une exposition des services back-end aux clients frontaux.
 
-Mule est une plateforme favorisant les échanges multiples entre différentes applications utilisant différentes technologies telles que : http, Xml-RPC, Email, JMS, etc. En fait, Mule supporte plus de 50 standards, protocoles et technologies, comme JMS, JDBC, TCP, UDP, Multicast, HTTP, servlet, SMTP, POP3, XMPP. Mule c’est également une plate-forme d'échanges qui possèdent de nombreuses capacités de routage. L’architecture de Mule est conçue pour être extensible.
-
-Mule est écrit en Java.
+Zato est une plateforme évolutive qui aide à la fois à créer et à orchestrer des services d'intégration, et à améliorer l'intercommunication entre les applications et les sources de données. Elle peut maintenir en ordre toutes les solutions techniques que votre entreprise utilise et ouvrir la voie à de nouvelles opportunités et de nouveaux processus. L'utilisation d'un large éventail de connecteurs, de formats de données et de protocoles permet à Zato d'éviter de restreindre le style architectural ou d'imposer d'autres limites.
 
 
-Petals ESB
-----------
+WSO2 EI
+-------
 
-:Version: 3.1.3
-:Site: http://petals.ow2.org
-:Porteur: un consortium (OW2) et un éditeur (Petals Link)
-:Licence: LGPL
+:Site: https://github.com/wso2/product-ei
+:Porteur: un éditeur (WSO2)
+:Licence: Apache 2.0
 
-Petals ESB est un bus de services d’entreprise (ESB) open source, médiateur et plaque tournante d’une infrastructure SOA. Le projet est dirigé par Petals Link, et est développé sur les forges du consortium OW2.
+WSO2 Enterprise Integrator est une solution d'intégration open source, rapide, cloud native et évolutive qui est le cœur de la plateforme WSO2 Integration Agile Platform. Elle existe depuis 2005 (anciennement sous le nom de WSO2 ESB).
 
-Petals ESB répond aux problématiques de la SOA : un système d’information flexible et adapté aux évolutions rapides de l’IT. Le tout avec un système temps réel et ouvert à l'extérieur. Intégré avec Petals View (supervision métier), Petals Master (gouvernance de SOA) et Petals Studio (Environnement de développement SOA), Petals ESB se place au centre d'une solution complète et open source pour une infrastructure SOA. Petals supporte et intégre de nombreux protocoles et technologies : JBI, SCA, BPEL, EIP,  Java, JSR 181, XSLT, XSD WSDL, SOAP, REST, POP, SMTP, IMAP, Plateforme JSE.
+Maintenu activement, avec le soutien commercial de WSO2 Inc, WSO2 Enterprise Integrator est utilisé en production dans des entreprises du monde entier, dans les domaines du gouvernement, de la santé, de la banque, de l'éducation, de la communication, etc.
+
+
+NServiceBus
+-----------
+
+:Site: https://particular.net/nservicebus
+:Porteur: un éditeur (Particular Software)
+:Licence: Reciprocal Public License 1.5
+
+NServiceBus est un framework de messagerie basé sur .NET. Il permet la création de systèmes distribués qui sont évolutifs, fiables et faciles à modifier. Il prend en charge une variété de modèles de messagerie sur des transports tels que MSMQ, RabbitMQ, Azure, Amazon SQS, et sa conception modulaire lui permet de s'adapter à des choix tels que la mise en file d'attente, le stockage, la sérialisation et les options de journalisation.
 
 
 Autres
@@ -56,9 +48,9 @@ Autres
 
 Parmi les produits de l’univers ESB, on peut compléter la liste avec les outils ci-dessous :
 
-- JBoss Enterprise Service Bus:	http://www.jboss.org/jbossesb
+- JBoss Enterprise Service Bus: https://www.jboss.org/jbossesb
 
-- ServiceMix:	http://servicemix.apache.org
+- Apache ServiceMix: https://servicemix.apache.org
 
-- Synapse:	http://synapse.apache.org
+- Apache Synapse: https://synapse.apache.org
 

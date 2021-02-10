@@ -45,29 +45,11 @@ OCS repose sur les technologies Perl et MySQL principalement.
 
 
 
-
-Pulse 2
--------
-
-:Version: 1.3.1.1
-:Site: www.mandriva.com/fr/pro/pulse
-:Porteur: un éditeur (Mandriva)
-:Licence: GPL
-
-Pulse 2 est un logiciel d'inventaire de parc informatique, d'imaging de poste et de télédéploiement créé par Mandriva, société francilienne membre de Systematic.
-
-Grâce à un agent installé sur les postes, Pulse 2 permet la remontée des caractéristiques matériels et logiciels des postes. L'agent permet également la prise en main à distance sur les postes par les administrateurs au travers du protocole VNC sur un canal sécurisé (SSH). Le télédéploiement se fait par packages, éventuellement de manière distribuée, avec reporting et planification. Les plateformes Windows, Mac et Linux sont supportées. L'imaging de poste permet de créer des masters et de les installer rapidement et à distance sur des postes sans aucune intervention des administrateurs (Contrôle à distance, PXE).
-
-Pulse 2 est construit sur plusieurs technologies : Python, MySQL et C++.
-
-
 Autres
 ------
 
 Parmi les produits de l’univers Gestion de parc et inventaires, on peut compléter la liste avec les outils ci-dessous :
 
+- Fusion Inventory http://fusioninventory.org
 
-- Fusion Inventory	http://fusioninventory.org
-
-- Linbox Rescue Server	http://lrs.linbox.org
 

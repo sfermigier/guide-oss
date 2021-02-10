@@ -22,7 +22,7 @@ eXo Platform
 :Porteur: un éditeur (eXo)
 :Licence: AGPL et propriétaire
 
-eXo est un éditeur français open source français créé en 2003, membre de Systematic. L’entreprise possède des bureaux en France, aux Etats Unis, au Vietnam, en Ukraine et en Tunisie. Elle édite une suite logicielle de travail collaboratif et de gestion de contenus destinée aux entreprises.
+eXo est un éditeur français open source français créé en 2003. L’entreprise possède des bureaux en France, aux Etats-Unis, au Vietnam, en Ukraine et en Tunisie. Elle édite une suite logicielle de travail collaboratif et de gestion de contenus destinée aux entreprises.
 
 La dernière version d’eXo Platform, la 3.0, intègre quatre projets open source dans un package unique : eXo Collaboration (2.1), eXo WCM (2.1), eXo Knowledge (2.1) et eXo Social (1.1). L'ergonomie de la solution est un peu en retrait par rapport à la concurrence mais les apports fonctionnels du produit pour la collaboration et l'échange en font un candidat à envisager pour tout projet de cette nature.
 
@@ -72,13 +72,13 @@ Dans l’univers des portails, l’offre open source est particulièrement vigou
 
 
 
-- JBoss / Gatein:	http://www.jboss.org/gatein
+- JBoss / Gatein: http://www.jboss.org/gatein
 
-- Apache Pluto:	http://portals.apache.org/pluto
+- Apache Pluto: http://portals.apache.org/pluto
 
-- Sakai:	http://sakaiproject.org
+- Sakai: http://sakaiproject.org
 
-- JetSpeed2:	http://portals.apache.org/jetspeed-2
+- JetSpeed2: http://portals.apache.org/jetspeed-2
 
-- Lutece:	http://fr.lutece.paris.fr
+- Lutece: http://fr.lutece.paris.fr
 

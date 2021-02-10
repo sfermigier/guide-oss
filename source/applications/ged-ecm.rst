@@ -31,11 +31,11 @@ Maarch
 ------
 
 :Version: 1.3
-:Site: www.maarch.org / www.maarch.com
+:Site: www.maarch.com
 :Porteur: un éditeur (Maarch)
 :Licence: GPL v3
 
-Maarch est une solution GED/GEC/SAE développée par la société française Maarch, membre de Systematic. Les domaines d'application privilégiés de Maarch sont les Systèmes d'Archivage Electroniques (SAE), la Gestion Electronique du Courrier (GEC), et la gestion de dossier.
+Maarch est une solution GED/GEC/SAE développée par la société française Maarch. Les domaines d'application privilégiés de Maarch sont les Systèmes d'Archivage Electroniques (SAE), la Gestion Electronique du Courrier (GEC), et la gestion de dossier.
 
 Maarch suit un certain nombre de normes sur l'archivage, en particulier ISO 14721 (OAIS) et NFZ42-013. La version 1.3 comprend la gestion du cycle de vie, la réplication, et la prise en charge de paquets d'archives compressés (AIP).
 Maarch dispose d'un mode GEC verticalisé qui sait notamment s’interfacer avec un scanner ou gérer le cycle de distribution du courrier dans l’entreprise : réception, distribution, annotation, versionning, modèles de réponse et recherche.
@@ -53,7 +53,7 @@ Nuxeo
 :Porteur: un éditeur (Nuxeo)
 :Licence: LGPL
 
-Nuxeo est une société française membre de Systematic, qui produit une solution de GED open source depuis 2001. Nuxeo Enterprise Platform est le résultat de la migration en Java de la version basée sur Zope et Python. La société est aujourd'hui présente en France et aux Etats Unis.
+Nuxeo est une société française qui produit une solution de GED open source depuis 2001. Nuxeo Enterprise Platform est le résultat de la migration en Java de la version basée sur Zope et Python. La société est aujourd'hui présente en France et aux Etats Unis.
 
 Il s'agit d'une solution complète de gestion de contenu d’entreprise : métadonnées, types de documents, workflow avancé, gestion de catégories, fonctions de collaboration, recherche, gestion de contenu complexe (web, multi-fichiers, structurés), gestion multi bases. L’outil se distingue par différents éléments : éditeur de thèmes, notion de « relations » qui permet de réaliser des liens typés entre contenus, gestion des vocabulaires, notion de section de publication, une architecture totalement modulaire, etc.
 
@@ -75,11 +75,7 @@ Autres
 
 Dans l’univers de la gestion documentaire, l’offre open source est particulièrement vigoureuse. Pour preuve, au-delà des produits présentés précédemment, on peut également citer les outils ci-dessous :
 
-- Jahia:	http://www.jahia.com
+- Anakeen: https://www.anakeen.com/fr/
 
-- Freedom:	http://www.dynacase.org
-
-- Quotero:	http://www.quotero.com
-
-- Exo DMS:	http://www.exoplatform.com
+- Kimios: https://www.kimios.com/
 

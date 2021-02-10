@@ -119,20 +119,6 @@ OpenEMM est utilisé pour gérer les newsletters et les campagnes marketing par 
 OpenEMM repose sur les langages C, Java et Python. Il utilise la base de données MySQL pour le stockage de ses informations.
 
 
-OBM
-----
-
-:Version: 2.4.1
-:Site: www.obm.org
-:Porteur: un éditeur (Linagora)
-:Licence: Affero GPL v3
-
-OBM est une solution de messagerie collaborative. Elle est utilisée dans les services publics français et propose aussi une offre SaaS. Elle est développée par la société francilienne Linagora, membre de Systematic.
-
-OBM apporte depuis 1999 une alternative crédible aux produits Microsoft Exchange et Lotus Domino. OBM dispose d'un front-end web permettant l'administration de la solution, ainsi que l'accès aux calendriers, contacts et aux emails via roundcube. Des connecteurs pour Mozilla Thunderbird et Microsoft Outlook sont disponibles, ainsi que la connectivité Smartphone via le standard de fait ActiveSync.
-
-Basé sur une architecture distribué, OBM utilise Postfix et Cyrus pour la gestion des emails, OpenLDAP comme annuaire, supporte les bases de données MySQL et PostgreSQL. Le front-end web repose sur Apache/PHP, avec RoundCube pour la partie webmail. Les web-services ainsi que connectivité smartphone sont réalisés en Java.
-
 Blue Mind
 ---------
 

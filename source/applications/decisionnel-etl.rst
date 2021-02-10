@@ -9,6 +9,35 @@ Les outils d’ETL disposent généralement de connecteurs permettant l’import
 
 Parmi les outils open source, on citera Talend ou Pentaho Data Integration (anciennement kettle).
 
+Airflow
+-------
+
+Apache Airflow a été créé par Airbnb et est un outil de gestion de flux de travail open source. Il peut être utilisé pour créer des pipelines ETL de données. À proprement parler, ce n'est pas un outil ETL en soi, mais plutôt un outil d'orchestration qui peut être utilisé pour créer, planifier et surveiller des flux de travail. Cela signifie que vous pouvez utiliser Airflow pour créer un pipeline en consolidant divers modules écrits indépendamment de votre processus ETL.
+
+Le workflow Airflow suit le concept de DAG (Directed Acyclic Graph). Airflow, comme les autres outils de la liste, dispose également d'un tableau de bord basé sur un navigateur pour visualiser le flux de travail et suivre l'exécution de plusieurs flux de travail. Airflow est un bon choix si vous souhaitez créer un flux de travail ETL complexe en enchaînant des modules indépendants et existants
+
+Bonobo
+------
+
+:Site: https://www.bonobo-project.org/
+:Porteur: une communauté
+:Licence: Apache 2.0
+
+Bonobo est un outil ETL léger construit en Python. Il est simple et relativement facile à apprendre. Il utilise le concept de graphe pour créer des pipelines et prend également en charge le traitement parallèle de plusieurs éléments dans le pipeline. Il possède également une interface visuelle où l'utilisateur peut suivre la progression du pipeline ETL.
+
+Dans l'ensemble, c'est juste un autre outil Python ETL facile à utiliser, qui peut être une bonne option pour les cas d'utilisation simples, mais qui ne possède pas beaucoup de caractéristiques qui le séparent du reste du paquet.
+
+Luigi
+-----
+
+:Site: https://github.com/spotify/luigi
+:Porteur: Spotify
+:Licence: Apache 2.0
+
+Luigi est un outil ETL basé sur Python qui a été créé par Spotify mais qui est maintenant disponible en tant qu'outil open-source. Il s'agit d'un outil plus sophistiqué que beaucoup d'autres sur cette liste et il possède des fonctionnalités puissantes pour créer des pipelines ETL complexes. Selon leur page Github, "Il gère la résolution des dépendances, la gestion des flux de travail, la visualisation, le traitement des pannes, l'intégration en ligne de commande, et bien plus encore".
+
+Il est également doté d'un tableau de bord web permettant de suivre tous les travaux ETL. Si vous cherchez à construire une solution d'entreprise, Luigi peut être un bon choix.
+
 
 Talend
 ------
@@ -25,7 +54,7 @@ Pentaho Data Integration
 ------------------------
 
 :Version: 5.0
-:Site: http://www.pentaho.fr/explore/pentaho-data-integration/ 
+:Site: http://www.pentaho.fr/explore/pentaho-data-integration/
 :Porteur: un éditeur (Pentaho)
 :Licence: GPL
 
