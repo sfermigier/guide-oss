@@ -7,10 +7,6 @@ Les solutions de BPM (Business Process Management) offrent une approche moderne 
 
 Les solutions de BPM permettent la modélisation graphique des processus, la génération et l’adaptation des formulaires, et le suivi web des demandes.
 
-Dans l’univers de l’open source, des solutions de qualité existent comme Bonita, produit phare du secteur BPM open source.
-
-
-
 
 Bonita
 ------
@@ -55,16 +51,11 @@ Activiti est aujourd'hui un moteur BPM léger et robuste. Sa jeunesse le destine
 
 Activiti est développé en Java.
 
+Autres
+------
 
-Petals BPM
-----------
+- SpiffWorkflow (Python): https://github.com/knipknap/SpiffWorkflow
+- ViewFlow (Python): http://viewflow.io/
+- Adhesive (Python): https://germaniumhq.com/adhesive/
+- Camunda (Java): https://github.com/camunda/camunda-bpm-platform
 
-:Site: http://research.petalslink.org/display/petalsbpm/
-:Porteur: un éditeur (Linagora)
-:Licence: AGPL
-
-Petals BPM est un outil open source de modélisation de processus métier. Il se présente sous la forme d'une application web, qui permet à travers une interface graphique de créer des diagrammes au standard BPMN 2.0, et à terme, les traduire en processus BPEL exécutables.
-
-Il peut s'interfacer avec le bus de services Petals ESB, ainsi que l'annuaire de services Petals Master, pour assurer la gestion complète du cycle de vie des processus métiers.
-
-C'est un moteur léger, conforme aux standards et ergonomique. Il permettra à terme d'étendre ses modèles grâce à une API dédiée.

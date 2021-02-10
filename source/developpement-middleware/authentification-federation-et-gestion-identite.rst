@@ -10,8 +10,6 @@ LinOTP est également présenté ; il s’agit d’une solution d’OTP permetta
 D’autres solutions open source comme CAS, FederID, LemonLDAP, OpenAM sont présentées.
 
 
-
-
 CAS
 ---
 
@@ -55,8 +53,6 @@ OpenAM est une brique d'infrastructure permettant d'assurer de façon transparen
 OpenAM est développée en Java.
 
 
-
-
 LinOTP
 ------
 
@@ -71,8 +67,6 @@ C'est une solution robuste et professionnelle intégrable dans une infrastructur
 D'un point de vue technique, LinOTP est un serveur écrit en langage Python, avec lequel on communique par de simples requêtes HTTP. Il est donc possible de l'administrer via d'autres outils que ceux fournis dans la distribution. On peut imaginer développer une interface web spécifique que l'on inclurait dans une section privilégiée d'un Intranet par exemple.
 
 
-
-
 Shibboleth
 ----------
 
@@ -85,30 +79,3 @@ Shibboleth a été développé par le consortium Internet2 regroupant universit�
 Shibboleth permet la mise en place d'un système d'authentification centralisé entre plusieurs services ainsi que la propagation d'identités entre ces services. L'objectif de la propagation d'identités est double : déléguer l'authentification à l'établissement d'origine de l'utilisateur et obtenir certains attributs de l'utilisateur (pour gérer le contrôle d'accès ou personnaliser les contenus). A l'instar du module pour Apache HTTP Server, plusieurs extensions ont été développées permettant d'interfacer divers systèmes avec Shibboleth.
 
 Shibboleth est écrit en Java et C++.
-
-
-LinID Directory Manager
-------------------------
-
-:Site: http://www.linid.org/projects/directory-manager
-:Porteur: un éditeur (Linagora)
-:Licence: AGPLv3
-
-
-LinID Directory Manager est un framework Java basé sur Spring et Tapestry 5 permettant de concevoir des interfaces de gestion d'identités en interagissant directement avec les données d'un annuaire LDAPv3.
-
-Le framework fournit de nombreux composants, comme le formulaire de changement de mot de passe, le blocage/déblocage de comptes, l'association de membres à des groupes, la gestion des valeurs par liste de sélection ou cases à cocher.
-
-Il permet de créer des interfaces allant de l'utilisation très technique (par exemple LinID OpenLDAP Manager, console d'administration de la configuration OpenLDAP), à utilisation très fonctionnelle, comme des pages blanches/pages jaunes ou un trombinoscope.
-
-
-Autres
-------
-
-Parmi les produits de l’univers Authentification, fédération et gestion d’identité, on peut compléter la liste avec les outils ci-dessous :
-
-
-OpenSSO	http://java.net/projects/opensso
-
-FederID	http://federid.ow2.org
-

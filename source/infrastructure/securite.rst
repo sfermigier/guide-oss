@@ -8,12 +8,24 @@ Dans cette rubrique, on présente les vérificateurs d’intégrité, les détec
 Tous ces outils sont de précieuses aides pour les administrateurs Systèmes et Réseaux pour garantir l’intégrité de leur parc.
 
 
+Prelude SIEM
+------------
+
+:Site: https://www.prelude-siem.org/
+:Porteur: un éditeur (CS)
+:
+
+Prelude SIEM est un security information management system (SIEM), c'est-à-dire un outil de pilotage de la sécurité. Prelude collecte et centralise les informations de sécurité de l'entreprise pour offrir un point central de pilotage. Grâce à l'analyse et la corrélation des journaux et des flux, Prelude SIEM alerte en temps réel des tentatives d'intrusions et des menaces sur le réseau. Prelude SIEM offre plusieurs outils d'investigation et de reporting sur les Big Data permettant d'identifier les signaux faibles qui peuvent préfigurer des menaces persistantes avancées. Enfin, Prelude SIEM dispose de tous les outils d'aide à l'exploitation pour simplifier le travail des opérateurs et la gestion des risques.
+
+Prelude SIEM est l'évolution de Prelude IDS, projet open source de sonde IDS créé en 1998 par Yoann Vandoorselaere.
+
+
 AIDE
 ----
 
-:Site: aide.sourceforge.net
+:Site: https://github.com/aide/aide
 :Porteur: une communauté
-:Licence: GPL
+:Licence: GPL 2.0
 
 AIDE est un vérificateur d'intégrité pour système UNIX, développé depuis 1999. Rami Lehti and Pablo Virolainen ont initié les développements, suivi entre 2003 et 2010 par Richard van den Berg, puis désormais par Hannes von Haugwitz.
 
@@ -59,7 +71,6 @@ OpenVAS (Open source Vulnerability Assessment Scanner) est un projet issu du cé
 Il permet de tester la présence, dans les systèmes à tester, de failles de sécurité. Contrairement à Nessus, OpenVAS est complètement open source et dispose de mises à jours gratuites fournies par la communauté. Des mises à jour payantes, à la disponibilité garantie, et une interface d'administration graphique sont proposées par l'éditeur Greenbone.
 
 
-
 WireShark
 ---------
 
@@ -74,51 +85,11 @@ Il est utilisé par grand nombre d'administrateurs pour diagnostiquer des probl�
 Wireshark est multi-plateforme, il fonctionne sous Windows, Mac OS X, Linux, Solaris, ainsi que sous FreeBSD. Wireshark reconnait 759 protocoles.
 
 
-
-LinShare
---------
-
-:Site: www.linshare.org
-:Porteur: un éditeur (LINAGORA)
-:Licence: GNU Affero GPL v3
-
-LinShare est une application de partage de fichiers volumineux et sécurisés créée en 2008, qui se focalise sur la traçabilité, la confidentialité et l’intégrité des données.
-
-Cette application propose plusieurs interfaces d’utilisation telles que : une interface web, des plugins (Outlook, Thunderbird, OBM), une API REST. Elle est utilisée dans l’entreprise pour déposer des fichiers dans son espace personnel (tel qu’un coffre-fort) et partager des fichiers avec des utilisateurs internes ou externes, ou des invités ponctuels.
-
-Les points forts de LinShare sont : la sécurité des échanges (horodatage, signature et chiffrement), la traçabilité des échanges (notifications, historique, journaux, reporting, etc.), l’utilisation et la configuration par multi-domaines.
-
-LinShare est une application Java JEE multi-plateformes (GNU/Linux, Windows, etc.). Elle fonctionne dans un conteneur applicatif (Tomcat, Jetty) et s’appuie sur une base de données (PostgreSQL, MySQL) et un annuaire (LDAP, Active Directory).
-
-
-LinSign
--------
-
-:Site: www.linsign.org
-:Porteur: un éditeur (LINAGORA)
-:Licence: GNU Affero GPL v3
-
-LinSign est une application de signature électronique de documents créée en 2008, multi-documents et multi-signatures.
-
-Spécialement conçue pour signer électroniquement des documents, des contrats et des données sensibles, LinSign garantit l’authentification du signataire, l’intégrité, la non-répudiation et l’invariance sémantique des données signées. Nombreux formats de documents à signer (PDF, OpenDocument, XML, etc.), de signatures (PDF, XAdES, XML-Dsig) et supporte divers types de magasins de certificats (PKCS #12, carte à puce, token USB, navigateur web).
-
-LinSign peut être : soit installée sur le poste de travail, soit installée sur un serveur web, soit intégrée dans une autre application web (e.g. une GED). Elle s’appuie sur un système de politiques de signature pour signer des documents avec des certificats numériques X.509 qui peuvent être stockés sur des cartes à puce.
-
-LinSign est une application Java JEE multi-plateformes (GNU/Linux, Windows, etc.).
-
-LinSign est conforme au Profil de protection Application de création de signature électronique, et est en cours de certification ANSSI-CSPN (Certification de sécurité de premier niveau).
-
-
-
-
 Autres
 ------
 
 Parmi les produits de l’univers Sécurité, on peut compléter la liste avec les outils ci-dessous :
 
-- Bastille:	http://bastille-linux.sourceforge.net
-
-- OpenSIMS:	http://opensims.sourceforge.net
-
-- RadicalSpam:	http://www.radical-spam.org
-
+- Bastille: http://bastille-linux.sourceforge.net
+- OpenSIMS: http://opensims.sourceforge.net
+- RadicalSpam: http://www.radical-spam.org

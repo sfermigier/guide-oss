@@ -9,6 +9,15 @@ Une interface graphique est généralement disponible pour permettre la saisie d
 
 En sortie des tests de charge, les applications proposent généralement de nombreux de graphes et statistiques exportables sous la forme de rapports.
 
+Locust
+------
+
+:Site: https://locust.io/
+:Porteur: une communauté
+:Licence: MIT
+
+Locust est un outil de test de performance facile à utiliser, scriptable et évolutif. Vous définissez le comportement de vos utilisateurs dans un code Python ordinaire, au lieu d'utiliser une interface utilisateur maladroite ou un langage spécifique à un domaine. Cela rend Locust infiniment extensible et très convivial pour les développeurs.
+
 
 JMeter
 ------
@@ -49,13 +58,3 @@ FunkLoad
 Funkload est un outil de tests fonctionnels et de charge pour applications et services web développé par la société française Nuxeo, pour ses besoins propres. Il a été utilisé entre autres par Google et Mozilla.
 
 Funkload est développé en Python.
-
-
-Autres
-------
-
-Parmi les produits de l’univers Outils de tests de charge, on peut compléter la liste avec les outils ci-dessous :
-
-- CLIF: http://clif.ow2.org
-
-- OpenSTA: http://opensta.org

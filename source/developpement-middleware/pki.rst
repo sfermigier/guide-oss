@@ -5,9 +5,7 @@ Les solutions de type PKI permettent de sécuriser les relations électroniques 
 
 En sécurisant la gestion des identités, les outils de PKI facilitent le développement des activités transactionnelles, qu’elles soient externes (relations contractuelles et commerciales) ou internes (responsabilisation des collaborateurs).
 
-Parmi les solutions open source disponibles, on peut citer OpenSSL, OpenCA, OpenTrust ou encore EJBCA.
-
-
+Parmi les solutions open source disponibles, on peut citer OpenSSL, OpenCA ou encore EJBCA.
 
 
 OpenCA
@@ -55,8 +53,6 @@ Il permet de s'abstraire quasi-totalement de la complexité relative d'OpenSSL e
 Sous licence GPL, le développement semble toutefois désormais interrompu. Cependant, le script de base a été repris dans de nombreux projets indépendants et s'est vu compléter par de nouvelles fonctionnalités (OCSP, etc...).
 
 easyCA est écrit en Bash et ne requiert aucune dépendance, hormis OpenSSL. Il est facilement éditable et personnalisable pour les besoins de la plupart des administrateurs système.
-
-
 
 
 EJBCA

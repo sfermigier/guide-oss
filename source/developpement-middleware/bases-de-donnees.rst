@@ -81,14 +81,9 @@ Autres
 
 Parmi les produits de l’univers Base de données relationnelles (et incidemment, objets ou clef/valeur), on peut compléter la liste avec les outils ci-dessous :
 
-- Berkeley DB:	http://www.oracle.com/us/products/database/berkeley-db
-
-- db4o:	http://www.db4o.com
-
-- Apache Derby:	http://db.apache.org/derby
-
-- FireBird:	http://www.firebirdsql.org
-
-- HSQLDB:	http://hsqldb.org
-
 - SQLite:	http://www.sqlite.org
+- Berkeley DB: http://www.oracle.com/us/products/database/berkeley-db
+- db4o:	http://www.db4o.com
+- Apache Derby:	http://db.apache.org/derby
+- FireBird:	http://www.firebirdsql.org
+- HSQLDB:	http://hsqldb.org

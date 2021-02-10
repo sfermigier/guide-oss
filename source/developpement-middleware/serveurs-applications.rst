@@ -38,7 +38,7 @@ GlassFish
 :Site: https://projects.eclipse.org/projects/ee4j.glassfish
 :Porteur: une fondation (Eclipse)
 
-GlassFish était l'implémentation de référence Java EE développé par Oracle. En fait, le projet est né en 2005 de par l’ouverture de Sun Application Server. La première version de GlassFish, la 1.0, date de 2006. A présent GlassFish est maintenu par la Fondation Eclipse dans le cadre du projet Jakarta EE.
+GlassFish était l'implémentation de référence Java EE développée par Oracle. En fait, le projet est né en 2005 de par l’ouverture de Sun Application Server. La première version de GlassFish, la 1.0, date de 2006. A présent GlassFish est maintenu par la Fondation Eclipse dans le cadre du projet Jakarta EE.
 
 GlassFish est distribué sous licence Eclipse.
 
@@ -48,8 +48,5 @@ GlassFish est écrit en Java.
 Autres
 ------
 
-- EasyBeans:	http://wiki.easybeans.org
+- Apache Geronimo: http://geronimo.apache.org
 
-- Geronimo:	http://geronimo.apache.org
-
-- JOnAS:	http://wiki.jonas.ow2.org

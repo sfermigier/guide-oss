@@ -49,8 +49,6 @@ Autres
 Parmi les produits de l’univers ESB, on peut compléter la liste avec les outils ci-dessous :
 
 - JBoss Enterprise Service Bus: https://www.jboss.org/jbossesb
-
 - Apache ServiceMix: https://servicemix.apache.org
-
 - Apache Synapse: https://synapse.apache.org
 

@@ -11,7 +11,7 @@ Les frameworks disponibles sont généralement de grande qualité. On en trouve 
 Django
 ------
 
-:Site: https://www.djangoproject.com
+:Site: https://www.djangoproject.com/
 :Porteur: une fondation (Django Software Foundation)
 :Licence: BSD
 
@@ -25,7 +25,7 @@ Django est développé en Python.
 Ruby On Rails
 -------------
 
-:Site: http://rubyonrails.org
+:Site: https://rubyonrails.org/
 :Porteur: une communauté
 :Licence: MIT
 
@@ -39,7 +39,7 @@ Ruby On Rails est développé en Ruby.
 CubicWeb
 --------
 
-:Site: http://www.cubicweb.org/
+:Site: https://www.cubicweb.org/
 :Porteur: une communauté
 :Licence: LGPL
 
@@ -89,16 +89,16 @@ Play!
 -----
 
 :Site: www.playframework.org
-:Porteur: un éditeur (Zenexity)
+:Porteur: un éditeur (Lightbend)
 :Licence: Apache
 
 Play! est un framework Java orienté Web créé par Guillaume Bort en 2007.
 
 Le principe de Play! est de réduire la durée du cycle de développement Java, ainsi que limiter la complexité applicative souvent associée aux projets Java. On y trouvera donc la transposition en Java des concepts principaux de frameworks tel que RoR, Django ou encore Symfony : MVC, Convention over Configuration, Don't Repeat Yourself, .... Play! dispose également de son propre gestionnaire technique de projets, permettant la création des interfaces CRUD, et de son propre serveur d'application (même s'il peut se déployer facilement dans un Tomcat), ce qui lui permet par exemple le rechargement transparent et à chaud du code modifié.
 
-Play! a été développé par la société française Zenexity. Le support en est à présent assuré par la société américaine Typesafe.
+Play! a été développé par la société française Zenexity. Le support en est à présent assuré par la société américaine Lightbend.
 
-Play! est écrit en Java en en Scala, les templates en Groovy et le gestionnaire de projets en Python.
+Play! est écrit en Java et en Scala, les templates en Groovy et le gestionnaire de projets en Python.
 
 
 Autres
@@ -107,16 +107,11 @@ Autres
 Parmi les produits de l’univers Frameworks et bibliothèques pour le développement Web, on peut compléter la liste avec les outils ci-dessous :
 
 
-Flask: https://flask.palletsprojects.com/
-
-CakePHP: http://cakephp.org
-
-Lithium: http://lithify.me
-
-Prado: http://www.pradosoft.com
-
-Jelix	http://jelix.org/fr
-
-CXF	http://cxf.apache.org
+- Flask: https://flask.palletsprojects.com/
+- CakePHP: https://cakephp.org
+- Lithium: https://lithify.me
+- Prado: https://www.pradosoft.com
+- Jelix	https://jelix.org/fr
+- CXF	https://cxf.apache.org
 
 

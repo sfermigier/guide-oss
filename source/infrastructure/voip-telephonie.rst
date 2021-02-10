@@ -10,8 +10,6 @@ Les meilleures solutions permettent l’interopérabilité avec des IPBX (systè
 Au niveau des solutions open source, Asterisk est l’outil le plus utilisé et le plus complet avec de nombreuses fonctionnalités et une bonne capacité d’intégration à un environnement existant.
 
 
-
-
 Asterisk
 --------
 
@@ -26,7 +24,6 @@ Asterisk implémente les protocoles H.320, H.323 et SIP, ainsi qu'un protocole s
 Dans son utilisation classique comme plateforme de téléphonie IP, Asterisk est généralement associé à Freepbx, une IHM permettant de piloter l'ensemble des ses fonctionnalités. On retrouve Asterisk et Freepbx  dans de nombreuses distributions-appliance dont les plus populaires sont Elastix et Trixbox.
 
 
-
 Kamailio
 --------
 
@@ -37,7 +34,6 @@ Kamailio
 Kamailio est un Server SIP open source. Ce fork du projet OpenSER (en 2005) est l'un des PBX les plus complets.
 
 Il supporte des transactions asynchrones TCP, UDP et SCTP, l'encryptage des communications via TLS, la répartition de charge, un mécanisme natif de fail-over, l'authentification sur des backend Radius, Mysql, LDAP ou via transport XMLRCP. Il est utilisé aussi bien par des opérateurs télécoms comme plate-forme de service VoIP que pour les solutions classiques de téléphonie d'entreprise. C'est une alternative à Freeswitch et Asterisk les deux autres poids lourds du domaine.
-
 
 
 Kannel
@@ -52,10 +48,7 @@ Kannel a été développé en 1998 par la société WAPit Ltd qui n’existe plu
 
 Kannel est une Gateway SMS et WAP Open Source Carrier Grade, elle supporte les protocoles des SMSC standard : UCP/EMI, SMPP, HTTP, CIMD. Kannel fournit un ensemble d'API lui permettant d'être utilisée comme front end à des middlewares ou applications Web nécessitant des sorties WAP ou SMS. Intégrée comme brique d'infrastructure, elle sécurise l'accès aux ressources des opérateurs tout en fournissant un support SMS et WAP fiable et robuste.
 
-
 Kannel est écrit en C.
-
-
 
 
 Autres
@@ -63,16 +56,7 @@ Autres
 
 Parmi les produits de l’univers VOIP/Téléphonie, on peut compléter la liste avec les outils ci-dessous :
 
-
-- CallWeaver:	http://www.callweaver.org
-
-- SER:	http://www.iptel.org/ser
-
-- sipXecs:	http://www.sipfoundry.org
-
-- Trixbox:	http://fonality.com/trixbox
-
-- Yate:	http://yate.null.ro/pmwiki
-
-- FreeSwitch:	http://www.freeswitch.org
-
+- sipXecs: http://www.sipfoundry.org
+- SER: http://www.iptel.org/ser
+- Yate: http://www.yate.ro/
+- FreeSwitch: http://www.freeswitch.org

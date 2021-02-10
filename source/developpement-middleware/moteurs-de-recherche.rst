@@ -11,8 +11,8 @@ Les moteurs de recherche se différencient généralement par leurs capacités d
 
 Dans l’univers de l’open source, le marché est dominé par les moteurs de recherche Lucene et Solr. On les retrouve très souvent associées aux meilleures applications web.
 
-Lucene
-------
+Apache Lucene
+-------------
 
 :Site: http://lucene.apache.org
 :Porteur: une fondation (Apache)
@@ -25,10 +25,10 @@ Lucene se définit avant tout comme une bibliothèque de recherche et d'indexati
 Lucene est écrit en Java. Il peut être intégré au sein d’applications écrites dans différents langages : Java, Python, Ruby, Perl, PHP, C++, etc.
 
 
-Solr
-----
+Apache Solr
+-----------
 
-:Site: http://lucene.apache.org/solr
+:Site: https://lucene.apache.org/solr
 :Porteur: une fondation (Apache)
 :Licence: Apache
 

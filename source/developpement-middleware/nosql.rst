@@ -77,8 +77,6 @@ Autres
 
 L'univers Big Data / NoSQL est particulièrement dynamique, on peut compléter la liste avec les outils ci-dessous :
 
-- CouchDB: http://couchdb.apache.org
-
+- Apache CouchDB: http://couchdb.apache.org
 - Neo4j: http://neo4j.org
-
 - HBase: http://hbase.apache.org/
