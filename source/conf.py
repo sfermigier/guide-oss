@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Guide Open Source'
+project = 'Guide des Solutions Open Source'
 copyright = '2021, Stefane Fermigier'
 author = 'Stefane Fermigier'
 

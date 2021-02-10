@@ -1,3 +1,17 @@
+Annexe: annuaire des prestataires et fournisseurs de solutions en Île-de-France
+===============================================================================
+
+La liste qui suit regroupe des sociétés présentes en Île-de-France,
+actives au sein des associations reconnues du secteur du logiciel
+libre (Pôles de compétitivité, consortia et associations
+professionnelles).
+
+Leur présence dans cet annuaire est bien évidemment purement
+indicative, et ne saurait constituer à elle seule un label indiscutable
+de qualité ou de respect des valeurs et des principes du logiciel
+libre et de l'open source. Nous vous invitons à vous en assurer en
+les contactant.
+
 4D
 --
 
@@ -6,16 +20,6 @@ Adresse: 60 Rue D’Alsace, 92110 CLICHY
 Site: www.4d.com
 
 4D est l'éditeur de Wakanda, plateforme open source de développement et de déploiement end-to-end JavaScript, s'appuyant sur les derniers standards du Web, qui ambitionne de révolutionner la création d'applications Web. Les trois axes majeurs de développement de 4D pour Wakanda sont la démultiplication de la productivité du développeur par rapport aux outils actuels du marché, le déploiement client cross-platform dans n'importe quel navigateur Desktop ou mobile (tablettes et smartphones) à partir d'un projet de développement unique, et enfin la mise en oeuvre d'une offre PAAS « Platform as a service » permettant un déploiement simple et performant des applications Wakanda sur le Cloud.
-
-ACAPI
------
-
-Adresse: 16 Rue Des Chateaupieds, 92565 RUEIL-MALMAISON CEDEX
-
-Site: www.acapi.fr
-
-ACAPI est une société spécialisée dans l'analyse et l'amélioration des processus Etudes : développement de projets et maintenance des applications.
-
 
 ADACORE
 -------
