@@ -42,7 +42,6 @@ Il est également doté d'un tableau de bord web permettant de suivre tous les t
 Talend
 ------
 
-:Version: 4.2.3
 :Site: www.talend.com
 :Porteur: un éditeur (Talend)
 :Licence: GPL et propriétaire
@@ -53,7 +52,6 @@ Talend Open Studio est un ETL open source apparu en 2005, développé par la soc
 Pentaho Data Integration
 ------------------------
 
-:Version: 5.0
 :Site: http://www.pentaho.fr/explore/pentaho-data-integration/
 :Porteur: un éditeur (Pentaho)
 :Licence: GPL

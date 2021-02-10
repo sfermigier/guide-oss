@@ -11,7 +11,6 @@ Dans l’univers de l’open source, on compte de nombreuses solutions de qualit
 OpenVPN
 -------
 
-:Version: 2.2.1
 :Site: http://openvpn.net
 :Porteur: un éditeur (OpenVPN Technologies)
 :Licence: GPL v2
@@ -26,7 +25,6 @@ Disponible sous Solaris, Linux, OpenBSD, FreeBSD, NetBSD, Mac OS X, Windows 2000
 OpenSwan
 --------
 
-:Version: 2.6.35
 :Site: www.openswan.org
 :Porteur: une communauté
 :Licence: GPL

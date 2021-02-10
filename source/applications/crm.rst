@@ -13,7 +13,6 @@ Dans l’univers open source, on trouve des produits de grande qualité comme Su
 OpenCRX
 -------
 
-:Version: 2.8.5
 :Site: www.opencrx.org
 :Porteur: une communauté
 :Licence: BSD
@@ -27,27 +26,9 @@ Quelques-uns des principaux développeurs travaillent dans des entreprises fourn
 OpenCRX est une application JEE qui supporte la plupart des bases de données relationnelles, y compris PostgreSQL, MySQL, Oracle et DB2.
 
 
-SugarCRM
---------
-
-:Version: 6.3.0
-:Site: www.sugarcrm.com
-:Porteur: un éditeur (SugarCRM Inc)
-:Licence: Affero GNU Public License Version 3 et propriétaire
-
-SugarCRM est une suite open source de management de la relation Client. Elle a été distribuée pour la première fois en 2004 et n’a cessé d’être développée et maintenue par SugarCRM Inc depuis. Ces derniers sont basés à Cupertino en Californie.
-
-SugarCRM a évolué pour couvrir toutes les caractéristiques principales de la gestion des clients et du cycle des ventes. La liste des fonctionnalités est impressionnante, des campagnes de marketing et de diffusion massive, aux leads, en passant par la gestion des contacts et des comptes, etc. Les dernières versions (notamment depuis la version 6) ont mis l'accent sur le CRM mobile (applications natives) et l'intégration d’une dimension "Social CRM".
-
-SugarCRM a trois types d'offres, une édition Community (libre et gratuite), une édition Enterprise (avec un ensemble de fonctionnalités supplémentaires) et une édition Saas (à la demande). La version Community a un périmètre fonctionnel bien inférieur aux autres éditions.
-
-Le produit est basé sur une plateforme LAMP, avec quelques variantes possibles concernant les bases de données et serveurs Web (tant que PHP peut être exécuté).
-
-
 VTiger
 ------
 
-:Version: 5.2.1
 :Site: www.vtiger.com
 :Porteur: un éditeur (VTiger)
 
@@ -75,4 +56,4 @@ Autres
 
 Parmi les produits de l’univers du CRM, on peut compléter la liste avec les outils ci-dessous :
 
-- CiviCRM:	http://civicrm.org
+- CiviCRM: http://civicrm.org

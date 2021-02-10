@@ -9,7 +9,6 @@ Nous présentons notamment CUPS (un serveur d’impression), SAMBA (permettant l
 CUPS
 ----
 
-:Version: 1.5.0
 :Site: www.cups.org
 :Porteur: un éditeur (Apple Inc.)
 :Licence: GPL
@@ -22,7 +21,6 @@ Il est utilisé aussi bien sur les postes de travail que sur les serveurs d'impr
 Samba
 -----
 
-:Version: 3.6.0
 :Site: www.samba.org
 :Porteur: une communauté
 :Licence: GPL
@@ -35,7 +33,6 @@ Sous Windows, le protocole SMB est utilisé pour le partage de fichiers et d'imp
 ProFTPD
 -------
 
-:Version: 1.3.3
 :Site: www.proftpd.org
 :Porteur: une communauté
 :Licence: GPL
@@ -48,7 +45,6 @@ Il dispose de fonctionnalités avancées comme le chroot, les hôtes et utilisat
 Bind
 ----
 
-:Version: 9.8.1
 :Site: www.isc.org/software/bind
 :Porteur: une communauté
 :Licence: BSD

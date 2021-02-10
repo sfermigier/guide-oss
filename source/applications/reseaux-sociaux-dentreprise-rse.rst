@@ -15,7 +15,6 @@ Pour couvrir ce besoin, on trouve de plus en plus de solutions open source de qu
 BuddyPress
 ----------
 
-:Version: 1.2.9
 :Site: http://buddypress.org
 :Porteur: une communauté
 
@@ -33,7 +32,6 @@ BuddyPress a la particularité d’être bâti sur l’outil Wordpress. Il dispo
 Drupal Commons
 --------------
 
-:Version: 2.0
 :Site: www.acquia.com
 :Porteur: un éditeur (Acquia)
 :Licence: GPL
@@ -52,7 +50,6 @@ D’un point de vue technique, Drupal est bâti autour des technologies LAMP (PH
 Elgg
 ----
 
-:Version: 1.8.0.1
 :Site: www.elgg.com
 :Porteur: un éditeur (Curverider Ltd)
 :Licence: GPL
@@ -71,7 +68,6 @@ Elgg est écrit en PHP et fonctionne sous technologies LAMP (Linux, Apache, MySQ
 Liferay Social Office
 ---------------------
 
-:Version: 1.5.B (Béta) pour Liferay SO. / 6.0 pour Liferay P
 :Site: www.liferay.com
 :Porteur: un éditeur (Liferay)
 

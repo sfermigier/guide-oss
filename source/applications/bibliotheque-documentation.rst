@@ -11,7 +11,6 @@ Parmi les principales fonctionnalités de ces outils, on peut citer : import de 
 Koha
 ----
 
-:Version: 4.2
 :Site: www.koha.org
 :Porteur: une communauté
 :Licence: GPL v2
@@ -28,8 +27,7 @@ Koha est développé en Perl et tourne sous Linux Debian, mais peut également s
 PMB
 ---
 
-:Version: 3.4
-:Site: www.pmbservices.fr
+:Site: https://www.sigb.net/
 :Porteur: un éditeur (PMB Services)
 :Licence: CeCILL
 

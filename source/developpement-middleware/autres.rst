@@ -11,7 +11,6 @@ Nous présentons notamment Drools (un moteur de règles étonnant) et ESIGate (p
 Drools
 ------
 
-:Version: 5.2.0
 :Site: www.jboss.org/drools
 :Porteur: un éditeur (JBoss)
 
@@ -27,7 +26,6 @@ Drools est distribué sous la licence Apache.
 ESIGate
 -------
 
-:Version: 2.19
 :Site: www.esigate.org
 :Porteur: une commaunuté
 

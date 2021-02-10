@@ -15,7 +15,6 @@ D’autres solutions open source comme CAS, FederID, LemonLDAP, OpenAM sont pré
 CAS
 ---
 
-:Version: 3.4.10
 :Site: www.jasig.org/cas
 :Porteur: une communauté
 :Licence: JA-SIG, de type BSD
@@ -31,7 +30,6 @@ CAS est écrit en Java, et fournit des clients CAS pour intégrer les applicatio
 LemonLDAP::NG
 --------------
 
-:Version: 1.2.2
 :Site: http://lemonldap-ng.org
 :Porteur: un consortium (OW2)
 :Licence: GPL
@@ -46,7 +44,6 @@ Le produit est réalisé en Perl et est facile à personnaliser, aussi bien en t
 OpenAM
 ------
 
-:Version: 9.5.3
 :Site: http://forgerock.com/openam.html
 :Porteur: un éditeur (ForgeRock)
 :Licence: CDDL (Common Development and Distribution License, licence open source créée par Sun Microsystems, basée sur la Mozilla Public License, version 1.1).
@@ -63,7 +60,6 @@ OpenAM est développée en Java.
 LinOTP
 ------
 
-:Version: 2.3
 :Site: www.linotp.org
 :Porteur: un éditeur (LSE Leading Security Experts GmbH)
 :Licence: AGPL v3. Une version Enterprise est également disponible.
@@ -80,7 +76,6 @@ D'un point de vue technique, LinOTP est un serveur écrit en langage Python, ave
 Shibboleth
 ----------
 
-:Version: 2.0
 :Site: http://shibboleth.internet2.edu
 :Porteur: une communauté
 :Licence: Apache 2.0
@@ -95,7 +90,6 @@ Shibboleth est écrit en Java et C++.
 LinID Directory Manager
 ------------------------
 
-:Version: 1.0
 :Site: http://www.linid.org/projects/directory-manager
 :Porteur: un éditeur (Linagora)
 :Licence: AGPLv3

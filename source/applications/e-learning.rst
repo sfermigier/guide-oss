@@ -15,7 +15,6 @@ Parmi les solutions open source, les outils tels que Moodle ou Claroline ont une
 Moodle
 ------
 
-:Version: 2.3
 :Site: http://moodle.org
 :Porteur: une communauté
 :Licence: GPL
@@ -33,7 +32,6 @@ Moodle est une application LAMP (Linux, Apache, MySQL et PHP). Elle fonctionne a
 Claroline
 ---------
 
-:Version: 1.11.2
 :Site: www.claroline.net
 :Porteur: un consortium
 :Licence: GPL

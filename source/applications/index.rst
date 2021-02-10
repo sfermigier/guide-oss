@@ -14,17 +14,17 @@ Plus de 50 solutions ont été évaluées dans cette dimension ; et près de 10
     :maxdepth: 1
 
     crm.rst
+    e-commerce.rst
+    erp-pgi.rst
     decisionnel-etl.rst
     decisionnel-reporting.rst
     decisionnel-suite.rst
-    e-commerce.rst
-    erp-pgi.rst
     cms.rst
+    suivi-daudience.rst
     ged-ecm.rst
     bibliotheque-documentation.rst
     portail.rst
     reseaux-sociaux-dentreprise-rse.rst
     blog-wiki-et-forum.rst
     e-learning.rst
-    suivi-daudience.rst
     autres.rst

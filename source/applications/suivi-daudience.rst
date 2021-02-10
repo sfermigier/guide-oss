@@ -9,7 +9,6 @@ Dans l’univers des solutions open source, on utilise fréquemment des outils c
 AWStats
 -------
 
-:Version: 7.0
 :Site: http://awstats.sourceforge.net
 :Porteur: une communauté
 :Licence: GPL
@@ -24,7 +23,6 @@ AWStats fournit de nombreuses statistiques, graphiques et rapports à partir de 
 Piwik
 -----
 
-:Version: 1.5.1
 :Site: http://piwik.org
 :Porteur: une communauté
 :Licence: GPL v3

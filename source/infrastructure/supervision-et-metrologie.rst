@@ -10,7 +10,6 @@ La Supervision et métrologie est un domaine bien servi par l’open source avec
 Cacti
 -----
 
-:Version: 0.8.7
 :Site: www.cacti.net
 :Porteur: une communauté
 :Licence: GPL
@@ -27,7 +26,6 @@ Il fonctionne grâce à un serveur web équipé d'une base de données et du lan
 Nagios
 ------
 
-:Version: 3.4.1
 :Site: www.nagios.org
 :Porteur: un éditeur (Nagios Enterprises)
 :Licence: GPL
@@ -44,7 +42,6 @@ Les plugins sont écrits dans les langages de programmation les plus adaptés à
 Centreon
 --------
 
-:Version: 2.2.2
 :Site: www.centreon.com
 :Porteur: un éditeur (Merethis)
 :Licence: GPL
@@ -61,7 +58,6 @@ Centreon s’appuie sur les technologies Apache et PHP pour l'interface web, MyS
 Zabbix
 ------
 
-:Version: 1.8
 :Site: www.zabbix.com
 :Porteur: un éditeur (ZABBIX SIA)
 :Licence: GPL
@@ -78,7 +74,6 @@ Il repose sur du C/C++, PHP pour la partie front end et MySQL/PostgreSQL/Oracle 
 OpenNMS
 -------
 
-:Version: 1.8.13
 :Site: www.opennms.org
 :Porteur: un éditeur (OpenNMS group)
 :Licence: GPL v3
@@ -94,7 +89,6 @@ OpenNMS est développé en Java et s'appuie sur le moteur WEB Jetty et le SGBD P
 Munin
 -----
 
-:Version: 1.4.5
 :Site: http://munin-monitoring.org
 :Porteur: une communauté
 :Licence: GPL

@@ -10,19 +10,20 @@ Plus de 50 solutions ont été évaluées dans cette dimension ; et près de 110
 .. toctree::
     :maxdepth: 1
 
-    annuaire-dentreprise.rst
     bases-de-donnees.rst
     nosql.rst
     bpm-workflow.rst
+    esb.rst
+    mom-eai.rst
+    frameworks-web-backend.rst
+    frameworks-mobiles-cross-platform.rst
+    serveurs-http.rst
+    serveurs-applications.rst
+    moteurs-de-recherche.rst
     outils-de-developpement.rst
     tests-integration-continue.rst
-    esb.rst
-    frameworks-et-bibliotheques-pour-le-developpement-web.rst
-    frameworks-mobiles-cross-platform.rst
-    pki.rst
-    authentification-federation-et-gestion-didentite.rst
     outils-de-tests-de-charge.rst
-    moteurs-de-recherche.rst
-    serveurs-http-et-serveurs-dapplications.rst
-    mom-eai.rst
+    annuaire-dentreprise.rst
+    pki.rst
+    authentification-federation-et-gestion-identite.rst
     autres.rst

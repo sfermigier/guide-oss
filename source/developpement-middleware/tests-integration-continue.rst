@@ -9,7 +9,6 @@ Pour mettre en œuvre des plateformes d’intégration continue, il existe de no
 Jenkins
 -------
 
-:Version: 1.483
 :Site: www.jenkins-ci.org
 :Porteur: une communauté
 :Licence: MIT et Creative Commons.
@@ -25,7 +24,6 @@ Jenkins est écrit en Java.
 Continuum
 ---------
 
-:Version: 1.3.7
 :Site: www.continuum.apache.org
 :Porteur: une fondation (Apache)
 :Licence: Apache
@@ -42,7 +40,6 @@ Continiuum est écrit en Java.
 Selenium IDE
 ------------
 
-:Version: 1.0.4
 :Site: http://seleniumhq.org/projects/ide
 :Porteur: une communauté
 :Licence: Apache
@@ -55,7 +52,6 @@ Selenium IDE permet d'enregistrer des tests d'interfaces depuis Firefox puis de 
 PMD
 ---
 
-:Version: 4.2.5
 :Site: http://pmd.sourceforge.net
 :Porteur: une communauté
 :Licence: BSD
@@ -71,7 +67,7 @@ Squash
 ------
 
 :Version : 1.3.0
-:Site : www.squashtest.org
+:Site : www.squashtest.com
 :Porteur : une communauté
 :Licence : LGPL v2
 
@@ -83,9 +79,6 @@ Squash TA est un outillage open source d'automatisation des tests fonctionnels e
 
 Outre Squash TM et Squash TA, la suite open source Squash se compose de Squash Data pour la gestion des jeux de données et Squash SC pour le pilotage et l'administration de Centres de Services Qualité Logicielle.
 
-Le projet Squash a été sélectionné par le pôle Systematic et est soutenu par la région Ile de France, le Conseil Général des Hauts de Seine, Oséo et la Direction générale de la compétitivité, de l'industrie et des services (DGCIS).
-
-
 
 Autres
 ------
@@ -93,15 +86,11 @@ Autres
 Parmi les produits de l’univers Tests et intégration continue, on peut compléter la liste avec les outils ci-dessous :
 
 
-- Sonar:	http://www.sonarsource.org
-
-- Checkstyle:	http://checkstyle.sourceforge.net
-
-- JUnit:	http://www.junit.org
-
-- PHPUnit:	https://github.com/sebastianbergmann/phpunit
-
-- FindBugs:	http://findbugs.sourceforge.net
-
-- CruseControl:	http://cruisecontrol.sourceforge.net
+- Sonar: http://www.sonarsource.org/
+- Checkstyle: http://checkstyle.sourceforge.net/
+- JUnit: http://www.junit.org/
+- PHPUnit: https://phpunit.de/
+- FindBugs: http://findbugs.sourceforge.net/
+- CruseControl: http://cruisecontrol.sourceforge.net
+- Tox: https://tox.readthedocs.io/
 

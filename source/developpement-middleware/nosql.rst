@@ -6,7 +6,6 @@ Depuis 2009, une nouvelle mouvance – le NoSQL – est apparue. Elle propose un
 Apache Hadoop
 -------------
 
-:Version: 1.0.3
 :Site: http://hadoop.apache.org/
 :Porteur: une fondation (Apache)
 :Licence: Apache
@@ -21,7 +20,6 @@ Hadoop est écrit en Java, et soutenu par plusieurs startups américaines.
 MongoDB
 -------
 
-:Version: 2.2.0
 :Site: http://www.mongodb.org
 :Porteur: 10gen Inc
 :Licence: Affero GPL
@@ -37,7 +35,6 @@ MongoDB est écrit en C++.
 NEO
 ---
 
-:Version: 1.0
 :Site: http://www.neoppod.org/
 :Porteur: un éditeur (Nexedi)
 :Licence: GPL-2.0
@@ -50,7 +47,6 @@ NEO est écrit en python et en C.
 Redis
 -----
 
-:Version: 2.2.13
 :Site: http://redis.io
 :Porteur: un éditeur (VMware)
 :Licence: BSD
@@ -65,7 +61,6 @@ Redis est écrit en C.
 Apache Cassandra
 ----------------
 
-:Version: 1.1.5
 :Site: http://cassandra.apache.org
 :Porteur: une fondation (Apache)
 :Licence: Apache

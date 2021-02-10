@@ -14,7 +14,6 @@ Des produits comme Compiere, ERP5 ou Odoo tiennent la corde des ERP open source.
 ERP5
 ----
 
-:Version: 5.4.7
 :Site: www.erp5.com
 :Porteur: un éditeur (Nexedi)
 :Licence: GPL
@@ -33,7 +32,6 @@ ERP5 est développé par la société française Nexedi.
 Odoo
 ----
 
-:Version: 14.0
 :Site: www.odoo.com
 :Porteur: un éditeur (Odoo)
 :Licence: AGPL v3
@@ -47,7 +45,6 @@ Odoo est écrit en Python et repose sur un framework orienté objet. La base de 
 OFBiz
 -----
 
-:Version: 10.04
 :Site: http://ofbiz.apache.org
 :Porteur: une fondation (Apache)
 :Licence: Apache
@@ -63,7 +60,6 @@ OFBiz est écrit en Java.
 Compiere
 --------
 
-:Version: 3.2 (Community Edition)
 :Site: www.compiere.com
 :Porteur: un éditeur (Compiere Inc.)
 :Licence: MPL

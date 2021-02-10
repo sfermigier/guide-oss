@@ -11,7 +11,6 @@ Pour être utile de manière opérationnelle, la virtualisation doit respecter d
 Xen
 ---
 
-:Version: 4.1.1
 :Site: www.xen.org
 :Porteur: un éditeur (Citrix)
 :Licence: GPL
@@ -24,7 +23,6 @@ La paravirtualisation désigne la capacité pour un système de virtualisation �
 OpenVZ
 ------
 
-:Version: 3.0.25
 :Site: www.openvz.org
 :Porteur: une communauté
 :Licence: GPL v2
@@ -37,7 +35,6 @@ Comme toute solution de virtualisation légère, il n'est possible d'exécuter q
 KVM
 ---
 
-:Version: 2.6.20
 :Site: www.linux-kvm.org
 :Porteur: une communauté
 :Licence: GPL
@@ -50,7 +47,6 @@ Intégré au noyau Linux (depuis la version 2.6.2), KVM est capable d'exécuter 
 Oracle VirtualBox
 -----------------
 
-:Version: 4.1.2
 :Site: www.virtualbox.org
 :Porteur: un éditeur (Oracle)
 :Licence: GPL v2
@@ -63,7 +59,6 @@ VirtualBox supporte un grand nombre de systèmes d'exploitation invités, et dis
 QEMU
 ----
 
-:Version: 1.2.0
 :Site: www.qemu.org
 :Porteur: une communauté
 :Licence: GPL

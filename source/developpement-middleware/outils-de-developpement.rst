@@ -13,7 +13,6 @@ Comme on le voit, l’open source offre d’excellentes briques de développemen
 Acceleo
 -------
 
-:Version: 3.3.0
 :Site: http://www.eclipse.org
 :Porteur: une fondation (Eclipse)
 :Licence: EPL (Eclipse Public License)
@@ -25,42 +24,9 @@ Acceleo est écrit en Java.
 
 
 
-Ant
----
-
-:Version: 1.8.2
-:Site: http://ant.apache.org
-:Porteur: une fondation (Apache)
-:Licence: Apache
-
-Ant ("Another Neat Tool") est un outil d’automatisation de tâches tout au long du cycle de développement logiciel. Ant a été conçu par James Duncan Davidson en 2000 (sortie de la première version).
-
-Ant permet donc d’automatiser des opérations répétitives tout au long d’un projet, à l’instar de ce que peuvent faire les commandes Make. Ant est principalement utilisé dans le cadre de projets écrits en Java même s’il peut être utilisé dans des projets faisant appels à d’autres technologies. Parmi les tâches que l’on confie souvent à Ant, on peut lister : l’exécution d’outils externes comme Checkstyle ou FindBugs, la génération des documentations (Javadoc), la compilation des programmes, l’archivage, la sauvegarde, etc.
-
-Ant est écrit en Java.
-
-
-
-
-Phing
------
-
-:Version: 2.4.7.1
-:Site: www.phing.info/trac
-:Porteur: une communauté
-
-Phing est un outil de gestion de cycle de vie de projet informatique, inspiré de Ant et développé à l'origine par Andreas Aderhold. Il est notamment utilisé pour automatiser les tâches récurrentes lors du développement de projets informatiques tels que lancement de tests unitaires ou d'outils d'analyse de code ou encore pour la gestion des livraisons.
-
-Phing utilise, comme Ant, un fichier XML pour définir une liste d'actions ("target"), comportant chacune une ou plusieurs tâches (copy de fichiers, lancement d'une commande), pouvant être lancées en ligne de commande. Il intègre une large liste de tâches en natif (exécution de tests PHPUnit, analyse de code avec PHP CodeSniffer, PHP Mess Detector, manipulation de fichiers, travail avec des gestionnaires de versions de sources), qu'il est très facile d'étendre en fonction de ses besoins par l'intermédiaire de nouvelles classes PHP. Distribué à travers le gestionnaire de paquets PEAR, Phing peut utiliser, pour certaines de ses tâches, des librairies annexes telles que Xdebug, phpcs.
-
-Phing est distribué sous licence LGPL (Lesser Public General License) en version 3.
-
-Phing est développé en PHP et est compatible avec les plateformes Windows, Linux et Max OS X.
-
 Eclipse IDE
 -----------
 
-:Version: 3.7
 :Site: www.eclipse.org
 :Porteur: une fondation (Eclipse)
 :Licence: EPL (Eclipse Public License)
@@ -75,7 +41,6 @@ Eclipse est écrit en Java.
 MantisBT
 --------
 
-:Version: 1.2.8
 :Site: www.mantisbt.org
 :Porteur: une communauté
 :Licence: GPL v2
@@ -90,7 +55,6 @@ MantisBT est développé en PHP et nécessite l'utilisation d'une base de donné
 Maven
 -----
 
-:Version: 3.0.3
 :Site: http://maven.apache.org
 :Porteur: une fondation (Apache)
 :Licence: Apache
@@ -105,7 +69,6 @@ Maven est écrit en Java.
 Subversion
 ----------
 
-:Version: 1.6.17
 :Site: http://subversion.apache.org
 :Porteur: une fondation (Apache)
 :Licence: Apache et BSD
@@ -120,9 +83,9 @@ Subversion est écrit en C.
 Git
 ---
 
-:Version: 1.7.6.1
 :Site: http://git-scm.com
 :Porteur: une communauté
+:Licence: GPL v2
 
 Git est un système de gestion de versionnement décentralisé (DVCS). Il est notamment utilisé pour le noyau Linux ou pour PHP. C'est un logiciel libre créé par Linus Torvalds en 2005.
 
@@ -136,7 +99,6 @@ Git est écrit en C, Bourne Shell et Perl.
 Redmine
 -------
 
-:Version: 1.2.1
 :Site: www.redmine.org
 :Porteur: une communauté
 :Licence: GPL v2
@@ -165,7 +127,6 @@ Redmine a été développé en Ruby sur la base du framework Ruby on Rails.
 Tuleap
 ------
 
-:Version: 4.0.21
 :Site: www.enalean.com/produits/tuleap
 :Porteur: un éditeur (Enalean)
 :Licence: GPL
@@ -181,7 +142,6 @@ Tuleap est écrit majoritairement en PHP.
 Mercurial
 ---------
 
-:Version: 5.7
 :Site: https://www.mercurial-scm.org/
 :Porteur: une communauté
 :Licence: GPL

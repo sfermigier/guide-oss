@@ -13,7 +13,6 @@ Alfresco, Nuxeo, Knowledge Tree, Maarch, Jahia... l’offre open source de la ge
 Alfresco
 --------
 
-:Version: 3.4
 :Site: www.alfresco.com
 :Porteur: un éditeur (Alfresco Software)
 :Licence: GPL et propriétaire
@@ -30,7 +29,6 @@ Alfresco est écrit en JEE.
 Maarch
 ------
 
-:Version: 1.3
 :Site: www.maarch.com
 :Porteur: un éditeur (Maarch)
 :Licence: GPL v3
@@ -48,7 +46,6 @@ Maarch est construit sur un framework PHP maison. La société Maarch est basée
 Nuxeo
 -----
 
-:Version: 5.6
 :Site: www.nuxeo.com
 :Porteur: un éditeur (Nuxeo)
 :Licence: LGPL

@@ -11,7 +11,6 @@ Le périmétre des e-boutiques est devenu très important avec des fonctionnalit
 Magento
 -------
 
-:Version: 1.6 (version Community) et 1.11 (version Enterprise)
 :Site: www.magentocommerce.com
 :Porteur: un éditeur (Magento Inc.)
 :Licence: OSL et propriétaire
@@ -30,7 +29,6 @@ La solution repose sur le framework PHP Zend et bénéficie d'un grand nombre d'
 Prestashop
 ----------
 
-:Version: 1.4.4.1
 :Site: www.prestashop.com
 :Porteur: un éditeur (Prestashop)
 
@@ -46,7 +44,6 @@ Prestashop est développé intégralement en PHP/MySQL. Il dispose d'une API et 
 Oxid
 ----
 
-:Version: 4.5
 :Site: www.oxid-esales.com
 :Porteur: un éditeur (Oxid)
 :Licence: GPL v3
@@ -61,7 +58,6 @@ Oxid est développé intégralement en PHP/MySQL. Il intègre le framework Ajax 
 Drupal Commerce
 ---------------
 
-:Version: 1.0
 :Site: www.drupalcommerce.org
 :Porteur: un éditeur (Commerce Guys)
 :Licence: GPL v3

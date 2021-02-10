@@ -13,7 +13,6 @@ Parmi les solutions open source disponibles, on peut citer OpenSSL, OpenCA, Open
 OpenCA
 ------
 
-:Version: 1.1.1
 :Site: www.openca.org
 :Porteur: une communauté
 :Licence: BSD
@@ -27,12 +26,9 @@ Le développement, entièrement communautaire, a été initié en 2001 et se pou
 La solution est très hétérogène mais utilise des standards actuels reconnus : le serveur web est basé sur Apache 2 et l'interface écrite en Perl. Les mécanismes de cryptographie sont basés sur OpenSSL. Enfin, la gestion des certificats est réalisée par OpenLDAP.
 
 
-
-
 OpenSSL
 -------
 
-:Version: 1.0.0e
 :Site: www.openssl.org
 :Porteur: une communauté
 :Licence: Apache et BSD
@@ -46,12 +42,9 @@ Le développement d'OpenSSL est ancien et a débuté avant 1998.
 Développé en C, elle reste la référence dans le domaine Linux et BSD et se retrouve souvent utilisée dans tout contexte nécessitant un chiffrement (allant des protocoles 802.11 aux communications HTTPS, en passant par SSH et FTPS).
 
 
-
-
 easyCA
 ------
 
-:Version: 0.9
 :Site: http://sourceforge.net/projects/easyca
 :Porteur: une communauté
 
@@ -69,7 +62,6 @@ easyCA est écrit en Bash et ne requiert aucune dépendance, hormis OpenSSL. Il 
 EJBCA
 -----
 
-:Version: 4.0.3
 :Site: www.ejbca.org
 :Porteur: un éditeur (Primekey)
 :Licence: LGPL

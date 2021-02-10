@@ -11,7 +11,6 @@ Tous ces outils sont de précieuses aides pour les administrateurs Systèmes et 
 AIDE
 ----
 
-:Version: 0.15.1
 :Site: aide.sourceforge.net
 :Porteur: une communauté
 :Licence: GPL
@@ -24,7 +23,6 @@ Son but est de calculer une empreinte des fichiers du système au moment de l'in
 ClamAV
 ------
 
-:Version: 0.97.2
 :Site: www.clamav.net
 :Porteur: un éditeur (SourceFire)
 :Licence: GPL
@@ -39,7 +37,6 @@ Le moteur antivirus est la bibliothèque libclamav écrite en C.
 SNORT
 -----
 
-:Version: 2.9.1
 :Site: www.snort.org
 :Porteur: un éditeur (SourceFire)
 
@@ -53,7 +50,6 @@ Bien que le moteur soit distribué sous licence GPL, il n'est pas utile sans une
 OpenVAS
 -------
 
-:Version: 4.0
 :Site: www.openvas.org
 :Porteur: un éditeur (Greenbone)
 :Licence: GPL
@@ -67,7 +63,6 @@ Il permet de tester la présence, dans les systèmes à tester, de failles de s�
 WireShark
 ---------
 
-:Version: 1.6.2
 :Site: www.wireshark.org
 :Porteur: une fondation (WireShark)
 :Licence: GPL
@@ -83,7 +78,6 @@ Wireshark est multi-plateforme, il fonctionne sous Windows, Mac OS X, Linux, Sol
 LinShare
 --------
 
-:Version: 0.11.2
 :Site: www.linshare.org
 :Porteur: un éditeur (LINAGORA)
 :Licence: GNU Affero GPL v3
@@ -100,7 +94,6 @@ LinShare est une application Java JEE multi-plateformes (GNU/Linux, Windows, etc
 LinSign
 -------
 
-:Version: 1.1
 :Site: www.linsign.org
 :Porteur: un éditeur (LINAGORA)
 :Licence: GNU Affero GPL v3

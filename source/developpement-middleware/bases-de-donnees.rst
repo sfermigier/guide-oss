@@ -9,7 +9,6 @@ Les bases de données traditionnelles, comme MySQL ou PostgreSQL, sont de type r
 PostgreSQL
 ----------
 
-:Version: 9.2.1
 :Site: www.postgresql.org
 :Porteur: une communauté
 :Licence: PostgreSQL License, approuvée par l'Open Source Initiative
@@ -24,7 +23,6 @@ PostgreSQL est écrit en C et fonctionne sur un très grand nombre de plateforme
 MySQL
 -----
 
-:Version: 5.5.15
 :Site: www.mysql.fr
 :Porteur: un éditeur (Oracle)
 :Licence: GPL avec lining exception, et propriétaire pour la version entreprise
@@ -41,7 +39,6 @@ MySQL est développé en C et C++ et fonctionne sur un très large nombre de pla
 MariaDB
 -------
 
-:Version: 5.5
 :Site: mariadb.org
 :Porteur: une communauté
 :Licence: GPL avec lining exception
@@ -56,7 +53,6 @@ Le mode de développement communautaire ainsi que des offres de maintenances com
 Cubrid
 ------
 
-:Version: 8.4.1
 :Site: www.cubrid.org
 :Porteur: un éditeur (Naver)
 :Licence: GPL
@@ -69,7 +65,6 @@ Cubrid a la particularité de tenir la charge grâce à une version clusterisée
 PostGIS
 -------
 
-:Version: 2.0.1
 :Site: http://postgis.refractions.net/
 :Porteur: une communauté
 :Licence: GPL-2.0

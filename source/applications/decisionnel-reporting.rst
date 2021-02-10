@@ -15,7 +15,6 @@ Les outils comme JasperReports, vont jusqu’à offrir des analyses multidimensi
 BIRT
 ----
 
-:Version: 3.7
 :Site: www.eclipse.org/birt
 :Porteur: une fondation (Eclipse)
 :Licence: Eclipse Public Licence (EPL)
@@ -29,7 +28,6 @@ Le moteur de BIRT est une bibliothèque qui permet de générer des rapports (pa
 JasperReports / IReport
 -----------------------
 
-:Version: 4.0.2
 :Site: http://jasperforge.org/project/ireport
 :Porteur: un éditeur (JasperSoft)
 :Licence: GPL et proprietaire
@@ -42,7 +40,6 @@ Le moteur JasperReports permet la génération de rapports au format PDF, HTML, 
 Jedox / Palo
 ------------
 
-:Version: 3.2
 :Site: http://www.palo.net/
 :Porteur: un éditeur (Jedox)
 :Licence: GPL et proprietaire
@@ -56,7 +53,6 @@ Palo est probablement aujourd'hui l'outil de reporting le plus simple d'emploi. 
 Pentaho Report Designer
 -----------------------
 
-:Version: 3.8
 :Site: http://reporting.pentaho.com
 :Porteur: un éditeur (Pentaho)
 :Licence: GPL et propriétaire

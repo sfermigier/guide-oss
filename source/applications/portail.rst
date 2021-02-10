@@ -17,7 +17,6 @@ Des outils open source sont disponibles pour permettre la réalisation de ce typ
 eXo Platform
 ------------
 
-:Version: 3.0
 :Site: www.exoplatform.com
 :Porteur: un éditeur (eXo)
 :Licence: AGPL et propriétaire
@@ -36,7 +35,6 @@ eXo Platform est écrit en Java, conforme aux normes JSR 168 et 286, WSRP 1 et 2
 Silverpeas
 ----------
 
-:Version: 7.4
 :Site: www.silverpeas.com
 :Porteur: un éditeur (Groupe Oevo)
 :Licence: Affero GPL v3
@@ -53,7 +51,6 @@ Silverpeas est écrit en Java, conforme aux normes JSR 168 et 286.
 Liferay
 -------
 
-:Version: 6.0
 :Site: www.liferay.com
 :Porteur: un éditeur (Liferay, Inc)
 :Licence: LGPL et propriétaire

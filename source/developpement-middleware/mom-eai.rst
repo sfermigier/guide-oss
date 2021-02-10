@@ -9,11 +9,9 @@ Un middleware est davantage qu'un simple protocole d'appel des services offerts 
 
 
 
+Apache ActiveMQ
+---------------
 
-ActiveMQ
---------
-
-:Version: 5.5.0
 :Site: http://activemq.apache.org
 :Porteur: une fondation (Apache)
 :Licence: Apache
@@ -28,7 +26,6 @@ ActiveMQ est développé en Java. La diversité des langages et environnements s
 JORAM
 -----
 
-:Version: 5.7.0
 :Site: joram.ow2.org
 :Porteur: un consortium (OW2) et un éditeur (ScalAgent)
 :Licence: LGPL
@@ -43,7 +40,6 @@ Les langages par lesquels ont peut accéder à JORAM sont : Java (via l'interfac
 RabbitMQ
 --------
 
-:Version: 2.8.6
 :Site: www.rabbitmq.com
 :Porteur: un éditeur (VMWare)
 :Licence: MPL
@@ -58,6 +54,6 @@ Autres
 
 Parmi les produits de l’univers MOM & EAI, on peut compléter la liste avec les outils ci-dessous :
 
-- JBoss Messaging:	http://www.jboss.org/jbossmessaging
+- JBoss Messaging: http://www.jboss.org/jbossmessaging
 
 - ZeroMQ: http://www.zeromq.org/

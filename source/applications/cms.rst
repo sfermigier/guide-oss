@@ -8,15 +8,15 @@ comme : eZ Publish, Drupal, TYPO3, Jahia, Infoglue, SPIP, HippoCMS, Joomla, Plon
 
 Elles sont devenues, au fil des années, plus que des alternatives sérieuses dans le domaine de l’Enterprise Content Management : elles dominent désormais le marché.
 
-Au côté de ces solutions dominantes, la convergence ERP/CRM/CMS/e-business poussée par la croissance e-commerce conduit des applicatifs issus d'autres domaines fonctionnels (ERP, CRM) à intégrer des fonctions de CMS équivalents aux meilleurs produits dédiés du marché. 
+Au côté de ces solutions dominantes, la convergence ERP/CRM/CMS/e-business poussée par la croissance e-commerce conduit des applicatifs issus d'autres domaines fonctionnels (ERP, CRM) à intégrer des fonctions de CMS équivalents aux meilleurs produits dédiés du marché.
 
 
 Drupal
 ------
 
-:Version: 7.8
 :Site: www.drupal.org
 :Porteur: une communauté
+:Licence: GPL
 
 Drupal est un CMS aux multiples facettes. Conçu à l’origine pour être un blog collectif, il trouve aujourd’hui des applications très variées : du site corporate au portail communautaire, il sait tout faire ! Il a été conçu dans les années 2000 par Dries Buytaert et connaît depuis un succès mondial. Une communauté énorme s’est créée autour du produit.
 
@@ -30,9 +30,9 @@ D’un point de vue technique, Drupal est bâti autour des technologies LAMP (PH
 eZ Publish
 ----------
 
-:Version: 4.5
 :Site: www.ez.no
 :Porteur: un éditeur (eZ Systems)
+:Licence: GPL
 
 La solution eZ Publish a été créée en 1999 par la société eZ Systems. eZ Publish se distingue des autres CMS open source par ses possibilités de configuration et d’extensions : il se présente comme un outil prêt à l’emploi mais aussi comme un framework de développement permettant de réaliser des applicatifs métier.
 
@@ -43,32 +43,12 @@ eZ Publish est un logiciel libre publié sous licence GPL. Deux éditions sont d
 Sur le plan technique, eZ Publish est en PHP, fonctionne sur Apache et MySQL (PostGreSQL 8 et Oracle 11g sont supportés), gère trois caches différents en fichiers et sépare très distinctement contenus et présentation.
 
 
-
-
-HippoCMS
---------
-
-:Version: 7.6
-:Site: www.onehippo.com
-:Porteur: un éditeur (OneHippo)
-
-HippoCMS est un CMS open source qui fait partie de la famille des CMS écrits en JAVA. Il a été créé en 1999 par l’éditeur néerlandais OneHippo. Il est fortement utilisé dans les pays nordiques et tout particulièrement aux Pays-Bas.
-
-Il possède l'essentiel des fonctionnalités que l'on peut attendre d'un CMS : édition de modèle de document, création de contenu, multilinguisme, templating, workflow de publication, multi-sites, import/export des contenus, édition de contenu en direct, etc. L'interface utilisateur est moins riche que dans certains autres produits mais elle reste ergonomique et fonctionnelle et inclut l'essentiel des fonctionnalités courantes attendues d'un bon CMS. La roadmap du produit est par ailleurs particulièrement dynamique et promet une belle suite.
-
-HippoCMS est distribuée sous licence Apache 2.0. Deux éditions sont distribuées : une version Community et une version Enterprise apportant stabilité, support et garantie.
-
-Bien conçu techniquement, Hippo CMS offre de réels avantages pour l'intégration du besoin fonctionnel par les développeurs. Les concepteurs de HippoCMS ont eu à cœur de respecter les standards (JEE), d'utiliser des outils éprouvés tels que Spring, JackRabbit et Maven, et de définir une architecture claire et extensible. Ces efforts facilitent une prise en main rapide par les développeurs.
-
-
-
-
 Jahia
 -----
 
-:Version: 6.5
 :Site: www.jahia.com
 :Porteur: un éditeur (Jahia Corp)
+:Licence: GPL
 
 Jahia est un produit franco-suisse, créé dans les années 2000, qui tient une place à part dans le monde des portails et des CMS JEE. En effet, Jahia est une des rares solutions qui réunit portail JEE et gestion de contenu en un produit unique, parfaitement intégré.
 
@@ -82,9 +62,9 @@ Jahia est bâtie sur des technologies JEE : persistance via Hibernate, support d
 Joomla
 ------
 
-:Version: 1.7
 :Site: www.joomla.org
 :Porteur: une communauté
+:Licence: GPL
 
 Joomla est un CMS développé à partir de Mambo en 2005. Il a été créé suite à un différend entre les développeurs principaux et la société coordinatrice des développements. Aujourd’hui, la majorité des développeurs de la communauté se consacre à Joomla, ce qui fait nettement pencher la balance en sa faveur.
 
@@ -98,9 +78,9 @@ Joomla est écrit en PHP et utilise une base de données MySQL.
 SPIP
 ----
 
-:Version: 3.0.4
-:Site: www.SPIP.net
+:Site: www.spip.net
 :Porteur: une communauté
+:Licence: GPL
 
 A l’origine, en 2001, SPIP était principalement utilisé par des internautes pour gérer leur site web personnel, ou pour des sites d'associations, mais SPIP a grandi et est maintenant utilisé par des organismes privés ou publics, pour gérer leur site web professionnel.
 
@@ -114,7 +94,6 @@ SPIP est un logiciel écrit en PHP qui s'appuie sur les bases de données MySQL,
 TYPO3
 -----
 
-:Version: 4.5 LTS
 :Site: www.typo3.org
 :Porteur: une communauté
 :Licence: GPL
@@ -142,9 +121,9 @@ Autres
 Dans l’univers de la gestion de contenu, l’offre open source est particulièrement vigoureuse. Pour preuve, au-delà des produits présentés précédemment, on peut également citer les outils ci-dessous :
 
 
-- Plone	http://plone.org
+- Plone: http://plone.org
 
-- Infoglue	http://www.infoglue.org
+- Infoglue: http://www.infoglue.org
 
 - Mambo	http://www.mamboserver.com
 

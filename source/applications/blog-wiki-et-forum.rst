@@ -9,66 +9,13 @@ Un wiki peut également être défini comme un type web mais sa particularité c
 
 Un forum est, quant à lui, un espace de discussion publique (généralement) ou les échanges sont archivés par sujet.
 
-Dans cette catégorie, nous présentons les meilleures solutions open source : DotClear, PhpBB, XWiki, etc.
 
-
-
-
-DotClear
---------
-
-:Version: 2.4.4
-:Site: http://fr.dotclear.org
-:Porteur: une communauté
-:Licence: GPL v2
-
-Dotclear est un logiciel libre de publication web créé en 2002 par Olivier Meunier. Dotclear est une solution conçue avant tout pour ses utilisateurs et recevant des contributions régulières de ceux-ci. En Juin 2009, Xavier Plantefève a pris la tête du projet.
-
-Dotclear dispose d'une richesse fonctionnelle faisant de lui un outil de publication de grande qualité, égalant et allant parfois plus loin que d'autres outils du même ordre. Au-delà des fonctionnalités, Dotclear est conçu pour apporter le maximum de confort à l'utilisateur : une installation automatisée qui ne comprend que 2 étapes. De plus, de nombreux thèmes et plugins sont disponibles pour le personnaliser facilement. Les pages générées ont une structure qui optimise leur référencement naturel.
-
-DotClear2 est développé en PHP5 et supporte les bases PostgreSQL (8.0 minimum), MySQL (4.1 minimum avec InnoDB) et SQLite.
-
-
-
-
-PhpBB
------
-
-:Version: 3.0.9
-:Site: www.phpbb.com
-:Porteur: une communauté
-:Licence: GPL v2
-
-PhpBB est un outil de la famille des forums. En plus des fonctions habituelles, PhpBB permet de créer des sondages, annonces et post-it, ces deux derniers restant en haut de la page pour être plus visibles.
-
-Les émoticônes permettent de rendre plus visuel le contenu. Il gère un système d'avertissement optionnel par courriel de l'apparition d'une réponse au(x) sujet(s) que l'on choisit de surveiller. Si on accepte les cookies dans le navigateur, on peut voir rapidement où sont les nouveaux messages (c'est-à-dire ceux publiés depuis la dernière consultation de la page). Pour aller plus loin, un système de messages privés entre les utilisateurs, permet d'éviter la publication des adresses électroniques personnelles. Il permet l’utilisation du BBCode (code voisin du HTML) dans les messages pour une mise en forme enrichie. Graphiquement, le support de différents thèmes visuels est complet : la partie graphique est totalement séparée du logiciel en lui-même, et est donc personnalisable à volonté.
-
-PhpBB repose sur une architecture LAMP. Il est écrit en PHP.
-
-
-
-
-TWiki
------
-
-:Version: 5.1.1
-:Site: http://twiki.org
-:Porteur: un éditeur (TWiki)
-:Licence: GPL
-
-TWiki est un logiciel programmé en Perl qui utilise le principe du wiki pour fournir une plate-forme de travail collaboratif.
-
-Il peut être utilisé comme un espace de développement, système d'administration de documents ou système d'administration de personnel. Les développeurs peuvent étendre le contenu et les fonctionnalités de TWiki avec diverses extensions.
-
-TWiki est composé de scripts cgi-bin écrits en Perl. Les informations contenues dans TWiki sont stockées dans des fichiers textes et sont mises en forme à la volée au format Html.
-
-
-
+Blogs
+~~~~~
 
 Wordpress
 ---------
 
-:Version: 3.3.1
 :Site: http://wordpress.org
 :Porteur: une communauté
 
@@ -81,12 +28,51 @@ Wordpress est distribué sous licence GPL.
 Wordpress est développé en PHP sur une base MySQL. Il dispose de plusieurs API et d’un système de plugins très évolués – des milliers d’extensions sont disponibles.
 
 
+DotClear
+--------
 
+:Site: http://fr.dotclear.org
+:Porteur: une communauté
+:Licence: GPL v2
+
+Dotclear est un logiciel libre de publication web créé en 2002 par Olivier Meunier. Dotclear est une solution conçue avant tout pour ses utilisateurs et recevant des contributions régulières de ceux-ci. En Juin 2009, Xavier Plantefève a pris la tête du projet.
+
+Dotclear dispose d'une richesse fonctionnelle faisant de lui un outil de publication de grande qualité, égalant et allant parfois plus loin que d'autres outils du même ordre. Au-delà des fonctionnalités, Dotclear est conçu pour apporter le maximum de confort à l'utilisateur : une installation automatisée qui ne comprend que 2 étapes. De plus, de nombreux thèmes et plugins sont disponibles pour le personnaliser facilement. Les pages générées ont une structure qui optimise leur référencement naturel.
+
+DotClear2 est développé en PHP5 et supporte les bases PostgreSQL (8.0 minimum), MySQL (4.1 minimum avec InnoDB) et SQLite.
+
+
+Forums
+~~~~~~
+
+PhpBB
+-----
+
+:Site: www.phpbb.com
+:Porteur: une communauté
+:Licence: GPL v2
+
+PhpBB est un outil de la famille des forums. En plus des fonctions habituelles, PhpBB permet de créer des sondages, annonces et post-it, ces deux derniers restant en haut de la page pour être plus visibles.
+
+Les émoticônes permettent de rendre plus visuel le contenu. Il gère un système d'avertissement optionnel par courriel de l'apparition d'une réponse au(x) sujet(s) que l'on choisit de surveiller. Si on accepte les cookies dans le navigateur, on peut voir rapidement où sont les nouveaux messages (c'est-à-dire ceux publiés depuis la dernière consultation de la page). Pour aller plus loin, un système de messages privés entre les utilisateurs, permet d'éviter la publication des adresses électroniques personnelles. Il permet l’utilisation du BBCode (code voisin du HTML) dans les messages pour une mise en forme enrichie. Graphiquement, le support de différents thèmes visuels est complet : la partie graphique est totalement séparée du logiciel en lui-même, et est donc personnalisable à volonté.
+
+PhpBB repose sur une architecture LAMP. Il est écrit en PHP.
+
+Autres
+------
+
+- Discourse: https://www.discourse.org/
+- FSB: http://www.fire-soft-board.com
+- PunBB: http://punbb.informer.com
+- SMF: http://www.simplemachines.org
+
+
+Wikis
+~~~~~
 
 XWiki
 -----
 
-:Version: 3.1.4
 :Site: www.xwiki.org
 :Porteur: un éditeur (XWiki SAS)
 :Licence: LGPL
@@ -100,7 +86,7 @@ XWiki est développé en Java sur une base Hibernate. Les langages de programmat
 
 PmWiki
 ------
-:version: 2.2.43
+
 :Site: http://www.pmwiki.org/
 :Porteur: Une communauté
 :Licence: GPL v2
@@ -109,19 +95,24 @@ PmWiki est un moteur de wiki libre programmé par Patrick Michaud. Il utilise le
 
 L'approche de PmWiki est d'être centré sur les rédacteurs plutôt que les lecteurs, ce qui implique certaines limites aux documents rédigés, notamment dans leur présentation. PmWiki se concentre également sur un nombre de fonctionnalités répondant à des besoins bien spécifiques plutôt que des choses identifiées comme "pouvant être utiles". Ce ce fait, PmWiki dispose d'un champ fonctionnel réduit mais extremement pointu. L'approche modulaire de PmWiki permet également à chacun de se créer et de partager une fonctionnalité qu'il trouve intéressante.
 
+TWiki
+-----
+
+:Site: http://twiki.org
+:Porteur: un éditeur (TWiki)
+:Licence: GPL
+
+TWiki est un logiciel programmé en Perl qui utilise le principe du wiki pour fournir une plate-forme de travail collaboratif.
+
+Il peut être utilisé comme un espace de développement, système d'administration de documents ou système d'administration de personnel. Les développeurs peuvent étendre le contenu et les fonctionnalités de TWiki avec diverses extensions.
+
+TWiki est composé de scripts cgi-bin écrits en Perl. Les informations contenues dans TWiki sont stockées dans des fichiers textes et sont mises en forme à la volée au format Html.
+
 
 Autres
 ------
 
-Dans l’univers des réseaux blogs, wikis et forums, l’offre open source est particulièrement dynamique. Pour preuve, au-delà des produits présentés précédemment, on peut également citer les outils ci-dessous :
-
-- DokuWiki:	http://www.dokuwiki.org/dokuwiki
-
-- FSB:	http://www.fire-soft-board.com
-
-- MediaWiki:	http://www.mediawiki.org
-
-- PunBB:	http://punbb.informer.com
-
-- SMF:	http://www.simplemachines.org
+- MoinMoin: https://www.discourse.org/
+- DokuWiki: http://www.dokuwiki.org/dokuwiki
+- MediaWiki: http://www.mediawiki.org
 

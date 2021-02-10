@@ -9,13 +9,10 @@ Une interface graphique est généralement disponible pour permettre la saisie d
 
 En sortie des tests de charge, les applications proposent généralement de nombreux de graphes et statistiques exportables sous la forme de rapports.
 
-Parmi les outils open source, on peut citer JMeter, Tsung et aussi Funkload.
-
 
 JMeter
 ------
 
-:Version: 2.5
 :Site: http://jakarta.apache.org/jmeter
 :Porteur: une fondation (Apache)
 
@@ -31,7 +28,6 @@ Son développement a commencé en 2001, il est réalisé en Java.
 Tsung
 -----
 
-:Version: 1.4.0
 :Site: http://tsung.erlang-projects.org
 :Porteur: une communauté
 :Licence: GPL
@@ -46,8 +42,7 @@ Initialement crée par la société française Idealx, il est désormais dévelo
 FunkLoad
 --------
 
-:Version: 1.16.1
-:Site: funkload.nuxeo.org
+:Site: https://github.com/nuxeo/FunkLoad
 :Porteur: une société (Nuxeo)
 :Licence: GPL
 
@@ -61,6 +56,6 @@ Autres
 
 Parmi les produits de l’univers Outils de tests de charge, on peut compléter la liste avec les outils ci-dessous :
 
-- CLIF	http://clif.ow2.org
+- CLIF: http://clif.ow2.org
 
-- OpenSTA	http://opensta.org
+- OpenSTA: http://opensta.org

@@ -11,7 +11,6 @@ L’offre décisionnelle open source est très riche avec 4 outils de grande qua
 Rapid-Miner
 -----------
 
-:Version: 5.2
 :Site: http://rapid-i.com/
 :Porteur: un éditeur (Rapid-I)
 :Licence: AGPL et proprietaire
@@ -25,7 +24,6 @@ Rapid-Miner est issu de la recherche universitaire allemande et est aujourd'hui 
 SpagoBI
 -------
 
-:Version: 3.0
 :Site: www.spagoworld.org
 :Porteur: un éditeur (Engineering Ingegneria Informatica)
 :Licence: LGPL
@@ -38,7 +36,6 @@ Le périmètre des fonctionnalités de SpagoBI comprend, à l’instar de Pentah
 JasperSoft
 ----------
 
-:Version: 4.1
 :Site: www.jaspersoft.com
 :Porteur: un éditeur (JasperSoft)
 :Licence: GPL et propriétaire
@@ -51,7 +48,6 @@ En version community, JasperServer propose la conception et génération de rapp
 Pentaho
 -------
 
-:Version: 4
 :Site: www.pentaho.com
 :Porteur: un éditeur (Pentaho)
 :Licence: GPL et propriétaire
@@ -64,7 +60,6 @@ A l’instar de JasperServer, Pentaho regroupe toutes les fonctionnalités d’u
 Palo
 ----
 
-:Version: 3.2
 :Site: www.jedox.com/fr/produits/Palo-Suite-Apercu.html
 :Porteur: un éditeur (Palo)
 :Licence: GPL et propriétaire

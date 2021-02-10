@@ -11,7 +11,6 @@ Les outils de déploiement, tel que Puppet, permettent de préparer à distance 
 Bacula
 ------
 
-:Version: 5.0.3
 :Site: www.bacula.org/fr
 :Porteur: un éditeur (Bacula Systems)
 :Licence: GPL
@@ -26,7 +25,6 @@ Bacula est développé en C/C++. Il s'appuie sur une base de données PostgreSQL
 Puppet
 ------
 
-:Version: 2.6
 :Site: http://puppetlabs.com
 :Porteur: un éditeur (Puppet Labs)
 :Licence: Apache

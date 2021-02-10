@@ -15,7 +15,6 @@ Dans l’univers de l’open source, des solutions de qualité existent comme Bo
 Bonita
 ------
 
-:Version: 5.5.2
 :Site: http://fr.bonitasoft.com
 :Porteur: un éditeur (BonitaSoft)
 :Licence: GPL et propriétaire
@@ -32,7 +31,6 @@ Bonita est développé en Java, langage également utilisé pour le développeme
 JBPM
 ----
 
-:Version: 5.1
 :Site: www.jboss.org/jbpm
 :Porteur: un éditeur (JBoss)
 :Licence: LGPL
@@ -47,7 +45,6 @@ JBPM est développé en Java.
 Activiti
 --------
 
-:Version: 5.7
 :Site: www.activiti.org
 :Porteur: un éditeur (Alfresco)
 :Licence: Apache
@@ -62,7 +59,6 @@ Activiti est développé en Java.
 Petals BPM
 ----------
 
-:Version: 1.0-alpha-3
 :Site: http://research.petalslink.org/display/petalsbpm/
 :Porteur: un éditeur (Linagora)
 :Licence: AGPL

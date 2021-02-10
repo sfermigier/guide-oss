@@ -11,13 +11,9 @@ Les moteurs de recherche se différencient généralement par leurs capacités d
 
 Dans l’univers de l’open source, le marché est dominé par les moteurs de recherche Lucene et Solr. On les retrouve très souvent associées aux meilleures applications web.
 
-
-
-
 Lucene
 ------
 
-:Version: 3.4.0
 :Site: http://lucene.apache.org
 :Porteur: une fondation (Apache)
 :Licence: Apache
@@ -32,7 +28,6 @@ Lucene est écrit en Java. Il peut être intégré au sein d’applications écr
 Solr
 ----
 
-:Version: 3.4.0
 :Site: http://lucene.apache.org/solr
 :Porteur: une fondation (Apache)
 :Licence: Apache
@@ -45,7 +40,6 @@ Solr est un serveur de recherche d'entreprise permettant de centraliser les opé
 mnoGoSearch
 -----------
 
-:Version: 3.3.11
 :Site: www.mnogosearch.org
 :Porteur: un éditeur (Lavtech.com)
 
@@ -63,7 +57,6 @@ MnoGoSearch est développé en C.
 OpenSearchServer
 ----------------
 
-:Version: 1.2.1
 :Site: www.open-search-server.com
 :Porteur: un éditeur (OpenSearchServer)
 :Licence: GPL
@@ -72,7 +65,7 @@ OpenSearchServer est un serveur de recherche, créé par Emmanuel Keller. La pre
 
 OpenSearchServer a été développé en interne dans le cadre du site l'Usine Nouvelle. Basé sur Lucene, il se différencie de SolR par une interface d'administration graphique accessible en HTTP, une capacité de crawling de site très avancée (gestion des threads, exclusion de pages, programmation de l'indexation, etc...), un système d'indexation de base de données et un crawler de fichiers. OpenSearchServer peut également facilement s'interfacer avec toute application, à travers une interface REST. De plus, OpenSearchServer peut être étendu facilement à travers des modules spécifiques qui viendront enrichir ses fonctionnalités. OpenSearchServer est également capable d'interpréter le contenu de plusieurs formats de fichiers (OpenOffice, Ms Office, PDF, etc...).
 
-La société Jaeksoft, basée sur Paris et membre de Systematic, assure la majeure partie des développements et fournit du support sur l'outil.
+La société Jaeksoft, basée sur Paris, assure la majeure partie des développements et fournit du support sur l'outil.
 
 OpenSearchServer est écrit en Java.
 
@@ -82,14 +75,13 @@ Autres
 
 Parmi les produits de l’univers Moteurs de recherche, on peut compléter la liste avec les outils ci-dessous :
 
-
 - Xapian: http://xapian.org/
 
-- Whoosh: http://whoosh.ca/
+- Whoosh: https://pypi.org/project/Whoosh/
 
-- Nutch:	http://nutch.apache.org
+- Apache Nutch: http://nutch.apache.org
 
-- Sphinx:	http://sphinxsearch.com
+- Sphinx: http://sphinxsearch.com
 
-- Flax:	http://www.flax.co.uk
+- Flax: http://www.flax.co.uk
 

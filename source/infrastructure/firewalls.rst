@@ -13,7 +13,6 @@ En matière de firewall, l’offre open source est très riche avec des produits
 pf (Packet Filter)
 ------------------
 
-:Version: 4.9 (suit les versions d’OpenBSD)
 :Site: www.openbsd.org/faq/pf
 :Porteur: une communauté
 :Licence: BSD
@@ -26,7 +25,6 @@ Ce système présente l'avantage d'avoir un langage de configuration simple, et 
 NetFilter
 ---------
 
-:Version: 1.4.12
 :Site: www.netfilter.org
 :Porteur: une communauté
 :Licence: GPL v2
@@ -39,7 +37,6 @@ Il s'agit d'un système extrêmement souple, qui s'intègre avec les fonctionnal
 pfSense
 -------
 
-:Version: 2.0
 :Site: www.pfsense.org
 :Porteur: un éditeur (BSD Perimeter)
 :Licence: BSD

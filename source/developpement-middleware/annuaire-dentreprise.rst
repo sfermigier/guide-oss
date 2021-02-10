@@ -15,7 +15,6 @@ Dans l’univers de l’open source, la solution OpenLDAP dispose de la plus gra
 389 directory server
 --------------------
 
-:Version: 1.2.9.9
 :Site: http://directory.fedoraproject.org
 :Porteur: un éditeur (Red Hat)
 :Licence: GPL
@@ -32,7 +31,6 @@ Dans l’univers de l’open source, la solution OpenLDAP dispose de la plus gra
 OpenLDAP
 --------
 
-:Version: 2.4.26
 :Site: www.openldap.org
 :Porteur: une communauté
 :Licence: OpenLDAP Public License, compatible avec la licence GPL

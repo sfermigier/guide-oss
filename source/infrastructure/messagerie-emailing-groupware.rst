@@ -11,7 +11,6 @@ Tous ces outils sont de précieuses aides pour mettre en œuvre un système de m
 Postfix
 -------
 
-:Version: 2.8.5
 :Site: www.postfix.org
 :Porteur: une communauté
 :Licence: IBM (open source)
@@ -24,7 +23,6 @@ Remplaçant de plus en plus Sendmail au sein des infrastructures mail open sourc
 Cyrus IMAPd
 -----------
 
-:Version: 2.4.10
 :Site: www.cyrusimap.org
 :Porteur: une communauté
 :Licence: BSD
@@ -37,7 +35,6 @@ Il supporte des fonctionnalités avancées telles que le push (IDLE), les ACL, l
 SpamAssassin
 ------------
 
-:Version: 3.3.2
 :Site: http://spamassassin.apache.org
 :Porteur: une fondation (Apache)
 :Licence: Apache
@@ -51,7 +48,6 @@ SpamAssassin est écrit en Perl.
 DSPAM
 -----
 
-:Version: 3.10.1
 :Site: www.nuclearelephant.com
 :Porteur: une communauté
 :Licence: GPL
@@ -63,7 +59,6 @@ Ce type de filtrage, basé sur l'apprentissage de mot-clés, s'avère particuli�
 Zimbra
 ------
 
-:Version: 7.1.1
 :Site: www.zimbra.com
 :Porteur: un éditeur (WMware)
 :Licence: Zimbra Public License, dérivée de MPL
@@ -78,7 +73,6 @@ Cet outil de messagerie s'appuie sur un socle infrastructure riche et robuste : 
 Horde
 -----
 
-:Version: 4.0.8
 :Site: www.horde.org
 :Porteur: une communauté
 :Licence: GPL
@@ -92,7 +86,6 @@ Horde est écrit en PHP.
 Zarafa
 ------
 
-:Version: 7.0.1
 :Site: www.zarafa.com
 :Porteur: un éditeur (Zarafa)
 :Licence: Affero GPL v3
@@ -107,7 +100,6 @@ Zarafa utilise la base de données MySQL pour le stockage de ses données. Le we
 OpenEMM
 -------
 
-:Version: OpenEMM 2011
 :Site: www.openemm.org
 :Porteur: un éditeur (AGNITAS AG)
 :Licence: Common Public Attribution License 1.0 (CPAL)
@@ -122,7 +114,6 @@ OpenEMM repose sur les langages C, Java et Python. Il utilise la base de donnée
 Blue Mind
 ---------
 
-:Version: 0.22
 :Site: www.blue-mind.net
 :Porteur: un éditeur (Blue Mind)
 :Licence: AGPL v3 / CeCILL v2

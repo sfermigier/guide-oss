@@ -13,7 +13,6 @@ Parmi l’offre open source, on peut citer des outils comme FreeNx, TightVNC ou 
 FreeNx
 ------
 
-:Version: 0.7.3
 :Site: http://freenx.berlios.de
 :Porteur: un éditeur (NoMachine)
 :Licence: GPL
@@ -28,7 +27,6 @@ FreeNX est développé par une communauté depuis 2006 et est réalisé en  C/C+
 TightVNC
 --------
 
-:Version: 2.0.4
 :Site: www.tightvnc.com
 :Porteur: une communauté
 :Licence: GPL v2
@@ -43,7 +41,6 @@ TightVNC est développé en C/C++.
 OpenSSH
 -------
 
-:Version: 5.9
 :Site: http://www.openssh.com
 :Porteur: une fondation (OpenBSD)
 :Licence: BSD
