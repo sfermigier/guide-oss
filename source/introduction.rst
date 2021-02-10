@@ -30,8 +30,8 @@ Evolution future de ce document
 
 Dans l'esprit de collaboration du logiciel libre auquel nous sommes attachés, les sources de ce guide, soumises à des licences mentionnées en fin d'ouvrage, sont disponibles sur GitHub, un site de développement collaboratif, à l'URL :
 
-``https://github.com/GTLL/guide-oss``
+``https://github.com/sfermigier/guide-oss``
 
 Si vous souhaitez collaborer à des évolutions futures de cet ouvrage, dans le respect des licences sus-citées, vous pouvez nous envoyer vos suggestions via les mécanismes de collaboration intégrés à GitHub. Les nouvelles versions de ce document seront rendues publiques sur le site :
 
-``http://www.guide-solutions-opensource.com/``
+``https://guide-solutions-opensource.com/``

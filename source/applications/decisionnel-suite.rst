@@ -77,8 +77,6 @@ Cette suite se compose des éléments suivants: le serveur OLAP qui permet de g�
 Autres
 ------
 
-- Vanilla:	http://forge.bpm-conseil.com/projects/vanilla/
+- KNIME: https://www.knime.com/
 
-- KNIME:	http://www.knime.org/
-
-- BIRT Project:	http://www.eclipse.org/birt/phoenix/
+- Eclipse BIRT: https://www.eclipse.org/birt/
