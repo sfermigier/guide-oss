@@ -24,8 +24,8 @@ Talend Open Studio est un ETL open source apparu en 2005, développé par la soc
 Pentaho Data Integration
 ------------------------
 
-:Version: 4.1.0
-:Site: http://kettle.pentaho.com
+:Version: 5.0
+:Site: http://www.pentaho.fr/explore/pentaho-data-integration/ 
 :Porteur: un éditeur (Pentaho)
 :Licence: GPL
 

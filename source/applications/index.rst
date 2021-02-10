@@ -1,5 +1,5 @@
-Dimension « Applications »
-==========================
+Couches applicatives
+====================
 
 La dimension « Applications », présente toutes les solutions couramment utilisées par les utilisateurs finaux des entreprises. Ils disposent généralement d’interfaces soignées loin des lignes de commandes fréquemment disponibles parmi les outils de la dimension « Infrastructure ».
 
@@ -9,18 +9,22 @@ Aujourd’hui, la quasi totalité des catégories sont représentées par l'open
 
 Plus de 50 solutions ont été évaluées dans cette dimension ; et près de 100 solutions y sont recensées parmi les catégories suivantes :
 
-- CRM
-- Décisionnel : ETL
-- Décisionnel : Reporting
-- Décisionnel : Suite
-- E-Commerce
-- ERP / PGI
-- CMS
-- GED & ECM
-- Bibliothèque & Documentation
-- Portail
-- Réseaux sociaux d’entreprise
-- Blog, Wiki et Forum
-- E-Learning
-- Suivi d’audience
-- Autres
+
+.. toctree::
+    :maxdepth: 1
+
+    crm.rst
+    decisionnel-etl.rst
+    decisionnel-reporting.rst
+    decisionnel-suite.rst
+    e-commerce.rst
+    erp-pgi.rst
+    cms.rst
+    ged-ecm.rst
+    bibliotheque-documentation.rst
+    portail.rst
+    reseaux-sociaux-dentreprise-rse.rst
+    blog-wiki-et-forum.rst
+    e-learning.rst
+    suivi-daudience.rst
+    autres.rst

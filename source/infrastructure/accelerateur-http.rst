@@ -5,11 +5,13 @@ Les accélérateurs HTTP, également appelés « Reverse Proxies », sont implé
 
 C’est notamment ce dernier point que nous présentons dans cette rubrique. Les internautes « passent » par l’intermédiaire des reverse proxies pour accéder aux applications de serveurs internes. Des politiques de cache adaptées permettent de réduire la charge des serveurs d’applications Web quel que soit le langage utilisé. Certains accélérateurs HTTP gèrent le cache par fragment en supportant notamment le standard ESI (Edge Side Includes).
 
+Plus d'infos: https://fr.wikipedia.org/wiki/Proxy_inverse
+
 
 Squid
 -----
 
-:Version: 3.1
+:Version: 4.14
 :Site: www.squid-cache.org
 :Porteur: une communauté
 :Licence: GPL
@@ -24,7 +26,7 @@ Squid est inspiré du projet Harvest. Il est compatible avec IPv6 à partir de s
 Varnish
 -------
 
-:Version: 3.0.1
+:Version: 6.5.1
 :Site: www.varnish-cache.org
 :Porteur: un éditeur (Varnish Software)
 :Licence: BSD
@@ -32,3 +34,11 @@ Varnish
 Varnish est un cache HTTP hautes performances. La première version stable de Varnish date de 2006, et a été initiée pour le journal norvégien Verdens Gang. L’architecte du produit est le danois Poul-Henning Kamp.
 
 Utilisé pour améliorer les performances des sites web à fort trafic, Varnish dispose également de fonctionnalités de répartition de charge et permet de tester la disponibilité des serveurs produisant le contenu web. Varnish est notamment utilisé par Facebook. Varnish stocke une partie de ses données dans la mémoire virtuelle. La configuration de l’outil est réalisée à partir de fichiers VCL (language spécifique) ; cela permet d’aller très loin dans la définition des régles de gestion. Enfin, Varnish supporte les tags ESI (Edge Side Includes).
+
+Autres
+------
+
+- HA Proxy: http://www.haproxy.org/
+
+- Traefik: https://traefik.io/
+

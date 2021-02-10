@@ -16,7 +16,7 @@ help:
 
 
 deploy:
-	rsync -e ssh -avz build/html/ trunks:/srv/web/guide-oss/
+	rsync --delete-after -e ssh -avz build/html/ trunks:/srv/web/guide-oss/
 
 
 # Catch-all target: route all unknown targets to Sphinx using the new

@@ -1,5 +1,5 @@
-Dimension « Infrastructure »
-============================
+Couche « Infrastructure »
+=========================
 
 La dimension « Infrastructure » est certainement la dimension la mieux représentée dans le domaine de l’open source avec des centaines voire des milliers de solutions disponibles.
 
@@ -7,17 +7,20 @@ C’est d’ailleurs de cette « dimension » que les projets open source sont n
 
 Plus de 50 solutions ont été évaluées dans cette dimension ; et plus de 90 solutions y sont recensées parmi les catégories suivantes :
 
-- Contrôle de postes à distance
-- Gestion de parc et inventaires
-- Déploiement et sauvegarde
-- Haute disponibilité
-- Sécurité
-- VPN
-- Firewalls
-- Supervision et Métrologie
-- Système d’exploitation Linux & BSD
-- Virtualisation
-- VOIP / Téléphonie
-- Messagerie, Emailing & Groupware
-- Accélérateur http
-- Autres
+.. toctree::
+    :maxdepth: 1
+
+    controle-de-postes-a-distance.rst
+    gestion-de-parc-et-inventaires.rst
+    deploiement-et-sauvegarde.rst
+    haute-disponibilite.rst
+    securite.rst
+    firewalls.rst
+    vpn.rst
+    supervision-et-metrologie.rst
+    systeme-dexploitation-linux-bsd.rst
+    virtualisation.rst
+    voip-telephonie.rst
+    messagerie-emailing-groupware.rst
+    accelerateur-http.rst
+    autres.rst

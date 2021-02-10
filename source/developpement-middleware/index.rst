@@ -1,5 +1,5 @@
-Dimension « Développement et couches intermédiaires »
-=====================================================
+Couches développement et services
+=================================
 
 La dimension « Développement et couches intermédiaires », comme son nom l’indique, présente toutes les solutions utiles aux fonctions de développement, que l’on trouve habituellement entre les couches Infrastructures et Applicatives. C’est également une dimension particulièrement bien fournie en produits open source.
 
@@ -7,19 +7,22 @@ On constate ainsi qu’au-delà des applicatifs tels que les CMS, les boutiques 
 
 Plus de 50 solutions ont été évaluées dans cette dimension ; et près de 110 solutions y sont recensées parmi les catégories suivantes :
 
-- Annuaire d’entreprise
-- Bases de données relationnelles
-- Big Data et NoSQL
-- BPM / Workflow
-- Outils de développement
-- Tests et Intégration continue
-- ESB
-- Frameworks et bibliothèques pour le développement Web
-- Frameworks mobiles cross-platform
-- PKI
-- Authentification, fédération et gestion d’identité
-- Outils de tests de charge
-- Moteur de recherche
-- Serveurs http et serveurs d’applications
-- MOM & EAI
-- Autres
+.. toctree::
+    :maxdepth: 1
+
+    annuaire-dentreprise.rst
+    bases-de-donnees.rst
+    nosql.rst
+    bpm-workflow.rst
+    outils-de-developpement.rst
+    tests-integration-continue.rst
+    esb.rst
+    frameworks-et-bibliotheques-pour-le-developpement-web.rst
+    frameworks-mobiles-cross-platform.rst
+    pki.rst
+    authentification-federation-et-gestion-didentite.rst
+    outils-de-tests-de-charge.rst
+    moteurs-de-recherche.rst
+    serveurs-http-et-serveurs-dapplications.rst
+    mom-eai.rst
+    autres.rst
