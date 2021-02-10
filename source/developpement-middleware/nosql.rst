@@ -86,13 +86,4 @@ L'univers Big Data / NoSQL est particulièrement dynamique, on peut compléter l
 
 - Neo4j: http://neo4j.org
 
-- Voldemort: http://www.project-voldemort.com
-
-- Riak: http://wiki.basho.com/
-
 - HBase: http://hbase.apache.org/
-
-- Hypertable: http://www.hypertable.com>
-
-- Disco: http://discoproject.org/
-

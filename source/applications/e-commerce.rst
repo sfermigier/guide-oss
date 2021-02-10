@@ -58,27 +58,6 @@ Sans doute la solution la plus riche sur le plan fonctionnel après Magento. Oxi
 Oxid est développé intégralement en PHP/MySQL. Il intègre le framework Ajax jQuery, et dispose d'une API et d'une couverture WebService complète, permettant d'adapter l'outil à de nouveaux besoins et contextes spécifiques.
 
 
-
-
-RBS Change
-----------
-
-:Version: 3.0.4
-:Site: www.rbschange.fr
-:Porteur: un éditeur (Ready Business System)
-:Licence: GPL v3
-
-Le modèle open source attire bien des éditeurs de logiciels. RBS fait partie de ceux qui se sont tournés vers un tel modèle en livrant en février 2010 ses applications Change CMS et e-commerce sous licence open source.
-
-Fruit de 5 ans de développement et plus d’une centaine de projets, cette solution est très prometteuse tant d’un point de vue technique que fonctionnel. Notons quelques aspects différenciants de la solution : CMS et e-commerce totalement intégrés et couplés, un backoffice de gestion utilisant la technologie Ajax, une version entreprise pour des fonctionnalités avancées (prévisualisation du site à une date donnée, gestion automatique des promotions…), etc.
-
-Du fait de son récent virage vers l’open source, RBS Change compte peu d’acteurs dans sa communauté, ne bénéficiant pas encore de cet atout essentiel à la pérennité d’une solution libre.
-
-RBS Change est écrit en PHP et s’appuie sur un framework PHP5 développé par l’éditeur offrant un environnement de développement avancé.
-
-
-
-
 Drupal Commerce
 ---------------
 
@@ -94,23 +73,6 @@ Si à l'heure actuelle le périmètre fonctionnel de Drupal Commerce reste un pe
 Drupal Commerce est développé intégralement en PHP/MySQL. Il est fourni sous forme de module pour Drupal 7.
 
 
-osCommerce
-----------
-
-:Version: 3.0.2
-:Site: www.oscommerce.com
-:Porteur: une communauté
-:Licence: GPL
-
-Difficile de ne pas évoquer OsCommerce quand on parle de solution e-commerce open source. Cet outil, apparu dans sa première version en mars 2000, s'est rapidement imposé comme la solution incontournable en matière de e-commerce et comme porte-étendard de l’offre open source à une époque où elle était encore naissante.
-
-Mais ces dernières années, cette communauté a commencé à se désolidariser de l'équipe de développement et a développé de nombreux « forks ». Le développement de la solution a fortement ralenti depuis 2006. Le code vieillissant rendant l'application très difficile à maintenir, l'équipe a entamé une refonte totale de l'outil et une V3 est sortie récemment après plusieurs années d’attente.
-
-OsCommerce est un outil reposant entièrement sur une communauté autrefois très large et très active.
-
-Développé intégralement en PHP/MySQL, OsCommerce doit en grande partie son succès à l'absence d'alternatives dans le domaine open source et à l'explosion du e-business dans le début des années 2000. C'est encore aujourd'hui le webshop le plus déployé au monde.
-
-
 Voir également
 --------------
 
@@ -118,7 +80,7 @@ Les logiciels ci-dessous disposent de fonctions de e-commerce et sont traités d
 
 - ERP5 (section ERP)
 
-- Jommla (section CMS)
+- Joomla (section CMS)
 
 
 Autres
@@ -127,13 +89,13 @@ Autres
 Parmi les produits de l’univers du E-Commerce, on peut compléter la liste avec les outils ci-dessous :
 
 
-- Thelia:	http://thelia.net
+- Thelia: http://thelia.net/
 
 - Wordpress Commerce: http://wordpress.org/extend/plugins/wp-e-commerce/
 
-- OFBiz:	http://ofbiz.apache.org
+- OFBiz: http://ofbiz.apache.org/
 
-- Spree:	http://spreecommerce.com
+- Spree: http://spreecommerce.org/
 
-- Broadleaf Commerce:	http://www.broadleafcommerce.org
+- Broadleaf Commerce: http://www.broadleafcommerce.com/
 

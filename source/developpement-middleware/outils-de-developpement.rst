@@ -57,8 +57,8 @@ Phing est distribué sous licence LGPL (Lesser Public General License) en versio
 
 Phing est développé en PHP et est compatible avec les plateformes Windows, Linux et Max OS X.
 
-Eclipse
--------
+Eclipse IDE
+-----------
 
 :Version: 3.7
 :Site: www.eclipse.org
@@ -181,8 +181,8 @@ Tuleap est écrit majoritairement en PHP.
 Mercurial
 ---------
 
-:Version: 2.3
-:Site: http://mercurial.selenic.com
+:Version: 5.7
+:Site: https://www.mercurial-scm.org/
 :Porteur: une communauté
 :Licence: GPL
 
@@ -200,10 +200,10 @@ Autres
 Parmi les produits de l’univers Outils de développement, on peut compléter la liste avec les outils ci-dessous :
 
 
-- CVS:	http://cvs.nongnu.org
+- gitlab: https://gitlab.com/
 
-- Gforge:	http://gforge.org/gf
+- Gforge: https://gforge.org/
 
-- Trac:	http://trac.edgewall.org
+- Trac: https://trac.edgewall.org
 
 
