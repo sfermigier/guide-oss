@@ -1,14 +1,15 @@
 Big Data et NoSQL
 =================
 
-Depuis 2009, une nouvelle mouvance – le NoSQL – est apparue. Elle propose une alternative au SQL et au modèle relationnel afin de permettre un haut niveau de scalabilité (extensibilité), et permettre aux entreprises de toutes tailles d'exploiter au mieux le déluge de données (*big data*) qu'elles sont capables de générer ou d'acquérir.
+Depuis 2009, un nouveau paradigme de stockage de données - le NoSQL - est apparue. Il propose une alternative au SQL et au modèle relationnel afin de permettre un haut niveau de scalabilité, et permettre aux entreprises de toutes tailles d'exploiter au mieux le déluge de données (*big data*) qu'elles sont capables de générer ou d'acquérir.
+
 
 Apache Hadoop
 -------------
 
 :Site: http://hadoop.apache.org/
 :Porteur: une fondation (Apache)
-:Licence: Apache
+:Licence: Apache 2.0
 
 Apache Hadoop est une plateforme Java pour développer des applications distribuées autour de jeux de données massifs. Hadoop comprend un nombre significatif de sous-projets, dont les plus fondamentaux sont MapReduce, framework de calcul distribué massivement parallèle et HDFS, système de fichier distribué qui permet l'accès à haut débit à des jeux de données massifs.
 
@@ -21,27 +22,28 @@ MongoDB
 -------
 
 :Site: http://www.mongodb.org
-:Porteur: 10gen Inc
+:Porteur: un éditeur (MongoDB Inc)
 :Licence: Affero GPL
 
 MongoDB est une base de données "orientée documents" de la mouvance NoSQL permettant le stockage de documents au format BSON (une forme binaire de JSON).
 
 Elle dispose de capacité à évoluer en environnement distribué via des mécanismes de réplication et de sharding. Son intégration particulièrement réussie avec la plupart des langages de programmation ainsi que sa documentation de qualité lui confèrent une popularité importante. MongoDB profite du fort regain d'intérêts pour les bases documentaires qui permettent de mieux coller aux environnements modernes qui se doivent de manipuler des données fortement hétérogènes et pour lesquels les SGBD relationnels ne sont pas nécessairement les plus adaptés.
 
-La base de données est par ailleurs supportée par une entité commerciale, la société 10gen Inc.
+La base de données est par ailleurs supportée par une entité commerciale, la société MongoDB Inc, cotée en bourse depuis 2017.
 
 MongoDB est écrit en C++.
+
 
 NEO
 ---
 
 :Site: http://www.neoppod.org/
 :Porteur: un éditeur (Nexedi)
-:Licence: GPL-2.0
+:Licence: GPL 2.0
 
-NEO est une base de données NoSQL de type objet qui est la fois transactionnelle, répartie et redondante. NEO a fait l'objet dans le cadre de Systematic  d'un projet de recherche conjoint de Nexedi, Pilot Systems, l'Université de Paris 13 et l'Université de Paris 6. La cohérence transactionnelle de NEO sur un cluster de stockage réparti a ainsi pu être démontrée ce qui ouvre la voie à une application des technologes NoSQL aux systèmes de paiements et aux systèmes bancaires.
+NEO est une base de données objet qui est la fois transactionnelle, répartie et redondante. NEO a fait l'objet d'un projet de recherche conjoint de Nexedi, Pilot Systems, l'Université de Paris 13 et l'Université de Paris 6. La cohérence transactionnelle de NEO sur un cluster de stockage réparti a ainsi pu être démontrée ce qui ouvre la voie à une application des technologes NoSQL aux systèmes de paiements et aux systèmes bancaires.
 
-NEO est écrit en python et en C.
+NEO est écrit en Python et en C.
 
 
 Redis
@@ -63,7 +65,7 @@ Apache Cassandra
 
 :Site: http://cassandra.apache.org
 :Porteur: une fondation (Apache)
-:Licence: Apache
+:Licence: Apache 2.0
 
 Cassandra est une autre base de données de la mouvance NoSQL. Initialement développée par Facebook en 2008, elle a été par la suite libérée et son développement est aujourd'hui assuré par la fondation Apache.
 
@@ -77,6 +79,6 @@ Autres
 
 L'univers Big Data / NoSQL est particulièrement dynamique, on peut compléter la liste avec les outils ci-dessous :
 
-- Apache CouchDB: http://couchdb.apache.org
-- Neo4j: http://neo4j.org
-- HBase: http://hbase.apache.org/
+- Apache CouchDB: https://couchdb.apache.org/
+- Neo4j: https://neo4j.org
+- HBase: https://hbase.apache.org/
