@@ -11,7 +11,7 @@ Il existe d’excellents outils open source pour s’assurer que les services r�
 Linux-HA
 --------
 
-:Site: https://www.linux-ha.org
+:Site: http://www.linux-ha.org
 :Porteur: une communauté
 :Licence: GPL v2
 
@@ -23,24 +23,10 @@ Linux-HA est le système de haute disponibilité le plus répandu, et de nombreu
 
 Linux-HA est écrit en C et en Python.
 
-LVS
----
-
-:Site: https://www.linuxvirtualserver.org
-:Porteur: une communauté
-:Licence: GPL v2
-
-LVS (Linux Virtual Server) est le système d'équilibrage de charge inclus au noyau Linux depuis 1998. Il a écrit écrit par Wensong Zhang.
-
-Il permet de router les connexions réseau entrantes vers un ensemble de machines, en suivant un certain nombre de politiques d'équilibrage de charge classiques (round-robin, weighted round-robin, etc.). Il constitue une simple brique d'un système de load balancing, car il ne prend pas en charge lui-même sa configuration. On utilise un logiciel tiers pour tester l'état des serveurs et mettre à jour la configuration LVS en cas de panne d'un serveur.
-
-Comme le reste des composants de Linux, LVS est disponible sous licence GPL v2 et est supporté par un grand nombre de prestataires.
-
-
 HAProxy
 -------
 
-:Site: http://haproxy.1wt.eu
+:Site: https://www.haproxy.org/
 :Porteur: une communauté
 :Licence: GPL
 
@@ -54,10 +40,10 @@ HAProxy est supporté officiellement par un petit nombre de sociétés.
 Keepalived
 ----------
 
-:Site: https://www.keepalived.org
+:Site: https://www.keepalived.org/
 :Porteur: une communauté
 :Licence: GPL
 
-Keepalived est un composant permettant de configurer LVS. Le projet existe depuis 2001.
+Keepalived est un composant permettant de configurer LVS (LinuxVirtualServer). Le projet existe depuis 2001.
 
 LVS étant un système relativement basique et statique, il a besoin d'un logiciel pour maintenir sa configuration. Keepalived permet de faire des tests de disponibilité (par exemple connexion TCP, requête HTTP) d'un service, tient à jour la liste des serveurs utilisables pour LVS. Il gère également un système de bascule IP basé sur VRRP pour sa propre redondance.
