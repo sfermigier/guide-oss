@@ -48,8 +48,4 @@ Autres
 
 Parmi les produits de l’univers Annuaire d’entreprise, on peut compléter la liste avec les outils ci-dessous :
 
-
-- Apache Directory:	http://directory.apache.org
-
-- OpenDS:	http://www.opends.org
-
+- Apache Directory: http://directory.apache.org
