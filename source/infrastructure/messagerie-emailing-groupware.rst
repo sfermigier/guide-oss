@@ -11,7 +11,7 @@ Tous ces outils sont de précieuses aides pour mettre en œuvre un système de m
 Blue Mind
 ---------
 
-:Site: https://www.blue-mind.net
+:Site: https://www.blue-mind.net/
 :Porteur: un éditeur (Blue Mind)
 :Licence: AGPL v3 / CeCILL v2
 
@@ -19,8 +19,7 @@ Blue Mind est une solution complète de messagerie d’entreprise, d’agendas e
 
 L'ensemble des fonctionnalités est accessible via un navigateur et supporte le mode déconnecté directement dans le navigateur sans installation de logiciels supplémentaire. Blue Mind est aussi accessible via les clients lourds de messagerie classique via les protocoles standard SMTP/POP/IMAP. Pour les logiciels Thunderbird et Outlook, Blue Mind fourni en plus des connecteurs permettant de synchroniser les contacts et calendriers (ou un accès aux calendriers pour Thunderbird). Le support de la synchronisation (push) des Smartphones (Android, Iphone, Ipad, Windows Mobile,..) est natif via le protocole Exchange ActiveSync (EAS).
 
-Blue Mind s'appuie sur les logiciels libres préexistants: Postfix, cyrus IMAP, Roundcube, Apache, Tomcat, nginx, HornetQ, PostgreSQL.
-L'interface utilisateur est entièrement fondée sur Ajax avec le framework Javascript Closure développé par Google. L'architecture de Blue Mind est basée sur des web services et un bus de messages.
+Blue Mind s'appuie sur les logiciels libres préexistants: Postfix, cyrus IMAP, Roundcube, Apache, Tomcat, Nginx, HornetQ, PostgreSQL. L'interface utilisateur est entièrement fondée sur Ajax avec le framework Javascript Closure développé par Google. L'architecture de Blue Mind est basée sur des web services et un bus de messages.
 
 Blue Mind est développé et supporté par la société française éponyme qui travaille avec des revendeurs et des intégrateurs pour déployer la solution chez ses clients.
 
@@ -28,9 +27,9 @@ Blue Mind est développé et supporté par la société française éponyme qui 
 Postfix
 -------
 
-:Site: http://www.postfix.org
+:Site: http://www.postfix.org/
 :Porteur: une communauté
-:Licence: IBM (open source)
+:Licence: Eclipse Public License 2.0 et IBM Public License 1.0
 
 Postfix est un serveur de messagerie. La création de postfix remonte à 1997. Il a été développé par Wietse Venema et plusieurs contributeurs. Postfix a tout d'abord été connu sous les noms de VMailer et par la suite IBM Secure Mailer.
 
@@ -40,7 +39,7 @@ Remplaçant de plus en plus Sendmail au sein des infrastructures mail open sourc
 Cyrus IMAPd
 -----------
 
-:Site: https://www.cyrusimap.org
+:Site: https://www.cyrusimap.org/
 :Porteur: une communauté
 :Licence: BSD
 
@@ -52,7 +51,7 @@ Il supporte des fonctionnalités avancées telles que le push (IDLE), les ACL, l
 SpamAssassin
 ------------
 
-:Site: http://spamassassin.apache.org
+:Site: https://spamassassin.apache.org/
 :Porteur: une fondation (Apache)
 :Licence: Apache
 
@@ -62,16 +61,6 @@ Il s'agit d'un outil très répandu sur les serveurs de mails, y compris dans le
 
 SpamAssassin est écrit en Perl.
 
-DSPAM
------
-
-:Site: https://www.nuclearelephant.com
-:Porteur: une communauté
-:Licence: GPL
-
-DSPAM est un antispam basé sur le filtrage Bayesien, écrit par Jonathan A. Zdziarski, également auteur du livre Ending Spam.
-
-Ce type de filtrage, basé sur l'apprentissage de mot-clés, s'avère particulièrement efficace après une phase d'entrainement. Le principal intérêt de DSPAM par rapport à ses concurrents réside dans la richesse de son moteur d'analyse, ainsi que dans l'interaction avec l'utilisateur, qui dispose d'une interface web pour gérer la quarantaine, et désigner explicitement un mail comme désirable ou indésirable.
 
 Zimbra
 ------
@@ -90,7 +79,7 @@ Cet outil de messagerie s'appuie sur un socle infrastructure riche et robuste : 
 Horde
 -----
 
-:Site: https://www.horde.org
+:Site: https://www.horde.org/
 :Porteur: une communauté
 :Licence: GPL
 
@@ -103,7 +92,7 @@ Horde est écrit en PHP.
 Zarafa
 ------
 
-:Site: https://www.zarafa.com
+:Site: https://www.zarafa.com/
 :Porteur: un éditeur (Zarafa)
 :Licence: Affero GPL v3
 
@@ -117,7 +106,7 @@ Zarafa utilise la base de données MySQL pour le stockage de ses données. Le we
 OpenEMM
 -------
 
-:Site: https://www.openemm.org
+:Site: https://www.openemm.org/
 :Porteur: un éditeur (AGNITAS AG)
 :Licence: Common Public Attribution License 1.0 (CPAL)
 
@@ -133,9 +122,7 @@ Autres
 
 Parmi les produits de l’univers Messagerie, Emailing & Groupware, on peut compléter la liste avec les outils ci-dessous :
 
-- RoundCube:	http://roundcube.net
-
-- EGroupware:	http://www.egroupware.org
-
-- Open-Xchange:	http://www.open-xchange.com
+- RoundCube: http://roundcube.net/
+- EGroupware: http://www.egroupware.org/
+- Open-Xchange: http://www.open-xchange.com/
 

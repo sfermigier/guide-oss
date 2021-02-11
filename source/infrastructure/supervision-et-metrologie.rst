@@ -77,7 +77,7 @@ OpenNMS est développé en Java et s'appuie sur le moteur WEB Jetty et le SGBD P
 Munin
 -----
 
-:Site: https://munin-monitoring.org
+:Site: http://munin-monitoring.org
 :Porteur: une communauté
 :Licence: GPL
 
