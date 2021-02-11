@@ -66,3 +66,5 @@ Parmi les produits de l’univers Déploiement et Sauvegarde, on peut compléter
 
 - BackupPC	http://backuppc.sourceforge.net/
 
+- Rudder	http://www.rudder.io
+
