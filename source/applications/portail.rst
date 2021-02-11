@@ -68,14 +68,7 @@ Autres
 Dans l’univers des portails, l’offre open source est particulièrement vigoureuse. Pour preuve, au-delà des produits présentés précédemment, on peut également citer les outils ci-dessous :
 
 
-
-- JBoss Gatein: http://www.jboss.org/gatein
-
-- Apache Pluto: http://portals.apache.org/pluto
-
-- Sakai: http://sakaiproject.org
-
-- JetSpeed2: http://portals.apache.org/jetspeed-2
-
 - Lutece: https://lutece.paris.fr/
+- JBoss Gatein: http://www.jboss.org/gatein
+- Apache Pluto: http://portals.apache.org/pluto
 

@@ -46,7 +46,7 @@ Autres
 
 Parmi les produits de l’univers E-Learning, on peut compléter la liste avec les outils ci-dessous :
 
-- Dokéos: http://www.dokeos.com
-- Chamilo: http://www.chamilo.org
-- Ilias: http://www.ilias.de
-
+- Sakai: https://www.sakailms.org/
+- Dokéos: http://www.dokeos.com/
+- Chamilo: http://www.chamilo.org/
+- Ilias: http://www.ilias.de/
