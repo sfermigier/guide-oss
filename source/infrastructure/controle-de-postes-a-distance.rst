@@ -41,7 +41,7 @@ TightVNC est développé en C/C++.
 OpenSSH
 -------
 
-:Site: http://www.openssh.com
+:Site: https://www.openssh.com
 :Porteur: une fondation (OpenBSD)
 :Licence: BSD
 
@@ -58,9 +58,6 @@ Autres
 ------
 
 - FreeRDP: http://www.freerdp.com/
-
 - KRDC: http://www.kde.org/applications/internet/krdc/
-
 - AnywhereTS: http://anywherets.com/
-
 - Chrome Remote Desktop: https://chrome.google.com/remotedesktop

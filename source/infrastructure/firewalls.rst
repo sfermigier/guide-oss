@@ -53,14 +53,9 @@ Autres
 
 Parmi les produits de l’univers Firewalls, on peut compléter la liste avec les outils ci-dessous :
 
-
-- NuFW:  http://www.nufw.org
-
+- NuFW: http://www.nufw.org
 - Uncomplicated Firewall:  https://launchpad.net/ufw
-
 - Firewall Builder:  http://www.fwbuilder.org
-
 - Ferm: http://ferm.foo-projects.org
-
 - ShoreWall: http://shorewall.net
 

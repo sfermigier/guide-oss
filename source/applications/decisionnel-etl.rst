@@ -7,10 +7,13 @@ ETL signifie « Extract Transform Load ». Ce sont des outils qui permettent la 
 
 Les outils d’ETL disposent généralement de connecteurs permettant l’importation ou l’exportation de données dans les applications tierces. Les transformations peuvent être réalisées à partir de « plugins » existant ou via programmation.
 
-Parmi les outils open source, on citera Talend ou Pentaho Data Integration (anciennement kettle).
 
 Airflow
 -------
+
+:Site: https://airflow.apache.org/
+:Porteur: une fondation (Apache)
+:Licence: Apache 2.0
 
 Apache Airflow a été créé par Airbnb et est un outil de gestion de flux de travail open source. Il peut être utilisé pour créer des pipelines ETL de données. À proprement parler, ce n'est pas un outil ETL en soi, mais plutôt un outil d'orchestration qui peut être utilisé pour créer, planifier et surveiller des flux de travail. Cela signifie que vous pouvez utiliser Airflow pour créer un pipeline en consolidant divers modules écrits indépendamment de votre processus ETL.
 
@@ -31,7 +34,7 @@ Luigi
 -----
 
 :Site: https://github.com/spotify/luigi
-:Porteur: Spotify
+:Porteur: Une entreprise (Spotify)
 :Licence: Apache 2.0
 
 Luigi est un outil ETL basé sur Python qui a été créé par Spotify mais qui est maintenant disponible en tant qu'outil open-source. Il s'agit d'un outil plus sophistiqué que beaucoup d'autres sur cette liste et il possède des fonctionnalités puissantes pour créer des pipelines ETL complexes. Selon leur page Github, "Il gère la résolution des dépendances, la gestion des flux de travail, la visualisation, le traitement des pannes, l'intégration en ligne de commande, et bien plus encore".
@@ -67,11 +70,7 @@ Autres
 ------
 
 - Scriptella:	http://scriptella.javaforge.com/
-
 - JasperETL:	http://www.jaspersoft.com/jasperetl
-
 - CloverETL:	http://www.cloveretl.com/
-
 - Benetl:	http://www.benetl.net/
-
 - Toolsverse ETL Framework:	http://www.toolsverse.com/

@@ -8,6 +8,23 @@ Dans cette rubrique, on présente les serveurs de messagerie (SMTP et IMAP), les
 Tous ces outils sont de précieuses aides pour mettre en œuvre un système de messagerie complet.
 
 
+Blue Mind
+---------
+
+:Site: www.blue-mind.net
+:Porteur: un éditeur (Blue Mind)
+:Licence: AGPL v3 / CeCILL v2
+
+Blue Mind est une solution complète de messagerie d’entreprise, d’agendas et de travail collaboratif.
+
+L'ensemble des fonctionnalités est accessible via un navigateur et supporte le mode déconnecté directement dans le navigateur sans installation de logiciels supplémentaire. Blue Mind est aussi accessible via les clients lourds de messagerie classique via les protocoles standard SMTP/POP/IMAP. Pour les logiciels Thunderbird et Outlook, Blue Mind fourni en plus des connecteurs permettant de synchroniser les contacts et calendriers (ou un accès aux calendriers pour Thunderbird). Le support de la synchronisation (push) des Smartphones (Android, Iphone, Ipad, Windows Mobile,..) est natif via le protocole Exchange ActiveSync (EAS).
+
+Blue Mind s'appuie sur les logiciels libres préexistants: Postfix, cyrus IMAP, Roundcube, Apache, Tomcat, nginx, HornetQ, PostgreSQL.
+L'interface utilisateur est entièrement fondée sur Ajax avec le framework Javascript Closure développé par Google. L'architecture de Blue Mind est basée sur des web services et un bus de messages.
+
+Blue Mind est développé et supporté par la société française éponyme qui travaille avec des revendeurs et des intégrateurs pour déployer la solution chez ses clients.
+
+
 Postfix
 -------
 
@@ -109,23 +126,6 @@ OpenEMM est une solution d’emaling open source développée depuis 1999 par la
 OpenEMM est utilisé pour gérer les newsletters et les campagnes marketing par email des entreprises. Il existe peu de solutions d’emailing open source disposant d’un périmètre fonctionnel aussi large : une interface entièrement web, disponible en plusieurs langues dont le français et l’anglais, outils de ciblage, statistiques en temps réel, gestion des templates, modules d’importation et d’extraction de masse, bonne documentation, utilisation possible de webservices, gestion des erreurs de retours, etc.
 
 OpenEMM repose sur les langages C, Java et Python. Il utilise la base de données MySQL pour le stockage de ses informations.
-
-
-Blue Mind
----------
-
-:Site: www.blue-mind.net
-:Porteur: un éditeur (Blue Mind)
-:Licence: AGPL v3 / CeCILL v2
-
-Blue Mind est une solution complète de messagerie d’entreprise, d’agendas et de travail collaboratif.
-
-L'ensemble des fonctionnalités est accessible via un navigateur et supporte le mode déconnecté directement dans le navigateur sans installation de logiciels supplémentaire. Blue Mind est aussi accessible via les clients lourds de messagerie classique via les protocoles standard SMTP/POP/IMAP. Pour les logiciels Thunderbird et Outlook, Blue Mind fourni en plus des connecteurs permettant de synchroniser les contacts et calendriers (ou un accès aux calendriers pour Thunderbird). Le support de la synchronisation (push) des Smartphones (Android, Iphone, Ipad, Windows Mobile,..) est natif via le protocole Exchange ActiveSync (EAS).
-
-Blue Mind s'appuie sur les logiciels libres préexistants: Postfix, cyrus IMAP, Roundcube, Apache, Tomcat, nginx, HornetQ, PostgreSQL.
-L'interface utilisateur est entièrement fondée sur Ajax avec le framework Javascript Closure développé par Google. L'architecture de Blue Mind est basée sur des web services et un bus de messages.
-
-Blue Mind est développé et supporté par la société française éponyme qui travaille avec des revendeurs et des intégrateurs pour déployer la solution chez ses clients.
 
 
 Autres

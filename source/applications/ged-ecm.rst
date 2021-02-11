@@ -7,8 +7,6 @@ L’ECM permet d’accroître l’efficacité de votre organisation en offrant �
 
 Aujourd'hui, les solutions de GED open source ont atteint un exceptionnel niveau de maturité, et rivalisent à armes égales avec les plus grandes offres commerciales, apportant des bénéfices uniques en termes d'ouverture, de pérennité, et de coûts.
 
-Alfresco, Nuxeo, Knowledge Tree, Maarch, Jahia... l’offre open source de la gestion documentaire est de plus en plus riche.
-
 
 Alfresco
 --------

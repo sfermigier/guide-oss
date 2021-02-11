@@ -3,7 +3,7 @@ Sécurité
 
 Le domaine de la sécurité est très large, de l’antivirus aux systèmes de détection d’intrusion, on trouve de nombreuses solutions open source.
 
-Dans cette rubrique, on présente les vérificateurs d’intégrité, les détecteurs de virus, les détecteurs d’intrusions, les outils d’analyse de problèmes réseaux et des « testeurs » de failles de sécurité. Les anti-spam tels que  SpamAssassin ou DSPAM sont rangés dans la catégorie Messagerie, Emailing & Groupware.
+Dans cette rubrique, on présente les vérificateurs d’intégrité, les détecteurs de virus, les détecteurs d’intrusions, les outils d’analyse de problèmes réseaux et des « testeurs » de failles de sécurité.
 
 Tous ces outils sont de précieuses aides pour les administrateurs Systèmes et Réseaux pour garantir l’intégrité de leur parc.
 
@@ -13,7 +13,7 @@ Prelude SIEM
 
 :Site: https://www.prelude-siem.org/
 :Porteur: un éditeur (CS)
-:
+:Licence: GPL 2.0
 
 Prelude SIEM est un security information management system (SIEM), c'est-à-dire un outil de pilotage de la sécurité. Prelude collecte et centralise les informations de sécurité de l'entreprise pour offrir un point central de pilotage. Grâce à l'analyse et la corrélation des journaux et des flux, Prelude SIEM alerte en temps réel des tentatives d'intrusions et des menaces sur le réseau. Prelude SIEM offre plusieurs outils d'investigation et de reporting sur les Big Data permettant d'identifier les signaux faibles qui peuvent préfigurer des menaces persistantes avancées. Enfin, Prelude SIEM dispose de tous les outils d'aide à l'exploitation pour simplifier le travail des opérateurs et la gestion des risques.
 
@@ -78,18 +78,8 @@ WireShark
 :Porteur: une fondation (WireShark)
 :Licence: GPL
 
-Wireshark (anciennement Ethereal, changement pour des raisons de copyright essentiellement) est un outil d'analyse de trafic réseau qui a vu le jour en 1998. Il fait partie de la famille des « packet sniffer ».
+Wireshark (anciennement Ethereal) est un outil d'analyse de trafic réseau qui a vu le jour en 1998. Il fait partie de la famille des « packet sniffer ».
 
 Il est utilisé par grand nombre d'administrateurs pour diagnostiquer des problèmes réseaux complexes. Disponible sous forme d'une application graphique lourde ainsi qu'une interface en mode texte, il est capable de décoder un très grand nombre de protocoles, y compris chiffrés.
 
 Wireshark est multi-plateforme, il fonctionne sous Windows, Mac OS X, Linux, Solaris, ainsi que sous FreeBSD. Wireshark reconnait 759 protocoles.
-
-
-Autres
-------
-
-Parmi les produits de l’univers Sécurité, on peut compléter la liste avec les outils ci-dessous :
-
-- Bastille: http://bastille-linux.sourceforge.net
-- OpenSIMS: http://opensims.sourceforge.net
-- RadicalSpam: http://www.radical-spam.org

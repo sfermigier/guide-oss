@@ -7,10 +7,6 @@ Elle permet de créer et mettre à disposition des apprenants, des cours et dive
 
 Parmi les principales fonctionnalités que l’on peut trouver dans un outil d’e-learning, on peut citer : gestion des professeurs, élèves et cours, création de  types de ressources pédagogiques, compatibilité SCORM, questionnaires, outils collaboratifs (wiki, forums et blog), planning, supervision des apprenants, etc.
 
-Parmi les solutions open source, les outils tels que Moodle ou Claroline ont une excellente notoriété.
-
-
-
 
 Moodle
 ------
@@ -26,7 +22,6 @@ Elle permet de créer et mettre à disposition des apprenants, des cours et dive
 Moodle est supporté par des communautés de pratiques actives qui participent à son développement. Des sociétés de services autorisées proposent diverses prestations (hébergement, création de modules, etc.).
 
 Moodle est une application LAMP (Linux, Apache, MySQL et PHP). Elle fonctionne aussi bien sur Unix, Linux, FreeBSD, Windows, Mac OS X, NetWare, ..., et avec les bases de données PostgreSQL, Oracle et Microsoft SQL Server.
-
 
 
 Claroline
@@ -51,10 +46,7 @@ Autres
 
 Parmi les produits de l’univers E-Learning, on peut compléter la liste avec les outils ci-dessous :
 
-
-- Dokéos:	http://www.dokeos.com
-
-- Chamilo:	http://www.chamilo.org
-
-- Ilias:	http://www.ilias.de
+- Dokéos: http://www.dokeos.com
+- Chamilo: http://www.chamilo.org
+- Ilias: http://www.ilias.de
 
