@@ -25,7 +25,7 @@ Ce système présente l'avantage d'avoir un langage de configuration simple, et 
 NetFilter
 ---------
 
-:Site: https://www.netfilter.org
+:Site: https://www.netfilter.org/
 :Porteur: une communauté
 :Licence: GPL v2
 
@@ -37,7 +37,7 @@ Il s'agit d'un système extrêmement souple, qui s'intègre avec les fonctionnal
 pfSense
 -------
 
-:Site: https://www.pfsense.org
+:Site: https://www.pfsense.org/
 :Porteur: un éditeur (BSD Perimeter)
 :Licence: BSD
 
@@ -53,9 +53,8 @@ Autres
 
 Parmi les produits de l’univers Firewalls, on peut compléter la liste avec les outils ci-dessous :
 
-- NuFW: http://www.nufw.org
-- Uncomplicated Firewall:  https://launchpad.net/ufw
-- Firewall Builder:  http://www.fwbuilder.org
+- ShoreWall: https://shorewall.org/
+- Uncomplicated Firewall (UFW):  https://launchpad.net/ufw
+- Firewall Builder:  https://github.com/fwbuilder/fwbuilder/
 - Ferm: http://ferm.foo-projects.org
-- ShoreWall: http://shorewall.net
 
