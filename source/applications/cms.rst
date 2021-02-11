@@ -1,12 +1,10 @@
 CMS
 ===
 
-La gestion de contenus recouvre aujourd’hui une large palette de besoins : sites d’informations, sites Corporate, sites de services, extranets sécurisés, intranets participatifs, espaces communautaire...
+La gestion de contenu web recouvre aujourd’hui une large palette de besoins : sites d’informations, sites Corporate, sites de services, extranets sécurisés, intranets participatifs, espaces communautaire...
 
 Pour couvrir ce périmètre, il existe d’excellentes solutions open source au périmètre très large
-comme : eZ Publish, Drupal, TYPO3, Jahia, Infoglue, SPIP, HippoCMS, Joomla, Plone… lesquelles sont devenues des standards dans l’univers de la gestion de contenus tant elles dominent par leur capacité, leur modularité et leur périmètre fonctionnel et technique.
-
-Elles sont devenues, au fil des années, plus que des alternatives sérieuses dans le domaine de l’Enterprise Content Management : elles dominent désormais le marché.
+comme : eZ Publish, Drupal, TYPO3, Jahia, Infoglue, SPIP, Joomla, Plone… lesquelles sont devenues des standards dans l’univers de la gestion de contenus tant elles dominent par leur capacité, leur modularité et leur périmètre fonctionnel et technique.
 
 Au côté de ces solutions dominantes, la convergence ERP/CRM/CMS/e-business poussée par la croissance e-commerce conduit des applicatifs issus d'autres domaines fonctionnels (ERP, CRM) à intégrer des fonctions de CMS équivalents aux meilleurs produits dédiés du marché.
 
@@ -14,7 +12,7 @@ Au côté de ces solutions dominantes, la convergence ERP/CRM/CMS/e-business pou
 Drupal
 ------
 
-:Site: https://www.drupal.org
+:Site: https://www.drupal.org/
 :Porteur: une communauté
 :Licence: GPL
 
@@ -30,7 +28,7 @@ D’un point de vue technique, Drupal est bâti autour des technologies LAMP (PH
 eZ Publish
 ----------
 
-:Site: https://www.ez.no
+:Site: https://www.ez.no/
 :Porteur: un éditeur (eZ Systems)
 :Licence: GPL
 
@@ -46,7 +44,7 @@ Sur le plan technique, eZ Publish est en PHP, fonctionne sur Apache et MySQL (Po
 Jahia
 -----
 
-:Site: https://www.jahia.com
+:Site: https://www.jahia.com/
 :Porteur: un éditeur (Jahia Corp)
 :Licence: GPL
 
@@ -62,7 +60,7 @@ Jahia est bâtie sur des technologies JEE : persistance via Hibernate, support d
 Joomla
 ------
 
-:Site: https://www.joomla.org
+:Site: https://www.joomla.org/
 :Porteur: une communauté
 :Licence: GPL
 
@@ -78,7 +76,7 @@ Joomla est écrit en PHP et utilise une base de données MySQL.
 SPIP
 ----
 
-:Site: https://www.spip.net
+:Site: https://www.spip.net/
 :Porteur: une communauté
 :Licence: GPL
 
@@ -94,7 +92,7 @@ SPIP est un logiciel écrit en PHP qui s'appuie sur les bases de données MySQL,
 TYPO3
 -----
 
-:Site: https://www.typo3.org
+:Site: https://www.typo3.org/
 :Porteur: une communauté
 :Licence: GPL
 
@@ -111,8 +109,7 @@ Voir également
 Les logiciels ci-dessous disposent de fonctions de CMS et sont traités dans d'autres sections du guide:
 
 - ERP5 (section ERP)
-
-- OpenERP (section ERP)
+- Odoo (section ERP)
 
 
 Autres
@@ -120,36 +117,19 @@ Autres
 
 Dans l’univers de la gestion de contenu, l’offre open source est particulièrement vigoureuse. Pour preuve, au-delà des produits présentés précédemment, on peut également citer les outils ci-dessous :
 
-
 - Plone: http://plone.org
-
+- Zope: http://www.zope.org
 - Infoglue: http://www.infoglue.org
-
-- Mambo	http://www.mamboserver.com
-
-- Apache Lenya	http://lenya.apache.org
-
-- Zope	http://www.zope.org
-
-- SilverStripe	http://www.silverstripe.com
-
-- Modx	http://modx.com
-
-- CMS Made Simple	http://www.cmsmadesimple.fr
-
-- Sympal	http://www.sympalphp.org
-
-- Apostrophe	http://apostrophenow.com
-
-- Cayaha	http://cahaya-project.org
-
-- Magnolia	http://www.magnolia-cms.com
-
-- Silverpeas	http://www.silverpeas.com
-
-- Umbraco	http://umbraco.com
-
-- Centurion	http://centurion-project.org
-
-- OpenCMS	http://www.opencms.org
+- Mambo: http://www.mamboserver.com
+- Apache Lenya: http://lenya.apache.org
+- SilverStripe: http://www.silverstripe.com
+- Modx: http://modx.com
+- CMS Made Simple: http://www.cmsmadesimple.fr
+- Sympal: http://www.sympalphp.org
+- Apostrophe: http://apostrophenow.com
+- Magnolia: http://www.magnolia-cms.com
+- Silverpeas: http://www.silverpeas.com
+- Umbraco: http://umbraco.com
+- Centurion: http://centurion-project.org
+- OpenCMS: http://www.opencms.org
 

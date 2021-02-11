@@ -81,9 +81,23 @@ Autres
 
 Parmi les produits de l’univers Base de données relationnelles (et incidemment, objets ou clef/valeur), on peut compléter la liste avec les outils ci-dessous :
 
-- SQLite:	http://www.sqlite.org
-- Berkeley DB: http://www.oracle.com/us/products/database/berkeley-db
-- db4o:	http://www.db4o.com
-- Apache Derby:	http://db.apache.org/derby
-- FireBird:	http://www.firebirdsql.org
-- HSQLDB:	http://hsqldb.org
+Bases SQL embarquées
+~~~~~~~~~~~~~~~~~~~~
+
+- SQLite: https://www.sqlite.org
+- Apache Derby: https://db.apache.org/derby
+
+Bases clefs-valeurs embarquées
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Berkeley DB: https://www.oracle.com/us/products/database/berkeley-db
+- LevelDB: https://github.com/google/leveldb
+- LMDB: https://symas.com/lmdb/
+- Tarantool: https://www.tarantool.io/en/
+- RocksDB: https://rocksdb.org/
+
+Autres bases SQL
+~~~~~~~~~~~~~~~~
+
+- FireBird: https://www.firebirdsql.org/
+- HSQLDB: https://hsqldb.org/
