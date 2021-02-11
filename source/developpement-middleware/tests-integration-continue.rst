@@ -65,29 +65,13 @@ Jenkins permet d'automatiser la construction de projets et de générer des rapp
 Jenkins est écrit en Java.
 
 
-Apache Continuum
-----------------
-
-:Site: https://www.continuum.apache.org
-:Porteur: une fondation (Apache)
-:Licence: Apache
-
-Continuum est l'outil d'intégration continue de la fondation Apache.
-
-Continuum offre toutes les fonctionnalités que l'on attend d'un tel outil. Automatisations configurables bien sûr, mais aussi distribution du build sur des machines esclaves, configuration de différents environnements d'exécution, gestion très fine des droits et reporting intégré pour les résultats des tests unitaires.
-
-La fonctionnalité différenciante de Continuum est la possibilité de regrouper des modules/projets au sein de groupes de projets. Au sein de ces groupes, les différentes configurations et droits sont mutualisés ce qui permet de gérer un ensemble de projets de façon simple même quand ce nombre augmente rapidement.
-
-Continuum est écrit en Java.
-
-
 Autres
 ------
 
-- Tox: https://tox.readthedocs.io/
 - Gitlab CI: https://docs.gitlab.com/ee/ci/
 - Buildbot: https://buildbot.net/
 - SourceHut CI: https://builds.sr.ht/
+- Tox: https://tox.readthedocs.io/
 
 
 Analyse statique de code

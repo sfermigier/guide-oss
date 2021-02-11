@@ -111,6 +111,6 @@ Parmi les produits de l’univers Supervision et Métrologie, on peut compléter
 
 
 - MRTG: https://oss.oetiker.ch/mrtg
-- Shinken: https://www.shinken-monitoring.org
-- Icinga: https://www.icinga.org
+- Shinken: http://www.shinken-monitoring.org/
+- Icinga: https://www.icinga.org/
 

@@ -69,7 +69,7 @@ Dans l’univers des portails, l’offre open source est particulièrement vigou
 
 
 
-- JBoss / Gatein: http://www.jboss.org/gatein
+- JBoss Gatein: http://www.jboss.org/gatein
 
 - Apache Pluto: http://portals.apache.org/pluto
 
@@ -77,5 +77,5 @@ Dans l’univers des portails, l’offre open source est particulièrement vigou
 
 - JetSpeed2: http://portals.apache.org/jetspeed-2
 
-- Lutece: http://fr.lutece.paris.fr
+- Lutece: https://lutece.paris.fr/
 

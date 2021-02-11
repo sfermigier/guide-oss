@@ -106,12 +106,10 @@ Autres
 
 Parmi les produits de l’univers Frameworks et bibliothèques pour le développement Web, on peut compléter la liste avec les outils ci-dessous :
 
-
 - Flask: https://flask.palletsprojects.com/
-- CakePHP: https://cakephp.org
-- Lithium: https://lithify.me
-- Prado: https://www.pradosoft.com
-- Jelix	https://jelix.org/fr
-- CXF	https://cxf.apache.org
+- CakePHP: https://cakephp.org/
+- Lithium: https://lithify.me/
+- Jelix: https://jelix.org/fr/
+- Apache CXF: https://cxf.apache.org/
 
 
