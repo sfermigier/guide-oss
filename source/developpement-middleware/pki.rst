@@ -11,7 +11,7 @@ Parmi les solutions open source disponibles, on peut citer OpenSSL, OpenCA ou en
 OpenCA
 ------
 
-:Site: www.openca.org
+:Site: https://www.openca.org
 :Porteur: une communauté
 :Licence: BSD
 
@@ -27,7 +27,7 @@ La solution est très hétérogène mais utilise des standards actuels reconnus 
 OpenSSL
 -------
 
-:Site: www.openssl.org
+:Site: https://www.openssl.org
 :Porteur: une communauté
 :Licence: Apache et BSD
 
@@ -58,7 +58,7 @@ easyCA est écrit en Bash et ne requiert aucune dépendance, hormis OpenSSL. Il 
 EJBCA
 -----
 
-:Site: www.ejbca.org
+:Site: https://www.ejbca.org
 :Porteur: un éditeur (Primekey)
 :Licence: LGPL
 

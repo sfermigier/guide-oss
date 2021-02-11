@@ -15,7 +15,7 @@ Prelude SIEM
 :Porteur: un éditeur (CS)
 :Licence: GPL 2.0
 
-Prelude SIEM est un security information management system (SIEM), c'est-à-dire un outil de pilotage de la sécurité. Prelude collecte et centralise les informations de sécurité de l'entreprise pour offrir un point central de pilotage. Grâce à l'analyse et la corrélation des journaux et des flux, Prelude SIEM alerte en temps réel des tentatives d'intrusions et des menaces sur le réseau. Prelude SIEM offre plusieurs outils d'investigation et de reporting sur les Big Data permettant d'identifier les signaux faibles qui peuvent préfigurer des menaces persistantes avancées. Enfin, Prelude SIEM dispose de tous les outils d'aide à l'exploitation pour simplifier le travail des opérateurs et la gestion des risques.
+Prelude SIEM est un *security information management system* (SIEM), c'est-à-dire un outil de pilotage de la sécurité. Prelude collecte et centralise les informations de sécurité de l'entreprise pour offrir un point central de pilotage. Grâce à l'analyse et la corrélation des journaux et des flux, Prelude SIEM alerte en temps réel des tentatives d'intrusions et des menaces sur le réseau. Prelude SIEM offre plusieurs outils d'investigation et de reporting sur les Big Data permettant d'identifier les signaux faibles qui peuvent préfigurer des menaces persistantes avancées. Enfin, Prelude SIEM dispose de tous les outils d'aide à l'exploitation pour simplifier le travail des opérateurs et la gestion des risques.
 
 Prelude SIEM est l'évolution de Prelude IDS, projet open source de sonde IDS créé en 1998 par Yoann Vandoorselaere.
 
@@ -35,7 +35,7 @@ Son but est de calculer une empreinte des fichiers du système au moment de l'in
 ClamAV
 ------
 
-:Site: www.clamav.net
+:Site: https://www.clamav.net
 :Porteur: un éditeur (SourceFire)
 :Licence: GPL
 
@@ -49,7 +49,7 @@ Le moteur antivirus est la bibliothèque libclamav écrite en C.
 SNORT
 -----
 
-:Site: www.snort.org
+:Site: https://www.snort.org
 :Porteur: un éditeur (SourceFire)
 
 SNORT est un détecteur d’intrusion réseau réalisé en 1998 par Martin Roesch.
@@ -62,7 +62,7 @@ Bien que le moteur soit distribué sous licence GPL, il n'est pas utile sans une
 OpenVAS
 -------
 
-:Site: www.openvas.org
+:Site: https://www.openvas.org
 :Porteur: un éditeur (Greenbone)
 :Licence: GPL
 
@@ -74,7 +74,7 @@ Il permet de tester la présence, dans les systèmes à tester, de failles de s�
 WireShark
 ---------
 
-:Site: www.wireshark.org
+:Site: https://www.wireshark.org
 :Porteur: une fondation (WireShark)
 :Licence: GPL
 

@@ -31,7 +31,7 @@ Dans l’univers de l’open source, la solution OpenLDAP dispose de la plus gra
 OpenLDAP
 --------
 
-:Site: www.openldap.org
+:Site: https://www.openldap.org
 :Porteur: une communauté
 :Licence: OpenLDAP Public License, compatible avec la licence GPL
 

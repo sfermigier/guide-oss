@@ -11,7 +11,7 @@ Plus d'infos: https://fr.wikipedia.org/wiki/Proxy_inverse
 Squid
 -----
 
-:Site: www.squid-cache.org
+:Site: https://www.squid-cache.org
 :Porteur: une communauté
 :Licence: GPL
 
@@ -25,7 +25,7 @@ Squid est inspiré du projet Harvest. Il est compatible avec IPv6 à partir de s
 Varnish
 -------
 
-:Site: www.varnish-cache.org
+:Site: https://www.varnish-cache.org
 :Porteur: un éditeur (Varnish Software)
 :Licence: BSD
 

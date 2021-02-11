@@ -27,7 +27,7 @@ FreeNX est développé par une communauté depuis 2006 et est réalisé en  C/C+
 TightVNC
 --------
 
-:Site: www.tightvnc.com
+:Site: https://www.tightvnc.com
 :Porteur: une communauté
 :Licence: GPL v2
 

@@ -53,7 +53,7 @@ Integration continue
 Jenkins
 -------
 
-:Site: www.jenkins.io
+:Site: https://www.jenkins.io
 :Porteur: une communauté
 :Licence: MIT et Creative Commons.
 
@@ -68,7 +68,7 @@ Jenkins est écrit en Java.
 Apache Continuum
 ----------------
 
-:Site: www.continuum.apache.org
+:Site: https://www.continuum.apache.org
 :Porteur: une fondation (Apache)
 :Licence: Apache
 

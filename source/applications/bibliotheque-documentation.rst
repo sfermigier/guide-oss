@@ -11,7 +11,7 @@ Parmi les principales fonctionnalités de ces outils, on peut citer : import de 
 Koha
 ----
 
-:Site: www.koha.org
+:Site: https://www.koha.org
 :Porteur: une communauté
 :Licence: GPL v2
 

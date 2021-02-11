@@ -9,7 +9,7 @@ La Supervision et métrologie est un domaine bien servi par l’open source avec
 Nagios
 ------
 
-:Site: www.nagios.org
+:Site: https://www.nagios.org
 :Porteur: un éditeur (Nagios Enterprises)
 :Licence: GPL
 
@@ -35,7 +35,7 @@ Vigilo NMS (Network Monitoring System) est un logiciel de supervision capable de
 Centreon
 --------
 
-:Site: www.centreon.com
+:Site: https://www.centreon.com
 :Porteur: un éditeur (Centreon)
 :Licence: GPL
 
@@ -49,7 +49,7 @@ Centreon s’appuie sur les technologies Apache et PHP pour l'interface web, MyS
 Zabbix
 ------
 
-:Site: www.zabbix.com
+:Site: https://www.zabbix.com
 :Porteur: un éditeur (ZABBIX SIA)
 :Licence: GPL
 
@@ -63,7 +63,7 @@ Il repose sur du C/C++, PHP pour la partie front end et MySQL/PostgreSQL/Oracle 
 OpenNMS
 -------
 
-:Site: www.opennms.org
+:Site: https://www.opennms.org
 :Porteur: un éditeur (OpenNMS group)
 :Licence: GPL v3
 
@@ -91,7 +91,7 @@ Munin se repose sur l'excellent outil RRDTool. Il est écrit en Perl, ce qui fai
 Cacti
 -----
 
-:Site: www.cacti.net
+:Site: https://www.cacti.net
 :Porteur: une communauté
 :Licence: GPL
 

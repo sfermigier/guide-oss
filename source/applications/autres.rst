@@ -8,7 +8,7 @@ Nous présentons notamment QGis (un système d'information géographique bureaut
 Quantum GIS
 -----------
 
-:Site: www.qgis.org
+:Site: https://www.qgis.org
 :Porteur: La communauté
 :Licence: GPL v2
 
@@ -22,7 +22,7 @@ Au delà d'un simple logiciel bureautique, QGIS est aussi une plateforme permett
 OpenX
 -----
 
-:Site: www.openx.com
+:Site: https://www.openx.com
 :Porteur: un éditeur (OpenX)
 :Licence: GPL v2
 
@@ -36,7 +36,7 @@ L’application est capable de gérer plusieurs centaines de millions d’impres
 LimeSurvey
 ----------
 
-:Site: www.limesurvey.org
+:Site: https://www.limesurvey.org
 :Porteur: une communauté
 :Licence: GPL
 

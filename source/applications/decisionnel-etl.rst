@@ -45,7 +45,7 @@ Il est également doté d'un tableau de bord web permettant de suivre tous les t
 Talend
 ------
 
-:Site: www.talend.com
+:Site: https://www.talend.com
 :Porteur: un éditeur (Talend)
 :Licence: GPL et propriétaire
 

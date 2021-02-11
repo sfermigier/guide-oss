@@ -11,7 +11,7 @@ Aujourd'hui, les solutions de GED open source ont atteint un exceptionnel niveau
 Alfresco
 --------
 
-:Site: www.alfresco.com
+:Site: https://www.alfresco.com
 :Porteur: un éditeur (Alfresco Software)
 :Licence: GPL et propriétaire
 
@@ -27,7 +27,7 @@ Alfresco est écrit en JEE.
 Maarch
 ------
 
-:Site: www.maarch.com
+:Site: https://www.maarch.com
 :Porteur: un éditeur (Maarch)
 :Licence: GPL v3
 
@@ -44,7 +44,7 @@ Maarch est construit sur un framework PHP maison. La société Maarch est basée
 Nuxeo
 -----
 
-:Site: www.nuxeo.com
+:Site: https://www.nuxeo.com
 :Porteur: un éditeur (Nuxeo)
 :Licence: LGPL
 

@@ -11,7 +11,7 @@ Les outils de déploiement, tel que Puppet, permettent de préparer à distance 
 Bacula
 ------
 
-:Site: www.bacula.org/fr
+:Site: https://www.bacula.org/fr
 :Porteur: un éditeur (Bacula Systems)
 :Licence: GPL
 

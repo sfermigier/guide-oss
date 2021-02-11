@@ -11,7 +11,7 @@ Il existe d’excellents outils open source pour s’assurer que les services r�
 Linux-HA
 --------
 
-:Site: www.linux-ha.org
+:Site: https://www.linux-ha.org
 :Porteur: une communauté
 :Licence: GPL v2
 
@@ -26,7 +26,7 @@ Linux-HA est écrit en C et en Python.
 LVS
 ---
 
-:Site: www.linuxvirtualserver.org
+:Site: https://www.linuxvirtualserver.org
 :Porteur: une communauté
 :Licence: GPL v2
 
@@ -54,7 +54,7 @@ HAProxy est supporté officiellement par un petit nombre de sociétés.
 Keepalived
 ----------
 
-:Site: www.keepalived.org
+:Site: https://www.keepalived.org
 :Porteur: une communauté
 :Licence: GPL
 

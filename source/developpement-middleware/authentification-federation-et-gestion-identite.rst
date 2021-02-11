@@ -13,7 +13,7 @@ D’autres solutions open source comme CAS, FederID, LemonLDAP, OpenAM sont pré
 CAS
 ---
 
-:Site: www.jasig.org/cas
+:Site: https://www.jasig.org/cas
 :Porteur: une communauté
 :Licence: JA-SIG, de type BSD
 
@@ -56,7 +56,7 @@ OpenAM est développée en Java.
 LinOTP
 ------
 
-:Site: www.linotp.org
+:Site: https://www.linotp.org
 :Porteur: un éditeur (LSE Leading Security Experts GmbH)
 :Licence: AGPL v3. Une version Enterprise est également disponible.
 

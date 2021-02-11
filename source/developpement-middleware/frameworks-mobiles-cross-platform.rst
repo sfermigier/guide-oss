@@ -11,7 +11,7 @@ C’est le cas par exemple pour PhoneGap qui fonctionne, entre autres, avec iPho
 PhoneGap
 --------
 
-:Site: www.phonegap.com
+:Site: https://www.phonegap.com
 :Porteur: un éditeur (Adobe)
 
 PhoneGap est un outil permettant de créer des applications mobiles multiplateformes en utilisant les standards du web. PhoneGap est développé depuis 2008 par la société Canadienne  Nitobi qui a été rachetée par Adobe.

@@ -13,7 +13,7 @@ Au niveau des solutions open source, Asterisk est l’outil le plus utilisé et 
 Asterisk
 --------
 
-:Site: www.asterisk.org
+:Site: https://www.asterisk.org
 :Porteur: un éditeur (Digium)
 :Licence: GPL
 
@@ -27,7 +27,7 @@ Dans son utilisation classique comme plateforme de téléphonie IP, Asterisk est
 Kamailio
 --------
 
-:Site: www.kamailio.org
+:Site: https://www.kamailio.org
 :Porteur: une communauté
 :Licence: GPL
 
@@ -39,7 +39,7 @@ Il supporte des transactions asynchrones TCP, UDP et SCTP, l'encryptage des comm
 Kannel
 ------
 
-:Site: www.kannel.org
+:Site: https://www.kannel.org
 :Porteur: une communauté
 :Licence: Kannel Software License (basée sur la licence Apache).
 

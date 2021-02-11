@@ -40,7 +40,7 @@ Les langages par lesquels ont peut accéder à JORAM sont : Java (via l'interfac
 RabbitMQ
 --------
 
-:Site: www.rabbitmq.com
+:Site: https://www.rabbitmq.com
 :Porteur: un éditeur (VMWare)
 :Licence: MPL
 

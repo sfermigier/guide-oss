@@ -27,7 +27,7 @@ Moodle est une application LAMP (Linux, Apache, MySQL et PHP). Elle fonctionne a
 Claroline
 ---------
 
-:Site: www.claroline.net
+:Site: https://www.claroline.net
 :Porteur: un consortium
 :Licence: GPL
 

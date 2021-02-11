@@ -27,7 +27,7 @@ Bonita est développé en Java, langage également utilisé pour le développeme
 JBPM
 ----
 
-:Site: www.jboss.org/jbpm
+:Site: https://www.jboss.org/jbpm
 :Porteur: un éditeur (JBoss)
 :Licence: LGPL
 
@@ -41,7 +41,7 @@ JBPM est développé en Java.
 Activiti
 --------
 
-:Site: www.activiti.org
+:Site: https://www.activiti.org
 :Porteur: un éditeur (Alfresco)
 :Licence: Apache
 

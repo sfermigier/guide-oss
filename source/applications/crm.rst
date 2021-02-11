@@ -13,7 +13,7 @@ Dans l’univers open source, on trouve des produits de grande qualité comme Su
 OpenCRX
 -------
 
-:Site: www.opencrx.org
+:Site: https://www.opencrx.org
 :Porteur: une communauté
 :Licence: BSD
 
@@ -29,7 +29,7 @@ OpenCRX est une application JEE qui supporte la plupart des bases de données re
 VTiger
 ------
 
-:Site: www.vtiger.com
+:Site: https://www.vtiger.com
 :Porteur: un éditeur (VTiger)
 
 VTiger est un CRM open source né du fork de SugarCRM en 2004. La raison de ce fork était de conserver une offre complètement gratuite et pleinement open source alors que SugarCRM commençait la diversification de son business modèle en lançant des offres commerciales. VTiger n’a pas cessé d’évoluer depuis.

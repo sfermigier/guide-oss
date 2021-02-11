@@ -40,7 +40,7 @@ Solr est un serveur de recherche d'entreprise permettant de centraliser les opé
 mnoGoSearch
 -----------
 
-:Site: www.mnogosearch.org
+:Site: https://www.mnogosearch.org
 :Porteur: un éditeur (Lavtech.com)
 
 MnoGoSearch est un moteur de recherche dont la première version open source est sortie en 2000.
@@ -57,7 +57,7 @@ MnoGoSearch est développé en C.
 OpenSearchServer
 ----------------
 
-:Site: www.open-search-server.com
+:Site: https://www.open-search-server.com
 :Porteur: un éditeur (OpenSearchServer)
 :Licence: GPL
 

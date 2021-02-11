@@ -59,7 +59,7 @@ CubicWeb est développé en Python.
 Symfony
 -------
 
-:Site: www.symfony-project.org
+:Site: https://www.symfony-project.org
 :Porteur: un éditeur (Sensio Labs)
 :Licence: MIT
 
@@ -75,7 +75,7 @@ Symfony est développé par la société française Sensio Labs.
 Spring
 ------
 
-:Site: www.springsource.org
+:Site: https://www.springsource.org
 :Porteur: un éditeur (SpringSource, une entité de VMware)
 
 Spring est un portfolio d'outils et de bibliothèques. Spring propose un stack complet comme une sorte d'alternative à la stack standard Java EE.
@@ -88,7 +88,7 @@ Spring est également utilisé pour charger les différentes configurations de l
 Play!
 -----
 
-:Site: www.playframework.org
+:Site: https://www.playframework.org
 :Porteur: un éditeur (Lightbend)
 :Licence: Apache
 

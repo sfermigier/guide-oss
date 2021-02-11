@@ -48,7 +48,7 @@ Forums
 PhpBB
 -----
 
-:Site: www.phpbb.com
+:Site: https://www.phpbb.com
 :Porteur: une communauté
 :Licence: GPL v2
 
@@ -73,7 +73,7 @@ Wikis
 XWiki
 -----
 
-:Site: www.xwiki.org
+:Site: https://www.xwiki.org
 :Porteur: un éditeur (XWiki SAS)
 :Licence: LGPL
 

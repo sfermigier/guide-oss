@@ -11,7 +11,7 @@ Tous ces outils sont de précieuses aides pour mettre en œuvre un système de m
 Blue Mind
 ---------
 
-:Site: www.blue-mind.net
+:Site: https://www.blue-mind.net
 :Porteur: un éditeur (Blue Mind)
 :Licence: AGPL v3 / CeCILL v2
 
@@ -28,7 +28,7 @@ Blue Mind est développé et supporté par la société française éponyme qui 
 Postfix
 -------
 
-:Site: www.postfix.org
+:Site: https://www.postfix.org
 :Porteur: une communauté
 :Licence: IBM (open source)
 
@@ -40,7 +40,7 @@ Remplaçant de plus en plus Sendmail au sein des infrastructures mail open sourc
 Cyrus IMAPd
 -----------
 
-:Site: www.cyrusimap.org
+:Site: https://www.cyrusimap.org
 :Porteur: une communauté
 :Licence: BSD
 
@@ -65,7 +65,7 @@ SpamAssassin est écrit en Perl.
 DSPAM
 -----
 
-:Site: www.nuclearelephant.com
+:Site: https://www.nuclearelephant.com
 :Porteur: une communauté
 :Licence: GPL
 
@@ -76,7 +76,7 @@ Ce type de filtrage, basé sur l'apprentissage de mot-clés, s'avère particuli�
 Zimbra
 ------
 
-:Site: www.zimbra.com
+:Site: https://www.zimbra.com
 :Porteur: un éditeur (WMware)
 :Licence: Zimbra Public License, dérivée de MPL
 
@@ -90,7 +90,7 @@ Cet outil de messagerie s'appuie sur un socle infrastructure riche et robuste : 
 Horde
 -----
 
-:Site: www.horde.org
+:Site: https://www.horde.org
 :Porteur: une communauté
 :Licence: GPL
 
@@ -103,7 +103,7 @@ Horde est écrit en PHP.
 Zarafa
 ------
 
-:Site: www.zarafa.com
+:Site: https://www.zarafa.com
 :Porteur: un éditeur (Zarafa)
 :Licence: Affero GPL v3
 
@@ -117,7 +117,7 @@ Zarafa utilise la base de données MySQL pour le stockage de ses données. Le we
 OpenEMM
 -------
 
-:Site: www.openemm.org
+:Site: https://www.openemm.org
 :Porteur: un éditeur (AGNITAS AG)
 :Licence: Common Public Attribution License 1.0 (CPAL)
 

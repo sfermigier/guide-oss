@@ -14,7 +14,7 @@ Forges (plateformes collaboratives de développement) et bug trackers
 Redmine
 -------
 
-:Site: www.redmine.org
+:Site: https://www.redmine.org
 :Porteur: une communauté
 :Licence: GPL v2
 
@@ -42,7 +42,7 @@ Redmine a été développé en Ruby sur la base du framework Ruby on Rails.
 Tuleap
 ------
 
-:Site: www.enalean.com/produits/tuleap
+:Site: https://www.enalean.com/produits/tuleap
 :Porteur: un éditeur (Enalean)
 :Licence: GPL
 
@@ -58,7 +58,7 @@ Tuleap est écrit majoritairement en PHP.
 MantisBT
 --------
 
-:Site: www.mantisbt.org
+:Site: https://www.mantisbt.org
 :Porteur: une communauté
 :Licence: GPL v2
 
@@ -120,7 +120,7 @@ Environnement de développement intégrés
 Eclipse IDE
 -----------
 
-:Site: www.eclipse.org
+:Site: https://www.eclipse.org
 :Porteur: une fondation (Eclipse)
 :Licence: EPL (Eclipse Public License)
 

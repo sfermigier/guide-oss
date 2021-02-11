@@ -25,7 +25,7 @@ Disponible sous Solaris, Linux, OpenBSD, FreeBSD, NetBSD, Mac OS X, Windows 2000
 OpenSwan
 --------
 
-:Site: www.openswan.org
+:Site: https://www.openswan.org
 :Porteur: une communauté
 :Licence: GPL
 

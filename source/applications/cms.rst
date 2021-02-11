@@ -14,7 +14,7 @@ Au côté de ces solutions dominantes, la convergence ERP/CRM/CMS/e-business pou
 Drupal
 ------
 
-:Site: www.drupal.org
+:Site: https://www.drupal.org
 :Porteur: une communauté
 :Licence: GPL
 
@@ -30,7 +30,7 @@ D’un point de vue technique, Drupal est bâti autour des technologies LAMP (PH
 eZ Publish
 ----------
 
-:Site: www.ez.no
+:Site: https://www.ez.no
 :Porteur: un éditeur (eZ Systems)
 :Licence: GPL
 
@@ -46,7 +46,7 @@ Sur le plan technique, eZ Publish est en PHP, fonctionne sur Apache et MySQL (Po
 Jahia
 -----
 
-:Site: www.jahia.com
+:Site: https://www.jahia.com
 :Porteur: un éditeur (Jahia Corp)
 :Licence: GPL
 
@@ -62,7 +62,7 @@ Jahia est bâtie sur des technologies JEE : persistance via Hibernate, support d
 Joomla
 ------
 
-:Site: www.joomla.org
+:Site: https://www.joomla.org
 :Porteur: une communauté
 :Licence: GPL
 
@@ -78,7 +78,7 @@ Joomla est écrit en PHP et utilise une base de données MySQL.
 SPIP
 ----
 
-:Site: www.spip.net
+:Site: https://www.spip.net
 :Porteur: une communauté
 :Licence: GPL
 
@@ -94,7 +94,7 @@ SPIP est un logiciel écrit en PHP qui s'appuie sur les bases de données MySQL,
 TYPO3
 -----
 
-:Site: www.typo3.org
+:Site: https://www.typo3.org
 :Porteur: une communauté
 :Licence: GPL
 

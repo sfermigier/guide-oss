@@ -11,7 +11,7 @@ Pour être utile de manière opérationnelle, la virtualisation doit respecter d
 KVM
 ---
 
-:Site: www.linux-kvm.org
+:Site: https://www.linux-kvm.org
 :Porteur: une communauté
 :Licence: GPL
 
@@ -23,7 +23,7 @@ Intégré au noyau Linux (depuis la version 2.6.2), KVM est capable d'exécuter 
 QEMU
 ----
 
-:Site: www.qemu.org
+:Site: https://www.qemu.org
 :Porteur: une communauté
 :Licence: GPL
 
@@ -37,7 +37,7 @@ Utilisé conjointement à KVM, il permet de virtualiser un système x86 au-dessu
 Xen
 ---
 
-:Site: www.xen.org
+:Site: https://www.xen.org
 :Porteur: un éditeur (Citrix)
 :Licence: GPL
 
@@ -49,7 +49,7 @@ La paravirtualisation désigne la capacité pour un système de virtualisation �
 OpenVZ
 ------
 
-:Site: www.openvz.org
+:Site: https://www.openvz.org
 :Porteur: une communauté
 :Licence: GPL v2
 
@@ -61,7 +61,7 @@ Comme toute solution de virtualisation légère, il n'est possible d'exécuter q
 Oracle VirtualBox
 -----------------
 
-:Site: www.virtualbox.org
+:Site: https://www.virtualbox.org
 :Porteur: un éditeur (Oracle)
 :Licence: GPL v2
 

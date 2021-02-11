@@ -24,7 +24,7 @@ Rapid-Miner est issu de la recherche universitaire allemande et est aujourd'hui 
 SpagoBI
 -------
 
-:Site: www.spagoworld.org
+:Site: https://www.spagoworld.org
 :Porteur: un éditeur (Engineering Ingegneria Informatica)
 :Licence: LGPL
 
@@ -36,7 +36,7 @@ Le périmètre des fonctionnalités de SpagoBI comprend, à l’instar de Pentah
 JasperSoft
 ----------
 
-:Site: www.jaspersoft.com
+:Site: https://www.jaspersoft.com
 :Porteur: un éditeur (JasperSoft)
 :Licence: GPL et propriétaire
 
@@ -48,7 +48,7 @@ En version community, JasperServer propose la conception et génération de rapp
 Pentaho
 -------
 
-:Site: www.pentaho.com
+:Site: https://www.pentaho.com
 :Porteur: un éditeur (Pentaho)
 :Licence: GPL et propriétaire
 
@@ -60,7 +60,7 @@ A l’instar de JasperServer, Pentaho regroupe toutes les fonctionnalités d’u
 Palo
 ----
 
-:Site: www.jedox.com/fr/produits/Palo-Suite-Apercu.html
+:Site: https://www.jedox.com/fr/produits/Palo-Suite-Apercu.html
 :Porteur: un éditeur (Palo)
 :Licence: GPL et propriétaire
 

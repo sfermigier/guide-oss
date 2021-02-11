@@ -11,7 +11,7 @@ Le périmétre des e-boutiques est devenu très important avec des fonctionnalit
 Magento
 -------
 
-:Site: www.magentocommerce.com
+:Site: https://www.magentocommerce.com
 :Porteur: un éditeur (Magento Inc.)
 :Licence: OSL et propriétaire
 
@@ -29,7 +29,7 @@ La solution repose sur le framework PHP Zend et bénéficie d'un grand nombre d'
 Prestashop
 ----------
 
-:Site: www.prestashop.com
+:Site: https://www.prestashop.com
 :Porteur: un éditeur (Prestashop)
 
 Sorti quelques mois après Magento (juillet 2008), Prestashop est une solution e-commerce française qui a rapidement conquis un grand nombre d'utilisateurs par sa grande simplicité de mise en œuvre et sa totale adéquation avec les besoins des e-marchands, lesquels ont bâti des liens forts avec le produit (80 000 sites utilisent la solution dans le monde).
@@ -44,7 +44,7 @@ Prestashop est développé intégralement en PHP/MySQL. Il dispose d'une API et 
 Oxid
 ----
 
-:Site: www.oxid-esales.com
+:Site: https://www.oxid-esales.com
 :Porteur: un éditeur (Oxid)
 :Licence: GPL v3
 
@@ -58,7 +58,7 @@ Oxid est développé intégralement en PHP/MySQL. Il intègre le framework Ajax 
 Drupal Commerce
 ---------------
 
-:Site: www.drupalcommerce.org
+:Site: https://www.drupalcommerce.org
 :Porteur: un éditeur (Commerce Guys)
 :Licence: GPL v3
 

@@ -32,7 +32,7 @@ BuddyPress a la particularité d’être bâti sur l’outil Wordpress. Il dispo
 Drupal Commons
 --------------
 
-:Site: www.acquia.com
+:Site: https://www.acquia.com
 :Porteur: un éditeur (Acquia)
 :Licence: GPL
 
@@ -50,7 +50,7 @@ D’un point de vue technique, Drupal est bâti autour des technologies LAMP (PH
 Elgg
 ----
 
-:Site: www.elgg.com
+:Site: https://www.elgg.com
 :Porteur: un éditeur (Curverider Ltd)
 :Licence: GPL
 
@@ -68,7 +68,7 @@ Elgg est écrit en PHP et fonctionne sous technologies LAMP (Linux, Apache, MySQ
 Liferay Social Office
 ---------------------
 
-:Site: www.liferay.com
+:Site: https://www.liferay.com
 :Porteur: un éditeur (Liferay)
 
 Liferay Social Office est un produit de la société Liferay, déjà éditrice du portail Liferay. Social Office est une solution de collaboration sociale pour l’entreprise. Le portail Liferay a vu le jour au début des années 2000, lancé par Brian Chan. Fin 2008, Liferay a lancé une déclinaison de son portail avec un packaging spécifique au travail collaboratif : Liferay Social Office.
