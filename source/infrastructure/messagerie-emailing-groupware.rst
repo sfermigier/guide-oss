@@ -28,7 +28,7 @@ Blue Mind est développé et supporté par la société française éponyme qui 
 Postfix
 -------
 
-:Site: https://www.postfix.org
+:Site: http://www.postfix.org
 :Porteur: une communauté
 :Licence: IBM (open source)
 

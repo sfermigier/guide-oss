@@ -108,7 +108,6 @@ Parmi les produits de l’univers Frameworks et bibliothèques pour le développ
 
 - Flask: https://flask.palletsprojects.com/
 - CakePHP: https://cakephp.org/
-- Lithium: https://lithify.me/
 - Jelix: https://jelix.org/fr/
 - Apache CXF: https://cxf.apache.org/
 
