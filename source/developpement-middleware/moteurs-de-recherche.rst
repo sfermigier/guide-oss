@@ -14,7 +14,7 @@ Dans l’univers de l’open source, le marché est dominé par les moteurs de r
 Apache Lucene
 -------------
 
-:Site: http://lucene.apache.org
+:Site: http://lucene.apache.org/
 :Porteur: une fondation (Apache)
 :Licence: Apache
 
@@ -28,7 +28,7 @@ Lucene est écrit en Java. Il peut être intégré au sein d’applications écr
 Apache Solr
 -----------
 
-:Site: https://lucene.apache.org/solr
+:Site: https://lucene.apache.org/solr/
 :Porteur: une fondation (Apache)
 :Licence: Apache
 
@@ -37,28 +37,11 @@ Solr est une surcouche de Lucene qui ajoute des fonctionnalités et facilite le 
 Solr est un serveur de recherche d'entreprise permettant de centraliser les opérations d'indexation et de services de résultats. Solr est capable de communiquer avec les autres applications via de nombreux protocoles basés sur des standards ouverts, il dispose également d’une interface d’administration en mode Web. L’une des caractéristiques majeures de Lucene est la capacité à indexer les contenus par champ, ou par attribut, c’est à dire qu’un document n’est pas analysé comme un simple ensemble de mots, il est constitué de champs, chaque champ étant une suite de mots (terms). Solr permet de tirer pleinement parti de cette fonctionnalité. Ce fonctionnement permet une gestion beaucoup plus fine de la pertinence, et de la recherche avancée.
 
 
-mnoGoSearch
------------
-
-:Site: https://www.mnogosearch.org
-:Porteur: un éditeur (Lavtech.com)
-
-MnoGoSearch est un moteur de recherche dont la première version open source est sortie en 2000.
-
-MnoGoSearch est spécialisé dans l'indexation de sites Web Internet ou Intranet. De ce fait, son mode d'indexation est principalement basée sur du crawling HTTP. Pour la recherche, MnoGoSearch fournit un script CGI intégrable dans un serveur Web. Un système simple de templates permet de customiser la page de recherche. MnoGoSearch supporte nativement de nombreuses langues, les synonymes, la correction orthographique, les opérateurs de recherche booléenne, etc.... Le stockage peut se faire en base MySQL ou en base PostGreSQL.
-
-MnoGoSearch supporte également l'indexation de documents bureautiques à travers des utilitaires externes (catdoc, pdf2text, etc...), ainsi que l'indexation de système de fichiers sans passer par un serveur HTTP.
-
-MnoGoSearch est distribué sous licence GPL pour les environnements Unix, tandis que les binaires Windows sont propriétaires et payants.
-
-MnoGoSearch est développé en C.
-
-
 OpenSearchServer
 ----------------
 
-:Site: https://www.open-search-server.com
-:Porteur: un éditeur (OpenSearchServer)
+:Site: https://www.open-search-server.com/
+:Porteur: un éditeur (Jaeksoft)
 :Licence: GPL
 
 OpenSearchServer est un serveur de recherche, créé par Emmanuel Keller. La première version open source est sortie en 2008.
@@ -67,7 +50,7 @@ OpenSearchServer a été développé en interne dans le cadre du site l'Usine No
 
 La société Jaeksoft, basée sur Paris, assure la majeure partie des développements et fournit du support sur l'outil.
 
-OpenSearchServer est écrit en Java.
+OpenSearchServer est basé sur Lucene et écrit en Java.
 
 
 Autres
@@ -76,12 +59,7 @@ Autres
 Parmi les produits de l’univers Moteurs de recherche, on peut compléter la liste avec les outils ci-dessous :
 
 - Xapian: http://xapian.org/
-
+- Sphinx: https://sphinxsearch.com/
 - Whoosh: https://pypi.org/project/Whoosh/
-
-- Apache Nutch: http://nutch.apache.org
-
-- Sphinx: http://sphinxsearch.com
-
-- Flax: http://www.flax.co.uk
+- Apache Nutch: http://nutch.apache.org/
 
