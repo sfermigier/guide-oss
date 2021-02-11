@@ -27,7 +27,7 @@ Dans son utilisation classique comme plateforme de téléphonie IP, Asterisk est
 Kamailio
 --------
 
-:Site: https://www.kamailio.org
+:Site: https://www.kamailio.org/
 :Porteur: une communauté
 :Licence: GPL
 
@@ -39,7 +39,7 @@ Il supporte des transactions asynchrones TCP, UDP et SCTP, l'encryptage des comm
 Kannel
 ------
 
-:Site: https://www.kannel.org
+:Site: https://www.kannel.org/
 :Porteur: une communauté
 :Licence: Kannel Software License (basée sur la licence Apache).
 
@@ -57,6 +57,5 @@ Autres
 Parmi les produits de l’univers VOIP/Téléphonie, on peut compléter la liste avec les outils ci-dessous :
 
 - sipXecs: http://www.sipfoundry.org
-- SER: http://www.iptel.org/ser
 - Yate: http://www.yate.ro/
 - FreeSwitch: http://www.freeswitch.org

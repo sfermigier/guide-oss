@@ -9,7 +9,7 @@ La Supervision et métrologie est un domaine bien servi par l’open source avec
 Nagios
 ------
 
-:Site: https://www.nagios.org
+:Site: https://www.nagios.org/
 :Porteur: un éditeur (Nagios Enterprises)
 :Licence: GPL
 
@@ -77,7 +77,7 @@ OpenNMS est développé en Java et s'appuie sur le moteur WEB Jetty et le SGBD P
 Munin
 -----
 
-:Site: http://munin-monitoring.org
+:Site: http://munin-monitoring.org/
 :Porteur: une communauté
 :Licence: GPL
 
@@ -91,7 +91,7 @@ Munin se repose sur l'excellent outil RRDTool. Il est écrit en Perl, ce qui fai
 Cacti
 -----
 
-:Site: https://www.cacti.net
+:Site: https://www.cacti.net/
 :Porteur: une communauté
 :Licence: GPL
 
