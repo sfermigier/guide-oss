@@ -24,16 +24,24 @@ La version SP (Pack de Souscription) est soumise à une souscription qui en plus
 Bonita est développé en Java, langage également utilisé pour le développement de nouveaux connecteurs. Certains paramétrages avancés s'effectuent en Groovy.
 
 
-JBPM
+jBPM
 ----
 
-:Site: https://www.jboss.org/jbpm
-:Porteur: un éditeur (JBoss)
+:Site: https://www.jbpm.org/
+:Porteur: un éditeur (Red Hat)
 :Licence: LGPL
 
-JBPM est développé par une communauté soutenue par JBoss. Référence du BPM open source depuis plusieurs années, JBPM a été intégré par de nombreux éditeurs à leurs solutions. Le produit souffre toutefois aujourd'hui d'un manque de dynamisme de sa communauté. La dernière version est néanmoins prometteuse et le produit reste incontournable comme brique BPM technique de projets notamment en environnement open source.
+jBPM est développé par une communauté soutenue par JBoss. Référence du BPM open source depuis plusieurs années, jBPM a été intégré par de nombreux éditeurs à leurs solutions. Le produit souffre toutefois aujourd'hui d'un manque de dynamisme de sa communauté.
 
-JBPM est un excellent moteur BPM, puissant et léger. la version 5 est annoncée compatible avec le langage BPMN 2.0. Utilisé comme brique logicielle c'est une solution technique simple à configurer et bénéficiant d'une API très complète. Des interfaces Eclipse (développeurs) et web (utilisateurs fonctionnels) permettent de gérer les workflows graphiquement, mais pâtissent d'une certaine jeunesse qui les rend inadaptées pour une gestion par des utilisateurs non techniques. De plus, l'interface web n'est disponible que via l'application Drools (moteur de règles) ce qui fait perdre à l'outil son principal avantage : sa simplicité.
+jBPM supporte les standards suivants:
+
+- business processes (BPMN2)
+- case management (BPMN2 and CMMN)
+- decision management (DMN)
+- business rules (DRL)
+- business optimisation (Solver)
+
+JBPM est un excellent moteur BPM, puissant et léger. Utilisé comme brique logicielle c'est une solution technique simple à configurer et bénéficiant d'une API très complète.
 
 JBPM est développé en Java.
 
@@ -41,13 +49,13 @@ JBPM est développé en Java.
 Activiti
 --------
 
-:Site: https://www.activiti.org
+:Site: https://www.activiti.org/
 :Porteur: un éditeur (Alfresco)
 :Licence: Apache
 
-Activiti a été publié par l'éditeur d'ECM Alfresco, qui souhaitait développer une alternative à JBPM pour ses propres besoins. En choisissant d’en faire un composant indépendant, Alfresco parie sur le dynamisme de l'open source (le produit a été reversé à la communauté Spring) et souhaite en faire l'outil de référence du BPM open source. Activiti est ainsi techniquement à l'état de l'Art et bénéficie d'un très bon dynamisme grâce à la grande popularité de son porteur.
+Activiti a été publié par l'éditeur d'ECM Alfresco, qui souhaitait développer une alternative à jBPM pour ses propres besoins. En choisissant d’en faire un composant indépendant, Alfresco parie sur le dynamisme de l'open source (le produit a été reversé à la communauté Spring) et souhaite en faire l'outil de référence du BPM open source. Activiti est ainsi techniquement à l'état de l'Art et bénéficie d'un très bon dynamisme grâce à la grande popularité de son porteur.
 
-Activiti est aujourd'hui un moteur BPM léger et robuste. Sa jeunesse le destine plutôt à une fonction de brique BPM intégrée à des projets plus complexes, comme il l’est à Alfresco par exemple. Activiti présente néanmoins des interfaces agréables pour les utilisateurs finaux (dessin de processus) qui permettront aux équipes fonctionnelles et techniques de travailler conjointement sur la modélisation des processus. Sa mise en œuvre à proprement parler nécessitera toutefois impérativement de réelles compétences techniques.
+Activiti est aujourd'hui un moteur BPM léger et robuste. Sa jeunesse le destine plutôt à une fonction de brique BPM intégrée à des projets plus complexes, comme il l’est à Alfresco par exemple. Activiti présente néanmoins des interfaces agréables pour les utilisateurs finaux (conception de processus) qui permettront aux équipes fonctionnelles et techniques de travailler conjointement sur la modélisation des processus. Sa mise en œuvre à proprement parler nécessitera toutefois impérativement de réelles compétences techniques.
 
 Activiti est développé en Java.
 
