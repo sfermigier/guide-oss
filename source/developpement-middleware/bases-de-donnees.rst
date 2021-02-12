@@ -9,7 +9,7 @@ Les bases de données traditionnelles, comme MySQL ou PostgreSQL, sont de type r
 PostgreSQL
 ----------
 
-:Site: https://www.postgresql.org
+:Site: https://www.postgresql.org/
 :Porteur: une communauté
 :Licence: PostgreSQL License, approuvée par l'Open Source Initiative
 
@@ -23,7 +23,7 @@ PostgreSQL est écrit en C et fonctionne sur un très grand nombre de plateforme
 MySQL
 -----
 
-:Site: https://www.mysql.fr
+:Site: https://www.mysql.fr/
 :Porteur: un éditeur (Oracle)
 :Licence: GPL avec lining exception, et propriétaire pour la version entreprise
 
@@ -39,9 +39,9 @@ MySQL est développé en C et C++ et fonctionne sur un très large nombre de pla
 MariaDB
 -------
 
-:Site: mariadb.org
+:Site: https://mariadb.org/
 :Porteur: une communauté
-:Licence: GPL avec lining exception
+:Licence: GPL avec linking exception
 
 MariaDB est un SGBDR rapide et robuste, particulièrement déployé dans les environnements Internet. MariaDB est un fork de MySQL développé par Michael "Monty" Widenius, l'auteur de MySQL, suite au rachet de MySQL par Oracle.
 
@@ -53,7 +53,7 @@ Le mode de développement communautaire ainsi que des offres de maintenances com
 Cubrid
 ------
 
-:Site: https://www.cubrid.org
+:Site: https://www.cubrid.org/
 :Porteur: un éditeur (Naver)
 :Licence: GPL
 

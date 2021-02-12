@@ -51,6 +51,7 @@ Activiti est aujourd'hui un moteur BPM léger et robuste. Sa jeunesse le destine
 
 Activiti est développé en Java.
 
+
 Autres
 ------
 
@@ -58,4 +59,5 @@ Autres
 - ViewFlow (Python): http://viewflow.io/
 - Adhesive (Python): https://germaniumhq.com/adhesive/
 - Camunda (Java): https://github.com/camunda/camunda-bpm-platform
+- Flor (Ruby): https://github.com/floraison/flor
 

@@ -6,12 +6,10 @@ Dans cette dernière rubrique de la dimension « Développement et couches inter
 Nous présentons notamment Drools (un moteur de règles étonnant) et ESIGate (permettant la construction à la volée de pages à partir de fragments issus de technologies différentes).
 
 
-
-
 Drools
 ------
 
-:Site: https://www.jboss.org/drools
+:Site: https://www.jboss.org/drools/
 :Porteur: un éditeur (JBoss)
 
 Drools (ou JBoss Rules) est un système de gestion de règles métier utilisant un moteur d'inférence à chaînage avant.
@@ -21,13 +19,12 @@ L’utilisation d’un outil tel que Drools permet de faire évoluer des règles
 Drools est distribué sous la licence Apache.
 
 
-
-
 ESIGate
 -------
 
-:Site: https://www.esigate.org
+:Site: http://www.esigate.org/
 :Porteur: une commaunuté
+:Licence: Apache 2.0
 
 ESIGate est un agrégateur de contenus web. Il a été créé par plusieurs ingénieurs spécialistes JEE de chez Smile, premier intégrateur français de solutions open source.
 

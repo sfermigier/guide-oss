@@ -9,9 +9,9 @@ Nous présentons notamment CUPS (un serveur d’impression), SAMBA (permettant l
 CUPS
 ----
 
-:Site: https://www.cups.org
+:Site: https://www.cups.org/
 :Porteur: un éditeur (Apple Inc.)
-:Licence: GPL
+:Licence: Apache 2.0
 
 CUPS (Common Unix Printing System) est un serveur d'impression populaire pour les systèmes UNIX. Sa création remonte à la fin de l’année 1999 par Michael Sweet et Andrew Senft, propriétaires de Easy Software Products.
 
@@ -21,7 +21,7 @@ Il est utilisé aussi bien sur les postes de travail que sur les serveurs d'impr
 Samba
 -----
 
-:Site: https://www.samba.org
+:Site: https://www.samba.org/
 :Porteur: une communauté
 :Licence: GPL
 
@@ -33,7 +33,7 @@ Sous Windows, le protocole SMB est utilisé pour le partage de fichiers et d'imp
 ProFTPD
 -------
 
-:Site: https://www.proftpd.org
+:Site: http://www.proftpd.org/
 :Porteur: une communauté
 :Licence: GPL
 
@@ -45,10 +45,10 @@ Il dispose de fonctionnalités avancées comme le chroot, les hôtes et utilisat
 Bind
 ----
 
-:Site: https://www.isc.org/software/bind
-:Porteur: une communauté
+:Site: https://www.isc.org/bind/
+:Porteur: un entreprise à but non-lucratif (Internet Systems Consortium, Inc.)
 :Licence: BSD
 
 BIND est le serveur DNS de référence. Les origines de BIND remontent aux années 1980 par quatre étudiants de l’Université de Californie.
 
-Édité par l'Internet Software Consortium, BIND est un serveur DNS permettant aussi bien la résolution des noms auprès de serveurs autoritaires, que l'hébergement de sa propre zone. Il supporte toutes les fonctionnalités avancées, notamment DNSSEC (depuis la réécriture de son code au début des années 2000).
+Édité par l'Internet Systems Consortium, BIND est un serveur DNS permettant aussi bien la résolution des noms auprès de serveurs autoritaires, que l'hébergement de sa propre zone. Il supporte toutes les fonctionnalités avancées, notamment DNSSEC (depuis la réécriture de son code au début des années 2000).
