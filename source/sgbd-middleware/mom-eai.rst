@@ -55,5 +55,4 @@ Autres
 Parmi les produits de l’univers MOM & EAI, on peut compléter la liste avec les outils ci-dessous :
 
 - JBoss Messaging: http://www.jboss.org/jbossmessaging
-
 - ZeroMQ: http://www.zeromq.org/

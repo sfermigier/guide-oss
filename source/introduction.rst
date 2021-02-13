@@ -12,7 +12,9 @@ Pour cela, nous avons commencé par établir la liste des catégories qui seraie
 
 Nous avons réparti ces 40 et quelques catégories en trois « dimensions » :
 
-- **Applications**, où l’on trouve par exemple : les CRM, les outils de décisionnel, les CMS, les outils de GED, les portails, les solutions d’e-commerce, etc.
+- **Applications génériques** (horizontales): applications logicielles conçues pour être utilisée par de nombreux types d'utilisateurs et d'entreprises différents. On trouve dans cette catégorie, par exemple : les CRM, les outils de décisionnel, les CMS, les outils de GED, les portails, les solutions d’e-commerce, etc.
+
+- **Applications métiers** (verticales): applications spécifiques à un secteur d'activité donné.
 
 - **Infrastructure**, où l’on trouve par exemple : la gestion de parc, les firewalls, les vpn, la supervision, la virtualisation, les systèmes d’exploitation, les accélérateurs http, etc.
 

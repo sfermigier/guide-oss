@@ -11,7 +11,7 @@ Les outils de gestion de parc et d’inventaires peuvent également disposer d�
 GLPI
 ----
 
-:Site: https://www.glpi-project.org
+:Site: https://www.glpi-project.org/
 :Porteur: une communauté
 :Licence: GPL
 
@@ -31,7 +31,7 @@ GLPI est basé sur les technologies PHP/MySQL.
 OCS Inventory NG
 ----------------
 
-:Site: https://www.ocsinventory-ng.org
+:Site: https://www.ocsinventory-ng.org/
 :Porteur: une communauté
 :Licence: GPL
 
@@ -42,12 +42,11 @@ OCS remonte aussi bien les caractéristiques matérielles des postes que les log
 OCS repose sur les technologies Perl et MySQL principalement.
 
 
-
 Autres
 ------
 
 Parmi les produits de l’univers Gestion de parc et inventaires, on peut compléter la liste avec les outils ci-dessous :
 
-- Fusion Inventory http://fusioninventory.org
+- Fusion Inventory http://fusioninventory.org/
 
 

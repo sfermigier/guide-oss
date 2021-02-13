@@ -12,12 +12,10 @@ Alliance de contenus et bouquet de services, liens vers des ressources tierces, 
 Des outils open source sont disponibles pour permettre la réalisation de ce type de projet. On peut notamment citer Liferay, eXo Platform ou plus récemment Silverpeas.
 
 
-
-
 eXo Platform
 ------------
 
-:Site: https://www.exoplatform.com
+:Site: https://www.exoplatform.com/
 :Porteur: un éditeur (eXo)
 :Licence: AGPL et propriétaire
 
@@ -30,12 +28,10 @@ eXo Platform est diffusé via un modèle de licence double. Le code source et un
 eXo Platform est écrit en Java, conforme aux normes JSR 168 et 286, WSRP 1 et 2. Il intègre également un repository de contenus conforme à la norme JSR 170.
 
 
-
-
 Silverpeas
 ----------
 
-:Site: https://www.silverpeas.com
+:Site: https://www.silverpeas.com/
 :Porteur: un éditeur (Groupe Oevo)
 :Licence: Affero GPL v3
 
@@ -46,12 +42,10 @@ Silverpeas se distingue par un apport fonctionnel plutôt riche et une ergonomie
 Silverpeas est écrit en Java, conforme aux normes JSR 168 et 286.
 
 
-
-
 Liferay
 -------
 
-:Site: https://www.liferay.com
+:Site: https://www.liferay.com/
 :Porteur: un éditeur (Liferay, Inc)
 :Licence: LGPL et propriétaire
 
@@ -66,7 +60,6 @@ Autres
 ------
 
 Dans l’univers des portails, l’offre open source est particulièrement vigoureuse. Pour preuve, au-delà des produits présentés précédemment, on peut également citer les outils ci-dessous :
-
 
 - Lutece: https://lutece.paris.fr/
 - JBoss Gatein: http://www.jboss.org/gatein

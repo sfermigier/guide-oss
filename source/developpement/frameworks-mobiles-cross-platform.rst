@@ -26,6 +26,5 @@ PhoneGap supporte actuellement 6 plateformes, c'est donc une solution complète 
 Autres
 ------
 
-Flutter: https://flutter.dev/
-
-Ionic: https://ionicframework.com/
+- Flutter: https://flutter.dev/
+- Ionic: https://ionicframework.com/

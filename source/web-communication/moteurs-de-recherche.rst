@@ -18,7 +18,7 @@ Apache Lucene
 :Porteur: une fondation (Apache)
 :Licence: Apache
 
-Porté par la fondation Apache, le projet Lucene est la solution retenue, entre autres, par Wikipedia, pour l’indexation et la recherche de ses contenus. Lucene est sans aucun doute l’outil de recherche le plus connu, le plus utilisé et le plus dynamique du marché de l’open source. Il a été accessible en libre téléchargement par Doug Cutting en mars 2000.
+Porté par la fondation Apache, le projet Lucene est la solution retenue, entre autres, par Wikipedia, pour l’indexation et la recherche de ses contenus. Lucene est sans aucun doute l’outil de recherche le plus connu, le plus utilisé et le plus dynamique du marché de l’open source. Il a été crée par Doug Cutting en mars 2000.
 
 Lucene se définit avant tout comme une bibliothèque de recherche et d'indexation de contenus. Comme la plupart des moteurs de recherche, Lucene se base sur le concept de l’indexation automatique, c'est-à-dire en traitant une seule fois les données d’entrée et en leur donnant de multiples liens. Coté fonctionnel, Lucene support la recherche de formes approximatives d'un même mot (féminin, pluriel, conjugaison), la gestion des synonymes, la pertinence paramétrable, etc. Le tout avec un niveau de performances exceptionnels.
 
@@ -32,7 +32,7 @@ Apache Solr
 :Porteur: une fondation (Apache)
 :Licence: Apache
 
-Solr est une surcouche de Lucene qui ajoute des fonctionnalités et facilite le déploiement de certaines fonctions de Lucene reconnues comme trop technique. Son développement a été initié par CNET Networks lesquels ont décidé en 2006 de publier leur travail.
+Solr est une surcouche de Lucene qui ajoute des fonctionnalités et facilite le déploiement de certaines fonctions de Lucene reconnues comme trop techniques. Son développement a été initié par CNET Networks lesquels ont décidé en 2006 de publier leur travail.
 
 Solr est un serveur de recherche d'entreprise permettant de centraliser les opérations d'indexation et de services de résultats. Solr est capable de communiquer avec les autres applications via de nombreux protocoles basés sur des standards ouverts, il dispose également d’une interface d’administration en mode Web. L’une des caractéristiques majeures de Lucene est la capacité à indexer les contenus par champ, ou par attribut, c’est à dire qu’un document n’est pas analysé comme un simple ensemble de mots, il est constitué de champs, chaque champ étant une suite de mots (terms). Solr permet de tirer pleinement parti de cette fonctionnalité. Ce fonctionnement permet une gestion beaucoup plus fine de la pertinence, et de la recherche avancée.
 

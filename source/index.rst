@@ -18,8 +18,12 @@ Ce document est à présent maintenu par `Stefane Fermigier <https://fermigier.c
 
    introduction.rst
 
-   applications/index.rst
-   developpement-middleware/index.rst
+   applications-generiques/index.rst
+   applications-metiers/index.rst
+   web-communication/index.rst
+   developpement/index.rst
+   sgbd-middleware/index.rst
+   devops/index.rst
    infrastructure/index.rst
 
    conclusion.rst

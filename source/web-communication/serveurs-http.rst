@@ -3,7 +3,7 @@ Serveurs http
 
 Dans cette rubrique, nous présentons les serveurs HTTP open source du marché.
 
-Les serveurs HTTP (également appelé daemon HTTP ou serveur Web) servent les requêtes (pages, images souvent) des internautes en respectant le protocole http.
+Les serveurs HTTP (également appelé serveurs Web) servent les requêtes (pages, images souvent) des internautes en respectant le protocole http.
 
 Dans l’univers des serveurs HTTP, le serveur Apache domine très largement avec une notoriété exceptionnelle. Il n’est pas difficile de trouver des prestataires pour du conseil ou de l’intégration.
 
@@ -24,7 +24,7 @@ Autres
 ------
 
 - Nginx: https://www.nginx.com/
-- Lighttpd: http://www.lighttpd.net
+- Lighttpd: http://www.lighttpd.net/
 - Gunicorn: https://gunicorn.org/
 - Uwsgi: https://uwsgi-docs.readthedocs.io/en/latest/
 

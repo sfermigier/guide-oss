@@ -7,7 +7,7 @@ Dans cette rubrique, nous présentons les principaux serveurs d’applications J
 WildFly
 -------
 
-:Site: wildfly.org
+:Site: https://wildfly.org/
 :Porteur: un éditeur (Red Hat)
 
 WildFly est le nouveau nom de JBoss AS, le serveur d'application Java EE initialement conçu parMarc Fleury. En avril 2006, Red Hat a racheté JBoss Inc.
@@ -20,7 +20,7 @@ JBoss est écrit en Java.
 Apache Tomcat
 -------------
 
-:Site: http://tomcat.apache.org
+:Site: http://tomcat.apache.org/
 :Porteur: une fondation (Apache)
 
 Apache Tomcat est le conteneur de servlets JEE de la fondation Apache. Le projet Tomcat a été lancé comme implémentation de référence des servlets par James Duncan Davidson, architecte logiciel chez Sun.
@@ -48,5 +48,5 @@ GlassFish est écrit en Java.
 Autres
 ------
 
-- Apache Geronimo: http://geronimo.apache.org
+- Apache Geronimo: https://geronimo.apache.org/
 
