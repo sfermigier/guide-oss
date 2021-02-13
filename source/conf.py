@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Guide des Solutions Open Source"
-copyright = "2021, Stefane Fermigier"
+project = "Guide des Solutions Open Source (édition 2021)"
+copyright = "2012-2021, Stefane Fermigier and others"
 author = "Stefane Fermigier"
 
 # The full version, including alpha/beta/rc tags
