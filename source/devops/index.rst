@@ -10,4 +10,3 @@ Outre les outils traditionnels du génie logiciels, listés, dans la catégorie 
 
     tests-integration-continue.rst
     deploiement.rst
-    supervision-et-metrologie.rst
