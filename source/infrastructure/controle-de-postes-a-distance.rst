@@ -57,7 +57,6 @@ Comme la majorité des projets BSD, OpenSSH est écrit en C.
 Autres
 ------
 
-- FreeRDP: http://www.freerdp.com/
-- KRDC: http://www.kde.org/applications/internet/krdc/
-- AnywhereTS: http://anywherets.com/
+- FreeRDP: https://www.freerdp.com/
+- KRDC: https://apps.kde.org/en/krdc
 - Chrome Remote Desktop: https://chrome.google.com/remotedesktop
