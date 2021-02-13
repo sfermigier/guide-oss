@@ -1,5 +1,5 @@
-Application génériques
-======================
+Applications génériques
+=======================
 
 La dimension « Applications », présente toutes les solutions couramment utilisées par les utilisateurs finaux des entreprises. Ils disposent généralement d’interfaces soignées loin des lignes de commandes fréquemment disponibles parmi les outils de la dimension « Infrastructure ».
 

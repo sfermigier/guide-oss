@@ -1,5 +1,5 @@
-Couche développement
-====================
+Outils de éveloppement
+======================
 
 La dimension « Développement », comme son nom l’indique, présente toutes les solutions utiles aux fonctions de développement. C’est également une dimension particulièrement bien fournie en produits open source.
 
