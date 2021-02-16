@@ -23,9 +23,9 @@ Bacula est développé en C/C++. Il s'appuie sur une base de données PostgreSQL
 Autres
 ------
 
-Parmi les produits de l’univers Déploiement et Sauvegarde, on peut compléter la liste avec les outils ci-dessous :
-
-
-- Kdump: http://lse.sourceforge.net/kdump
 - Amanda: http://www.amanda.org/
 - BackupPC: http://backuppc.sourceforge.net/
+- Borg + Borgmatic: https://www.borgbackup.org/ + https://torsion.org/borgmatic/
+- Restic: https://restic.net/
+- Rclone: https://rclone.org/
+- Bareos: https://www.bareos.org/en/

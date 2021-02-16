@@ -7,6 +7,10 @@ Un middleware permet à différentes applications d’échanger et d'interopére
 
 Un middleware est davantage qu'un simple protocole d'appel des services offerts par une application, et typiquement RPC, RMI ou bien SOAP, tous également synchrones, ne sont pas vraiment considérés comme des middlewares.
 
+Références:
+
+- https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+
 
 
 Apache ActiveMQ
