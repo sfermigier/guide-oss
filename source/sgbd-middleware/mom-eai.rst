@@ -22,7 +22,7 @@ Apache ActiveMQ
 
 Sorti en 2004, ActiveMQ est le MOM open source de la fondation Apache.
 
-ActiveMQ s’appuie sur quelques autres projets Apache : Apache Camel (Implémentation partielle des « Entreprise Integration Patterns ») et Jetty (Serveur d'application Java intégré à ActiveMQ). Et ActiveMQ est à son tour utilisé par quelques autres grands projets : Apache Service Mix, Mule, Geronimo (comme fournisseur JMS par défaut). Le traitement des messages de ActiveMQ est sans doute son plus célèbre atout, après celui de sa grande connectivité. À l'aide du projet Camel qui est intégré, il a la possibilité de traiter les messages selon les modèles d'intégration d'entreprises (EIP).
+ActiveMQ s’appuie sur quelques autres projets Apache : Apache Camel (Implémentation partielle des « Entreprise Integration Patterns ») et Jetty (Serveur d'application Java intégré à ActiveMQ). Et ActiveMQ est à son tour utilisé par quelques autres grands projets : Apache Service Mix, Mule, Geronimo (comme fournisseur JMS par défaut). Le traitement des messages de ActiveMQ est sans doute son plus célèbre atout, après celui de sa grande connectivité. À l'aide du projet Camel qui est intégré, il a la possibilité de traiter les messages selon les modèles d'intégration d'entreprises (*EIP* ou *Enterprise Integration Patterns*).
 
 ActiveMQ est développé en Java. La diversité des langages et environnements supportés au niveau des clients est particulièrement grande, et c’est un des grands atouts de Active MQ. Les langages et protocoles à partir desquels on peut accéder à ActiveMQ sont : C, C++, Ajax, RESTful et SOAP, .Net, Delphi, FreePascal, Perl, PHP, Pike, Python, Ruby, etc.
 

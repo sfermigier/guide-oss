@@ -32,13 +32,13 @@ Tomcat est distribué sous la licence Apache.
 Tomcat a été écrit en langage Java. Il peut donc s'exécuter via la machine virtuelle Java sur n'importe quel système d'exploitation la supportant.
 
 
-GlassFish
----------
+Eclipse GlassFish
+-----------------
 
 :Site: https://projects.eclipse.org/projects/ee4j.glassfish
 :Porteur: une fondation (Eclipse)
 
-GlassFish était l'implémentation de référence Java EE développée par Oracle. En fait, le projet est né en 2005 de par l’ouverture de Sun Application Server. La première version de GlassFish, la 1.0, date de 2006. A présent GlassFish est maintenu par la Fondation Eclipse dans le cadre du projet Jakarta EE.
+GlassFish était l'implémentation de référence Java EE développée par Sun Microsystems puis par Oracle. La première version de GlassFish, la 1.0, date de 2006. A présent GlassFish est maintenu par la Fondation Eclipse dans le cadre du projet Jakarta EE.
 
 GlassFish est distribué sous licence Eclipse.
 
@@ -49,4 +49,5 @@ Autres
 ------
 
 - Apache Geronimo: https://geronimo.apache.org/
+- Eclipse Jetty: https://www.eclipse.org/jetty/
 
