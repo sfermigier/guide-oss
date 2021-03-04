@@ -137,7 +137,7 @@ Génération de code / MDD
 Acceleo
 -------
 
-:Site: http://www.eclipse.org
+:Site: https://www.eclipse.org/acceleo/
 :Porteur: une fondation (Eclipse)
 :Licence: EPL (Eclipse Public License)
 

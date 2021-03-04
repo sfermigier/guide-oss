@@ -18,6 +18,9 @@ help:
 all: html deploy
 
 
+build: html
+
+
 deploy:
 	rsync --delete-after -e ssh -avz build/html/ trunks:/srv/web/guide-oss/
 

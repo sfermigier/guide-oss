@@ -1,5 +1,5 @@
-Déploiement et sauvegarde
-=========================
+Déploiement
+===========
 
 Les outils de déploiement, tel que Andible ou Puppet, permettent de préparer à distance des environnements selon des réglés prédéfinies ou selon un état final attendu. Toutes les grandes entreprises utilisent des logiciels de déploiement pour faciliter l’administration de leur parc.
 
