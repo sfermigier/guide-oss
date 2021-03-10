@@ -7,7 +7,7 @@ Le périmètre de ces outils est donc potentiellement très large puisqu’il tr
 
 Parmi les fonctionnalités que l’on trouve dans les CRM, on peut citer : gestion multi-entités, service Client, gestion de cas et groupware, cycle des ventes, campagnes de marketing et de diffusion massive, gestion des contacts et des comptes, etc.
 
-Dans l’univers open source, on trouve des produits de grande qualité comme SugarCRM ou VTiger. On trouve également des ERP dont le module de CRM est au meilleur niveau (voir section ERP).
+Dans l’univers open source, on trouve des produits de grande qualité comme SugarCRM ou VTiger. On trouve également des ERP dont le module de CRM est au meilleur niveau (voir la section :doc:`/applications-generiques/erp-pgi`).
 
 
 OpenCRX
@@ -46,9 +46,8 @@ Voir également
 
 Les logiciels ci-dessous disposent de fonctions de CRM et sont traités dans d'autres sections du guide:
 
-- ERP5 (section ERP)
-
-- OpenERP (section ERP)
+- ERP5 (section :doc:`/applications-generiques/erp-pgi`)
+- Odoo (section :doc:`/applications-generiques/erp-pgi`)
 
 
 Autres

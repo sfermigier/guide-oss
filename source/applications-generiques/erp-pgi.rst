@@ -14,8 +14,8 @@ Des produits comme Compiere, ERP5 ou Odoo tiennent la corde des ERP open source.
 ERP5
 ----
 
-:Site: https://www.erp5.com
-:Porteur: un éditeur (Nexedi)
+:Site: https://www.erp5.com/
+:Porteur: un éditeur français (Nexedi)
 :Licence: GPL
 
 ERP5 a été développé à partir de 2001 par l'Ingénieur de Mines Jean-Paul Smets. Grâce à sa conception radicalement différente des autres ERP, ERP5 a remplacé avec succès des ERP propriétaires dans plusieurs entreprises multinationales, notamment au Japon et en Allemagne, ainsi que dans une banque centrale.
@@ -26,14 +26,14 @@ Alors que la plupart des ERP a besoin de milliers de tables, ERP5 parvient à un
 
 Alors que la plupart des ERP modernes fait appel à une architecture de type Object Relational Mapper (ORM), ERP5 fait appel à une base NoSQL de type objet (NEO) associée à un moteur d'indexation relationnel (MariaDB) et plein texte (Mroonga, Sphinx). ERP5 permet ainsi la migration de données sans interruption de service lors des mises à jour. Cette architecture "search based" est adaptée aux systèmes critiques en 24/7. Son moteur de sécurité par règles simplifie la gestion de droits d'accès dans les grandes organisations à organigramme matriciel (site, fonction, projet, service). ERP5 intègre le support natif du protocole git et permet le développement en ligne du code dans le navigateur de façon collaborative.
 
-ERP5 est développé par la société française Nexedi.
+ERP5 est développé principalement en Python par la société française Nexedi.
 
 
 Odoo
 ----
 
-:Site: https://www.odoo.com
-:Porteur: un éditeur (Odoo)
+:Site: https://www.odoo.com/
+:Porteur: un éditeur belge (Odoo)
 :Licence: AGPL v3
 
 Odoo (anciennement Tiny ERP puis OpenERP) a été fondé en 2005 en Belgique par Fabien Pinckaers.
@@ -42,10 +42,11 @@ Odoo combine à la fois la force d'un éditeur et celle d'une large communauté,
 
 Odoo est écrit en Python et repose sur un framework orienté objet. La base de données PostgreSQL est utilisée.
 
+
 OFBiz
 -----
 
-:Site: http://ofbiz.apache.org
+:Site: http://ofbiz.apache.org/
 :Porteur: une fondation (Apache)
 :Licence: Apache
 
@@ -56,11 +57,10 @@ Depuis le projet s’est enrichi de nombreux modules fonctionnels. En 2006, il a
 OFBiz est écrit en Java.
 
 
-
 Compiere
 --------
 
-:Site: https://www.compiere.com
+:Site: https://www.compiere.com/
 :Porteur: un éditeur (Compiere Inc.)
 :Licence: MPL
 
@@ -68,6 +68,4 @@ Compiere a été développé à ses débuts par l’allemand Jorg Janke, lequel 
 
 Les concepts de « l’application dictionnary » (modèle de méta-programmation à la base de Compiere permettant l’adéquation de la persistance relationnelle avec les structures de données métiers personnalisées et leurs interfaces) ont été prototypés dès 1988 pour SAP, puis mis au service du projet libre Compiere. Ce dernier a connu de beaux succès ses dernières années (dans le secteur de la distribution et du service tout particulièrement) grâce notamment à son support de la base de données Oracle et à son socle Java. D’un point de vue fonctionnel, Compiere est relativement complète notamment pour les PME/PMI, on peut par exemple citer : gestion des ventes, des fonctions d’achats, de fonctions de stock et de logistique, gestion comptable et financière, gestion de la production, etc.
 
-Compiere est écrit sur une base Java.
-
-
+Compiere est écrit en Java.

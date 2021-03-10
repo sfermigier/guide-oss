@@ -3,8 +3,7 @@ CMS
 
 La gestion de contenu web recouvre aujourd’hui une large palette de besoins : sites d’informations, sites Corporate, sites de services, extranets sécurisés, intranets participatifs, espaces communautaire...
 
-Pour couvrir ce périmètre, il existe d’excellentes solutions open source au périmètre très large
-comme : eZ Publish, Drupal, TYPO3, Jahia, Infoglue, SPIP, Joomla, Plone… lesquelles sont devenues des standards dans l’univers de la gestion de contenus tant elles dominent par leur capacité, leur modularité et leur périmètre fonctionnel et technique.
+Pour couvrir ce périmètre, il existe d’excellentes solutions open source au périmètre très large qui sont devenues des standards dans l’univers de la gestion de contenus tant elles dominent par leur capacité, leur modularité et leur périmètre fonctionnel et technique.
 
 Au côté de ces solutions dominantes, la convergence ERP/CRM/CMS/e-business poussée par la croissance e-commerce conduit des applicatifs issus d'autres domaines fonctionnels (ERP, CRM) à intégrer des fonctions de CMS équivalents aux meilleurs produits dédiés du marché.
 
@@ -16,13 +15,27 @@ Drupal
 :Porteur: une communauté
 :Licence: GPL
 
-Drupal est un CMS aux multiples facettes. Conçu à l’origine pour être un blog collectif, il trouve aujourd’hui des applications très variées : du site corporate au portail communautaire, il sait tout faire ! Il a été conçu dans les années 2000 par Dries Buytaert et connaît depuis un succès mondial. Une communauté énorme s’est créée autour du produit.
+Drupal est un CMS aux multiples facettes. Conçu à l’origine pour être un blog collectif, il trouve aujourd’hui des applications très variées, du site corporate au portail communautaire. Il a été conçu dans les années 2000 par Dries Buytaert et connaît depuis un succès mondial. Une importante communauté s’est créée autour du produit.
 
 La force de ce CMS est son extensibilité. Il accueille très facilement de nombreux modules complémentaires (forum, galerie photos, sondage, formulaire, newsletter, messagerie, chat, enquête, paiement en ligne, calendrier partagé, etc.). Il possède notamment des modules communautaires très soignés et appréciés ce qui le rend particulièrement adapté aux réseaux sociaux d’entreprise.
 
 Drupal est publié sous licence GNU GPL et est pleinement open source. Des offres de support existent, notamment via la société Acquia (www.acquia.com).
 
 D’un point de vue technique, Drupal est bâti autour des technologies LAMP (PHP et MySQL notamment).
+
+
+Wagtail
+-------
+
+:Site: https://wagtail.io/
+:Porteur: une entreprise (Torchbox)
+:Licence: BSD
+
+Wagtail est un CMS développé depuis 2014 sur la base du framework web Django.
+
+Wagtail comprend toutes les fonctionnalités de publication de base dont la plupart des grands sites complexes ont besoin, sans limitations concernant l'apparence ou le comportement des pages construites dans Wagtail. Pour les cas particuliers qui ne sont pas couverts par le framework de base, une architecture de plugins permet de l'étendre. `Plusieurs centaines de plugins <https://wagtail.io/packages/>`_ sont disponibles couvrant des besoins comme: types de contenus, SEO, workflows (validation), E-commerce, etc.
+
+Wagtail est développé en Python.
 
 
 eZ Publish
@@ -101,15 +114,6 @@ TYPO3 est le fruit de plusieurs années de travail d’un gourou danois du nom d
 En termes de fonctionnalités prêtes à l’emploi, TYPO3 est l’un des outils les plus riches que nous ayons trouvés à ce jour. Il offre à peu près tout ce que l’on peut souhaiter, et cela avec un bon niveau de finition. Gestion des droits et des contributions, cache, habilitations, gabarits, etc., tout y est, avec peu de limitations. Parmi les fonctionnalités offertes par TYPO3, on peut citer la manipulation d’images, qui permet de redimensionner des images, de créer des vignettes et également de générer dynamiquement des titres en tant qu’images. L’une des grandes forces de TYPO3 réside dans son extensibilité par modules. Un module peut ajouter un ensemble de fonctionnalités à TYPO3, mais aussi modifier une fonctionnalité déjà intégrée, sans modifier le code de TYPO3, et donc, le laissant compatible avec les futures versions de TYPO3.
 
 TYPO3 est écrit en PHP et utilise une base de données MySQL.
-
-
-Voir également
---------------
-
-Les logiciels ci-dessous disposent de fonctions de CMS et sont traités dans d'autres sections du guide:
-
-- ERP5 (section ERP)
-- Odoo (section ERP)
 
 
 Autres

@@ -27,7 +27,7 @@ Alfresco est écrit en JEE.
 Maarch
 ------
 
-:Site: https://www.maarch.com
+:Site: https://www.maarch.com/
 :Porteur: un éditeur (Maarch)
 :Licence: GPL v3
 
@@ -44,7 +44,7 @@ Maarch est construit sur un framework PHP maison. La société Maarch est basée
 Nuxeo
 -----
 
-:Site: https://www.nuxeo.com
+:Site: https://www.nuxeo.com/
 :Porteur: un éditeur (Nuxeo)
 :Licence: LGPL
 
@@ -55,14 +55,6 @@ Il s'agit d'une solution complète de gestion de contenu d’entreprise : métad
 Elle propose également, sous forme d'extensions, des fonctions de Digital Asset Management (DAM), de gestion des cas et d'intranet social.
 
 Nuxeo est bâtie sur des technologies JEE avec l'utilisation de composants open source issus des projets JBoss, Apache, Eclipse et des projets libres de Sun.
-
-
-Voir également
---------------
-
-Les logiciels ci-dessous disposent de fonctions de GED/ECM et sont traités dans d'autres sections du guide:
-
-- ERP5 (section ERP)
 
 
 Autres
