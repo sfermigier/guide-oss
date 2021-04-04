@@ -13,7 +13,7 @@ PostgreSQL
 :Porteur: une communauté
 :Licence: PostgreSQL License, approuvée par l'Open Source Initiative
 
-PostgreSQL est le SGBDR open source le plus complet aujourd’hui. PostgreSQL est issue de Ingres. Le projet a été lancé en 1985 par Michael Stonebraker. La première version bâtie sur l'architecture actuelle est sortie en 1995.
+PostgreSQL est le SGBDR open source le plus complet aujourd’hui. PostgreSQL est issue de Ingres, un projet lancé en 1985 par Michael Stonebraker. La première version bâtie sur l'architecture actuelle est sortie en 1995.
 
 Le périmètre fonctionnel de PostGreSQL est très large et comparable aux autres bases de données *entreprise* du marché. Il supporte les procédures stockées, les déclencheurs, les fonctions spécifiques, les indexes sur fonctions, les transactions, les règles customs permettant de modifier le chemin d'exécution des requêtes, un large éventail de types de données, de l'héritage de tables, de la recherche full-text, la répartition de charge sur plusieurs bases, etc. Ses performances et sa stabilité lui permettent de s'intégrer à une plateforme de production exigeante.
 
@@ -75,6 +75,18 @@ De nombreuses fonctionnalités sont disponibles, permettant le traitement de gé
 
 PostGIS est aujourd'hui le standard pour les bases de données spatiales open source. Elle est supportée par la grande majorité des outils SIG du marché. Elle est utilisée par de nombreux organismes sur des bases transactionnelles comme pour le traitement de données avancé dans des domaines d'applications variés.
 
+Firebird
+--------
+
+:Site: https://firebirdsql.org/
+:Porteur: Une communauté
+:Licence: IDPL
+:Wikipedia: https://fr.wikipedia.org/wiki/Firebird_(base_de_donn%C3%A9es)
+
+Firebird est une base de données relationnelle offrant de nombreuses fonctionnalités standard ANSI SQL et fonctionnant sur Linux, Windows et une variété de plateformes Unix. Firebird offre une excellente concurrence, de hautes performances et supporte les procédures stockées et les déclencheurs. Il est utilisé en production, sous différents noms, depuis 1981.
+
+Le projet actuel Firebird est un projet commercialement indépendant de développeurs C et C++, de consultants techniques et de supporters qui développent et améliorent un système de gestion de base de données relationnelle multiplateforme basé sur le code source publié par Inprise Corp (maintenant connu sous le nom de Borland Software Corp) le 25 juillet 2000.
+
 
 Autres
 ------
@@ -99,5 +111,4 @@ Bases clefs-valeurs embarquées
 Autres bases SQL
 ~~~~~~~~~~~~~~~~
 
-- FireBird: https://www.firebirdsql.org/
 - HSQLDB: https://hsqldb.org/
