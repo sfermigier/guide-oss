@@ -21,6 +21,7 @@ Ce document est à présent maintenu par `Stefane Fermigier <https://fermigier.c
    applications-generiques/index.rst
    applications-metiers/index.rst
    web-communication/index.rst
+   poste-client-bureautique/index.rst
    developpement/index.rst
    sgbd-middleware/index.rst
    devops/index.rst
