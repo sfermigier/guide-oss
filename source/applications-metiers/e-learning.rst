@@ -5,7 +5,7 @@ L’e-learning, également appelé « Formation en ligne » consiste en l’appr
 
 Elle permet de créer et mettre à disposition des apprenants, des cours et divers outils pédagogiques, d'évaluer leurs connaissances et de favoriser les communautés d'apprentissage autour d'outils collaboratifs.
 
-Parmi les principales fonctionnalités que l’on peut trouver dans un outil d’e-learning, on peut citer : gestion des professeurs, élèves et cours, création de  types de ressources pédagogiques, compatibilité SCORM, questionnaires, outils collaboratifs (wiki, forums et blog), planning, supervision des apprenants, etc.
+Parmi les principales fonctionnalités que l’on peut trouver dans un outil d’e-learning, on peut citer: gestion des professeurs, élèves et cours, création de  types de ressources pédagogiques, compatibilité SCORM, questionnaires, outils collaboratifs (wiki, forums et blog), planning, supervision des apprenants, etc.
 
 
 Moodle

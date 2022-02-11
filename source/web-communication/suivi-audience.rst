@@ -20,6 +20,38 @@ Le défi est important ; pourtant, ses débuts sont prometteurs. En quelques cli
 Matomo est bâti sur une architecture LAMP, dispose d’un système de plugins, d’une API et d’une interface.
 
 
+Plausible Analytics
+-------------------
+
+:Site: https://plausible.io/
+:Porteur: une entreprise
+:Licence: AGPL v3
+
+
+Plausible Analytics est une alternative simple, légère (< 1 KB), open-source et respectueuse de la vie privée à Google Analytics.
+Elle n'utilise pas de cookies et est entièrement conforme au RGPD.
+
+
+Shynet
+------
+
+:Site: https://github.com/milesmcc/shynet
+:Porteur: un particulier
+:Licence: Apache 2.0
+
+
+Un outil d'analyse de trafic Web sous forme de logiciel libre auto-hébergé. Ves données vous appartiennent donc. Il fonctionne sans cookies et recueille juste assez de données pour être utile, mais pas assez pour être effrayant. Et vous pouvez même trouver l'interface facile à utiliser.
+
+Ackee
+-----
+
+:Site: https://ackee.electerious.com/
+:Porteur: un particulier
+:Licence: MIT
+
+Ackee est un outil d'analyse auto-hébergé qui se soucie de la confidentialité. Ackee conserve les données suivies de manière anonyme pour éviter que les utilisateurs soient identifiables, tout en fournissant des informations utiles. C'est l'outil idéal pour toutes celles et ceux qui n'ont pas besoin d'une plateforme d'analyse marketing complète comme Google Analytics ou Matomo.
+
+
 AWStats
 -------
 
@@ -32,9 +64,3 @@ AWStats est un outil de suivi d’audience basé sur l’analyse des logs web. I
 AWStats fournit de nombreuses statistiques, graphiques et rapports à partir de l’analyse des logs web (mais également FTP, Streaming et mail). Il supporte nativement la lecture des fichiers de  logs de la pluparts des serveurs web comme Apache, WebStar, IIS, etc. Parmi les fonctionnalités d’AWStats, on peut citer : le nombre de visites, de visiteurs uniques, de pages, de hits, de transfert, par domaine/pays, hôte, heure, navigateur, OS, etc. Un des points forts d’AWStats consiste en la possibilité de générer des tableaux de façon dynamique sans perte de performances notamment grâce à une politique de cache efficace. Il est très populaire au près des administrateurs système et réseau.
 
 Écrit en Perl, AWStats peut être installé et exécuté sur la plupart des systèmes. C'est un outil de supervision très mature disposant de packages sur toutes les distributions Linux.
-
-
-Autres
-------
-
-- Ackee: https://ackee.electerious.com/
