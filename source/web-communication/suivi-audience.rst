@@ -5,6 +5,10 @@ Il existe deux catégories d’outils extérieurs aux applicatifs (au sens large
 
 Dans l’univers des solutions open source, on utilise fréquemment des outils comme AWStats (analyse de logs) ou Matomo (analyse sur base de marqueur).
 
+.. warning::
+
+    La CNIL a statué le 10 février 2022 que l'utilisation de Google Analytics était illégale en France. Les solutions qui suivent constituent des alternatives à Google Analytics conformes au RGPD.
+
 
 Matomo
 ------
@@ -51,6 +55,16 @@ Ackee
 
 Ackee est un outil d'analyse auto-hébergé qui se soucie de la confidentialité. Ackee conserve les données suivies de manière anonyme pour éviter que les utilisateurs soient identifiables, tout en fournissant des informations utiles. C'est l'outil idéal pour toutes celles et ceux qui n'ont pas besoin d'une plateforme d'analyse marketing complète comme Google Analytics ou Matomo.
 
+Umami
+-----
+
+:Site: https://umami.is/
+:Porteur: un particulier
+:Licence: MIT
+
+Umami est une solution d'analyse web simple, facile à utiliser et auto-hébergée. L'objectif est d;offrir une alternative à Google Analytics, plus conviviale et respectueuse de la vie privée, ainsi qu'une alternative gratuite et ouverte aux solutions payantes. Umami ne recueille que les mesures qui vous intéressent et tout tient sur une seule page.
+
+Développé en JavaScript avec le MySQL ou Postgresql comme base de données.
 
 AWStats
 -------
