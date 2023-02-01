@@ -6,15 +6,15 @@ Pourquoi utiliser les logiciels libres en entreprise ?
 
 Les entreprises et les administrations ont intérêt à utiliser les logiciels libres / open source pour les raisons suivantes:
 
-**Indépendance technologique** : En utilisant des logiciels libres, les entreprises ne sont pas dépendantes d'un seul fournisseur et peuvent ainsi minimiser leur risque de dépendance. Les administrations peuvent pour cette même raison mieux garantir leur `souveraineté numérique <https://souverainete.net/>`.
+**Indépendance technologique** : en utilisant des logiciels libres, les entreprises ne sont pas dépendantes d'un seul fournisseur et peuvent ainsi minimiser leur risque de dépendance. Les administrations peuvent pour cette même raison mieux garantir leur `souveraineté numérique <https://souverainete.net/>`.
 
-**Flexibilité** : Les logiciels libres peuvent être personnalisés et modifiés pour répondre aux besoins spécifiques de l'entreprise, ce qui n'est pas possible avec les logiciels propriétaires.
+**Flexibilité** : les logiciels libres peuvent être personnalisés et modifiés pour répondre aux besoins spécifiques de l'entreprise, ce qui est impossible avec les logiciels propriétaires.
 
-**Interopérabilité** : Les logiciels libres sont souvent conçus pour fonctionner avec d'autres logiciels libres et peuvent donc être intégrés à d'autres systèmes d'information de l'entreprise.
+**Interopérabilité** : les logiciels libres sont souvent conçus pour fonctionner avec d'autres logiciels libres et peuvent donc être intégrés à d'autres systèmes d'information de l'entreprise.
 
-**Sécurité** : Les logiciels libres sont développés de manière transparente et ouverte, ce qui les rend facilement auditables, et contribue à augmenter leur sécurité.
+**Sécurité** : les logiciels libres sont développés de manière transparente et ouverte, ce qui les rend facilement auditables, et contribue à augmenter leur sécurité.
 
-**Économie de coûts** : Les logiciels libres permettent des économies substantielles sur les licences.
+**Économie de coûts** : les logiciels libres permettent des économies substantielles sur les licences.
 
 
 Genèse de ce document
