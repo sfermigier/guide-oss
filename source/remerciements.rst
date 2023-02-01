@@ -32,4 +32,4 @@ Michaël BELKASMI, Michael BAILLY, Jean-Louis ERCOLANI, David CARELLA,
 Jean-Paul SMETS.
 
 Depuis 2021 cette version du document est maintenu par Stefane
-Fermigier.
+Fermigier (@ `Abilian <https://abilian.com/>`).

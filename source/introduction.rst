@@ -1,9 +1,28 @@
 Introduction
 ============
 
-Les pages qui suivent présentent près de 200 produits dans 40 domaines d’applications pour l’entreprise. Leur objectif est de constituer un référentiel large et pratique des meilleures solutions open source.
+Pourquoi utiliser les logiciels libres en entreprise ?
+------------------------------------------------------
 
-Ces produits recouvrent un périmètre large. Ils ont été sélectionnés par un groupe d'experts techniques, fonctionnels et métiers, d'abord au sein de la société Smile, qui a accepté de faire don de son travail pour constituer le présent guide, puis étendus par un second groupe d'experts, membres du Groupe Thématique Logiciel Libre.
+Les entreprises et les administrations ont intérêt à utiliser les logiciels libres / open source pour les raisons suivantes:
+
+**Indépendance technologique** : En utilisant des logiciels libres, les entreprises ne sont pas dépendantes d'un seul fournisseur et peuvent ainsi minimiser leur risque de dépendance. Les administrations peuvent pour cette même raison mieux garantir leur `souveraineté numérique <https://souverainete.net/>`.
+
+**Flexibilité** : Les logiciels libres peuvent être personnalisés et modifiés pour répondre aux besoins spécifiques de l'entreprise, ce qui n'est pas possible avec les logiciels propriétaires.
+
+**Interopérabilité** : Les logiciels libres sont souvent conçus pour fonctionner avec d'autres logiciels libres et peuvent donc être intégrés à d'autres systèmes d'information de l'entreprise.
+
+**Sécurité** : Les logiciels libres sont développés de manière transparente et ouverte, ce qui les rend facilement auditables, et contribue à augmenter leur sécurité.
+
+**Économie de coûts** : Les logiciels libres permettent des économies substantielles sur les licences.
+
+
+Genèse de ce document
+---------------------
+
+Les pages qui suivent présentent près de 200 produits dans 40 domaines d’applications pour l’entreprise. Leur objectif est de constituer un référentiel large et pratique des meilleures solutions libres et open source (F/OSS).
+
+Ces produits recouvrent un périmètre large. Ils ont été sélectionnés par un groupe d'experts techniques, fonctionnels et métiers, d'abord au sein de la société Smile, qui a accepté de faire don de son travail pour constituer le présent guide, puis étendus par un second groupe d'experts, membres du Groupe Thématique Logiciel Libre, et enfin par Abilian.
 
 Choix des catégories
 --------------------
