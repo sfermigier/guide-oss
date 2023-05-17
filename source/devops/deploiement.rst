@@ -1,9 +1,9 @@
 Déploiement
 ===========
 
-Les outils de déploiement permettent de préparer à distance des environnements selon des réglés prédéfinies ou selon un état final attendu. Toutes les grandes entreprises utilisent des logiciels de déploiement pour faciliter l’administration de leur parc.
+Les outils de déploiement permettent de préparer à distance des environnements selon des règles prédéfinies ou selon un état final attendu. Toutes les grandes entreprises utilisent des logiciels de déploiement pour faciliter l’administration de leur parc.
 
-Ces outils peuvent être classés en plusieurs sous-catégories
+Ces outils peuvent être classés en plusieurs sous-catégories:
 
 - **Outils de gestion de configuration** : Ces outils aident à automatiser le processus de configuration des systèmes et des applications dans une infrastructure informatique. Ils permettent aux administrateurs de définir l'état désiré pour les systèmes et les applications, puis travaillent pour amener les systèmes à cet état. Ces outils sont particulièrement utiles dans les environnements avec de nombreux systèmes, où la configuration manuelle de chaque système serait une tâche difficile et sujette à erreurs. Nous présentons plus spécialement:
 
