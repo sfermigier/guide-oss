@@ -1,4 +1,4 @@
-ERP / PGI
+  ERP / PGI
 =========
 
 Le monde du progiciel de gestion intégré (PGI, ou ERP en anglais), est à son tour gagné par des solutions open source arrivées à maturité.
@@ -69,3 +69,22 @@ Compiere a été développé à ses débuts par l’allemand Jorg Janke, lequel 
 Les concepts de « l’application dictionnary » (modèle de méta-programmation à la base de Compiere permettant l’adéquation de la persistance relationnelle avec les structures de données métiers personnalisées et leurs interfaces) ont été prototypés dès 1988 pour SAP, puis mis au service du projet libre Compiere. Ce dernier a connu de beaux succès ses dernières années (dans le secteur de la distribution et du service tout particulièrement) grâce notamment à son support de la base de données Oracle et à son socle Java. D’un point de vue fonctionnel, Compiere est relativement complète notamment pour les PME/PMI, on peut par exemple citer : gestion des ventes, des fonctions d’achats, de fonctions de stock et de logistique, gestion comptable et financière, gestion de la production, etc.
 
 Compiere est écrit en Java.
+
+
+Dolibarr
+----
+
+:Site: https://www.dolibarr.org/
+:Porteur: Communautaire
+:Licence: GPL v3
+
+Dolibarr a été développé initialement par Rodolphe Quiédeville en avril 2002 (depuis basculé sur GitHub). La gestion des contributions est pilotée par Laurent Destailleur (Benevolent Dictator for Life).
+
+Dolibarr est porté par une large communauté d'intégrateur français, mais aussi allemand, italien, espagnol, etc... et dispose désormais d'une diffusion internationale.
+
+Une association a été créée en France. Elle a pour objet le développement (au sens promotion et non codage informatique), la documentation, la protection, la promotion, la sécurisation et la diffusion du logiciel libre de gestion d'activité professionnelle ou associative Dolibarr ERP et CRM.
+
+Une place de marché gérée par l'association Dolibarr https://www.dolistore.com/ met à disposition plusieurs centaines de modules complémentaires permettant de compléter les fonctionnalités standard de Dolibarr.
+
+Dolibarr est écrit en PHP. La base de données MySQL/MariaDB ou PostgreSQL (support limité sur les modules complémentaires) est utilisée.
+
