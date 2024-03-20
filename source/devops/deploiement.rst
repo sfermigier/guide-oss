@@ -24,6 +24,26 @@ Ces outils peuvent être classés en plusieurs sous-catégories:
 	- OCS Inventory NG
 
 
+Cadre conceptuel
+----------------
+
+Plusieurs des cités se fondent sur la théorie (*Promise Theory*), un cadre conceptuel développé par Mark Burgess, le créateur de CFEngine, pour aider à comprendre et à modéliser des systèmes distribués complexes.
+
+Dans le cadre de la théorie des promesses, un système est compris comme un ensemble d'agents indépendants. Chaque agent peut faire des promesses concernant son propre comportement. Par exemple, dans un système informatique, un agent pourrait être un serveur qui promet de répondre à certaines requêtes, ou un logiciel qui promet de produire certains résultats lorsqu'il reçoit certaines entrées.
+
+Voici quelques principes clés de la théorie des promesses :
+
+- **Autonomie des agents** : Chaque agent est autonome et a le contrôle total sur les promesses qu'il fait. Aucun agent ne peut forcer un autre agent à faire une promesse.
+
+- **Promesses volontaires** : Les promesses sont faites volontairement par les agents. Un agent ne peut pas être contraint de faire une promesse qu'il ne veut pas faire.
+
+- **Promesses comme interface** : Les promesses servent d'interface entre les agents. Elles définissent ce qu'un agent est prêt à faire, mais ne spécifient pas comment l'agent doit accomplir ce qu'il promet.
+
+- **Promesses et observation** : La vérification du respect d'une promesse se fait par l'observation. Si un agent promet de faire quelque chose, les autres agents vérifient cette promesse en observant le comportement de l'agent.
+
+La théorie des promesses offre une manière décentralisée et ascendante de comprendre les systèmes, qui contraste avec les approches plus traditionnelles, descendantes et centralisées. Dans ces dernières, un agent (ou un petit nombre d'agents) tente d'imposer un comportement à l'ensemble du système. En revanche, dans la théorie des promesses, le comportement global du système émerge des interactions entre de nombreux agents indépendants, chacun faisant ses propres promesses.
+
+
 Ansible
 -------
 
@@ -166,6 +186,8 @@ Gestion de configuration :
 - **CFEngine** : C'est l'un des premiers outils de gestion de configuration. Il est connu pour sa vitesse et sa capacité à gérer des milliers de noeuds.
 - **Terraform** : C'est un outil de gestion de configuration qui se concentre sur l'infrastructure en tant que code (IaC). Il est largement utilisé pour la gestion de l'infrastructure dans le cloud.
 - **Juju** : C'est un outil développé par Canonical (la société derrière Ubuntu) qui se concentre sur le déploiement et la gestion des services au-dessus du niveau du système d'exploitation.
+- **pyinfra** : Il s'agit d'un outil de déploiement de serveurs et d'outil de gestion de configuration écrit en Python. Il fonctionne en générant et en exécutant des commandes SSH sur les serveurs cibles. pyinfra est conçu pour être rapide, avec un temps de déploiement minimal, et pour fonctionner avec toute configuration de serveur, que vous ayez un seul serveur ou des milliers. Il offre également une API Python, ce qui signifie que vous pouvez intégrer pyinfra dans d'autres scripts ou outils Python.
+- **BundleWrap** : Est également un outil de gestion de configuration basé sur Python. Comme pyinfra, il utilise SSH pour communiquer avec les serveurs cibles. BundleWrap se distingue par son approche de la gestion de configuration : chaque nœud a un bundle qui décrit l'état désiré pour ce nœud, et BundleWrap travaille pour amener le nœud à cet état. Il est conçu pour être simple à comprendre et à utiliser, avec un système de fichiers en texte brut et un ensemble minimal de concepts à apprendre.
 
 Clonage de disques :
 
