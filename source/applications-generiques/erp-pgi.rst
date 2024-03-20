@@ -1,4 +1,4 @@
-  ERP / PGI
+ERP / PGI
 =========
 
 Le monde du progiciel de gestion intégré (PGI, ou ERP en anglais), est à son tour gagné par des solutions open source arrivées à maturité.
@@ -72,7 +72,7 @@ Compiere est écrit en Java.
 
 
 Dolibarr
-----
+--------
 
 :Site: https://www.dolibarr.org/
 :Porteur: Communautaire
@@ -87,4 +87,3 @@ Une association a été créée en France. Elle a pour objet le développement (
 Une place de marché gérée par l'association Dolibarr https://www.dolistore.com/ met à disposition plusieurs centaines de modules complémentaires permettant de compléter les fonctionnalités standard de Dolibarr.
 
 Dolibarr est écrit en PHP. La base de données MySQL/MariaDB ou PostgreSQL (support limité sur les modules complémentaires) est utilisée.
-
