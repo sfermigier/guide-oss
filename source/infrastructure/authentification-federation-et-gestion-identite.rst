@@ -25,6 +25,26 @@ CAS permet de faire du Single Sign On entre plusieurs sites, y compris dans des 
 CAS est écrit en Java, et fournit des clients CAS pour intégrer les applications au SSO, ceci en Java, PHP et .Net. Un module Apache est également disponible.
 
 
+FusionDirectory
+---------------
+
+:Site: https://www.fusiondirectory.org
+:Porteur: un editeur, FusionDirectory
+:Licence: GPL
+
+Fusiondirectory est une application de gestion des identités, il est issu d'un fork communautaire de GOsa2 en 2010, en 2019, FusionDirectory qui avait déjà le rôle de steward du projet devient officiellement son éditeur.
+
+FusionDirectory fournit une interface simplifiée pour la gestion des identités tout en étant extensible, il compte aujourd'hui plus de 60 plugins dédiés à des besoins particuliers.
+
+FusionDirectory supporte nativement une série norme et d'applicatifs dédiée à l'enseignement supérieur, recherche : Supann, PARTAGE par RENATER et sinaps de l'AMUE.
+
+L'API FusionDirectory vous permet d'écrire de nouveaux plugins pour étendre ses fonctionnalités et répondre à vos besoins.
+
+Le webservice REST de FusionDirectory lui permet de s'intégrer dans des processus complexes de création de comptes et de groupes, entre autres.
+
+FusionDirectory est écrit en PHP
+
+
 LemonLDAP::NG
 --------------
 
