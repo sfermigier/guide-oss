@@ -63,6 +63,3 @@ Autres
 Dans l’univers de la gestion documentaire, l’offre open source est particulièrement vigoureuse. Pour preuve, au-delà des produits présentés précédemment, on peut également citer les outils ci-dessous :
 
 - Anakeen: https://www.anakeen.com/fr/
-
-- Kimios: https://www.kimios.com/
-
