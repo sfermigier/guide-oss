@@ -112,7 +112,6 @@ TWiki est composé de scripts cgi-bin écrits en Perl. Les informations contenue
 Autres
 ------
 
-- MoinMoin: https://www.discourse.org/
+- MoinMoin: https://moinmo.in/
 - DokuWiki: http://www.dokuwiki.org/dokuwiki
 - MediaWiki: http://www.mediawiki.org
-
