@@ -129,7 +129,6 @@ Dans l’univers de la gestion de contenu, l’offre open source est particuliè
 - SilverStripe: http://www.silverstripe.com
 - Modx: http://modx.com
 - CMS Made Simple: http://www.cmsmadesimple.fr
-- Sympal: http://www.sympalphp.org
 - Apostrophe: http://apostrophenow.com
 - Magnolia: http://www.magnolia-cms.com
 - Silverpeas: http://www.silverpeas.com
@@ -137,3 +136,163 @@ Dans l’univers de la gestion de contenu, l’offre open source est particuliè
 - Centurion: http://centurion-project.org
 - OpenCMS: http://www.opencms.org
 
+Comparaison synthétique
+-----------------------
+
+.. list-table::
+   :header-rows: 1
+
+   * - CMS
+     - Site
+     - Porteur
+     - Licence
+     - Langages/Technologies
+     - Caractéristiques Distinctives
+     - Année de Création
+   * - Drupal
+     - https://www.drupal.org/
+     - une communauté
+     - GPL
+     - PHP, MySQL
+     - Extensibilité, nombreux modules complémentaires, adapté aux réseaux sociaux d'entreprise
+     - 2000
+   * - Wagtail
+     - https://wagtail.io/
+     - une entreprise (Torchbox)
+     - BSD
+     - Python, Django
+     - Basé sur Django, architecture de plugins, nombreux plugins disponibles
+     - 2014
+   * - eZ Publish
+     - https://www.ez.no/
+     - un éditeur (eZ Systems)
+     - GPL
+     - PHP, MySQL, PostgreSQL, Oracle
+     - Hautement paramétrable, multi-positionnement, versionning, multilinguisme
+     - 1999
+   * - Jahia
+     - https://www.jahia.com/
+     - un éditeur (Jahia Corp)
+     - GPL
+     - JEE, Hibernate, JSR 170, Apache Lucene
+     - Portail JEE et CMS intégré, interface d'administration fusionnée avec le site, gestion multi-sites
+     - 2000
+   * - Joomla
+     - https://www.joomla.org/
+     - une communauté
+     - GPL
+     - PHP, MySQL
+     - Interface conviviale, adapté aux non-techniciens, nombreux modules intégrés
+     - 2005
+   * - SPIP
+     - https://www.spip.net/
+     - une communauté
+     - GPL
+     - PHP, MySQL, PostgreSQL, SQLite
+     - Simplicité d'utilisation et de déploiement, interface privée simplifiée
+     - 2001
+   * - TYPO3
+     - https://www.typo3.org/
+     - une communauté
+     - GPL
+     - PHP, MySQL
+     - Extensibilité par modules, manipulation d'images, gestion des droits et des contributions
+     - 2000
+   * - Plone
+     - http://plone.org
+     - une communauté
+     - GPL
+     - Python, Zope
+     - Extensibilité par modules, sécurité avancée
+     - 2001
+   * - Zope
+     - http://www.zope.org
+     - une communauté
+     - ZPL
+     - Python
+     - Serveur d'applications orienté objet
+     - 1998
+   * - Infoglue
+     - http://www.infoglue.org
+     - une communauté
+     - LGPL
+     - Java
+     - Haute configurabilité, gestion de contenu complexe
+     - 2005
+   * - Mambo
+     - http://www.mamboserver.com
+     - une communauté
+     - GPL
+     - PHP
+     - Simplicité d'utilisation, nombreux modules disponibles
+     - 2000
+   * - Apache Lenya
+     - http://lenya.apache.org
+     - une fondation (Apache)
+     - Apache License 2.0
+     - Java
+     - Gestion de contenu flexible, intégration Apache
+     - 2003
+   * - SilverStripe
+     - http://www.silverstripe.com
+     - une entreprise (SilverStripe Ltd.)
+     - BSD
+     - PHP, MySQL
+     - Interface utilisateur conviviale, extensible
+     - 2006
+   * - Modx
+     - http://modx.com
+     - une communauté
+     - GPL
+     - PHP
+     - Flexibilité et personnalisation, riche en fonctionnalités
+     - 2004
+   * - CMS Made Simple
+     - http://www.cmsmadesimple.fr
+     - une communauté
+     - GPL
+     - PHP
+     - Facilité de déploiement et d'utilisation
+     - 2004
+   * - Apostrophe
+     - http://apostrophenow.com
+     - une communauté
+     - GPL
+     - PHP
+     - Simplicité et efficacité pour les développeurs
+     - 2009
+   * - Magnolia
+     - http://www.magnolia-cms.com
+     - une entreprise (Magnolia International Ltd.)
+     - GPL
+     - Java
+     - Support de normes JCR, extensibilité
+     - 2003
+   * - Silverpeas
+     - http://www.silverpeas.com
+     - une entreprise (Silverpeas)
+     - GPL
+     - Java
+     - Solution intégrée pour la gestion de contenu et collaboration
+     - 2002
+   * - Umbraco
+     - http://umbraco.com
+     - une entreprise (Umbraco HQ)
+     - MIT
+     - C#
+     - Facile à utiliser, riche en fonctionnalités
+     - 2000
+   * - Centurion
+     - http://centurion-project.org
+     - une communauté
+     - GPL
+     - PHP
+     - Extensible, orienté développeur
+     - 2011
+   * - OpenCMS
+     - http://www.opencms.org
+     - une communauté
+     - GPL
+     - Java
+     - Gestion avancée de contenu, support de normes
+     - 2000
