@@ -6,7 +6,7 @@ Pourquoi utiliser les logiciels libres en entreprise ?
 
 Les entreprises et les administrations ont intérêt à utiliser les logiciels libres / open source pour les raisons suivantes:
 
-**Indépendance technologique** : en utilisant des logiciels libres, les entreprises ne sont pas dépendantes d'un seul fournisseur et peuvent ainsi minimiser leur risque de dépendance. Les administrations peuvent pour cette même raison mieux garantir leur `souveraineté numérique <https://souverainete.net/>`.
+**Indépendance technologique** : en utilisant des logiciels libres, les entreprises ne sont pas dépendantes d'un seul fournisseur et peuvent ainsi minimiser leur risque de dépendance. Les administrations peuvent pour cette même raison mieux garantir leur `souveraineté numérique <https://souverainete.net/>`_.
 
 **Flexibilité** : les logiciels libres peuvent être personnalisés et modifiés pour répondre aux besoins spécifiques de l'entreprise, ce qui est impossible avec les logiciels propriétaires.
 
