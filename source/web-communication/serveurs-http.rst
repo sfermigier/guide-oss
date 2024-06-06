@@ -146,3 +146,59 @@ Caractéristiques et fonctionnalités :
 uWSGI est souvent utilisé conjointement avec des serveurs web comme Nginx ou Apache en tant que reverse proxy, créant une architecture robuste et scalable pour les applications web. Son support étendu de divers langages et protocoles le rend particulièrement adapté pour des environnements hétérogènes où plusieurs technologies coexistent.
 
 L'une des forces de uWSGI est sa capacité à être hautement configurable et extensible, permettant aux développeurs de fine-tuner leur environnement de déploiement pour des performances optimales. Les fonctionnalités comme le rechargement à chaud, la gestion des workers, et les capacités de clustering offrent une grande flexibilité pour le déploiement et la gestion des applications.
+
+Comparaison
+------------
+
+.. list-table::
+   :header-rows: 1
+
+   * - Serveur
+     - Site
+     - Porteur
+     - Licence
+     - Langages/Protocoles Supportés
+     - Caractéristiques Distinctives
+     - Année de Création
+   * - Apache Httpd
+     - http://httpd.apache.org
+     - Apache Software Foundation
+     - Apache License 2.0
+     - PERL, PHP, Python, Ruby, SSI, CGI
+     - Grande souplesse de configuration, nombreux modules, support IPv6
+     - 1995
+   * - Nginx
+     - https://nginx.org
+     - NGINX, Inc. (acquise par F5 Networks)
+     - 2-clause BSD
+     - HTTP, FastCGI, SCGI, uWSGI, SSL/TLS
+     - Architecture asynchrone, faible utilisation des ressources, haute performance
+     - 2004
+   * - Lighttpd
+     - https://www.lighttpd.net
+     - un projet open source (initié par Jan Kneschke)
+     - BSD
+     - HTTP, FastCGI, SCGI, CGI, SSL/TLS
+     - Conception légère, optimisation pour haute performance, faible utilisation des ressources
+     - 2003
+   * - Caddy
+     - https://caddyserver.com
+     - Light Code Labs
+     - Apache License 2.0
+     - HTTP/2, HTTP/3, FastCGI, WebSockets, SSL/TLS
+     - Configuration facile, HTTPS automatique, architecture modulaire
+     - 2015
+   * - Gunicorn
+     - https://gunicorn.org
+     - un projet open source (initié par Benoit Chesneau)
+     - MIT
+     - WSGI, Unix Sockets, TCP Sockets
+     - Simplicité d'utilisation, gestion efficace des ressources, flexible
+     - 2009
+   * - uWSGI
+     - https://uwsgi-docs.readthedocs.io
+     - un projet open source (initié par Roberto De Ioris)
+     - GPL
+     - HTTP, FastCGI, SCGI, uWSGI, Python, Perl, Ruby, Lua, PHP
+     - Extensible via plugins, support multi-langages, haute configurabilité
+     - 2008
