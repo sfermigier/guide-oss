@@ -47,3 +47,45 @@ Keepalived
 Keepalived est un composant permettant de configurer LVS (LinuxVirtualServer). Le projet existe depuis 2001.
 
 LVS étant un système relativement basique et statique, il a besoin d'un logiciel pour maintenir sa configuration. Keepalived permet de faire des tests de disponibilité (par exemple connexion TCP, requête HTTP) d'un service, tient à jour la liste des serveurs utilisables pour LVS. Il gère également un système de bascule IP basé sur VRRP pour sa propre redondance.
+
+
+Pacemaker
+---------
+
+:Site: https://clusterlabs.org/pacemaker/
+:Porteur: une communauté
+:Licence: GPL
+
+Pacemaker est un gestionnaire de clusters de haute disponibilité. Il assure la gestion des ressources et les opérations de bascule dans un environnement de cluster. Le projet a débuté en 2004.
+
+Pacemaker fonctionne en conjonction avec d'autres composants tels que Corosync ou Heartbeat pour surveiller l'état des nœuds et gérer les défaillances. Il est capable de gérer un large éventail de ressources, y compris les systèmes de fichiers, les services réseau et les applications.
+
+Pacemaker est écrit principalement en C.
+
+
+Corosync
+--------
+
+:Site: https://clusterlabs.org/corosync.html
+:Porteur: une communauté
+:Licence: BSD
+
+Corosync est un logiciel de communication et de quorum pour clusters. Il a été initialement lancé en 2008.
+
+Il fournit une bibliothèque de communication pour les nœuds d'un cluster et assure la diffusion des informations de l'état du cluster. Corosync est souvent utilisé en conjonction avec Pacemaker pour créer des environnements de haute disponibilité robustes.
+
+Corosync est écrit en C.
+
+
+DRBD
+----
+
+:Site: https://www.linbit.com/en/drbd/
+:Porteur: LINBIT
+:Licence: GPL
+
+DRBD (Distributed Replicated Block Device) est un système de réplication de données en temps réel. Le projet a commencé en 1999.
+
+Il permet de mirrorer des partitions de disques entiers entre des nœuds d'un cluster, assurant ainsi une redondance des données. DRBD fonctionne en conjonction avec d'autres composants de haute disponibilité comme Pacemaker et Corosync.
+
+DRBD est écrit en C.
