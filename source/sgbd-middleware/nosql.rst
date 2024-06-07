@@ -13,7 +13,7 @@ Apache Hadoop
 
 Apache Hadoop est une plateforme Java pour développer des applications distribuées autour de jeux de données massifs. Hadoop comprend un nombre significatif de sous-projets, dont les plus fondamentaux sont MapReduce, framework de calcul distribué massivement parallèle et HDFS, système de fichier distribué qui permet l'accès à haut débit à des jeux de données massifs.
 
-Plusieurs autres projets Apache viennent Hadoop, comme par exemple ZooKeeper, qui permet de coordonner la configurations des différents serveurs d'un cluster de calcul, ou Hive et Pig, qui implémentent des langages de requêtes spécifiques aux jobs MapReduce exécutés par Hadoop.
+Plusieurs autres projets Apache viennent compléter Hadoop, comme par exemple ZooKeeper, qui permet de coordonner la configurations des différents serveurs d'un cluster de calcul, ou Hive et Pig, qui implémentent des langages de requêtes spécifiques aux jobs MapReduce exécutés par Hadoop.
 
 Hadoop est écrit en Java, et soutenu par plusieurs startups américaines.
 
@@ -74,11 +74,85 @@ Cassandra est une base de données dite "orientée colonne". Etudiée pour des d
 Cassandra est écrit en Java.
 
 
-Autres
-------
+CouchDB
+-------
 
-L'univers Big Data / NoSQL est particulièrement dynamique, on peut compléter la liste avec les outils ci-dessous :
+:Site: https://couchdb.apache.org/
+:Porteur: une fondation (Apache)
+:Licence: Apache 2.0
 
-- Apache CouchDB: https://couchdb.apache.org/
-- Neo4j: https://neo4j.org
-- HBase: https://hbase.apache.org/
+Apache CouchDB est une base de données NoSQL orientée documents qui utilise JSON pour le stockage des données, JavaScript pour les requêtes MapReduce et HTTP pour une API RESTful. CouchDB est conçue pour être hautement disponible et partitionnée, ce qui la rend adaptée pour des applications distribuées. CouchDB offre également des capacités de synchronisation, ce qui permet une utilisation efficace dans des environnements déconnectés.
+
+CouchDB est écrit en Erlang.
+
+
+HBase
+-----
+
+:Site: https://hbase.apache.org/
+:Porteur: une fondation (Apache)
+:Licence: Apache 2.0
+
+Apache HBase est une base de données NoSQL orientée colonnes qui est construite sur le système de fichiers distribué Hadoop (HDFS). HBase est conçu pour fournir un accès aléatoire en temps réel à de grandes quantités de données structurées. Il est particulièrement utilisé pour les applications nécessitant des opérations de lecture/écriture fréquentes sur des ensembles de données volumineux. HBase est souvent comparé à Google Bigtable et est utilisé dans des environnements nécessitant une haute scalabilité et performance.
+
+HBase est écrit en Java.
+
+
+RavenDB
+-------
+
+:Site: https://ravendb.net/
+:Porteur: une entreprise (Hibernating Rhinos Ltd.)
+:Licence: Affero GPL
+
+RavenDB est une base de données NoSQL orientée documents, conçue pour être facile à utiliser et à déployer. Elle offre des fonctionnalités avancées telles que l'indexation automatique, les requêtes full-text, la réplication entre nœuds, et la haute disponibilité. RavenDB propose également une API RESTful et des SDK pour plusieurs langages de programmation, ce qui facilite son intégration dans diverses applications.
+
+RavenDB est écrit en C#.
+
+
+OrientDB
+--------
+
+:Site: https://www.orientdb.org/
+:Porteur: une entreprise (OrientDB Ltd.)
+:Licence: Apache 2.0
+
+OrientDB est une base de données multi-modèles qui prend en charge les modèles de données orientés graphes, documents, clé/valeur et objets. Cette polyvalence permet à OrientDB de répondre à une large gamme de besoins applicatifs. Elle est conçue pour être hautement performante et scalable, avec des fonctionnalités avancées telles que la gestion des transactions ACID, la réplication, et la sharding.
+
+OrientDB est écrit en Java.
+
+
+Neo4j
+-----
+
+:Site: https://neo4j.com/
+:Porteur: une entreprise (Neo4j, Inc.)
+:Licence: GNU Affero General Public License (AGPL)
+
+Neo4j est une base de données orientée graphes, conçue pour stocker et gérer des données fortement connectées. Elle est particulièrement adaptée aux applications nécessitant une navigation et une exploration efficaces des relations entre les données, telles que les réseaux sociaux, la détection de fraudes, et la gestion de réseaux IT. Neo4j offre un langage de requête graphique appelé Cypher, qui permet de formuler des requêtes complexes de manière intuitive.
+
+Neo4j est écrit en Java.
+
+
+ArangoDB
+--------
+
+:Site: https://www.arangodb.com/
+:Porteur: une entreprise (ArangoDB GmbH)
+:Licence: Apache 2.0
+
+ArangoDB est une base de données multi-modèles qui supporte les modèles de données orientés documents, graphes et clé/valeur. Cette flexibilité permet aux développeurs de travailler avec plusieurs types de données au sein d'un même moteur de base de données. ArangoDB propose un langage de requête propre, AQL, et supporte également les transactions ACID, la réplication, et le sharding. Elle est conçue pour des applications nécessitant des performances élevées et une scalabilité.
+
+ArangoDB est écrit en C++.
+
+
+JanusGraph
+----------
+
+:Site: https://janusgraph.org/
+:Porteur: une fondation (The Linux Foundation)
+:Licence: Apache 2.0
+
+JanusGraph est une base de données orientée graphes distribuée et évolutive, dérivée de Titan. Elle est conçue pour la gestion de graphes massifs contenant des milliards de sommets et d'arêtes, et pour répondre aux requêtes en temps quasi réel. JanusGraph supporte plusieurs moteurs de stockage backend comme Apache Cassandra, HBase, Google Bigtable, et Oracle BerkeleyDB. Elle offre des fonctionnalités avancées telles que les transactions ACID, la réplication multi-région, et l'intégration avec des systèmes analytiques comme Hadoop et Spark.
+
+JanusGraph est écrit en Java.

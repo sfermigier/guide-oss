@@ -41,6 +41,62 @@ VTiger est une société présente à Bangalore, en Inde et à Sunnyvale, en Cal
 Le produit est bâti sur une plateforme LAMP/WAMP. VTiger OnDemand (basé sur le Cloud) est hébergé sur la plateforme d'Amazon EC2. Le code issu du fork de SugarCRM est sous la licence publique de SugarCRM, et les modifications VTiger sont sous la licence MPL.
 
 
+SuiteCRM
+--------
+
+:Site: https://suitecrm.com
+:Porteur: une communauté
+:Licence: AGPL v3
+
+SuiteCRM est un fork de SugarCRM Community Edition, lancé en 2013 par SalesAgility. Ce CRM open source est conçu pour fournir une alternative complète et libre à SugarCRM.
+
+SuiteCRM propose une gamme complète de fonctionnalités, notamment la gestion des leads et des opportunités, le service client, les campagnes marketing, la gestion des projets, et les rapports avancés. SuiteCRM est régulièrement mis à jour avec de nouvelles fonctionnalités et améliorations.
+
+SuiteCRM est développé en PHP et utilise MySQL pour la gestion de ses bases de données.
+
+
+CiviCRM
+-------
+
+:Site: https://civicrm.org
+:Porteur: une communauté
+:Licence: AGPL v3
+
+CiviCRM est un CRM open source conçu spécifiquement pour les associations, les organisations à but non lucratif, et les ONG. Le projet a débuté en 2005.
+
+CiviCRM offre des fonctionnalités telles que la gestion des membres, les collectes de fonds, la gestion des événements, les campagnes de communication, et la gestion des contacts. Il s'intègre bien avec des systèmes de gestion de contenu comme Drupal, Joomla, et WordPress.
+
+CiviCRM est principalement développé en PHP.
+
+
+EspoCRM
+-------
+
+:Site: https://www.espocrm.com
+:Porteur: une entreprise (EspoCRM)
+:Licence: GPL v3
+
+EspoCRM est un CRM open source moderne et léger, lancé en 2014. Il est conçu pour être flexible et facilement personnalisable pour répondre aux besoins des entreprises.
+
+EspoCRM offre des fonctionnalités de gestion des ventes, des leads, des opportunités, des comptes, et des contacts. Il propose également des fonctionnalités avancées telles que les flux de travail, les rapports, les tableaux de bord, et les intégrations avec d'autres applications.
+
+EspoCRM est développé en PHP et JavaScript, et utilise MySQL pour la gestion des bases de données.
+
+
+Crust CRM (anciennement Corteza CRM)
+------------------------------------
+
+:Site: https://www.crust.tech
+:Porteur: une entreprise (Crust Technology)
+:Licence: AGPL v3
+
+Crust CRM, anciennement connu sous le nom de Corteza CRM, est une solution CRM open source développée par Crust Technology. Le projet a été lancé en 2018.
+
+Crust CRM offre des fonctionnalités avancées pour la gestion des ventes, des services clients, et des campagnes marketing. Il propose des outils de collaboration, des tableaux de bord personnalisables, et des intégrations avec d'autres systèmes via des API.
+
+Crust CRM est développé en Go et JavaScript, et utilise PostgreSQL pour la gestion des bases de données.
+
+
 Voir également
 --------------
 
