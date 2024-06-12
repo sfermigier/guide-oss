@@ -8,13 +8,13 @@ SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = source
 BUILDDIR      = build
 
-.PHONY: help Makefile all deploy
+.PHONY: help Makefile all build deploy
 
 
 HOST:=trunks3.abilian.com
 
 
-all: html deploy
+all: build deploy
 
 
 help:

@@ -91,13 +91,46 @@ Nua est développé en Python.
 
 :Porteur: une entreprise (Abilian)
 
-:Licence: AGPL-3.0
+:Licence: MIT
 
 Hop3 est un outil pour déployer et gérer des applications web sur un seul serveur. Il est conçu pour être simple, sécurisé et facile à utiliser. Hop3 vise à améliorer l'informatique en nuage en mettant l'accent sur la souveraineté, la sécurité, la durabilité et l'inclusivité. Il facilite l'accès aux technologies cloud pour une large gamme d'utilisateurs, notamment les petites et moyennes entreprises (PME), les associations, les services publics et les développeurs individuels.
 
 La stack technologique de Hop3 est soigneusement choisie pour soutenir ses objectifs sans dépendre des outils de conteneurisation conventionnels comme Docker ou Kubernetes. Elle se concentre sur des solutions alternatives et légères qui s'alignent sur les principes d'efficacité et de souveraineté du projet.
 
 Hop3 est développé en Python.
+
+### Piku
+
+:Site: https://github.com/piku/piku
+
+:Porteur: une communauté
+
+:Licence: MIT
+
+Piku est une plateforme PaaS minimaliste open source qui permet de déployer des applications en utilisant des commandes Git. Conçu pour être léger et simple, Piku est idéal pour les petites équipes et les développeurs individuels qui souhaitent déployer des applications rapidement sans complexité.
+
+Piku supporte les principaux langages de programmation et frameworks, notamment Python, Node.js, Ruby, Go, et plus encore. Il permet le déploiement d'applications en poussant simplement le code vers un dépôt Git, ce qui déclenche automatiquement le déploiement sur le serveur.
+
+Le développement de Piku est communautaire, favorisant la simplicité et l'efficacité. Il est conçu pour fonctionner sur des infrastructures légères, comme des Raspberry Pi ou des serveurs VPS.
+
+Piku est développé en Python.
+
+### Dokku
+
+:Site: https://dokku.com
+
+:Porteur: une communauté
+
+:Licence: MIT
+
+Dokku est une plateforme PaaS open source basée sur Docker, permettant de déployer et de gérer des applications de manière simplifiée. Inspiré par Heroku, Dokku permet aux utilisateurs de déployer des applications en poussant leur code vers un dépôt Git.
+
+Dokku supporte une large gamme de langages et frameworks, grâce à l'utilisation de buildpacks. Il offre des fonctionnalités de gestion des bases de données, des certificats SSL, et des configurations environnementales, facilitant le déploiement et la gestion des applications.
+
+Le développement de Dokku est communautaire, avec une forte emphase sur la facilité d'utilisation et la flexibilité. Il permet aux développeurs de créer des environnements de production fiables sur des serveurs auto-hébergés.
+
+Dokku est développé en Shell script et utilise Docker pour l'isolation des applications.
+
 
 ### YunoHost
 
@@ -135,9 +168,9 @@ Sandstorm utilise des conteneurs pour l'isolation des applications et supporte d
 
 :Site: [https://www.casaos.io](https://www.casaos.io)
 
-:Porteur: une communauté
+:Porteur: une entreprise (X-NODE Space)
 
-:Licence: MIT
+:Licence: Apache 2.0
 
 CasaOS est une solution open source conçue pour être une plateforme domestique unifiée, simplifiant le déploiement et la gestion de diverses applications.
 
