@@ -11,17 +11,23 @@ BUILDDIR      = build
 .PHONY: help Makefile all deploy
 
 
+HOST:=trunks3.abilian.com
+
+
 all: html deploy
 
 
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-build: html
+build:
+	./transform.py
+	make html
 
 
 deploy:
-	rsync --delete-after -e ssh -avz build/html/ trunks2:/srv/web/guide-oss/
+	rsync --delete-after -e ssh -avz build/html/ root@$(HOST):/srv/web/guide-oss/
+	ssh root@$(HOST) "chown -R www-data:www-data /srv/web/guide-oss"
 
 
 # Catch-all target: route all unknown targets to Sphinx using the new

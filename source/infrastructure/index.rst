@@ -11,6 +11,7 @@ Plus de 50 solutions ont été évaluées dans cette dimension ; et plus de 90 
     :maxdepth: 1
 
     systeme-exploitation-linux-bsd.rst
+    auto-hebergement.rst
     securite.rst
     pki.rst
     authentification-federation-et-gestion-identite.rst
