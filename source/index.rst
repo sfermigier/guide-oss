@@ -4,7 +4,7 @@ Guide des solutions Open Source
 :Title: Guide des solutions Open Source
 :Authors: Divers
 :Maintainer: Stefane Fermigier
-:Date: 12 juin 2024
+:Date: 26 janvier 2025
 
 Les pages qui suivent présentent près de 200 produits dans 40 domaines d’applications pour l’entreprise. Leur objectif est de constituer un référentiel large et pratique des meilleures solutions open source.
 

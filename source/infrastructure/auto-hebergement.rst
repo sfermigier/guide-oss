@@ -2,7 +2,7 @@ Solutions pour l’auto-hébergement (ou self-hosting)
 ===================================================
 
 L’auto-hébergement, ou *self-hosting*, est la pratique consistant à
-héberger ses propres ssolutions informatiques plutôt que de recourir à
+héberger ses propres solutions informatiques plutôt que de recourir à
 des solutions hébergées par des tiers (SaaS ou *software as a service*).
 
 L’auto-hébergement offre un contrôle accru sur les données et les

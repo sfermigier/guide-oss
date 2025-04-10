@@ -26,8 +26,8 @@ build:
 
 
 deploy:
-	rsync --delete-after -e ssh -avz build/html/ root@$(HOST):/srv/web/guide-oss/
-	ssh root@$(HOST) "chown -R www-data:www-data /srv/web/guide-oss"
+	rsync --delete-after -e ssh -avz build/html/ root@$(HOST):/home/web/guide-oss/
+	ssh root@$(HOST) "chown -R www-data:www-data /home/web/guide-oss"
 
 
 # Catch-all target: route all unknown targets to Sphinx using the new

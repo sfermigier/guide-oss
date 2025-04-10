@@ -1,3 +1,7 @@
+[project]
+name = "guide-oss"
+version = "0.1.0"
+
 [tool.poetry]
 name = "guide-oss"
 version = "0.1.0"

@@ -83,3 +83,59 @@ Wireshark (anciennement Ethereal) est un outil d'analyse de trafic réseau qui a
 Il est utilisé par grand nombre d'administrateurs pour diagnostiquer des problèmes réseaux complexes. Disponible sous forme d'une application graphique lourde ainsi qu'une interface en mode texte, il est capable de décoder un très grand nombre de protocoles, y compris chiffrés.
 
 Wireshark est multi-plateforme, il fonctionne sous Windows, Mac OS X, Linux, Solaris, ainsi que sous FreeBSD. Wireshark reconnait 759 protocoles.
+
+
+OSSEC
+-----
+
+:Site: https://www.ossec.net
+:Porteur: une communauté
+:Licence: GPL 2.0
+
+OSSEC (Open Source Security Event Correlator) est un système de détection d'intrusion basé sur l'hôte (HIDS : Host Intrusion Detection System). Il a été créé en 2004 par Daniel B. Cid. OSSEC est capable de surveiller en temps réel les journaux système, les modifications de fichiers, les politiques de registre Windows, ainsi que de détecter les rootkits. Il permet une analyse approfondie de la sécurité du système grâce à des règles configurables, et dispose d'une fonctionnalité d'alerte par email. OSSEC peut être déployé dans des environnements hétérogènes et est largement utilisé dans les environnements de production pour améliorer la sécurité des systèmes.
+
+Suricata
+--------
+
+:Site: https://suricata.io
+:Porteur: une fondation (OISF - Open Information Security Foundation)
+:Licence: GPL 2.0
+
+Suricata est un moteur de détection et de prévention des intrusions réseau (NIDS/NIPS) open source. Développé par la fondation OISF, il est conçu pour être une alternative et un complément à SNORT. Suricata offre des capacités avancées d'analyse de trafic, incluant la détection de menaces, l'inspection approfondie de paquets (DPI), et la prise en charge des formats de fichiers multiples pour l'analyse des fichiers capturés. Sa compatibilité avec les règles SNORT et son support pour les systèmes multi-thread en font un outil puissant pour les administrateurs réseau et les analystes de sécurité.
+
+Metasploit Framework
+--------------------
+
+:Site: https://www.metasploit.com
+:Porteur: un éditeur (Rapid7)
+:Licence: BSD
+
+Metasploit Framework est un outil de test d'intrusion créé en 2003 par H.D. Moore. Il est devenu l'un des outils les plus utilisés pour les tests de pénétration et l'exploitation des vulnérabilités. Metasploit permet aux administrateurs et aux chercheurs en sécurité de découvrir, valider et exploiter des failles dans les systèmes informatiques. Le framework inclut une large base de données d'exploits, de payloads et de modules auxiliaires pour divers types d'attaques et de tests. Il est utilisé pour automatiser les tests de sécurité, évaluer les systèmes pour les vulnérabilités et améliorer la posture de sécurité globale.
+
+Zeek
+----
+
+:Site: https://zeek.org
+:Porteur: une fondation (Zeek)
+:Licence: BSD
+
+Zeek (anciennement connu sous le nom de Bro) est un framework de surveillance du réseau et de détection des intrusions réseau (NIDS) open source. Créé en 1995 par Vern Paxson, Zeek est conçu pour capturer et analyser le trafic réseau en profondeur. Il permet d'extraire des métadonnées détaillées et de détecter des activités anormales grâce à un langage de script puissant. Zeek est largement utilisé dans les environnements de recherche et de production pour son efficacité à fournir des informations contextuelles et des capacités de détection avancées.
+
+Nmap
+----
+
+:Site: https://nmap.org
+:Porteur: une communauté
+:Licence: GPL 2.0
+
+Nmap (Network Mapper) est un scanner de sécurité réseau open source, créé par Gordon Lyon (Fyodor) en 1997. Il est utilisé pour découvrir les hôtes et les services sur un réseau informatique, créant ainsi une "carte" du réseau. Nmap offre une variété de fonctionnalités pour explorer les réseaux, incluant la découverte d'hôtes, la détection de services, l'identification de versions, et la détection de vulnérabilités. Nmap est essentiel pour les audits de sécurité, les tests de pénétration, et la gestion des inventaires réseau.
+
+OpenSCAP
+--------
+
+:Site: https://www.open-scap.org
+:Porteur: une communauté
+:Licence: GPL 2.0
+
+OpenSCAP est une suite d'outils open source pour l'audit de sécurité des systèmes d'information. Basé sur les standards de sécurité développés par NIST, OpenSCAP permet l'évaluation de la conformité, la détection des vulnérabilités et la remédiation des configurations non conformes. Il est largement utilisé dans les environnements conformes aux réglementations comme PCI-DSS et HIPAA. OpenSCAP comprend un scanner de conformité, un éditeur de profils et divers outils d'analyse, permettant aux administrateurs de maintenir et de renforcer la sécurité de leurs systèmes.
+
