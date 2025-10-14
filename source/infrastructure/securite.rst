@@ -46,6 +46,21 @@ Contrairement à ses équivalents du monde Windows, il n'est pas utilisé pour p
 Le moteur antivirus est la bibliothèque libclamav écrite en C.
 
 
+CISO Assistant
+------
+
+:Site: https://github.com/intuitem/ciso-assistant-community
+:Porteur: un éditeur (intuitem)
+:Licence: AGPLv3
+
+CISO Assistant est une plateforme de gestion et de pilotage de l’activité cybersécurité.
+
+Elle constitue un guichet unique permettant de centraliser et de suivre l’ensemble des activités liées à la cybersécurité : audits, plans de traitement, analyses de risques, collecte de preuves et bien plus encore.
+La solution intègre de nombreux standards et normes français, européens et internationaux, adaptés à différents secteurs d’activité, et offre de multiples options de personnalisation. Elle peut être déployée localement via Docker Compose ou sur un cluster Kubernetes.
+
+L’application est disponible gratuitement en version communautaire, en mode auto-hébergé, ou en version Pro avec support, proposée en mode SaaS ou on-premises.
+
+
 SNORT
 -----
 
