@@ -14,14 +14,14 @@ Asterisk
 --------
 
 :Site: https://www.asterisk.org
-:Porteur: un éditeur (Digium)
-:Licence: GPL
+:Porteur: un éditeur (Sangoma)
+:Licence: GPL v2
 
 Asterisk est un autocommutateur téléphonique privé (PABX) open source pour systèmes UNIX. Il permet, entre autres, la messagerie vocale, les files d'attente, les agents d'appels, les musiques d’attente, les mises en garde d'appels, la distribution des appels et la gestion de conférences.
 
-Asterisk implémente les protocoles H.320, H.323 et SIP, ainsi qu'un protocole spécifique nommé IAX (Inter-Asterisk eXchange). Asterisk peut également jouer le rôle de registrar et de passerelle avec les réseaux publics. Il est utilisé par certains opérateurs comme coeur de réseau téléphonique du fait de son intéropérabilité et de sa scalabilité. Associé à SugarCRM ou Vtiger on le retrouve également souvent comme outil de gestion de centre d'appels.
+Asterisk implémente les protocoles SIP, WebRTC et, pour l'interconnexion avec d'autres instances, le protocole spécifique IAX (*Inter-Asterisk eXchange*) ; la prise en charge de H.323 n'est plus qu'historique. Asterisk peut également jouer le rôle de *registrar* et de passerelle avec les réseaux publics. Il est utilisé par certains opérateurs comme cœur de réseau téléphonique, du fait de son interopérabilité et de sa capacité de montée en charge, et sert fréquemment de socle aux centres d'appels, en liaison avec un CRM.
 
-Dans son utilisation classique comme plateforme de téléphonie IP, Asterisk est généralement associé à Freepbx, une IHM permettant de piloter l'ensemble des ses fonctionnalités. On retrouve Asterisk et Freepbx  dans de nombreuses distributions-appliance dont les plus populaires sont Elastix et Trixbox.
+Le projet, créé par la société Digium, appartient depuis le rachat de celle-ci en 2018 au canadien Sangoma, qui édite également l'interface d'administration FreePBX (https://www.freepbx.org/). Les distributions-appliance citées dans les éditions précédentes de ce guide ont disparu : Trixbox n'est plus maintenue, et Elastix a été rachetée par 3CX en 2016 puis abandonnée en tant que produit open source — son fork communautaire, Issabel (https://www.issabel.org/), en poursuit l'esprit.
 
 
 Kamailio
@@ -31,9 +31,23 @@ Kamailio
 :Porteur: une communauté
 :Licence: GPL
 
-Kamailio est un Server SIP open source. Ce fork du projet OpenSER (en 2005) est l'un des PBX les plus complets.
+Kamailio est un serveur SIP open source, issu du projet SER puis d'OpenSER, dont il a repris le nom en 2008. Ce n'est pas un IPBX mais un serveur SIP de classe opérateur (proxy, *registrar*, *load balancer*), capable de traiter plusieurs milliers d'appels simultanés et généralement placé en frontal d'un IPBX comme Asterisk ou FreeSWITCH.
 
-Il supporte des transactions asynchrones TCP, UDP et SCTP, l'encryptage des communications via TLS, la répartition de charge, un mécanisme natif de fail-over, l'authentification sur des backend Radius, Mysql, LDAP ou via transport XMLRCP. Il est utilisé aussi bien par des opérateurs télécoms comme plate-forme de service VoIP que pour les solutions classiques de téléphonie d'entreprise. C'est une alternative à Freeswitch et Asterisk les deux autres poids lourds du domaine.
+Il prend en charge les transports UDP, TCP, TLS, SCTP et WebSocket (WebRTC), le chiffrement des communications, la répartition de charge, un mécanisme natif de bascule, ainsi que l'authentification sur des annuaires ou bases RADIUS, MySQL et LDAP. Il est utilisé aussi bien par des opérateurs télécoms comme plateforme de service VoIP que dans des architectures de téléphonie d'entreprise, le plus souvent en complément d'Asterisk ou de FreeSWITCH plutôt qu'à leur place.
+
+
+FreeSWITCH
+----------
+
+:Site: https://signalwire.com/freeswitch
+:Porteur: une communauté, soutenue par la société SignalWire
+:Licence: MPL 1.1
+
+Créé en 2006 par d'anciens développeurs d'Asterisk, FreeSWITCH est l'autre grande plateforme de téléphonie open source. Sa conception modulaire et son modèle de traitement multi-thread le destinent aux usages exigeants : conférences audio et vidéo de grande taille, transcodage, passerelles opérateur, plateformes de services.
+
+Il prend en charge SIP, WebRTC, la vidéo, les principaux codecs (Opus, G.711, G.722, G.729, VP8, H.264) et s'administre par API (ESL, REST). Là où Asterisk est plus immédiat à mettre en œuvre comme IPBX d'entreprise, FreeSWITCH est souvent préféré comme brique d'infrastructure dans des architectures sur mesure.
+
+FreeSWITCH est écrit en C.
 
 
 Kannel
@@ -44,9 +58,9 @@ Kannel
 :Licence: Kannel Software License (basée sur la licence Apache).
 
 
-Kannel a été développé en 1998 par la société WAPit Ltd qui n’existe plus à ce jour. Le projet est désormais géré par les membres d’un groupe (« The Kannel Group ») qui inclut de grandes entreprises.
+Kannel a été développé à partir de 1998 par la société WAPit Ltd, qui n'existe plus ; le projet est depuis géré par « The Kannel Group ».
 
-Kannel est une Gateway SMS et WAP Open Source Carrier Grade, elle supporte les protocoles des SMSC standard : UCP/EMI, SMPP, HTTP, CIMD. Kannel fournit un ensemble d'API lui permettant d'être utilisée comme front end à des middlewares ou applications Web nécessitant des sorties WAP ou SMS. Intégrée comme brique d'infrastructure, elle sécurise l'accès aux ressources des opérateurs tout en fournissant un support SMS et WAP fiable et robuste.
+Kannel est une passerelle SMS et WAP de classe opérateur : elle prend en charge les protocoles SMSC standards (UCP/EMI, SMPP, HTTP, CIMD) et fournit un ensemble d'API permettant de l'utiliser comme frontal d'applications web ou de middlewares devant émettre et recevoir des SMS. Le volet WAP n'a plus qu'un intérêt historique, et le développement du projet est aujourd'hui très ralenti ; pour un nouveau projet, on évaluera aussi Jasmin (https://github.com/jookies/jasmin), passerelle SMPP écrite en Python.
 
 Kannel est écrit en C.
 
@@ -56,6 +70,10 @@ Autres
 
 Parmi les produits de l’univers VOIP/Téléphonie, on peut compléter la liste avec les outils ci-dessous :
 
-- sipXecs: http://www.sipfoundry.org
-- Yate: http://www.yate.ro/
-- FreeSwitch: http://www.freeswitch.org
+- FreePBX, l'interface d'administration de référence pour Asterisk: https://www.freepbx.org/
+- Issabel, distribution IPBX clés en main héritière d'Elastix: https://www.issabel.org/
+- Wazo Platform, plateforme française issue du projet XiVO: https://wazo-platform.org/
+- OpenSIPS, serveur SIP proche de Kamailio: https://opensips.org/
+- Yate: https://yate.ro/
+
+Pour la visioconférence, qui relève désormais du même besoin métier, voir Jitsi Meet (https://jitsi.org/), BigBlueButton (https://bigbluebutton.org/) et Galène (https://galene.org/).

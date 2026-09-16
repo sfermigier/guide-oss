@@ -7,21 +7,19 @@ Elles ont été créées pour répondre à une problématique de support et d'as
 
 Elles permettent de  répondre à différentes problématiques rencontrées dans les entreprises dont la vision partagée du poste de travail et le transfert de fichiers.
 
-Parmi l’offre open source, on peut citer des outils comme FreeNx, TightVNC ou OpenSSH. Ce dernier étant le favori des administrateurs systèmes dans le monde des serveurs UNIX
+Parmi l’offre open source, on peut citer des outils comme X2Go, TigerVNC, RustDesk, Apache Guacamole ou OpenSSH, ce dernier étant le favori des administrateurs systèmes dans le monde des serveurs UNIX.
 
 
-FreeNx
-------
+X2Go (successeur de FreeNX)
+---------------------------
 
-:Site: http://freenx.berlios.de
-:Porteur: un éditeur (NoMachine)
-:Licence: GPL
+:Site: https://wiki.x2go.org/
+:Porteur: une communauté
+:Licence: GPL v2
 
-FreeNX est un ensemble de composants implémentant le protocole NX. FreeNX a été développé la société NoMachine en 2005. Celle-ci continue à le supporter et propose même différentes version de son produit, dont des versions commerciales.
+FreeNX était une implémentation libre du protocole NX de la société NoMachine, qui permettait l'accès distant à des environnements graphiques UNIX avec d'excellentes performances sur les réseaux à faible bande passante. NoMachine ayant cessé de publier les versions récentes de son protocole sous licence libre, et le site berlios.de ayant fermé, FreeNX a disparu.
 
-FreeNX est un protocole d'accès à distance à des systèmes UNIX, basé sur le protocole X11, mais avec un certain nombre d'optimisations facilitant son utilisation sur les réseaux à faible bande passante. Similaire à Microsoft RDesktop, il permet de conserver les sessions, et de partager des périphériques tels que les imprimantes, cartes son, etc. FreeNX est très performant en matière de compression, de gestion de session et de ressources.
-
-FreeNX est développé par une communauté depuis 2006 et est réalisé en  C/C++
+C'est **X2Go** qui en a repris le flambeau : fondé sur la dernière version libre du protocole NX, il permet l'ouverture de sessions graphiques distantes persistantes (reconnexion sans perte de la session), le partage d'imprimantes, du son et des dossiers locaux, et dispose de clients pour Linux, Windows et macOS. Il reste très employé pour l'accès à des postes de travail Linux distants.
 
 
 TightVNC
@@ -33,7 +31,9 @@ TightVNC
 
 TightVNC est un ensemble d'outils implémentant le protocole VNC.
 
-Ce protocole permet l'affichage graphique à distance via un autre protocole réseau, le RFB (Remote Frame Buffer). Il s'agit d'un protocole très répandu pour l'administration graphique des postes de travail, l'assistance utilisateur, etc. TightVNC se définit donc comme un programme de contrôle à distance et d'administration via Internet, de votre ordinateur quel que soit le système d'exploitation utilisé.
+Ce protocole permet l'affichage graphique à distance via le protocole réseau RFB (*Remote Frame Buffer*). Il est très répandu pour l'administration graphique des postes de travail et l'assistance utilisateur, quel que soit le système d'exploitation.
+
+Sur les systèmes Linux actuels, on lui préférera **TigerVNC** (https://tigervnc.org/), mieux maintenu, plus performant et compatible avec les serveurs graphiques récents, ou **wayvnc** pour les sessions Wayland.
 
 TightVNC est développé en C/C++.
 
@@ -57,6 +57,9 @@ Comme la majorité des projets BSD, OpenSSH est écrit en C.
 Autres
 ------
 
-- FreeRDP: https://www.freerdp.com/
-- KRDC: https://apps.kde.org/en/krdc
-- Chrome Remote Desktop: https://chrome.google.com/remotedesktop
+- RustDesk, alternative libre à TeamViewer et AnyDesk, avec serveur de relais auto-hébergeable: https://rustdesk.com/
+- Apache Guacamole, passerelle d'accès distant (RDP, VNC, SSH) utilisable depuis un simple navigateur: https://guacamole.apache.org/
+- MeshCentral, administration de parc et prise en main à distance depuis le navigateur: https://meshcentral.com/
+- FreeRDP, implémentation libre du protocole RDP: https://www.freerdp.com/
+- Remmina, client multiprotocole (RDP, VNC, SSH, SPICE) pour Linux: https://remmina.org/
+- KRDC: https://apps.kde.org/krdc/

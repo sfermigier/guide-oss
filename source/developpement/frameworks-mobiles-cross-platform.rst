@@ -1,7 +1,7 @@
 Frameworks mobiles cross-platform
 =================================
 
-Les technologies open source jouent un rôle essentiel dans l'écosystème du développement des applications mobules, en démocratisant l'accès aux outils nécessaires pour créer des applications innovantes et performantes. Ces technologies permettent de construire des applications mobiles en utilisant des langages de programmation et des standards web familiers, réduisant ainsi la barrière d'entrée pour le développement mobile et permettant une plus grande réutilisation du code entre les plateformes.
+Les technologies open source jouent un rôle essentiel dans l'écosystème du développement des applications mobiles, en démocratisant l'accès aux outils nécessaires pour créer des applications innovantes et performantes. Ces technologies permettent de construire des applications mobiles en utilisant des langages de programmation et des standards web familiers, réduisant ainsi la barrière d'entrée pour le développement mobile et permettant une plus grande réutilisation du code entre les plateformes.
 
 Apache Cordova
 --------------
@@ -15,26 +15,28 @@ Apache Cordova continue d'offrir aux développeurs la possibilité de créer des
 
 La transition vers Apache Cordova a également encouragé une plus grande collaboration et innovation au sein de la communauté de développeurs. Avec le soutien de la Apache Software Foundation, Cordova bénéficie d'une gouvernance ouverte et d'une contribution collective, ce qui aide à garantir que la plateforme reste à la pointe du progrès technologique et répond aux besoins changeants des développeurs et des entreprises.
 
-Distribué sous licence Apache, Cordova assure une flexibilité et une ouverture qui le rendent attrayant pour une large communauté de développeurs. Supportant actuellement 6 plateformes, il constitue une option techniquement viable et économiquement avantageuse pour les entreprises et les développeurs individuels souhaitant développer des applications mobiles multiplateformes.
+Distribué sous licence Apache, Cordova conserve une communauté active, même si son usage recule : Adobe a mis fin à PhoneGap en 2020, et les nouveaux projets se tournent le plus souvent vers Capacitor (https://capacitorjs.com/), le moteur de plugins natifs développé par l'équipe d'Ionic, qui reprend la même approche avec un outillage plus moderne.
 
 
 React Native
 ------------
 
 :Site: https://reactnative.dev/
-:Porteur: Facebook
+:Porteur: Meta
+:Licence: MIT
 
 React Native est une technologie open source pour le développement d'applications mobiles, créée par Facebook. Elle permet aux développeurs de construire des applications mobiles en utilisant JavaScript et React, offrant ainsi une expérience native tant sur Android que sur iOS. React Native se distingue par sa capacité à traduire le code JavaScript en composants natifs, permettant aux applications de bénéficier de performances optimales et d'une excellente intégration avec les plateformes sous-jacentes.
 
 L'approche de React Native est centrée sur l'efficacité du développement et la réactivité de l'interface utilisateur, en réutilisant le code entre les plateformes mobiles et en accélérant le cycle de développement grâce au rechargement à chaud. La communauté dynamique et l'écosystème riche de React Native offrent une multitude de composants et d'extensions, facilitant l'intégration de fonctionnalités avancées et la personnalisation des applications.
 
-React Native est adapté tant pour les startups que pour les grandes entreprises, ayant été adopté par des noms de premier plan tels qu'Instagram, Airbnb et UberEats pour certaines de leurs applications mobiles. Son modèle de développement basé sur JavaScript est particulièrement attrayant pour les équipes ayant déjà une expertise en développement web, leur permettant de plonger dans le développement mobile sans avoir à apprendre un nouveau langage de programmation.
+React Native est adapté tant aux jeunes pousses qu'aux grandes entreprises : Meta, Microsoft et Shopify comptent parmi ses principaux utilisateurs et contributeurs. Son modèle de développement fondé sur JavaScript et TypeScript est particulièrement attrayant pour les équipes disposant déjà d'une expertise en développement web. La refonte interne du framework (« nouvelle architecture », avec le moteur Hermes et l'interface JSI) a levé une partie des limites de performance de ses débuts, et la chaîne d'outils Expo (https://expo.dev/) simplifie considérablement la mise en production.
 
 Flutter
 -------
 
 :Site: https://flutter.dev/
 :Porteur: Google
+:Licence: BSD
 
 Flutter est un SDK de développement d'applications mobiles open source créé par Google, qui permet de construire des applications multiplateformes de haute qualité avec une seule base de code. Flutter utilise le langage de programmation Dart, conçu par Google, et offre un système de widgets complet, personnalisable et réactif, ce qui facilite la création d'interfaces utilisateur complexes et attrayantes.
 
@@ -42,23 +44,25 @@ Contrairement à d'autres frameworks qui se reposent sur les composants natifs d
 
 Flutter s'est rapidement imposé comme un choix populaire pour le développement mobile, grâce à sa performance élevée, son hot reload qui permet des itérations rapides pendant le développement, et sa communauté grandissante. Des entreprises de toutes tailles ont adopté Flutter pour développer leurs applications, y compris des géants technologiques comme Alibaba et Google pour certaines de leurs applications internes.
 
-Xamarin
--------
+.NET MAUI (successeur de Xamarin)
+---------------------------------
 
-:Site: https://dotnet.microsoft.com/apps/xamarin
+:Site: https://dotnet.microsoft.com/apps/maui
 :Porteur: Microsoft
+:Licence: MIT
 
-Xamarin est un framework de développement d'applications mobiles open source, maintenant soutenu par Microsoft, qui permet de créer des applications Android et iOS en utilisant C# et .NET. Xamarin offre une approche unique en permettant aux développeurs de partager le code de l'application à travers les plateformes tout en conservant la possibilité de créer des interfaces utilisateur natives et d'accéder à toutes les fonctionnalités spécifiques à chaque plateforme.
+Xamarin, framework open source soutenu par Microsoft, permettait de créer des applications Android et iOS en C# et .NET, avec un fort partage de code entre plateformes. Son support a pris fin le 1er mai 2024 : il est remplacé par .NET MAUI (*Multi-platform App UI*), qui en constitue l'évolution directe.
 
-L'un des principaux avantages de Xamarin est sa capacité à intégrer étroitement le développement d'applications mobiles dans l'écosystème .NET, offrant aux développeurs des outils familiers et puissants pour la gestion du code, le débogage et le déploiement. Cela rend Xamarin particulièrement attrayant pour les équipes de développement qui ont déjà investi dans la technologie Microsoft.
+.NET MAUI conserve le principal atout de son prédécesseur : l'intégration étroite du développement d'applications mobiles dans l'écosystème .NET, avec des outils familiers pour la gestion du code, le débogage et le déploiement. Il unifie dans un projet unique les cibles Android, iOS, macOS et Windows, là où Xamarin.Forms reposait sur des projets séparés, et s'appuie sur les mêmes contrôles natifs.
 
-Xamarin.Forms, une extension de Xamarin, permet une réutilisation encore plus grande du code en fournissant une abstraction pour les interfaces utilisateur qui peut être déployée sur plusieurs plateformes. Cela réduit le temps de développement et les coûts tout en permettant aux applications de conserver l'aspect et la sensation d'une application native. Xamarin a été adopté par de nombreuses entreprises pour son efficacité, sa performance et la qualité des applications qu'il permet de produire.
+C'est le choix naturel pour les équipes ayant déjà investi dans les technologies Microsoft ; les projets Xamarin existants doivent en revanche prévoir une migration, celle-ci n'étant pas entièrement transparente.
 
 Ionic
 -----
 
 :Site: https://ionicframework.com/
-:Porteur: Ionic
+:Porteur: Ionic, filiale d'OutSystems
+:Licence: MIT
 
 Ionic est un framework de développement d'applications mobiles open source qui permet aux développeurs de créer des applications mobiles et de bureau de haute qualité en utilisant des technologies web comme HTML, CSS et JavaScript. Ionic se distingue par son approche centrée sur le web, permettant aux développeurs ayant des compétences en développement web de facilement transitionner vers le développement d'applications mobiles. Le framework repose sur une base de composants d'interface utilisateur (UI) optimisés pour le mobile, offrant une expérience similaire à celle des applications natives.
 
@@ -66,7 +70,9 @@ Ionic fonctionne bien avec Apache Cordova pour l'accès aux fonctionnalités du 
 
 Le framework Ionic est particulièrement apprécié pour sa flexibilité et son écosystème riche, qui comprend un large éventail de plugins, outils et services qui facilitent le développement, le test, et le déploiement d'applications. De plus, Ionic offre un système de thèmes et de personnalisation puissant, permettant aux développeurs de créer des interfaces utilisateurs attrayantes et cohérentes sur différentes plateformes sans effort supplémentaire.
 
-Ionic s'adresse aux startups, aux entreprises et aux développeurs individuels cherchant à développer rapidement des applications mobiles multiplateformes sans compromettre la qualité de l'expérience utilisateur. Avec son engagement envers les standards du web et sa compatibilité avec une variété de frameworks populaires comme Angular, React et Vue.js, Ionic continue de jouer un rôle important dans le paysage du développement d'applications mobiles, offrant une voie efficace pour la création d'applications performantes et visuellement impressionnantes.
+Ionic s'adresse aux jeunes pousses, aux entreprises et aux développeurs individuels cherchant à développer rapidement des applications mobiles multiplateformes sans compromettre la qualité de l'expérience utilisateur. Avec son attachement aux standards du web et sa compatibilité avec Angular, React et Vue.js, Ionic continue de jouer un rôle important dans le paysage du développement mobile.
+
+La société Ionic a été rachetée par OutSystems en 2022 et a arrêté la commercialisation de ses produits payants (Appflow, Identity Vault, Portals) début 2025. Les briques open source — Ionic Framework, Capacitor et Stencil — restent publiées sous licence MIT et activement maintenues, Capacitor étant aujourd'hui la partie la plus stratégique de l'ensemble.
 
 
 Flet
@@ -77,4 +83,16 @@ Flet
 
 Flet est un framework innovant conçu pour simplifier le développement d'applications en temps réel pour le web, les mobiles et les ordinateurs de bureau. Sa philosophie principale repose sur la facilité d'utilisation et l'accessibilité, permettant aux développeurs de transformer rapidement leurs idées en applications fonctionnelles sans nécessiter une expérience approfondie en développement front-end.
 
-Flet cherche à éliminer la complexité traditionnellement associée à l'architecture des applications modernes, qui requiert souvent une pile technologique composée de front-end, back-end, API REST, bases de données, et systèmes de mise en cache. Avec Flet, les développeurs écrivent une application monolithique et stateful en utilisant uniquement Python, ce qui simplifie considérablement le processus de développement. Cette approche permet de créer facilement et sans avoir à conceoir ni déployer des architectures complexes des applications Single-Page Application (SPA) en temps réel destinées à plusieurs utilisateurs.
+Flet cherche à éliminer la complexité traditionnellement associée à l'architecture des applications modernes, qui requiert souvent une pile technologique composée d'un front-end, d'un back-end, d'API REST, de bases de données et de systèmes de mise en cache. Avec Flet, les développeurs écrivent une application monolithique et à état en utilisant uniquement Python, ce qui simplifie considérablement le processus de développement. Cette approche permet de créer des applications monopages (SPA) temps réel et multi-utilisateurs sans avoir à concevoir ni à déployer des architectures complexes. Flet s'appuie sur Flutter pour le rendu.
+
+
+Autres
+------
+
+Le paysage du développement multiplateforme a beaucoup évolué ces dernières années ; on surveillera également :
+
+- Kotlin Multiplatform et Compose Multiplatform (partage de code et d'interface entre Android, iOS, bureau et web, soutenus par JetBrains et Google): https://kotlinlang.org/multiplatform/
+- Capacitor, moteur de plugins natifs successeur de Cordova: https://capacitorjs.com/
+- Expo, chaîne d'outils de référence pour React Native: https://expo.dev/
+- Tauri, pour les applications de bureau et mobiles légères écrites en Rust et en technologies web: https://tauri.app/
+- NativeScript: https://nativescript.org/

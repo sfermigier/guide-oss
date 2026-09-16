@@ -3,47 +3,48 @@ Tests & intégration continue
 
 L’intégration continue est un ensemble de pratiques visant à améliorer la qualité de livraison d’une application en vérifiant à chaque modification de code source, que le résultat des modifications n’entraine pas de régressions (c'est-à-dire d’anomalies supplémentaires liées à l’ajout de code).
 
-Pour mettre en œuvre des plateformes d’intégration continue, il existe de nombreux outils open source de qualité tels que Continiuum ou Hudson. Autour des ces outils, on trouve également des solutions de rendu graphique (affichage des résultats).
+Pour mettre en œuvre des plateformes d’intégration continue, il existe de nombreux outils open source de qualité. Le paysage s'est toutefois recomposé : les serveurs d'intégration continue autonomes de la génération précédente (Apache Continuum et Hudson, tous deux retirés à l'*Attic* d'Apache et de la fondation Eclipse) ont disparu, et Jenkins lui-même est de plus en plus concurrencé par les moteurs intégrés aux forges — GitLab CI, GitHub Actions, Forgejo Actions — qui présentent l'avantage de décrire la chaîne de construction dans le dépôt lui-même.
 
 
 Tests
 ~~~~~
 
-Selenium IDE
-------------
+Selenium
+--------
 
-:Site: http://seleniumhq.org/projects/ide
-:Porteur: une communauté
-:Licence: Apache
+:Site: https://www.selenium.dev/
+:Porteur: une communauté (Software Freedom Conservancy)
+:Licence: Apache 2.0
 
-Selenium est un outil de tests d'interfaces. Le projet a débuté en 2004 chez ThoughtWorks à Chicago grâce à Jason Huggins, lequel voulait tester les temps de réponse de diverses applications (Python, Plone, etc.).
+Selenium est l'outil historique de test d'interfaces web. Le projet a débuté en 2004 chez ThoughtWorks, à l'initiative de Jason Huggins.
 
-Selenium IDE permet d'enregistrer des tests d'interfaces depuis Firefox puis de les sauvegarder afin de les rejouer avec Selenium. Cet outil est très utile pour vérifier qu'une interface est conforme à ce qui est attendu. De plus, il peut être intégré à une plateforme d'intégration continue afin d'automatiser les tests d'interfaces. Selenium IDE n'est pas seulement un outil d'enregistrement : il s'agit d'un environnement de développement intégré (IDE). L'utilisateur peut choisir d'utiliser sa capacité d'enregistrement, ou peut modifier les scripts à la main.
+Son cœur est aujourd'hui **WebDriver**, devenu une recommandation du W3C et implémenté nativement par tous les navigateurs : les tests, écrits en Java, Python, JavaScript, C# ou Ruby, pilotent le navigateur comme le ferait un utilisateur. Selenium Grid permet de répartir leur exécution sur un parc de navigateurs et de systèmes. Selenium IDE, l'enregistreur de scénarios présenté dans les éditions précédentes de ce guide, existe toujours, mais sous la forme d'une extension pour navigateurs, l'ancienne version limitée à Firefox ayant disparu avec les anciennes extensions XUL.
 
+Pour les nouveaux projets, on comparera Selenium à **Playwright** (https://playwright.dev/), développé par Microsoft, et à **Cypress** (https://www.cypress.io/), qui offrent une expérience de développement plus moderne (attente automatique, capture de traces, exécution parallèle) et se sont imposés sur les applications web récentes.
 
 
 Squash
 ------
 
-:Version : 1.3.0
-:Site : www.squashtest.com
-:Porteur : une communauté
-:Licence : LGPL v2
+:Site: https://www.squashtm.com/
+:Porteur: un éditeur français (Henix)
+:Licence: LGPL v3 et propriétaire
 
-La suite open source Squash se compose de plusieurs outils dédiés à l’industrialisation des tests fonctionnels.
+La suite Squash se compose de plusieurs outils dédiés à l'industrialisation des tests fonctionnels, développés par la société française Henix.
 
-Squash TM est un outil open source de gestion de référentiels de tests. Nativement "multi-" et "inter-" projets, il permet de gérer l'ensemble des étapes d'une recette, de la gestion des exigences à l'exécution des campagnes de test. Squash TM est un outil "full web" proposant une interface qui se veut ergonomique et intuitive.
+Squash TM est un outil open source de gestion de référentiels de tests. Nativement multi-projets, il permet de gérer l'ensemble des étapes d'une recette, de la gestion des exigences à l'exécution des campagnes de test, et s'intègre aux outils de suivi de tickets (Jira, Redmine, GitLab).
 
-Squash TA est un outillage open source d'automatisation des tests fonctionnels et d'industrialisation de leurs exécutions. Compatible avec plusieurs automates open source (Selenium, Sahi...), Squash TA propose une bibliothèque de fonctions pour gérer les tests automatisés d'applications Web, de webservices, de batchs, et les jeux de données associés (base de données ou fichiers).
-
-Outre Squash TM et Squash TA, la suite open source Squash se compose de Squash Data pour la gestion des jeux de données et Squash SC pour le pilotage et l'administration de Centres de Services Qualité Logicielle.
+Le volet automatisation a évolué : Squash TA a laissé place à **Squash AUTOM** et à l'orchestrateur Squash Orchestrator, qui pilotent l'exécution de tests écrits avec les automates du marché (Selenium, Cypress, Playwright, Robot Framework, JMeter…) plutôt que de fournir leur propre langage de scénarios.
 
 
 Autres
 ------
 
-- JUnit: http://www.junit.org/
+- JUnit: https://junit.org/
 - PHPUnit: https://phpunit.de/
+- pytest (Python): https://docs.pytest.org/
+- Robot Framework (tests fonctionnels pilotés par mots-clés): https://robotframework.org/
+- Testcontainers (dépendances réelles jetables dans les tests d'intégration): https://testcontainers.com/
 
 
 
@@ -62,16 +63,19 @@ Jenkins est un outil d'intégration continue, fork du projet Hudson développé 
 
 Jenkins permet d'automatiser la construction de projets et de générer des rapports de tests et de qualité. Jenkins est majoritairement utilisé dans le marché des solutions d'intégration continue. Le grand atout de Jenkins est son écosystème composé de centaines de plugins, ainsi que son interface plus simple et moins austère que celle de Continuum par exemple. Les générations de projets peuvent être initiées par différents moyens (mécanismes de planification similaires au cron, des systèmes de dépendances entre générations, ou par des requêtes sur certaines URL spécifiques).
 
-Jenkins est écrit en Java.
+Jenkins est écrit en Java. Son principal atout — un écosystème de plus de mille huit cents extensions — est aussi sa principale charge d'exploitation : maintenir un Jenkins à jour et sûr demande un travail réel, ce qui pousse nombre d'équipes vers les moteurs intégrés à leur forge.
 
 
 Autres
 ------
 
-- Gitlab CI: https://docs.gitlab.com/ee/ci/
+- GitLab CI/CD, intégré à la forge GitLab: https://docs.gitlab.com/ci/
+- Forgejo Actions et Gitea Actions, compatibles avec la syntaxe de GitHub Actions: https://forgejo.org/docs/latest/user/actions/
+- Woodpecker CI, moteur léger issu de Drone: https://woodpecker-ci.org/
+- Tekton, chaînes de construction natives Kubernetes: https://tekton.dev/
+- Argo CD, pour le volet déploiement continu (GitOps): https://argo-cd.readthedocs.io/
 - Buildbot: https://buildbot.net/
-- SourceHut CI: https://builds.sr.ht/
-- Tox: https://tox.readthedocs.io/
+- Tox (matrices de tests Python): https://tox.wiki/
 
 
 Analyse statique de code
@@ -80,7 +84,7 @@ Analyse statique de code
 PMD
 ---
 
-:Site: http://pmd.sourceforge.net
+:Site: https://pmd.github.io/
 :Porteur: une communauté
 :Licence: BSD
 
@@ -88,14 +92,18 @@ PMD, connu également sous le nom de "Project Mess Detector", ou de "Project Mee
 
 En utilisant un système de règles extensibles, PMD est capable de détecter les try-catch vides, le code mort, code sur-compliqué, copié-collé de code (grâce au plugin CPD). PMD est également capable de calculer la complexité cyclomatique d'un code, indicateur intéressant dans l'évaluation de la qualité logicielle.
 
-PMD analyse le code source Java. Il existe un équivalent en PHP (PHPMD, a.k.a. PHP Mess Detector). Les règles peuvent s'écrire à travers des expressions XPath ou des classes Java (ou PHP pour PHPMD).
+PMD analyse le code source Java, mais prend également en charge une vingtaine d'autres langages (Apex, JavaScript, Kotlin, Swift…). Il existe un équivalent en PHP (PHPMD, *PHP Mess Detector*). Les règles peuvent s'écrire sous forme d'expressions XPath ou de classes Java.
 
 
 Autres
 ------
 
-- Sonar: http://www.sonarsource.org/
-- Checkstyle: http://checkstyle.sourceforge.net/
-- FindBugs: http://findbugs.sourceforge.net/
-- Flake8: https://flake8.pycqa.org/en/latest/
-- Pylint: https://www.pylint.org/
+- SonarQube Community Build, plateforme d'analyse continue de la qualité et de la sécurité du code: https://www.sonarsource.com/products/sonarqube/
+- Checkstyle (conventions de codage Java): https://checkstyle.org/
+- SpotBugs, successeur de FindBugs, dont le développement s'est arrêté en 2015: https://spotbugs.github.io/
+- Ruff, analyseur et formateur Python en Rust, qui a largement remplacé Flake8 et isort par sa rapidité: https://docs.astral.sh/ruff/
+- Pylint: https://pylint.readthedocs.io/
+- mypy et Pyright, vérificateurs de types Python: https://mypy-lang.org/ et https://microsoft.github.io/pyright/
+- ESLint (JavaScript et TypeScript): https://eslint.org/
+- Semgrep, analyse statique orientée sécurité, multi-langages: https://semgrep.dev/
+- Trivy, analyse des dépendances, des images de conteneurs et des configurations d'infrastructure: https://trivy.dev/

@@ -3,7 +3,9 @@ ESB
 
 Les ESB (« Enterprise Service Bus ») permettent la communication entres applications qui ne proposent pas, à la base, de services ou d’interfaces prévus pour cela.
 
-Les ESB sont souvent présentés comme des architectures nouvelles qui exploitent différentes techniques comme la transformation, le transfert et routage d’informations et les services Web.
+Les ESB exploitent différentes techniques : transformation, transfert et routage d’informations, exposition de services web.
+
+Il faut noter que la notion d'ESB, telle qu'elle était comprise au début des années 2000 — un bus central, propriétaire du routage et de la transformation — a largement cédé la place à des approches plus légères : bibliothèques d'intégration embarquées dans les applications (Apache Camel), passerelles d'API, ou architectures événementielles bâties sur un bus de messages (voir la section :doc:`/sgbd-middleware/mom-eai`).
 
 Les ESB interviennent en tant que « médiateur » entre les clients et les fournisseurs de services (applications).
 
@@ -25,11 +27,11 @@ Zato est une plateforme évolutive qui aide à la fois à créer et à orchestre
 WSO2 EI
 -------
 
-:Site: https://github.com/wso2/product-ei
+:Site: https://wso2.com/integration/
 :Porteur: un éditeur (WSO2)
 :Licence: Apache 2.0
 
-WSO2 Enterprise Integrator est une solution d'intégration open source, rapide, cloud native et évolutive qui est le cœur de la plateforme WSO2 Integration Agile Platform. Elle existe depuis 2005 (anciennement sous le nom de WSO2 ESB).
+WSO2 Enterprise Integrator est une solution d'intégration open source, *cloud native* et évolutive, qui constitue le cœur de la plateforme d'intégration de WSO2. Elle existe depuis 2005 (anciennement sous le nom de WSO2 ESB) et se décline aujourd'hui principalement sous la forme du WSO2 Micro Integrator, plus léger et conçu pour être déployé en conteneur.
 
 Maintenu activement, avec le soutien commercial de WSO2 Inc, WSO2 Enterprise Integrator est utilisé en production dans des entreprises du monde entier, dans les domaines du gouvernement, de la santé, de la banque, de l'éducation, de la communication, etc.
 
@@ -44,12 +46,30 @@ NServiceBus
 NServiceBus est un framework de messagerie basé sur .NET. Il permet la création de systèmes distribués qui sont évolutifs, fiables et faciles à modifier. Il prend en charge une variété de modèles de messagerie sur des transports tels que MSMQ, RabbitMQ, Azure, Amazon SQS, et sa conception modulaire lui permet de s'adapter à des choix tels que la mise en file d'attente, le stockage, la sérialisation et les options de journalisation.
 
 
+Apache Camel
+------------
+
+:Site: https://camel.apache.org/
+:Porteur: une fondation (Apache)
+:Licence: Apache 2.0
+
+Créé en 2007, Apache Camel est devenu la brique d'intégration open source la plus utilisée — au point d'être embarquée par la plupart des ESB du marché, dont ceux présentés ci-dessus.
+
+Camel n'est pas un serveur mais une bibliothèque : elle implémente les *Enterprise Integration Patterns* sous forme de routes déclaratives (en Java, XML, YAML ou Kotlin), et fournit plus de trois cents composants de connexion (fichiers, JMS, Kafka, HTTP, bases de données, SaaS, protocoles industriels). L'intégration devient ainsi un morceau d'application ordinaire, versionné, testable et déployable comme le reste du code — ce qui explique en grande partie qu'on lui préfère aujourd'hui cette approche plutôt qu'un bus centralisé.
+
+Les déclinaisons Camel K et Camel Quarkus permettent d'exécuter ces routes directement sur Kubernetes, avec un démarrage quasi instantané.
+
+Camel est écrit en Java.
+
+
 Autres
 ------
 
 Parmi les produits de l’univers ESB, on peut compléter la liste avec les outils ci-dessous :
 
-- JBoss Enterprise Service Bus: https://www.jboss.org/jbossesb
-- Apache ServiceMix: https://servicemix.apache.org
 - Apache Synapse: https://synapse.apache.org
+- Apache Karaf, conteneur OSGi fréquemment utilisé comme socle d'exécution: https://karaf.apache.org/
+- Petals ESB, solution française portée par Linagora: https://petals.linagora.com/
+
+Deux produits cités dans les éditions précédentes ont disparu : JBoss ESB, dont Red Hat a arrêté le développement au profit de Camel et de Fuse, et Apache ServiceMix, officiellement retiré à l'*Attic* de la fondation Apache.
 

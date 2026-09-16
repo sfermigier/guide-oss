@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Guide des Solutions Libres & Open Source (édition 2025)"
-copyright = "2012-2025, Stefane Fermigier and others"
+project = "Guide des Solutions Libres & Open Source (édition 2026)"
+copyright = "2012-2026, Stefane Fermigier and others"
 author = "Stefane Fermigier"
 
 # The full version, including alpha/beta/rc tags
-release = "2025.1"
+release = "2026.1"
 
 
 # -- General configuration ---------------------------------------------------

@@ -11,29 +11,29 @@ Les outils de gestion de parc et d’inventaires peuvent également disposer d�
 GLPI
 ----
 
-:Site: https://www.glpi-project.org/
-:Porteur: une communauté
-:Licence: GPL
+:Site: https://glpi-project.org/
+:Porteur: une communauté et un éditeur français (Teclib')
+:Licence: GPL v3
 
 GLPI est un outil d'inventaire de parc informatique et de Helpdesk, lancé en 2003 et porté par Julien Dombre, Jean-Mathieu Doléans et Bazile Lebeau.
 
 Il permet :
 
-- la gestion du parc matériel de la société avec leurs contrats associés : ordinateurs (avec remontée automatique si couplé à OCS-NG ou Fusion Inventory), périphériques, imprimantes, éléments réseau, consommables.
+- la gestion du parc matériel de la société et des contrats associés : ordinateurs (avec remontée automatique s'il est couplé à GLPI Agent ou à OCS Inventory NG), périphériques, imprimantes, éléments réseau, consommables ;
 
 - des fonctions d'assistance : accès utilisateur ou non, gestion fine des droits, notifications automatiques avec modèles personnalisables, SLA.
 
 - une grande extensibilité grâce à ses plugins : intégration à des logiciels de supervision, gestion de projets, nouveaux éléments d'inventaire, etc.
 
-GLPI est basé sur les technologies PHP/MySQL.
+GLPI est basé sur les technologies PHP et MariaDB/MySQL. Le projet est aujourd'hui édité par la société française Teclib', qui en assure le développement et propose une offre hébergée ainsi que des extensions commerciales.
 
 
 OCS Inventory NG
 ----------------
 
-:Site: https://www.ocsinventory-ng.org/
+:Site: https://ocsinventory-ng.org/
 :Porteur: une communauté
-:Licence: GPL
+:Licence: GPL v2
 
 OCS Inventory NG est un outil d'inventaire automatique de postes informatiques, d’origine française, créé en 2001.
 
@@ -47,6 +47,10 @@ Autres
 
 Parmi les produits de l’univers Gestion de parc et inventaires, on peut compléter la liste avec les outils ci-dessous :
 
-- Fusion Inventory http://fusioninventory.org/
+- GLPI Agent, l'agent d'inventaire multiplateforme de GLPI, qui succède à FusionInventory (dont l'agent n'est plus maintenu): https://github.com/glpi-project/glpi-agent
+- Snipe-IT, gestion des actifs et des licences, à l'ergonomie très soignée: https://snipeitapp.com/
+- NetBox, référentiel d'infrastructure réseau et de centre de données (adressage, câblage, racks): https://netbox.dev/
+- Foreman, gestion du cycle de vie des serveurs (provisionnement, configuration, correctifs): https://theforeman.org/
+- Uyuni, gestion de parc et de correctifs pour distributions Linux, amont de SUSE Manager: https://www.uyuni-project.org/
 
 

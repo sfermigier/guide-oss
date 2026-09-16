@@ -6,56 +6,84 @@ Les suites décisionnelles regroupent généralement les deux catégories prése
 Ainsi, le périmètre des suites décisionnelles est très vaste : exécution des rapports, analyse OLAP, aide à la création de requêtes, ETL, module de gestion du workflow de publication, etc..
 
 
-Rapid-Miner
------------
+Metabase
+--------
 
-:Site: http://rapid-i.com/
-:Porteur: un éditeur (Rapid-I)
-:Licence: AGPL et proprietaire
+:Site: https://www.metabase.com/
+:Porteur: une entreprise (Metabase)
+:Licence: AGPL v3 (édition Open Source) et propriétaire
 
-Rapid-Miner est une suite décionnelle complète conçue pour le Big Data. Rapid-Miner comporte un module d'analyse de données, de reporting, un module OLAP, un module Hadoop, et un ETL. Il intègre tous les outils de business intelligence y compris les modules R et la bibliothèque Weka. Son interface utilisateur permet de dessiner des chaînes de traitement et des rapports à la souris. Son moteur de calcul est capable de répartir les calculs sur un cluster.
+Créé en 2015, Metabase s'est imposé comme la solution décisionnelle open source la plus simple à mettre en œuvre, conçue pour que des utilisateurs non techniciens puissent interroger les données de l'entreprise.
 
-Rapid-Miner est issu de la recherche universitaire allemande et est aujourd'hui largement diffusé dans les banques et compagnies outre-Rhin où il parvient à remplacer le leader du marché sur le segment du décisionnel. Rapid-Miner s'interface avec de nombreuses bases de données et notamment Vectorwise pour atteindre de très hautes performances sur les fermes de données.
+Son originalité tient à son interface de construction de questions sans SQL, complétée par un éditeur SQL pour les analystes, des tableaux de bord interactifs, des filtres partagés, des alertes et abonnements par courriel ou messagerie, et une gestion fine des permissions (jusqu'au niveau ligne dans les éditions commerciales). Metabase se connecte à la plupart des bases relationnelles et des entrepôts (PostgreSQL, MySQL/MariaDB, BigQuery, Snowflake, ClickHouse, etc.).
+
+Metabase est écrit en Clojure et JavaScript.
 
 
-SpagoBI
--------
+Apache Superset
+---------------
 
-:Site: https://www.spagoworld.org/
-:Porteur: un éditeur (Engineering Ingegneria Informatica)
-:Licence: LGPL
+:Site: https://superset.apache.org/
+:Porteur: une fondation (Apache)
+:Licence: Apache 2.0
 
-SpagoBI est une suite décisionnelle développée par la société italienne Engineering Ingegneria Informatica. Ce projet a été initié en 2005.
+Superset a été créé en 2015 chez Airbnb, puis confié à la fondation Apache, dont il est devenu projet de haut niveau en 2021.
 
-Le périmètre des fonctionnalités de SpagoBI comprend, à l’instar de Pentaho et Jasperserver : exécution des rapports JasperReports (réalisés avec iReport) et BIRT, l’analyse OLAP avec Mondrian, un composant d’aide à la création de requêtes (Query By Example, QbE), gestion des métadonnées, analyse géo-localisée, etc. L’ETL utilisé par défaut est Talend. Cette suite propose en plus un module de gestion du workflow de publication (états de brouillon non visibles dans le portail web).
+Plus riche que Metabase sur la partie visualisation, Superset propose des dizaines de types de graphiques, un explorateur de données sans code, un éditeur SQL (SQL Lab), une couche sémantique légère et des tableaux de bord paramétrables. Il vise en particulier les entrepôts et bases analytiques à grand volume (Trino, ClickHouse, Druid, BigQuery, Snowflake…), avec mise en cache des résultats.
+
+Superset est écrit en Python (Flask) et TypeScript (React).
+
+
+Knowage (anciennement SpagoBI)
+------------------------------
+
+:Site: https://www.knowage-suite.com/
+
+SpagoBI, la suite décisionnelle de la société italienne Engineering Ingegneria Informatica présentée dans les éditions précédentes de ce guide, a été renommée Knowage en 2016 ; le site historique spagoworld.org n'est plus en service. Le produit couvre toujours l'ensemble de la chaîne décisionnelle (rapports JasperReports et BIRT, OLAP avec Mondrian, *Query By Example*, métadonnées, analyse géolocalisée, tableaux de bord, workflow de publication).
+
+Voir la fiche détaillée dans la section :doc:`/applications-generiques/decisionnel-reporting`.
+
+
+RapidMiner (n'est plus open source)
+-----------------------------------
+
+:Site: https://www.siemens.com/en-us/products/rapidminer/
+:Porteur: un éditeur (Siemens)
+:Licence: propriétaire
+
+Issu de la recherche universitaire allemande (université de Dortmund), RapidMiner a longtemps été une suite d'analyse de données publiée sous licence AGPL, largement diffusée dans les banques et l'industrie outre-Rhin.
+
+L'éditeur a progressivement abandonné le modèle open source à la fin des années 2010, avant d'être racheté par Altair en 2022, lui-même absorbé par Siemens en 2025. Le produit, désormais commercialisé sous la marque Siemens, n'a plus sa place dans un guide de solutions open source : cette fiche n'est conservée qu'à titre d'avertissement pour les lecteurs des éditions précédentes. Les alternatives open source sont KNIME pour l'analyse et la science des données, Metabase ou Apache Superset pour le décisionnel classique.
 
 
 JasperSoft
 ----------
 
 :Site: https://www.jaspersoft.com/
-:Porteur: un éditeur (JasperSoft)
-:Licence: GPL et propriétaire
+:Porteur: un éditeur (Cloud Software Group)
+:Licence: AGPL et propriétaire
 
-JasperServer est la plateforme décisionnelle de JasperSoft, société qui développe également le générateur d’états JasperReports disponible depuis 2001. Cette plateforme propose des fonctionnalités de reporting et d’analyse.
+JasperReports Server (ex-JasperServer) est la plateforme décisionnelle de Jaspersoft, éditeur du générateur d'états JasperReports disponible depuis 2001, passé chez TIBCO en 2014 puis chez Cloud Software Group en 2022. Cette plateforme propose des fonctionnalités de reporting et d'analyse.
 
-En version community, JasperServer propose la conception et génération de rapports (avec IReport). Dans sa version commerciale, il propose la création de domaines métier, couches sémantiques et techniques au dessus des bases SQL relationnelles, permettant à la fois de définir un lexique métier, de s’abstraire de la technique et du SQL, ainsi que d’ajouter simplement une sécurité d’accès aux données. Une autre fonctionnalité majeure consiste en la création de rapport Ad Hoc, c’est-à-dire que l’utilisateur final peut créer ses propres rapports via une interface web conviviale. De plus, à l’instar des autres plateformes BI, Jasper propose la création de cube OLAP (brique Mondrian) et intègre Talend en tant qu’ETL.
+En version communautaire, JasperReports Server propose la conception et la génération de rapports (avec Jaspersoft Studio, successeur d'iReport). Dans sa version commerciale, il propose la création de domaines métier, couches sémantiques et techniques au dessus des bases SQL relationnelles, permettant à la fois de définir un lexique métier, de s’abstraire de la technique et du SQL, ainsi que d’ajouter simplement une sécurité d’accès aux données. Une autre fonctionnalité majeure consiste en la création de rapport Ad Hoc, c’est-à-dire que l’utilisateur final peut créer ses propres rapports via une interface web conviviale. De plus, à l’instar des autres plateformes BI, Jasper propose la création de cube OLAP (brique Mondrian) et intègre Talend en tant qu’ETL.
 
 
 Pentaho
 -------
 
-:Site: https://www.pentaho.com/
-:Porteur: un éditeur (Pentaho)
-:Licence: GPL et propriétaire
+:Site: https://pentaho.com/
+:Porteur: un éditeur (Hitachi Vantara)
+:Licence: LGPL (édition communautaire) et propriétaire
 
-Pentaho est une suite logicielle qui permet la distribution de fonctionnalités et documents décisionnels à un grand nombre de personnes par l'intermédiaire d'une interface Web. Le projet a été initié en 2007.
+Pentaho est une suite logicielle qui permet la distribution de fonctionnalités et de documents décisionnels à un grand nombre de personnes par l'intermédiaire d'une interface web. Le projet a été fondé en 2004 et racheté par Hitachi Data Systems (devenu Hitachi Vantara) en 2015.
 
-A l’instar de JasperServer, Pentaho regroupe toutes les fonctionnalités d’une suite BI : l’ETL (Pentaho Data Integration), l’analyse OLAP (Mondrian), le reporting Ad Hoc, la couche métadonnée, et le reporting classique (Pentaho Report Designer). Les différences sont les suivantes : le reporting Ad Hoc est disponible dès la version communautaire mais est beaucoup moins évolué que celui du JasperServer commercial, le reporting n’inclut pas encore les tableaux croisés dynamiques et la gestion de la sécurité des données est plus complexe à mettre en place. Globalement, la suite Pentaho est plus complète que la suite Jasper en version communautaire, mais la tendance s’inverse en version commerciale, JasperServer proposant des fonctionnalités très intéressantes (Domaines, Ad Hoc évolué,…)
+À l'instar de JasperReports Server, Pentaho regroupe toutes les fonctionnalités d'une suite BI : l'ETL (Pentaho Data Integration), l'analyse OLAP (Mondrian), le reporting ad hoc, la couche de métadonnées et le reporting classique (Pentaho Report Designer). L'édition communautaire reste disponible, mais l'essentiel des investissements de l'éditeur porte désormais sur les offres commerciales et sur l'intégration à la plateforme de données d'Hitachi ; une partie de la communauté historique a migré vers Apache Hop.
 
 
 Autres
 ------
 
 - KNIME: https://www.knime.com/
-- Eclipse BIRT: https://www.eclipse.org/birt/
+- Eclipse BIRT: https://eclipse-birt.github.io/birt-website/
+- Lightdash (BI au-dessus de dbt): https://www.lightdash.com/
+- Redash (requêtes et tableaux de bord SQL): https://redash.io/

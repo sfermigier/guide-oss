@@ -1,7 +1,7 @@
 Réseaux sociaux d’entreprise (RSE)
 ==================================
 
-Le succès des réseaux sociaux publics tels que Facebook, Twitter, LinkedIn, etc. n’est plus à démontrer (plus de 400 millions d’usagers inscrits sur Facebook à ce jour). Ils mettent en lumière l’intérêt qu’ont les individus à se rapprocher, à se connaître, à échanger et à travailler ensemble.
+Le succès des réseaux sociaux publics — Facebook, LinkedIn, X (ex-Twitter), Instagram, et plus récemment les réseaux décentralisés du *fediverse* comme Mastodon — n’est plus à démontrer. Ils mettent en lumière l’intérêt qu’ont les individus à se rapprocher, à se connaître, à échanger et à travailler ensemble.
 
 Les RSE (« Réseaux sociaux d’Enteprise ») sont nés du constat que l’entreprise pouvait également utiliser ce support pour générer de la valeur.
 
@@ -11,31 +11,33 @@ L’usage des réseaux sociaux est désormais intégré et ce sont dorénavant l
 BuddyPress
 ----------
 
-:Site: http://buddypress.org
+:Site: https://buddypress.org
 :Porteur: une communauté
 :Licence: GPL
 
 BuddyPress a été conçu en 2008 par Andy Peatling alors qu’il travaillait à l’ajout de fonctionnalités de networking sur le célèbre moteur de blog WordPress. La première version officielle (v1), sortie en mai 2009, connait depuis une activité croissante.
 
-BuddyPress est livré par défaut avec de nombreuses fonctionnalités qu’il est très simple d’activer. Citons par exemple : flux d’activité, profil, groupes, gestion des amis, messagerie, blogs, forums, etc. BuddyPress dispose d’une communauté active. Une roadmap est accessible sur le site de la communauté. La prochaine version (la 1.3) consolidera l’existant (interface d’installation, amélioration des attributs des profils, support de WordPress 3.0, etc.).
+BuddyPress est livré par défaut avec de nombreuses fonctionnalités qu’il est très simple d’activer : flux d’activité, profils, groupes, gestion des relations, messagerie privée, blogs, forums (via bbPress), etc. Le projet, désormais intégré à l'écosystème WordPress officiel, poursuit un développement régulier mais sans rupture.
 
-BuddyPress est publié sous la licence open source GNU version 2.
+BuddyPress est publié sous licence GNU GPL v2.
 
 BuddyPress a la particularité d’être bâti sur l’outil Wordpress. Il dispose ainsi d’une architecture semblable : PHP, Apache et MySQL.
 
 
-Drupal Commons
---------------
+HumHub
+------
 
-:Site: https://www.drupal.org/project/commons
-:Porteur: un éditeur (Acquia)
-:Licence: GPL
+:Site: https://www.humhub.com/
+:Porteur: un éditeur (HumHub GmbH)
+:Licence: AGPL v3
 
-Drupal Commons est une distribution Drupal orientée « Réseaux sociaux » publiée en 2010 par Acquia (société de services fondée par le créateur de Drupal). Drupal a été conçu dans les années 2000 par Dries Buytaert et connaît depuis un succès mondial.
+HumHub est aujourd'hui le réseau social d'entreprise open source le plus abouti et le plus simple à déployer.
 
-Le périmètre des portails communautaires créés sous Drupal dépend des modules disponibles (plus de 10 000 – mais une partie seulement concerne les RSE). Citons : Homebox (pour les pages personnalisées), Invite Friends (pour gérer ses amis), Content Profile (pour gérer les données des profils), FriendList (liste des amis), Organic Group (gestion des groupes), Privatemsg (messagerie privée), etc. La distribution Drupal Commons offre nativement un périmètre fonctionnel large permettant de mettre en œuvre rapidement un véritable réseau social.
+Il propose les fonctions attendues du domaine : flux d'activité, profils enrichis, espaces (équivalents des groupes ou communautés) publics ou privés, messagerie instantanée, notifications, calendrier, gestion de tâches, wiki, sondages, fichiers, ainsi qu'une application mobile. Son architecture modulaire permet d'ajouter des fonctionnalités via une place de marché de modules, et le produit se personnalise facilement (thèmes, intégration à un annuaire LDAP, authentification unique).
 
-Une offre de support existe via la société Acquia (fondée par Dries Buytaert).
+HumHub est écrit en PHP (framework Yii) et s'appuie sur MySQL/MariaDB.
+
+Drupal Commons, distribution Drupal orientée réseaux sociaux publiée par Acquia et présentée dans les éditions précédentes de ce guide, n'a pas été portée sur les versions récentes de Drupal et n'est plus maintenue. Une démarche équivalente reste possible en assemblant des modules Drupal (Organic Groups, Message, Flag…), mais sans distribution clés en main.
 
 
 Elgg
@@ -49,12 +51,16 @@ Elgg fait partie des solutions de réseaux sociaux open source les plus connues 
 
 Elgg offre l’essentiel des fonctionnalités attendues dans le cadre d’un projet de réseaux sociaux. Sa conception par module garantit son extensibilité ; sa communauté est, quant à elle, très active et publie de nombreux plugins intéressants (www.elgg.org). On peut citer notamment : la gestion des profils (avec la possibilité de définir des attributs), la mise à disposition de flux d’activité, la notion de « blogging » et « microblogging », la gestion de groupe (avec espaces restreints), une gestion fine des droits, une API complète, etc.
 
-Coté support, la société Curverider, éditrice du produit, offre de nombreux services comme la correction d’anomalies et l’hébergement.
+Le produit n'est plus porté par une société : depuis la dissolution de Curverider, Elgg est géré par l'Elgg Foundation, association à but non lucratif, et par sa communauté de contributeurs.
 
-Elgg est écrit en PHP et fonctionne sous technologies LAMP (Linux, Apache, MySQL et PHP). Son architecture autorise la notion de plugins et permet d’étendre facilement et rapidement les fonctionnalités du produit (plus de 900 extensions).
+Elgg est écrit en PHP et fonctionne sur une pile LAMP classique. Son architecture de plugins permet d'étendre facilement les fonctionnalités du produit.
 
 
 Autres
 ------
 
-- Mahara: http://mahara.org
+- Mahara (portfolio numérique, souvent couplé à Moodle): https://mahara.org
+- Nextcloud Hub, dont les fonctions sociales et collaboratives couvrent une grande partie des usages RSE: https://nextcloud.com/
+- eXo Platform, positionné sur la *digital workplace* (section :doc:`/web-communication/portail`): https://www.exoplatform.com/
+
+Une partie des usages historiquement couverts par les RSE est passée aux outils de messagerie d'équipe et de visioconférence. Les principales solutions open source du domaine sont Mattermost (https://mattermost.com/), Rocket.Chat (https://www.rocket.chat/), Zulip (https://zulip.com/), Element/Matrix (https://element.io/) pour la messagerie, Jitsi Meet (https://jitsi.org/), BigBlueButton (https://bigbluebutton.org/) et Galène (https://galene.org/) pour la visioconférence.

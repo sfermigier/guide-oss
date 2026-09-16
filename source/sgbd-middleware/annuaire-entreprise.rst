@@ -15,15 +15,15 @@ Dans l’univers de l’open source, la solution OpenLDAP dispose de la plus gra
 389 directory server
 --------------------
 
-:Site: http://directory.fedoraproject.org
-:Porteur: un éditeur (Red Hat)
-:Licence: GPL
+:Site: https://www.port389.org/
+:Porteur: un éditeur (Red Hat) et une communauté
+:Licence: GPL v3
 
 389 Directory Server, anciennement Fedora Directory Server, est un serveur LDAP développé par Red Hat au sein de la communauté Fedora. Il est basé sur le code du vénérable Netscape Directory Server, lui même basé sur le code de slapd original qui a également donné naissance à OpenLDAP. L'origine remonte donc à 1996, même si la première version de Fedora Directory Server est sortie en 2005.
 
-389 Directory Server implémente le protocole LDAP v3, se distingue de ses concurrents par une interface graphique d'administration écrite en Java ainsi que le support de la réplication master-master, permettant ainsi la redondance des accès lectures et écritures. A noter également que 389 directory server peut servir de solution de remplacement à SunONE/JES Directory Server, la base de code étant très proche, et SunONE semblant ne pas être poursuivi depuis le rachat par Oracle.
+389 Directory Server implémente le protocole LDAP v3 et se distingue par la réplication multi-maître, qui permet la redondance des accès en lecture comme en écriture. L'ancienne console Java a été remplacée par une console web (Cockpit) et par des outils en ligne de commande. Le serveur constitue par ailleurs le socle de FreeIPA, la solution de gestion d'identité de Red Hat.
 
-389 Directory Server est écrit en majeure partie en C, avec certaines parties telles que le GUI en Java.
+389 Directory Server est écrit en C et en Python.
 
 
 
@@ -48,4 +48,8 @@ Autres
 
 Parmi les produits de l’univers Annuaire d’entreprise, on peut compléter la liste avec les outils ci-dessous :
 
-- Apache Directory: http://directory.apache.org
+- FreeIPA, qui combine annuaire (389 DS), Kerberos, DNS et autorité de certification pour gérer un domaine UNIX/Linux complet: https://www.freeipa.org/
+- Samba Active Directory, seule implémentation libre d'un contrôleur de domaine Active Directory: https://www.samba.org/
+- Univention Corporate Server, distribution de gestion d'identité et de parc à base d'OpenLDAP et de Samba: https://www.univention.com/
+- Apache Directory (serveur ApacheDS et outil d'administration Apache Directory Studio): https://directory.apache.org/
+- LLDAP, annuaire léger pour les petites infrastructures: https://github.com/lldap/lldap

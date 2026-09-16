@@ -25,8 +25,8 @@ Squid est inspiré du projet Harvest. Il est compatible avec IPv6 à partir de s
 Varnish
 -------
 
-:Site: https://www.varnish-cache.org
-:Porteur: un éditeur (Varnish Software)
+:Site: https://varnish-cache.org/
+:Porteur: une communauté, avec le soutien de Varnish Software
 :Licence: BSD
 
 Varnish est un cache HTTP hautes performances. La première version stable de Varnish date de 2006, et a été initiée pour le journal norvégien Verdens Gang. L’architecte du produit est le danois Poul-Henning Kamp.
@@ -36,7 +36,11 @@ Utilisé pour améliorer les performances des sites web à fort trafic, Varnish 
 Autres
 ------
 
-- HA Proxy: http://www.haproxy.org/
+- HAProxy, davantage orienté répartition de charge que cache (section :doc:`/infrastructure/haute-disponibilite`): https://www.haproxy.org/
 
-- Traefik: https://traefik.io/
+- Traefik, proxy inverse conçu pour les environnements dynamiques (conteneurs, Kubernetes), avec découverte automatique des services et certificats TLS automatiques: https://traefik.io/
+
+- Apache Traffic Server, cache HTTP de classe opérateur: https://trafficserver.apache.org/
+
+- nginx et Caddy, qui assurent également les fonctions de proxy inverse et de cache (section :doc:`/web-communication/serveurs-http`)
 

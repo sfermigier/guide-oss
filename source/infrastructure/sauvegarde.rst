@@ -23,9 +23,23 @@ Bacula est développé en C/C++. Il s'appuie sur une base de données PostgreSQL
 Autres
 ------
 
+Sauvegarde d'entreprise :
+
+- Bareos, fork de Bacula réalisé en 2013, à la communauté plus ouverte et dont l'édition libre est moins restreinte: https://www.bareos.com/
 - Amanda: http://www.amanda.org/
-- BackupPC: http://backuppc.sourceforge.net/
-- Borg + Borgmatic: https://www.borgbackup.org/ + https://torsion.org/borgmatic/
+- UrBackup, sauvegarde de postes clients et de serveurs: https://www.urbackup.org/
+- Proxmox Backup Server, particulièrement adapté aux machines virtuelles et conteneurs, avec déduplication: https://pbs.proxmox.com/
+
+Sauvegarde de fichiers, avec déduplication et chiffrement :
+
+- Borg et Borgmatic: https://www.borgbackup.org/ et https://torsion.org/borgmatic/
 - Restic: https://restic.net/
-- Rclone: https://rclone.org/
-- Bareos: https://www.bareos.org/en/
+- Kopia: https://kopia.io/
+- BackupPC: https://backuppc.github.io/backuppc/
+
+Synchronisation et stockage :
+
+- Rclone, pour la copie vers et depuis les stockages objet et services cloud: https://rclone.org/
+- Velero, pour la sauvegarde des ressources et volumes Kubernetes: https://velero.io/
+
+Il est utile de rappeler qu'une sauvegarde n'a de valeur que si la restauration est testée régulièrement, et que la règle dite « 3-2-1 » (trois copies, deux supports, une hors site) reste le meilleur garde-fou contre les rançongiciels, à condition d'y ajouter une copie immuable ou hors ligne.

@@ -3,7 +3,7 @@ Sécurité
 
 Le domaine de la sécurité est très large, de l’antivirus aux systèmes de détection d’intrusion, on trouve de nombreuses solutions open source.
 
-Dans cette rubrique, on présente les vérificateurs d’intégrité, les détecteurs de virus, les détecteurs d’intrusions, les outils d’analyse de problèmes réseaux et des « testeurs » de failles de sécurité.
+Dans cette rubrique, on présente les vérificateurs d’intégrité, les détecteurs de virus, les détecteurs d’intrusions, les outils d’analyse de problèmes réseaux et les « testeurs » de failles de sécurité. Les briques de gestion des identités et des certificats font l'objet des sections :doc:`/infrastructure/authentification-federation-et-gestion-identite` et :doc:`/infrastructure/pki`.
 
 Tous ces outils sont de précieuses aides pour les administrateurs Systèmes et Réseaux pour garantir l’intégrité de leur parc.
 
@@ -17,7 +17,7 @@ Prelude SIEM
 
 Prelude SIEM est un *security information management system* (SIEM), c'est-à-dire un outil de pilotage de la sécurité. Prelude collecte et centralise les informations de sécurité de l'entreprise pour offrir un point central de pilotage. Grâce à l'analyse et la corrélation des journaux et des flux, Prelude SIEM alerte en temps réel des tentatives d'intrusions et des menaces sur le réseau. Prelude SIEM offre plusieurs outils d'investigation et de reporting sur les Big Data permettant d'identifier les signaux faibles qui peuvent préfigurer des menaces persistantes avancées. Enfin, Prelude SIEM dispose de tous les outils d'aide à l'exploitation pour simplifier le travail des opérateurs et la gestion des risques.
 
-Prelude SIEM est l'évolution de Prelude IDS, projet open source de sonde IDS créé en 1998 par Yoann Vandoorselaere.
+Prelude SIEM est l'évolution de Prelude IDS, projet open source de sonde IDS créé en 1998 par Yoann Vandoorselaere, et repris par CS Group. Attention au modèle de diffusion : seule la version « Prelude OSS », aux performances volontairement limitées, est librement disponible, l'essentiel des capacités relevant de l'offre commerciale.
 
 
 AIDE
@@ -36,10 +36,10 @@ ClamAV
 ------
 
 :Site: https://www.clamav.net
-:Porteur: un éditeur (SourceFire)
-:Licence: GPL
+:Porteur: un éditeur (Cisco)
+:Licence: GPL v2
 
-ClamAV est un détecteur de virus antérieur à 2005.
+ClamAV est un antivirus créé en 2002, passé chez Sourcefire en 2007 puis chez Cisco, qui a racheté cette dernière en 2013.
 
 Contrairement à ses équivalents du monde Windows, il n'est pas utilisé pour protéger la machine sur laquelle il est installé, mais pour scanner les fichiers qui s'y trouvent. On l'utilise ainsi sur les serveurs web, sur les serveurs de fichiers ou encore sur les serveurs mail. ClamAV détecte un grand nombre de menaces couvrant tous les systèmes d'exploitation. L'accès aux mises à jour des signatures est gratuit, alimentées par une communauté investie.
 
@@ -50,25 +50,26 @@ SNORT
 -----
 
 :Site: https://www.snort.org
-:Porteur: un éditeur (SourceFire)
+:Porteur: un éditeur (Cisco)
+:Licence: GPL v2
 
 SNORT est un détecteur d’intrusion réseau réalisé en 1998 par Martin Roesch.
 
 Souvent utilisé comme sonde, il dispose aussi d'un mode actif qui lui permet, lorsqu'il est installé sur un équipement de routage, de bloquer tout trafic suspect. Il s’agit donc d’un détecteur d’intrusion réseau (NIDS : Network Intrusion Detection System) permettant l’analyse en temps réel du trafic sur un segment de réseau.
 
-Bien que le moteur soit distribué sous licence GPL, il n'est pas utile sans une base de règles. Celle-ci fait l'objet d'une souscription payante auprès de l'éditeur. Cependant, les règles sont mises à disposition gratuitement au bout de 30 jours.
+Bien que le moteur soit distribué sous licence GPL, il n'est guère utile sans base de règles. Celle-ci fait l'objet d'une souscription payante auprès de l'éditeur, les règles étant mises à disposition gratuitement au bout de trente jours ; il existe par ailleurs des jeux de règles communautaires (Emerging Threats). La version 3 de Snort, sortie en 2021, a profondément revu l'architecture du moteur pour tirer parti des processeurs multicœurs, point sur lequel Suricata (voir ci-dessous) avait pris l'avantage.
 
 
 OpenVAS
 -------
 
-:Site: https://www.openvas.org
+:Site: https://www.greenbone.net/
 :Porteur: un éditeur (Greenbone)
-:Licence: GPL
+:Licence: GPL v2
 
-OpenVAS (Open source Vulnerability Assessment Scanner) est un projet issu du célèbre scanner Nessus dont la première version date de 1998.
+OpenVAS (*Open Vulnerability Assessment Scanner*) est un projet né en 2005 du dernier code libre de Nessus, devenu propriétaire. Il est aujourd'hui intégré dans un ensemble plus large, la **Greenbone Community Edition** (anciennement GVM, *Greenbone Vulnerability Management*), qui regroupe le scanner, le gestionnaire de vulnérabilités et l'interface web.
 
-Il permet de tester la présence, dans les systèmes à tester, de failles de sécurité. Contrairement à Nessus, OpenVAS est complètement open source et dispose de mises à jours gratuites fournies par la communauté. Des mises à jour payantes, à la disponibilité garantie, et une interface d'administration graphique sont proposées par l'éditeur Greenbone.
+Il permet de tester la présence de failles de sécurité sur les systèmes audités. Le flux de tests communautaire est gratuit ; l'éditeur allemand Greenbone propose en complément un flux d'entreprise, garanti et plus rapidement mis à jour, ainsi que des appliances.
 
 
 WireShark
@@ -82,7 +83,7 @@ Wireshark (anciennement Ethereal) est un outil d'analyse de trafic réseau qui a
 
 Il est utilisé par grand nombre d'administrateurs pour diagnostiquer des problèmes réseaux complexes. Disponible sous forme d'une application graphique lourde ainsi qu'une interface en mode texte, il est capable de décoder un très grand nombre de protocoles, y compris chiffrés.
 
-Wireshark est multi-plateforme, il fonctionne sous Windows, Mac OS X, Linux, Solaris, ainsi que sous FreeBSD. Wireshark reconnait 759 protocoles.
+Wireshark est multiplateforme : il fonctionne sous Windows, macOS, Linux et les systèmes BSD, et reconnaît plusieurs milliers de protocoles. Le projet est porté depuis 2023 par la Wireshark Foundation, qui en assure la gouvernance et le financement.
 
 
 OSSEC
@@ -92,7 +93,9 @@ OSSEC
 :Porteur: une communauté
 :Licence: GPL 2.0
 
-OSSEC (Open Source Security Event Correlator) est un système de détection d'intrusion basé sur l'hôte (HIDS : Host Intrusion Detection System). Il a été créé en 2004 par Daniel B. Cid. OSSEC est capable de surveiller en temps réel les journaux système, les modifications de fichiers, les politiques de registre Windows, ainsi que de détecter les rootkits. Il permet une analyse approfondie de la sécurité du système grâce à des règles configurables, et dispose d'une fonctionnalité d'alerte par email. OSSEC peut être déployé dans des environnements hétérogènes et est largement utilisé dans les environnements de production pour améliorer la sécurité des systèmes.
+OSSEC est un système de détection d'intrusion basé sur l'hôte (HIDS, *Host Intrusion Detection System*), créé en 2004 par Daniel B. Cid. Il surveille en temps réel les journaux système, les modifications de fichiers et la base de registre Windows, et détecte les rootkits. Il permet une analyse approfondie de la sécurité du système grâce à des règles configurables, et dispose d'une fonction d'alerte par courriel.
+
+À noter : **Wazuh** (https://wazuh.com/), fork d'OSSEC créé en 2015, a largement dépassé le projet d'origine. Il en conserve l'agent et les règles, mais y ajoute une interface web complète, la gestion des vulnérabilités, le suivi de conformité (PCI-DSS, RGPD, NIS 2), l'inventaire et l'intégration à OpenSearch, ce qui en fait une plateforme XDR/SIEM complète sous licence AGPL v3. C'est aujourd'hui la solution à évaluer en priorité dans cette catégorie.
 
 Suricata
 --------
@@ -138,4 +141,19 @@ OpenSCAP
 :Licence: GPL 2.0
 
 OpenSCAP est une suite d'outils open source pour l'audit de sécurité des systèmes d'information. Basé sur les standards de sécurité développés par NIST, OpenSCAP permet l'évaluation de la conformité, la détection des vulnérabilités et la remédiation des configurations non conformes. Il est largement utilisé dans les environnements conformes aux réglementations comme PCI-DSS et HIPAA. OpenSCAP comprend un scanner de conformité, un éditeur de profils et divers outils d'analyse, permettant aux administrateurs de maintenir et de renforcer la sécurité de leurs systèmes.
+
+
+Autres
+------
+
+Le domaine s'est considérablement étoffé ces dernières années ; parmi les projets à connaître :
+
+- CrowdSec, solution française de détection et de blocage comportemental, fondée sur le partage communautaire des adresses malveillantes: https://www.crowdsec.net/
+- Fail2ban, l'outil historique de bannissement d'adresses IP sur la base des journaux: https://github.com/fail2ban/fail2ban
+- OpenCTI, plateforme de renseignement sur les menaces développée par la société française Filigran avec le soutien de l'ANSSI: https://filigran.io/products/opencti
+- MISP, plateforme de partage d'indicateurs de compromission: https://www.misp-project.org/
+- Falco, détection d'anomalies à l'exécution dans les conteneurs et Kubernetes (projet CNCF): https://falco.org/
+- Trivy, analyse de vulnérabilités des images, dépendances et configurations: https://trivy.dev/
+- Lynis, audit de durcissement des systèmes UNIX: https://cisofy.com/lynis/
+- OpenBao, gestion des secrets, fork libre de HashiCorp Vault (section :doc:`/infrastructure/pki`): https://openbao.org/
 

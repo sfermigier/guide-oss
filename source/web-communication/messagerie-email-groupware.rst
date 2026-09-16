@@ -3,7 +3,7 @@ Messagerie, Emailing & Groupware
 
 Le domaine de la « messagerie » est très large, de la messagerie individuelle à l’envoi de mailing groupé, on trouve de nombreuses solutions open source.
 
-Dans cette rubrique, on présente les serveurs de messagerie (SMTP et IMAP), les outils Anti-spam et les interfaces de consultation (Groupware). Les anti-virus tels que  CLAV sont rangés dans la catégorie Sécurité.
+Dans cette rubrique, on présente les serveurs de messagerie (SMTP et IMAP), les outils antispam et les interfaces de consultation (groupware). Les antivirus tels que ClamAV sont rangés dans la catégorie :doc:`/infrastructure/securite`.
 
 Tous ces outils sont de précieuses aides pour mettre en œuvre un système de messagerie complet.
 
@@ -11,7 +11,7 @@ Tous ces outils sont de précieuses aides pour mettre en œuvre un système de m
 Blue Mind
 ---------
 
-:Site: https://www.blue-mind.net/
+:Site: https://bluemind.net/
 :Porteur: un éditeur (Blue Mind)
 :Licence: AGPL v3 / CeCILL v2
 
@@ -19,7 +19,7 @@ Blue Mind est une solution complète de messagerie d’entreprise, d’agendas e
 
 L'ensemble des fonctionnalités est accessible via un navigateur et supporte le mode déconnecté directement dans le navigateur sans installation de logiciels supplémentaire. Blue Mind est aussi accessible via les clients lourds de messagerie classique via les protocoles standard SMTP/POP/IMAP. Pour les logiciels Thunderbird et Outlook, Blue Mind fourni en plus des connecteurs permettant de synchroniser les contacts et calendriers (ou un accès aux calendriers pour Thunderbird). Le support de la synchronisation (push) des Smartphones (Android, Iphone, Ipad, Windows Mobile,..) est natif via le protocole Exchange ActiveSync (EAS).
 
-Blue Mind s'appuie sur les logiciels libres préexistants: Postfix, cyrus IMAP, Roundcube, Apache, Tomcat, Nginx, HornetQ, PostgreSQL. L'interface utilisateur est entièrement fondée sur Ajax avec le framework Javascript Closure développé par Google. L'architecture de Blue Mind est basée sur des web services et un bus de messages.
+BlueMind s'appuie sur des logiciels libres préexistants : Postfix, Cyrus IMAP, nginx, PostgreSQL, Elasticsearch/OpenSearch pour l'indexation. Son architecture est fondée sur des services web et un bus de messages. Le produit est l'une des rares alternatives françaises crédibles à Microsoft Exchange et fait l'objet de déploiements dans l'administration française.
 
 Blue Mind est développé et supporté par la société française éponyme qui travaille avec des revendeurs et des intégrateurs pour déployer la solution chez ses clients.
 
@@ -66,14 +66,16 @@ Zimbra
 ------
 
 :Site: https://www.zimbra.com
-:Porteur: un éditeur (WMware)
-:Licence: Zimbra Public License, dérivée de MPL
+:Porteur: un éditeur (Zimbra, Inc.)
+:Licence: Zimbra Public License, dérivée de la MPL, et propriétaire
 
 Zimbra est un serveur de messagerie collaborative. Son interface utilisateur entièrement web et basée sur AJAX est célèbre pour son ergonomie.
 
 Toutes les fonctionnalités de Zimbra sont accessibles via un navigateur web ou un client lourd. Le Webmail de Zimbra est en effet compatible avec tout navigateur web moderne. La suite Zimbra intègre un client lourd Zimbra Desktop mais reste complètement compatible avec les clients lourds standards tels que Microsoft Outlook, Mozilla Thunderbird, Eudora, etc. Dans sa version commerciale, Zimbra se synchronise également avec la quasi totalité des plateformes mobiles (iPhone OS, Blackberry, Android, Symbian OS, Palm OS).
 
-Cet outil de messagerie s'appuie sur un socle infrastructure riche et robuste : WebDAV (XML), LDAP, iCal, HTTP(S), SMTP, IMAP, POP3 et CalDAV. Il fournit un socle SOAP permettant le développement de plugins appelés "Zimlets" assurant l'extension libre de son périmètre fonctionnel. Il est ainsi possible de l'interfacer avec une solution de téléphonie comme Asterisk ou un outil de CRM tel que SugarCRM. Zimbra est aujourd'hui une référence incontournable de la messagerie collaborative d'entreprise.
+Cet outil de messagerie s'appuie sur un socle d'infrastructure riche et robuste : LDAP, HTTP(S), SMTP, IMAP, POP3, CalDAV, CardDAV et Exchange ActiveSync. Il fournit une API SOAP/REST permettant le développement d'extensions appelées « Zimlets ».
+
+Zimbra est passé entre de nombreuses mains — VMware en 2010, Telligent puis Synacor en 2013 — avant de redevenir en 2022 une société indépendante, Zimbra Inc. Le produit reste décliné en une édition open source (ZCS Open Source Edition) et une édition Network commerciale, cette dernière concentrant les fonctions les plus attendues en entreprise (connecteur Outlook, sauvegarde à chaud, hiérarchisation du stockage). Il faut donc vérifier avec attention le périmètre de l'édition libre avant de s'engager.
 
 
 Horde
@@ -89,19 +91,18 @@ Il permet aux utilisateurs de pouvoir, lire, échanger et organiser leurs emails
 
 Horde est écrit en PHP.
 
-Zarafa
-------
+grommunio (héritier de Zarafa et Kopano)
+----------------------------------------
 
-:Site: https://www.zarafa.com/
-:Porteur: un éditeur (Zarafa)
-:Licence: Affero GPL v3
+:Site: https://grommunio.com
+:Porteur: un éditeur (grommunio GmbH)
+:Licence: AGPL v3 et propriétaire
 
+Zarafa, solution néerlandaise de messagerie collaborative connue pour sa prise en charge native du protocole MAPI et son interfaçage direct avec Outlook, a été renommée Kopano en 2016. Le site zarafa.com n'est plus en service et le développement communautaire de Kopano Core s'est arrêté au début des années 2020.
 
-Zarafa est une solution de messagerie collaborative supportant nativement le protocole MAPI. Elle est originaire des Pays-bas.
+C'est aujourd'hui grommunio, projet austro-allemand lancé en 2020 et largement issu de cette lignée technique, qui reprend le flambeau de l'alternative open source à Microsoft Exchange : prise en charge native des protocoles MAPI/HTTP, Exchange ActiveSync, EWS, IMAP, CalDAV et CardDAV, connexion directe d'Outlook sans connecteur tiers, webmail complet, visioconférence et messagerie instantanée intégrées, outils d'administration et de migration depuis Exchange.
 
-Son Webmail (entièrement accessible en Web et utilisant de l’Ajax) et son interfaçage direct avec Outlook le désigne, fonctionnellement, comme l'alternative open source la plus proche de Microsoft Exchange. Depuis 2007, le moteur de la version entreprise de Zarafa embarque le protocole Z-push assurant une compatibilité quasi totale avec les smartphones et Pocket PC du marché.
-
-Zarafa utilise la base de données MySQL pour le stockage de ses données. Le webmail est basé sur l’Ajax avec des traitements en PHP (avec l’extension MAPI PHP).
+grommunio est écrit en C++ et PHP et s'appuie sur MariaDB. Il est publié sous licence AGPL v3, avec une offre de souscription commerciale.
 
 OpenEMM
 -------
@@ -122,7 +123,23 @@ Autres
 
 Parmi les produits de l’univers Messagerie, Emailing & Groupware, on peut compléter la liste avec les outils ci-dessous :
 
-- RoundCube: http://roundcube.net/
-- EGroupware: http://www.egroupware.org/
-- Open-Xchange: http://www.open-xchange.com/
+Webmails et groupware :
+
+- Roundcube, rejoint en 2024 par la société Nextcloud: https://roundcube.net/
+- SOGo (groupware français/canadien, CalDAV, CardDAV et ActiveSync): https://www.sogo.nu/
+- EGroupware: https://www.egroupware.org/
+- Open-Xchange: https://ox.io/
+- SnappyMail (webmail léger): https://github.com/the-djmaze/snappymail
+
+Serveurs et filtrage :
+
+- Rspamd, antispam moderne souvent préféré à SpamAssassin pour ses performances: https://rspamd.com/
+- Dovecot, serveur IMAP le plus déployé aujourd'hui: https://www.dovecot.org/
+- Mailcow et Mailu, distributions clés en main de serveur de messagerie à base de conteneurs: https://mailcow.email/ et https://mailu.io/
+- Stalwart, serveur de messagerie tout-en-un écrit en Rust: https://stalw.art/
+
+Emailing :
+
+- Listmonk (gestionnaire de lettres d'information et de campagnes, Go): https://listmonk.app/
+- Mautic (automatisation marketing): https://www.mautic.org/
 

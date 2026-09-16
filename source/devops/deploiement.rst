@@ -47,9 +47,9 @@ La théorie des promesses offre une manière décentralisée et ascendante de co
 Ansible
 -------
 
-:Site: https://ansible.com/
+:Site: https://www.ansible.com/
 :Porteur: un éditeur (Red Hat)
-:Licence: GPL v3
+:Licence: GPL v3 (ansible-core)
 
 Ansible est une plate-forme logicielle open source qui offre des outils pour automatiser la gestion des systèmes et des réseaux. C'est un outil d'automatisation informatique qui permet de gérer à la fois le déploiement de logiciels, l'exécution de tâches ad-hoc (tâches qui ne sont pas nécessairement planifiées ou régulières), et la gestion de la configuration des systèmes.
 
@@ -57,15 +57,17 @@ L'une des principales caractéristiques d'Ansible est sa simplicité d'utilisati
 
 Les "playbooks" sont au cœur de la façon dont Ansible fonctionne. Un playbook est un fichier écrit en YAML (un langage de sérialisation de données lisible par l'homme) qui décrit une série d'étapes à suivre pour accomplir une tâche. Les playbooks peuvent être réutilisés et partagés, ce qui permet une automatisation cohérente et reproductible. Par exemple, vous pouvez avoir un playbook pour configurer un serveur web, un autre pour déployer une application spécifique, etc.
 
-Ansible est écrit en Python, ce qui signifie que vous pouvez étendre ses fonctionnalités en écrivant vos propres modules si vous le souhaitez. Python est un langage de programmation populaire et largement utilisé, ce qui signifie qu'il y a une grande communauté de développeurs qui peuvent aider à résoudre les problèmes ou à développer de nouvelles fonctionnalités.
+Ansible est écrit en Python, ce qui permet d'étendre ses fonctionnalités en écrivant ses propres modules.
+
+Depuis 2020, le projet est scindé en deux : `ansible-core`, le moteur, sous licence GPL v3, et les **collections**, qui regroupent modules et rôles par domaine et sont distribuées séparément via Ansible Galaxy. L'offre commerciale de Red Hat s'appelle Ansible Automation Platform. C'est aujourd'hui l'outil de gestion de configuration le plus utilisé, en grande partie grâce à son absence d'agent.
 
 
 Puppet
 ------
 
-:Site: https://puppetlabs.com/
-:Porteur: un éditeur (Puppet Labs)
-:Licence: Apache
+:Site: https://www.puppet.com/
+:Porteur: un éditeur (Puppet by Perforce)
+:Licence: Apache 2.0
 
 Puppet est une plateforme de gestion de configuration qui vous permet d'automatiser l'administration des infrastructures informatiques. Il est particulièrement utile pour gérer des environnements à grande échelle et hétérogènes, où le maintien d'une configuration cohérente à travers de nombreux systèmes peut être un défi.
 
@@ -75,13 +77,13 @@ Cela offre plusieurs avantages. Tout d'abord, cela rend les configurations plus 
 
 Puppet est écrit en Ruby, un langage de programmation couramment utilisé pour les applications web et autres outils d'administration. Cela signifie que vous pouvez étendre Puppet avec vos propres modules et intégrations, si vous le souhaitez.
 
-Enfin, Puppet bénéficie d'une communauté d'utilisateurs actifs et passionnés, qui contribuent régulièrement à son développement et à son amélioration. Puppet Labs, l'entreprise qui développe Puppet, offre également un support professionnel, ce qui peut être un atout pour les organisations qui ont besoin d'un niveau supplémentaire de support pour leur infrastructure.
+**Point de vigilance important.** Perforce, qui a racheté Puppet en 2022, a annoncé en 2024 le transfert du développement vers des dépôts internes et l'arrêt de la publication d'une version open source entretenue. La communauté a répondu en créant **OpenVox** (https://openvox.org/), fork maintenu par le collectif Vox Pupuli, dont les versions sont fonctionnellement équivalentes à celles de Puppet et publiées depuis janvier 2025. Les organisations qui déploient Puppet aujourd'hui doivent donc arbitrer entre l'offre commerciale de Perforce et la filière communautaire OpenVox — laquelle constitue, pour un usage libre, le choix le plus sûr.
 
 
 Rudder
 ------
 
-:Site: https://rudder.io/
+:Site: https://www.rudder.io/
 :Porteur: un éditeur français (Normation)
 :Licence: GPL v3
 
@@ -99,8 +101,9 @@ En termes de technologie, Rudder est développé en Scala pour la partie serveur
 Chef
 ----
 
-:Site: https://www.opscode.com/chef/
-
+:Site: https://www.chef.io/
+:Porteur: un éditeur (Progress Software)
+:Licence: Apache 2.0 pour le code source, licence commerciale pour les binaires distribués par l'éditeur
 
 Chef est un outil d'automatisation et de gestion de configuration puissant qui permet aux développeurs et aux administrateurs système de gérer et de contrôler leurs infrastructures informatiques.
 
@@ -110,12 +113,16 @@ L'une des principales caractéristiques de Chef est son modèle basé sur le cli
 
 Chef permet également l'intégration avec les principales plateformes cloud, comme AWS, Google Cloud Platform et Microsoft Azure, rendant la gestion des ressources dans ces environnements aussi simple que la gestion des ressources sur site.
 
-Chef possède une forte communauté d'utilisateurs et de contributeurs qui ont créé un grand nombre de recettes prêtes à l'emploi pour diverses tâches de configuration. Cela signifie que vous pouvez souvent trouver une recette existante qui fait ce que vous voulez, ce qui peut considérablement accélérer le processus de mise en place et de configuration de votre infrastructure.
+Chef possède une communauté d'utilisateurs et de contributeurs qui ont créé un grand nombre de recettes prêtes à l'emploi pour diverses tâches de configuration.
+
+Deux points à connaître avant de s'engager : la société Chef Software a été rachetée en 2020 par Progress Software, et si le code reste sous licence Apache 2.0, les binaires officiels sont soumis depuis 2019 à une licence commerciale au-delà d'un certain périmètre d'usage. Le projet **Cinc** (https://cinc.sh/) fournit des binaires reconstruits à partir des sources libres, sans cette restriction.
 
 Salt
 ----
 
-:Site: https://saltstack.com/
+:Site: https://saltproject.io/
+:Porteur: un éditeur (Broadcom, via VMware Tanzu) et une communauté
+:Licence: Apache 2.0
 
 Salt, aussi appelé SaltStack, est un outil d'automatisation et de gestion de configuration qui vise à rendre la gestion des infrastructures informatiques aussi efficace et automatisée que possible.
 
@@ -127,13 +134,13 @@ Salt utilise le langage de données YAML pour la création de ses configurations
 
 Salt est écrit en Python, un langage de programmation populaire pour son accessibilité et sa facilité d'utilisation. Cela signifie qu'il est relativement facile d'écrire de nouvelles fonctionnalités pour Salt si vous avez des besoins spécifiques non couverts par les fonctionnalités de base.
 
-En outre, Salt est capable de gérer des environnements mixtes, ce qui le rend très flexible pour les organisations qui utilisent une variété de systèmes d'exploitation et de plateformes.
+En outre, Salt est capable de gérer des environnements hétérogènes, ce qui le rend très souple pour les organisations qui utilisent une variété de systèmes d'exploitation et de plateformes. Le projet, racheté avec SaltStack par VMware en 2020, relève depuis 2023 de Broadcom ; il conserve une gouvernance communautaire (*Salt Project*) et une licence Apache 2.0.
 
 
 OCS Inventory NG
 ----------------
 
-:Site: http://www.ocsinventory-ng.org/
+:Site: https://ocsinventory-ng.org/
 
 OCS Inventory NG (Open Computers and Software Inventory Next Generation) est un outil d'inventaire informatique open source qui aide à faire un suivi et à gérer les actifs informatiques au sein d'une organisation.
 
@@ -148,7 +155,7 @@ OCS Inventory NG est écrit en Perl pour la partie agent, et utilise PHP pour l'
 CloneZilla
 ----------
 
-:Site: http://clonezilla.org
+:Site: https://clonezilla.org
 
 Clonezilla est un outil de clonage et d'imagerie de disque open source qui permet de copier, cloner et restaurer des systèmes d'exploitation et des données sur des disques durs. Il est souvent utilisé pour la sauvegarde, la restauration et le déploiement de systèmes dans des environnements informatiques.
 
@@ -164,7 +171,11 @@ Clonezilla est généralement utilisé via une interface en ligne de commande, m
 Partimage
 ---------
 
-:Site: http://www.partimage.org
+:Site: https://www.partimage.org
+
+.. warning::
+
+    Partimage n'est plus maintenu depuis le début des années 2010 et ne gère pas les systèmes de fichiers récents ni les partitions chiffrées. Il est décrit ici pour mémoire ; utilisez Clonezilla, qui l'a supplanté, ou les outils de sauvegarde présentés dans la section :doc:`/infrastructure/sauvegarde`.
 
 
 Partimage, qui signifie Partition Image, est un outil open-source de sauvegarde de disque et de partition. Il est spécifiquement conçu pour sauvegarder des partitions de disque en créant une image de la partition, ce qui peut ensuite être utilisé pour restaurer la partition à un état précédent.
@@ -183,8 +194,9 @@ Autres outils
 
 Gestion de configuration :
 
-- **CFEngine** : C'est l'un des premiers outils de gestion de configuration. Il est connu pour sa vitesse et sa capacité à gérer des milliers de noeuds.
-- **Terraform** : C'est un outil de gestion de configuration qui se concentre sur l'infrastructure en tant que code (IaC). Il est largement utilisé pour la gestion de l'infrastructure dans le cloud.
+- **CFEngine** : C'est l'un des premiers outils de gestion de configuration. Il est connu pour sa vitesse et sa capacité à gérer des milliers de nœuds.
+- **OpenTofu** : issu du fork de Terraform, cet outil relève non de la gestion de configuration mais du *provisioning* d'infrastructure (IaC) : il crée et détruit les ressources (machines, réseaux, services managés) que les outils ci-dessus configureront ensuite. HashiCorp ayant placé Terraform sous licence BSL en août 2023, la communauté a créé OpenTofu, aujourd'hui hébergé par la Linux Foundation et compatible avec les configurations Terraform existantes (https://opentofu.org/). Le même changement de licence a donné naissance à OpenBao, fork de Vault (https://openbao.org/).
+- **Terraform** : l'outil d'IaC de référence, désormais sous licence BSL 1.1 (source-available) et propriété d'IBM depuis le rachat de HashiCorp.
 - **Juju** : C'est un outil développé par Canonical (la société derrière Ubuntu) qui se concentre sur le déploiement et la gestion des services au-dessus du niveau du système d'exploitation.
 - **pyinfra** : Il s'agit d'un outil de déploiement de serveurs et d'outil de gestion de configuration écrit en Python. Il fonctionne en générant et en exécutant des commandes SSH sur les serveurs cibles. pyinfra est conçu pour être rapide, avec un temps de déploiement minimal, et pour fonctionner avec toute configuration de serveur, que vous ayez un seul serveur ou des milliers. Il offre également une API Python, ce qui signifie que vous pouvez intégrer pyinfra dans d'autres scripts ou outils Python.
 - **BundleWrap** : Est également un outil de gestion de configuration basé sur Python. Comme pyinfra, il utilise SSH pour communiquer avec les serveurs cibles. BundleWrap se distingue par son approche de la gestion de configuration : chaque nœud a un bundle qui décrit l'état désiré pour ce nœud, et BundleWrap travaille pour amener le nœud à cet état. Il est conçu pour être simple à comprendre et à utiliser, avec un système de fichiers en texte brut et un ensemble minimal de concepts à apprendre.
@@ -197,6 +209,13 @@ Clonage de disques :
 Inventaire et suivi des actifs :
 
 - **GLPI** : C'est un système d'information de gestion des ressources informatiques (ITSM) qui gère non seulement l'inventaire des actifs informatiques, mais aussi de nombreuses autres fonctions de gestion informatique.
-- **FusionInventory** : C'est un outil d'inventaire qui peut être utilisé seul ou en tandem avec GLPI pour fournir une solution d'inventaire et de gestion des actifs plus complète.
-- **RackTables** : C'est une solution de gestion de centre de données et de réseau qui aide à gérer le matériel, les emplacements, les adresses IP, les câbles et d'autres actifs.
+- **GLPI Agent** : l'agent d'inventaire multiplateforme de GLPI. Il succède à FusionInventory, dont l'agent n'est plus maintenu : les déploiements existants doivent prévoir la migration.
+- **RackTables** et **NetBox** : solutions de gestion de centre de données et de réseau, qui aident à gérer le matériel, les emplacements, les adresses IP, les câbles et autres actifs.
+- **Snipe-IT** : gestion des actifs informatiques orientée suivi du matériel et des licences.
+
+Déploiement applicatif et conteneurs :
+
+- **Docker**, **Podman** et **Kubernetes** constituent aujourd'hui le socle dominant du déploiement applicatif ; ils sont présentés dans la section :doc:`/infrastructure/virtualisation`.
+- **Argo CD** (https://argo-cd.readthedocs.io/) et **Flux** (https://fluxcd.io/) mettent en œuvre l'approche GitOps, où l'état souhaité du système est décrit dans un dépôt Git et appliqué en continu par un agent — transposition directe, à l'échelle des conteneurs, de la logique d'état désiré décrite plus haut.
+- **Helm** (https://helm.sh/) pour l'empaquetage des applications Kubernetes.
 

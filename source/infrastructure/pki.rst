@@ -5,7 +5,9 @@ Les solutions de type PKI permettent de sécuriser les relations électroniques 
 
 En sécurisant la gestion des identités, les outils de PKI facilitent le développement des activités transactionnelles, qu’elles soient externes (relations contractuelles et commerciales) ou internes (responsabilisation des collaborateurs).
 
-Parmi les solutions open source disponibles, on peut citer OpenSSL, OpenCA ou encore EJBCA.
+Parmi les solutions open source disponibles, on peut citer OpenSSL, EJBCA, Dogtag ou step-ca.
+
+Le contexte a beaucoup changé depuis les premières éditions de ce guide : la généralisation de Let's Encrypt et du protocole ACME a rendu quasi automatique la gestion des certificats destinés au web public, tandis que les autorités de certification internes se concentrent sur les usages d'entreprise — authentification des utilisateurs et des machines, signature, chiffrement, mTLS entre services. Les fiches ci-dessous distinguent ces deux mondes.
 
 
 OpenCA
@@ -19,7 +21,7 @@ OpenCA PKI est aujourd'hui la composante d'un vaste projet communautaire, visant
 
 D'une conception modulaire, il fournit une interface web pour réaliser aisément la plupart des tâches courantes (révocation et émission de certificats, tests...). Il permet également une restriction des droits. Avec les autres composants du projet PKI tel que le répondeur OCSP, il peut participer à l'établissement d'une solution complète de PKI.
 
-Le développement, entièrement communautaire, a été initié en 2001 et se poursuit activement.
+Le développement, entièrement communautaire, a été initié en 2001. Il est aujourd'hui très ralenti : pour une nouvelle mise en œuvre, on lui préférera EJBCA, Dogtag ou step-ca.
 
 La solution est très hétérogène mais utilise des standards actuels reconnus : le serveur web est basé sur Apache 2 et l'interface écrite en Perl. Les mécanismes de cryptographie sont basés sur OpenSSL. Enfin, la gestion des certificats est réalisée par OpenLDAP.
 
@@ -40,35 +42,38 @@ Le développement d'OpenSSL est ancien et a débuté avant 1998.
 Développé en C, elle reste la référence dans le domaine Linux et BSD et se retrouve souvent utilisée dans tout contexte nécessitant un chiffrement (allant des protocoles 802.11 aux communications HTTPS, en passant par SSH et FTPS).
 
 
-easyCA
-------
+step-ca
+-------
 
-:Site: http://sourceforge.net/projects/easyca
-:Porteur: une communauté
+:Site: https://smallstep.com/certificates/
+:Porteur: une entreprise (Smallstep)
+:Licence: Apache 2.0
 
-easyCA permet de gérer très rapidement et sans fioriture une PKI de petite taille. Il a été développé par Ferry Kemps en 2005.
+step-ca est une autorité de certification interne moderne, conçue pour être mise en service en quelques minutes là où les PKI traditionnelles demandent des jours de configuration.
 
-Il permet de s'abstraire quasi-totalement de la complexité relative d'OpenSSL en permettant de créer très vite ses autorités de certification ainsi que ses certificats Client. Il permet en outre la gestion des révocations et propose des options d'export pour sauvegarde.
+Elle expose une interface ACME — le même protocole que Let's Encrypt —, ce qui permet d'automatiser l'émission et le renouvellement des certificats internes avec les mêmes outils que ceux du web public (Certbot, acme.sh, Caddy, Traefik, cert-manager). Elle prend également en charge les certificats SSH, l'authentification par fournisseur d'identité OIDC, les jetons à usage unique pour l'enrôlement des machines, et les certificats de courte durée, qui rendent la révocation à peu près superflue.
 
-Sous licence GPL, le développement semble toutefois désormais interrompu. Cependant, le script de base a été repris dans de nombreux projets indépendants et s'est vu compléter par de nouvelles fonctionnalités (OCSP, etc...).
+C'est aujourd'hui l'outil le plus adapté aux architectures de services internes en mTLS.
 
-easyCA est écrit en Bash et ne requiert aucune dépendance, hormis OpenSSL. Il est facilement éditable et personnalisable pour les besoins de la plupart des administrateurs système.
+step-ca est écrit en Go.
+
+*Note :* easyCA, script Bash de gestion de petites autorités de certification présenté dans les éditions précédentes de ce guide, n'est plus maintenu depuis longtemps. Pour un usage ponctuel et manuel, XCA (voir ci-dessous) ou les sous-commandes `openssl ca` restent des options.
 
 
 EJBCA
 -----
 
 :Site: https://www.ejbca.org
-:Porteur: un éditeur (Primekey)
+:Porteur: un éditeur (Keyfactor, anciennement PrimeKey)
 :Licence: LGPL
 
-Développée depuis 2001, EJBCA est une solution open-source de gestion PKI, parmi les plus complètes qui soient. Il est actuellement porté et maintenu activement par la société suédoise Primekey.
+Développée depuis 2001, EJBCA est une solution open source de gestion de PKI parmi les plus complètes qui soient. Elle est portée par la société suédoise PrimeKey, rachetée en 2021 par l'américain Keyfactor ; l'édition EJBCA Community reste publiée sous licence LGPL, les fonctions les plus avancées et le support relevant de l'édition Enterprise.
 
 A l'instar d'autres solutions de PKI, EJBCA permet non seulement de gérer tous les aspects de la certification courante X509 (émission de certificats, révocations avec CRL, chaînes de certifications) mais fait partie des seuls produits, et c'est là son grand avantage, à implémenter une grande partie des standards liés à la spécification X509 (répondeur OCSP, CMS...) et gère correctement les matériels spécifiques tels que les HSM. Il propose également une interface d'administration complète avec restrictions des droits ainsi qu'un portail client.
 
-Un support commercial est contractable auprès de la société éditrice Primekey.
+Un support commercial est disponible auprès de l'éditeur.
 
-D'un point de vue technique, EJBCA est écrit intégralement en Java et est propulsé par un serveur d'applications JEE, qui peut être aussi bien JBoss que Glassfish. Il fait partie des rares produits respectant intégralement les spécifications Java Beans.
+D'un point de vue technique, EJBCA est écrit intégralement en Java et s'exécute sur un serveur d'applications Jakarta EE (WildFly ou Payara). Il prend en charge les protocoles d'enrôlement du marché (ACME, SCEP, CMP, EST) et les modules matériels de sécurité (HSM), ce qui en fait une solution adaptée aux PKI réglementées.
 
 Dogtag PKI
 ----------
@@ -107,33 +112,20 @@ cert-manager est une solution open source conçue pour simplifier la gestion des
 
 cert-manager automatise l'émission et le renouvellement des certificats X.509 à partir de diverses autorités de certification (CA), telles que Let's Encrypt, HashiCorp Vault, et Venafi. Il utilise les Custom Resource Definitions (CRD) de Kubernetes pour gérer les certificats et les sources de certificats, et s'intègre facilement avec des services Kubernetes.
 
-cert-manager est écrit en Go et est maintenu par une communauté active, avec le soutien de Jetstack.
+cert-manager est écrit en Go. Devenu projet diplômé de la *Cloud Native Computing Foundation*, il est le standard de fait pour la gestion des certificats dans Kubernetes. La société Jetstack, à son origine, a été rachetée par Venafi, elle-même passée chez CyberArk, mais le projet relève désormais de la gouvernance de la CNCF.
 
-TinyCA
-------
+Certbot et l'écosystème ACME
+----------------------------
 
-:Site: http://tinyca.sm-zone.net
-:Porteur: une communauté
-:Licence: GPL v2
+:Site: https://certbot.eff.org/
+:Porteur: une fondation (Electronic Frontier Foundation)
+:Licence: Apache 2.0
 
-TinyCA est une interface graphique simplifiée pour la gestion d'une autorité de certification (CA) open source. Le projet a débuté en 2002.
+Pour les certificats destinés au web public, la question s'est largement simplifiée depuis la création de **Let's Encrypt** (https://letsencrypt.org/) en 2015 : cette autorité de certification, à but non lucratif, délivre gratuitement des certificats de domaine validés automatiquement par le protocole ACME, et a joué un rôle décisif dans la généralisation de HTTPS.
 
-TinyCA permet de créer et de gérer des certificats, des clés privées, et des CSR. Il est conçu pour être facile à utiliser et offre une interface utilisateur intuitive basée sur GTK. TinyCA supporte également l'exportation et l'importation de certificats et de clés dans différents formats.
+Certbot, développé par l'EFF, en est le client de référence : il obtient, installe et renouvelle automatiquement les certificats, avec des greffons pour les principaux serveurs web et une validation possible par enregistrement DNS (utile pour les certificats génériques). Les alternatives notables sont acme.sh (https://acme.sh/), écrit en shell et très léger, et l'intégration ACME native de Caddy, de Traefik et de step-ca.
 
-TinyCA est écrit en Perl et utilise l'interface graphique GTK pour la gestion des certificats.
-
-Lemur
------
-
-:Site: https://github.com/Netflix/lemur
-:Porteur: une communauté (développé par Netflix)
-:Licence: Apache v2
-
-Lemur est une solution open source développée par Netflix pour la gestion des certificats TLS. Le projet a été lancé en 2015.
-
-Lemur facilite la création, le renouvellement, et la distribution des certificats TLS pour les services web. Il intègre des fonctionnalités de gestion centralisée des certificats, de génération de rapports, et de notifications sur les expirations de certificats. Lemur supporte plusieurs CA et peut s'intégrer avec des solutions telles que Let's Encrypt, DigiCert, et Venafi.
-
-Lemur est écrit en Python et utilise une architecture modulaire pour permettre des extensions et des intégrations personnalisées.
+*Note :* deux outils présentés dans les éditions précédentes de ce guide ont disparu — TinyCA, interface Perl/GTK de gestion d'une autorité de certification, dont le site n'est plus en service, et Lemur, la solution de gestion de certificats de Netflix, dont le dépôt est archivé.
 
 
 Comparatif des solutions PKI open source
@@ -156,7 +148,7 @@ Comparatif des solutions PKI open source
      - BSD
      - 2001
      - Perl
-     - Émission et révocation de certificats, répondeur OCSP, gestion des certificats via OpenLDAP
+     - Émission et révocation de certificats, répondeur OCSP ; développement très ralenti
 
    * - OpenSSL
      - https://www.openssl.org
@@ -166,21 +158,21 @@ Comparatif des solutions PKI open source
      - C
      - Chiffrement, hachage, gestion des certificats X.509, réécriture de certificats
 
-   * - easyCA
-     - http://sourceforge.net/projects/easyca
-     - une communauté
-     - GPL
-     - 2005
-     - Bash
-     - Création d'autorités de certification, émission et révocation de certificats, gestion des révocations
+   * - step-ca
+     - https://smallstep.com/certificates/
+     - une entreprise (Smallstep)
+     - Apache 2.0
+     - 2018
+     - Go
+     - Autorité de certification interne avec interface ACME, certificats SSH, certificats de courte durée
 
    * - EJBCA
      - https://www.ejbca.org
-     - Primekey
+     - Keyfactor (ex-PrimeKey)
      - LGPL
      - 2001
      - Java
-     - Émission et révocation de certificats, répondeur OCSP, CMS, gestion des HSM, interface d'administration
+     - Émission et révocation de certificats, répondeur OCSP, protocoles ACME/SCEP/CMP/EST, gestion des HSM
 
    * - Dogtag PKI
      - https://www.dogtagpki.org
@@ -206,18 +198,10 @@ Comparatif des solutions PKI open source
      - Go
      - Automatisation de l'émission et du renouvellement des certificats dans Kubernetes, intégration avec diverses CA
 
-   * - TinyCA
-     - http://tinyca.sm-zone.net
-     - une communauté
-     - GPL v2
-     - 2002
-     - Perl
-     - Création et gestion des certificats, clés privées, CSR, interface graphique intuitive
-
-   * - Lemur
-     - https://github.com/Netflix/lemur
-     - une communauté (développé par Netflix)
-     - Apache v2
+   * - Certbot
+     - https://certbot.eff.org/
+     - une fondation (EFF)
+     - Apache 2.0
      - 2015
      - Python
-     - Gestion centralisée des certificats TLS, génération de rapports, notifications d'expiration, intégration avec plusieurs CA
+     - Client ACME de référence : obtention et renouvellement automatiques des certificats Let's Encrypt

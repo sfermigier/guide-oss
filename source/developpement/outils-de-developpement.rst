@@ -3,7 +3,7 @@ Outils de développement
 
 Cette section présente les outils utiles aux développements d’applications, web notamment.
 
-On y trouve des outils de gestion de projet comme Redmine ou Maven, des outils d’automatisation comme Ant ou Phing, des environnements de développement comme Eclipse, des gestionnaires de tickets comme MantisBT, des outils de gestion de source comme Subversion ou Git, et des solutions de collaboration et d’ingénierie logicielle comme Tuleap.
+On y trouve des outils de gestion de projet comme Redmine, des forges logicielles comme GitLab, Forgejo ou Tuleap, des gestionnaires de tickets comme MantisBT, des environnements de développement comme Eclipse ou Visual Studio Code, et des outils de gestion de sources comme Git.
 
 Comme on le voit, l’open source offre d’excellentes briques de développement pour bâtir des projets ambitieux dans des conditions optimales.
 
@@ -18,7 +18,7 @@ Redmine
 :Porteur: une communauté
 :Licence: GPL v2
 
-Redmine est un outil collaboratif permettant, à travers une interface web sécurisée, de gérer des projets. Il a été créé par Jean-Philippe Lang en 2006.
+Redmine est un outil collaboratif permettant, à travers une interface web sécurisée, de gérer des projets. Il a été créé par Jean-Philippe Lang en 2006. C'est l'un des rares outils de gestion de projet open source à avoir traversé vingt ans sans rupture, encore très déployé en entreprise.
 
 Redmine offre les fonctionnalités suivantes :
 
@@ -42,7 +42,7 @@ Redmine a été développé en Ruby sur la base du framework Ruby on Rails.
 Tuleap
 ------
 
-:Site: https://www.enalean.com/produits/tuleap
+:Site: https://www.tuleap.org/
 :Porteur: un éditeur (Enalean)
 :Licence: GPL
 
@@ -72,7 +72,10 @@ MantisBT est développé en PHP et nécessite l'utilisation d'une base de donné
 Autres
 ------
 
-- Gitlab: https://gitlab.com/
+- GitLab Community Edition, forge complète (dépôts, tickets, revue de code, CI/CD, registre de conteneurs): https://about.gitlab.com/
+- Forgejo, fork communautaire de Gitea porté par Codeberg: https://forgejo.org/
+- Gitea, forge légère écrite en Go: https://about.gitea.com/
+- OpenProject (gestion de projet et de portefeuille): https://www.openproject.org/
 - Trac: https://trac.edgewall.org/
 - Pagure: https://pagure.io/pagure
 - SourceHut: https://sourcehut.org/
@@ -84,7 +87,7 @@ Gestion de source
 Git
 ---
 
-:Site: http://git-scm.com
+:Site: https://git-scm.com
 :Porteur: une communauté
 :Licence: GPL v2
 
@@ -109,9 +112,9 @@ Mercurial est un logiciel de gestion de versions décentralisé (DVCS) disponibl
 
 Il a été créé pour s'utiliser via la ligne de commande, mais propose une intégration forte avec le bureau Windows (TortoiseHg), des interfaces graphiques avancées pour l'affichage de l'historique (HgView) et une interface web intégrée.
 
-Ses principales caractéristiques sont sa capacité à gérer les gros projets, son fonctionnement complètement distribué ne nécessitant pas de serveur, sa gestion avancée des branches et des fusions, ainsi que l'ajout récent de la traçabilité de l'évolution de l'historique.
+Ses principales caractéristiques sont sa capacité à gérer les gros projets, son fonctionnement complètement distribué ne nécessitant pas de serveur, sa gestion avancée des branches et des fusions, ainsi que la traçabilité de l'évolution de l'historique (*changeset evolution*).
 
-Mercurial est écrit principalement en Python.
+Mercurial est écrit principalement en Python. Son usage a toutefois beaucoup reculé face à Git, notamment depuis l'abandon de sa prise en charge par les principaux hébergeurs : il reste employé dans quelques grands projets (Mozilla, Nokia, Facebook en interne) et par des organisations attachées à son ergonomie.
 
 
 Environnement de développement intégrés
@@ -128,7 +131,19 @@ Eclipse est un environnement de développement extensible et polyvalent, initié
 
 Conçu autour d'une plateforme commune à laquelle s'agrègent des composants dérivatifs, le projet est ainsi constitué de nombreux sous-projets spécifiques aux technologies sous-jacentes. L’object de la solution Eclipse est de fournir des outils favorisant la productivité, mais pas seulement celle qui concerne le codage logiciel. On y trouve des environnements de développement intégré mais également de conception, de modélisation, de tests, de reporting, etc. Eclipse a beau être écrit en Java, il peut être utilisé pour développer sous de très nombreux langages de programmation.
 
-Eclipse est écrit en Java.
+Eclipse est écrit en Java. Le projet reste très vivant dans l'écosystème Java d'entreprise et sert de socle à de nombreux produits (outils de modélisation, BIRT, Jaspersoft Studio), même si, sur le poste des développeurs, la concurrence de Visual Studio Code et des environnements de JetBrains est désormais écrasante.
+
+
+Visual Studio Code / VSCodium
+-----------------------------
+
+:Site: https://code.visualstudio.com/ et https://vscodium.com/
+:Porteur: Microsoft (Code — OSS) et une communauté (VSCodium)
+:Licence: MIT pour le code source
+
+Visual Studio Code est devenu, en une dizaine d'années, l'environnement de développement le plus utilisé au monde, tous langages confondus. Son code source, publié par Microsoft sous licence MIT sous le nom de Code — OSS, en fait un logiciel libre ; les binaires distribués par Microsoft sont en revanche soumis à une licence propriétaire et intègrent de la télémétrie, tout comme la place de marché officielle des extensions, dont les conditions d'utilisation interdisent l'usage par les distributions tierces.
+
+C'est la raison d'être de **VSCodium**, qui fournit des binaires compilés à partir des sources libres, sans télémétrie, s'appuyant sur la place de marché ouverte Open VSX. Les organisations soucieuses de maîtriser leur chaîne d'outils privilégieront cette distribution, ou des alternatives entièrement libres comme Neovim (https://neovim.io/) ou Emacs (https://www.gnu.org/software/emacs/).
 
 
 Génération de code / MDD
@@ -137,7 +152,7 @@ Génération de code / MDD
 Acceleo
 -------
 
-:Site: https://www.eclipse.org/acceleo/
+:Site: https://eclipse.dev/acceleo/
 :Porteur: une fondation (Eclipse)
 :Licence: EPL (Eclipse Public License)
 

@@ -3,7 +3,7 @@ E-Commerce
 
 Le domaine de l’e-commerce est également très vaste. Que ce soit pour faire connaître sa e-boutique et obtenir du trafic, pour informer le client sur les produits, de lui faire vivre une expérience de shopping, d’assurer la vente, et l’après vente…  de nombreuses solutions sont disponibles.
 
-Dans cette catégorie, toutefois, nous nous sommes focalisés sur les solutions open source de boutique en ligne en présentant des outils phrares comme Magento ou Prestashop. Au côté de ces solutions dominantes, la convergence ERP/CRM/CMS/e-business poussée par l'intégration du e-commerce au coeur de métier de l'entreprise a conduit plusieurs ERP open source et CMS open source à fournir des fonctions de e-commerce comparables avec une intégration plus forte d'autres fonctions métiers.
+Dans cette catégorie, toutefois, nous nous sommes focalisés sur les solutions open source de boutique en ligne, en présentant des outils phares comme WooCommerce, PrestaShop ou Magento Open Source. Au côté de ces solutions dominantes, la convergence ERP/CRM/CMS/e-business poussée par l'intégration du e-commerce au coeur de métier de l'entreprise a conduit plusieurs ERP open source et CMS open source à fournir des fonctions de e-commerce comparables avec une intégration plus forte d'autres fonctions métiers.
 
 Le périmétre des e-boutiques est devenu très important avec des fonctionnalités comme : la catégorisation avancée, la définition de familles de produits, la gestion des produits configurables, des fonctions de cross-selling et de up-selling, les moteurs de promotions, la gestion multi-boutiques, la gestion avancée des devises et des taux de TVA, etc.
 
@@ -11,17 +11,17 @@ Le périmétre des e-boutiques est devenu très important avec des fonctionnalit
 Magento
 -------
 
-:Site: https://www.magentocommerce.com
-:Porteur: un éditeur (Magento Inc.)
-:Licence: OSL et propriétaire
+:Site: https://business.adobe.com/products/magento/magento-commerce.html
+:Porteur: un éditeur (Adobe)
+:Licence: OSL v3 (Magento Open Source) et propriétaire (Adobe Commerce)
 
-Dès les premières versions bêta parues en 2007, cet outil - porté par l'éditeur américain Magento Inc. (anciennement Varien) - a généré un buzz phénoménal, au niveau mondial, permettant de fédérer en un temps record une communauté extrêmement active.
+Dès les premières versions bêta parues en 2007, cet outil — porté par l'éditeur américain Varien, devenu Magento Inc. — a fédéré en un temps record une communauté extrêmement active.
 
-Magento tire sa force de sa grande modularité et de sa robustesse. Il a clairement été pensé pour porter des sites marchands ambitieux et d'envergure avec des fonctionnalités telles que : catégorisation avancée, définition de famille de produits, gestion des produits configurables, fonctions de cross-selling et de up-selling, puissant moteur de promotions, gestion multi-boutiques, gestion avancée des devises et des taux de TVA, etc.
+Magento tire sa force de sa grande modularité et de sa robustesse. Il a clairement été pensé pour porter des sites marchands ambitieux : catégorisation avancée, définition de familles de produits, gestion des produits configurables, fonctions de *cross-selling* et d'*up-selling*, puissant moteur de promotions, gestion multi-boutiques, gestion avancée des devises et des taux de TVA, etc.
 
-Diffusé dans un premier temps exclusivement sous licence OSL, Magento a réussi le pari dès sa sortie à s'emparer d'un grand segment du marché. En avril 2009, Magento a annoncé la sortie d'une version Entreprise. Cette dernière, moyennant une redevance annuelle, intègre un certain nombre de fonctionnalités supplémentaires et un contrat de support.
+Magento a été racheté par eBay en 2011, puis par Adobe en 2018. L'édition commerciale s'appelle désormais Adobe Commerce ; l'édition libre, Magento Open Source, reste publiée sous licence OSL v3, mais son rythme d'évolution et l'engagement de l'éditeur envers la communauté font débat. C'est ce qui a conduit à la création en 2022 de **Mage-OS** (https://mage-os.org), une association et une distribution communautaire compatible, soutenue par une partie de l'écosystème des intégrateurs européens.
 
-La solution repose sur le framework PHP Zend et bénéficie d'un grand nombre d'innovations en termes de fonctionnalités participatives.
+La solution est écrite en PHP : le socle historique reposait sur Zend Framework (aujourd'hui Laminas), la version 2 s'appuyant sur des composants Symfony et Laminas.
 
 
 
@@ -29,16 +29,17 @@ La solution repose sur le framework PHP Zend et bénéficie d'un grand nombre d'
 Prestashop
 ----------
 
-:Site: https://www.prestashop.com
-:Porteur: un éditeur (Prestashop)
+:Site: https://prestashop.com
+:Porteur: un éditeur français (PrestaShop SA, groupe MBE Worldwide)
+:Licence: AFL v3 pour le cœur, OSL v3 pour les modules
 
-Sorti quelques mois après Magento (juillet 2008), Prestashop est une solution e-commerce française qui a rapidement conquis un grand nombre d'utilisateurs par sa grande simplicité de mise en œuvre et sa totale adéquation avec les besoins des e-marchands, lesquels ont bâti des liens forts avec le produit (80 000 sites utilisent la solution dans le monde).
+Sorti quelques mois après Magento (juillet 2008), PrestaShop est une solution e-commerce française qui a rapidement conquis un grand nombre d'utilisateurs par sa simplicité de mise en œuvre et son adéquation avec les besoins des e-marchands. Il équipe aujourd'hui plusieurs centaines de milliers de boutiques dans le monde et reste la solution dominante sur le marché français, aux côtés de WooCommerce.
 
-D'un point de vue fonctionnel, Prestashop se révèle également très complet : que ce soit au niveau du catalogue, de la gestion des clients, des commandes, de la logistique ou du reporting, toutes les fonctionnalités d'une plateforme e-commerce sont couvertes. L'outil gère même nativement des aspects tels que la géolocalisation de boutiques, les alertes SMS et la fidélité client. Et si cela ne suffisait pas, près d'un millier de modules prêts à l'emploi sont disponibles.
+D'un point de vue fonctionnel, PrestaShop est très complet : catalogue, gestion des clients, des commandes, de la logistique et reporting, mais aussi fidélité client, multi-boutiques, multi-devises et multilinguisme. Plusieurs milliers de modules et de thèmes prêts à l'emploi sont disponibles sur sa place de marché.
 
-Prestashop est distribuée sous licence OSL.
+La société PrestaShop a été rachetée en 2021 par le groupe italien MBE Worldwide (Mail Boxes Etc.). Le produit reste développé en public sur GitHub, avec une communauté d'intégrateurs et d'agences très active en France.
 
-Prestashop est développé intégralement en PHP/MySQL. Il dispose d'une API et d'une couverture WebService complète, permettant d'adapter l'outil à de nouveaux besoins et contextes spécifiques.
+PrestaShop est développé en PHP (avec des composants Symfony depuis la version 1.7) et s'appuie sur MySQL/MariaDB. Il dispose d'une API REST/*webservice* complète permettant de l'adapter à des contextes spécifiques.
 
 
 Oxid
@@ -48,25 +49,41 @@ Oxid
 :Porteur: un éditeur (Oxid)
 :Licence: GPL v3
 
-Sortie en novembre 2008, la solution allemande Oxid a très rapidement conquis le marché germanophone grâce à une solution très riche fonctionnellement. Devenue en très peu de temps la première solution e-commerce de l'autre côté du Rhin, Oxid est arrivée en France mi-2011 avec une version complètement adaptée aux spécificités du marché français.
+Sortie en 2008, la solution allemande OXID eShop s'est imposée sur le marché germanophone grâce à une couverture fonctionnelle très riche. Sa diffusion est restée essentiellement centrée sur l'Allemagne, l'Autriche et la Suisse ; la tentative d'implantation sur le marché français du début des années 2010 n'a pas eu de suite.
 
-Sans doute la solution la plus riche sur le plan fonctionnel après Magento. Oxid est un outil pensé pour servir de référentiel multi-canal : web, mobile, bornes interactives, etc. Tout est conçu pour permettre aux utilisateurs de diffuser leur catalogue sur plusieurs périphériques. Si l'ergonomie du back-office est parfois perfectible, Oxid reste un outil à destination des sites marchands les plus ambitieux.
+OXID eShop est un outil pensé pour servir de référentiel multicanal : web, mobile, bornes interactives, etc. L'édition Community, sous licence GPL v3, est complétée par des éditions Professional et Enterprise commerciales.
 
-Oxid est développé intégralement en PHP/MySQL. Il intègre le framework Ajax jQuery, et dispose d'une API et d'une couverture WebService complète, permettant d'adapter l'outil à de nouveaux besoins et contextes spécifiques.
+OXID eShop est développé en PHP et s'appuie sur MySQL/MariaDB. Il dispose d'une API GraphQL et de *webservices* permettant de l'adapter à des contextes spécifiques.
 
 
 Drupal Commerce
 ---------------
 
-:Site: https://www.drupalcommerce.org
-:Porteur: un éditeur (Commerce Guys)
+:Site: https://drupalcommerce.org
+:Porteur: un éditeur (Centarro)
+:Licence: GPL v2+
+
+Sortie en 2011, Drupal Commerce est la branche e-commerce du CMS mondialement connu, Drupal. Successeur de l'extension Ubercart, elle est portée par la société Centarro (anciennement Commerce Guys), qui assure la feuille de route, l'animation de la communauté et les offres de support.
+
+L'intérêt de Drupal Commerce reste inchangé : c'est la solution de référence pour les projets où le contenu éditorial et la vente en ligne sont indissociables, en s'appuyant sur les capacités de gestion de contenu de Drupal. C'est par ailleurs une solution très modulaire, adaptée aux modèles de vente atypiques (abonnements, licences, produits configurables).
+
+Drupal Commerce est développé en PHP. La version 2, puis la version 3, s'appuient sur les composants Symfony et sur la bibliothèque Commerce Guys, et fonctionnent avec les versions actuelles de Drupal (10 et 11).
+
+
+WooCommerce
+-----------
+
+:Site: https://woocommerce.com
+:Porteur: un éditeur (Automattic)
 :Licence: GPL v3
 
-Sortie en août 2011, Drupal Commerce est la branche e-commerce du CMS mondialement connu, Drupal. Successeur de l'extension Ubercart, Drupal Commerce bénéficie du support de deux sociétés : Commerce Guys pour la gestion de la roadmap et l'animation de la communauté et Acquia (société du fondateur de Drupal : Dries Buytaert) pour les offres de support.
+Absent des éditions précédentes de ce guide, WooCommerce est devenu, depuis son rachat par Automattic (la société derrière WordPress.com) en 2015, la solution e-commerce la plus déployée au monde : il s'agit d'une extension de WordPress, ce qui lui donne accès à l'écosystème le plus vaste du web.
 
-Si à l'heure actuelle le périmètre fonctionnel de Drupal Commerce reste un peu moins riche que ses aînés, c'est la seule solution avec RBSChange à offrir de vraies fonctionnalités de gestion de contenus en s'appuyant sur l'efficacité reconnue de Drupal. A l'image du CMS, Drupal Commerce est par ailleurs une solution extrêmement modulaire qui bénéficie d'une communauté trés active.
+Son intérêt principal tient à cette intégration : contenu éditorial, référencement, blog et boutique partagent le même back-office, les mêmes thèmes et les mêmes extensions. La couverture fonctionnelle de base (catalogue, panier, commandes, taxes, expéditions, paiements) s'étend par extensions, gratuites ou payantes, pour les abonnements, les réservations, les places de marché, le paiement en plusieurs fois, etc.
 
-Drupal Commerce est développé intégralement en PHP/MySQL. Il est fourni sous forme de module pour Drupal 7.
+Ses limites sont l'envers de ses qualités : les performances et la maintenabilité se dégradent sur les très gros catalogues et les extensions de qualité inégale, ce qui réserve les projets les plus ambitieux à PrestaShop, Magento ou Sylius.
+
+WooCommerce est développé en PHP et s'appuie sur MySQL/MariaDB.
 
 
 Voir également
@@ -74,9 +91,9 @@ Voir également
 
 Les logiciels ci-dessous disposent de fonctions de e-commerce et sont traités dans d'autres sections du guide:
 
-- ERP5 (section ERP)
+- ERP5, Odoo et Dolibarr (section :doc:`/applications-generiques/erp-pgi`)
 
-- Joomla (section CMS)
+- Apache OFBiz, dont la vocation initiale est le e-commerce (section :doc:`/applications-generiques/erp-pgi`)
 
 
 Autres
@@ -84,14 +101,17 @@ Autres
 
 Parmi les produits de l’univers du E-Commerce, on peut compléter la liste avec les outils ci-dessous :
 
+- Thelia (solution française, PHP/Symfony): https://thelia.net/
 
-- Thelia: http://thelia.net/
+- Sylius (framework e-commerce PHP/Symfony, pour les projets sur mesure): https://sylius.com
 
-- Wordpress Commerce: http://wordpress.org/extend/plugins/wp-e-commerce/
+- Saleor (plateforme *headless* Python/GraphQL): https://saleor.io
 
-- OFBiz: http://ofbiz.apache.org/
+- Medusa (plateforme *headless* Node.js/TypeScript): https://medusajs.com
 
-- Spree: http://spreecommerce.org/
+- Shopware (solution allemande, édition Community open source): https://www.shopware.com
 
-- Broadleaf Commerce: http://www.broadleafcommerce.com/
+- Spree (Ruby on Rails): https://spreecommerce.org/
+
+- Mage-OS (distribution communautaire de Magento Open Source): https://mage-os.org
 

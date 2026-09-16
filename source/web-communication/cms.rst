@@ -19,39 +19,41 @@ Drupal est un CMS aux multiples facettes. Conçu à l’origine pour être un bl
 
 La force de ce CMS est son extensibilité. Il accueille très facilement de nombreux modules complémentaires (forum, galerie photos, sondage, formulaire, newsletter, messagerie, chat, enquête, paiement en ligne, calendrier partagé, etc.). Il possède notamment des modules communautaires très soignés et appréciés ce qui le rend particulièrement adapté aux réseaux sociaux d’entreprise.
 
-Drupal est publié sous licence GNU GPL et est pleinement open source. Des offres de support existent, notamment via la société Acquia (www.acquia.com).
+Drupal est publié sous licence GNU GPL v2 (ou ultérieure) et est pleinement open source. Des offres de support existent, notamment via la société Acquia (https://www.acquia.com), fondée par le créateur du projet.
 
-D’un point de vue technique, Drupal est bâti autour des technologies LAMP (PHP et MySQL notamment).
+D'un point de vue technique, Drupal s'est profondément modernisé depuis Drupal 8 (2015) : le cœur s'appuie désormais sur les composants Symfony, Twig pour les gabarits et Composer pour la gestion des dépendances. Les versions majeures se succèdent à un rythme régulier (Drupal 10 en 2022, Drupal 11 en 2024), avec une distribution clés en main, Drupal CMS, destinée à réduire le coût d'entrée pour les sites standards. Attention aux migrations : Drupal 7, longtemps majoritaire, est en fin de vie depuis janvier 2025 et ne reçoit plus de correctifs de sécurité.
+
+Drupal fonctionne avec PHP et MySQL/MariaDB ou PostgreSQL.
 
 
 Wagtail
 -------
 
-:Site: https://wagtail.io/
-:Porteur: une entreprise (Torchbox)
+:Site: https://wagtail.org/
+:Porteur: une entreprise (Torchbox) et une communauté
 :Licence: BSD
 
 Wagtail est un CMS développé depuis 2014 sur la base du framework web Django.
 
-Wagtail comprend toutes les fonctionnalités de publication de base dont la plupart des grands sites complexes ont besoin, sans limitations concernant l'apparence ou le comportement des pages construites dans Wagtail. Pour les cas particuliers qui ne sont pas couverts par le framework de base, une architecture de plugins permet de l'étendre. `Plusieurs centaines de plugins <https://wagtail.io/packages/>`_ sont disponibles couvrant des besoins comme: types de contenus, SEO, workflows (validation), E-commerce, etc.
+Wagtail comprend toutes les fonctionnalités de publication de base dont la plupart des grands sites complexes ont besoin, sans limitations concernant l'apparence ou le comportement des pages construites dans Wagtail. Pour les cas particuliers qui ne sont pas couverts par le framework de base, une architecture de plugins permet de l'étendre. `Plusieurs centaines de plugins <https://wagtail.org/packages/>`_ sont disponibles couvrant des besoins comme: types de contenus, SEO, workflows (validation), E-commerce, etc.
 
 Wagtail est développé en Python.
 
 
-eZ Publish
-----------
+Ibexa DXP (anciennement eZ Publish)
+-----------------------------------
 
-:Site: https://www.ez.no/
-:Porteur: un éditeur (eZ Systems)
-:Licence: GPL
+:Site: https://www.ibexa.co/
+:Porteur: un éditeur (Ibexa, anciennement eZ Systems)
+:Licence: GPL v2 pour l'édition open source, propriétaire pour les éditions commerciales
 
-La solution eZ Publish a été créée en 1999 par la société eZ Systems. eZ Publish se distingue des autres CMS open source par ses possibilités de configuration et d’extensions : il se présente comme un outil prêt à l’emploi mais aussi comme un framework de développement permettant de réaliser des applicatifs métier.
+La solution eZ Publish a été créée en 1999 par la société norvégienne eZ Systems. Renommée eZ Platform lors de sa réécriture sur Symfony, elle est devenue Ibexa DXP en 2020, en même temps que l'éditeur prenait le nom d'Ibexa.
 
-Sur les fondamentaux de la gestion de contenus, eZ Publish est l’un des outils les plus puissants disponibles en open source. Il pousse l’approche objet jusqu’au bout, en faisant de chaque contenu un objet et en lui appliquant toutes les méthodes disponibles : multi- positionnement, versionning, multilinguisme, relation entre contenus, droits d’accès, workflow, etc. Cette notion en fait un CMS hautement paramétrable.
+Sur les fondamentaux de la gestion de contenus, le produit reste l'un des plus puissants du marché. Il pousse l'approche objet jusqu'au bout, en faisant de chaque contenu un objet auquel s'appliquent toutes les méthodes disponibles : multi-positionnement, gestion des versions, multilinguisme, relations entre contenus, droits d'accès, workflow. Cette conception en fait un CMS hautement paramétrable, désormais positionné comme une plateforme d'expérience numérique (DXP) incluant des briques e-commerce et PIM.
 
-eZ Publish est un logiciel libre publié sous licence GPL. Deux éditions sont distribuées : une version Community et une version commerciale dite Enterprise apportant stabilité, support et garantie.
+Attention à l'évolution du modèle : la branche historique eZ Publish Legacy n'est plus maintenue, et les fonctionnalités les plus riches sont réservées aux éditions commerciales. Une édition open source (Ibexa OSS, sous GPL v2) reste disponible.
 
-Sur le plan technique, eZ Publish est en PHP, fonctionne sur Apache et MySQL (PostGreSQL 8 et Oracle 11g sont supportés), gère trois caches différents en fichiers et sépare très distinctement contenus et présentation.
+Sur le plan technique, le produit est écrit en PHP sur le framework Symfony, et s'appuie sur MySQL/MariaDB ou PostgreSQL, avec Solr ou Elasticsearch pour la recherche.
 
 
 Jahia
@@ -63,7 +65,7 @@ Jahia
 
 Jahia est un produit franco-suisse, créé dans les années 2000, qui tient une place à part dans le monde des portails et des CMS JEE. En effet, Jahia est une des rares solutions qui réunit portail JEE et gestion de contenu en un produit unique, parfaitement intégré.
 
-Librement téléchargeable, Jahia est d’un niveau de finition et de packaging impressionnant. Jahia se distingue des autres CMS par son interface d’administration des contenus, qui est fondue dans le site lui-même. Au niveau fonctionnel, Jahia est une des solutions CMS les plus abouties : gestion multi-sites, versionning, workflows efficaces, données structurées, multilinguisme, gestion des droits très fine, etc. La version 6.5 a notamment apporté une interface utilisateur très agréable et un éditeur de templates très complet.
+Librement téléchargeable, Jahia est d’un niveau de finition et de packaging impressionnant. Jahia se distingue des autres CMS par son interface d’administration des contenus, qui est fondue dans le site lui-même. Au niveau fonctionnel, Jahia est une des solutions CMS les plus abouties : gestion multi-sites, gestion des versions, workflows efficaces, données structurées, multilinguisme, gestion des droits très fine, etc. La gamme s'est élargie autour de la plateforme d'expérience numérique (jExperience, jContent) et d'une approche *headless* via GraphQL.
 
 Jahia constitue une excellente alternative aux solutions de portail des grands éditeurs propriétaires, la possibilité de voir et de modifier  les sources (licence GPL pour la version Community) assurant la pérennité et l’adéquation de l’outil aux besoins. Jahia propose également une version Entreprise sous licence commerciale apportant stabilité, support et garantie.
 
@@ -105,15 +107,15 @@ SPIP est un logiciel écrit en PHP qui s'appuie sur les bases de données MySQL,
 TYPO3
 -----
 
-:Site: https://www.typo3.org/
-:Porteur: une communauté
+:Site: https://typo3.org/
+:Porteur: une association (TYPO3 Association) et une communauté
 :Licence: GPL
 
 TYPO3 est le fruit de plusieurs années de travail d’un gourou danois du nom de Kasper Skårhøj. Le produit est sorti fin 2000, et depuis, une communauté très active s’est développée, particulièrement dans les pays germaniques.
 
 En termes de fonctionnalités prêtes à l’emploi, TYPO3 est l’un des outils les plus riches que nous ayons trouvés à ce jour. Il offre à peu près tout ce que l’on peut souhaiter, et cela avec un bon niveau de finition. Gestion des droits et des contributions, cache, habilitations, gabarits, etc., tout y est, avec peu de limitations. Parmi les fonctionnalités offertes par TYPO3, on peut citer la manipulation d’images, qui permet de redimensionner des images, de créer des vignettes et également de générer dynamiquement des titres en tant qu’images. L’une des grandes forces de TYPO3 réside dans son extensibilité par modules. Un module peut ajouter un ensemble de fonctionnalités à TYPO3, mais aussi modifier une fonctionnalité déjà intégrée, sans modifier le code de TYPO3, et donc, le laissant compatible avec les futures versions de TYPO3.
 
-TYPO3 est écrit en PHP et utilise une base de données MySQL.
+TYPO3 est écrit en PHP (avec des composants Symfony depuis TYPO3 8) et s'appuie sur MySQL/MariaDB, PostgreSQL ou SQLite.
 
 
 Autres
@@ -121,23 +123,32 @@ Autres
 
 Dans l’univers de la gestion de contenu, l’offre open source est particulièrement vigoureuse. Pour preuve, au-delà des produits présentés précédemment, on peut également citer les outils ci-dessous :
 
-- Plone: http://plone.org
-- Zope: http://www.zope.org
-- Infoglue: http://www.infoglue.org
-- Mambo: http://www.mamboserver.com
-- Apache Lenya: http://lenya.apache.org
-- SilverStripe: http://www.silverstripe.com
-- Modx: http://modx.com
-- CMS Made Simple: http://www.cmsmadesimple.fr
-- Apostrophe: http://apostrophenow.com
-- Magnolia: http://www.magnolia-cms.com
-- Silverpeas: http://www.silverpeas.com
-- Umbraco: http://umbraco.com
-- Centurion: http://centurion-project.org
-- OpenCMS: http://www.opencms.org
+- WordPress, qui dépasse largement le cadre du blog et motorise une part considérable du web (section :doc:`/web-communication/blog-wiki-et-forum`): https://wordpress.org
+- Plone: https://plone.org
+- SilverStripe: https://www.silverstripe.org
+- MODX: https://modx.com
+- CMS Made Simple: https://www.cmsmadesimple.org
+- ApostropheCMS (anciennement Apostrophe): https://apostrophecms.com
+- Magnolia: https://www.magnolia-cms.com
+- Silverpeas: https://www.silverpeas.org
+- Umbraco: https://umbraco.com
+- OpenCMS: https://www.opencms.org
+- Sulu (CMS Symfony): https://sulu.io
+- Grav (CMS sans base de données): https://getgrav.org
+
+Une catégorie s'est imposée depuis la précédente édition de ce guide, celle des CMS *headless*, qui exposent le contenu via une API et laissent le rendu à une application front-end :
+
+- Strapi (Node.js, éditeur français): https://strapi.io
+- Directus (Node.js, s'appuie sur une base SQL existante): https://directus.io
+- Payload CMS (Node.js/TypeScript): https://payloadcms.com
+- Ghost, orienté publication éditoriale et lettres d'information: https://ghost.org
+
+Les éditions précédentes de ce guide citaient également Zope, Infoglue, Mambo, Apache Lenya (retiré à l'*Attic* d'Apache) et Centurion : ces projets ne sont plus maintenus et ne doivent plus être retenus pour de nouveaux développements.
 
 Comparaison synthétique
 -----------------------
+
+Le tableau ci-dessous synthétise les principales solutions de gestion de contenu web, y compris les CMS *headless* traités plus haut.
 
 .. list-table::
    :header-rows: 1
@@ -147,152 +158,117 @@ Comparaison synthétique
      - Porteur
      - Licence
      - Langages/Technologies
-     - Caractéristiques Distinctives
-     - Année de Création
+     - Caractéristiques distinctives
+     - Année de création
    * - Drupal
      - https://www.drupal.org/
      - une communauté
-     - GPL
-     - PHP, MySQL
-     - Extensibilité, nombreux modules complémentaires, adapté aux réseaux sociaux d'entreprise
+     - GPL v2+
+     - PHP (Symfony), MySQL/MariaDB, PostgreSQL
+     - Extensibilité, écosystème de modules considérable, gestion fine des droits
      - 2000
+   * - WordPress
+     - https://wordpress.org
+     - une communauté (WordPress Foundation)
+     - GPL v2+
+     - PHP, MySQL/MariaDB
+     - CMS le plus déployé au monde, écosystème d'extensions et de thèmes gigantesque
+     - 2003
    * - Wagtail
-     - https://wagtail.io/
-     - une entreprise (Torchbox)
+     - https://wagtail.org/
+     - une entreprise (Torchbox) et une communauté
      - BSD
      - Python, Django
-     - Basé sur Django, architecture de plugins, nombreux plugins disponibles
+     - Ergonomie éditoriale soignée, socle Django, architecture de plugins
      - 2014
-   * - eZ Publish
-     - https://www.ez.no/
-     - un éditeur (eZ Systems)
-     - GPL
-     - PHP, MySQL, PostgreSQL, Oracle
-     - Hautement paramétrable, multi-positionnement, versionning, multilinguisme
+   * - Ibexa DXP (ex-eZ Publish)
+     - https://www.ibexa.co/
+     - un éditeur (Ibexa)
+     - GPL v2 (édition OSS) et propriétaire
+     - PHP (Symfony), MySQL/MariaDB, PostgreSQL, Solr
+     - Modèle de contenu objet, multilinguisme, positionnement DXP
      - 1999
    * - Jahia
      - https://www.jahia.com/
-     - un éditeur (Jahia Corp)
-     - GPL
-     - JEE, Hibernate, JSR 170, Apache Lucene
-     - Portail JEE et CMS intégré, interface d'administration fusionnée avec le site, gestion multi-sites
-     - 2000
+     - un éditeur (Jahia)
+     - GPL v2 et propriétaire
+     - Java, JCR (JSR-283), GraphQL
+     - Portail JEE et CMS intégrés, édition en contexte, gestion multi-sites
+     - 2002
    * - Joomla
      - https://www.joomla.org/
      - une communauté
-     - GPL
-     - PHP, MySQL
-     - Interface conviviale, adapté aux non-techniciens, nombreux modules intégrés
+     - GPL v2+
+     - PHP, MySQL/MariaDB
+     - Interface d'administration conviviale, adapté aux non-techniciens
      - 2005
    * - SPIP
      - https://www.spip.net/
      - une communauté
      - GPL
-     - PHP, MySQL, PostgreSQL, SQLite
-     - Simplicité d'utilisation et de déploiement, interface privée simplifiée
+     - PHP, MySQL/MariaDB, PostgreSQL, SQLite
+     - Simplicité d'utilisation et de déploiement, forte implantation associative et publique en France
      - 2001
    * - TYPO3
-     - https://www.typo3.org/
-     - une communauté
-     - GPL
-     - PHP, MySQL
-     - Extensibilité par modules, manipulation d'images, gestion des droits et des contributions
+     - https://typo3.org/
+     - une association (TYPO3 Association)
+     - GPL v2+
+     - PHP (Symfony), MySQL/MariaDB, PostgreSQL
+     - Extensibilité par modules, richesse fonctionnelle, forte implantation germanophone
      - 2000
    * - Plone
-     - http://plone.org
-     - une communauté
-     - GPL
+     - https://plone.org
+     - une fondation (Plone Foundation)
+     - GPL v2
      - Python, Zope
-     - Extensibilité par modules, sécurité avancée
+     - Sécurité et gestion des droits avancées, workflow de publication
      - 2001
-   * - Zope
-     - http://www.zope.org
-     - une communauté
-     - ZPL
-     - Python
-     - Serveur d'applications orienté objet
-     - 1998
-   * - Infoglue
-     - http://www.infoglue.org
-     - une communauté
-     - LGPL
-     - Java
-     - Haute configurabilité, gestion de contenu complexe
-     - 2005
-   * - Mambo
-     - http://www.mamboserver.com
-     - une communauté
-     - GPL
-     - PHP
-     - Simplicité d'utilisation, nombreux modules disponibles
-     - 2000
-   * - Apache Lenya
-     - http://lenya.apache.org
-     - une fondation (Apache)
-     - Apache License 2.0
-     - Java
-     - Gestion de contenu flexible, intégration Apache
-     - 2003
-   * - SilverStripe
-     - http://www.silverstripe.com
-     - une entreprise (SilverStripe Ltd.)
-     - BSD
-     - PHP, MySQL
-     - Interface utilisateur conviviale, extensible
-     - 2006
-   * - Modx
-     - http://modx.com
-     - une communauté
-     - GPL
-     - PHP
-     - Flexibilité et personnalisation, riche en fonctionnalités
-     - 2004
-   * - CMS Made Simple
-     - http://www.cmsmadesimple.fr
-     - une communauté
-     - GPL
-     - PHP
-     - Facilité de déploiement et d'utilisation
-     - 2004
-   * - Apostrophe
-     - http://apostrophenow.com
-     - une communauté
-     - GPL
-     - PHP
-     - Simplicité et efficacité pour les développeurs
-     - 2009
-   * - Magnolia
-     - http://www.magnolia-cms.com
-     - une entreprise (Magnolia International Ltd.)
-     - GPL
-     - Java
-     - Support de normes JCR, extensibilité
-     - 2003
    * - Silverpeas
-     - http://www.silverpeas.com
-     - une entreprise (Silverpeas)
-     - GPL
+     - https://www.silverpeas.org
+     - un éditeur français (Silverpeas)
+     - AGPL v3
      - Java
-     - Solution intégrée pour la gestion de contenu et collaboration
+     - Gestion de contenu et collaboration intégrées
      - 2002
+   * - Magnolia
+     - https://www.magnolia-cms.com
+     - une entreprise (Magnolia International)
+     - GPL et propriétaire
+     - Java, JCR
+     - Support des normes JCR, extensibilité, orientation entreprise
+     - 2003
    * - Umbraco
-     - http://umbraco.com
+     - https://umbraco.com
      - une entreprise (Umbraco HQ)
      - MIT
-     - C#
-     - Facile à utiliser, riche en fonctionnalités
+     - C#, .NET
+     - Référence du CMS open source dans l'écosystème Microsoft
      - 2000
-   * - Centurion
-     - http://centurion-project.org
-     - une communauté
-     - GPL
-     - PHP
-     - Extensible, orienté développeur
-     - 2011
-   * - OpenCMS
-     - http://www.opencms.org
-     - une communauté
-     - GPL
-     - Java
-     - Gestion avancée de contenu, support de normes
-     - 2000
+   * - Sulu
+     - https://sulu.io
+     - une entreprise (Sulu GmbH)
+     - MIT
+     - PHP (Symfony)
+     - CMS Symfony natif, orienté développeurs et sites d'entreprise
+     - 2013
+   * - Strapi
+     - https://strapi.io
+     - un éditeur français (Strapi)
+     - MIT (Community) et propriétaire (Enterprise)
+     - Node.js, TypeScript
+     - CMS headless, API REST et GraphQL générées, très large adoption
+     - 2015
+   * - Directus
+     - https://directus.io
+     - une entreprise (Monospace)
+     - BSL 1.1 (source-available)
+     - Node.js, TypeScript, SQL
+     - Couche d'administration et d'API au-dessus d'une base SQL existante
+     - 2004
+   * - Ghost
+     - https://ghost.org
+     - une fondation (Ghost Foundation)
+     - MIT
+     - Node.js
+     - Publication éditoriale, abonnements et lettres d'information
+     - 2013

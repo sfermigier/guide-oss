@@ -1,11 +1,11 @@
-Outils de éveloppement
-======================
+Outils de développement
+=======================
 
 La dimension « Développement », comme son nom l’indique, présente toutes les solutions utiles aux fonctions de développement. C’est également une dimension particulièrement bien fournie en produits open source.
 
-On constate que l’open source dispose d’un large panel de solutions permettant le développement comme Eclipse, par exemple, ou les frameworks tels Symfony ou Django.
+On constate que l’open source dispose d’un large panel de solutions couvrant tout le cycle de développement : environnements de développement (Eclipse, VS Code), forges logicielles (GitLab, Forgejo), frameworks applicatifs (Symfony, Django, Spring Boot, Laravel), outils de test et d’intégration continue.
 
-Plus de 50 solutions ont été évaluées dans cette dimension ; et près de 110 solutions y sont recensées parmi les catégories suivantes :
+Cette dimension recense plus d’une centaine de solutions, réparties dans les catégories suivantes :
 
 .. toctree::
     :maxdepth: 1

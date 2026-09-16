@@ -20,7 +20,7 @@ Les entreprises et les administrations ont intérêt à utiliser les logiciels l
 Genèse de ce document
 ---------------------
 
-Les pages qui suivent présentent près de 200 produits dans 40 domaines d’applications pour l’entreprise. Leur objectif est de constituer un référentiel large et pratique des meilleures solutions libres et open source (F/OSS).
+Les pages qui suivent présentent plus de 250 produits, dans une quarantaine de domaines d’applications pour l’entreprise, complétés par autant de références vers des solutions voisines. Leur objectif est de constituer un référentiel large et pratique des meilleures solutions libres et open source (F/OSS).
 
 Ces produits recouvrent un périmètre large. Ils ont été sélectionnés par un groupe d'experts techniques, fonctionnels et métiers, d'abord au sein de la société Smile, qui a accepté de faire don de son travail pour constituer le présent guide, puis étendus par un second groupe d'experts, membres du Groupe Thématique Logiciel Libre, et enfin par Abilian.
 

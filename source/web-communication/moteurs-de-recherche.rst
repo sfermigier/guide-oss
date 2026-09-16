@@ -9,16 +9,16 @@ Les moteurs de recherche sont généralement composés de deux services : l’in
 
 Les moteurs de recherche se différencient généralement par leurs capacités d’indexation (format, rapidité, algorithme de pertinence) et leurs fonctions de traitements linguistiques (pluriels, conjugaisons, phonétique, etc.).
 
-Dans l’univers de l’open source, le marché est dominé par les moteurs de recherche Lucene et Solr. On les retrouve très souvent associées aux meilleures applications web.
+Dans l’univers de l’open source, tout ou presque repose sur la bibliothèque Apache Lucene, soit directement, soit à travers les serveurs qui l’encapsulent : Apache Solr, Elasticsearch et OpenSearch. Depuis quelques années, une nouvelle génération de moteurs légers et orientés « recherche instantanée » (Meilisearch, Typesense) et de bases vectorielles destinées à la recherche sémantique et aux applications d’IA générative (Qdrant, Weaviate, Vespa) complète ce paysage.
 
 Apache Lucene
 -------------
 
-:Site: http://lucene.apache.org/
+:Site: https://lucene.apache.org/
 :Porteur: une fondation (Apache)
-:Licence: Apache
+:Licence: Apache 2.0
 
-Porté par la fondation Apache, le projet Lucene est la solution retenue, entre autres, par Wikipedia, pour l’indexation et la recherche de ses contenus. Lucene est sans aucun doute l’outil de recherche le plus connu, le plus utilisé et le plus dynamique du marché de l’open source. Il a été crée par Doug Cutting en mars 2000.
+Porté par la fondation Apache, Lucene est le socle d'indexation et de recherche sur lequel sont bâtis Solr, Elasticsearch et OpenSearch — et donc, indirectement, l'essentiel des moteurs de recherche d'entreprise du marché, y compris celui de Wikipédia. Créé par Doug Cutting en 2000, il reste l'outil de recherche le plus utilisé et le plus actif de l'open source.
 
 Lucene se définit avant tout comme une bibliothèque de recherche et d'indexation de contenus. Comme la plupart des moteurs de recherche, Lucene se base sur le concept de l’indexation automatique, c'est-à-dire en traitant une seule fois les données d’entrée et en leur donnant de multiples liens. Coté fonctionnel, Lucene support la recherche de formes approximatives d'un même mot (féminin, pluriel, conjugaison), la gestion des synonymes, la pertinence paramétrable, etc. Le tout avec un niveau de performances exceptionnels.
 
@@ -28,29 +28,45 @@ Lucene est écrit en Java. Il peut être intégré au sein d’applications écr
 Apache Solr
 -----------
 
-:Site: https://lucene.apache.org/solr/
+:Site: https://solr.apache.org/
 :Porteur: une fondation (Apache)
-:Licence: Apache
+:Licence: Apache 2.0
 
-Solr est une surcouche de Lucene qui ajoute des fonctionnalités et facilite le déploiement de certaines fonctions de Lucene reconnues comme trop techniques. Son développement a été initié par CNET Networks lesquels ont décidé en 2006 de publier leur travail.
+Solr est une surcouche de Lucene qui ajoute des fonctionnalités et facilite le déploiement de certaines fonctions de Lucene reconnues comme trop techniques. Son développement a été initié par CNET Networks, qui a décidé en 2006 de publier son travail ; Solr est devenu en 2021 un projet de haut niveau de la fondation Apache, distinct de Lucene.
+
+Le mode SolrCloud assure la distribution et la réplication des index sur un cluster. Solr reste très présent comme moteur d'indexation de solutions de GED et de CMS (Alfresco, Nuxeo, Ibexa, Drupal).
 
 Solr est un serveur de recherche d'entreprise permettant de centraliser les opérations d'indexation et de services de résultats. Solr est capable de communiquer avec les autres applications via de nombreux protocoles basés sur des standards ouverts, il dispose également d’une interface d’administration en mode Web. L’une des caractéristiques majeures de Lucene est la capacité à indexer les contenus par champ, ou par attribut, c’est à dire qu’un document n’est pas analysé comme un simple ensemble de mots, il est constitué de champs, chaque champ étant une suite de mots (terms). Solr permet de tirer pleinement parti de cette fonctionnalité. Ce fonctionnement permet une gestion beaucoup plus fine de la pertinence, et de la recherche avancée.
 
 
-OpenSearchServer
-----------------
+Elasticsearch
+-------------
 
-:Site: https://www.open-search-server.com/
-:Porteur: un éditeur (Jaeksoft)
-:Licence: GPL
+:Site: https://www.elastic.co/elasticsearch
+:Porteur: un éditeur (Elastic)
+:Licence: AGPL v3, SSPL ou Elastic License, au choix de l'utilisateur
 
-OpenSearchServer est un serveur de recherche, créé par Emmanuel Keller. La première version open source est sortie en 2008.
+Créé en 2010 par Shay Banon sur la base de Lucene, Elasticsearch s'est imposé comme le moteur de recherche et d'analyse distribué le plus déployé du marché, aussi bien pour la recherche applicative que pour l'exploitation de journaux et la métrologie (au sein de la « suite Elastic » avec Kibana, Beats et Logstash).
 
-OpenSearchServer a été développé en interne dans le cadre du site l'Usine Nouvelle. Basé sur Lucene, il se différencie de SolR par une interface d'administration graphique accessible en HTTP, une capacité de crawling de site très avancée (gestion des threads, exclusion de pages, programmation de l'indexation, etc...), un système d'indexation de base de données et un crawler de fichiers. OpenSearchServer peut également facilement s'interfacer avec toute application, à travers une interface REST. De plus, OpenSearchServer peut être étendu facilement à travers des modules spécifiques qui viendront enrichir ses fonctionnalités. OpenSearchServer est également capable d'interpréter le contenu de plusieurs formats de fichiers (OpenOffice, Ms Office, PDF, etc...).
+Ses atouts sont la distribution et la réplication natives, une API REST/JSON simple, des capacités d'agrégation puissantes, et, depuis les versions récentes, la recherche vectorielle et hybride.
 
-La société Jaeksoft, basée sur Paris, assure la majeure partie des développements et fournit du support sur l'outil.
+Le point d'attention porte sur la licence, qui a beaucoup varié : publié sous Apache 2.0 jusqu'en 2021, Elasticsearch est passé à un double modèle SSPL / Elastic License — deux licences non reconnues comme libres par l'*Open Source Initiative* — ce qui a provoqué le fork OpenSearch par AWS. L'éditeur a ajouté en septembre 2024 l'AGPL v3 comme troisième option, ce qui redonne au produit le statut de logiciel libre.
 
-OpenSearchServer est basé sur Lucene et écrit en Java.
+Elasticsearch est écrit en Java.
+
+
+OpenSearch
+----------
+
+:Site: https://opensearch.org/
+:Porteur: une fondation (Linux Foundation)
+:Licence: Apache 2.0
+
+OpenSearch est le fork d'Elasticsearch 7.10 et de Kibana réalisé par Amazon Web Services en 2021, à la suite du changement de licence d'Elastic, afin de disposer d'un moteur équivalent sous licence Apache 2.0.
+
+Le projet a rattrapé puis dépassé sur certains points son point de départ : tableaux de bord (OpenSearch Dashboards), sécurité intégrée, recherche vectorielle et *machine learning*, observabilité. AWS l'a placé en septembre 2024 sous la gouvernance de la Linux Foundation (OpenSearch Software Foundation), ce qui répond à la principale critique adressée au projet, celle d'un contrôle par un acteur unique.
+
+OpenSearch est écrit en Java.
 
 
 Autres
@@ -58,8 +74,15 @@ Autres
 
 Parmi les produits de l’univers Moteurs de recherche, on peut compléter la liste avec les outils ci-dessous :
 
-- Xapian: http://xapian.org/
-- Sphinx: https://sphinxsearch.com/
-- Whoosh: https://pypi.org/project/Whoosh/
-- Apache Nutch: http://nutch.apache.org/
+- Meilisearch (moteur léger orienté « recherche instantanée », éditeur français): https://www.meilisearch.com/
+- Typesense (moteur léger, alternative à Algolia): https://typesense.org/
+- Qdrant (base vectorielle pour la recherche sémantique et le RAG): https://qdrant.tech/
+- Weaviate (base vectorielle): https://weaviate.io/
+- Vespa (moteur de recherche et de recommandation à grande échelle): https://vespa.ai/
+- Manticore Search (fork libre et maintenu de Sphinx, dont les versions récentes ne sont plus open source): https://manticoresearch.com/
+- Xapian (bibliothèque d'indexation C++): https://xapian.org/
+- Apache Nutch (robot d'indexation web): https://nutch.apache.org/
+- Apache Tika, utilisé par la plupart de ces moteurs pour extraire le texte des documents bureautiques: https://tika.apache.org/
+
+OpenSearchServer, présenté dans les éditions précédentes de ce guide, n'est plus maintenu (son site n'est plus en service et son dépôt est à l'arrêt depuis 2022) ; la bibliothèque Python Whoosh, également citée, est dans le même cas.
 

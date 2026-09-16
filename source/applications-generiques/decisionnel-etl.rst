@@ -28,7 +28,7 @@ Bonobo
 
 Bonobo est un outil ETL léger construit en Python. Il est simple et relativement facile à apprendre. Il utilise le concept de graphe pour créer des pipelines et prend également en charge le traitement parallèle de plusieurs éléments dans le pipeline. Il possède également une interface visuelle où l'utilisateur peut suivre la progression du pipeline ETL.
 
-Dans l'ensemble, c'est juste un autre outil Python ETL facile à utiliser, qui peut être une bonne option pour les cas d'utilisation simples, mais qui ne possède pas beaucoup de caractéristiques qui le séparent du reste du paquet.
+Dans l'ensemble, c'est un outil ETL Python facile à prendre en main, qui peut être une bonne option pour les cas d'utilisation simples. Son développement est toutefois à l'arrêt depuis plusieurs années : pour un nouveau projet, on lui préférera Apache Hop, Meltano ou une orchestration Airflow/Dagster.
 
 Luigi
 -----
@@ -45,31 +45,68 @@ Il est également doté d'un tableau de bord web permettant de suivre tous les t
 Talend
 ------
 
-:Site: https://www.talend.com
-:Porteur: un éditeur (Talend)
-:Licence: GPL et propriétaire
+:Site: https://www.qlik.com/us/products/talend-open-studio
+:Porteur: un éditeur (Qlik)
+:Licence: propriétaire — l'édition open source a été arrêtée
 
-Talend Open Studio est un ETL open source apparu en 2005, développé par la société Talend, basée en France. C’est un ETL de type « générateur de code », c’est-à-dire qu’il permet de créer graphiquement des processus de manipulation et de transformation de données puis de générer l’exécutable correspondant sous forme de programme Java ou Perl. Une liste très exhaustive de composants permet de se connecter à tout type de base de données ou d’applications (SAP, SugarCRM,…). En 2010, une brique MDM a vu le jour.
+Talend Open Studio a été, de 2006 à 2024, l'ETL open source de référence. Développé par la société française Talend, c'était un ETL de type « générateur de code » : il permettait de créer graphiquement des processus de manipulation et de transformation de données, puis de générer l'exécutable correspondant sous forme de programme Java ou Perl, avec une très large bibliothèque de composants de connexion (bases de données, SAP, applications métier…).
+
+Talend a été racheté par Qlik en 2023, qui a annoncé l'arrêt de Talend Open Studio : les téléchargements ont été retirés le 31 janvier 2024 et les installations existantes ne reçoivent plus de correctifs, y compris de sécurité. Seules subsistent les offres commerciales (Qlik Talend Cloud).
+
+Les utilisateurs à la recherche d'un remplaçant open source se tournent principalement vers Apache Hop (proche dans l'esprit et dans l'outillage graphique), Airbyte ou Meltano pour l'extraction/chargement, et Airflow ou Dagster pour l'orchestration.
 
 
 Pentaho Data Integration
 ------------------------
 
-:Site: http://www.pentaho.fr/explore/pentaho-data-integration/
-:Porteur: un éditeur (Pentaho)
-:Licence: GPL
+:Site: https://pentaho.com/
+:Porteur: un éditeur (Hitachi Vantara)
+:Licence: LGPL (édition communautaire) et propriétaire
 
-Pentaho Data Integration (PDI) est un ETL open source qui permet de concevoir et d’exécuter des opérations de manipulation et de transformation de données. Au moment où nous écrivons ces lignes,  Pentaho Data Integration est disponible dans sa version 4.1.
+Pentaho Data Integration (PDI, historiquement « Kettle ») est un ETL qui permet de concevoir et d'exécuter des opérations de manipulation et de transformation de données. Le projet appartient à Hitachi Vantara depuis le rachat de Pentaho en 2015.
 
-Grâce à un modèle graphique à base d’étapes, il est possible de créer sans programmation des processus composés d’imports et d’exports de données, et de différentes opérations de transformation telles que des conversions, des jointures, l’application de filtres, ou même l’exécution de fonctions javascript. Un planificateur permet aussi de planifier l’exécution des jobs.
+Grâce à un modèle graphique à base d'étapes, il est possible de créer sans programmation des processus composés d'imports et d'exports de données, et de différentes opérations de transformation telles que des conversions, des jointures, l'application de filtres, ou même l'exécution de fonctions JavaScript. Un ordonnanceur permet de planifier l'exécution des jobs.
 
-Un module complémentaire propriétaire commercial, « Agile BI », permet de visualiser graphiquement les résultats de transformations de données dès les premières étapes de développement.
+Une partie de la communauté historique de Kettle a essaimé en 2020 vers Apache Hop (voir ci-dessous), qui en reprend les concepts sous gouvernance de la fondation Apache.
+
+
+Apache Hop
+----------
+
+:Site: https://hop.apache.org/
+:Porteur: une fondation (Apache)
+:Licence: Apache 2.0
+
+Apache Hop (*Hop Orchestration Platform*) est né en 2020 d'un fork de Pentaho Kettle, devenu projet de haut niveau de la fondation Apache en 2021.
+
+Hop conserve l'approche graphique qui a fait le succès de Kettle — on assemble visuellement des *pipelines* (transformations de données) et des *workflows* (orchestration) — en la modernisant : conception « design once, run anywhere » avec exécution locale, sur Spark, Flink ou Google Dataflow via Apache Beam, gestion des projets et des environnements, intégration au cycle de vie logiciel (métadonnées versionnables dans Git, tests unitaires de pipelines).
+
+C'est aujourd'hui le successeur naturel de Pentaho Data Integration et de Talend Open Studio pour qui cherche un ETL graphique entièrement open source.
+
+Apache Hop est écrit en Java.
+
+
+Airbyte
+-------
+
+:Site: https://airbyte.com/
+:Porteur: un éditeur (Airbyte)
+:Licence: ELv2 et MIT selon les composants
+
+Airbyte, créé en 2020, s'est imposé comme la référence de l'extraction/chargement (EL) open source, avec un catalogue de plusieurs centaines de connecteurs vers des sources SaaS, des bases de données et des entrepôts.
+
+L'outil privilégie l'approche ELT : les données sont chargées telles quelles dans l'entrepôt, la transformation étant déléguée à des outils dédiés (dbt, SQL). Les connecteurs sont développés dans un cadre standardisé (CDK) qui facilite l'écriture de connecteurs spécifiques.
+
+Attention au modèle de licence : la plateforme est majoritairement publiée sous Elastic License v2, qui n'est pas une licence open source au sens de l'OSI, tandis que les connecteurs restent sous licence MIT.
+
+Airbyte est écrit en Java, Python et TypeScript.
 
 
 Autres
 ------
 
-- JasperETL: http://www.jaspersoft.com/jasperetl
-- CloverETL: http://www.cloveretl.com/
-- Benetl: http://www.benetl.net/
-- Toolsverse ETL Framework: http://www.toolsverse.com/
+- Apache NiFi (flux de données temps réel) : https://nifi.apache.org/
+- Meltano (ELT, écosystème de connecteurs Singer) : https://meltano.com/
+- dbt Core (transformation SQL dans l'entrepôt) : https://github.com/dbt-labs/dbt-core
+- Dagster (orchestration orientée données) : https://dagster.io/
+- Prefect (orchestration Python) : https://www.prefect.io/

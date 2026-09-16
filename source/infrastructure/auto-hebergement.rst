@@ -290,14 +290,17 @@ pour la gestion des utilisateurs.
 Sandstorm
 ~~~~~~~~~
 
-:Site: https://sandstorm.io
+:Site: https://sandstorm.org
 
 :Porteur: une communauté
 
 :Licence: Apache 2.0
 
 Sandstorm est une plateforme open source qui permet de déployer des
-applications web de manière sécurisée et isolée.
+applications web de manière sécurisée et isolée. À noter que la société
+qui l'a créée a cessé son activité en 2017 : le projet est depuis
+maintenu par sa communauté, et son site officiel est sandstorm.org,
+l'ancien domaine sandstorm.io n'étant plus qu'une archive.
 
 Chaque application fonctionne dans un environnement sécurisé et isolé,
 offrant une protection accrue contre les vulnérabilités. Sandstorm
@@ -313,9 +316,9 @@ supporte des technologies comme Node.js et MongoDB pour le backend.
 CasaOS
 ~~~~~~
 
-:Site: https://www.casaos.io
+:Site: https://casaos.zimaspace.com/
 
-:Porteur: une entreprise (X-NODE Space)
+:Porteur: une entreprise (IceWhale Technology, marque ZimaSpace)
 
 :Licence: Apache 2.0
 
@@ -386,3 +389,19 @@ routeurs, et utilise des technologies standard comme Apache et OpenLDAP
 pour ses services.
 
 FreedomBox est développé en Python (+ Django).
+
+Autres
+~~~~~~
+
+Le domaine est particulièrement actif ; on surveillera également :
+
+- Coolify, plateforme d'auto-hébergement d'applications et de bases de
+  données présentée comme une alternative libre à Heroku, Netlify et
+  Vercel : https://coolify.io/
+- CapRover, PaaS à base de Docker Swarm, avec une interface web
+  complète : https://caprover.com/
+- Umbrel et Cosmos, orientés serveur domestique et grand public :
+  https://umbrel.com/ et https://cosmos-cloud.io/
+- Proxmox VE, pour la couche de virtualisation sous-jacente
+  (section :doc:`/infrastructure/virtualisation`) :
+  https://www.proxmox.com/

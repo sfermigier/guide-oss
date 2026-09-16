@@ -1,35 +1,57 @@
 Big Data et NoSQL
 =================
 
-Depuis 2009, un nouveau paradigme de stockage de données - le NoSQL - est apparue. Il propose une alternative au SQL et au modèle relationnel afin de permettre un haut niveau de scalabilité, et permettre aux entreprises de toutes tailles d'exploiter au mieux le déluge de données (*big data*) qu'elles sont capables de générer ou d'acquérir.
+À partir de 2009, un nouveau paradigme de stockage de données — le NoSQL — est apparu. Il proposait une alternative au SQL et au modèle relationnel afin de permettre un haut niveau de scalabilité et d'aider les entreprises de toutes tailles à exploiter le déluge de données (*big data*) qu'elles génèrent ou acquièrent.
+
+Quinze ans plus tard, le paysage s'est stabilisé et partiellement rééquilibré. D'un côté, les bases relationnelles ont absorbé une bonne partie des apports du NoSQL (types JSON, réplication, partitionnement, extensions vectorielles), au point que PostgreSQL suffit à couvrir bien des besoins pour lesquels on aurait choisi une base NoSQL en 2012. De l'autre, les usages qui justifient réellement un moteur spécialisé se sont clarifiés : très gros volumes distribués (Cassandra), analytique temps réel (ClickHouse), graphes (Neo4j), cache et files d'attente (Redis, Valkey), recherche (Elasticsearch, OpenSearch, voir la section :doc:`/web-communication/moteurs-de-recherche`), recherche vectorielle pour l'IA (Qdrant, Weaviate).
+
+Dernier point d'attention, devenu central sur cette catégorie : les licences. Plusieurs éditeurs de bases NoSQL ont abandonné les licences libres au profit de licences dites *source-available* (SSPL, BSL), parfois suivies de forks communautaires. Les fiches ci-dessous signalent ces situations.
 
 
 Apache Hadoop
 -------------
 
-:Site: http://hadoop.apache.org/
+:Site: https://hadoop.apache.org/
 :Porteur: une fondation (Apache)
 :Licence: Apache 2.0
 
-Apache Hadoop est une plateforme Java pour développer des applications distribuées autour de jeux de données massifs. Hadoop comprend un nombre significatif de sous-projets, dont les plus fondamentaux sont MapReduce, framework de calcul distribué massivement parallèle et HDFS, système de fichier distribué qui permet l'accès à haut débit à des jeux de données massifs.
+Apache Hadoop est une plateforme Java pour développer des applications distribuées autour de jeux de données massifs. Hadoop comprend un nombre significatif de sous-projets, dont les plus fondamentaux sont MapReduce, framework de calcul distribué massivement parallèle, et HDFS, système de fichiers distribué qui permet l'accès à haut débit à des jeux de données massifs.
 
-Plusieurs autres projets Apache viennent compléter Hadoop, comme par exemple ZooKeeper, qui permet de coordonner la configurations des différents serveurs d'un cluster de calcul, ou Hive et Pig, qui implémentent des langages de requêtes spécifiques aux jobs MapReduce exécutés par Hadoop.
+Plusieurs autres projets Apache viennent compléter Hadoop, comme ZooKeeper, qui coordonne la configuration des différents serveurs d'un cluster, ou Hive, qui expose les données sous forme de tables interrogeables en SQL.
 
-Hadoop est écrit en Java, et soutenu par plusieurs startups américaines.
+Il faut toutefois mesurer le recul de cet écosystème : MapReduce a été supplanté par Apache Spark, HDFS par le stockage objet compatible S3 (MinIO, Ceph ou les offres des fournisseurs de cloud), et la consolidation du marché — fusion de Cloudera et Hortonworks, disparition de MapR — a tari une bonne partie de son élan. Les architectures actuelles combinent plutôt un stockage objet, des formats de tables ouverts (Apache Iceberg, Delta Lake) et des moteurs de requête comme Spark, Trino ou DuckDB. Hadoop reste pertinent pour les plateformes déjà en place et pour certains traitements par lots de très grande ampleur.
+
+Hadoop est écrit en Java.
+
+
+Apache Spark
+------------
+
+:Site: https://spark.apache.org/
+:Porteur: une fondation (Apache)
+:Licence: Apache 2.0
+
+Né en 2009 à l'université de Berkeley, confié à la fondation Apache en 2013, Spark est devenu le moteur de traitement de données distribué de référence, en remplacement de MapReduce dont il corrige le principal défaut : les traitements s'exécutent en mémoire, avec des gains d'un ordre de grandeur sur les charges itératives.
+
+Spark propose une API unifiée pour le traitement par lots et en flux (*Structured Streaming*), en Scala, Java, Python (PySpark) et R, ainsi qu'un moteur SQL, une bibliothèque d'apprentissage automatique (MLlib) et un module de traitement de graphes. Il s'exécute indifféremment sur Kubernetes, YARN ou en local, et lit la plupart des sources de données, y compris les formats de tables ouverts (Iceberg, Delta Lake, Hudi).
+
+Spark est écrit en Scala.
 
 
 MongoDB
 -------
 
-:Site: http://www.mongodb.org
+:Site: https://www.mongodb.com/
 :Porteur: un éditeur (MongoDB Inc)
-:Licence: Affero GPL
+:Licence: SSPL (*Server Side Public License*), non reconnue comme libre par l'OSI
 
 MongoDB est une base de données "orientée documents" de la mouvance NoSQL permettant le stockage de documents au format BSON (une forme binaire de JSON).
 
 Elle dispose de capacité à évoluer en environnement distribué via des mécanismes de réplication et de sharding. Son intégration particulièrement réussie avec la plupart des langages de programmation ainsi que sa documentation de qualité lui confèrent une popularité importante. MongoDB profite du fort regain d'intérêts pour les bases documentaires qui permettent de mieux coller aux environnements modernes qui se doivent de manipuler des données fortement hétérogènes et pour lesquels les SGBD relationnels ne sont pas nécessairement les plus adaptés.
 
-La base de données est par ailleurs supportée par une entité commerciale, la société MongoDB Inc, cotée en bourse depuis 2017.
+La base de données est développée par la société MongoDB Inc, cotée en bourse depuis 2017.
+
+Point de vigilance : MongoDB a quitté l'AGPL en octobre 2018 au profit de la SSPL, licence rédigée par l'éditeur et refusée par l'*Open Source Initiative* comme par plusieurs distributions Linux (Debian, Fedora et Red Hat ont retiré MongoDB de leurs dépôts). Elle reste utilisable sans restriction pour un usage interne, mais interdit en pratique d'en faire un service hébergé sans publier l'intégralité de son infrastructure. Les projets attachés à une licence libre lui préféreront PostgreSQL et son type JSONB, ou FerretDB (https://docs.ferretdb.io/), qui réimplémente l'API MongoDB au-dessus de PostgreSQL sous licence Apache 2.0.
 
 MongoDB est écrit en C++.
 
@@ -37,7 +59,7 @@ MongoDB est écrit en C++.
 NEO
 ---
 
-:Site: http://www.neoppod.org/
+:Site: https://neo.nexedi.com/
 :Porteur: un éditeur (Nexedi)
 :Licence: GPL 2.0
 
@@ -49,13 +71,15 @@ NEO est écrit en Python et en C.
 Redis
 -----
 
-:Site: http://redis.io
-:Porteur: un éditeur (VMware)
-:Licence: BSD
+:Site: https://redis.io
+:Porteur: un éditeur (Redis Ltd)
+:Licence: AGPL v3, RSALv2 ou SSPLv1 au choix, depuis Redis 8 (2025)
 
-Redis est un dépot de données clé/valeur issue de la mouvance NoSQL. Le projet est sponsorisé par VMware. La première version a été publiée en 2009 par Salvatore Sanfilippo et Pieter Noordhuis.
+Redis est un entrepôt de données clé-valeur en mémoire, issu de la mouvance NoSQL. La première version a été publiée en 2009 par Salvatore Sanfilippo.
 
-Comme la plupart des *datastores* key / value, Redis propose une interface HTTP REST. Son originalité par rapport aux autres solutions disponibles réside dans le fait que Redis dispose d'un ensemble de fonctions de manipulation de données principalement axées sur la manipulation des chaines de caractères qui sont stockées, conférant à Redis la capacité de construire des requêtes légèrement plus complexes que ses concurrents traditionnellement limités aux opérations CRUD (Create Reade Update Delete). Les bonnes performances de Redis, que ce soit en lecture ou en écriture, le positionnent comme un excellent choix pour l'implémentation de backend de cache ou de gestionnaire de session.
+Son originalité tient à la richesse de ses structures de données — chaînes, listes, ensembles, ensembles ordonnés, tables de hachage, flux, compteurs probabilistes — qui lui permettent d'aller bien au-delà des opérations CRUD des autres entrepôts clé-valeur. On y accède par un protocole binaire simple (RESP) et non par HTTP. Ses excellentes performances en lecture comme en écriture en font le choix par défaut pour un cache, un magasin de sessions, une file d'attente de travaux ou un système de publication/abonnement.
+
+Attention à l'histoire mouvementée de sa licence : Redis a quitté la licence BSD en mars 2024 pour un double modèle RSALv2 / SSPLv1, non reconnu comme libre. La Linux Foundation a aussitôt lancé **Valkey** (https://valkey.io/), fork de Redis 7.2.4 resté sous licence BSD, soutenu par AWS, Google Cloud, Oracle et Ericsson, et adopté depuis par la plupart des distributions Linux. Redis Ltd a partiellement corrigé le tir en ajoutant l'AGPL v3 comme troisième option à partir de Redis 8 (mai 2025). Les deux projets coexistent désormais, avec une compatibilité qui devrait s'éroder au fil des versions.
 
 Redis est écrit en C.
 
@@ -113,8 +137,8 @@ RavenDB est écrit en C#.
 OrientDB
 --------
 
-:Site: https://www.orientdb.org/
-:Porteur: une entreprise (OrientDB Ltd.)
+:Site: https://orientdb.dev/
+:Porteur: une communauté, après le rachat d'OrientDB Ltd par SAP
 :Licence: Apache 2.0
 
 OrientDB est une base de données multi-modèles qui prend en charge les modèles de données orientés graphes, documents, clé/valeur et objets. Cette polyvalence permet à OrientDB de répondre à une large gamme de besoins applicatifs. Elle est conçue pour être hautement performante et scalable, avec des fonctionnalités avancées telles que la gestion des transactions ACID, la réplication, et la sharding.
@@ -137,11 +161,11 @@ Neo4j est écrit en Java.
 ArangoDB
 --------
 
-:Site: https://www.arangodb.com/
+:Site: https://arango.ai/
 :Porteur: une entreprise (ArangoDB GmbH)
-:Licence: Apache 2.0
+:Licence: BSL 1.1 (*Business Source License*, source-available) depuis la version 3.12
 
-ArangoDB est une base de données multi-modèles qui supporte les modèles de données orientés documents, graphes et clé/valeur. Cette flexibilité permet aux développeurs de travailler avec plusieurs types de données au sein d'un même moteur de base de données. ArangoDB propose un langage de requête propre, AQL, et supporte également les transactions ACID, la réplication, et le sharding. Elle est conçue pour des applications nécessitant des performances élevées et une scalabilité.
+ArangoDB est une base de données multi-modèles qui prend en charge les modèles orientés documents, graphes et clé-valeur. Cette flexibilité permet de travailler avec plusieurs types de données au sein d'un même moteur. ArangoDB propose un langage de requête propre, AQL, et prend en charge les transactions ACID, la réplication et le partitionnement. Comme plusieurs de ses concurrents, l'éditeur a quitté la licence Apache 2.0 pour la Business Source License : le code reste consultable et utilisable, mais la licence n'est plus libre au sens de l'OSI avant l'expiration du délai de conversion.
 
 ArangoDB est écrit en C++.
 
@@ -156,3 +180,17 @@ JanusGraph
 JanusGraph est une base de données orientée graphes distribuée et évolutive, dérivée de Titan. Elle est conçue pour la gestion de graphes massifs contenant des milliards de sommets et d'arêtes, et pour répondre aux requêtes en temps quasi réel. JanusGraph supporte plusieurs moteurs de stockage backend comme Apache Cassandra, HBase, Google Bigtable, et Oracle BerkeleyDB. Elle offre des fonctionnalités avancées telles que les transactions ACID, la réplication multi-région, et l'intégration avec des systèmes analytiques comme Hadoop et Spark.
 
 JanusGraph est écrit en Java.
+
+
+ClickHouse
+----------
+
+:Site: https://clickhouse.com/
+:Porteur: une entreprise (ClickHouse, Inc.)
+:Licence: Apache 2.0
+
+Développée à l'origine chez Yandex pour ses besoins d'analyse d'audience et publiée en 2016, ClickHouse est une base de données orientée colonnes conçue pour l'analytique temps réel sur de très gros volumes.
+
+Ses performances sur les requêtes d'agrégation, souvent supérieures d'un ou deux ordres de grandeur à celles des moteurs relationnels classiques, en ont fait le choix de référence pour les entrepôts analytiques, l'exploitation de journaux, l'observabilité et les tableaux de bord temps réel. Elle est compatible SQL, se déploie aussi bien sur une seule machine que sur un cluster, et lit directement des données stockées en objet (S3, Parquet).
+
+ClickHouse est écrit en C++.

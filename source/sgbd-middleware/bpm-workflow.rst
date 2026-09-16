@@ -11,11 +11,11 @@ Les solutions de BPM permettent la modélisation graphique des processus, la gé
 Bonita
 ------
 
-:Site: http://fr.bonitasoft.com
-:Porteur: un éditeur (BonitaSoft)
+:Site: https://www.ofelia.com/downloads
+:Porteur: un éditeur français (Ofelia, anciennement Bonitasoft)
 :Licence: GPL et propriétaire
 
-Développé depuis le début des années 2000 par Bull, le produit est porté depuis 2009 par l'éditeur français open source BonitaSoft, membre d'OW2.
+Développé depuis le début des années 2000 par Bull, le produit est porté depuis 2009 par l'éditeur français Bonitasoft, membre d'OW2. Attention au changement de nom : la société s'est rebaptisée **Ofelia** en 2026, en réorientant une partie de son activité vers l'orchestration d'agents d'IA ; le site bonitasoft.com renvoie désormais vers ofelia.com. Bonita BPM reste commercialisé et maintenu, avec son édition communautaire.
 
 Bonita propose un modeleur graphique de processus extrêmement convivial et qui permet de déployer en quelques clics des applications BPM simples (par exemple diffuser des formulaires de demande de congés sur un intranet). Les formulaires sont générés automatiquement par la solution, ou peuvent être paramétrés de manière avancée. L'accès aux demandes en attente et leur traitement s'effectuent de manière intuitive grâce à l'interface "user XP", très semblable à un client mail. Mais la véritable force de Bonita, c'est son système de connecteurs, proposés par défaut ou développés sur mesure.
 
@@ -27,11 +27,11 @@ Bonita est développé en Java, langage également utilisé pour le développeme
 jBPM
 ----
 
-:Site: https://www.jbpm.org/
-:Porteur: un éditeur (Red Hat)
-:Licence: LGPL
+:Site: https://kie.apache.org/
+:Porteur: une fondation (Apache)
+:Licence: Apache 2.0
 
-jBPM est développé par une communauté soutenue par JBoss. Référence du BPM open source depuis plusieurs années, jBPM a été intégré par de nombreux éditeurs à leurs solutions. Le produit souffre toutefois aujourd'hui d'un manque de dynamisme de sa communauté.
+jBPM a longtemps été la référence du BPM open source en Java et a été intégré par de nombreux éditeurs à leurs solutions. Développé au sein de l'écosystème JBoss puis de Red Hat, le projet a été donné à la fondation Apache : il y est développé depuis 2025, avec Drools, sous le nom d'**Apache KIE**. L'adresse jbpm.org redirige désormais vers ce projet.
 
 jBPM supporte les standards suivants:
 
@@ -41,21 +41,23 @@ jBPM supporte les standards suivants:
 - business rules (DRL)
 - business optimisation (Solver)
 
-JBPM est un excellent moteur BPM, puissant et léger. Utilisé comme brique logicielle c'est une solution technique simple à configurer et bénéficiant d'une API très complète.
+jBPM est un moteur BPM puissant et léger. Utilisé comme brique logicielle, c'est une solution simple à configurer et dotée d'une API très complète.
 
-JBPM est développé en Java.
+jBPM est développé en Java.
 
 
 Activiti
 --------
 
 :Site: https://www.activiti.org/
-:Porteur: un éditeur (Alfresco)
-:Licence: Apache
+:Porteur: une communauté (dans l'orbite d'Alfresco/Hyland)
+:Licence: Apache 2.0
 
-Activiti a été publié par l'éditeur d'ECM Alfresco, qui souhaitait développer une alternative à jBPM pour ses propres besoins. En choisissant d’en faire un composant indépendant, Alfresco parie sur le dynamisme de l'open source (le produit a été reversé à la communauté Spring) et souhaite en faire l'outil de référence du BPM open source. Activiti est ainsi techniquement à l'état de l'Art et bénéficie d'un très bon dynamisme grâce à la grande popularité de son porteur.
+Activiti a été publié par l'éditeur d'ECM Alfresco, qui souhaitait développer une alternative à jBPM pour ses propres besoins, avant d'en faire un composant indépendant.
 
-Activiti est aujourd'hui un moteur BPM léger et robuste. Sa jeunesse le destine plutôt à une fonction de brique BPM intégrée à des projets plus complexes, comme il l’est à Alfresco par exemple. Activiti présente néanmoins des interfaces agréables pour les utilisateurs finaux (conception de processus) qui permettront aux équipes fonctionnelles et techniques de travailler conjointement sur la modélisation des processus. Sa mise en œuvre à proprement parler nécessitera toutefois impérativement de réelles compétences techniques.
+Le projet a connu en 2016 une scission décisive : ses principaux auteurs l'ont quitté pour créer **Flowable** (https://www.flowable.com/), qui est depuis lors la branche la plus active et la plus complète des deux, avec la prise en charge des normes BPMN 2.0, CMMN et DMN et une édition open source sous licence Apache 2.0. Activiti poursuit son développement sous la forme d'Activiti Cloud, orienté conteneurs et Kubernetes, mais avec une communauté plus restreinte.
+
+Pour une nouvelle mise en œuvre, on comparera donc en priorité Flowable et Apache KIE (jBPM). Ces moteurs restent des briques techniques : ils supposent de réelles compétences de développement, même s'ils proposent des interfaces de modélisation utilisables par les équipes fonctionnelles.
 
 Activiti est développé en Java.
 
@@ -63,9 +65,12 @@ Activiti est développé en Java.
 Autres
 ------
 
-- SpiffWorkflow (Python): https://github.com/knipknap/SpiffWorkflow
-- ViewFlow (Python): http://viewflow.io/
-- Adhesive (Python): https://germaniumhq.com/adhesive/
-- Camunda (Java): https://github.com/camunda/camunda-bpm-platform
+- Flowable (Java), fork d'Activiti par ses auteurs d'origine: https://www.flowable.com/
+- SpiffWorkflow (Python), moteur BPMN 2.0: https://github.com/sartography/SpiffWorkflow
+- Viewflow (Python/Django): https://viewflow.io/
+- Temporal (orchestration de workflows durables, plutôt orientée développeurs): https://temporal.io/
+- Windmill (plateforme de workflows et de scripts, alternative libre aux outils d'automatisation SaaS): https://www.windmill.dev/
 - Flor (Ruby): https://github.com/floraison/flor
+
+**Le cas Camunda.** Camunda 7, longtemps l'une des références du BPM open source (Apache 2.0), a atteint sa fin de vie en octobre 2025 : le dépôt de l'édition communautaire est archivé et ne reçoit plus de correctifs, y compris de sécurité. Son successeur, Camunda 8, n'est plus open source : depuis octobre 2024, ses composants sont publiés sous Camunda License 1.0, qui autorise la lecture du code et l'usage en développement, mais exige une licence commerciale en production. Les utilisateurs de Camunda 7 souhaitant rester en open source se tournent vers le fork **CIB seven** (https://cibseven.org/), vers Flowable ou vers Apache KIE.
 

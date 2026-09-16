@@ -5,7 +5,7 @@ La dimension « Infrastructure » est certainement la dimension la mieux représ
 
 Les catégories de cette dimension posent les bases d’une bonne infrastructure capable d’accueillir des meilleures applications dans des conditions optimales. On y retrouve les systèmes d'exploitation pour serveurs, les outils relatifs à la sécurité, les outils de gestion de parc.
 
-Plus de 50 solutions ont été évaluées dans cette dimension ; et plus de 90 solutions y sont recensées parmi les catégories suivantes :
+Cette dimension est la plus fournie du guide ; les solutions y sont réparties dans les catégories suivantes :
 
 .. toctree::
     :maxdepth: 1

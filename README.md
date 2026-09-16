@@ -1,6 +1,6 @@
 # Guide des solutions open source
 
-Les pages qui suivent présentent près de 200 produits dans 40 domaines d’applications pour l’entreprise. Leur objectif est de constituer un référentiel large et pratique des meilleures solutions open source.
+Les pages qui suivent présentent plus de 250 produits, dans une quarantaine de domaines d’applications pour l’entreprise. Leur objectif est de constituer un référentiel large et pratique des meilleures solutions open source.
 
 Ces produits recouvrent un périmètre large. 
 

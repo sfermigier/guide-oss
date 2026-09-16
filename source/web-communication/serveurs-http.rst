@@ -11,7 +11,7 @@ Dans l’univers des serveurs HTTP, le serveur Apache domine très largement ave
 Apache Httpd
 ------------
 
-:Site: http://httpd.apache.org
+:Site: https://httpd.apache.org
 :Porteur: une fondation (Apache)
 :Licence: Apache
 
@@ -43,7 +43,7 @@ Caractéristiques et fonctionnalités :
 
 Nginx est également extensible grâce à ses modules dynamiques, permettant aux utilisateurs d'ajouter des fonctionnalités supplémentaires en fonction de leurs besoins spécifiques. En raison de ses performances et de sa flexibilité, Nginx est devenu un choix populaire pour les grandes entreprises et les services de cloud computing, surpassant même Apache dans de nombreux déploiements à grande échelle.
 
-Sa popularité croissante et ses capacités robustes en font un élément clé de l'infrastructure web moderne.
+Un point de gouvernance mérite d'être signalé : à la suite d'un désaccord avec F5, propriétaire du projet depuis 2019, l'un des développeurs historiques a lancé en 2024 le fork *freenginx* (https://freenginx.org/). Un autre fork, Angie (https://angie.software/), est maintenu par d'anciens développeurs de Nginx. Ces projets restent pour l'instant marginaux face à Nginx, mais méritent d'être surveillés.
 
 
 Lighttpd
@@ -73,7 +73,7 @@ Caddy
 ------------
 
 :Site: https://caddyserver.com
-:Porteur: une entreprise (Light Code Labs)
+:Porteur: un projet communautaire soutenu par des entreprises, initié par Matthew Holt
 :Licence: Apache 2.0
 
 Caddy est un serveur web open source connu pour sa configuration facile et son support natif de HTTPS. Il a été créé par Matthew Holt en 2015 et se distingue par sa simplicité d'utilisation et ses fonctionnalités modernes.
@@ -130,7 +130,9 @@ uWSGI
 :Porteur: un projet open source (initié par Roberto De Ioris)
 :Licence: GPL
 
-uWSGI est un serveur d'application web pour les applications Python WSGI, mais il supporte également plusieurs autres langages et protocoles. Créé par Roberto De Ioris, uWSGI est conçu pour offrir des performances élevées, une grande flexibilité et une extensibilité robuste.
+uWSGI est un serveur d'application web pour les applications Python WSGI, mais il prend également en charge plusieurs autres langages et protocoles. Créé par Roberto De Ioris, uWSGI est conçu pour offrir des performances élevées, une grande flexibilité et une extensibilité robuste.
+
+Attention toutefois : le projet est officiellement en mode maintenance depuis plusieurs années (corrections de bogues uniquement). Les nouveaux déploiements Python lui préfèrent généralement Gunicorn, ou, pour les applications asynchrones (ASGI), Uvicorn et Granian.
 
 Caractéristiques et fonctionnalités :
 
@@ -161,7 +163,7 @@ Comparaison
      - Caractéristiques Distinctives
      - Année de Création
    * - Apache Httpd
-     - http://httpd.apache.org
+     - https://httpd.apache.org
      - Apache Software Foundation
      - Apache License 2.0
      - PERL, PHP, Python, Ruby, SSI, CGI
@@ -183,7 +185,7 @@ Comparaison
      - 2003
    * - Caddy
      - https://caddyserver.com
-     - Light Code Labs
+     - un projet communautaire (initié par Matthew Holt)
      - Apache License 2.0
      - HTTP/2, HTTP/3, FastCGI, WebSockets, SSL/TLS
      - Configuration facile, HTTPS automatique, architecture modulaire

@@ -7,7 +7,7 @@ Dans un premier temps, les ERP open source permettent à des petites PME de disp
 
 Le domaine étant extrêmement vaste, des différences de couverture fonctionnelle peuvent destiner un produit de préférence à tel ou tel secteur d'activité. Mais l'un des critères de choix les plus importants est la flexibilité, l'extensibilité, et donc les bases technologiques qui permettront à un produit donné d'être adapté à une diversité de contextes, avec très peu de développements spécifiques.
 
-Des produits comme Compiere, ERP5 ou Odoo tiennent la corde des ERP open source. la convergence ERP/CRM/CMS/e-business poussée par l'intégration du e-commerce au coeur de métier de l'entreprise conduit égalemet des logiciels de e-commerce à proposer des fonctions de plus en plus proches de celles d'un ERP.
+Des produits comme Odoo, Dolibarr, ERPNext ou ERP5 tiennent la corde des ERP open source. La convergence ERP/CRM/CMS/e-business, poussée par l'intégration du e-commerce au cœur de métier de l'entreprise, conduit également des logiciels de e-commerce à proposer des fonctions de plus en plus proches de celles d'un ERP.
 
 
 
@@ -34,9 +34,9 @@ Odoo
 
 :Site: https://www.odoo.com/
 :Porteur: un éditeur belge (Odoo)
-:Licence: AGPL v3
+:Licence: LGPL v3 (édition Community) et propriétaire (édition Enterprise)
 
-Odoo (anciennement Tiny ERP puis OpenERP) a été fondé en 2005 en Belgique par Fabien Pinckaers.
+Odoo (anciennement Tiny ERP puis OpenERP) a été fondé en 2005 en Belgique par Fabien Pinckaers. Depuis la version 9 (2015), le produit est décliné en deux éditions : une édition Community sous licence LGPL v3 et une édition Enterprise propriétaire, qui ajoute notamment des modules métier, les applications mobiles et le support de l'éditeur.
 
 Odoo combine à la fois la force d'un éditeur et celle d'une large communauté, comprenant ses intégrateurs présents dans le monde entier, qui balise l’ensemble des cas d'usages et fournit de précieux retours, notamment sous forme de modules réutilisables. Tout ceci est rendu possible par une réelle innovation technologique qui s'appuie sur des standards reconnus en termes de base de données et de webservices. Odoo couvre tous les besoins, tels que ventes, achats, rh, projets, comptabilité, logistique, stock, production, facturation, ... et son framework permet de l'adapter rapidement aux contextes spécifiques, que ce soit par le paramétrage de nouveaux workflows, de nouvelles informations, ou de tableaux de bord pour une toujours plus grande efficacité de l'ERP en entreprise.
 
@@ -46,7 +46,7 @@ Odoo est écrit en Python et repose sur un framework orienté objet. La base de 
 OFBiz
 -----
 
-:Site: http://ofbiz.apache.org/
+:Site: https://ofbiz.apache.org/
 :Porteur: une fondation (Apache)
 :Licence: Apache
 
@@ -57,18 +57,18 @@ Depuis le projet s’est enrichi de nombreux modules fonctionnels. En 2006, il a
 OFBiz est écrit en Java.
 
 
-Compiere
---------
+iDempiere (héritier de Compiere)
+--------------------------------
 
-:Site: https://www.compiere.com/
-:Porteur: un éditeur (Compiere Inc.)
-:Licence: MPL
+:Site: https://idempiere.org
+:Porteur: une communauté
+:Licence: GPL v2
 
-Compiere a été développé à ses débuts par l’allemand Jorg Janke, lequel a su mettre à profit ses 20 années d’expérience chez SAP puis Oracle et sa maitrise des produits ADV/Orga, Unisys, R/2, R/3.
+Compiere, développé à partir de 1999 par l’allemand Jörg Janke (fort de ses 20 années d’expérience chez SAP puis Oracle), a longtemps été l’ERP open source Java de référence. Racheté par Consona en 2010, puis passé dans le giron d’Aptean, il n’existe plus en tant que projet open source : ce sont ses forks communautaires qui poursuivent son histoire, d’abord ADempiere (2006) puis iDempiere (2011), aujourd’hui le plus actif des deux.
 
-Les concepts de « l’application dictionnary » (modèle de méta-programmation à la base de Compiere permettant l’adéquation de la persistance relationnelle avec les structures de données métiers personnalisées et leurs interfaces) ont été prototypés dès 1988 pour SAP, puis mis au service du projet libre Compiere. Ce dernier a connu de beaux succès ses dernières années (dans le secteur de la distribution et du service tout particulièrement) grâce notamment à son support de la base de données Oracle et à son socle Java. D’un point de vue fonctionnel, Compiere est relativement complète notamment pour les PME/PMI, on peut par exemple citer : gestion des ventes, des fonctions d’achats, de fonctions de stock et de logistique, gestion comptable et financière, gestion de la production, etc.
+iDempiere hérite du concept d’*application dictionary* (modèle de méta-programmation permettant d’ajuster la persistance relationnelle aux structures de données métier personnalisées et à leurs interfaces), prototypé dès la fin des années 1980. D’un point de vue fonctionnel, la couverture est large et adaptée aux PME/PMI : gestion des ventes, achats, stock et logistique, gestion comptable et financière, gestion de la production, etc.
 
-Compiere est écrit en Java.
+iDempiere est écrit en Java, s’appuie sur OSGi et sur les bases PostgreSQL ou Oracle.
 
 
 Dolibarr
@@ -87,3 +87,31 @@ Une association a été créée en France. Elle a pour objet le développement (
 Une place de marché gérée par l'association Dolibarr https://www.dolistore.com/ met à disposition plusieurs centaines de modules complémentaires permettant de compléter les fonctionnalités standard de Dolibarr.
 
 Dolibarr est écrit en PHP. La base de données MySQL/MariaDB ou PostgreSQL (support limité sur les modules complémentaires) est utilisée.
+
+
+ERPNext
+-------
+
+:Site: https://frappe.io/erpnext
+:Porteur: un éditeur indien (Frappe Technologies)
+:Licence: GPL v3
+
+Lancé en 2008 par Frappe Technologies, ERPNext est devenu l'un des ERP open source les plus déployés au monde, en particulier dans les PME et les pays émergents.
+
+Sa couverture fonctionnelle est large : comptabilité, ventes, achats, stocks, production, projets, RH et paie, CRM, maintenance des actifs. Le produit s'appuie sur le framework low-code Frappe, qui permet de définir de nouveaux objets métier, formulaires et workflows sans développement lourd, ce qui explique en grande partie son adoption.
+
+ERPNext est écrit en Python et JavaScript, et s'appuie sur MariaDB (ou PostgreSQL, en support plus récent).
+
+
+Tryton
+------
+
+:Site: https://www.tryton.org/
+:Porteur: une fondation (Tryton Foundation)
+:Licence: GPL v3
+
+Tryton est né en 2008 d'un fork de TinyERP (l'ancêtre d'Odoo), avec le parti pris d'un noyau minimal, modulaire et strictement communautaire, sans édition commerciale parallèle.
+
+Le projet privilégie la rigueur du modèle de données et la stabilité des interfaces de programmation, avec deux versions par an et un chemin de migration documenté. La couverture fonctionnelle (comptabilité, ventes, achats, stock, production, projets) s'étend par modules, y compris pour des secteurs spécifiques (santé avec GNU Health, par exemple).
+
+Tryton est écrit en Python et s'appuie sur PostgreSQL.

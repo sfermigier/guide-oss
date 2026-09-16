@@ -5,9 +5,9 @@ La dimension « Applications », présente toutes les solutions couramment utili
 
 Une grande majorité de ces outils est développée par des éditeurs ; contrairement aux outils d’infrastructure, majoritairement communautaires. Ces éditeurs ont choisi le modèle open source pour diffuser leur solution – leur modèle économique est la plupart du temps basé sur le support voire la garantie des produits en question. Ces outils jouent un rôle clé dans l’adoption de l’open source par le plus grand nombre en présentant des applicatifs de qualité au périmètre très large.
 
-Aujourd’hui, la quasi totalité des catégories sont représentées par l'open source.
+Aujourd’hui, la quasi-totalité des catégories sont couvertes par des solutions open source. Il faut toutefois être attentif, dans cette dimension plus que dans les autres, au modèle de diffusion retenu par l’éditeur : édition communautaire volontairement limitée, licence « source-available » qui n’est pas libre au sens de l’OSI, ou abandon pur et simple de l’édition open source. Les fiches qui suivent signalent ces situations.
 
-Plus de 50 solutions ont été évaluées dans cette dimension ; et près de 100 solutions y sont recensées parmi les catégories suivantes :
+Cette dimension recense une centaine de solutions, réparties dans les catégories suivantes :
 
 
 .. toctree::
