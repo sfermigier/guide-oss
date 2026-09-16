@@ -14,5 +14,6 @@ Une grande majorité de ces outils est développée par des éditeurs ; contrair
     blog-wiki-et-forum.rst
     reseaux-sociaux-entreprise-rse.rst
     voip-telephonie.rst
+    messagerie-instantanee-et-visio.rst
     messagerie-email-groupware.rst
     portail.rst

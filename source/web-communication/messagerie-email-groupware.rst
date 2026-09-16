@@ -3,7 +3,7 @@ Messagerie, Emailing & Groupware
 
 Le domaine de la « messagerie » est très large, de la messagerie individuelle à l’envoi de mailing groupé, on trouve de nombreuses solutions open source.
 
-Dans cette rubrique, on présente les serveurs de messagerie (SMTP et IMAP), les outils antispam et les interfaces de consultation (groupware). Les antivirus tels que ClamAV sont rangés dans la catégorie :doc:`/infrastructure/securite`.
+Dans cette rubrique, on présente les serveurs de messagerie (SMTP et IMAP), les outils antispam et les interfaces de consultation (groupware). Les antivirus tels que ClamAV sont rangés dans la catégorie :doc:`/infrastructure/securite`, et la messagerie instantanée fait l'objet de la section :doc:`/web-communication/messagerie-instantanee-et-visio`.
 
 Tous ces outils sont de précieuses aides pour mettre en œuvre un système de messagerie complet.
 

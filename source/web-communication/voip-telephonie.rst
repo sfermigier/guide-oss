@@ -76,4 +76,4 @@ Parmi les produits de l’univers VOIP/Téléphonie, on peut compléter la liste
 - OpenSIPS, serveur SIP proche de Kamailio: https://opensips.org/
 - Yate: https://yate.ro/
 
-Pour la visioconférence, qui relève désormais du même besoin métier, voir Jitsi Meet (https://jitsi.org/), BigBlueButton (https://bigbluebutton.org/) et Galène (https://galene.org/).
+Pour la visioconférence et la messagerie instantanée, qui relèvent désormais du même besoin métier, voir la section :doc:`/web-communication/messagerie-instantanee-et-visio`.

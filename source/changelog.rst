@@ -16,6 +16,9 @@ Septembre 2026
   Proxmox VE, WireGuard, OPNsense, WooCommerce, Metabase et Apache
   Superset, Discourse, HumHub, k6 et Gatling, ERPNext et Tryton, entre
   autres.
+- Nouveau chapitre « Messagerie instantanée et visioconférence » :
+  Matrix et Element, Mattermost, Rocket.Chat, Zulip, Jitsi Meet,
+  BigBlueButton, La Suite Meet et Galène.
 
 1er février 2023
 ----------------

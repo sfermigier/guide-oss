@@ -63,4 +63,4 @@ Autres
 - Nextcloud Hub, dont les fonctions sociales et collaboratives couvrent une grande partie des usages RSE: https://nextcloud.com/
 - eXo Platform, positionné sur la *digital workplace* (section :doc:`/web-communication/portail`): https://www.exoplatform.com/
 
-Une partie des usages historiquement couverts par les RSE est passée aux outils de messagerie d'équipe et de visioconférence. Les principales solutions open source du domaine sont Mattermost (https://mattermost.com/), Rocket.Chat (https://www.rocket.chat/), Zulip (https://zulip.com/), Element/Matrix (https://element.io/) pour la messagerie, Jitsi Meet (https://jitsi.org/), BigBlueButton (https://bigbluebutton.org/) et Galène (https://galene.org/) pour la visioconférence.
+Une partie des usages historiquement couverts par les RSE est d'ailleurs passée aux outils de messagerie d'équipe et de visioconférence, traités dans la section :doc:`/web-communication/messagerie-instantanee-et-visio`.
