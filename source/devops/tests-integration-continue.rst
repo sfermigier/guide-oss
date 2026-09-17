@@ -3,7 +3,7 @@ Tests & intégration continue
 
 L’intégration continue est un ensemble de pratiques visant à améliorer la qualité de livraison d’une application en vérifiant à chaque modification de code source, que le résultat des modifications n’entraine pas de régressions (c'est-à-dire d’anomalies supplémentaires liées à l’ajout de code).
 
-Pour mettre en œuvre des plateformes d’intégration continue, il existe de nombreux outils open source de qualité. Le paysage s'est toutefois recomposé : les serveurs d'intégration continue autonomes de la génération précédente (Apache Continuum et Hudson, tous deux retirés à l'*Attic* d'Apache et de la fondation Eclipse) ont disparu, et Jenkins lui-même est de plus en plus concurrencé par les moteurs intégrés aux forges — GitLab CI, GitHub Actions, Forgejo Actions — qui présentent l'avantage de décrire la chaîne de construction dans le dépôt lui-même.
+Pour mettre en œuvre des plateformes d’intégration continue, il existe de nombreux outils open source de qualité. Le paysage s'est toutefois recomposé. Les serveurs d'intégration continue autonomes de la génération précédente ont disparu : Apache Continuum et Hudson sont l'un et l'autre retirés à l'*Attic* d'Apache et de la fondation Eclipse. Jenkins lui-même est de plus en plus concurrencé par les moteurs intégrés aux forges (GitLab CI, GitHub Actions, Forgejo Actions), qui décrivent la chaîne de construction dans le dépôt lui-même.
 
 
 Tests
@@ -63,7 +63,7 @@ Jenkins est un outil d'intégration continue, fork du projet Hudson développé 
 
 Jenkins permet d'automatiser la construction de projets et de générer des rapports de tests et de qualité. Jenkins est majoritairement utilisé dans le marché des solutions d'intégration continue. Le grand atout de Jenkins est son écosystème composé de centaines de plugins, ainsi que son interface plus simple et moins austère que celle de Continuum par exemple. Les générations de projets peuvent être initiées par différents moyens (mécanismes de planification similaires au cron, des systèmes de dépendances entre générations, ou par des requêtes sur certaines URL spécifiques).
 
-Jenkins est écrit en Java. Son principal atout — un écosystème de plus de mille huit cents extensions — est aussi sa principale charge d'exploitation : maintenir un Jenkins à jour et sûr demande un travail réel, ce qui pousse nombre d'équipes vers les moteurs intégrés à leur forge.
+Jenkins est écrit en Java. Son principal atout, un écosystème de plus de mille huit cents extensions, est aussi sa principale charge d'exploitation : maintenir un Jenkins à jour et sûr demande un travail réel, ce qui pousse nombre d'équipes vers les moteurs intégrés à leur forge.
 
 
 Autres

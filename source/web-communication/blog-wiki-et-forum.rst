@@ -24,9 +24,9 @@ WordPress a été créé en 2003 à la suite d'un fork du logiciel « b2 ». Dé
 
 WordPress est un outil de publication très complet, employé bien au-delà du blog pour la construction de sites web de toute nature. La version 3 (2010) avait intégré la gestion multi-sites issue de WordPress MU ; le tournant suivant est l'éditeur de blocs Gutenberg, introduit avec la version 5 (2018), qui a ouvert la voie à l'édition complète du site (*full site editing*) et aux thèmes par blocs. Le rythme de publication reste soutenu, avec plusieurs versions majeures par an.
 
-Deux points de vigilance : la surface d'attaque induite par l'immense écosystème d'extensions, qui impose une politique de mise à jour rigoureuse ; et la gouvernance du projet, très liée à la société Automattic et à son fondateur, dont le conflit ouvert avec l'hébergeur WP Engine en 2024 a rappelé la fragilité aux yeux d'une partie de la communauté.
+Deux points appellent la vigilance. D'abord la surface d'attaque : l'immense écosystème d'extensions impose une politique de mise à jour rigoureuse. Ensuite la gouvernance : le projet reste très lié à la société Automattic et à son fondateur, et le conflit ouvert avec l'hébergeur WP Engine en 2024 en a rappelé la fragilité à une partie de la communauté.
 
-WordPress est développé en PHP sur une base MySQL/MariaDB. Il dispose d'API REST et d'un système d'extensions très riche — des dizaines de milliers d'extensions sont disponibles.
+WordPress est développé en PHP sur une base MySQL/MariaDB. Il dispose d'API REST et d'un système d'extensions très riche : des dizaines de milliers d'extensions sont disponibles.
 
 
 DotClear
@@ -94,7 +94,7 @@ XWiki
 :Porteur: un éditeur (XWiki SAS)
 :Licence: LGPL
 
-La solution XWiki a été créée en 2004 par Ludovic Dubost. Elle est aujourd’hui essentiellement supportée par la société XWiki.
+La solution XWiki a été créée en 2004 par Ludovic Dubost. Elle est aujourd’hui essentiellement portée par la société XWiki.
 
 Wiki applicatif de seconde génération, XWiki est utilisé pour du travail collaboratif, du partage d'informations, ou encore la mise en ligne de contenu structuré ou non. En plus des fonctionnalités wiki usuelles (mise-en-forme facilitée, gestion des droits d'accès, édition collaborative...), il offre la possibilité de programmer au sein même des pages du wiki. C'est ce qui en fait un wiki applicatif, c'est-à-dire capable d'évoluer en fonction des besoins de ses utilisateurs.
 

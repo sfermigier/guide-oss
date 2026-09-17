@@ -10,19 +10,19 @@ le contenu de ce guide en licence FDL, de façon à ce qu'il puisse
 être mis à jour et enrichi par de nouveaux contributeurs. Nous les
 en remercions chaleureusement.
 
-La rédaction initiale à été réalisée par les collaborateurs et
-dirigeants de Smile suivants: Benoît JACQUEMONT; Maxime BESSON;
-Patrick KOUASSI; Alexandre NION; Philippe DE OLIVERIA; Frédéric DE
-GOMBERT; Patrick NERDEN; Thomas CHOPPY; Jean-François BOSSARD; Régis
-DAMONGEOT; Thibaut DEMARET; Julien BAGARIE; Sébastien GIRAUD; Alain
-ARDITI; Patrice BERTRAND; Barthélémy VESSEMONT; Eric DRIER DE LA
-FORGE; Guillaume MAISSA; Eric PLAQUEVENT; Allaedine EL BANNA; Jérémy
-SUBTIL; Marc GIBERT; Sylvain TACQUET; Badr CHENTOUF; Hélène ZYSMAN;
-Philippe BRIERE; Sébastien MAULION; Aurélien LEMAIRE; Aurélien
-FOUCRET; Marc MAURICE; Sylvain BANNIER.
+La rédaction initiale a été assurée par les collaborateurs et
+dirigeants de Smile suivants : Benoît Jacquemont, Maxime Besson,
+Patrick Kouassi, Alexandre Nion, Philippe De Oliveira, Frédéric De
+Gombert, Patrick Nerden, Thomas Choppy, Jean-François Bossard, Régis
+Damongeot, Thibaut Demaret, Julien Bagarie, Sébastien Giraud, Alain
+Arditi, Patrice Bertrand, Barthélémy Vessemont, Eric Drier de la
+Forge, Guillaume Maissa, Eric Plaquevent, Allaedine El Banna, Jérémy
+Subtil, Marc Gibert, Sylvain Tacquet, Badr Chentouf, Hélène Zysman,
+Philippe Brière, Sébastien Maulion, Aurélien Lemaire, Aurélien
+Foucret, Marc Maurice et Sylvain Bannier.
 
 La mise à jour et l'enrichissement du document en septembre 2012
-ont été réalisés principalement par une équipe de bénévoles et
+reviennent pour l'essentiel à une équipe de bénévoles et
 permanents du GTLL (Groupe Thématique Logiciel Libre): Stefane
 FERMIGIER (président du GTLL), Laurent SEGUIN, Julien MARBOUTIN,
 ainsi que d'experts externes comme Jean-Luc RAFFAELLI. Ont également

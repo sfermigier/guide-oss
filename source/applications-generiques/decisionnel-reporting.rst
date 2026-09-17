@@ -3,7 +3,7 @@ Décisionnel : Reporting
 
 Une des briques essentielles du décisionnel consiste à établir des rapports.
 
-Les outils de reporting, tel que BIRT, permettent non seulement de générer des rapports (paramétrés ou non) au format HTML, PDF, XLS, DOC, PPT, etc.) mais aussi de construire des tableaux croisés dynamiques.
+Les outils de reporting, tel que BIRT, permettent de générer des rapports, paramétrés ou non, aux formats HTML, PDF, XLS, DOC ou PPT, et de construire des tableaux croisés dynamiques.
 
 Les données affichées peuvent provenir de bases et de requêtes différentes. D’ailleurs, les outils de reporting fournissent généralement des plugins pour se greffer facilement à des sources ou applications externes.
 
@@ -28,7 +28,7 @@ JasperReports
 
 JasperReports est une bibliothèque Java open source qui permet de créer des rapports de manière flexible et dynamique. Initié en 2001 par Teodor Danciu, JasperReports peut produire des rapports aux formats HTML, PDF, Excel, RTF, ODT, CSV, TXT et XML. Il supporte des données provenant de différentes sources comme des bases de données relationnelles, des collections Java et des sources XML.
 
-Le concepteur graphique de rapports est désormais Jaspersoft Studio, basé sur Eclipse, qui a remplacé l'historique iReport (abandonné au milieu des années 2010) ; côté serveur, JasperReports Server assure la diffusion des rapports et des tableaux de bord. Jaspersoft, passé chez TIBCO en 2014, appartient depuis 2022 à Cloud Software Group, né de la fusion de TIBCO et de Citrix.
+Le concepteur graphique de rapports est désormais Jaspersoft Studio, fondé sur Eclipse, qui a remplacé l'historique iReport (abandonné au milieu des années 2010) ; côté serveur, JasperReports Server assure la diffusion des rapports et des tableaux de bord. Jaspersoft, passé chez TIBCO en 2014, appartient depuis 2022 à Cloud Software Group, né de la fusion de TIBCO et de Citrix.
 
 
 ReportServer

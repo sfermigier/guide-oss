@@ -9,11 +9,11 @@ Apache Cordova
 :Site: https://cordova.apache.org/
 :Porteur: Une fondation (Apache Software Foundation)
 
-Apache Cordova (anciennement PhoneGap) est un outil de développement d'applications mobiles multiplateformes qui se distingue par sa capacité à exploiter les standards du web. Créé en 2008 par la société canadienne Nitobi, qui a par la suite été acquise par Adobe, PhoneGap a marqué une évolution significative dans le domaine du développement mobile.
+Apache Cordova (anciennement PhoneGap) est un outil de développement d'applications mobiles multiplateformes qui s'appuie sur les standards du web. Créé en 2008 par la société canadienne Nitobi, qui a par la suite été acquise par Adobe, PhoneGap a marqué une étape dans le domaine du développement mobile.
 
 Apache Cordova continue d'offrir aux développeurs la possibilité de créer des applications mobiles en utilisant HTML, CSS et JavaScript, tout en ayant accès aux fonctionnalités matérielles du dispositif à travers une série de plugins. Les applications développées avec Apache Cordova sont des applications web encapsulées dans un conteneur natif, permettant leur déploiement sur diverses plateformes mobiles sans nécessiter plusieurs bases de code.
 
-La transition vers Apache Cordova a également encouragé une plus grande collaboration et innovation au sein de la communauté de développeurs. Avec le soutien de la Apache Software Foundation, Cordova bénéficie d'une gouvernance ouverte et d'une contribution collective, ce qui aide à garantir que la plateforme reste à la pointe du progrès technologique et répond aux besoins changeants des développeurs et des entreprises.
+La transition vers Apache Cordova a également encouragé une plus grande collaboration et innovation au sein de la communauté de développeurs. Avec le soutien de la Apache Software Foundation, Cordova bénéficie d'une gouvernance ouverte et de contributions collectives.
 
 Distribué sous licence Apache, Cordova conserve une communauté active, même si son usage recule : Adobe a mis fin à PhoneGap en 2020, et les nouveaux projets se tournent le plus souvent vers Capacitor (https://capacitorjs.com/), le moteur de plugins natifs développé par l'équipe d'Ionic, qui reprend la même approche avec un outillage plus moderne.
 
@@ -38,7 +38,7 @@ Flutter
 :Porteur: Google
 :Licence: BSD
 
-Flutter est un SDK de développement d'applications mobiles open source créé par Google, qui permet de construire des applications multiplateformes de haute qualité avec une seule base de code. Flutter utilise le langage de programmation Dart, conçu par Google, et offre un système de widgets complet, personnalisable et réactif, ce qui facilite la création d'interfaces utilisateur complexes et attrayantes.
+Flutter est un SDK de développement d'applications mobiles open source créé par Google, qui permet de construire des applications multiplateformes de haute qualité avec une seule base de code. Flutter utilise le langage de programmation Dart, conçu par Google, et offre un système de widgets complet et personnalisable, ce qui facilite la création d'interfaces utilisateur complexes et attrayantes.
 
 Contrairement à d'autres frameworks qui se reposent sur les composants natifs de la plateforme, Flutter dessine chaque élément de l'interface utilisateur à partir de zéro, garantissant ainsi une cohérence visuelle parfaite sur toutes les plateformes. Cette approche unique permet également une grande flexibilité dans la personnalisation de l'interface utilisateur, donnant aux développeurs le pouvoir de réaliser presque tout ce qu'ils peuvent imaginer.
 
@@ -68,11 +68,11 @@ Ionic est un framework de développement d'applications mobiles open source qui 
 
 Ionic fonctionne bien avec Apache Cordova pour l'accès aux fonctionnalités du dispositif via des plugins, permettant ainsi aux applications Ionic de tirer parti des capacités matérielles du smartphone, telles que la caméra, le GPS et l'accéléromètre. De plus, Ionic a introduit Capacitor, son propre moteur de plugins natifs, conçu pour offrir une alternative plus moderne à Cordova, avec une meilleure intégration dans les écosystèmes mobiles modernes et un support pour le développement d'applications web progressives (PWA).
 
-Le framework Ionic est particulièrement apprécié pour sa flexibilité et son écosystème riche, qui comprend un large éventail de plugins, outils et services qui facilitent le développement, le test, et le déploiement d'applications. De plus, Ionic offre un système de thèmes et de personnalisation puissant, permettant aux développeurs de créer des interfaces utilisateurs attrayantes et cohérentes sur différentes plateformes sans effort supplémentaire.
+Le framework Ionic est particulièrement apprécié pour sa flexibilité et son écosystème riche, qui comprend un large éventail de plugins, outils et services qui facilitent le développement, le test, et le déploiement d'applications. De plus, Ionic offre un système de thèmes et de personnalisation complet, permettant aux développeurs de créer des interfaces utilisateurs attrayantes et cohérentes sur différentes plateformes sans effort supplémentaire.
 
 Ionic s'adresse aux jeunes pousses, aux entreprises et aux développeurs individuels cherchant à développer rapidement des applications mobiles multiplateformes sans compromettre la qualité de l'expérience utilisateur. Avec son attachement aux standards du web et sa compatibilité avec Angular, React et Vue.js, Ionic continue de jouer un rôle important dans le paysage du développement mobile.
 
-La société Ionic a été rachetée par OutSystems en 2022 et a arrêté la commercialisation de ses produits payants (Appflow, Identity Vault, Portals) début 2025. Les briques open source — Ionic Framework, Capacitor et Stencil — restent publiées sous licence MIT et activement maintenues, Capacitor étant aujourd'hui la partie la plus stratégique de l'ensemble.
+La société Ionic a été rachetée par OutSystems en 2022 et a arrêté la commercialisation de ses produits payants (Appflow, Identity Vault, Portals) début 2025. Les briques open source (Ionic Framework, Capacitor et Stencil) restent publiées sous licence MIT et activement maintenues, Capacitor étant aujourd'hui la partie la plus stratégique de l'ensemble.
 
 
 Flet

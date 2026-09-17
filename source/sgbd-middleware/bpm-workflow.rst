@@ -17,7 +17,7 @@ Bonita
 
 Développé depuis le début des années 2000 par Bull, le produit est porté depuis 2009 par l'éditeur français Bonitasoft, membre d'OW2. Attention au changement de nom : la société s'est rebaptisée **Ofelia** en 2026, en réorientant une partie de son activité vers l'orchestration d'agents d'IA ; le site bonitasoft.com renvoie désormais vers ofelia.com. Bonita BPM reste commercialisé et maintenu, avec son édition communautaire.
 
-Bonita propose un modeleur graphique de processus extrêmement convivial et qui permet de déployer en quelques clics des applications BPM simples (par exemple diffuser des formulaires de demande de congés sur un intranet). Les formulaires sont générés automatiquement par la solution, ou peuvent être paramétrés de manière avancée. L'accès aux demandes en attente et leur traitement s'effectuent de manière intuitive grâce à l'interface "user XP", très semblable à un client mail. Mais la véritable force de Bonita, c'est son système de connecteurs, proposés par défaut ou développés sur mesure.
+Bonita propose un modeleur graphique de processus extrêmement convivial et qui permet de déployer en quelques clics des applications BPM simples (par exemple diffuser des formulaires de demande de congés sur un intranet). Les formulaires sont générés automatiquement par la solution, ou peuvent être paramétrés de manière avancée. L'accès aux demandes en attente et leur traitement s'effectuent de manière intuitive grâce à l'interface "user XP", très semblable à un client mail. La force de Bonita est son système de connecteurs, proposés par défaut ou développés sur mesure.
 
 La version SP (Pack de Souscription) est soumise à une souscription qui en plus du support, apporte d’autres fonctionnalités.
 
@@ -33,7 +33,7 @@ jBPM
 
 jBPM a longtemps été la référence du BPM open source en Java et a été intégré par de nombreux éditeurs à leurs solutions. Développé au sein de l'écosystème JBoss puis de Red Hat, le projet a été donné à la fondation Apache : il y est développé depuis 2025, avec Drools, sous le nom d'**Apache KIE**. L'adresse jbpm.org redirige désormais vers ce projet.
 
-jBPM supporte les standards suivants:
+jBPM met en œuvre les standards suivants :
 
 - business processes (BPMN2)
 - case management (BPMN2 and CMMN)
@@ -41,7 +41,7 @@ jBPM supporte les standards suivants:
 - business rules (DRL)
 - business optimisation (Solver)
 
-jBPM est un moteur BPM puissant et léger. Utilisé comme brique logicielle, c'est une solution simple à configurer et dotée d'une API très complète.
+jBPM est un moteur BPM léger. Utilisé comme brique logicielle, c'est une solution simple à configurer et dotée d'une API très complète.
 
 jBPM est développé en Java.
 

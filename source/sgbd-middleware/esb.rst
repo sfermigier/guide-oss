@@ -5,7 +5,7 @@ Les ESB (« Enterprise Service Bus ») permettent la communication entres applic
 
 Les ESB exploitent différentes techniques : transformation, transfert et routage d’informations, exposition de services web.
 
-Il faut noter que la notion d'ESB, telle qu'elle était comprise au début des années 2000 — un bus central, propriétaire du routage et de la transformation — a largement cédé la place à des approches plus légères : bibliothèques d'intégration embarquées dans les applications (Apache Camel), passerelles d'API, ou architectures événementielles bâties sur un bus de messages (voir la section :doc:`/sgbd-middleware/mom-eai`).
+La notion d'ESB a beaucoup changé. Le bus central des années 2000, propriétaire du routage et de la transformation, a cédé la place à des approches plus légères : bibliothèques d'intégration embarquées dans les applications (Apache Camel), passerelles d'API, architectures événementielles bâties sur un bus de messages (voir la section :doc:`/sgbd-middleware/mom-eai`).
 
 Les ESB interviennent en tant que « médiateur » entre les clients et les fournisseurs de services (applications).
 
@@ -19,7 +19,7 @@ Zato
 :Porteur: un éditeur (Zato Source)
 :Licence: LGPL v3
 
-Zato est une plate-forme middleware et un serveur d'applications open source basé sur Python. Il a été conçu comme un ESB (Enterprise Service Bus) agile visant à construire des systèmes de systèmes *on premise* ou dans le Cloud. Zato fournit une SOA (*Service Oriented Architecture*), REST (*Representational State Transfer*), des API et une intégration dans le Cloud, ainsi qu'une exposition des services back-end aux clients frontaux.
+Zato est une plate-forme middleware et un serveur d'applications open source fondé sur Python. Il a été conçu comme un ESB (Enterprise Service Bus) agile visant à construire des systèmes de systèmes *on premise* ou dans le Cloud. Zato fournit une SOA (*Service Oriented Architecture*), REST (*Representational State Transfer*), des API et une intégration dans le Cloud, ainsi qu'une exposition des services back-end aux clients frontaux.
 
 Zato est une plateforme évolutive qui aide à la fois à créer et à orchestrer des services d'intégration, et à améliorer l'intercommunication entre les applications et les sources de données. Elle peut maintenir en ordre toutes les solutions techniques que votre entreprise utilise et ouvrir la voie à de nouvelles opportunités et de nouveaux processus. L'utilisation d'un large éventail de connecteurs, de formats de données et de protocoles permet à Zato d'éviter de restreindre le style architectural ou d'imposer d'autres limites.
 
@@ -43,7 +43,7 @@ NServiceBus
 :Porteur: un éditeur (Particular Software)
 :Licence: Reciprocal Public License 1.5
 
-NServiceBus est un framework de messagerie basé sur .NET. Il permet la création de systèmes distribués qui sont évolutifs, fiables et faciles à modifier. Il prend en charge une variété de modèles de messagerie sur des transports tels que MSMQ, RabbitMQ, Azure, Amazon SQS, et sa conception modulaire lui permet de s'adapter à des choix tels que la mise en file d'attente, le stockage, la sérialisation et les options de journalisation.
+NServiceBus est un framework de messagerie fondé sur .NET. Il permet la création de systèmes distribués évolutifs et fiables. Il prend en charge une variété de modèles de messagerie sur des transports tels que MSMQ, RabbitMQ, Azure, Amazon SQS, et sa conception modulaire lui permet de s'adapter à des choix tels que la mise en file d'attente, le stockage, la sérialisation et les options de journalisation.
 
 
 Apache Camel
@@ -53,9 +53,9 @@ Apache Camel
 :Porteur: une fondation (Apache)
 :Licence: Apache 2.0
 
-Créé en 2007, Apache Camel est devenu la brique d'intégration open source la plus utilisée — au point d'être embarquée par la plupart des ESB du marché, dont ceux présentés ci-dessus.
+Créé en 2007, Apache Camel est devenu la brique d'intégration open source la plus utilisée, au point d'être embarquée par la plupart des ESB du marché, dont ceux présentés ci-dessus.
 
-Camel n'est pas un serveur mais une bibliothèque : elle implémente les *Enterprise Integration Patterns* sous forme de routes déclaratives (en Java, XML, YAML ou Kotlin), et fournit plus de trois cents composants de connexion (fichiers, JMS, Kafka, HTTP, bases de données, SaaS, protocoles industriels). L'intégration devient ainsi un morceau d'application ordinaire, versionné, testable et déployable comme le reste du code — ce qui explique en grande partie qu'on lui préfère aujourd'hui cette approche plutôt qu'un bus centralisé.
+Camel est une bibliothèque : elle implémente les *Enterprise Integration Patterns* sous forme de routes déclaratives (en Java, XML, YAML ou Kotlin), et fournit plus de trois cents composants de connexion (fichiers, JMS, Kafka, HTTP, bases de données, SaaS, protocoles industriels). L'intégration devient ainsi un morceau d'application ordinaire, versionné, testable et déployable comme le reste du code, ce qui explique en grande partie le recul du bus centralisé.
 
 Les déclinaisons Camel K et Camel Quarkus permettent d'exécuter ces routes directement sur Kubernetes, avec un démarrage quasi instantané.
 

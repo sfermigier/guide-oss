@@ -12,11 +12,11 @@ Quantum GIS
 :Porteur: La communauté
 :Licence: GPL v2
 
-Quantum GIS, ou QGIS, est un système d'information géographique bureautique. QGIS permet d'ouvrir les fichiers contenant de l'information géographique (Shapefiles, bases de données PostGIS, KML...), et de les visualiser. Il possède des fonctions d'édition de donnée, ainsi que de croisement et de traitement de l'information. Il supporte les standards en vigueur.
+Quantum GIS, ou QGIS, est un système d'information géographique bureautique. QGIS permet d'ouvrir les fichiers contenant de l'information géographique (Shapefiles, bases de données PostGIS, KML...), et de les visualiser. Il possède des fonctions d'édition de données, ainsi que de croisement et de traitement de l'information. Il prend en charge les standards en vigueur.
 
 QGIS est extensible et possède des centaines de plugins pour des usages divers, de la connexion à des catalogues OpenData, jusqu'à l'édition de jeux de cartes, en passant par des usages métiers spécifiques.
 
-Au delà d'un simple logiciel bureautique, QGIS est aussi une plateforme permettant de développer des solutions basées sur des données cartographiques de façon efficace.
+Au delà d'un simple logiciel bureautique, QGIS est aussi une plateforme permettant de développer des solutions fondées sur des données cartographiques de façon efficace.
 
 
 Revive Adserver (ex-OpenX Source)

@@ -49,7 +49,7 @@ Ibexa DXP (anciennement eZ Publish)
 
 La solution eZ Publish a été créée en 1999 par la société norvégienne eZ Systems. Renommée eZ Platform lors de sa réécriture sur Symfony, elle est devenue Ibexa DXP en 2020, en même temps que l'éditeur prenait le nom d'Ibexa.
 
-Sur les fondamentaux de la gestion de contenus, le produit reste l'un des plus puissants du marché. Il pousse l'approche objet jusqu'au bout, en faisant de chaque contenu un objet auquel s'appliquent toutes les méthodes disponibles : multi-positionnement, gestion des versions, multilinguisme, relations entre contenus, droits d'accès, workflow. Cette conception en fait un CMS hautement paramétrable, désormais positionné comme une plateforme d'expérience numérique (DXP) incluant des briques e-commerce et PIM.
+Sur les fondamentaux de la gestion de contenus, le produit pousse l'approche objet jusqu'au bout, en faisant de chaque contenu un objet auquel s'appliquent toutes les méthodes disponibles : multi-positionnement, gestion des versions, multilinguisme, relations entre contenus, droits d'accès, workflow. Cette conception en fait un CMS hautement paramétrable, désormais positionné comme une plateforme d'expérience numérique (DXP) incluant des briques e-commerce et PIM.
 
 Attention à l'évolution du modèle : la branche historique eZ Publish Legacy n'est plus maintenue, et les fonctionnalités les plus riches sont réservées aux éditions commerciales. Une édition open source (Ibexa OSS, sous GPL v2) reste disponible.
 
@@ -79,7 +79,7 @@ Joomla
 :Porteur: une communauté
 :Licence: GPL
 
-Joomla est un CMS développé à partir de Mambo en 2005. Il a été créé suite à un différend entre les développeurs principaux et la société coordinatrice des développements. Aujourd’hui, la majorité des développeurs de la communauté se consacre à Joomla, ce qui fait nettement pencher la balance en sa faveur.
+Joomla est un CMS développé à partir de Mambo en 2005. Il a été créé suite à un différend entre les développeurs principaux et la société coordinatrice des développements. Aujourd’hui, la majorité des développeurs de la communauté se consacre à Joomla, ce qui fait pencher la balance en sa faveur.
 
 Cet outil se démarque principalement par la convivialité de son interface d’administration. Le mot d’ordre étant de « donner un contrôle total du produit à un non-technicien ». Création de pages, catégorisation, recherche, statistiques d’accès, urls significatives ainsi que de nombreux modules sont directement intégrés et ne demandent pas de connaissances spécifiques pour leur mise en œuvre. Ce CMS conviendra parfaitement pour des sites personnels mais pourra également répondre aux besoins de certains sites professionnels ; ceux notamment de type Corporate (simple publication).
 
@@ -101,7 +101,7 @@ SPIP fait partie des rares CMS à pouvoir prétendre à plusieurs milliers de r�
 
 SPIP est un projet open source français (licence GPL), et sa communauté peut être qualifiée d’active, avec plusieurs versions par an et des centaines – voire des milliers – de membres.
 
-SPIP est un logiciel écrit en PHP qui s'appuie sur les bases de données MySQL, PostgreSQL et SQLite. Il propose un interface privée simplifiée basée sur l’Ajax, une page de téléchargement et d’installation de plugins, la gestion des conflits, une API et de nouvelles fonctions pour le développement de templates.
+SPIP est un logiciel écrit en PHP qui s'appuie sur les bases de données MySQL, PostgreSQL et SQLite. Il propose un interface privée simplifiée fondée sur l’Ajax, une page de téléchargement et d’installation de plugins, la gestion des conflits, une API et de nouvelles fonctions pour le développement de templates.
 
 
 TYPO3

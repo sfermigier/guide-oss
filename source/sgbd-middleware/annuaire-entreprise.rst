@@ -19,7 +19,7 @@ Dans l’univers de l’open source, la solution OpenLDAP dispose de la plus gra
 :Porteur: un éditeur (Red Hat) et une communauté
 :Licence: GPL v3
 
-389 Directory Server, anciennement Fedora Directory Server, est un serveur LDAP développé par Red Hat au sein de la communauté Fedora. Il est basé sur le code du vénérable Netscape Directory Server, lui même basé sur le code de slapd original qui a également donné naissance à OpenLDAP. L'origine remonte donc à 1996, même si la première version de Fedora Directory Server est sortie en 2005.
+389 Directory Server, anciennement Fedora Directory Server, est un serveur LDAP développé par Red Hat au sein de la communauté Fedora. Il est fondé sur le code du vénérable Netscape Directory Server, lui même fondé sur le code de slapd original qui a également donné naissance à OpenLDAP. L'origine remonte donc à 1996, même si la première version de Fedora Directory Server est sortie en 2005.
 
 389 Directory Server implémente le protocole LDAP v3 et se distingue par la réplication multi-maître, qui permet la redondance des accès en lecture comme en écriture. L'ancienne console Java a été remplacée par une console web (Cockpit) et par des outils en ligne de commande. Le serveur constitue par ailleurs le socle de FreeIPA, la solution de gestion d'identité de Red Hat.
 
@@ -37,7 +37,7 @@ OpenLDAP
 
 OpenLDAP est un annuaire d’entreprise libre. Il représente une alternative solide aux annuaires commerciaux. OpenLDAP a été créé en 1998 par Kurt Zeilenga.
 
-OpenLDAP implémente le protocole LDAP dans sa version la plus récente (V3) tout en fournissant une architecture extensible à travers un système d'overlay et backend. Chaque overlay fournit des fonctionnalités supplémentaires (groupe dynamique, log d'accès, politique de mot de passe, etc.). En outre, les données de l'annuaire peuvent être stockées dans différents backends (proxy ldap, transferts des requêtes à des scripts Perl ou Shell, ou une base de données SQL, ...). OpenLDAP intègre également des mécanismes de réplications et de délégation, permettant par exemple l'implémentation d'un annuaire LDAP distribué sur plusieurs sites, chacun disposant de l'administration de sa propre branche.
+OpenLDAP implémente le protocole LDAP dans sa version la plus récente (V3) tout en offrant une architecture extensible par un système d'overlays et de backends. Chaque overlay fournit des fonctionnalités supplémentaires (groupe dynamique, log d'accès, politique de mot de passe, etc.). En outre, les données de l'annuaire peuvent être stockées dans différents backends (proxy ldap, transferts des requêtes à des scripts Perl ou Shell, ou une base de données SQL, ...). OpenLDAP intègre également des mécanismes de réplications et de délégation, permettant par exemple l'implémentation d'un annuaire LDAP distribué sur plusieurs sites, chacun disposant de l'administration de sa propre branche.
 
 
 OpenLDAP est développé en C et fonctionne sous Linux, sous différentes variantes BSD, sur les OS à base UNIX (Android, AIX, HP UX, Solaris, etc...), ainsi que sous Windows et MacOSX.

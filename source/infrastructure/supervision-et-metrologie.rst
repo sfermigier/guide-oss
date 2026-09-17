@@ -21,7 +21,7 @@ La modularité et la forte communauté (> 250 000) qui gravite autour de Nagios 
 
 Les plugins sont écrits dans les langages de programmation les plus adaptés à leur tâche : scripts shell (Bash, ksh, etc.), C, C++, Perl, Python, Ruby, PHP, etc.
 
-Il faut cependant noter que Nagios Core n'est plus la référence incontestée qu'il a été : son modèle de configuration par fichiers et son architecture ont conduit à l'apparition de dérivés plus modernes conservant la compatibilité avec ses plugins — Icinga 2, Naemon, Centreon, Shinken — et le projet concentre désormais l'essentiel de ses efforts sur son offre commerciale Nagios XI. Pour un nouveau déploiement, on comparera sérieusement Zabbix, Icinga, Checkmk et Prometheus.
+Nagios Core n'est cependant plus la référence incontestée qu'il a été. Son modèle de configuration par fichiers et son architecture ont conduit à l'apparition de dérivés plus modernes conservant la compatibilité avec ses plugins : Icinga 2, Naemon, Centreon, Shinken. Le projet concentre désormais l'essentiel de ses efforts sur son offre commerciale Nagios XI. Pour un nouveau déploiement, on comparera sérieusement Zabbix, Icinga, Checkmk et Prometheus.
 
 
 Prometheus
@@ -33,7 +33,7 @@ Prometheus
 
 Créé en 2012 chez SoundCloud et devenu en 2018 le deuxième projet diplômé de la *Cloud Native Computing Foundation* après Kubernetes, Prometheus est le standard de fait de la métrologie des systèmes modernes.
 
-Son modèle est radicalement différent de celui de Nagios : plutôt que d'exécuter des vérifications qui retournent un état, Prometheus collecte périodiquement (*pull*) des métriques numériques exposées par les applications et par des *exporters*, les stocke dans une base de séries temporelles, et laisse à un langage de requête très expressif (PromQL) le soin de calculer les indicateurs et de déclencher les alertes. La découverte automatique des cibles (Kubernetes, Consul, fichiers) évite d'avoir à déclarer chaque machine.
+Son modèle diffère de celui de Nagios. Prometheus collecte périodiquement (*pull*) des métriques numériques exposées par les applications et par des *exporters*, les stocke dans une base de séries temporelles, et laisse à un langage de requête très expressif (PromQL) le soin de calculer les indicateurs et de déclencher les alertes. La découverte automatique des cibles (Kubernetes, Consul, fichiers) évite d'avoir à déclarer chaque machine.
 
 L'alerte est gérée par un composant distinct, Alertmanager, qui assure le regroupement, l'inhibition et le routage vers les canaux de notification. Pour la conservation longue durée et la mise à l'échelle, on lui adjoint Thanos, Cortex/Mimir ou VictoriaMetrics.
 
@@ -51,7 +51,7 @@ Grafana est l'outil de visualisation devenu indissociable de Prometheus, même s
 
 Il fournit des tableaux de bord riches et paramétrables, un moteur d'alerte unifié et une gestion fine des droits. L'écosystème s'est élargi à Loki pour les journaux, Tempo pour les traces distribuées et Pyroscope pour le profilage continu, formant une pile d'observabilité complète.
 
-Attention à la licence : Grafana Labs est passé en 2021 de la licence Apache 2.0 à l'AGPL v3 — qui reste une licence libre, mais impose la publication des modifications pour un service exposé en réseau — et une partie des fonctions destinées aux entreprises n'est disponible que dans les éditions commerciales.
+Attention à la licence : Grafana Labs est passé en 2021 de la licence Apache 2.0 à l'AGPL v3 (qui reste une licence libre, mais impose la publication des modifications pour un service exposé en réseau), et une partie des fonctions destinées aux entreprises n'est disponible que dans les éditions commerciales.
 
 Grafana est écrit en Go et TypeScript.
 
@@ -119,9 +119,9 @@ Cacti
 :Porteur: une communauté
 :Licence: GPL
 
-Cacti est un outil basé sur RRDTool dédié à la métrologie. Il permet de représenter sous forme de graphiques n'importe quelle donnée quantifiable collectée soit par le biais de protocoles réseaux tels que SNMP ou soit par des scripts personnalisés par l'utilisateur.
+Cacti est un outil fondé sur RRDTool dédié à la métrologie. Il permet de représenter sous forme de graphiques n'importe quelle donnée quantifiable collectée soit par le biais de protocoles réseaux tels que SNMP ou soit par des scripts personnalisés par l'utilisateur.
 
-Il est considéré comme étant le digne successeur de MRTG et apporte une véritable interface à RRDTool en permettant de modifier chacun des aspects des graphiques générés. Les possibilités de configuration très avancées font que celui-ci est souvent utilisé en complément de solutions de supervision tel que Nagios, notamment, pour assurer la partie métrologie lorsque les exigences sont fortes.
+Il est considéré comme étant le digne successeur de MRTG et apporte une interface graphique à RRDTool en permettant de modifier chacun des aspects des graphiques générés. Les possibilités de configuration très avancées font que celui-ci est souvent utilisé en complément de solutions de supervision tel que Nagios, notamment, pour assurer la partie métrologie lorsque les exigences sont fortes.
 
 De nombreux plugins développés par la communauté permettent d'étendre les fonctionnalités de Cacti et parfois bien même au delà de la simple métrologie.
 
@@ -153,7 +153,7 @@ Journaux et erreurs applicatives :
 - Grafana Loki, indexation de journaux économe en ressources: https://grafana.com/oss/loki/
 - Graylog Open, gestion centralisée des journaux (licence SSPL, non libre au sens de l'OSI): https://www.graylog.org/
 - OpenSearch et sa pile d'ingestion, alternative sous licence Apache à la suite Elastic (section :doc:`/web-communication/moteurs-de-recherche`): https://opensearch.org/
-- Sentry, suivi des erreurs applicatives, publié sous *Functional Source License*, source-available et non libre: https://sentry.io/ — son fork libre est GlitchTip (https://glitchtip.com/)
+- Sentry, suivi des erreurs applicatives, publié sous *Functional Source License*, source-available et non libre: https://sentry.io/ ; son fork libre est GlitchTip (https://glitchtip.com/)
 
 La solution française Vigilo NMS, éditée par CS Group et présentée dans les éditions précédentes de ce guide, ne fait plus l'objet d'une distribution publique : son site n'est plus en service.
 

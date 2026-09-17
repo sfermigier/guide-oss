@@ -1,14 +1,19 @@
 Applications génériques
 =======================
 
-La dimension « Applications », présente toutes les solutions couramment utilisées par les utilisateurs finaux des entreprises. Ils disposent généralement d’interfaces soignées loin des lignes de commandes fréquemment disponibles parmi les outils de la dimension « Infrastructure ».
+Les applications génériques, dites aussi horizontales, sont celles dont toute organisation a besoin quel que soit son secteur : gérer une relation client, tenir une comptabilité et une chaîne logistique, piloter l'activité par des indicateurs, conserver et retrouver des documents.
 
-Une grande majorité de ces outils est développée par des éditeurs ; contrairement aux outils d’infrastructure, majoritairement communautaires. Ces éditeurs ont choisi le modèle open source pour diffuser leur solution – leur modèle économique est la plupart du temps basé sur le support voire la garantie des produits en question. Ces outils jouent un rôle clé dans l’adoption de l’open source par le plus grand nombre en présentant des applicatifs de qualité au périmètre très large.
+C'est le terrain de la gestion, et l'histoire de l'open source y est particulière. Les briques d'infrastructure libres se sont imposées par leur supériorité technique ; ici, il a fallu convaincre des directions financières et des directions métier, sur un terrain occupé de longue date par des éditeurs solidement installés. Les solutions présentées dans cette partie y sont parvenues : Odoo équipe des dizaines de milliers d'entreprises, Dolibarr est devenu un standard des TPE et PME françaises, Alfresco et Nuxeo se sont imposés dans la GED d'entreprise avant d'être rachetés par le même acteur américain, et Metabase a fait basculer une génération entière d'équipes vers un décisionnel en libre-service.
 
-Aujourd’hui, la quasi-totalité des catégories sont couvertes par des solutions open source. Il faut toutefois être attentif, dans cette dimension plus que dans les autres, au modèle de diffusion retenu par l’éditeur : édition communautaire volontairement limitée, licence « source-available » qui n’est pas libre au sens de l’OSI, ou abandon pur et simple de l’édition open source. Les fiches qui suivent signalent ces situations.
+Trois points de vigilance structurent le choix dans cette catégorie.
 
-Cette dimension recense une centaine de solutions, réparties dans les catégories suivantes :
+**Le modèle de diffusion.** C'est ici que l'« open core » est le plus répandu, et que la frontière entre édition communautaire et édition commerciale se déplace le plus souvent. Plusieurs fiches de cette partie racontent la même histoire : un produit largement adopté pour sa version libre, puis un resserrement : fonctions réservées, limites d'usage, arrêt pur et simple de l'édition communautaire, comme Talend Open Studio en 2024. Il faut donc instruire ce que fait le produit aujourd'hui, et ce que sa licence garantira demain.
 
+**La convergence des périmètres.** Les frontières entre CRM, ERP, GED et décisionnel se sont estompées : un ERP moderne embarque un CRM convenable, un CMS gère un catalogue produits, une GED propose des workflows métier. Il est souvent plus économique d'étendre un outil déjà en place que d'en ajouter un spécialisé, au prix d'une intégration supplémentaire. Les sections « Voir également » de chaque chapitre signalent ces recouvrements.
+
+**Le coût de sortie.** Ces applications accumulent le patrimoine informationnel de l'organisation. La qualité de leurs exports, la documentation de leur modèle de données et l'existence d'une communauté capable de reprendre une instance abandonnée pèsent, à cinq ans, plus lourd que l'écart de couverture fonctionnelle qui départage deux candidats au moment du choix.
+
+Cette partie recense une centaine de solutions, réparties dans les catégories suivantes :
 
 .. toctree::
     :maxdepth: 1

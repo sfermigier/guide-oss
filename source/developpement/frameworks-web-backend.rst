@@ -15,9 +15,9 @@ Django
 :Porteur: une fondation (Django Software Foundation)
 :Licence: BSD
 
-Django un framework Web en Python qui a été créé en 2005 par le groupe de presse Lawrence Journal-World.
+Django est un framework web en Python, créé en 2005 par le groupe de presse Lawrence Journal-World.
 
-Django est basé sur le paradigme MVC (MVT dans sa terminologie) et sur le principe du *Don't Repeat Yourself*, en fournissant le maximum d'éléments prêts à l'emploi : couche d'abstraction de la base de données (ORM) et système de migrations, système de cache, infrastructure de manipulation des formulaires et de validation des entrées, moteur de gabarits, interface d'administration générée automatiquement, intégration au framework de tests unitaires de Python, prévention des attaques web classiques (XSS, CSRF, injection SQL, etc.), et, depuis les versions récentes, prise en charge de l'asynchrone (ASGI). Parmi les sites notables utilisant Django, on peut citer Instagram, Mozilla ou encore la plateforme data.gouv.fr.
+Django est fondé sur le paradigme MVC (MVT dans sa terminologie) et sur le principe du *Don't Repeat Yourself*. Il fournit le maximum d'éléments prêts à l'emploi : couche d'abstraction de la base de données (ORM) et système de migrations, système de cache, manipulation des formulaires et validation des entrées, moteur de gabarits, interface d'administration générée automatiquement, intégration au framework de tests unitaires de Python, prévention des attaques web classiques (XSS, CSRF, injection SQL). Les versions récentes y ajoutent la prise en charge de l'asynchrone (ASGI). Parmi les sites notables utilisant Django, on peut citer Instagram, Mozilla ou encore la plateforme data.gouv.fr.
 
 Django est développé en Python.
 
@@ -83,9 +83,9 @@ Spring
 
 Spring est un portefeuille d'outils et de bibliothèques qui propose une pile complète, alternative à la pile standard Jakarta EE. Le projet, né chez Interface21 puis passé chez SpringSource, VMware et enfin Broadcom (qui a racheté VMware en 2023), est devenu le standard de fait du développement Java d'entreprise.
 
-Spring s'appuie sur son conteneur léger permettant de gérer les dépendances entre les objets composant l'application. Par dessus ce conteneur léger, il est possible d'utiliser un des nombreux composants du portfolio. Les principaux étant Spring MVC, Spring ORM et Spring AOP. Spring MVC est un framework MVC full-REST et basé sur les annotations. Les classes répondant aux actions utilisateur sont annotées afin d'indiquer la méthode à utiliser ainsi que la vue à retourner. Spring ORM est une bibliothèque d'abstraction des accès aux données. Il fournit une abstraction pour les frameworks usuels de persistence tels que Hibernate, JDO ou EclipseLink. Spring AOP est un framework de programmation orientée aspect. Plus simpliste que AspectJ, Spring AOP offre néanmoins les outils usuels de la POA avec différents types de greffons et différentes manières d'exprimer les points de coupe.
+Spring s'appuie sur son conteneur léger permettant de gérer les dépendances entre les objets composant l'application. Par dessus ce conteneur léger, il est possible d'utiliser un des nombreux composants du portfolio. Les principaux étant Spring MVC, Spring ORM et Spring AOP. Spring MVC est un framework MVC full-REST et fondé sur les annotations. Les classes répondant aux actions utilisateur sont annotées afin d'indiquer la méthode à utiliser ainsi que la vue à retourner. Spring ORM est une bibliothèque d'abstraction des accès aux données. Il abstrait les frameworks de persistance usuels, Hibernate, JDO ou EclipseLink. Spring AOP est un framework de programmation orientée aspect. Plus simpliste que AspectJ, Spring AOP offre néanmoins les outils usuels de la POA avec différents types de greffons et différentes manières d'exprimer les points de coupe.
 
-Spring est également utilisé pour charger les différentes configurations de l'application, pour la gestion des transactions ainsi que pour tout un ensemble d'outils utilitaires, ce qui le rend incontournable dans l'écosystème Java.
+Spring est également utilisé pour charger les différentes configurations de l'application, pour la gestion des transactions ainsi que pour tout un ensemble d'outils utilitaires, ce qui en fait une pièce centrale de l'écosystème Java.
 
 C'est aujourd'hui **Spring Boot** qui constitue le point d'entrée du portefeuille : il assemble et configure automatiquement les composants Spring, embarque un serveur d'application (Tomcat, Jetty ou Undertow) et produit un exécutable autonome, ce qui a largement contribué au déclin des serveurs d'applications JEE traditionnels. Spring est distribué sous licence Apache 2.0.
 

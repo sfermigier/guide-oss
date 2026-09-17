@@ -37,7 +37,7 @@ ProFTPD
 :Porteur: une communauté
 :Licence: GPL
 
-ProFTPD est un serveur FTP libre, puissant et bien documenté. Rappelons toutefois que le protocole FTP, même complété par TLS, est aujourd'hui déconseillé pour les échanges nouveaux : on lui préférera SFTP (fourni par OpenSSH), le partage WebDAV ou un stockage objet compatible S3.
+ProFTPD est un serveur FTP libre, richement paramétrable et bien documenté. Rappelons toutefois que le protocole FTP, même complété par TLS, est aujourd'hui déconseillé pour les échanges nouveaux : on lui préférera SFTP (fourni par OpenSSH), le partage WebDAV ou un stockage objet compatible S3.
 
 Il dispose de fonctionnalités avancées comme le chroot, les hôtes et utilisateurs virtuels, la comptabilité et les quotas. ProFTPD dispose d’une syntaxe d’accès et de configuration proche de celle du serveur Web Apache. ProFTPD permet d’utiliser une base de données MySQL pour gérer les comptes FTP en lieu et place des utilisateurs de la machine. Son architecture est modulaire, ce qui a permis d'écrire des extensions pour le support de la cryptographie SSL/TLS (protocole FTPS) et l'extension de l'authentification via des bases RADIUS, LDAP ou SQL.
 

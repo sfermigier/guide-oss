@@ -43,7 +43,7 @@ Caractéristiques et fonctionnalités :
 
 Nginx est également extensible grâce à ses modules dynamiques, permettant aux utilisateurs d'ajouter des fonctionnalités supplémentaires en fonction de leurs besoins spécifiques. En raison de ses performances et de sa flexibilité, Nginx est devenu un choix populaire pour les grandes entreprises et les services de cloud computing, surpassant même Apache dans de nombreux déploiements à grande échelle.
 
-Un point de gouvernance mérite d'être signalé : à la suite d'un désaccord avec F5, propriétaire du projet depuis 2019, l'un des développeurs historiques a lancé en 2024 le fork *freenginx* (https://freenginx.org/). Un autre fork, Angie (https://angie.software/), est maintenu par d'anciens développeurs de Nginx. Ces projets restent pour l'instant marginaux face à Nginx, mais méritent d'être surveillés.
+Reste un point de gouvernance. À la suite d'un désaccord avec F5, propriétaire du projet depuis 2019, l'un des développeurs historiques a lancé en 2024 le fork *freenginx* (https://freenginx.org/). Un autre fork, Angie (https://angie.software/), est maintenu par d'anciens développeurs de Nginx. Ces projets restent pour l'instant marginaux face à Nginx, mais leur trajectoire est à suivre.
 
 
 Lighttpd
@@ -53,19 +53,19 @@ Lighttpd
 :Porteur: un projet open source (initié par Jan Kneschke)
 :Licence: BSD
 
-Lighttpd, souvent prononcé "lighty", est un serveur web open source conçu pour être sécurisé, rapide, conforme aux standards et flexible. Il a été développé par Jan Kneschke en 2003 pour répondre aux besoins des environnements à haute performance avec une faible consommation de mémoire.
+Lighttpd, souvent prononcé "lighty", est un serveur web open source conçu pour être rapide, sobre et conforme aux standards. Il a été développé par Jan Kneschke en 2003 pour répondre aux besoins des environnements à haute performance avec une faible consommation de mémoire.
 
 Caractéristiques et fonctionnalités :
 
 - Conception légère et optimisation pour les environnements à haute performance
-- Utilisation d'une architecture asynchrone basée sur des événements pour gérer efficacement les connexions simultanées
+- Utilisation d'une architecture asynchrone fondée sur des événements pour gérer efficacement les connexions simultanées
 - Support complet de FastCGI, SCGI et CGI pour les applications dynamiques
 - Support de la compression HTTP (mod_compress) et de la mise en cache des réponses
 - Gestion avancée des redirections et réécritures d'URL
 - Support de SSL/TLS pour des connexions sécurisées
 - Modules pour la gestion des sessions, l'authentification, la génération de statistiques, et plus encore
 
-Lighttpd est particulièrement adapté aux environnements où la performance et la faible utilisation des ressources sont cruciales. Grâce à son architecture légère, il peut gérer un grand nombre de connexions simultanées avec une empreinte mémoire minimale, ce qui le rend idéal pour les serveurs web à faible coût ou les systèmes embarqués.
+Lighttpd est particulièrement adapté aux environnements où la performance et la faible empreinte mémoire priment. Grâce à son architecture légère, il peut gérer un grand nombre de connexions simultanées avec une empreinte mémoire minimale, ce qui le rend idéal pour les serveurs web à faible coût ou les systèmes embarqués.
 
 De plus, Lighttpd offre une flexibilité importante via son système de modules, permettant aux administrateurs de configurer et d'étendre ses fonctionnalités en fonction des besoins spécifiques de leurs applications. Ses capacités de gestion de la charge et de performance en font un choix populaire pour les développeurs cherchant à optimiser l'efficacité de leurs serveurs web.
 
@@ -103,12 +103,12 @@ Gunicorn
 :Porteur: un projet open source (initié par Benoit Chesneau)
 :Licence: MIT
 
-Gunicorn, abréviation de "Green Unicorn", est un serveur HTTP pour les applications Python WSGI. Il a été développé par Benoit Chesneau et est conçu pour être simple à utiliser, rapide et compatible avec une large gamme de frameworks Python.
+Gunicorn, abréviation de "Green Unicorn", est un serveur HTTP pour les applications Python WSGI. Il a été développé par Benoit Chesneau et est conçu pour être simple à utiliser et compatible avec la plupart des frameworks Python.
 
 Caractéristiques et fonctionnalités :
 
 - Compatibilité avec les applications WSGI standard, permettant une intégration facile avec les frameworks comme Django, Flask, Pyramid, etc.
-- Modèle de concurrence basé sur des travailleurs multiples (workers) pouvant être configurés pour utiliser des threads, des processus ou des coroutines
+- Modèle de concurrence fondé sur des travailleurs multiples (workers) pouvant être configurés pour utiliser des threads, des processus ou des coroutines
 - Gestion efficace des ressources avec une faible latence et une haute performance
 - Prise en charge des configurations de déploiement flexibles grâce à des options de ligne de commande et des fichiers de configuration
 - Capacité à gérer les connexions multiples avec une architecture robuste et résiliente
@@ -159,7 +159,7 @@ Comparaison
      - Site
      - Porteur
      - Licence
-     - Langages/Protocoles Supportés
+     - Langages et protocoles pris en charge
      - Caractéristiques Distinctives
      - Année de Création
    * - Apache Httpd

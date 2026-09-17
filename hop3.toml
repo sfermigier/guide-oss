@@ -1,9 +1,9 @@
 # Déploiement du guide sur Hop3.
 #
-# Le site est statique : Sphinx le génère dans build/html, Hop3 sert ce
+# Le site est statique : Zensical le génère dans site/, Hop3 sert ce
 # répertoire derrière nginx. Construire avant de déployer :
 #
-#     make html
+#     make build
 #     hop3 deploy --app guide-oss
 
 [metadata]
@@ -15,9 +15,7 @@ license = "GFDL-1.3-only"
 
 [build]
 toolchain = "static"
-static-dir = "build/html"
-# build/doctrees est le cache de Sphinx : inutile sur le serveur.
-ignore = ["build/doctrees"]
+static-dir = "site"
 
 [domains]
 list = [

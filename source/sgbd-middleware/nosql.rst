@@ -1,11 +1,11 @@
 Big Data et NoSQL
 =================
 
-À partir de 2009, un nouveau paradigme de stockage de données — le NoSQL — est apparu. Il proposait une alternative au SQL et au modèle relationnel afin de permettre un haut niveau de scalabilité et d'aider les entreprises de toutes tailles à exploiter le déluge de données (*big data*) qu'elles génèrent ou acquièrent.
+À partir de 2009, un nouveau paradigme de stockage de données, le NoSQL, est apparu. Il proposait une alternative au SQL et au modèle relationnel afin de permettre un haut niveau de scalabilité et de traiter les volumes de données (*big data*) que les entreprises génèrent ou acquièrent.
 
 Quinze ans plus tard, le paysage s'est stabilisé et partiellement rééquilibré. D'un côté, les bases relationnelles ont absorbé une bonne partie des apports du NoSQL (types JSON, réplication, partitionnement, extensions vectorielles), au point que PostgreSQL suffit à couvrir bien des besoins pour lesquels on aurait choisi une base NoSQL en 2012. De l'autre, les usages qui justifient réellement un moteur spécialisé se sont clarifiés : très gros volumes distribués (Cassandra), analytique temps réel (ClickHouse), graphes (Neo4j), cache et files d'attente (Redis, Valkey), recherche (Elasticsearch, OpenSearch, voir la section :doc:`/web-communication/moteurs-de-recherche`), recherche vectorielle pour l'IA (Qdrant, Weaviate).
 
-Dernier point d'attention, devenu central sur cette catégorie : les licences. Plusieurs éditeurs de bases NoSQL ont abandonné les licences libres au profit de licences dites *source-available* (SSPL, BSL), parfois suivies de forks communautaires. Les fiches ci-dessous signalent ces situations.
+Les licences constituent un dernier point d'attention, devenu central sur cette catégorie. Plusieurs éditeurs de bases NoSQL ont abandonné les licences libres au profit de licences dites *source-available* (SSPL, BSL), parfois suivies de forks communautaires. Les fiches ci-dessous signalent ces situations.
 
 
 Apache Hadoop
@@ -19,7 +19,7 @@ Apache Hadoop est une plateforme Java pour développer des applications distribu
 
 Plusieurs autres projets Apache viennent compléter Hadoop, comme ZooKeeper, qui coordonne la configuration des différents serveurs d'un cluster, ou Hive, qui expose les données sous forme de tables interrogeables en SQL.
 
-Il faut toutefois mesurer le recul de cet écosystème : MapReduce a été supplanté par Apache Spark, HDFS par le stockage objet compatible S3 (MinIO, Ceph ou les offres des fournisseurs de cloud), et la consolidation du marché — fusion de Cloudera et Hortonworks, disparition de MapR — a tari une bonne partie de son élan. Les architectures actuelles combinent plutôt un stockage objet, des formats de tables ouverts (Apache Iceberg, Delta Lake) et des moteurs de requête comme Spark, Trino ou DuckDB. Hadoop reste pertinent pour les plateformes déjà en place et pour certains traitements par lots de très grande ampleur.
+Il faut toutefois mesurer le recul de cet écosystème : MapReduce a été supplanté par Apache Spark, HDFS par le stockage objet compatible S3 (MinIO, Ceph ou les offres des fournisseurs de cloud), et la consolidation du marché (fusion de Cloudera et Hortonworks, disparition de MapR) a tari une bonne partie de son élan. Les architectures actuelles combinent plutôt un stockage objet, des formats de tables ouverts (Apache Iceberg, Delta Lake) et des moteurs de requête comme Spark, Trino ou DuckDB. Hadoop reste pertinent pour les plateformes déjà en place et pour certains traitements par lots de très grande ampleur.
 
 Hadoop est écrit en Java.
 
@@ -63,7 +63,7 @@ NEO
 :Porteur: un éditeur (Nexedi)
 :Licence: GPL 2.0
 
-NEO est une base de données objet qui est la fois transactionnelle, répartie et redondante. NEO a fait l'objet d'un projet de recherche conjoint de Nexedi, Pilot Systems, l'Université de Paris 13 et l'Université de Paris 6. La cohérence transactionnelle de NEO sur un cluster de stockage réparti a ainsi pu être démontrée ce qui ouvre la voie à une application des technologes NoSQL aux systèmes de paiements et aux systèmes bancaires.
+NEO est une base de données objet à la fois transactionnelle, répartie et redondante. NEO a fait l'objet d'un projet de recherche conjoint de Nexedi, Pilot Systems, l'Université de Paris 13 et l'Université de Paris 6. La cohérence transactionnelle de NEO sur un cluster de stockage réparti a ainsi pu être démontrée ce qui ouvre la voie à une application des technologes NoSQL aux systèmes de paiements et aux systèmes bancaires.
 
 NEO est écrit en Python et en C.
 
@@ -77,7 +77,7 @@ Redis
 
 Redis est un entrepôt de données clé-valeur en mémoire, issu de la mouvance NoSQL. La première version a été publiée en 2009 par Salvatore Sanfilippo.
 
-Son originalité tient à la richesse de ses structures de données — chaînes, listes, ensembles, ensembles ordonnés, tables de hachage, flux, compteurs probabilistes — qui lui permettent d'aller bien au-delà des opérations CRUD des autres entrepôts clé-valeur. On y accède par un protocole binaire simple (RESP) et non par HTTP. Ses excellentes performances en lecture comme en écriture en font le choix par défaut pour un cache, un magasin de sessions, une file d'attente de travaux ou un système de publication/abonnement.
+Son originalité tient à la richesse de ses structures de données (chaînes, listes, ensembles, ensembles ordonnés, tables de hachage, flux, compteurs probabilistes), qui lui permettent d'aller bien au-delà des opérations CRUD des autres entrepôts clé-valeur. On y accède par un protocole binaire simple (RESP) et non par HTTP. Ses excellentes performances en lecture comme en écriture en font le choix par défaut pour un cache, un magasin de sessions, une file d'attente de travaux ou un système de publication/abonnement.
 
 Attention à l'histoire mouvementée de sa licence : Redis a quitté la licence BSD en mars 2024 pour un double modèle RSALv2 / SSPLv1, non reconnu comme libre. La Linux Foundation a aussitôt lancé **Valkey** (https://valkey.io/), fork de Redis 7.2.4 resté sous licence BSD, soutenu par AWS, Google Cloud, Oracle et Ericsson, et adopté depuis par la plupart des distributions Linux. Redis Ltd a partiellement corrigé le tir en ajoutant l'AGPL v3 comme troisième option à partir de Redis 8 (mai 2025). Les deux projets coexistent désormais, avec une compatibilité qui devrait s'éroder au fil des versions.
 

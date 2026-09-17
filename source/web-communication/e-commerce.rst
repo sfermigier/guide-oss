@@ -15,9 +15,9 @@ Magento
 :Porteur: un éditeur (Adobe)
 :Licence: OSL v3 (Magento Open Source) et propriétaire (Adobe Commerce)
 
-Dès les premières versions bêta parues en 2007, cet outil — porté par l'éditeur américain Varien, devenu Magento Inc. — a fédéré en un temps record une communauté extrêmement active.
+Dès les premières versions bêta parues en 2007, cet outil, porté par l'éditeur américain Varien, devenu Magento Inc., a fédéré en un temps record une communauté extrêmement active.
 
-Magento tire sa force de sa grande modularité et de sa robustesse. Il a clairement été pensé pour porter des sites marchands ambitieux : catégorisation avancée, définition de familles de produits, gestion des produits configurables, fonctions de *cross-selling* et d'*up-selling*, puissant moteur de promotions, gestion multi-boutiques, gestion avancée des devises et des taux de TVA, etc.
+Magento tire sa force de sa grande modularité et de sa robustesse. Il a clairement été pensé pour porter des sites marchands ambitieux : catégorisation avancée, définition de familles de produits, gestion des produits configurables, fonctions de *cross-selling* et d'*up-selling*, moteur de promotions, gestion multi-boutiques, gestion avancée des devises et des taux de TVA, etc.
 
 Magento a été racheté par eBay en 2011, puis par Adobe en 2018. L'édition commerciale s'appelle désormais Adobe Commerce ; l'édition libre, Magento Open Source, reste publiée sous licence OSL v3, mais son rythme d'évolution et l'engagement de l'éditeur envers la communauté font débat. C'est ce qui a conduit à la création en 2022 de **Mage-OS** (https://mage-os.org), une association et une distribution communautaire compatible, soutenue par une partie de l'écosystème des intégrateurs européens.
 

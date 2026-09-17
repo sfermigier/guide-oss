@@ -34,6 +34,6 @@ Si vous souhaitez collaborer à des évolutions futures de cet ouvrage, dans le 
 
 ## Historique
 
-Les produits présentés dans ce guide ont été sélectionnés par un groupe d'experts techniques, fonctionnels et métiers, d'abord au sein de la société Smile, qui a accepté de faire don de son travail pour constituer le présent Guide, puis étendus par un second groupe d'experts, membres du Groupe Thématique Logiciel Libre du Pôle Systematic.
+Les produits présentés dans ce guide ont été sélectionnés par un groupe d'experts techniques, fonctionnels et métiers, au sein de la société Smile, qui a accepté de faire don de son travail pour constituer le présent guide. La sélection a ensuite été étendue par un second groupe d'experts, membres du Groupe Thématique Logiciel Libre du Pôle Systematic.
 
 Suite à la fermeture du GTLL par Systematic en 2019, j'ai repris la maintenance de ce guide en le modernisant.

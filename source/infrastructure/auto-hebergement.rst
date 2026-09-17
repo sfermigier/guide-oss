@@ -168,7 +168,7 @@ Nua utilise des technologies éprouvées telles que le langage Python, les
 standards de l’Open Container Initiative (OCI) et la plateforme Docker.
 Le projet suit les meilleures pratiques du marché PaaS, notamment la
 philosophie des “12 factor apps”, pour faciliter le déploiement des
-applications basées sur les principaux frameworks web comme Django,
+applications fondées sur les principaux frameworks web comme Django,
 Rails, et Laravel.
 
 Nua propose une configuration déclarative et des conventions pour
@@ -190,7 +190,7 @@ Hop3
 :Licence: MIT
 
 Hop3 est un outil pour déployer et gérer des applications web sur un
-seul serveur. Il est conçu pour être simple, sécurisé et facile à
+seul serveur. Il est conçu pour être simple et sûr à
 utiliser. Hop3 vise à améliorer l’informatique en nuage en mettant
 l’accent sur la souveraineté, la sécurité, la durabilité et
 l’inclusivité. Il facilite l’accès aux technologies cloud pour une large
@@ -241,7 +241,7 @@ Dokku
 
 :Licence: MIT
 
-Dokku est une plateforme PaaS open source basée sur Docker, permettant
+Dokku est une plateforme PaaS open source fondée sur Docker, permettant
 de déployer et de gérer des applications de manière simplifiée. Inspiré
 par Heroku, Dokku permet aux utilisateurs de déployer des applications
 en poussant leur code vers un dépôt Git.
@@ -269,7 +269,7 @@ YunoHost
 
 :Licence: GPL-3.0
 
-YunoHost est une distribution basée sur Debian qui vise à simplifier le
+YunoHost est une distribution fondée sur Debian qui vise à simplifier le
 processus d’auto-hébergement. Il fournit une interface web intuitive
 pour installer, configurer et gérer divers services.
 
@@ -283,7 +283,7 @@ automatiques.
 Le développement est entièrement communautaire, permettant une
 contribution active et continue à l’amélioration de la plateforme.
 
-YunoHost est basé sur des standards reconnus et utilise des technologies
+YunoHost est fondé sur des standards reconnus et utilise des technologies
 comme NGINX pour le serveur web, Python pour l’interface et OpenLDAP
 pour la gestion des utilisateurs.
 
@@ -297,8 +297,8 @@ Sandstorm
 :Licence: Apache 2.0
 
 Sandstorm est une plateforme open source qui permet de déployer des
-applications web de manière sécurisée et isolée. À noter que la société
-qui l'a créée a cessé son activité en 2017 : le projet est depuis
+applications web de manière sécurisée et isolée. La société
+qui l'a créée a cessé son activité en 2017 ; le projet est depuis
 maintenu par sa communauté, et son site officiel est sandstorm.org,
 l'ancien domaine sandstorm.io n'étant plus qu'une archive.
 
@@ -307,8 +307,8 @@ offrant une protection accrue contre les vulnérabilités. Sandstorm
 propose une interface utilisateur simplifiée pour installer et gérer des
 applications, avec un App Store riche en applications open source.
 
-Le développement est communautaire et vise à fournir une solution
-sécurisée et facile à utiliser pour l’auto-hébergement.
+Le développement est communautaire et vise un auto-hébergement sûr
+et simple d’usage.
 
 Sandstorm utilise des conteneurs pour l’isolation des applications et
 supporte des technologies comme Node.js et MongoDB pour le backend.
@@ -373,7 +373,7 @@ FreedomBox
 
 :Licence: AGPL-3.0
 
-FreedomBox est une solution basée sur Debian, destinée à rendre
+FreedomBox est une solution fondée sur Debian, destinée à rendre
 l’auto-hébergement accessible à tous, en mettant l’accent sur la vie
 privée et la sécurité.
 
@@ -381,8 +381,8 @@ Elle propose une interface web simple pour l’installation et la gestion
 des applications, avec un accent particulier sur les applications
 orientées vie privée comme Tor, OpenVPN, et Syncthing.
 
-Le développement est conduit par une communauté active, visant à fournir
-une solution de serveur personnel facile à utiliser et sécurisée.
+Le développement est conduit par une communauté active, qui vise un
+serveur personnel simple d’usage et sûr.
 
 FreedomBox supporte divers matériels, y compris des mini-PC et des
 routeurs, et utilise des technologies standard comme Apache et OpenLDAP

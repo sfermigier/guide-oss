@@ -16,7 +16,7 @@ Locust
 :Porteur: une communauté
 :Licence: MIT
 
-Locust est un outil de test de performance facile à utiliser, scriptable et évolutif. Vous définissez le comportement de vos utilisateurs dans un code Python ordinaire, au lieu d'utiliser une interface utilisateur maladroite ou un langage spécifique à un domaine. Cela rend Locust infiniment extensible et très convivial pour les développeurs.
+Locust est un outil de test de performance scriptable et facile à prendre en main. Vous définissez le comportement de vos utilisateurs dans un code Python ordinaire, au lieu d'utiliser une interface utilisateur maladroite ou un langage spécifique à un domaine. Cela rend Locust infiniment extensible et très convivial pour les développeurs.
 
 
 JMeter

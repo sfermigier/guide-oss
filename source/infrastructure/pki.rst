@@ -7,7 +7,7 @@ En sécurisant la gestion des identités, les outils de PKI facilitent le dével
 
 Parmi les solutions open source disponibles, on peut citer OpenSSL, EJBCA, Dogtag ou step-ca.
 
-Le contexte a beaucoup changé depuis les premières éditions de ce guide : la généralisation de Let's Encrypt et du protocole ACME a rendu quasi automatique la gestion des certificats destinés au web public, tandis que les autorités de certification internes se concentrent sur les usages d'entreprise — authentification des utilisateurs et des machines, signature, chiffrement, mTLS entre services. Les fiches ci-dessous distinguent ces deux mondes.
+Le contexte a beaucoup changé depuis les premières éditions de ce guide : la généralisation de Let's Encrypt et du protocole ACME a rendu quasi automatique la gestion des certificats destinés au web public, tandis que les autorités de certification internes se concentrent sur les usages d'entreprise : authentification des utilisateurs et des machines, signature, chiffrement, mTLS entre services. Les fiches ci-dessous distinguent ces deux mondes.
 
 
 OpenCA
@@ -19,11 +19,11 @@ OpenCA
 
 OpenCA PKI est aujourd'hui la composante d'un vaste projet communautaire, visant à définir les standards de développement d'un logiciel de PKI. OpenCA PKI en est la partie dédiée à la gestion des certificats.
 
-D'une conception modulaire, il fournit une interface web pour réaliser aisément la plupart des tâches courantes (révocation et émission de certificats, tests...). Il permet également une restriction des droits. Avec les autres composants du projet PKI tel que le répondeur OCSP, il peut participer à l'établissement d'une solution complète de PKI.
+D'une conception modulaire, il offre une interface web qui couvre la plupart des tâches courantes (révocation et émission de certificats, tests...). Il permet également une restriction des droits. Avec les autres composants du projet PKI tel que le répondeur OCSP, il peut participer à l'établissement d'une solution complète de PKI.
 
 Le développement, entièrement communautaire, a été initié en 2001. Il est aujourd'hui très ralenti : pour une nouvelle mise en œuvre, on lui préférera EJBCA, Dogtag ou step-ca.
 
-La solution est très hétérogène mais utilise des standards actuels reconnus : le serveur web est basé sur Apache 2 et l'interface écrite en Perl. Les mécanismes de cryptographie sont basés sur OpenSSL. Enfin, la gestion des certificats est réalisée par OpenLDAP.
+La solution est très hétérogène mais utilise des standards actuels reconnus : le serveur web est fondé sur Apache 2 et l'interface écrite en Perl. Les mécanismes de cryptographie sont fondés sur OpenSSL. Enfin, la gestion des certificats est réalisée par OpenLDAP.
 
 
 OpenSSL
@@ -35,7 +35,7 @@ OpenSSL
 
 OpenSSL est la librairie open source, quasiment élevée au rang de standard, en ce qui concerne les fonctions cryptographiques. En particulier, elle implémente complètement le standard des PKI, i.e la norme X509.
 
-En plus d'offrir le chiffrement ainsi que le hachage possible avec n'importe quel algorithme connu (MD5, AES, blowfish...) elle permet également, avec le support X509, d'émettre et de révoquer des certificats ainsi que de parfaitement gérer des chaînes de certification. Elle peut écrire et réécrire les certificats dans les formats les plus courants du marché, et nombre d'outils plus avancés en terme d'utilisabilité sont basés sur OpenSSL.
+En plus d'offrir le chiffrement ainsi que le hachage possible avec n'importe quel algorithme connu (MD5, AES, blowfish...) elle permet également, avec le support X509, d'émettre et de révoquer des certificats ainsi que de parfaitement gérer des chaînes de certification. Elle peut écrire et réécrire les certificats dans les formats les plus courants du marché, et nombre d'outils plus avancés en terme d'utilisabilité sont fondés sur OpenSSL.
 
 Le développement d'OpenSSL est ancien et a débuté avant 1998.
 
@@ -51,7 +51,7 @@ step-ca
 
 step-ca est une autorité de certification interne moderne, conçue pour être mise en service en quelques minutes là où les PKI traditionnelles demandent des jours de configuration.
 
-Elle expose une interface ACME — le même protocole que Let's Encrypt —, ce qui permet d'automatiser l'émission et le renouvellement des certificats internes avec les mêmes outils que ceux du web public (Certbot, acme.sh, Caddy, Traefik, cert-manager). Elle prend également en charge les certificats SSH, l'authentification par fournisseur d'identité OIDC, les jetons à usage unique pour l'enrôlement des machines, et les certificats de courte durée, qui rendent la révocation à peu près superflue.
+Elle expose une interface ACME (le même protocole que Let's Encrypt), ce qui permet d'automatiser l'émission et le renouvellement des certificats internes avec les mêmes outils que ceux du web public (Certbot, acme.sh, Caddy, Traefik, cert-manager). Elle prend également en charge les certificats SSH, l'authentification par fournisseur d'identité OIDC, les jetons à usage unique pour l'enrôlement des machines, et les certificats de courte durée, qui rendent la révocation à peu près superflue.
 
 C'est aujourd'hui l'outil le plus adapté aux architectures de services internes en mTLS.
 
@@ -69,7 +69,7 @@ EJBCA
 
 Développée depuis 2001, EJBCA est une solution open source de gestion de PKI parmi les plus complètes qui soient. Elle est portée par la société suédoise PrimeKey, rachetée en 2021 par l'américain Keyfactor ; l'édition EJBCA Community reste publiée sous licence LGPL, les fonctions les plus avancées et le support relevant de l'édition Enterprise.
 
-A l'instar d'autres solutions de PKI, EJBCA permet non seulement de gérer tous les aspects de la certification courante X509 (émission de certificats, révocations avec CRL, chaînes de certifications) mais fait partie des seuls produits, et c'est là son grand avantage, à implémenter une grande partie des standards liés à la spécification X509 (répondeur OCSP, CMS...) et gère correctement les matériels spécifiques tels que les HSM. Il propose également une interface d'administration complète avec restrictions des droits ainsi qu'un portail client.
+À l'instar d'autres solutions de PKI, EJBCA gère tous les aspects de la certification X509 courante : émission de certificats, révocations avec CRL, chaînes de certification. Son avantage est d'aller plus loin que la plupart en implémentant une grande partie des standards liés à la spécification X509 (répondeur OCSP, CMS...) et gère correctement les matériels spécifiques tels que les HSM. Il propose également une interface d'administration complète avec restrictions des droits ainsi qu'un portail client.
 
 Un support commercial est disponible auprès de l'éditeur.
 
@@ -86,7 +86,7 @@ Dogtag PKI est une solution complète et open source de gestion de PKI, dévelop
 
 Dogtag PKI offre un ensemble complet de fonctionnalités pour gérer les certificats numériques, y compris l'émission et la révocation de certificats, la gestion des listes de révocation de certificats (CRL), un répondeur OCSP, et une interface web pour l'administration. Il supporte également l'intégration avec les HSM (Hardware Security Modules) pour améliorer la sécurité des clés privées.
 
-Dogtag PKI est écrit en Java et Python et est conçu pour fonctionner sur des systèmes Linux, notamment les distributions basées sur Red Hat.
+Dogtag PKI est écrit en Java et Python et est conçu pour fonctionner sur des systèmes Linux, notamment les distributions fondées sur Red Hat.
 
 XCA
 ---
@@ -125,7 +125,7 @@ Pour les certificats destinés au web public, la question s'est largement simpli
 
 Certbot, développé par l'EFF, en est le client de référence : il obtient, installe et renouvelle automatiquement les certificats, avec des greffons pour les principaux serveurs web et une validation possible par enregistrement DNS (utile pour les certificats génériques). Les alternatives notables sont acme.sh (https://acme.sh/), écrit en shell et très léger, et l'intégration ACME native de Caddy, de Traefik et de step-ca.
 
-*Note :* deux outils présentés dans les éditions précédentes de ce guide ont disparu — TinyCA, interface Perl/GTK de gestion d'une autorité de certification, dont le site n'est plus en service, et Lemur, la solution de gestion de certificats de Netflix, dont le dépôt est archivé.
+*Note :* deux outils présentés dans les éditions précédentes de ce guide ont disparu : TinyCA, interface Perl/GTK de gestion d'une autorité de certification, dont le site n'est plus en service, et Lemur, la solution de gestion de certificats de Netflix, dont le dépôt est archivé.
 
 
 Comparatif des solutions PKI open source

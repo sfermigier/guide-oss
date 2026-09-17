@@ -73,7 +73,7 @@ AWStats
 :Porteur: une communauté
 :Licence: GPL
 
-AWStats est un outil de suivi d’audience basé sur l’analyse des journaux du serveur web. Écrit par Laurent Destailleur (également à l'origine de Dolibarr) à partir de 2000, il conserve l'avantage propre aux analyseurs de journaux : aucun marqueur dans les pages, donc aucune dépendance au JavaScript, aux cookies ni au consentement, et une mesure insensible aux bloqueurs de publicité.
+AWStats est un outil de suivi d’audience fondé sur l’analyse des journaux du serveur web. Écrit par Laurent Destailleur (également à l'origine de Dolibarr) à partir de 2000, il conserve l'avantage propre aux analyseurs de journaux : aucun marqueur dans les pages, donc aucune dépendance au JavaScript, aux cookies ni au consentement, et une mesure insensible aux bloqueurs de publicité.
 
 AWStats fournit de nombreuses statistiques, graphiques et rapports à partir de l’analyse des logs web (mais également FTP, Streaming et mail). Il supporte nativement la lecture des fichiers de  logs de la pluparts des serveurs web comme Apache, WebStar, IIS, etc. Parmi les fonctionnalités d’AWStats, on peut citer : le nombre de visites, de visiteurs uniques, de pages, de hits, de transfert, par domaine/pays, hôte, heure, navigateur, OS, etc. Un des points forts d’AWStats consiste en la possibilité de générer des tableaux de façon dynamique sans perte de performances notamment grâce à une politique de cache efficace. Il est très populaire au près des administrateurs système et réseau.
 

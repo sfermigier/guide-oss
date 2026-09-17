@@ -21,7 +21,7 @@ Asterisk est un autocommutateur téléphonique privé (PABX) open source pour sy
 
 Asterisk implémente les protocoles SIP, WebRTC et, pour l'interconnexion avec d'autres instances, le protocole spécifique IAX (*Inter-Asterisk eXchange*) ; la prise en charge de H.323 n'est plus qu'historique. Asterisk peut également jouer le rôle de *registrar* et de passerelle avec les réseaux publics. Il est utilisé par certains opérateurs comme cœur de réseau téléphonique, du fait de son interopérabilité et de sa capacité de montée en charge, et sert fréquemment de socle aux centres d'appels, en liaison avec un CRM.
 
-Le projet, créé par la société Digium, appartient depuis le rachat de celle-ci en 2018 au canadien Sangoma, qui édite également l'interface d'administration FreePBX (https://www.freepbx.org/). Les distributions-appliance citées dans les éditions précédentes de ce guide ont disparu : Trixbox n'est plus maintenue, et Elastix a été rachetée par 3CX en 2016 puis abandonnée en tant que produit open source — son fork communautaire, Issabel (https://www.issabel.org/), en poursuit l'esprit.
+Le projet, créé par la société Digium, appartient depuis le rachat de celle-ci en 2018 au canadien Sangoma, qui édite également l'interface d'administration FreePBX (https://www.freepbx.org/). Les distributions-appliance citées dans les éditions précédentes de ce guide ont disparu : Trixbox n'est plus maintenue, et Elastix a été rachetée par 3CX en 2016 puis abandonnée en tant que produit open source ; son fork communautaire, Issabel (https://www.issabel.org/), en poursuit l'esprit.
 
 
 Kamailio
@@ -55,7 +55,7 @@ Kannel
 
 :Site: https://www.kannel.org/
 :Porteur: une communauté
-:Licence: Kannel Software License (basée sur la licence Apache).
+:Licence: Kannel Software License (fondée sur la licence Apache).
 
 
 Kannel a été développé à partir de 1998 par la société WAPit Ltd, qui n'existe plus ; le projet est depuis géré par « The Kannel Group ».

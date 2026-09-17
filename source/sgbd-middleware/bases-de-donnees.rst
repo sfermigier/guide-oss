@@ -1,7 +1,7 @@
 Bases de données relationnelles
 ===============================
 
-Les bases de données sont devenues des éléments incontournables du paysage informatique. Elles permettent de stocker un lot d’informations dans une structure définie par avance. Les technologies actuelles permettent d'organiser et de structurer la base de données de manière à pouvoir facilement manipuler le contenu et stocker efficacement de très grandes quantités d'informations.
+Les bases de données sont devenues des éléments centraux du paysage informatique. Elles permettent de stocker un lot d’informations dans une structure définie par avance. Les technologies actuelles permettent d'organiser et de structurer la base de données de manière à pouvoir facilement manipuler le contenu et stocker efficacement de très grandes quantités d'informations.
 
 Les bases de données traditionnelles, comme MySQL ou PostgreSQL, sont de type relationnel et utilisent le langage SQL pour l’interrogation de leurs données.
 
@@ -49,7 +49,7 @@ MariaDB est un SGBDR rapide et robuste, particulièrement déployé dans les env
 
 MariaDB comporte de nombreuses extensions par rapport à MySQL, notamment dans le domaine de l'indexation plein texte et pour le support des langues asiatiques. MariaDB comporte plusieurs moteurs de stockage à hautes performances qui ne sont pas encore présents dans MySQL.
 
-La gouvernance est partagée entre la MariaDB Foundation, qui garantit l'ouverture du projet, et la société MariaDB plc, qui en assure l'essentiel du développement et commercialise support et services. MariaDB est la base par défaut de plusieurs distributions Linux majeures. À noter que les deux moteurs, MySQL et MariaDB, ont progressivement divergé : la compatibilité n'est plus totale, en particulier sur les fonctions récentes.
+La gouvernance est partagée entre la MariaDB Foundation, qui garantit l'ouverture du projet, et la société MariaDB plc, qui en assure l'essentiel du développement et commercialise support et services. MariaDB est la base par défaut de plusieurs distributions Linux majeures. Les deux moteurs, MySQL et MariaDB, ont par ailleurs progressivement divergé : la compatibilité n'est plus totale, en particulier sur les fonctions récentes.
 
 
 Cubrid
@@ -75,7 +75,7 @@ PostGIS est la cartouche spatiale de PostgreSQL. PostGIS permet de traiter de l'
 
 De nombreuses fonctionnalités sont disponibles, permettant le traitement de géométries vectorielles, d'images raster, de topologie et d'objets 3D. Des modules additionnels offrent d'autres services, tels que pgRouting pour le calcul d'itinéraires.
 
-PostGIS est aujourd'hui le standard pour les bases de données spatiales open source. Elle est supportée par la grande majorité des outils SIG du marché. Elle est utilisée par de nombreux organismes sur des bases transactionnelles comme pour le traitement de données avancé dans des domaines d'applications variés.
+PostGIS est aujourd'hui le standard pour les bases de données spatiales open source. Elle est prise en charge par la grande majorité des outils SIG du marché. Elle est utilisée par de nombreux organismes sur des bases transactionnelles comme pour le traitement de données avancé dans des domaines d'applications variés.
 
 Firebird
 --------
@@ -87,7 +87,7 @@ Firebird
 
 Firebird est une base de données relationnelle offrant de nombreuses fonctionnalités standard ANSI SQL et fonctionnant sur Linux, Windows et une variété de plateformes Unix. Firebird offre une excellente concurrence, de hautes performances et supporte les procédures stockées et les déclencheurs. Il est utilisé en production, sous différents noms, depuis 1981.
 
-Le projet actuel Firebird est un projet commercialement indépendant de développeurs C et C++, de consultants techniques et de supporters qui développent et améliorent un système de gestion de base de données relationnelle multiplateforme basé sur le code source publié par Inprise Corp (maintenant connu sous le nom de Borland Software Corp) le 25 juillet 2000.
+Le projet actuel Firebird est un projet commercialement indépendant de développeurs C et C++, de consultants techniques et de supporters qui développent et améliorent un système de gestion de base de données relationnelle multiplateforme fondé sur le code source publié par Inprise Corp (maintenant connu sous le nom de Borland Software Corp) le 25 juillet 2000.
 
 
 Autres
@@ -99,7 +99,7 @@ Bases SQL embarquées
 ~~~~~~~~~~~~~~~~~~~~
 
 - SQLite, de très loin le moteur de base de données le plus déployé au monde: https://www.sqlite.org
-- DuckDB, l'équivalent de SQLite pour l'analytique, devenu en quelques années un outil incontournable du traitement de données: https://duckdb.org/
+- DuckDB, l'équivalent de SQLite pour l'analytique, devenu en quelques années un outil de référence du traitement de données: https://duckdb.org/
 - Apache Derby: https://db.apache.org/derby
 
 Bases clefs-valeurs embarquées

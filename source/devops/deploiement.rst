@@ -41,7 +41,7 @@ Voici quelques principes clés de la théorie des promesses :
 
 - **Promesses et observation** : La vérification du respect d'une promesse se fait par l'observation. Si un agent promet de faire quelque chose, les autres agents vérifient cette promesse en observant le comportement de l'agent.
 
-La théorie des promesses offre une manière décentralisée et ascendante de comprendre les systèmes, qui contraste avec les approches plus traditionnelles, descendantes et centralisées. Dans ces dernières, un agent (ou un petit nombre d'agents) tente d'imposer un comportement à l'ensemble du système. En revanche, dans la théorie des promesses, le comportement global du système émerge des interactions entre de nombreux agents indépendants, chacun faisant ses propres promesses.
+La théorie des promesses offre une manière décentralisée et ascendante de comprendre les systèmes, qui contraste avec les approches descendantes et centralisées. Dans ces dernières, un agent (ou un petit nombre d'agents) tente d'imposer un comportement à l'ensemble du système. En revanche, dans la théorie des promesses, le comportement global du système émerge des interactions entre de nombreux agents indépendants, chacun faisant ses propres promesses.
 
 
 Ansible
@@ -55,7 +55,7 @@ Ansible est une plate-forme logicielle open source qui offre des outils pour aut
 
 L'une des principales caractéristiques d'Ansible est sa simplicité d'utilisation. Il utilise le protocole SSH pour se connecter aux différents nœuds ou serveurs, ce qui signifie qu'il n'est pas nécessaire d'installer de logiciel supplémentaire sur les serveurs que vous souhaitez gérer. Cela réduit la complexité et les coûts associés à l'administration des systèmes.
 
-Les "playbooks" sont au cœur de la façon dont Ansible fonctionne. Un playbook est un fichier écrit en YAML (un langage de sérialisation de données lisible par l'homme) qui décrit une série d'étapes à suivre pour accomplir une tâche. Les playbooks peuvent être réutilisés et partagés, ce qui permet une automatisation cohérente et reproductible. Par exemple, vous pouvez avoir un playbook pour configurer un serveur web, un autre pour déployer une application spécifique, etc.
+Les « playbooks » sont au cœur d'Ansible. Un playbook est un fichier écrit en YAML (un langage de sérialisation de données lisible par l'homme) qui décrit une série d'étapes à suivre pour accomplir une tâche. Les playbooks peuvent être réutilisés et partagés, ce qui permet une automatisation cohérente et reproductible. Par exemple, vous pouvez avoir un playbook pour configurer un serveur web, un autre pour déployer une application spécifique, etc.
 
 Ansible est écrit en Python, ce qui permet d'étendre ses fonctionnalités en écrivant ses propres modules.
 
@@ -71,13 +71,13 @@ Puppet
 
 Puppet est une plateforme de gestion de configuration qui vous permet d'automatiser l'administration des infrastructures informatiques. Il est particulièrement utile pour gérer des environnements à grande échelle et hétérogènes, où le maintien d'une configuration cohérente à travers de nombreux systèmes peut être un défi.
 
-La particularité de Puppet réside dans son approche de la gestion de configuration basée sur l'état désiré. Au lieu de scripter une séquence précise d'actions à effectuer sur un système, comme on le ferait avec des outils d'administration traditionnels, avec Puppet, vous définissez l'état final que vous souhaitez pour votre système. Cet état pourrait inclure des aspects tels que les permissions de fichiers, les logiciels à installer, les configurations à appliquer, etc. Puppet se charge ensuite de faire le nécessaire pour que le système atteigne cet état, quel que soit son état de départ.
+La particularité de Puppet réside dans son approche de la gestion de configuration fondée sur l'état désiré. Au lieu de scripter une séquence précise d'actions à effectuer sur un système, comme on le ferait avec des outils d'administration traditionnels, avec Puppet, vous définissez l'état final que vous souhaitez pour votre système. Cet état pourrait inclure des aspects tels que les permissions de fichiers, les logiciels à installer, les configurations à appliquer, etc. Puppet se charge ensuite de faire le nécessaire pour que le système atteigne cet état, quel que soit son état de départ.
 
 Cela offre plusieurs avantages. Tout d'abord, cela rend les configurations plus compréhensibles et maintenables, car vous décrivez ce que vous voulez, et non comment l'obtenir. Deuxièmement, cela rend l'automatisation plus robuste, car Puppet peut corriger les déviations de l'état désiré qui pourraient survenir au fil du temps.
 
 Puppet est écrit en Ruby, un langage de programmation couramment utilisé pour les applications web et autres outils d'administration. Cela signifie que vous pouvez étendre Puppet avec vos propres modules et intégrations, si vous le souhaitez.
 
-**Point de vigilance important.** Perforce, qui a racheté Puppet en 2022, a annoncé en 2024 le transfert du développement vers des dépôts internes et l'arrêt de la publication d'une version open source entretenue. La communauté a répondu en créant **OpenVox** (https://openvox.org/), fork maintenu par le collectif Vox Pupuli, dont les versions sont fonctionnellement équivalentes à celles de Puppet et publiées depuis janvier 2025. Les organisations qui déploient Puppet aujourd'hui doivent donc arbitrer entre l'offre commerciale de Perforce et la filière communautaire OpenVox — laquelle constitue, pour un usage libre, le choix le plus sûr.
+**Point de vigilance important.** Perforce, qui a racheté Puppet en 2022, a annoncé en 2024 le transfert du développement vers des dépôts internes et l'arrêt de la publication d'une version open source entretenue. La communauté a répondu en créant **OpenVox** (https://openvox.org/), fork maintenu par le collectif Vox Pupuli, dont les versions sont fonctionnellement équivalentes à celles de Puppet et publiées depuis janvier 2025. Les organisations qui déploient Puppet aujourd'hui doivent donc arbitrer entre l'offre commerciale de Perforce et la filière communautaire OpenVox, laquelle constitue, pour un usage libre, le choix le plus sûr.
 
 
 Rudder
@@ -89,7 +89,7 @@ Rudder
 
 Rudder est un outil d'automatisation et de gestion de configuration de serveurs open source. Conçu pour être facile à utiliser, il offre une interface web qui facilite la gestion de votre infrastructure informatique.
 
-Rudder fonctionne sur la base d'un modèle dirigé par les rôles, ce qui signifie que vous pouvez définir des configurations basées sur le rôle d'un serveur dans votre infrastructure. Par exemple, vous pouvez avoir des rôles pour les serveurs web, les bases de données, les serveurs d'application, etc., et chaque rôle peut avoir une configuration spécifique qui lui est associée.
+Rudder fonctionne sur la base d'un modèle dirigé par les rôles, ce qui signifie que vous pouvez définir des configurations fondées sur le rôle d'un serveur dans votre infrastructure. Par exemple, vous pouvez avoir des rôles pour les serveurs web, les bases de données, les serveurs d'application, etc., et chaque rôle peut avoir une configuration spécifique qui lui est associée.
 
 Rudder nécessite l'installation d'un agent léger sur chaque machine que vous souhaitez gérer. Cet agent communique avec le serveur Rudder pour recevoir les configurations à appliquer. L'utilisation d'agents locaux permet à Rudder de gérer efficacement la configuration même lorsque la connectivité réseau est interrompue ou limitée.
 
@@ -105,11 +105,11 @@ Chef
 :Porteur: un éditeur (Progress Software)
 :Licence: Apache 2.0 pour le code source, licence commerciale pour les binaires distribués par l'éditeur
 
-Chef est un outil d'automatisation et de gestion de configuration puissant qui permet aux développeurs et aux administrateurs système de gérer et de contrôler leurs infrastructures informatiques.
+Chef est un outil d'automatisation et de gestion de configuration qui permet aux développeurs et aux administrateurs système de gérer et de contrôler leurs infrastructures informatiques.
 
-Chef adopte une approche basée sur le code pour la gestion de configuration, ce qui signifie que les configurations des serveurs et des systèmes sont définies en code (appelé recettes dans Chef). Ces recettes sont écrites en Ruby, un langage de programmation orienté objet qui est à la fois puissant et facile à lire. Ces recettes décrivent les ressources nécessaires et l'état désiré pour chaque ressource.
+Chef adopte une approche fondée sur le code pour la gestion de configuration, ce qui signifie que les configurations des serveurs et des systèmes sont définies en code (appelé recettes dans Chef). Ces recettes sont écrites en Ruby, un langage orienté objet à la syntaxe concise et lisible. Ces recettes décrivent les ressources nécessaires et l'état désiré pour chaque ressource.
 
-L'une des principales caractéristiques de Chef est son modèle basé sur le client-serveur. Le serveur Chef (ou Chef Server) est le point central de communication et de stockage des configurations. Les clients Chef, qui sont installés sur chaque nœud que vous souhaitez gérer, communiquent avec le serveur pour obtenir leurs configurations. Ensuite, ils appliquent ces configurations localement, permettant ainsi de garantir que les systèmes sont dans l'état désiré.
+L'une des principales caractéristiques de Chef est son modèle fondé sur le client-serveur. Le serveur Chef (ou Chef Server) est le point central de communication et de stockage des configurations. Les clients Chef, qui sont installés sur chaque nœud que vous souhaitez gérer, communiquent avec le serveur pour obtenir leurs configurations. Ensuite, ils appliquent ces configurations localement, permettant ainsi de garantir que les systèmes sont dans l'état désiré.
 
 Chef permet également l'intégration avec les principales plateformes cloud, comme AWS, Google Cloud Platform et Microsoft Azure, rendant la gestion des ressources dans ces environnements aussi simple que la gestion des ressources sur site.
 
@@ -126,9 +126,9 @@ Salt
 
 Salt, aussi appelé SaltStack, est un outil d'automatisation et de gestion de configuration qui vise à rendre la gestion des infrastructures informatiques aussi efficace et automatisée que possible.
 
-Salt adopte une approche basée sur le modèle "maître-minion" (ou "maître-agent"). Le maître Salt, c'est-à-dire le serveur central, envoie des commandes aux minions, les noeuds gérés. Ces minions peuvent être des serveurs, des conteneurs ou tout autre type de dispositif dans une infrastructure informatique. L'agent Salt (le minion) est installé sur chaque nœud et communique avec le serveur maître pour recevoir ses instructions.
+Salt adopte une approche fondée sur le modèle "maître-minion" (ou "maître-agent"). Le maître Salt, c'est-à-dire le serveur central, envoie des commandes aux minions, les noeuds gérés. Ces minions peuvent être des serveurs, des conteneurs ou tout autre type de dispositif dans une infrastructure informatique. L'agent Salt (le minion) est installé sur chaque nœud et communique avec le serveur maître pour recevoir ses instructions.
 
-Une des particularités de Salt est sa rapidité et son efficacité, grâce à son architecture basée sur le modèle de communication asynchrone ZeroMQ. Cela permet à Salt d'envoyer des commandes à des milliers de systèmes en un rien de temps.
+Une des particularités de Salt est sa rapidité et son efficacité, grâce à son architecture fondée sur le modèle de communication asynchrone ZeroMQ. Cela permet à Salt d'envoyer des commandes à des milliers de systèmes en un rien de temps.
 
 Salt utilise le langage de données YAML pour la création de ses configurations, appelées "states". Les states décrivent l'état désiré pour un système et peuvent spécifier des choses comme les packages à installer, les services à exécuter, les fichiers à écrire, etc.
 
@@ -184,7 +184,7 @@ Partimage fonctionne en lisant une partition de disque bloc par bloc et en écri
 
 L'un des avantages de Partimage est qu'il ne copie que les blocs de données utilisés sur la partition, ce qui signifie que les fichiers supprimés ou l'espace non utilisé sur la partition ne sont pas inclus dans l'image. Cela rend les images de sauvegarde plus petites et plus rapides à créer et à restaurer que si vous copiez simplement tous les blocs de la partition.
 
-Partimage supporte une variété de systèmes de fichiers, y compris ceux couramment utilisés dans les environnements Linux (comme ext2, ext3, ext4, ReiserFS, XFS) et Windows (FAT16, FAT32, NTFS). Cependant, il est à noter que le support de certains systèmes de fichiers peut être limité, et pour les systèmes de fichiers non pris en charge, Partimage peut seulement effectuer une copie de l'ensemble du disque.
+Partimage supporte une variété de systèmes de fichiers, y compris ceux couramment utilisés dans les environnements Linux (comme ext2, ext3, ext4, ReiserFS, XFS) et Windows (FAT16, FAT32, NTFS). La prise en charge de certains systèmes de fichiers reste toutefois limitée ; pour ceux qu'il ne connaît pas, Partimage se contente de copier l'ensemble du disque.
 
 Partimage est généralement utilisé via une interface en ligne de commande, bien qu'il existe une interface graphique disponible appelée Partimage Is Not Ghost (PING), qui offre une interface utilisateur plus conviviale.
 
@@ -195,20 +195,20 @@ Autres outils
 Gestion de configuration :
 
 - **CFEngine** : C'est l'un des premiers outils de gestion de configuration. Il est connu pour sa vitesse et sa capacité à gérer des milliers de nœuds.
-- **OpenTofu** : issu du fork de Terraform, cet outil relève non de la gestion de configuration mais du *provisioning* d'infrastructure (IaC) : il crée et détruit les ressources (machines, réseaux, services managés) que les outils ci-dessus configureront ensuite. HashiCorp ayant placé Terraform sous licence BSL en août 2023, la communauté a créé OpenTofu, aujourd'hui hébergé par la Linux Foundation et compatible avec les configurations Terraform existantes (https://opentofu.org/). Le même changement de licence a donné naissance à OpenBao, fork de Vault (https://openbao.org/).
+- **OpenTofu** : issu du fork de Terraform, cet outil relève du *provisioning* d'infrastructure (IaC) : il crée et détruit les ressources (machines, réseaux, services managés) que les outils ci-dessus configureront ensuite. HashiCorp ayant placé Terraform sous licence BSL en août 2023, la communauté a créé OpenTofu, aujourd'hui hébergé par la Linux Foundation et compatible avec les configurations Terraform existantes (https://opentofu.org/). Le même changement de licence a donné naissance à OpenBao, fork de Vault (https://openbao.org/).
 - **Terraform** : l'outil d'IaC de référence, désormais sous licence BSL 1.1 (source-available) et propriété d'IBM depuis le rachat de HashiCorp.
 - **Juju** : C'est un outil développé par Canonical (la société derrière Ubuntu) qui se concentre sur le déploiement et la gestion des services au-dessus du niveau du système d'exploitation.
 - **pyinfra** : Il s'agit d'un outil de déploiement de serveurs et d'outil de gestion de configuration écrit en Python. Il fonctionne en générant et en exécutant des commandes SSH sur les serveurs cibles. pyinfra est conçu pour être rapide, avec un temps de déploiement minimal, et pour fonctionner avec toute configuration de serveur, que vous ayez un seul serveur ou des milliers. Il offre également une API Python, ce qui signifie que vous pouvez intégrer pyinfra dans d'autres scripts ou outils Python.
-- **BundleWrap** : Est également un outil de gestion de configuration basé sur Python. Comme pyinfra, il utilise SSH pour communiquer avec les serveurs cibles. BundleWrap se distingue par son approche de la gestion de configuration : chaque nœud a un bundle qui décrit l'état désiré pour ce nœud, et BundleWrap travaille pour amener le nœud à cet état. Il est conçu pour être simple à comprendre et à utiliser, avec un système de fichiers en texte brut et un ensemble minimal de concepts à apprendre.
+- **BundleWrap** : Est également un outil de gestion de configuration fondé sur Python. Comme pyinfra, il utilise SSH pour communiquer avec les serveurs cibles. BundleWrap se distingue par son approche de la gestion de configuration : chaque nœud a un bundle qui décrit l'état désiré pour ce nœud, et BundleWrap travaille pour amener le nœud à cet état. Il est conçu pour être simple à comprendre et à utiliser, avec un système de fichiers en texte brut et un ensemble minimal de concepts à apprendre.
 
 Clonage de disques :
 
 - **dd** : C'est un outil de ligne de commande Unix qui peut être utilisé pour copier et convertir des données à un niveau très bas. Il est souvent utilisé pour cloner des disques entiers.
-- **rsync** : C'est un outil de synchronisation de fichiers extrêmement puissant et flexible. Bien qu'il ne clone pas les disques à proprement parler, il est souvent utilisé pour la sauvegarde de données.
+- **rsync** : C'est un outil de synchronisation de fichiers qui ne transfère que les différences entre la source et la destination. Bien qu'il ne clone pas les disques à proprement parler, il est souvent utilisé pour la sauvegarde de données.
 
 Inventaire et suivi des actifs :
 
-- **GLPI** : C'est un système d'information de gestion des ressources informatiques (ITSM) qui gère non seulement l'inventaire des actifs informatiques, mais aussi de nombreuses autres fonctions de gestion informatique.
+- **GLPI** : C'est un système de gestion des ressources informatiques (ITSM) qui couvre l'inventaire des actifs et de nombreuses autres fonctions de gestion informatique.
 - **GLPI Agent** : l'agent d'inventaire multiplateforme de GLPI. Il succède à FusionInventory, dont l'agent n'est plus maintenu : les déploiements existants doivent prévoir la migration.
 - **RackTables** et **NetBox** : solutions de gestion de centre de données et de réseau, qui aident à gérer le matériel, les emplacements, les adresses IP, les câbles et autres actifs.
 - **Snipe-IT** : gestion des actifs informatiques orientée suivi du matériel et des licences.
@@ -216,6 +216,6 @@ Inventaire et suivi des actifs :
 Déploiement applicatif et conteneurs :
 
 - **Docker**, **Podman** et **Kubernetes** constituent aujourd'hui le socle dominant du déploiement applicatif ; ils sont présentés dans la section :doc:`/infrastructure/virtualisation`.
-- **Argo CD** (https://argo-cd.readthedocs.io/) et **Flux** (https://fluxcd.io/) mettent en œuvre l'approche GitOps, où l'état souhaité du système est décrit dans un dépôt Git et appliqué en continu par un agent — transposition directe, à l'échelle des conteneurs, de la logique d'état désiré décrite plus haut.
+- **Argo CD** (https://argo-cd.readthedocs.io/) et **Flux** (https://fluxcd.io/) mettent en œuvre l'approche GitOps, où l'état souhaité du système est décrit dans un dépôt Git et appliqué en continu par un agent : transposition directe, à l'échelle des conteneurs, de la logique d'état désiré décrite plus haut.
 - **Helm** (https://helm.sh/) pour l'empaquetage des applications Kubernetes.
 

@@ -42,4 +42,4 @@ Synchronisation et stockage :
 - Rclone, pour la copie vers et depuis les stockages objet et services cloud: https://rclone.org/
 - Velero, pour la sauvegarde des ressources et volumes Kubernetes: https://velero.io/
 
-Il est utile de rappeler qu'une sauvegarde n'a de valeur que si la restauration est testée régulièrement, et que la règle dite « 3-2-1 » (trois copies, deux supports, une hors site) reste le meilleur garde-fou contre les rançongiciels, à condition d'y ajouter une copie immuable ou hors ligne.
+Une sauvegarde n'a de valeur que si la restauration est testée régulièrement, et la règle dite « 3-2-1 » (trois copies, deux supports, une hors site) reste le meilleur garde-fou contre les rançongiciels, à condition d'y ajouter une copie immuable ou hors ligne.

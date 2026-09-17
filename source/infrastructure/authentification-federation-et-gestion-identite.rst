@@ -5,7 +5,7 @@ Dans cette catégorie, nous vous présentons différentes solutions d’authenti
 
 Il s’agit donc d’outils relativement proches, mais aux finalités parfois différentes : fournisseurs d'identité et serveurs de SSO, produits de fédération entre organisations, gestion des identités et des habilitations, authentification forte.
 
-Le domaine a été profondément remodelé par la généralisation des protocoles OAuth 2.0 et OpenID Connect, qui ont largement supplanté les protocoles propriétaires et, pour beaucoup d'usages, SAML — ce dernier restant incontournable dans l'enseignement supérieur et l'interconnexion entre organisations. Keycloak, absent des éditions précédentes de ce guide, s'est imposé comme la solution de référence de la catégorie.
+Le domaine a été profondément remodelé par la généralisation des protocoles OAuth 2.0 et OpenID Connect, qui ont largement supplanté les protocoles propriétaires et, pour beaucoup d'usages, SAML. Ce dernier reste la norme dans l'enseignement supérieur et dans l'interconnexion entre organisations. Keycloak, absent des éditions précédentes de ce guide, s'est imposé comme la solution de référence de la catégorie.
 
 Sont présentés ci-dessous Keycloak, CAS, FusionDirectory, LemonLDAP::NG, LinOTP et Shibboleth.
 
@@ -100,7 +100,7 @@ LinOTP
 
 LinOTP est une solution d'OTP open source maintenue par la société allemande LSE Leading Security Experts GmbH.
 
-C'est une solution robuste et professionnelle intégrable dans une infrastructure hétérogène. LinOTP s'interface avec tout type de tokens supportant le protocole HMAC-OTP mais également des solutions hybrides telles que les périphériques MOTP. OTP signifie « One-Time Password » : en effet, les OTP sont des mots de passe générés à un instant donné, valides pendant une courte durée et utilisables une seule fois. La génération s'effectue grâce à des matériels adaptés, comme les tokens ou même des smartphones.
+C'est une solution robuste et professionnelle intégrable dans une infrastructure hétérogène. LinOTP s'interface avec tout type de jetons prenant en charge le protocole HMAC-OTP mais également des solutions hybrides telles que les périphériques MOTP. OTP signifie « One-Time Password » : en effet, les OTP sont des mots de passe générés à un instant donné, valides pendant une courte durée et utilisables une seule fois. La génération s'effectue grâce à des matériels adaptés, comme les tokens ou même des smartphones.
 
 D'un point de vue technique, LinOTP est un serveur écrit en langage Python, avec lequel on communique par de simples requêtes HTTP. Il est donc possible de l'administrer via d'autres outils que ceux fournis dans la distribution. On peut imaginer développer une interface web spécifique que l'on inclurait dans une section privilégiée d'un Intranet par exemple.
 
@@ -114,15 +114,15 @@ Shibboleth
 
 Shibboleth a été développé par le consortium Internet2 regroupant universités et centres de recherche (plus de 200) afin de simplifier et sécuriser l'accès à différentes ressources internes et externes. La version 1.0 de Shibboleth a été publiée en 2003.
 
-Shibboleth permet la mise en place d'un système d'authentification centralisé entre plusieurs services ainsi que la propagation d'identités entre ces services. L'objectif de la propagation d'identités est double : déléguer l'authentification à l'établissement d'origine de l'utilisateur et obtenir certains attributs de l'utilisateur (pour gérer le contrôle d'accès ou personnaliser les contenus). A l'instar du module pour Apache HTTP Server, plusieurs extensions ont été développées permettant d'interfacer divers systèmes avec Shibboleth.
+Shibboleth permet de mettre en place une authentification centralisée entre plusieurs services ainsi que la propagation d'identités entre ces services. L'objectif de la propagation d'identités est double : déléguer l'authentification à l'établissement d'origine de l'utilisateur et obtenir certains attributs de l'utilisateur (pour gérer le contrôle d'accès ou personnaliser les contenus). A l'instar du module pour Apache HTTP Server, plusieurs extensions ont été développées permettant d'interfacer divers systèmes avec Shibboleth.
 
-Shibboleth est écrit en Java et C++. C'est l'implémentation de référence des fédérations d'identité de l'enseignement supérieur et de la recherche — en France, la fédération Éducation-Recherche animée par RENATER — et il reste, à ce titre, incontournable dans ce secteur.
+Shibboleth est écrit en Java et C++. C'est l'implémentation de référence des fédérations d'identité de l'enseignement supérieur et de la recherche (en France, la fédération Éducation-Recherche animée par RENATER), et il y reste, à ce titre, difficilement remplaçable.
 
 
 Autres
 ------
 
-La catégorie s'est enrichie de plusieurs projets qui méritent d'être évalués :
+La catégorie s'est enrichie de plusieurs projets à évaluer :
 
 - Authentik, fournisseur d'identité moderne et complet, en Python: https://goauthentik.io/
 - Authelia, portail d'authentification léger, conçu pour être placé derrière un proxy inverse: https://www.authelia.com/

@@ -10,8 +10,7 @@ Septembre 2026
   MongoDB, ArangoDB, Zabbix, Grafana…), projets abandonnés remplacés par
   leurs successeurs (Talend Open Studio, Camunda 7, Xamarin, Puppet,
   Zarafa, Claroline, OpenX, FreeNX, Linux-HA…).
-- Ajout des solutions devenues incontournables et absentes des éditions
-  précédentes : Apache Kafka, Apache Spark, Apache Camel, Elasticsearch
+- Ajout de solutions majeures qui manquaient aux éditions précédentes : Apache Kafka, Apache Spark, Apache Camel, Elasticsearch
   et OpenSearch, Keycloak, Prometheus et Grafana, Docker et Kubernetes,
   Proxmox VE, WireGuard, OPNsense, WooCommerce, Metabase et Apache
   Superset, Discourse, HumHub, k6 et Gatling, ERPNext et Tryton, entre

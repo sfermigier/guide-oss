@@ -1,7 +1,7 @@
 Réseaux sociaux d’entreprise (RSE)
 ==================================
 
-Le succès des réseaux sociaux publics — Facebook, LinkedIn, X (ex-Twitter), Instagram, et plus récemment les réseaux décentralisés du *fediverse* comme Mastodon — n’est plus à démontrer. Ils mettent en lumière l’intérêt qu’ont les individus à se rapprocher, à se connaître, à échanger et à travailler ensemble.
+Le succès des réseaux sociaux publics (Facebook, LinkedIn, X, Instagram, et plus récemment les réseaux décentralisés du *fediverse* comme Mastodon) n’est plus à démontrer. Ils mettent en lumière l’intérêt qu’ont les individus à se rapprocher, à se connaître, à échanger et à travailler ensemble.
 
 Les RSE (« Réseaux sociaux d’Enteprise ») sont nés du constat que l’entreprise pouvait également utiliser ce support pour générer de la valeur.
 

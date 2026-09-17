@@ -1,38 +1,32 @@
-# Minimal makefile for Sphinx documentation
+# Guide des solutions libres et open source.
 #
+# Les sources sont en reStructuredText dans source/. rst_to_md.py les convertit
+# en Markdown dans src/, et Zensical construit le site statique dans site/.
 
-# You can set these variables from the command line, and also
-# from the environment for the first two.
-SPHINXOPTS    ?=
-SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = source
-BUILDDIR      = build
+.PHONY: all build serve convert nav clean deploy
 
-.PHONY: help Makefile all build deploy
+all: build
 
+# source/**/*.rst -> src/**/*.md
+convert:
+	uv run rst_to_md.py
 
-HOST:=trunks3.abilian.com
+# Site statique complet dans site/
+build: convert
+	uvx zensical build
 
+# Aperçu local sur http://localhost:8000
+serve: convert
+	uvx zensical serve
 
-all: build deploy
+# Régénère le sommaire (`nav`) à recopier dans zensical.toml, à faire après
+# tout ajout, retrait ou déplacement de page dans les toctrees.
+nav:
+	uv run rst_to_md.py --nav
 
+clean:
+	rm -rf site
 
-help:
-	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-
-build:
-	./transform.py
-	make html
-
-
-deploy:
-	rsync --delete-after -e ssh -avz build/html/ root@$(HOST):/home/web/guide-oss/
-	ssh root@$(HOST) "chown -R www-data:www-data /home/web/guide-oss"
-
-
-# Catch-all target: route all unknown targets to Sphinx using the new
-# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
-%: Makefile
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-
-
+# Production : Hop3 sert site/ sur guide-solutions-opensource.com.
+deploy: build
+	hop3 deploy --app guide-oss

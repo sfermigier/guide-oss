@@ -19,7 +19,7 @@ Créée en 2002 par l'australien Martin Dougiamas (venu de la solution propriét
 
 Elle permet de créer et mettre à disposition des apprenants, des cours et divers outils pédagogiques, d'évaluer leurs connaissances et de favoriser les communautés d'apprentissage autour d'outils collaboratifs. Son approche modulaire répond aux besoins d'un formateur isolé comme d'une grande institution. Parmi ses principales fonctionnalités, on peut citer : gestion des professeurs, élèves et cours, création de 9 types de ressources pédagogiques, compatibilité SCORM, questionnaires, outils collaboratifs (wiki, forums et blog), planning, supervision des apprenants.
 
-Moodle est supporté par des communautés de pratiques actives qui participent à son développement. Des sociétés de services autorisées proposent diverses prestations (hébergement, création de modules, etc.).
+Moodle est soutenu par des communautés de pratiques actives qui participent à son développement. Des sociétés de services autorisées proposent diverses prestations (hébergement, création de modules, etc.).
 
 Moodle est une application LAMP (Linux, Apache, MySQL et PHP). Elle fonctionne aussi bien sur Unix, Linux, FreeBSD, Windows, Mac OS X, NetWare, ..., et avec les bases de données PostgreSQL, Oracle et Microsoft SQL Server.
 

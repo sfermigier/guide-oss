@@ -3,11 +3,11 @@ ERP / PGI
 
 Le monde du progiciel de gestion intégré (PGI, ou ERP en anglais), est à son tour gagné par des solutions open source arrivées à maturité.
 
-Dans un premier temps, les ERP open source permettent à des petites PME de disposer d'outils de gestion complets au meilleur coût, leur apportant rapidement un vrai bénéfice en termes de compétitivité. Mais déjà, ils remontent l'échelle, et s'adressent à des PME de plus de 1000 salariés, que ce soit dans les secteurs industriels, distribution ou services.
+Dans un premier temps, les ERP open source permettent à des petites PME de disposer d'outils de gestion complets au meilleur coût, leur procurant rapidement un gain de compétitivité. Mais déjà, ils remontent l'échelle, et s'adressent à des PME de plus de 1000 salariés, que ce soit dans les secteurs industriels, distribution ou services.
 
 Le domaine étant extrêmement vaste, des différences de couverture fonctionnelle peuvent destiner un produit de préférence à tel ou tel secteur d'activité. Mais l'un des critères de choix les plus importants est la flexibilité, l'extensibilité, et donc les bases technologiques qui permettront à un produit donné d'être adapté à une diversité de contextes, avec très peu de développements spécifiques.
 
-Des produits comme Odoo, Dolibarr, ERPNext ou ERP5 tiennent la corde des ERP open source. La convergence ERP/CRM/CMS/e-business, poussée par l'intégration du e-commerce au cœur de métier de l'entreprise, conduit également des logiciels de e-commerce à proposer des fonctions de plus en plus proches de celles d'un ERP.
+Des produits comme Odoo, Dolibarr, ERPNext ou ERP5 tiennent la corde des ERP open source. La convergence ERP/CRM/CMS/e-business, poussée par l'intégration du e-commerce au cœur du métier de l'entreprise, conduit également des logiciels de e-commerce à proposer des fonctions de plus en plus proches de celles d'un ERP.
 
 
 
@@ -52,7 +52,7 @@ OFBiz
 
 Le projet Open For Business (« Ofbiz ») est né en 2001, et a terminé sa première phase de développement vers 2003 sous l’impulsion de ses 2 créateurs : David Jones et Andrew Zenesky.
 
-Depuis le projet s’est enrichi de nombreux modules fonctionnels. En 2006, il a même été soumis comme projet « incubator » à la fondation Apache. Il en est très rapidement sorti comme projet approuvé de très bon niveau. A la différence de Compiere ou d’Odoo, OFBiz n’a pas la vocation à être un ERP clé en main. Il s’agit d’un framework ERP pour développer des logiciels d’entreprise. D’ailleurs l’outil s’est fortement spécialisé dans les interfaces d’e-commerce ces dernières années.
+Depuis le projet s’est enrichi de nombreux modules fonctionnels. En 2006, il a même été soumis comme projet « incubator » à la fondation Apache. Il en est très rapidement sorti comme projet approuvé de très bon niveau. A la différence de Compiere ou d’Odoo, OFBiz n’a pas vocation à être un ERP prêt à l’emploi. Il s’agit d’un framework ERP pour développer des logiciels d’entreprise. D’ailleurs l’outil s’est fortement spécialisé dans les interfaces d’e-commerce ces dernières années.
 
 OFBiz est écrit en Java.
 
@@ -110,7 +110,7 @@ Tryton
 :Porteur: une fondation (Tryton Foundation)
 :Licence: GPL v3
 
-Tryton est né en 2008 d'un fork de TinyERP (l'ancêtre d'Odoo), avec le parti pris d'un noyau minimal, modulaire et strictement communautaire, sans édition commerciale parallèle.
+Tryton est né en 2008 d'un fork de TinyERP (l'ancêtre d'Odoo), avec le parti pris d'un noyau minimal et strictement communautaire, sans édition commerciale parallèle.
 
 Le projet privilégie la rigueur du modèle de données et la stabilité des interfaces de programmation, avec deux versions par an et un chemin de migration documenté. La couverture fonctionnelle (comptabilité, ventes, achats, stock, production, projets) s'étend par modules, y compris pour des secteurs spécifiques (santé avec GNU Health, par exemple).
 

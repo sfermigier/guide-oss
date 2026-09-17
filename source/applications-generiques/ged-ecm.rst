@@ -19,7 +19,7 @@ Alfresco est une solution d'ECM créée en 2005 par l'éditeur anglais Alfresco 
 
 Alfresco propose l'ensemble des fonctionnalités attendues du domaine de la gestion documentaire : métadonnées, types de documents, workflow documentaire et avancé, gestion de catégories, outils de collaboration, recherche (Solr), gestion de plusieurs dépôts indépendants, *records management*, prise en charge du standard CMIS, etc.
 
-Le produit est disponible en deux éditions : Alfresco Community Edition, sous licence LGPL v3, et Alfresco Content Services, l'édition commerciale, qui donne accès à la garantie de l'éditeur, aux modules complémentaires, au clustering et aux mises à jour intermédiaires. Hyland a annoncé en 2025 son intention de publier en open source le socle de nouvelle génération issu de la convergence entre Alfresco et Nuxeo.
+Le produit est disponible en deux éditions : Alfresco Community Edition, sous licence LGPL v3, et Alfresco Content Services, l'édition commerciale, qui donne accès à la garantie de l'éditeur, aux modules complémentaires, au clustering et aux mises à jour intermédiaires. Hyland a annoncé en 2025 son intention de publier en open source le socle issu de la convergence entre Alfresco et Nuxeo.
 
 Alfresco est écrit en Java (Jakarta EE).
 
@@ -49,7 +49,7 @@ Nuxeo
 :Porteur: un éditeur (Hyland)
 :Licence: LGPL et propriétaire
 
-Nuxeo est une société française qui produit une solution de GED open source depuis 2001. La Nuxeo Platform est le résultat de la migration en Java de la version initiale basée sur Zope et Python. L'entreprise a été rachetée en 2021 par l'américain Hyland, propriétaire d'Alfresco depuis 2020.
+Nuxeo est une société française qui produit une solution de GED open source depuis 2001. La Nuxeo Platform est le résultat de la migration en Java de la version initiale fondée sur Zope et Python. L'entreprise a été rachetée en 2021 par l'américain Hyland, propriétaire d'Alfresco depuis 2020.
 
 Il s'agit d'une solution complète de gestion de contenu d’entreprise : métadonnées, types de documents, workflow avancé, gestion de catégories, fonctions de collaboration, recherche, gestion de contenu complexe (web, multi-fichiers, structurés), gestion multi bases. L’outil se distingue par différents éléments : éditeur de thèmes, notion de « relations » qui permet de réaliser des liens typés entre contenus, gestion des vocabulaires, notion de section de publication, une architecture totalement modulaire, etc.
 
@@ -69,3 +69,5 @@ Dans l’univers de la gestion documentaire, l’offre open source est particuli
 - LogicalDOC Community: https://www.logicaldoc.com/
 - OpenKM Community: https://www.openkm.com/
 - Nextcloud, pour les usages de partage et de collaboration documentaire: https://nextcloud.com/
+- Collabora Online, l'édition collaborative en ligne fondée sur la technologie de LibreOffice, qui s'intègre à Nextcloud et à la plupart des GED: https://www.collaboraonline.com/
+- CryptPad, suite collaborative en ligne chiffrée de bout en bout, développée par la société française XWiki SAS: https://cryptpad.org/

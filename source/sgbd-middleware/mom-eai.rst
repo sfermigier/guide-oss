@@ -38,7 +38,7 @@ JORAM
 
 JORAM (« Java Open Reliable Asynchronous Messaging ») est le Middleware de consortium Object Web, sortie en 1999. Object Web est aussi connu pour son serveur d'application Java nommé Jonas auquel est d'ailleurs intégré JORAM.
 
-JORAM a une architecture interne élégante, basée sur le modèle d'agent. Un agent est un composant logiciel répondant à certains événements. Dans le cas de JORAM, les événements sont sous forme de messages. Les queues et les topics sont ainsi représentés par des agents. Un utilisateur connecté à la plateforme est également représenté par un agent dit proxy. Cette approche offre une grande flexibilité car elle permet la création et la suppression d'agents à la volée et sur n'importe quel broker.
+JORAM a une architecture interne élégante, fondée sur le modèle d'agent. Un agent est un composant logiciel répondant à certains événements. Dans le cas de JORAM, les événements sont sous forme de messages. Les queues et les topics sont ainsi représentés par des agents. Un utilisateur connecté à la plateforme est également représenté par un agent dit proxy. Cette approche offre une grande flexibilité car elle permet la création et la suppression d'agents à la volée et sur n'importe quel broker.
 
 Les langages par lesquels on peut accéder à JORAM sont Java (via l'interface JMS), C et C++ (à l'aide de JNI, ce qui permet de simuler un environnement JMS). Le projet, très lié à l'écosystème OW2 et au serveur JOnAS, n'évolue plus guère ; il reste employé dans des systèmes embarqués et des déploiements industriels existants.
 
@@ -64,9 +64,9 @@ Apache Kafka
 :Porteur: une fondation (Apache)
 :Licence: Apache 2.0
 
-Créé chez LinkedIn en 2011 et confié à la fondation Apache, Kafka est devenu le standard de fait des architectures orientées événements — l'absence de cette fiche dans les éditions précédentes de ce guide était sa lacune la plus criante.
+Créé chez LinkedIn en 2011 et confié à la fondation Apache, Kafka est devenu le standard de fait des architectures orientées événements. Son absence des éditions précédentes de ce guide était la lacune la plus criante.
 
-Kafka n'est pas un courtier de messages au sens classique : c'est un journal distribué, répliqué et persistant. Les messages ne sont pas consommés puis détruits, mais conservés pendant une durée configurable et relus à volonté par des consommateurs indépendants, chacun à son rythme. Cette conception autorise des débits de plusieurs millions de messages par seconde et fait de Kafka aussi bien un bus d'intégration temps réel (avec Kafka Connect pour les connecteurs et Kafka Streams pour le traitement en flux) qu'une source de vérité pour des architectures *event sourcing*.
+Kafka n'est pas un courtier de messages au sens classique : c'est un journal distribué, répliqué et persistant. Les messages y sont conservés pendant une durée configurable et relus à volonté par des consommateurs indépendants, chacun à son rythme. Cette conception autorise des débits de plusieurs millions de messages par seconde et fait de Kafka aussi bien un bus d'intégration temps réel (avec Kafka Connect pour les connecteurs et Kafka Streams pour le traitement en flux) qu'une source de vérité pour des architectures *event sourcing*.
 
 Les versions récentes ont supprimé la dépendance à ZooKeeper (mode KRaft), ce qui simplifie considérablement l'exploitation.
 

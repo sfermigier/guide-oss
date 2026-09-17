@@ -9,4 +9,4 @@ Ce document est placé sous des licences qui vous autorisent à en réutiliser l
 
 - Le reste du document est copyright 2012-2026 Stefane Fermigier et est placé sous licence Creative Commons Attribution - Pas de Modification 3.0 non transposé (CC BY-ND 3.0), disponible à l'adresse suivante: https://creativecommons.org/licenses/by-nd/3.0/fr/legalcode
 
-  En d'autres termes, vous pouvez rediffuser les textes correspondants à condition de ne pas les modifier et d'attribuer l'œuvre de la manière indiquée par l'auteur de l'œuvre ou le titulaire des droits (mais pas d'une manière qui suggérerait qu'ils vous approuvent, vous ou votre utilisation de l'œuvre).
+  En d'autres termes, vous pouvez rediffuser ces textes sans les modifier, en attribuant l'œuvre de la manière indiquée par son auteur ou par le titulaire des droits. Cette attribution ne doit pas laisser entendre qu'ils approuvent votre utilisation de l'œuvre.

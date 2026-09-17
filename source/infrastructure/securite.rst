@@ -41,7 +41,7 @@ ClamAV
 
 ClamAV est un antivirus créé en 2002, passé chez Sourcefire en 2007 puis chez Cisco, qui a racheté cette dernière en 2013.
 
-Contrairement à ses équivalents du monde Windows, il n'est pas utilisé pour protéger la machine sur laquelle il est installé, mais pour scanner les fichiers qui s'y trouvent. On l'utilise ainsi sur les serveurs web, sur les serveurs de fichiers ou encore sur les serveurs mail. ClamAV détecte un grand nombre de menaces couvrant tous les systèmes d'exploitation. L'accès aux mises à jour des signatures est gratuit, alimentées par une communauté investie.
+Son usage n'est pas celui d'un antivirus résident : il analyse les fichiers présents sur la machine qui l'héberge. On l'utilise ainsi sur les serveurs web, sur les serveurs de fichiers ou encore sur les serveurs mail. ClamAV détecte un grand nombre de menaces couvrant tous les systèmes d'exploitation. L'accès aux mises à jour des signatures est gratuit, alimentées par une communauté investie.
 
 Le moteur antivirus est la bibliothèque libclamav écrite en C.
 
@@ -93,7 +93,7 @@ OSSEC
 :Porteur: une communauté
 :Licence: GPL 2.0
 
-OSSEC est un système de détection d'intrusion basé sur l'hôte (HIDS, *Host Intrusion Detection System*), créé en 2004 par Daniel B. Cid. Il surveille en temps réel les journaux système, les modifications de fichiers et la base de registre Windows, et détecte les rootkits. Il permet une analyse approfondie de la sécurité du système grâce à des règles configurables, et dispose d'une fonction d'alerte par courriel.
+OSSEC est un système de détection d'intrusion fondé sur l'hôte (HIDS, *Host Intrusion Detection System*), créé en 2004 par Daniel B. Cid. Il surveille en temps réel les journaux système, les modifications de fichiers et la base de registre Windows, et détecte les rootkits. Il permet une analyse approfondie de la sécurité du système grâce à des règles configurables, et dispose d'une fonction d'alerte par courriel.
 
 À noter : **Wazuh** (https://wazuh.com/), fork d'OSSEC créé en 2015, a largement dépassé le projet d'origine. Il en conserve l'agent et les règles, mais y ajoute une interface web complète, la gestion des vulnérabilités, le suivi de conformité (PCI-DSS, RGPD, NIS 2), l'inventaire et l'intégration à OpenSearch, ce qui en fait une plateforme XDR/SIEM complète sous licence AGPL v3. C'est aujourd'hui la solution à évaluer en priorité dans cette catégorie.
 
@@ -104,7 +104,7 @@ Suricata
 :Porteur: une fondation (OISF - Open Information Security Foundation)
 :Licence: GPL 2.0
 
-Suricata est un moteur de détection et de prévention des intrusions réseau (NIDS/NIPS) open source. Développé par la fondation OISF, il est conçu pour être une alternative et un complément à SNORT. Suricata offre des capacités avancées d'analyse de trafic, incluant la détection de menaces, l'inspection approfondie de paquets (DPI), et la prise en charge des formats de fichiers multiples pour l'analyse des fichiers capturés. Sa compatibilité avec les règles SNORT et son support pour les systèmes multi-thread en font un outil puissant pour les administrateurs réseau et les analystes de sécurité.
+Suricata est un moteur de détection et de prévention des intrusions réseau (NIDS/NIPS) open source. Développé par la fondation OISF, il est conçu pour être une alternative et un complément à SNORT. Suricata offre des capacités avancées d'analyse de trafic, incluant la détection de menaces, l'inspection approfondie de paquets (DPI), et la prise en charge des formats de fichiers multiples pour l'analyse des fichiers capturés. Sa compatibilité avec les règles SNORT et sa prise en charge des systèmes multi-cœurs en font un outil adapté aux administrateurs réseau comme aux analystes de sécurité.
 
 Metasploit Framework
 --------------------
@@ -122,7 +122,7 @@ Zeek
 :Porteur: une fondation (Zeek)
 :Licence: BSD
 
-Zeek (anciennement connu sous le nom de Bro) est un framework de surveillance du réseau et de détection des intrusions réseau (NIDS) open source. Créé en 1995 par Vern Paxson, Zeek est conçu pour capturer et analyser le trafic réseau en profondeur. Il permet d'extraire des métadonnées détaillées et de détecter des activités anormales grâce à un langage de script puissant. Zeek est largement utilisé dans les environnements de recherche et de production pour son efficacité à fournir des informations contextuelles et des capacités de détection avancées.
+Zeek (anciennement connu sous le nom de Bro) est un framework de surveillance du réseau et de détection des intrusions réseau (NIDS) open source. Créé en 1995 par Vern Paxson, Zeek est conçu pour capturer et analyser le trafic réseau en profondeur. Il permet d'extraire des métadonnées détaillées et de détecter des activités anormales grâce à son langage de script dédié. Zeek est largement utilisé dans les environnements de recherche et de production pour son efficacité à fournir des informations contextuelles et des capacités de détection avancées.
 
 Nmap
 ----
@@ -140,7 +140,7 @@ OpenSCAP
 :Porteur: une communauté
 :Licence: GPL 2.0
 
-OpenSCAP est une suite d'outils open source pour l'audit de sécurité des systèmes d'information. Basé sur les standards de sécurité développés par NIST, OpenSCAP permet l'évaluation de la conformité, la détection des vulnérabilités et la remédiation des configurations non conformes. Il est largement utilisé dans les environnements conformes aux réglementations comme PCI-DSS et HIPAA. OpenSCAP comprend un scanner de conformité, un éditeur de profils et divers outils d'analyse, permettant aux administrateurs de maintenir et de renforcer la sécurité de leurs systèmes.
+OpenSCAP est une suite d'outils open source pour l'audit de sécurité des systèmes d'information. Fondé sur les standards de sécurité développés par NIST, OpenSCAP permet l'évaluation de la conformité, la détection des vulnérabilités et la remédiation des configurations non conformes. Il est largement utilisé dans les environnements conformes aux réglementations comme PCI-DSS et HIPAA. OpenSCAP comprend un scanner de conformité, un éditeur de profils et divers outils d'analyse, permettant aux administrateurs de maintenir et de renforcer la sécurité de leurs systèmes.
 
 
 Autres

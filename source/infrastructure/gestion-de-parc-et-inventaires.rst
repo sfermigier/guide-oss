@@ -25,7 +25,7 @@ Il permet :
 
 - une grande extensibilité grâce à ses plugins : intégration à des logiciels de supervision, gestion de projets, nouveaux éléments d'inventaire, etc.
 
-GLPI est basé sur les technologies PHP et MariaDB/MySQL. Le projet est aujourd'hui édité par la société française Teclib', qui en assure le développement et propose une offre hébergée ainsi que des extensions commerciales.
+GLPI est fondé sur les technologies PHP et MariaDB/MySQL. Le projet est aujourd'hui édité par la société française Teclib', qui en assure le développement et propose une offre hébergée ainsi que des extensions commerciales.
 
 
 OCS Inventory NG

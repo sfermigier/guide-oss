@@ -3,7 +3,7 @@ Virtualisation
 
 La virtualisation de serveurs est un ensemble de techniques et d’outils permettant de faire tourner plusieurs systèmes d’exploitation sur un même serveur physique.
 
-Depuis les premières éditions de ce guide, la **conteneurisation** a pris une place au moins aussi importante que la virtualisation : plutôt que d'émuler une machine complète, elle isole des processus qui partagent le noyau de l'hôte, pour un coût très inférieur. Les deux approches sont aujourd'hui complémentaires — machines virtuelles pour l'isolation forte et les systèmes hétérogènes, conteneurs pour le déploiement applicatif — et cette section présente les deux.
+Depuis les premières éditions de ce guide, la **conteneurisation** a pris une place au moins aussi importante que la virtualisation : plutôt que d'émuler une machine complète, elle isole des processus qui partagent le noyau de l'hôte, pour un coût très inférieur. Les deux approches sont aujourd'hui complémentaires : machines virtuelles pour l'isolation forte et les systèmes hétérogènes, conteneurs pour le déploiement applicatif. Cette section présente les deux.
 
 Le principe de la virtualisation est donc un principe de partage : les différents systèmes d’exploitation se partagent les ressources du serveur.
 
@@ -17,7 +17,7 @@ KVM
 :Porteur: une communauté
 :Licence: GPL v2
 
-KVM (*Kernel-based Virtual Machine*) est la solution de virtualisation intégrée au noyau Linux depuis 2007. Ce n'est pas un fork de QEMU mais un module du noyau, qui expose les instructions de virtualisation matérielle des processeurs (Intel VT-x, AMD-V) ; QEMU s'appuie sur lui pour l'émulation des périphériques, les deux projets étant ainsi complémentaires plutôt que concurrents.
+KVM (*Kernel-based Virtual Machine*) est la solution de virtualisation intégrée au noyau Linux depuis 2007. C'est un module du noyau, qui expose les instructions de virtualisation matérielle des processeurs (Intel VT-x, AMD-V) ; QEMU s'appuie sur lui pour l'émulation des périphériques. Les deux projets sont complémentaires.
 
 KVM est capable d'exécuter des systèmes invités sous tous les systèmes d'exploitation courants en simulant un matériel standardisé, et prend en charge des fonctions avancées telles que la migration à chaud et l'inspection de l'état des machines virtuelles. C'est aujourd'hui l'hyperviseur libre de référence : il constitue le socle d'OpenStack, de Proxmox VE et de l'essentiel des offres IaaS du marché, y compris chez les grands fournisseurs de cloud. On l'administre le plus souvent via la bibliothèque libvirt (https://libvirt.org/) et ses outils (virsh, virt-manager).
 
@@ -71,7 +71,7 @@ Oracle VirtualBox
 
 VirtualBox est une solution de virtualisation, créée en 2007 et destinée aux postes de travail.
 
-VirtualBox prend en charge un grand nombre de systèmes d'exploitation invités et dispose de fonctionnalités d'interaction avec ces systèmes : partage de fichiers, intégration du pointeur de souris, fusion du bureau avec le bureau hôte. Attention au modèle de licence : le cœur est sous GPL, mais l'*Extension Pack* (USB 2.0/3.0, RDP, démarrage PXE) est soumis à une licence propriétaire dont l'usage professionnel est payant — un point régulièrement source de non-conformité en entreprise.
+VirtualBox prend en charge un grand nombre de systèmes d'exploitation invités et dispose de fonctionnalités d'interaction avec ces systèmes : partage de fichiers, intégration du pointeur de souris, fusion du bureau avec le bureau hôte. Attention au modèle de licence : le cœur est sous GPL, mais l'*Extension Pack* (USB 2.0/3.0, RDP, démarrage PXE) est soumis à une licence propriétaire dont l'usage professionnel est payant, point régulièrement source de non-conformité en entreprise.
 
 
 Conteneurs
@@ -97,7 +97,7 @@ Proxmox VE
 
 Proxmox Virtual Environment est une plateforme de virtualisation complète, fondée sur Debian, qui combine KVM pour les machines virtuelles et LXC pour les conteneurs système, avec une interface web unifiée.
 
-Elle intègre nativement la gestion de cluster, la haute disponibilité, la migration à chaud, le stockage distribué avec Ceph et la sauvegarde (via Proxmox Backup Server). Entièrement sous licence libre — seul l'accès au dépôt de paquets « entreprise » et le support sont payants —, elle est devenue l'alternative de référence à VMware vSphere pour les PME, les collectivités et les hébergeurs, d'autant que les changements tarifaires opérés par Broadcom après le rachat de VMware ont accéléré les migrations.
+Elle intègre nativement la gestion de cluster, la haute disponibilité, la migration à chaud, le stockage distribué avec Ceph et la sauvegarde (via Proxmox Backup Server). Entièrement sous licence libre (seuls l'accès au dépôt de paquets « entreprise » et le support sont payants), elle est devenue l'alternative de référence à VMware vSphere pour les PME, les collectivités et les hébergeurs, d'autant que les changements tarifaires opérés par Broadcom après le rachat de VMware ont accéléré les migrations.
 
 
 Incus et LXC
@@ -107,7 +107,7 @@ Incus et LXC
 :Porteur: une communauté (Linux Containers)
 :Licence: Apache 2.0
 
-LXC fournit depuis 2008 les conteneurs « système » du noyau Linux — des machines complètes plutôt que des processus isolés. LXD, l'outil de gestion développé par Canonical au-dessus de LXC, a fait l'objet en 2023 d'un fork communautaire, **Incus**, à la suite de sa reprise en main par Canonical ; Incus est aujourd'hui la version recommandée par le projet Linux Containers et empaquetée par Debian.
+LXC fournit depuis 2008 les conteneurs « système » du noyau Linux : des machines complètes, là où Docker isole des processus. LXD, l'outil de gestion développé par Canonical au-dessus de LXC, a fait l'objet en 2023 d'un fork communautaire, **Incus**, à la suite de sa reprise en main par Canonical ; Incus est aujourd'hui la version recommandée par le projet Linux Containers et empaquetée par Debian.
 
 Incus gère indifféremment des conteneurs système et des machines virtuelles, avec la gestion de cluster, les instantanés et la migration à chaud. C'est une solution intermédiaire intéressante entre la virtualisation complète et les conteneurs applicatifs.
 

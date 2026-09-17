@@ -19,7 +19,7 @@ Ce SIGB (système intégré de gestion de bibliothèque) a été créé en 1999 
 
 Parmi les principales fonctionnalités de Koha, on peut citer : import de notices et catalogage UNIMARC, gestion des lecteurs, prêts/retours avec amendes, périodiques et commandes, OPAC, Client et Serveur Z3950, serveur OAI-PMH. A l'exception de la récupération d'une vignette, Koha ne propose pas de fonctions de GED. Il est conseillé de remplacer l'OPAC de consultation par un CMS (un connecteur Drupal existe par exemple) pour disposer d'une ergonomie plus agréable.
 
-Koha est maintenu par une communauté internationale, avec deux versions majeures par an. Attention au site officiel : le domaine koha.org ne renvoie pas vers le projet communautaire mais vers une société commerciale éditrice d'un fork ; le site du projet est koha-community.org. Plusieurs sociétés françaises (BibLibre, Tamil…) fournissent de l'hébergement, du support et des développements spécifiques.
+Koha est maintenu par une communauté internationale, avec deux versions majeures par an. Attention au site officiel : le domaine koha.org appartient à une société commerciale éditrice d'un fork ; celui du projet communautaire est koha-community.org. Plusieurs sociétés françaises (BibLibre, Tamil…) fournissent de l'hébergement, du support et des développements spécifiques.
 
 Koha est développé en Perl et tourne principalement sous Debian, mais peut également s'installer sous d'autres systèmes UNIX. Le moteur de base de données est MariaDB (ou MySQL) ; l'indexation et la recherche s'appuient sur Zebra ou, plus récemment, sur Elasticsearch/OpenSearch.
 

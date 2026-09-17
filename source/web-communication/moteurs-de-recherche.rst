@@ -9,7 +9,7 @@ Les moteurs de recherche sont généralement composés de deux services : l’in
 
 Les moteurs de recherche se différencient généralement par leurs capacités d’indexation (format, rapidité, algorithme de pertinence) et leurs fonctions de traitements linguistiques (pluriels, conjugaisons, phonétique, etc.).
 
-Dans l’univers de l’open source, tout ou presque repose sur la bibliothèque Apache Lucene, soit directement, soit à travers les serveurs qui l’encapsulent : Apache Solr, Elasticsearch et OpenSearch. Depuis quelques années, une nouvelle génération de moteurs légers et orientés « recherche instantanée » (Meilisearch, Typesense) et de bases vectorielles destinées à la recherche sémantique et aux applications d’IA générative (Qdrant, Weaviate, Vespa) complète ce paysage.
+Dans l’univers de l’open source, tout ou presque repose sur la bibliothèque Apache Lucene, soit directement, soit à travers les serveurs qui l’encapsulent : Apache Solr, Elasticsearch et OpenSearch. Depuis quelques années, des moteurs légers et orientés « recherche instantanée » (Meilisearch, Typesense) et des bases vectorielles destinées à la recherche sémantique et aux applications d’IA générative (Qdrant, Weaviate, Vespa) complètent ce paysage.
 
 Apache Lucene
 -------------
@@ -18,9 +18,9 @@ Apache Lucene
 :Porteur: une fondation (Apache)
 :Licence: Apache 2.0
 
-Porté par la fondation Apache, Lucene est le socle d'indexation et de recherche sur lequel sont bâtis Solr, Elasticsearch et OpenSearch — et donc, indirectement, l'essentiel des moteurs de recherche d'entreprise du marché, y compris celui de Wikipédia. Créé par Doug Cutting en 2000, il reste l'outil de recherche le plus utilisé et le plus actif de l'open source.
+Porté par la fondation Apache, Lucene est le socle d'indexation et de recherche sur lequel sont bâtis Solr, Elasticsearch et OpenSearch, et donc, indirectement, l'essentiel des moteurs de recherche d'entreprise du marché, y compris celui de Wikipédia. Créé par Doug Cutting en 2000, il reste l'outil de recherche le plus utilisé et le plus actif de l'open source.
 
-Lucene se définit avant tout comme une bibliothèque de recherche et d'indexation de contenus. Comme la plupart des moteurs de recherche, Lucene se base sur le concept de l’indexation automatique, c'est-à-dire en traitant une seule fois les données d’entrée et en leur donnant de multiples liens. Coté fonctionnel, Lucene support la recherche de formes approximatives d'un même mot (féminin, pluriel, conjugaison), la gestion des synonymes, la pertinence paramétrable, etc. Le tout avec un niveau de performances exceptionnels.
+Lucene se définit avant tout comme une bibliothèque de recherche et d'indexation de contenus. Comme la plupart des moteurs de recherche, Lucene repose sur le concept de l’indexation automatique, c'est-à-dire en traitant une seule fois les données d’entrée et en leur donnant de multiples liens. Coté fonctionnel, Lucene support la recherche de formes approximatives d'un même mot (féminin, pluriel, conjugaison), la gestion des synonymes, la pertinence paramétrable, etc. Le tout avec un niveau de performances exceptionnels.
 
 Lucene est écrit en Java. Il peut être intégré au sein d’applications écrites dans différents langages : Java, Python, Ruby, Perl, PHP, C++, etc.
 
@@ -36,7 +36,7 @@ Solr est une surcouche de Lucene qui ajoute des fonctionnalités et facilite le 
 
 Le mode SolrCloud assure la distribution et la réplication des index sur un cluster. Solr reste très présent comme moteur d'indexation de solutions de GED et de CMS (Alfresco, Nuxeo, Ibexa, Drupal).
 
-Solr est un serveur de recherche d'entreprise permettant de centraliser les opérations d'indexation et de services de résultats. Solr est capable de communiquer avec les autres applications via de nombreux protocoles basés sur des standards ouverts, il dispose également d’une interface d’administration en mode Web. L’une des caractéristiques majeures de Lucene est la capacité à indexer les contenus par champ, ou par attribut, c’est à dire qu’un document n’est pas analysé comme un simple ensemble de mots, il est constitué de champs, chaque champ étant une suite de mots (terms). Solr permet de tirer pleinement parti de cette fonctionnalité. Ce fonctionnement permet une gestion beaucoup plus fine de la pertinence, et de la recherche avancée.
+Solr est un serveur de recherche d'entreprise, qui centralise l'indexation et la restitution des résultats. Solr est capable de communiquer avec les autres applications via de nombreux protocoles fondés sur des standards ouverts, il dispose également d’une interface d’administration en mode Web. L’une des caractéristiques majeures de Lucene est la capacité à indexer les contenus par champ, ou par attribut, c’est à dire qu’un document n’est pas analysé comme un simple ensemble de mots, il est constitué de champs, chaque champ étant une suite de mots (terms). Solr permet de tirer pleinement parti de cette fonctionnalité. Ce fonctionnement permet une gestion beaucoup plus fine de la pertinence, et de la recherche avancée.
 
 
 Elasticsearch
@@ -48,9 +48,9 @@ Elasticsearch
 
 Créé en 2010 par Shay Banon sur la base de Lucene, Elasticsearch s'est imposé comme le moteur de recherche et d'analyse distribué le plus déployé du marché, aussi bien pour la recherche applicative que pour l'exploitation de journaux et la métrologie (au sein de la « suite Elastic » avec Kibana, Beats et Logstash).
 
-Ses atouts sont la distribution et la réplication natives, une API REST/JSON simple, des capacités d'agrégation puissantes, et, depuis les versions récentes, la recherche vectorielle et hybride.
+Ses atouts sont la distribution et la réplication natives, une API REST/JSON simple, des capacités d'agrégation, et, depuis les versions récentes, la recherche vectorielle et hybride.
 
-Le point d'attention porte sur la licence, qui a beaucoup varié : publié sous Apache 2.0 jusqu'en 2021, Elasticsearch est passé à un double modèle SSPL / Elastic License — deux licences non reconnues comme libres par l'*Open Source Initiative* — ce qui a provoqué le fork OpenSearch par AWS. L'éditeur a ajouté en septembre 2024 l'AGPL v3 comme troisième option, ce qui redonne au produit le statut de logiciel libre.
+Le point d'attention porte sur la licence, qui a beaucoup varié : publié sous Apache 2.0 jusqu'en 2021, Elasticsearch est passé à un double modèle SSPL / Elastic License (deux licences non reconnues comme libres par l'*Open Source Initiative*), ce qui a provoqué le fork OpenSearch par AWS. L'éditeur a ajouté en septembre 2024 l'AGPL v3 comme troisième option, ce qui redonne au produit le statut de logiciel libre.
 
 Elasticsearch est écrit en Java.
 

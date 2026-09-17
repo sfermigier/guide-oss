@@ -138,10 +138,10 @@ Visual Studio Code / VSCodium
 -----------------------------
 
 :Site: https://code.visualstudio.com/ et https://vscodium.com/
-:Porteur: Microsoft (Code — OSS) et une communauté (VSCodium)
+:Porteur: Microsoft (Code - OSS) et une communauté (VSCodium)
 :Licence: MIT pour le code source
 
-Visual Studio Code est devenu, en une dizaine d'années, l'environnement de développement le plus utilisé au monde, tous langages confondus. Son code source, publié par Microsoft sous licence MIT sous le nom de Code — OSS, en fait un logiciel libre ; les binaires distribués par Microsoft sont en revanche soumis à une licence propriétaire et intègrent de la télémétrie, tout comme la place de marché officielle des extensions, dont les conditions d'utilisation interdisent l'usage par les distributions tierces.
+Visual Studio Code est devenu, en une dizaine d'années, l'environnement de développement le plus utilisé au monde, tous langages confondus. Son code source, publié par Microsoft sous licence MIT sous le nom de Code - OSS, en fait un logiciel libre ; les binaires distribués par Microsoft sont en revanche soumis à une licence propriétaire et intègrent de la télémétrie, tout comme la place de marché officielle des extensions, dont les conditions d'utilisation interdisent l'usage par les distributions tierces.
 
 C'est la raison d'être de **VSCodium**, qui fournit des binaires compilés à partir des sources libres, sans télémétrie, s'appuyant sur la place de marché ouverte Open VSX. Les organisations soucieuses de maîtriser leur chaîne d'outils privilégieront cette distribution, ou des alternatives entièrement libres comme Neovim (https://neovim.io/) ou Emacs (https://www.gnu.org/software/emacs/).
 
@@ -158,6 +158,6 @@ Acceleo
 
 Acceleo est un générateur de code qui permet de transformer des modèles vers du code (approche MDA - Model driven Architecture).
 
-Acceleo a l'originalité de laisser à l'utilisateur le choix dans le formalisme de modélisation en entrée, et dans le type de langage et de framework à générer en sortie. Ainsi, de nombreux éditeurs sous Eclipse ont été créés pour simplifier la création de générateurs sur mesure, via une approche basée sur des templates et une syntaxe standardisée.
+Acceleo a l'originalité de laisser à l'utilisateur le choix dans le formalisme de modélisation en entrée, et dans le type de langage et de framework à générer en sortie. Ainsi, de nombreux éditeurs sous Eclipse ont été créés pour simplifier la création de générateurs sur mesure, via une approche fondée sur des templates et une syntaxe standardisée.
 
 Acceleo est écrit en Java.

@@ -3,15 +3,15 @@ Messagerie instantanée et visioconférence
 
 La messagerie d’équipe et la visioconférence sont devenues, en quelques années, le système nerveux du travail quotidien. Elles ont largement remplacé le courriel pour les échanges courts et la réunion physique pour la coordination à distance.
 
-C’est aussi la catégorie où la dépendance à quelques fournisseurs américains est la plus forte — Slack, Microsoft Teams, Zoom, Google Meet — et où elle est la plus problématique : ces outils transportent l’essentiel des échanges informels d’une organisation, c’est-à-dire ce qu’elle a de plus sensible et de moins formalisé. Les questions de conformité au RGPD, de confidentialité des délibérations et de réversibilité s’y posent donc avec une acuité particulière, ce qui explique l’intérêt marqué du secteur public européen pour les solutions présentées ici.
+C’est aussi la catégorie où la dépendance à quelques fournisseurs américains est la plus forte (Slack, Microsoft Teams, Zoom, Google Meet) et où elle est la plus problématique : ces outils transportent l’essentiel des échanges informels d’une organisation, c’est-à-dire ce qu’elle a de plus sensible et de moins formalisé. Les questions de conformité au RGPD, de confidentialité des délibérations et de réversibilité s’y posent donc avec une acuité particulière, ce qui explique l’intérêt marqué du secteur public européen pour les solutions présentées ici.
 
 Trois familles de protocoles structurent l’offre open source :
 
 - **Matrix**, protocole de communication fédérée et chiffrée de bout en bout, conçu dès l’origine pour l’interopérabilité entre organisations ;
 - **XMPP**, plus ancien, plus léger, toujours très présent dans les usages d’infrastructure et l’internet des objets ;
-- **WebRTC**, qui n’est pas un protocole de messagerie mais la brique de transport audio et vidéo temps réel des navigateurs, sur laquelle reposent toutes les solutions de visioconférence de cette section.
+- **WebRTC**, la brique de transport audio et vidéo temps réel des navigateurs, sur laquelle reposent toutes les solutions de visioconférence de cette section.
 
-La frontière entre les deux domaines s’estompe : les messageries intègrent l’appel vidéo, les outils de visioconférence intègrent le fil de discussion. Nous les traitons néanmoins séparément, parce que les critères de choix restent distincts — la conversation écrite se juge sur la durée et l’organisation de la mémoire collective, la visioconférence sur la qualité de service et la capacité de montée en charge.
+La frontière entre les deux domaines s’estompe : les messageries intègrent l’appel vidéo, les outils de visioconférence intègrent le fil de discussion. Nous les traitons néanmoins séparément, parce que les critères de choix restent distincts : la conversation écrite se juge sur la durée et l’organisation de la mémoire collective, la visioconférence sur la qualité de service et la capacité de montée en charge.
 
 
 Messagerie d’équipe
@@ -46,9 +46,9 @@ Lancé en 2015, Mattermost est l’une des alternatives à Slack les plus déplo
 
 Son périmètre dépasse la conversation : canaux publics et privés, fils de discussion, recherche, applications mobiles et bureau, intégrations avec les forges et les chaînes d’intégration continue, et surtout les *playbooks*, qui permettent de dérouler des procédures d’exploitation (gestion d’incident, revue de sécurité) directement dans l’outil. L’extensibilité passe par un système de greffons et une API REST complète.
 
-Le modèle de diffusion mérite d’être lu attentivement : l’édition Team, gratuite, couvre les usages courants, tandis que la conformité avancée, la haute disponibilité et l’authentification unique relèvent des éditions payantes.
+Le modèle de diffusion demande une lecture attentive : l’édition Team, gratuite, couvre les usages courants, tandis que la conformité avancée, la haute disponibilité et l’authentification unique relèvent des éditions payantes.
 
-Mattermost est écrit en Go pour le serveur et en React pour l’interface, et s’appuie sur PostgreSQL.
+Mattermost est écrit en Go pour le serveur et en React pour l’interface ; il s’appuie sur PostgreSQL.
 
 
 Rocket.Chat
@@ -93,7 +93,7 @@ Messageries fondées sur XMPP, protocole plus ancien mais toujours pertinent, no
 À signaler également :
 
 - Nextcloud Talk, lorsque la messagerie doit s’intégrer à une suite collaborative existante: https://nextcloud.com/talk/
-- Zulip, Mattermost et Rocket.Chat proposent tous une offre hébergée en Europe, ce qui constitue une étape intermédiaire pour les organisations qui ne souhaitent pas exploiter le service elles-mêmes.
+- Zulip, Mattermost et Rocket.Chat proposent tous une offre hébergée en Europe, ce qui constitue une étape intermédiaire pour les organisations qui ne souhaitent pas héberger le service elles-mêmes.
 
 
 Visioconférence
@@ -108,7 +108,7 @@ Jitsi Meet
 
 Héritier du client SIP Communicator lancé en 2003, Jitsi est passé chez Atlassian en 2015 puis chez l’américain 8x8 en 2018, qui continue d’en publier l’intégralité du code sous licence Apache 2.0.
 
-Jitsi Meet est la solution de visioconférence open source la plus répandue, et la plus immédiate à mettre en œuvre : aucune installation ni création de compte n’est nécessaire côté participant, un lien suffit. Le serveur de mixage (Jitsi Videobridge) fonctionne en mode SFU, ce qui lui permet de tenir des réunions de plusieurs dizaines de participants sur un matériel modeste ; le composant Jibri assure l’enregistrement et la diffusion en direct.
+Jitsi Meet est la solution de visioconférence open source la plus répandue et la plus immédiate à mettre en œuvre : aucune installation ni création de compte n’est nécessaire côté participant, un lien suffit. Le serveur de mixage (Jitsi Videobridge) fonctionne en mode SFU, ce qui lui permet de tenir des réunions de plusieurs dizaines de participants sur un matériel modeste ; le composant Jibri assure l’enregistrement et la diffusion en direct.
 
 Son autre force est son intégration : Nextcloud, Rocket.Chat, Moodle et de nombreux autres produits proposent un connecteur Jitsi natif. C’est également la brique retenue par de nombreuses instances publiques de visioconférence libre, dans l’enseignement supérieur comme dans le milieu associatif.
 
@@ -122,7 +122,7 @@ BigBlueButton
 :Porteur: une entreprise canadienne (Blindside Networks) et une communauté
 :Licence: LGPL v3
 
-Développé depuis 2007, BigBlueButton n’est pas un outil de réunion généraliste mais une **plateforme de classe virtuelle**, et cette spécialisation fait toute sa valeur dans le contexte pédagogique.
+Développé depuis 2007, BigBlueButton est une **plateforme de classe virtuelle**, et cette spécialisation fait toute sa valeur dans le contexte pédagogique.
 
 On y trouve ce que les outils de réunion classiques ne proposent pas : tableau blanc collaboratif, partage de documents annotables par les participants, sondages et quiz, salles de sous-commission, prise de notes partagée, suivi de présence et statistiques d’engagement, enregistrement intégral rejouable. L’intégration aux plateformes d’apprentissage se fait par le standard LTI ou par des connecteurs dédiés pour Moodle, Chamilo ou Canvas, et l’interface d’administration Greenlight permet une utilisation autonome.
 
@@ -138,9 +138,9 @@ La Suite Meet
 :Porteur: une administration (DINUM, La Suite numérique)
 :Licence: MIT
 
-La Suite Meet est l’outil de visioconférence développé par la Direction interministérielle du numérique française dans le cadre de La Suite numérique, l’ensemble d’outils de travail de l’État — qui comprend également Docs pour l’édition collaborative et Drive pour le partage de fichiers.
+La Suite Meet est l’outil de visioconférence développé par la Direction interministérielle du numérique française dans le cadre de La Suite numérique, l’ensemble d’outils de travail de l’État, qui comprend également Docs pour l’édition collaborative et Drive pour le partage de fichiers.
 
-Le produit s’appuie sur **LiveKit** pour le transport temps réel et vise explicitement le niveau de qualité des solutions propriétaires du marché : accès depuis le navigateur sans installation, salles persistantes, partage d’écran, sous-titrage et transcription. Son intérêt pour les organisations françaises est double : le code est publié sous licence MIT, donc réutilisable sans contrainte, et le produit est conçu et exploité par une administration soumise aux mêmes obligations que ses utilisateurs publics.
+Le produit s’appuie sur **LiveKit** pour le transport temps réel et vise explicitement le niveau de qualité des solutions propriétaires du marché : accès depuis le navigateur sans installation, salles persistantes, partage d’écran, sous-titrage et transcription. Son intérêt pour les organisations françaises est double : le code est publié sous licence MIT, donc réutilisable sans contrainte ; le produit est conçu et exploité par une administration soumise aux mêmes obligations que ses utilisateurs publics.
 
 La Suite Meet est écrit en Python (Django) et en React.
 
@@ -154,7 +154,7 @@ Galène
 
 Galène est un serveur de visioconférence écrit en Go, né à l’Université Paris Cité pendant la période des cours à distance, avec un objectif rare : fonctionner correctement sur un serveur modeste et sur des connexions médiocres.
 
-Le pari est tenu — quelques dizaines de mégaoctets de mémoire suffisent là où les solutions concurrentes en réclament plusieurs gigaoctets — et le projet couvre les usages essentiels : salles avec droits différenciés (présentateur, opérateur, spectateur), partage d’écran, discussion écrite, enregistrement, diffusion vers un large public. L’installation se résume à un binaire et à un fichier de configuration.
+Le pari est tenu (quelques dizaines de mégaoctets de mémoire suffisent là où les solutions concurrentes en réclament plusieurs gigaoctets) et le projet couvre les usages essentiels : salles avec droits différenciés (présentateur, opérateur, spectateur), partage d’écran, discussion écrite, enregistrement, diffusion vers un large public. L’installation se résume à un binaire et à un fichier de configuration.
 
 C’est le choix à considérer pour une association, un laboratoire ou un établissement d’enseignement qui souhaite héberger sa propre visioconférence sans y consacrer d’infrastructure notable.
 

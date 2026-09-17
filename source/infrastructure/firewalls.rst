@@ -3,7 +3,7 @@ Firewalls
 
 La notion de firewall est souvent liée à celle de routage, c'est-à-dire l'acheminement des flux réseau entre les différentes machines.
 
-Les firewalls sont donc généralement installés sur des équipements de routage, dont ils sont une partie intégrante. Ce qui signifie que le routage peut être modifié par une décision du firewall, et que le firewall appliquera des règles de filtrage différentes selon l'origine et la destination du trafic. C'est la mission principale du firewall.
+Les firewalls sont donc généralement installés sur des équipements de routage, dont ils sont une partie intégrante. Le routage peut donc être modifié par une décision du firewall, et le firewall appliquera des règles de filtrage différentes selon l'origine et la destination du trafic. C'est la mission principale du firewall.
 
 Le firewall peut également être utilisé dans un rôle plus qualitatif, plus fin, comme le volume de bande passante autorisé pour telle ou telle application dans tel ou tel contexte.
 
@@ -19,7 +19,7 @@ pf (Packet Filter)
 
 pf (Packet Filter) est la couche de filtrage intégrée aux systèmes libres hérités de BSD UNIX (FreeBSD, NetBSD, OpenBSD...). pf a été créé en 2001 par Daniel Hartmeier en remplacement du logiciel IPFilter.
 
-Ce système présente l'avantage d'avoir un langage de configuration simple, et d'intégrer les fonctionnalités de NAT et de QoS. Packet Filter est devenu l'outil libre le plus puissant pour jouer le rôle de pare-feu. Il peut également servir pour équilibrer la charge et gérer le trafic réseau sur des Unix libres BSD.
+Ce système présente l'avantage d'avoir un langage de configuration simple, et d'intégrer les fonctionnalités de NAT et de QoS. Packet Filter s'est imposé comme le pare-feu de référence des systèmes BSD. Il peut également servir pour équilibrer la charge et gérer le trafic réseau sur des Unix libres BSD.
 
 
 NetFilter
@@ -45,7 +45,7 @@ DynFi Firewall
 
 DynFi Firewall est un pare-feu français dérivé de pfSense et OPNsense qui apporte des nouvelles fonctionnalités et un système de compilation issue de FreeBSD (projet poudrière).
 
-Il intègre directement un certain nombre de packages (zerotier, Clamav, Ntopng et Nprobe) ainsi q’un nouveau système de filtrage basé sur les DNS.
+Il intègre directement un certain nombre de packages (zerotier, Clamav, Ntopng et Nprobe) ainsi q’un nouveau système de filtrage fondé sur les DNS.
 
 Le code est disponibile sur Github, le firewall est agrémenté d’un gestionnaire centralisé unique en son genre.
 
@@ -58,7 +58,7 @@ pfSense
 
 pfSense est une distribution logicielle permettant de réaliser une passerelle réseau à partir d'un serveur x86. Elle date de 2004 à partir d'un fork de m0n0wall par Chris Buechler et Scott Ullrich.
 
-Très fréquemment rencontrée dans les PME et les petites structures, pfSense offre une solution complète de routage, filtrage, VPN et partage de connexion. Il est basé sur pf, et intègre un grand nombre de composants tiers : serveur DHCP/DNS, serveur de temps, proxy web, monitoring... La configuration se fait entièrement via une interface web.
+Très fréquemment rencontrée dans les PME et les petites structures, pfSense offre une solution complète de routage, filtrage, VPN et partage de connexion. Il est fondé sur pf, et intègre un grand nombre de composants tiers : serveur DHCP/DNS, serveur de temps, proxy web, monitoring... Toute la configuration passe par une interface web.
 
 Depuis 2014, la solution est portée par la société Netgate, qui en propose le support officiel. Elle se décline en pfSense CE (Community Edition), librement téléchargeable, et pfSense Plus, réservée aux appliances de l'éditeur et aux souscriptions, laquelle concentre désormais les évolutions les plus significatives. Ce déséquilibre est à l'origine du fork OPNsense (voir ci-dessous), à examiner avant tout nouveau déploiement.
 
@@ -72,7 +72,7 @@ OPNsense
 
 OPNsense est un fork de pfSense réalisé en 2015 par la société néerlandaise Deciso, motivé par la volonté de disposer d'une distribution pare-feu entièrement libre, au code ouvert et au rythme de publication soutenu.
 
-Le produit couvre le même périmètre — routage, filtrage, NAT, VPN (IPsec, OpenVPN, WireGuard), proxy web, filtrage DNS, détection d'intrusion avec Suricata, portail captif, haute disponibilité — avec une interface web modernisée et, surtout, des mises à jour hebdomadaires et deux versions majeures par an, sans réserver de fonctionnalités à une édition payante. Deciso commercialise des appliances et du support.
+Le produit couvre le même périmètre (routage, filtrage, NAT, VPN IPsec, OpenVPN et WireGuard, proxy web, filtrage DNS, détection d'intrusion avec Suricata, portail captif, haute disponibilité), avec une interface web modernisée et, surtout, des mises à jour hebdomadaires et deux versions majeures par an, sans réserver de fonctionnalités à une édition payante. Deciso commercialise des appliances et du support.
 
 OPNsense est fondé sur FreeBSD et écrit en PHP, Python et C.
 

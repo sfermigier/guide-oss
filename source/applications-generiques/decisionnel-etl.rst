@@ -15,9 +15,9 @@ Airflow
 :Porteur: une fondation (Apache)
 :Licence: Apache 2.0
 
-Apache Airflow a été créé par Airbnb et est un outil de gestion de flux de travail open source. Il peut être utilisé pour créer des pipelines ETL de données. À proprement parler, ce n'est pas un outil ETL en soi, mais plutôt un outil d'orchestration qui peut être utilisé pour créer, planifier et surveiller des flux de travail. Cela signifie que vous pouvez utiliser Airflow pour créer un pipeline en consolidant divers modules écrits indépendamment de votre processus ETL.
+Apache Airflow a été créé par Airbnb et est un outil de gestion de flux de travail open source. Il peut être utilisé pour créer des pipelines ETL de données. À proprement parler, c'est un outil d'orchestration : il crée, planifie et surveille des flux de travail. Cela signifie que vous pouvez utiliser Airflow pour créer un pipeline en consolidant divers modules écrits indépendamment de votre processus ETL.
 
-Le workflow Airflow suit le concept de DAG (Directed Acyclic Graph). Airflow, comme les autres outils de la liste, dispose également d'un tableau de bord basé sur un navigateur pour visualiser le flux de travail et suivre l'exécution de plusieurs flux de travail. Airflow est un bon choix si vous souhaitez créer un flux de travail ETL complexe en enchaînant des modules indépendants et existants
+Le workflow Airflow suit le concept de DAG (Directed Acyclic Graph). Airflow, comme les autres outils de la liste, dispose également d'un tableau de bord fondé sur un navigateur pour visualiser le flux de travail et suivre l'exécution de plusieurs flux de travail. Airflow est un bon choix si vous souhaitez créer un flux de travail ETL complexe en enchaînant des modules indépendants et existants
 
 Bonobo
 ------
@@ -37,7 +37,7 @@ Luigi
 :Porteur: Une entreprise (Spotify)
 :Licence: Apache 2.0
 
-Luigi est un outil ETL basé sur Python qui a été créé par Spotify mais qui est maintenant disponible en tant qu'outil open-source. Il s'agit d'un outil plus sophistiqué que beaucoup d'autres sur cette liste et il possède des fonctionnalités puissantes pour créer des pipelines ETL complexes. Selon leur page Github, "Il gère la résolution des dépendances, la gestion des flux de travail, la visualisation, le traitement des pannes, l'intégration en ligne de commande, et bien plus encore".
+Luigi est un outil ETL fondé sur Python qui a été créé par Spotify mais qui est maintenant disponible en tant qu'outil open-source. Il s'agit d'un outil plus sophistiqué que beaucoup d'autres sur cette liste et il possède des fonctionnalités étendues pour créer des pipelines ETL complexes. Selon leur page Github, "Il gère la résolution des dépendances, la gestion des flux de travail, la visualisation, le traitement des pannes, l'intégration en ligne de commande, et bien plus encore".
 
 Il est également doté d'un tableau de bord web permettant de suivre tous les travaux ETL. Si vous cherchez à construire une solution d'entreprise, Luigi peut être un bon choix.
 
@@ -47,7 +47,7 @@ Talend
 
 :Site: https://www.qlik.com/us/products/talend-open-studio
 :Porteur: un éditeur (Qlik)
-:Licence: propriétaire — l'édition open source a été arrêtée
+:Licence: propriétaire (l'édition open source a été arrêtée)
 
 Talend Open Studio a été, de 2006 à 2024, l'ETL open source de référence. Développé par la société française Talend, c'était un ETL de type « générateur de code » : il permettait de créer graphiquement des processus de manipulation et de transformation de données, puis de générer l'exécutable correspondant sous forme de programme Java ou Perl, avec une très large bibliothèque de composants de connexion (bases de données, SAP, applications métier…).
 
@@ -79,7 +79,7 @@ Apache Hop
 
 Apache Hop (*Hop Orchestration Platform*) est né en 2020 d'un fork de Pentaho Kettle, devenu projet de haut niveau de la fondation Apache en 2021.
 
-Hop conserve l'approche graphique qui a fait le succès de Kettle — on assemble visuellement des *pipelines* (transformations de données) et des *workflows* (orchestration) — en la modernisant : conception « design once, run anywhere » avec exécution locale, sur Spark, Flink ou Google Dataflow via Apache Beam, gestion des projets et des environnements, intégration au cycle de vie logiciel (métadonnées versionnables dans Git, tests unitaires de pipelines).
+Hop conserve l'approche graphique qui a fait le succès de Kettle, où l'on assemble visuellement des *pipelines* (transformations de données) et des *workflows* (orchestration), en la modernisant : conception « design once, run anywhere » avec exécution locale, sur Spark, Flink ou Google Dataflow via Apache Beam, gestion des projets et des environnements, intégration au cycle de vie logiciel (métadonnées versionnables dans Git, tests unitaires de pipelines).
 
 C'est aujourd'hui le successeur naturel de Pentaho Data Integration et de Talend Open Studio pour qui cherche un ETL graphique entièrement open source.
 
