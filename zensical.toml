@@ -17,6 +17,9 @@ Copyright &copy; 2012-2026 Stefane Fermigier et contributeurs &middot; GNU FDL 1
 docs_dir = "src"
 site_dir = "site"
 
+# Mise en forme des trois métadonnées (Site, Porteur, Licence) de chaque fiche.
+extra_css = ["stylesheets/fiches.css"]
+
 # Indispensable : reproduit les URLs en .html produites par Sphinx
 # (/web-communication/cms.html et non /web-communication/cms/), afin de ne pas
 # casser les liens entrants ni le référencement acquis.

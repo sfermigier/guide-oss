@@ -1,0 +1,55 @@
+/* Fiches produit.
+ *
+ * Chaque produit est présenté par trois métadonnées — Site, Porteur, Licence —
+ * écrites en liste de définitions Markdown. Le rendu par défaut les empile sur
+ * six lignes, étiquette au-dessus de la valeur. On les passe en deux colonnes,
+ * dans un encadré compact qui se distingue de la prose sans l'interrompre.
+ */
+
+.md-typeset dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: baseline;
+  column-gap: 1.2em;
+  row-gap: 0.2em;
+  margin: 0.9em 0 1.4em;
+  padding: 0.7em 1em;
+  border-left: 2px solid var(--md-accent-fg-color);
+  border-radius: 0.1rem;
+  background-color: var(--md-code-bg-color);
+  font-size: 0.75rem;
+}
+
+.md-typeset dl > dt {
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.md-typeset dl > dd {
+  margin: 0;
+}
+
+/* Les URL sont affichées en entier : les laisser couper plutôt que déborder. */
+.md-typeset dl > dd a {
+  overflow-wrap: anywhere;
+}
+
+/* Sous 30em, deux colonnes ne tiennent plus : on repasse en pile. */
+@media screen and (max-width: 30em) {
+  .md-typeset dl {
+    grid-template-columns: 1fr;
+    row-gap: 0;
+  }
+
+  .md-typeset dl > dt {
+    margin-top: 0.6em;
+  }
+
+  .md-typeset dl > dt:first-child {
+    margin-top: 0;
+  }
+}
