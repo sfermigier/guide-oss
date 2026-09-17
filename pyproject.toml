@@ -9,12 +9,6 @@ requires-python = "<4.0,>=3.7"
 dependencies = []
 description = ""
 
-[dependency-groups]
-dev = [
-    "Sphinx",
-    "sphinx-sitemap",
-]
-
 [tool.pdm.build]
 includes = []
 

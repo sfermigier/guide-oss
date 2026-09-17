@@ -1,28 +1,19 @@
 # Guide des solutions libres et open source.
 #
-# Les sources sont en reStructuredText dans source/. rst_to_md.py les convertit
-# en Markdown dans src/, et Zensical construit le site statique dans site/.
+# Les sources sont en Markdown dans src/. Zensical construit le site statique
+# dans site/, que Hop3 sert en production.
 
-.PHONY: all build serve convert nav clean deploy
+.PHONY: all build serve clean deploy
 
-all: build
-
-# source/**/*.rst -> src/**/*.md
-convert:
-	uv run rst_to_md.py
+all: build deploy
 
 # Site statique complet dans site/
-build: convert
+build:
 	uvx zensical build
 
 # Aperçu local sur http://localhost:8000
-serve: convert
+serve:
 	uvx zensical serve
-
-# Régénère le sommaire (`nav`) à recopier dans zensical.toml, à faire après
-# tout ajout, retrait ou déplacement de page dans les toctrees.
-nav:
-	uv run rst_to_md.py --nav
 
 clean:
 	rm -rf site

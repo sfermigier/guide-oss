@@ -2,10 +2,8 @@
 #
 #   make serve    # aperçu local sur http://localhost:8000
 #   make build    # site statique dans site/
-#   make nav      # régénère le bloc `nav` ci-dessous
 #
-# Les sources Markdown de src/ sont produites depuis source/ (reStructuredText)
-# par ./rst_to_md.py : ne pas les éditer à la main.
+# Les sources sont les fichiers Markdown de src/.
 
 [project]
 site_name = "Guide des solutions libres et open source"
@@ -24,9 +22,9 @@ site_dir = "site"
 # casser les liens entrants ni le référencement acquis.
 use_directory_urls = false
 
-# Le sommaire ci-dessous est produit par `uv run rst_to_md.py --nav`, à partir
-# des toctrees de Sphinx : chaque partie est un onglet, ses chapitres le menu
-# de gauche.
+# Sommaire du site : chaque entrée de premier niveau est un onglet du menu
+# horizontal, ses enfants forment le menu de gauche. Toute page ajoutée dans
+# src/ doit être déclarée ici, sans quoi elle se construit mais n'apparaît pas.
 
 nav = [
     { "Accueil" = [
