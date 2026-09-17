@@ -20,6 +20,9 @@ site_dir = "site"
 # Mise en forme des trois métadonnées (Site, Porteur, Licence) de chaque fiche.
 extra_css = ["stylesheets/fiches.css"]
 
+# Matomo : installé une seule fois, compte les vues via `document$`.
+extra_javascript = ["javascripts/analytics.js"]
+
 # Indispensable : reproduit les URLs en .html produites par Sphinx
 # (/web-communication/cms.html et non /web-communication/cms/), afin de ne pas
 # casser les liens entrants ni le référencement acquis.
