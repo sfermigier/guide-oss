@@ -95,7 +95,7 @@ Dolibarr a été développé initialement par Rodolphe Quiédeville en avril 200
 
 Dolibarr est porté par une large communauté d'intégrateur français, mais aussi allemand, italien, espagnol, etc... et dispose désormais d'une diffusion internationale.
 
-Une association a été créée en France. Elle a pour objet le développement (au sens promotion et non codage informatique), la documentation, la protection, la promotion, la sécurisation et la diffusion du logiciel libre de gestion d'activité professionnelle ou associative Dolibarr ERP et CRM.
+Une association a été créée en France. Elle a pour objet la promotion, la documentation, la protection, la sécurisation et la diffusion du logiciel libre de gestion d'activité professionnelle ou associative Dolibarr ERP et CRM.
 
 Une place de marché gérée par l'association Dolibarr <https://www.dolistore.com/> met à disposition plusieurs centaines de modules complémentaires permettant de compléter les fonctionnalités standard de Dolibarr.
 
