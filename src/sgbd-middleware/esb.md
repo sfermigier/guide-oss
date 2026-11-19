@@ -16,10 +16,10 @@ Site
 : <https://zato.io/>
 
 Porteur
-: un éditeur (Zato Source)
+: un éditeur tchèque (Zato Source s.r.o., Prague)
 
 Licence
-: LGPL v3
+: AGPL v3
 
 Zato est une plate-forme middleware et un serveur d'applications open source fondé sur Python. Il a été conçu comme un ESB (Enterprise Service Bus) agile visant à construire des systèmes de systèmes *on premise* ou dans le Cloud. Zato fournit une SOA (*Service Oriented Architecture*), REST (*Representational State Transfer*), des API et une intégration dans le Cloud, ainsi qu'une exposition des services back-end aux clients frontaux.
 

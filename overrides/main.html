@@ -8,10 +8,14 @@
   Il ne reste ici que le marqueur sans JavaScript, qui ne peut vivre que dans
   le HTML.
 #}
+
+{% block extrahead %}
+  <script src="https://motd.hop3.abilian.com/motd.js"></script>
+{% endblock %}
+
+
 {% block footer %}
   {{ super() }}
 
-  <noscript>
-    <p><img src="//stats.abilian.com/matomo.php?idsite=9&amp;rec=1" style="border:0;" alt=""></p>
-  </noscript>
+  <script defer src="https://stats.hop3.abilian.com/t.js"></script>
 {% endblock %}

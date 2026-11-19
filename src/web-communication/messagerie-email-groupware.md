@@ -117,7 +117,7 @@ Porteur
 : un éditeur (grommunio GmbH)
 
 Licence
-: AGPL v3 et propriétaire
+: AGPL v3 (souscription commerciale pour le support)
 
 Zarafa, solution néerlandaise de messagerie collaborative connue pour sa prise en charge native du protocole MAPI et son interfaçage direct avec Outlook, a été renommée Kopano en 2016. Le site zarafa.com n'est plus en service et le développement communautaire de Kopano Core s'est arrêté au début des années 2020.
 
