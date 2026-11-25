@@ -1,0 +1,54 @@
+/* Page d'accueil : un bloc par partie du guide, les groupes en colonnes. */
+
+.md-typeset .accueil-entete {
+  margin-bottom: 2rem;
+}
+
+.md-typeset .accueil-promesse {
+  max-width: 34rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.md-typeset .accueil-entete .md-button {
+  margin: 0 0.4rem 0.4rem 0;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+.md-typeset .accueil-reperes {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.7rem;
+}
+
+.md-typeset .accueil h2 {
+  margin-top: 2.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset .accueil ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+  gap: 1.2rem 2rem;
+  margin: 1.2rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .accueil ul > li {
+  margin: 0;
+  line-height: 1.7;
+}
+
+/* Le libellé du groupe se place au-dessus de ses liens. */
+.md-typeset .accueil li > strong {
+  display: block;
+}
+
+/* Les liens des listes et des titres se reconnaissent à leur place : on ne les
+ * souligne qu'au survol et au clavier. */
+.md-typeset .accueil li a:not(:hover, :focus-visible),
+.md-typeset .accueil h2 a:not(:hover, :focus-visible) {
+  text-decoration: none;
+}

@@ -1,4 +1,4 @@
-# Accélérateur Http
+# Accélérateurs HTTP { #accelerateur-http }
 
 Les accélérateurs HTTP, également appelés « Reverse Proxies », sont implémentés du côté des serveurs Internet. Ils ont différents usages comme : la sécurité, la répartition de charge, l’accélération SSL, la compression et le cache.
 
@@ -15,7 +15,7 @@ Porteur
 : une communauté
 
 Licence
-: GPL
+: GPL v2
 
 Squid est un serveur proxy HTTP fréquemment utilisé en entreprise. La première version de Squid date de 1996.
 
@@ -26,21 +26,25 @@ Squid est inspiré du projet Harvest. Il est compatible avec IPv6 à partir de s
 ## Varnish
 
 Site
-: <https://varnish-cache.org/>
+: <https://www.varnish.org/> (Varnish Cache) et <https://vinyl-cache.org/> (Vinyl Cache)
 
 Porteur
-: une communauté, avec le soutien de Varnish Software
+: un éditeur (Varnish Software) pour Varnish Cache, une communauté pour Vinyl Cache
 
 Licence
-: BSD
+: BSD 2-clauses
 
-Varnish est un cache HTTP hautes performances. La première version stable de Varnish date de 2006, et a été initiée pour le journal norvégien Verdens Gang. L’architecte du produit est le danois Poul-Henning Kamp.
+Varnish est un cache HTTP à hautes performances, dont la première version date de 2006. Il a été conçu par le Danois Poul-Henning Kamp pour le journal norvégien Verdens Gang.
 
-Utilisé pour améliorer les performances des sites web à fort trafic, Varnish dispose également de fonctionnalités de répartition de charge et permet de tester la disponibilité des serveurs produisant le contenu web. Varnish est notamment utilisé par Facebook. Varnish stocke une partie de ses données dans la mémoire virtuelle. La configuration de l’outil est réalisée à partir de fichiers VCL (language spécifique) ; cela permet d’aller très loin dans la définition des régles de gestion. Enfin, Varnish supporte les tags ESI (Edge Side Includes).
+Placé devant un site à fort trafic, il sert les contenus depuis la mémoire, répartit la charge et teste la disponibilité des serveurs d'origine. La politique de cache s'écrit dans un langage dédié, VCL, qui permet des règles très fines ; l'assemblage de fragments par ESI (*Edge Side Includes*) est pris en charge.
+
+Le projet a connu une séparation en 2026 : le projet communautaire d'origine s'appelle **Vinyl Cache** depuis sa version 9.0 (mars 2026), tandis que le nom Varnish Cache est conservé par Varnish Software pour sa propre distribution, qui ajoute notamment TLS natif et images de conteneurs. Les distributions Linux adoptent progressivement le nouveau nom ; avant une mise à jour, on vérifiera lequel des deux projets fournit le paquet.
+
+Varnish et Vinyl Cache sont écrits en C.
 
 ## Autres
 
 - HAProxy, davantage orienté répartition de charge que cache (section [Haute disponibilité](haute-disponibilite.md)): <https://www.haproxy.org/>
-- Traefik, proxy inverse conçu pour les environnements dynamiques (conteneurs, Kubernetes), avec découverte automatique des services et certificats TLS automatiques: <https://traefik.io/>
+- Traefik, Envoy et les passerelles d'API, présentés à la page [Proxys inverses et API gateways](proxys-inverses-api-gateways.md)
 - Apache Traffic Server, cache HTTP de classe opérateur: <https://trafficserver.apache.org/>
-- nginx et Caddy, qui assurent également les fonctions de proxy inverse et de cache (section [Serveurs http](../web-communication/serveurs-http.md))
+- nginx et Caddy, qui assurent également les fonctions de proxy inverse et de cache (section [Serveurs HTTP](../web-communication/serveurs-http.md))

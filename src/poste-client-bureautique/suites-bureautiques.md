@@ -2,9 +2,9 @@
 
 La suite bureautique installée sur le poste reste le cœur de l'outillage : traitement de texte, tableur, présentation, dessin.
 
-Conformément au périmètre de cette partie, seules les applications qui s'exécutent sur le poste de travail sont traitées ici. L'édition collaborative en ligne, où plusieurs personnes éditent simultanément un document dans leur navigateur, relève d'une plateforme serveur, hors du périmètre du poste client ; les solutions correspondantes sont signalées dans la section [GED & ECM](../applications-generiques/ged-ecm.md).
+Conformément au périmètre de cette partie, seules les applications qui s'exécutent sur le poste de travail sont traitées ici. L'édition collaborative en ligne, où plusieurs personnes éditent simultanément un document dans leur navigateur, relève d'une plateforme serveur, hors du périmètre du poste client ; les solutions correspondantes sont signalées dans la section [Suites collaboratives](../applications-generiques/suites-collaboratives.md).
 
-Le critère de choix décisif est la **fidélité de rendu des formats de Microsoft Office**. Sur la richesse fonctionnelle comme sur l'ergonomie, l'écart avec les suites propriétaires s'est considérablement réduit. C'est sur ce point que se jouent les migrations : un document qui se déforme en passant d'un poste à l'autre ruine la confiance des utilisateurs plus sûrement qu'une fonction manquante. Il se teste sur le corpus réel de l'organisation, et sur lui seul : modèles, documents composites, publipostages, classeurs à macros.
+Le critère de choix décisif est la **fidélité de rendu des formats de Microsoft Office**. Sur la richesse fonctionnelle comme sur l'ergonomie, l'écart avec les suites propriétaires s'est considérablement réduit. C'est sur ce point que se jouent les migrations : un document qui se déforme en passant d'un poste à l'autre ruine la confiance des utilisateurs plus sûrement qu'une fonction manquante. Il se teste sur le seul corpus réel de l'organisation : modèles, documents composites, publipostages, classeurs à macros.
 
 ## LibreOffice
 
@@ -21,9 +21,9 @@ LibreOffice est une suite bureautique libre, issue en 2010 d'un fork d'OpenOffic
 
 Comme format de fichier natif, LibreOffice utilise l'*Open Document Format for Office Applications* (ODF), norme internationale développée conjointement par l'ISO et la CEI. Il gère également les formats de la plupart des autres suites bureautiques, y compris Microsoft Office, grâce à une variété de filtres d'importation et d'exportation.
 
-C'est, à ce jour, la seule suite bureautique libre complète capable de soutenir la comparaison avec l'offre propriétaire sur l'ensemble du périmètre, et la référence de toutes les migrations d'ampleur : administrations, collectivités, armées européennes.
+C'est, à ce jour, la seule suite bureautique libre complète capable de soutenir la comparaison avec l'offre propriétaire sur l'ensemble du périmètre et la référence de toutes les migrations d'ampleur : administrations, collectivités, armées européennes.
 
-Deux éléments comptent pour un déploiement en entreprise. D'abord le rythme de publication : une branche « Still » conservatrice et une branche « Fresh » plus récente coexistent en permanence, la première étant celle à retenir pour un parc. Ensuite l'écosystème de support professionnel : plusieurs sociétés européennes, dont Collabora et Allotropia, contribuent au code et commercialisent des versions avec engagement de correction, ce qui répond à l'objection la plus fréquente des directions informatiques.
+Deux éléments comptent pour un déploiement en entreprise. D'abord le rythme de publication : une branche « Still » conservatrice et une branche « Fresh » plus récente coexistent en permanence, la première étant celle à retenir pour un parc. Ensuite l'écosystème de support professionnel : plusieurs entreprises européennes, dont Collabora et Allotropia, contribuent au code et commercialisent des versions avec engagement de correction, ce qui répond à l'objection la plus fréquente des directions informatiques.
 
 LibreOffice est disponible pour Microsoft Windows, macOS et Linux. Le projet propose également une déclinaison mobile et une version technologique destinée à l'intégration serveur, cette dernière sortant du périmètre de cette partie.
 
@@ -45,6 +45,27 @@ Son intérêt est de proposer une alternative bien plus légère, intégrée au 
 C'est un choix à considérer pour des postes modestes, des terminaux légers ou un parc entièrement standardisé sur KDE, en gardant à l'esprit que son rythme de publication est lent et sa communauté restreinte.
 
 Calligra est écrit en C++ (Qt).
+
+## Libera Suite
+
+Site
+: <https://docs.liberasuite.eu/>
+
+Porteur
+: une entreprise (Abilian)
+
+Licence
+: Apache 2.0 pour l'application, AGPL v3 pour les composants d'édition
+
+Libera Suite est une suite bureautique pour Windows, macOS et Linux, développée par la société française Abilian et en bêta publique depuis octobre 2026. Elle travaille localement : ni compte, ni service en ligne, ni télémétrie.
+
+Elle réunit dans une même application un traitement de texte (Words), un tableur (Tables), un outil de présentation (Slides), un éditeur de PDF limité aux commentaires, aux formulaires et à la réorganisation des pages (PDF) et une visionneuse de diagrammes Visio (Diagrams). Elle ouvre et enregistre les formats de Microsoft Office (DOCX, XLSX, PPTX) et OpenDocument (ODT, ODS, ODP).
+
+Ses composants d'édition sont ceux d'Euro-Office, fork sous AGPL d'ONLYOFFICE, auxquels Abilian ajoute une courte série de correctifs, portant pour l'essentiel sur la conversion des formats OpenDocument et CSV.
+
+Le projet est jeune et se présente comme tel. Les macros ne sont pas exécutées (elles sont conservées à l'enregistrement), le publipostage est absent. Les exécutables Windows et macOS ne sont pas encore signés, ce qui complique un déploiement géré. L'édition collaborative est hors du périmètre annoncé. C'est, à ce stade, une solution à évaluer plutôt qu'à généraliser sur un parc.
+
+Libera Suite est écrite en Python et JavaScript. Le code est publié sur <https://github.com/abilian/libera-suite>.
 
 ## Autres
 

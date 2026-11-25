@@ -1,16 +1,16 @@
-# Blog, Wiki et Forum
+# Blogs, wikis et forums { #blog-wiki-et-forum }
 
-On ne présente plus les blogs, wiki et forums tellement ils sont désormais intégrés à l’entreprise. On dit d’eux qu’ils sont une composante à part entière du Web 2.0.
+Blogs, wikis et forums répondent à trois besoins distincts : publier, documenter à plusieurs et discuter. En entreprise, le blog sert la communication externe ou interne, le wiki la base de connaissances et le forum l’entraide ou le support.
 
-Un blog est un type de site Web composé de billets (post), c'est-à-dire des notes agglomérées au fil du temps (classement par date).
+Un blog est un site composé de billets datés, présentés du plus récent au plus ancien.
 
-Un wiki peut également être défini comme un type web mais sa particularité consiste en son ouverture vers les autres. En effet, les pages sont généralement modifiables par les visiteurs afin de permettre des contributions collaboratives.
+Un wiki est un site dont les pages sont modifiables par ses lecteurs, avec un historique des versions. Le choix d’un produit engage sur la durée, car la syntaxe et la structure des pages rendent les migrations coûteuses.
 
-Un forum est, quant à lui, un espace de discussion publique (généralement) ou les échanges sont archivés par sujet.
+Un forum est un espace de discussion où les échanges sont archivés par sujet, donc retrouvables, à la différence d’une messagerie instantanée.
 
 ## Blogs
 
-### Wordpress
+### WordPress
 
 Site
 : <https://wordpress.org>
@@ -25,30 +25,30 @@ WordPress a été créé en 2003 à la suite d'un fork du logiciel « b2 ». Dé
 
 WordPress est un outil de publication très complet, employé bien au-delà du blog pour la construction de sites web de toute nature. La version 3 (2010) avait intégré la gestion multi-sites issue de WordPress MU ; le tournant suivant est l'éditeur de blocs Gutenberg, introduit avec la version 5 (2018), qui a ouvert la voie à l'édition complète du site (*full site editing*) et aux thèmes par blocs. Le rythme de publication reste soutenu, avec plusieurs versions majeures par an.
 
-Deux points appellent la vigilance. D'abord la surface d'attaque : l'immense écosystème d'extensions impose une politique de mise à jour rigoureuse. Ensuite la gouvernance : le projet reste très lié à la société Automattic et à son fondateur, et le conflit ouvert avec l'hébergeur WP Engine en 2024 en a rappelé la fragilité à une partie de la communauté.
+Deux points appellent la vigilance. D'abord la surface d'attaque : l'immense écosystème d'extensions impose une politique de mise à jour rigoureuse. Ensuite la gouvernance : le projet reste très lié à la société Automattic et à son fondateur. Le conflit ouvert avec l'hébergeur WP Engine en 2024 en a rappelé la fragilité à une partie de la communauté.
 
 WordPress est développé en PHP sur une base MySQL/MariaDB. Il dispose d'API REST et d'un système d'extensions très riche : des dizaines de milliers d'extensions sont disponibles.
 
-### DotClear
+### Dotclear
 
 Site
 : <https://dotclear.org/>
 
 Porteur
-: une communauté
+: une association (Association Dotclear)
 
 Licence
-: GPL v2
+: AGPL v3
 
-Dotclear est un logiciel libre de publication web créé en 2002 par Olivier Meunier. C'est une solution conçue avant tout pour ses utilisateurs et recevant des contributions régulières de ceux-ci. Le projet, aujourd'hui animé par une petite équipe de bénévoles, poursuit un développement régulier et reste une alternative française légère à WordPress.
+Dotclear est un moteur de blog créé en 2002 par Olivier Meunier. Le projet est aujourd'hui porté par l'association Dotclear et poursuit un développement régulier.
 
-Dotclear dispose d'une richesse fonctionnelle faisant de lui un outil de publication de grande qualité, égalant et allant parfois plus loin que d'autres outils du même ordre. Au-delà des fonctionnalités, Dotclear est conçu pour apporter le maximum de confort à l'utilisateur : une installation automatisée qui ne comprend que 2 étapes. De plus, de nombreux thèmes et plugins sont disponibles pour le personnaliser facilement. Les pages générées ont une structure qui optimise leur référencement naturel.
+Il couvre les besoins du blog et s'y tient : multi-blogs et multi-utilisateurs avec gestion des droits, pages statiques, médiathèque, antispam intégré, commentaires, thèmes et plugins, édition en syntaxe wiki, en Markdown ou en WYSIWYG. Sa communauté est surtout francophone et son catalogue d'extensions bien plus réduit que celui de WordPress.
 
-DotClear2 est développé en PHP5 et supporte les bases PostgreSQL (8.0 minimum), MySQL (4.1 minimum avec InnoDB) et SQLite.
+Dotclear est écrit en PHP et fonctionne avec plusieurs types de bases de données.
 
 ## Forums
 
-### PhpBB
+### phpBB
 
 Site
 : <https://www.phpbb.com>
@@ -59,13 +59,11 @@ Porteur
 Licence
 : GPL v2
 
-PhpBB est un outil de la famille des forums. En plus des fonctions habituelles, PhpBB permet de créer des sondages, annonces et post-it, ces deux derniers restant en haut de la page pour être plus visibles.
-
-Les émoticônes permettent de rendre plus visuel le contenu. Il gère un système d'avertissement optionnel par courriel de l'apparition d'une réponse au(x) sujet(s) que l'on choisit de surveiller. Si on accepte les cookies dans le navigateur, on peut voir rapidement où sont les nouveaux messages (c'est-à-dire ceux publiés depuis la dernière consultation de la page). Pour aller plus loin, un système de messages privés entre les utilisateurs, permet d'éviter la publication des adresses électroniques personnelles. Il permet l’utilisation du BBCode (code voisin du HTML) dans les messages pour une mise en forme enrichie. Graphiquement, le support de différents thèmes visuels est complet : la partie graphique est totalement séparée du logiciel en lui-même, et est donc personnalisable à volonté.
-
-PhpBB repose sur une architecture LAMP. Il est écrit en PHP.
+phpBB est un logiciel de forum. Outre les fonctions habituelles (catégories, sujets, modération, messages privés, notifications par courriel), il propose sondages, annonces, sujets épinglés et thèmes graphiques. La mise en forme des messages passe par le BBCode.
 
 phpBB reste, avec SMF, l'un des derniers forums « classiques » largement déployés ; les projets récents lui préfèrent généralement Discourse, Flarum ou NodeBB.
+
+phpBB est écrit en PHP et s'installe sur une pile LAMP.
 
 ### Discourse
 
@@ -82,7 +80,7 @@ Créé en 2013 par Jeff Atwood (cofondateur de Stack Overflow), Discourse est de
 
 Il se distingue des forums classiques par son ergonomie (défilement infini, lecture en fil continu, édition en Markdown, aperçu en direct), par ses mécanismes de modération communautaire et de gestion de la confiance (*trust levels*), par son moteur de recherche intégré et par une intégration poussée au courriel (participation par simple réponse à une notification). Il sert aussi bien de forum public que de support client ou de liste de discussion interne.
 
-Discourse est développé en Ruby on Rails et Ember.js, et s'appuie sur PostgreSQL et Redis.
+Discourse est développé en Ruby on Rails et Ember.js et s'appuie sur PostgreSQL et Redis.
 
 ### Autres
 
@@ -108,22 +106,39 @@ La solution XWiki a été créée en 2004 par Ludovic Dubost. Elle est aujourd�
 
 Wiki applicatif de seconde génération, XWiki est utilisé pour du travail collaboratif, du partage d'informations, ou encore la mise en ligne de contenu structuré ou non. En plus des fonctionnalités wiki usuelles (mise-en-forme facilitée, gestion des droits d'accès, édition collaborative...), il offre la possibilité de programmer au sein même des pages du wiki. C'est ce qui en fait un wiki applicatif, c'est-à-dire capable d'évoluer en fonction des besoins de ses utilisateurs.
 
-XWiki est développé en Java sur une base Hibernate. Les langages de script utilisables au sein du wiki sont Velocity et Groovy, et l'extensibilité passe par un dépôt d'extensions bien fourni. Le produit est fréquemment employé comme socle d'intranet ou comme alternative à Confluence. La société XWiki SAS, éditrice du projet, développe également CryptPad, suite collaborative chiffrée de bout en bout.
+XWiki est développé en Java sur une base Hibernate. Les langages de script utilisables au sein du wiki sont Velocity et Groovy. L'extensibilité passe par un dépôt d'extensions bien fourni. Le produit est fréquemment employé comme socle d'intranet ou comme alternative à Confluence. La société XWiki SAS, éditrice du projet, développe également CryptPad, suite collaborative chiffrée de bout en bout.
+
+### MediaWiki
+
+Site
+: <https://www.mediawiki.org>
+
+Porteur
+: une fondation (Wikimedia Foundation) et une communauté
+
+Licence
+: GPL v2+
+
+MediaWiki est le moteur de Wikipédia et des autres projets de la fondation Wikimedia. Il est aussi utilisé par de nombreuses organisations pour leur documentation interne ou publique.
+
+Il gère l'historique des pages, les discussions, les catégories, les modèles et un très grand nombre de langues. Plusieurs centaines d'extensions complètent le noyau, dont l'éditeur visuel et Semantic MediaWiki, qui ajoute des données structurées et interrogeables.
+
+Deux limites sont à connaître. MediaWiki a été conçu pour des contenus ouverts : les droits de lecture par page ne font pas partie de son modèle. Un wiki à confidentialité fine s'appuiera plutôt sur XWiki. Les extensions doivent par ailleurs suivre le rythme des versions ; une version à support long (LTS) paraît tous les deux ans.
+
+MediaWiki est écrit en PHP et s'appuie le plus souvent sur MySQL ou MariaDB.
 
 ### PmWiki
 
 Site
-: <http://www.pmwiki.org/>
+: <https://www.pmwiki.net/>
 
 Porteur
-: Une communauté
+: une communauté
 
 Licence
 : GPL v2
 
-PmWiki est un moteur de wiki libre programmé par Patrick Michaud. Il utilise le language PHP et ne nécessite pas de base de données.
-
-L'approche de PmWiki est d'être centré sur les rédacteurs plutôt que les lecteurs, ce qui implique certaines limites aux documents rédigés, notamment dans leur présentation. PmWiki se concentre également sur un nombre de fonctionnalités répondant à des besoins bien spécifiques plutôt que des choses identifiées comme "pouvant être utiles". Ce ce fait, PmWiki dispose d'un champ fonctionnel réduit mais extremement pointu. L'approche modulaire de PmWiki permet également à chacun de se créer et de partager une fonctionnalité qu'il trouve intéressante.
+PmWiki est un moteur de wiki créé par Patrick Michaud, écrit en PHP, qui se passe de base de données. Son noyau est volontairement réduit et s'étend par des recettes (*cookbook*). Il est toujours maintenu, mais son usage est devenu confidentiel : pour un nouveau projet, on évaluera d'abord DokuWiki, qui partage la même approche, ou BookStack.
 
 ### Foswiki (issu de TWiki)
 
@@ -144,9 +159,7 @@ Foswiki est composé de scripts Perl. Les contenus sont stockés dans des fichie
 
 ### Autres
 
-- MediaWiki, le moteur de Wikipédia: <https://www.mediawiki.org>
 - DokuWiki (sans base de données): <https://www.dokuwiki.org>
 - MoinMoin: <https://moinmo.in/>
 - BookStack (documentation structurée, PHP/Laravel): <https://www.bookstackapp.com>
 - Wiki.js (Node.js): <https://js.wiki>
-- Outline (base de connaissances en Markdown): <https://www.getoutline.com>

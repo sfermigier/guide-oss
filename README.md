@@ -1,26 +1,8 @@
 # Guide des solutions open source
 
-Les pages qui suivent présentent plus de 250 produits, dans une quarantaine de domaines d’applications pour l’entreprise. Leur objectif est de constituer un référentiel large et pratique des meilleures solutions open source.
+Les pages qui suivent présentent plus de 350 produits, dans près de 80 domaines d’applications pour l’entreprise. Leur objectif est de constituer un référentiel large et pratique des meilleures solutions open source.
 
-Ces produits recouvrent un périmètre large. 
-
-## Choix des catégories
-
-Pour cela, nous avons commencé par établir la liste des catégories qui seraient présentes dans ce livre. Il était essentiel de faire des choix tant l’offre open source est large. Nous avons donc retenu tous les domaines qui font du sens pour l’entreprise, et où nous avons déjà implémenté des projets.
-
-Nous avons réparti ces 40 et quelques catégories en trois « dimensions » :
-
-- **Applications**, où l’on trouve par exemple : les CRM, les outils de décisionnel, les CMS, les outils de GED, les portails, les solutions d’e-commerce, etc.
-
-- **Infrastructure**, où l’on trouve par exemple : la gestion de parc, les firewalls, les vpn, la supervision, la virtualisation, les systèmes d’exploitation, les accélérateurs http, etc.
-
-- **Développement et couches intermédiaires**, où l’on trouve par exemple : les annuaires d’entreprise, les bases de données, les ESB, les frameworks web et mobile, les moteurs de recherche, les MOM et EAI, etc.
-
-## Sélection des solutions
-
-Dans de nombreux domaines, le secteur du logiciel libre est très concurrentiel. Des choix doivent être réalisés entre de nombreuses solutions, motivés par les critères suivants : dynamisme, périmètre fonctionnel, qualité du socle technique, souplesse / extensibilité, notoriété sur le marché français, existence de ressources sur le territoire français. Ces sont des critères en partie subjectifs, qui dépendent en partie de la perception et de l'expérience de chacun, ce qui explique que certaines solutions ne soient pas représentées.
-
-Nous espérons que cette sélection vous fournira les premières pistes pour avancer dans vos recherches, tout en vous recommandant d'effectuer le cas échéant des recherches complémentaires, par exemple en partant de Wikipedia.
+Le plan et les critères de sélection sont décrits dans [l’introduction](src/introduction.md).
 
 ## Evolution future de ce document
 

@@ -1,8 +1,8 @@
 # Web et communication
 
-Cette partie couvre tout ce par quoi une organisation s'adresse à l'extérieur et communique en son sein : le site web et le serveur qui le sert, la boutique en ligne, le moteur de recherche, la mesure d'audience, les forums et les wikis, le réseau social interne, la téléphonie, la messagerie et le portail.
+Cette partie couvre tout ce par quoi une organisation s'adresse à l'extérieur et communique en son sein : le site web, la boutique en ligne, la mesure d'audience, les forums et les wikis, le réseau social interne, la messagerie, la vidéo et le portail. Les [serveurs HTTP](serveurs-http.md) et la [téléphonie](voip-telephonie.md) figurent dans la partie Infrastructure, les [moteurs de recherche](moteurs-de-recherche.md) avec les bases de données.
 
-C'est le domaine où l'open source est le plus incontestablement dominant. Le web a été bâti avec des logiciels libres et continue de l'être : Apache et nginx servent l'essentiel des sites du monde, WordPress et Drupal motorisent une part considérable des pages publiées, et il n'existe pas de pile web propriétaire crédible. La question posée à une organisation est donc de savoir lequel elle retiendra, et à quelles conditions.
+C'est le domaine où l'open source est le plus incontestablement dominant. Le web a été bâti avec des logiciels libres et continue de l'être : Apache et nginx servent l'essentiel des sites du monde, WordPress et Drupal motorisent une part considérable des pages publiées. Il n'existe pas de pile web propriétaire crédible. La question posée à une organisation est donc de savoir lequel elle retiendra et à quelles conditions.
 
 Quatre sujets traversent l'ensemble des chapitres qui suivent.
 
@@ -12,18 +12,16 @@ Quatre sujets traversent l'ensemble des chapitres qui suivent.
 
 **La gouvernance des projets.** Les produits de cette partie sont massivement déployés, donc convoités. Le conflit ouvert en 2024 entre Automattic et un hébergeur WordPress, la reprise en main de nginx par F5 et les forks qui en sont nés, le passage d'un produit après l'autre à des licences restrictives : la vitalité d'un projet se lit autant à la solidité de sa gouvernance qu'à son nombre de contributeurs.
 
-**La convergence.** Un CMS gère un catalogue, une plateforme de commerce publie du contenu éditorial, une messagerie d'équipe intègre la visioconférence. Les chapitres se lisent donc les uns avec les autres, et leurs sections « Voir également » signalent les recouvrements.
+**La convergence.** Un CMS gère un catalogue, une plateforme de commerce publie du contenu éditorial, une messagerie d'équipe intègre la visioconférence. Les chapitres se lisent donc les uns avec les autres. Leurs sections « Voir également » signalent les recouvrements.
 
-Cette partie est, avec l'infrastructure, la plus fournie du guide :
+Cette partie comprend les catégories suivantes :
 
-- [Serveurs http](serveurs-http.md)
 - [CMS](cms.md)
-- [E-Commerce](e-commerce.md)
-- [Moteurs de recherche](moteurs-de-recherche.md)
+- [E-commerce](e-commerce.md)
 - [Suivi d’audience](suivi-audience.md)
-- [Blog, Wiki et Forum](blog-wiki-et-forum.md)
+- [Blogs, wikis et forums](blog-wiki-et-forum.md)
 - [Réseaux sociaux d’entreprise (RSE)](reseaux-sociaux-entreprise-rse.md)
-- [VOIP / Téléphonie](voip-telephonie.md)
 - [Messagerie instantanée et visioconférence](messagerie-instantanee-et-visio.md)
-- [Messagerie, Emailing & Groupware](messagerie-email-groupware.md)
-- [Portail](portail.md)
+- [Messagerie, emailing et groupware](messagerie-email-groupware.md)
+- [Portails](portail.md)
+- [Vidéo](video.md)

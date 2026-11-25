@@ -7,18 +7,18 @@
 
 [project]
 site_name = "Guide des solutions libres et open source"
-site_description = "Référentiel des meilleures solutions open source pour l'entreprise : plus de 250 produits dans une quarantaine de domaines."
+site_description = "Référentiel des meilleures solutions open source pour l'entreprise : plus de 350 produits dans près de 80 domaines."
 site_author = "Stefane Fermigier"
 site_url = "https://guide-solutions-opensource.com/"
 copyright = """
-Copyright &copy; 2012-2026 Stefane Fermigier et contributeurs &middot; GNU FDL 1.3 / CC BY-ND 3.0
+Copyright &copy; 2012-2026 Stefane Fermigier et contributeurs &middot; GNU FDL 1.3
 """
 
 docs_dir = "src"
 site_dir = "site"
 
-# Mise en forme des trois métadonnées (Site, Porteur, Licence) de chaque fiche.
-extra_css = ["stylesheets/fiches.css"]
+# Mise en forme des fiches (Site, Porteur, Licence) et de la page d’accueil.
+extra_css = ["stylesheets/fiches.css", "stylesheets/accueil.css"]
 
 # Matomo : installé une seule fois, compte les vues via `document$`.
 extra_javascript = ["javascripts/analytics.js"]
@@ -28,107 +28,164 @@ extra_javascript = ["javascripts/analytics.js"]
 # casser les liens entrants ni le référencement acquis.
 use_directory_urls = false
 
+# Les groupes et leurs libellés sont ceux de la page d’accueil (src/index.md).
+#
 # Sommaire du site : chaque entrée de premier niveau est un onglet du menu
 # horizontal, ses enfants forment le menu de gauche. Toute page ajoutée dans
 # src/ doit être déclarée ici, sans quoi elle se construit mais n'apparaît pas.
 
 nav = [
-    { "Accueil" = [
-        { "Accueil" = "index.md" },
-        { "Introduction" = "introduction.md" },
-        { "Conclusion" = "conclusion.md" },
-        { "Licences et copyright" = "licences.md" },
-        { "Remerciements" = "remerciements.md" },
-        { "Changelog" = "changelog.md" },
-        { "TODO" = "todo.md" },
-    ] },
+    { "Accueil" = "index.md" },
+    { "Introduction" = "introduction.md" },
     { "Applications" = [
-        { "Présentation" = "applications.md" },
-        { "Applications génériques" = [
-            { "Présentation" = "applications-generiques/index.md" },
+        { "Présentation" = [
+            { "Vue d’ensemble" = "applications.md" },
+            { "Applications génériques" = "applications-generiques/index.md" },
+            { "Applicatifs métiers" = "applications-metiers/index.md" },
+            { "Web et communication" = "web-communication/index.md" },
+            { "Poste client et bureautique" = "poste-client-bureautique/index.md" },
+        ] },
+        { "Gestion" = [
             { "CRM" = "applications-generiques/crm.md" },
             { "ERP / PGI" = "applications-generiques/erp-pgi.md" },
-            { "Décisionnel : ETL" = "applications-generiques/decisionnel-etl.md" },
-            { "Décisionnel : Reporting" = "applications-generiques/decisionnel-reporting.md" },
-            { "Décisionnel : Suite" = "applications-generiques/decisionnel-suite.md" },
-            { "GED & ECM" = "applications-generiques/ged-ecm.md" },
-            { "Autres" = "applications-generiques/autres.md" },
         ] },
-        { "Applicatifs métiers" = [
-            { "Présentation" = "applications-metiers/index.md" },
-            { "Bibliothèque & Documentation" = "applications-metiers/bibliotheque-documentation.md" },
-            { "E-Learning" = "applications-metiers/e-learning.md" },
-            { "Transport / Logistique" = "applications-metiers/transport-logistique.md" },
-            { "Autres" = "applications-metiers/autres.md" },
+        { "Décisionnel" = [
+            { "ETL" = "applications-generiques/decisionnel-etl.md" },
+            { "Reporting" = "applications-generiques/decisionnel-reporting.md" },
+            { "Suites décisionnelles" = "applications-generiques/decisionnel-suite.md" },
         ] },
-        { "Web et communication" = [
-            { "Présentation" = "web-communication/index.md" },
-            { "Serveurs http" = "web-communication/serveurs-http.md" },
+        { "Documents et collaboration" = [
+            { "GED et ECM" = "applications-generiques/ged-ecm.md" },
+            { "Suites collaboratives" = "applications-generiques/suites-collaboratives.md" },
+            { "Gestion de projet" = "applications-generiques/gestion-de-projet.md" },
+            { "Signature électronique" = "applications-generiques/signature-electronique.md" },
+        ] },
+        { "Support, automatisation et IA" = [
+            { "Support et helpdesk" = "applications-generiques/support-helpdesk.md" },
+            { "Automatisation et no-code" = "applications-generiques/automatisation-no-code.md" },
+            { "Intelligence artificielle" = "applications-generiques/intelligence-artificielle.md" },
+        ] },
+        { "Métiers" = [
+            { "Bibliothèque et documentation" = "applications-metiers/bibliotheque-documentation.md" },
+            { "E-learning" = "applications-metiers/e-learning.md" },
+            { "Transport et logistique" = "applications-metiers/transport-logistique.md" },
+        ] },
+        { "Sites web" = [
             { "CMS" = "web-communication/cms.md" },
-            { "E-Commerce" = "web-communication/e-commerce.md" },
-            { "Moteurs de recherche" = "web-communication/moteurs-de-recherche.md" },
+            { "E-commerce" = "web-communication/e-commerce.md" },
+            { "Portails" = "web-communication/portail.md" },
+            { "Blogs, wikis et forums" = "web-communication/blog-wiki-et-forum.md" },
             { "Suivi d’audience" = "web-communication/suivi-audience.md" },
-            { "Blog, Wiki et Forum" = "web-communication/blog-wiki-et-forum.md" },
-            { "Réseaux sociaux d’entreprise (RSE)" = "web-communication/reseaux-sociaux-entreprise-rse.md" },
-            { "VOIP / Téléphonie" = "web-communication/voip-telephonie.md" },
+            { "Vidéo" = "web-communication/video.md" },
+        ] },
+        { "Communication" = [
+            { "Messagerie, emailing et groupware" = "web-communication/messagerie-email-groupware.md" },
             { "Messagerie instantanée et visioconférence" = "web-communication/messagerie-instantanee-et-visio.md" },
-            { "Messagerie, Emailing & Groupware" = "web-communication/messagerie-email-groupware.md" },
-            { "Portail" = "web-communication/portail.md" },
+            { "Réseaux sociaux d’entreprise" = "web-communication/reseaux-sociaux-entreprise-rse.md" },
         ] },
         { "Poste client et bureautique" = [
-            { "Présentation" = "poste-client-bureautique/index.md" },
             { "Suites bureautiques" = "poste-client-bureautique/suites-bureautiques.md" },
             { "Navigateurs web" = "poste-client-bureautique/navigateurs-web.md" },
             { "Messagerie, agenda et contacts" = "poste-client-bureautique/messagerie-agenda-et-contacts.md" },
             { "Graphisme, image et PAO" = "poste-client-bureautique/graphisme-image-et-pao.md" },
             { "Audio, vidéo et capture" = "poste-client-bureautique/audio-video-et-capture.md" },
-            { "Sécurité et confidentialité du poste" = "poste-client-bureautique/securite-du-poste.md" },
+            { "Sécurité du poste" = "poste-client-bureautique/securite-du-poste.md" },
             { "Notes, documents et synchronisation" = "poste-client-bureautique/notes-documents-et-synchronisation.md" },
+            { "Postes de travail Linux" = "poste-client-bureautique/postes-linux.md" },
+        ] },
+        { "Autres" = [
+            { "Autres applications génériques" = "applications-generiques/autres.md" },
+            { "Autres applicatifs métiers" = "applications-metiers/autres.md" },
         ] },
     ] },
     { "Développement et couches intermédiaires" = [
-        { "Présentation" = "developpement-et-middleware.md" },
-        { "Outils de développement" = [
-            { "Présentation" = "developpement/index.md" },
-            { "Frameworks Web (backend)" = "developpement/frameworks-web-backend.md" },
-            { "Frameworks mobiles cross-platform" = "developpement/frameworks-mobiles-cross-platform.md" },
-            { "Outils de développement" = "developpement/outils-de-developpement.md" },
-            { "Outils de tests de charge" = "developpement/outils-de-tests-de-charge.md" },
-            { "Autres" = "developpement/autres.md" },
+        { "Présentation" = [
+            { "Vue d’ensemble" = "developpement-et-middleware.md" },
+            { "Outils de développement" = "developpement/index.md" },
+            { "Bases de données et middleware" = "sgbd-middleware/index.md" },
+            { "Outils pour le DevOps" = "devops/index.md" },
         ] },
-        { "Bases de données (tous types) et middleware" = [
-            { "Présentation" = "sgbd-middleware/index.md" },
+        { "Frameworks" = [
+            { "Web (backend)" = "developpement/frameworks-web-backend.md" },
+            { "Web (frontend)" = "developpement/frameworks-web-frontend.md" },
+            { "Mobile multiplateforme" = "developpement/frameworks-mobiles-cross-platform.md" },
+        ] },
+        { "Outils et tests" = [
+            { "Outils de développement" = "developpement/outils-de-developpement.md" },
+            { "Tests et intégration continue" = "devops/tests-integration-continue.md" },
+            { "Tests de charge" = "developpement/outils-de-tests-de-charge.md" },
+        ] },
+        { "Données et recherche" = [
             { "Bases de données relationnelles" = "sgbd-middleware/bases-de-donnees.md" },
-            { "Big Data et NoSQL" = "sgbd-middleware/nosql.md" },
-            { "Annuaire d’entreprise" = "sgbd-middleware/annuaire-entreprise.md" },
+            { "Big data et NoSQL" = "sgbd-middleware/nosql.md" },
+            { "Moteurs de recherche" = "web-communication/moteurs-de-recherche.md" },
+        ] },
+        { "Intégration et processus" = [
             { "ESB" = "sgbd-middleware/esb.md" },
-            { "MOM & EAI" = "sgbd-middleware/mom-eai.md" },
-            { "BPM / Workflow" = "sgbd-middleware/bpm-workflow.md" },
+            { "MOM et EAI" = "sgbd-middleware/mom-eai.md" },
+            { "BPM et workflow" = "sgbd-middleware/bpm-workflow.md" },
             { "Serveurs d’applications" = "sgbd-middleware/serveurs-applications.md" },
         ] },
-        { "Outils pour le DevOps" = [
-            { "Présentation" = "devops/index.md" },
-            { "Tests & intégration continue" = "devops/tests-integration-continue.md" },
-            { "Déploiement" = "devops/deploiement.md" },
-        ] },
+        { "Autres" = "developpement/autres.md" },
     ] },
     { "Infrastructure" = [
         { "Présentation" = "infrastructure/index.md" },
-        { "Système d’exploitation Linux & BSD" = "infrastructure/systeme-exploitation-linux-bsd.md" },
-        { "Solutions pour l’auto-hébergement (ou self-hosting)" = "infrastructure/auto-hebergement.md" },
-        { "Sécurité" = "infrastructure/securite.md" },
-        { "PKI" = "infrastructure/pki.md" },
-        { "Authentification, fédération et gestion d’identité" = "infrastructure/authentification-federation-et-gestion-identite.md" },
-        { "Firewalls" = "infrastructure/firewalls.md" },
-        { "VPN" = "infrastructure/vpn.md" },
-        { "Virtualisation" = "infrastructure/virtualisation.md" },
-        { "Supervision et Métrologie" = "infrastructure/supervision-et-metrologie.md" },
-        { "Contrôle de postes à distance" = "infrastructure/controle-de-postes-a-distance.md" },
-        { "Gestion de parc et inventaires" = "infrastructure/gestion-de-parc-et-inventaires.md" },
-        { "Sauvegarde" = "infrastructure/sauvegarde.md" },
-        { "Haute disponibilité" = "infrastructure/haute-disponibilite.md" },
-        { "Accélérateur Http" = "infrastructure/accelerateur-http.md" },
+        { "Systèmes et virtualisation" = [
+            { "Linux et BSD" = "infrastructure/systeme-exploitation-linux-bsd.md" },
+            { "Virtualisation" = "infrastructure/virtualisation.md" },
+            { "Conteneurs et orchestration" = "infrastructure/conteneurs-orchestration.md" },
+            { "IaaS et cloud privé" = "infrastructure/iaas-cloud-prive.md" },
+        ] },
+        { "PaaS et auto-hébergement" = [
+            { "PaaS" = "infrastructure/paas.md" },
+            { "Auto-hébergement" = "infrastructure/auto-hebergement.md" },
+        ] },
+        { "Web et flux" = [
+            { "Serveurs HTTP" = "web-communication/serveurs-http.md" },
+            { "Accélérateurs HTTP" = "infrastructure/accelerateur-http.md" },
+            { "Proxys inverses et API gateways" = "infrastructure/proxys-inverses-api-gateways.md" },
+        ] },
+        { "Réseau" = [
+            { "Firewalls" = "infrastructure/firewalls.md" },
+            { "VPN" = "infrastructure/vpn.md" },
+            { "DNS et DHCP" = "infrastructure/dns-dhcp.md" },
+        ] },
+        { "Sécurité et identité" = [
+            { "Sécurité" = "infrastructure/securite.md" },
+            { "SIEM et WAF" = "infrastructure/siem-waf.md" },
+            { "PKI" = "infrastructure/pki.md" },
+            { "Authentification, fédération et gestion d’identité" = "infrastructure/authentification-federation-et-gestion-identite.md" },
+            { "Annuaires d’entreprise" = "sgbd-middleware/annuaire-entreprise.md" },
+            { "Secrets et mots de passe" = "infrastructure/secrets-mots-de-passe.md" },
+            { "Bastions" = "infrastructure/bastions.md" },
+        ] },
+        { "Exploitation" = [
+            { "Déploiement" = "devops/deploiement.md" },
+            { "Supervision et métrologie" = "infrastructure/supervision-et-metrologie.md" },
+            { "Journaux et traces" = "infrastructure/journaux-traces.md" },
+            { "Haute disponibilité" = "infrastructure/haute-disponibilite.md" },
+        ] },
+        { "Messagerie et téléphonie" = [
+            { "Serveurs de messagerie" = "infrastructure/serveurs-messagerie.md" },
+            { "VoIP et téléphonie" = "web-communication/voip-telephonie.md" },
+        ] },
+        { "Stockage et sauvegarde" = [
+            { "Stockage" = "infrastructure/stockage.md" },
+            { "Sauvegarde" = "infrastructure/sauvegarde.md" },
+        ] },
+        { "Postes et parc" = [
+            { "Gestion de parc et inventaires" = "infrastructure/gestion-de-parc-et-inventaires.md" },
+            { "Déploiement de postes" = "infrastructure/deploiement-postes.md" },
+            { "Contrôle de postes à distance" = "infrastructure/controle-de-postes-a-distance.md" },
+        ] },
         { "Autres" = "infrastructure/autres.md" },
+    ] },
+    { "Conclusion & annexes" = [
+        { "Conclusion" = "conclusion.md" },
+        { "Licences et copyright" = "licences.md" },
+        { "Remerciements" = "remerciements.md" },
+        { "Changelog" = "changelog.md" },
+        { "Contribuer" = "todo.md" },
     ] },
 ]
 

@@ -2,7 +2,7 @@
 
 Cette section présente les outils utiles aux développements d’applications, web notamment.
 
-On y trouve des outils de gestion de projet comme Redmine, des forges logicielles comme GitLab, Forgejo ou Tuleap, des gestionnaires de tickets comme MantisBT, des environnements de développement comme Eclipse ou Visual Studio Code, et des outils de gestion de sources comme Git.
+On y trouve des outils de gestion de projet comme Redmine, des forges logicielles comme GitLab, Forgejo ou Tuleap, des gestionnaires de tickets comme MantisBT, des environnements de développement comme Eclipse ou Visual Studio Code et des outils de gestion de sources comme Git.
 
 Comme on le voit, l’open source offre d’excellentes briques de développement pour bâtir des projets ambitieux dans des conditions optimales.
 
@@ -36,7 +36,7 @@ Redmine a été développé en Ruby sur la base du framework Ruby on Rails.
 ### Tuleap
 
 Site
-: <https://www.tuleap.org/>
+: <https://www.tuleap.com/>
 
 Porteur
 : un éditeur (Enalean)
@@ -44,13 +44,51 @@ Porteur
 Licence
 : GPL
 
-Tuleap est une Suite Logicielle open source qui fournit les outils nécessaires aux entreprises pour un développement logiciel et une collaboration efficace. Egalement appelée Forge Logicielle ou ALM (application life cycle management), Tuleap a été développée par la société Enalean.
+Tuleap est une Suite Logicielle open source qui fournit les outils nécessaires aux entreprises pour un développement logiciel et une collaboration efficace. Également appelée Forge Logicielle ou ALM (application life cycle management), Tuleap a été développée par la société Enalean.
 
 Tuleap est un logiciel utilisé par plusieurs dizaines de milliers d'utilisateurs dans le monde pour leurs développements professionnels, dans de grandes entreprises telles que STMicroelectronics, ST-Ericsson ou encore Orange. Tuleap est une suite ALM complète : tracking de bugs, de tests, de risques, etc, gestion de versions, intégration continue, gestion documentaire, outils de collaboration, etc.
 
-L'éditeur de Tuleap, Enalean, est une société française qui a fondé son modèle économique sur le support et les services professionnels
+L'éditeur de Tuleap, Enalean, est une société française qui a fondé son modèle économique sur le support et les services professionnels.
 
 Tuleap est écrit majoritairement en PHP.
+
+### GitLab Community Edition
+
+Site
+: <https://about.gitlab.com/>
+
+Porteur
+: un éditeur (GitLab Inc.)
+
+Licence
+: MIT pour l'édition communautaire, propriétaire pour le répertoire `ee/` de l'édition Enterprise
+
+Né en 2011, GitLab est la forge auto-hébergeable la plus complète : dépôts Git, revue de code, tickets, wiki, intégration et déploiement continus, registres de paquets et d'images de conteneurs.
+
+L'ensemble est cohérent et couvre à lui seul la chaîne de développement d'une organisation. La contrepartie est le coût d'exploitation : une instance demande au moins 8 Go de mémoire, agrège de nombreux composants (PostgreSQL, Redis, Gitaly, Sidekiq) et doit suivre des versions mensuelles.
+
+GitLab est un cas typique d'*open core*. Le code est public, mais une partie des fonctions (gouvernance, sécurité, gestion de portefeuille) relève des abonnements Premium et Ultimate. L'édition Enterprise est proposée par défaut à l'installation ; pour n'utiliser que du code libre, il faut choisir explicitement les paquets de la Community Edition.
+
+GitLab est écrit principalement en Ruby on Rails, avec des composants en Go et une interface en Vue.js.
+
+### Forgejo
+
+Site
+: <https://forgejo.org/>
+
+Porteur
+: une communauté, hébergée par une association (Codeberg e.V.)
+
+Licence
+: GPL v3+ depuis la version 9 (MIT auparavant)
+
+Forgejo est une forge légère, issue d'un fork de Gitea lancé fin 2022 à la suite du transfert de celui-ci à une société commerciale. Ses noms de domaine sont détenus par l'association allemande Codeberg e.V., dont la plateforme publique codeberg.org l'utilise ; la gouvernance du projet en reste distincte.
+
+Il offre dépôts Git, tickets, demandes de fusion, wiki, registre de paquets et une intégration continue, Forgejo Actions, dont la syntaxe est proche de celle de GitHub Actions. Il se déploie sous la forme d'un binaire unique, avec SQLite, PostgreSQL ou MySQL, ce qui le rend adapté aux petites et moyennes équipes.
+
+Le code est désormais indépendant de celui de Gitea. La migration depuis les versions récentes de ce dernier n'est plus garantie. Forgejo n'a pas d'édition commerciale : le support repose sur la communauté et sur des prestataires.
+
+Forgejo est écrit en Go.
 
 ### MantisBT
 
@@ -71,8 +109,6 @@ MantisBT est développé en PHP et nécessite l'utilisation d'une base de donné
 
 ### Autres
 
-- GitLab Community Edition, forge complète (dépôts, tickets, revue de code, CI/CD, registre de conteneurs): <https://about.gitlab.com/>
-- Forgejo, fork communautaire de Gitea porté par Codeberg: <https://forgejo.org/>
 - Gitea, forge légère écrite en Go: <https://about.gitea.com/>
 - OpenProject (gestion de projet et de portefeuille): <https://www.openproject.org/>
 - Trac: <https://trac.edgewall.org/>
@@ -117,7 +153,7 @@ Il a été créé pour s'utiliser via la ligne de commande, mais propose une int
 
 Ses principales caractéristiques sont sa capacité à gérer les gros projets, son fonctionnement complètement distribué ne nécessitant pas de serveur, sa gestion avancée des branches et des fusions, ainsi que la traçabilité de l'évolution de l'historique (*changeset evolution*).
 
-Mercurial est écrit principalement en Python. Son usage a toutefois beaucoup reculé face à Git, notamment depuis l'abandon de sa prise en charge par les principaux hébergeurs : il reste employé dans quelques grands projets (Mozilla, Nokia, Facebook en interne) et par des organisations attachées à son ergonomie.
+Mercurial est écrit principalement en Python. Son usage a toutefois beaucoup reculé face à Git, notamment depuis l'abandon de sa prise en charge par les principaux hébergeurs : Mozilla, longtemps son utilisateur le plus visible, a fait de Git le dépôt de référence de Firefox en 2025. Il reste employé par des organisations attachées à son ergonomie.
 
 ## Environnement de développement intégrés
 
@@ -134,7 +170,7 @@ Licence
 
 Eclipse est un environnement de développement extensible et polyvalent, initié par IBM en 2001 et porté depuis 2004 par la Fondation Eclipse.
 
-Conçu autour d'une plateforme commune à laquelle s'agrègent des composants dérivatifs, le projet est ainsi constitué de nombreux sous-projets spécifiques aux technologies sous-jacentes. L’object de la solution Eclipse est de fournir des outils favorisant la productivité, mais pas seulement celle qui concerne le codage logiciel. On y trouve des environnements de développement intégré mais également de conception, de modélisation, de tests, de reporting, etc. Eclipse a beau être écrit en Java, il peut être utilisé pour développer sous de très nombreux langages de programmation.
+Conçu autour d'une plateforme commune à laquelle s'agrègent des composants dérivatifs, le projet est ainsi constitué de nombreux sous-projets spécifiques aux technologies sous-jacentes. L’objectif de la solution Eclipse est de fournir des outils favorisant la productivité, mais pas seulement celle qui concerne le codage logiciel. On y trouve des environnements de développement intégré mais également de conception, de modélisation, de tests, de reporting, etc. Eclipse a beau être écrit en Java, il peut être utilisé pour développer sous de très nombreux langages de programmation.
 
 Eclipse est écrit en Java. Le projet reste très vivant dans l'écosystème Java d'entreprise et sert de socle à de nombreux produits (outils de modélisation, BIRT, Jaspersoft Studio), même si, sur le poste des développeurs, la concurrence de Visual Studio Code et des environnements de JetBrains est désormais écrasante.
 
@@ -144,7 +180,7 @@ Site
 : <https://code.visualstudio.com/> et <https://vscodium.com/>
 
 Porteur
-: Microsoft (Code - OSS) et une communauté (VSCodium)
+: un éditeur (Microsoft) et une communauté (VSCodium)
 
 Licence
 : MIT pour le code source
@@ -166,8 +202,4 @@ Porteur
 Licence
 : EPL (Eclipse Public License)
 
-Acceleo est un générateur de code qui permet de transformer des modèles vers du code (approche MDA - Model driven Architecture).
-
-Acceleo a l'originalité de laisser à l'utilisateur le choix dans le formalisme de modélisation en entrée, et dans le type de langage et de framework à générer en sortie. Ainsi, de nombreux éditeurs sous Eclipse ont été créés pour simplifier la création de générateurs sur mesure, via une approche fondée sur des templates et une syntaxe standardisée.
-
-Acceleo est écrit en Java.
+Acceleo est un générateur de texte et de code à partir de modèles (approche MDA, *Model Driven Architecture*), écrit en Java et issu de la société française Obeo. Il s'appuie sur les modèles EMF d'Eclipse et sur des gabarits. Le projet est maintenu, mais son usage se limite surtout à l'ingénierie dirigée par les modèles, où il accompagne des outils comme Capella.

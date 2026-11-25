@@ -1,10 +1,10 @@
 # Messagerie, agenda et contacts
 
-Cette section traite des clients installés sur le poste de travail. Les serveurs correspondants (SMTP, IMAP, groupware, antispam) font l'objet de la section [Messagerie, Emailing & Groupware](../web-communication/messagerie-email-groupware.md), et la messagerie instantanée de la section [Messagerie instantanée et visioconférence](../web-communication/messagerie-instantanee-et-visio.md).
+Cette section traite des clients installés sur le poste de travail. Les serveurs correspondants (SMTP, IMAP, groupware, antispam) font l'objet de la section [Messagerie, emailing et groupware](../web-communication/messagerie-email-groupware.md) ; la messagerie instantanée, celui de la section [Messagerie instantanée et visioconférence](../web-communication/messagerie-instantanee-et-visio.md).
 
-Le client lourd n'a pas disparu au profit du webmail, pour trois raisons persistantes : le travail hors connexion, la manipulation d'archives volumineuses que les interfaces web traitent mal, et le chiffrement de bout en bout, qui suppose que les clés restent sur le poste.
+Le client lourd n'a pas disparu au profit du webmail, pour trois raisons persistantes : le travail hors connexion, la manipulation d'archives volumineuses que les interfaces web traitent mal et le chiffrement de bout en bout, qui suppose que les clés restent sur le poste.
 
-Le point d'attention d'un déploiement est presque toujours le même : la connexion à un serveur Exchange ou à Microsoft 365. Les protocoles ouverts (IMAP, CalDAV, CardDAV) ne suffisent pas toujours, et l'authentification moderne par OAuth 2.0, désormais imposée par Microsoft, exige un client à jour et un enregistrement d'application côté annuaire. C'est à vérifier avant tout engagement.
+Le point d'attention d'un déploiement est presque toujours le même : la connexion à un serveur Exchange ou à Microsoft 365. Les protocoles ouverts (IMAP, CalDAV, CardDAV) ne suffisent pas toujours. L'authentification moderne par OAuth 2.0, désormais imposée par Microsoft, exige un client à jour et un enregistrement d'application côté annuaire. C'est à vérifier avant tout engagement.
 
 ## Thunderbird
 
@@ -17,11 +17,11 @@ Porteur
 Licence
 : MPL 2.0
 
-Mozilla Thunderbird est un client de messagerie électronique, un gestionnaire d'informations personnelles, un client NNTP, un client RSS et un client de discussion, publié sous licence libre. Son développement est assuré depuis 2020 par MZLA Technologies Corporation, filiale de la Fondation Mozilla, et financé par les dons des utilisateurs.
+Mozilla Thunderbird est un client de messagerie électronique, un gestionnaire d'informations personnelles, un client NNTP, un client RSS et un client de discussion, publié sous licence libre. Son développement est assuré depuis 2020 par MZLA Technologies Corporation, filiale de la Fondation Mozilla. Il est financé par des dons.
 
-Après plusieurs années de stagnation, le projet a repris un rythme de publication soutenu : refonte complète de l'interface, gestion native des comptes Exchange sans connecteur tiers, prise en charge d'OAuth 2.0, moteur de recherche revu, et déclinaison mobile Thunderbird for Android issue du projet K-9 Mail.
+Après plusieurs années de stagnation, le projet a repris un rythme de publication soutenu : refonte complète de l'interface, gestion native des comptes Exchange sans connecteur tiers, prise en charge d'OAuth 2.0, moteur de recherche revu et déclinaison mobile Thunderbird for Android issue du projet K-9 Mail.
 
-C'est le client de référence pour un parc hétérogène : il fonctionne à l'identique sous Windows, macOS et Linux, s'administre par stratégies d'entreprise comme Firefox, gère le chiffrement OpenPGP nativement et S/MIME par certificats, et importe les archives des clients qu'il remplace. Les versions ESR conviennent aux déploiements qui doivent figer une version majeure.
+C'est le client de référence pour un parc hétérogène : il fonctionne à l'identique sous Windows, macOS et Linux, s'administre par stratégies d'entreprise comme Firefox, gère le chiffrement OpenPGP nativement et S/MIME par certificats et importe les archives des clients qu'il remplace. Les versions ESR conviennent aux déploiements qui doivent figer une version majeure.
 
 Thunderbird est écrit en C++ et JavaScript.
 
@@ -31,7 +31,7 @@ Site
 : <https://wiki.gnome.org/Apps/Evolution>
 
 Porteur
-: une communauté (projet GNOME), avec le soutien de Red Hat
+: une communauté (projet GNOME)
 
 Licence
 : LGPL v2 et GPL v2

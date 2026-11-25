@@ -2,7 +2,7 @@
 
 Dans cette rubrique, nous présentons les principaux serveurs d’applications Java (Jakarta EE) open source du marché.
 
-Le contexte a toutefois changé en profondeur : le modèle du serveur d'applications dans lequel on déploie des archives applicatives a largement cédé la place à celui de l'application autonome embarquant son propre serveur (Spring Boot, Quarkus, Micronaut, Helidon), plus simple à conteneuriser et à déployer. Les serveurs présentés ci-dessous restent néanmoins en production dans de nombreux systèmes d'information, et Tomcat comme Jetty sont, de fait, les moteurs embarqués par ces mêmes frameworks.
+Le contexte a toutefois changé en profondeur : le modèle du serveur d'applications dans lequel on déploie des archives applicatives a largement cédé la place à celui de l'application autonome embarquant son propre serveur (Spring Boot, Quarkus, Micronaut, Helidon), plus simple à conteneuriser et à déployer. Les serveurs présentés ci-dessous restent néanmoins en production dans de nombreux systèmes d'information. Tomcat comme Jetty sont, de fait, les moteurs embarqués par ces mêmes frameworks.
 
 ## WildFly
 
@@ -36,8 +36,6 @@ Apache Tomcat est le conteneur de servlets JEE de la fondation Apache. Le projet
 
 Il s'agit du serveur d'applications Java le plus utilisé au monde, d'autant qu'il est embarqué par défaut par Spring Boot. Son interface d'administration est très sommaire : on l'associe souvent à un serveur web ou à un proxy inverse plus généraliste (Apache httpd, nginx), qui sert les contenus statiques et lui délègue les traitements Java (servlets, JSP).
 
-Tomcat est distribué sous la licence Apache.
-
 Tomcat a été écrit en langage Java. Il peut donc s'exécuter via la machine virtuelle Java sur n'importe quel système d'exploitation qui l'accueille.
 
 ## Eclipse GlassFish
@@ -48,18 +46,17 @@ Site
 Porteur
 : une fondation (Eclipse)
 
-GlassFish était l'implémentation de référence Java EE développée par Sun Microsystems puis par Oracle. La première version date de 2006. Oracle a transféré Java EE à la fondation Eclipse en 2017, ce qui a donné naissance à Jakarta EE : GlassFish y est désormais maintenu comme implémentation de référence de la norme.
-
-GlassFish est distribué sous licences EPL 2.0 et GPL v2 avec *classpath exception*.
+Licence
+: EPL 2.0 ou GPL v2 avec *classpath exception*
 
 GlassFish est écrit en Java.
 
 ## Autres
 
 - Eclipse Jetty, serveur léger très utilisé en embarqué: <https://jetty.org/>
-- Payara Server, dérivé de GlassFish avec un support commercial et un rythme de publication soutenu: <https://www.payara.fish/>
+- Payara Server, dérivé de GlassFish avec un support commercial, édité par Azul depuis le rachat de Payara annoncé en décembre 2025: <https://www.azul.com/products/payara-server/>
 - Open Liberty, serveur d'IBM sous licence EPL, certifié Jakarta EE et MicroProfile: <https://openliberty.io/>
 - Apache TomEE, Tomcat enrichi des API Jakarta EE: <https://tomee.apache.org/>
-- Quarkus, pour les architectures conteneurisées (section [Frameworks Web (backend)](../developpement/frameworks-web-backend.md)): <https://quarkus.io/>
+- Quarkus, pour les architectures conteneurisées (section [Frameworks web (backend)](../developpement/frameworks-web-backend.md)): <https://quarkus.io/>
 
-Apache Geronimo, cité dans les éditions précédentes, n'est plus maintenu : le projet indique lui-même que le serveur d'applications n'est plus développé.
+Apache Geronimo n'est plus maintenu : le projet indique lui-même que le serveur d'applications n'est plus développé.

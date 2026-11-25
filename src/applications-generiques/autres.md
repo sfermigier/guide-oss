@@ -1,25 +1,25 @@
-# Autres
+# Autres applications génériques { #autres }
 
 Dans cette dernière rubrique de la dimension « Applications », nous présentons d’autres outils open source qui peuvent trouver leur intérêt dans les entreprises même s’il est difficile d’en faire une catégorie à part entière.
 
-Nous présentons notamment QGis (un système d'information géographique bureautique), Revive Adserver (un outil de régie publicitaire) et LimeSurvey (un outil avancé de création de sondages et d’enquêtes professionnels).
+Nous présentons notamment QGIS (un système d'information géographique bureautique), Revive Adserver (un outil de régie publicitaire) et LimeSurvey (un outil avancé de création de sondages et d’enquêtes professionnels).
 
-## Quantum GIS
+## QGIS { #quantum-gis }
 
 Site
 : <https://www.qgis.org>
 
 Porteur
-: La communauté
+: une communauté
 
 Licence
 : GPL v2
 
-Quantum GIS, ou QGIS, est un système d'information géographique bureautique. QGIS permet d'ouvrir les fichiers contenant de l'information géographique (Shapefiles, bases de données PostGIS, KML...), et de les visualiser. Il possède des fonctions d'édition de données, ainsi que de croisement et de traitement de l'information. Il prend en charge les standards en vigueur.
+QGIS (anciennement Quantum GIS) est un système d'information géographique bureautique. QGIS permet d'ouvrir les fichiers contenant de l'information géographique (Shapefiles, bases de données PostGIS, KML...) et de les visualiser. Il possède des fonctions d'édition de données, ainsi que de croisement et de traitement de l'information. Il prend en charge les standards en vigueur.
 
 QGIS est extensible et possède des centaines de plugins pour des usages divers, de la connexion à des catalogues OpenData, jusqu'à l'édition de jeux de cartes, en passant par des usages métiers spécifiques.
 
-Au delà d'un simple logiciel bureautique, QGIS est aussi une plateforme permettant de développer des solutions fondées sur des données cartographiques de façon efficace.
+Au-delà d'un simple logiciel bureautique, QGIS est aussi une plateforme permettant de développer des solutions fondées sur des données cartographiques de façon efficace.
 
 ## Revive Adserver (ex-OpenX Source)
 
@@ -44,13 +44,13 @@ Site
 : <https://www.limesurvey.org>
 
 Porteur
-: une communauté
+: un éditeur (LimeSurvey GmbH)
 
 Licence
-: GPL
+: GPL v2 ou ultérieure
 
-LimeSurvey (anciennement PHPSurveyor) est un logiciel libre de sondage en ligne. Il a été inscrit sur SourceForge.net sous le nom de PHPSurveyor le 20 février 2003. Il a été écrit par un développeur Australien nommé Jason Cleeland.
+LimeSurvey (anciennement PHPSurveyor) est un logiciel libre de sondage en ligne. Il a été inscrit sur SourceForge.net sous le nom de PHPSurveyor le 20 février 2003. Il a été écrit par un développeur australien nommé Jason Cleeland.
 
-LimeSurvey est un outil open source complet dédié à la création de questionnaires de tout type. Le programme permet de réaliser des questionnaires comportant un nombre illimité de catégories et de questions. Une trentaine de types de questions sont proposés : date, évaluation, liste déroulante, classement, entrée numérique, etc. LimeSurvey est utilisé par des particuliers, de grandes entreprises, des universités et des institutions gouvernementales du monde entier. Le projet est porté par la société allemande LimeSurvey GmbH, qui propose également une offre hébergée.
+LimeSurvey est un outil open source complet dédié à la création de questionnaires de tout type. Le programme permet de réaliser des questionnaires comportant un nombre illimité de catégories et de questions. Une trentaine de types de questions sont proposés : date, évaluation, liste déroulante, classement, entrée numérique, etc. LimeSurvey est utilisé par des particuliers, de grandes entreprises, des universités et des institutions gouvernementales du monde entier. La société allemande LimeSurvey GmbH propose également une offre hébergée.
 
 LimeSurvey est écrit en PHP couplé à une base de données MySQL, PostgreSQL ou Microsoft SQL Server.

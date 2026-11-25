@@ -14,8 +14,9 @@ Cette banalisation déplace les questions.
 
 Cette partie recense plus d'une centaine de solutions :
 
-- [Frameworks Web (backend)](frameworks-web-backend.md)
-- [Frameworks mobiles cross-platform](frameworks-mobiles-cross-platform.md)
+- [Frameworks web (backend)](frameworks-web-backend.md)
+- [Frameworks web (frontend)](frameworks-web-frontend.md)
+- [Frameworks mobiles multiplateformes](frameworks-mobiles-cross-platform.md)
 - [Outils de développement](outils-de-developpement.md)
 - [Outils de tests de charge](outils-de-tests-de-charge.md)
-- [Autres](autres.md)
+- [Autres outils de développement](autres.md)

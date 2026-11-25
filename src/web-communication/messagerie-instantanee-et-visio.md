@@ -29,7 +29,7 @@ Matrix est un protocole ouvert de communication décentralisée, créé en 2014 
 
 L’implémentation de référence du serveur est **Synapse**, écrite en Python ; Dendrite et Continuwuity en proposent des alternatives plus légères. Le client de référence est **Element**, disponible en web, bureau, Android et iOS, édité par la société britannique éponyme (ex-New Vector), qui commercialise par ailleurs une distribution clés en main, Element Server Suite.
 
-L’écosystème de passerelles (*bridges*) est un atout décisif en phase de transition : il permet de relier un salon Matrix à Slack, Teams, WhatsApp, IRC ou XMPP, et donc de migrer progressivement sans couper les échanges avec l’extérieur. La visioconférence est assurée par Element Call, fondé sur MatrixRTC et LiveKit.
+L’écosystème de passerelles (*bridges*) est un atout décisif en phase de transition : il permet de relier un salon Matrix à Slack, Teams, WhatsApp, IRC ou XMPP et donc de migrer progressivement sans couper les échanges avec l’extérieur. La visioconférence est assurée par Element Call, fondé sur MatrixRTC et LiveKit.
 
 C’est la solution retenue par plusieurs administrations européennes pour leur messagerie interne, dont l’État français avec **Tchap** (<https://tchap.gouv.fr/>), une déclinaison de Synapse et d’Element dont les dépôts sont publics et publiés sous AGPL v3.
 
@@ -48,7 +48,7 @@ Licence
 
 Lancé en 2015, Mattermost est l’une des alternatives à Slack les plus déployées en entreprise, en particulier dans les environnements soumis à de fortes contraintes de sécurité : administrations, défense, industrie, équipes de développement travaillant sur des réseaux isolés.
 
-Son périmètre dépasse la conversation : canaux publics et privés, fils de discussion, recherche, applications mobiles et bureau, intégrations avec les forges et les chaînes d’intégration continue, et surtout les *playbooks*, qui permettent de dérouler des procédures d’exploitation (gestion d’incident, revue de sécurité) directement dans l’outil. L’extensibilité passe par un système de greffons et une API REST complète.
+Son périmètre dépasse la conversation : canaux publics et privés, fils de discussion, recherche, applications mobiles et bureau, intégrations avec les forges et les chaînes d’intégration continue et surtout les *playbooks*, qui permettent de dérouler des procédures d’exploitation (gestion d’incident, revue de sécurité) directement dans l’outil. L’extensibilité passe par un système de greffons et une API REST complète.
 
 Le modèle de diffusion demande une lecture attentive : l’édition Team, gratuite, couvre les usages courants, tandis que la conformité avancée, la haute disponibilité et l’authentification unique relèvent des éditions payantes.
 
@@ -67,7 +67,7 @@ Licence
 
 Créé en 2015, Rocket.Chat se distingue de ses concurrents par son orientation **omnicanale** : au-delà de la messagerie interne, il agrège les conversations venues du site web de l’organisation, de WhatsApp, de Facebook Messenger, du courriel ou du SMS dans une même interface d’agent. C’est donc autant un outil de relation client qu’une messagerie d’équipe.
 
-Il propose les fonctions attendues du domaine (canaux, fils, messages vocaux, partage de fichiers, applications mobiles), une place de marché d’applications, la fédération via Matrix, et une visioconférence intégrée qui s’appuie sur Jitsi.
+Il propose les fonctions attendues du domaine (canaux, fils, messages vocaux, partage de fichiers, applications mobiles), une place de marché d’applications, la fédération via Matrix et une visioconférence intégrée qui s’appuie sur Jitsi.
 
 Rocket.Chat est écrit en JavaScript (Node.js, Meteor) et s’appuie sur MongoDB.
 
@@ -94,7 +94,7 @@ Zulip est écrit en Python (Django) et s’appuie sur PostgreSQL.
 
 Messageries fondées sur XMPP, protocole plus ancien mais toujours pertinent, notamment lorsque la légèreté prime :
 
-- ejabberd, serveur XMPP de classe opérateur édité par la société française ProcessOne: <https://www.ejabberd.im/>
+- ejabberd, serveur XMPP pour opérateurs, édité par la société française ProcessOne: <https://www.ejabberd.im/>
 - Prosody, serveur XMPP réputé pour sa simplicité de configuration: <https://prosody.im/>
 - Openfire, serveur XMPP Java de la fondation Ignite Realtime: <https://www.igniterealtime.org/projects/openfire/>
 
@@ -130,14 +130,14 @@ Site
 : <https://bigbluebutton.org/>
 
 Porteur
-: une entreprise canadienne (Blindside Networks) et une communauté
+: une entreprise (Blindside Networks) et une communauté
 
 Licence
 : LGPL v3
 
-Développé depuis 2007, BigBlueButton est une **plateforme de classe virtuelle**, et cette spécialisation fait toute sa valeur dans le contexte pédagogique.
+Développé depuis 2007, BigBlueButton est une **plateforme de classe virtuelle**. Cette spécialisation fait toute sa valeur dans le contexte pédagogique.
 
-On y trouve ce que les outils de réunion classiques ne proposent pas : tableau blanc collaboratif, partage de documents annotables par les participants, sondages et quiz, salles de sous-commission, prise de notes partagée, suivi de présence et statistiques d’engagement, enregistrement intégral rejouable. L’intégration aux plateformes d’apprentissage se fait par le standard LTI ou par des connecteurs dédiés pour Moodle, Chamilo ou Canvas, et l’interface d’administration Greenlight permet une utilisation autonome.
+On y trouve ce que les outils de réunion classiques ne proposent pas : tableau blanc collaboratif, partage de documents annotables par les participants, sondages et quiz, salles de sous-commission, prise de notes partagée, suivi de présence et statistiques d’engagement, enregistrement intégral rejouable. L’intégration aux plateformes d’apprentissage se fait par le standard LTI ou par des connecteurs dédiés pour Moodle, Chamilo ou Canvas. L’interface d’administration Greenlight permet une utilisation autonome.
 
 La contrepartie de cette richesse est une installation plus exigeante que celle de Jitsi, historiquement liée à une version précise d’Ubuntu Server. Plusieurs établissements d’enseignement et services publics français s’appuient sur cette solution.
 
@@ -181,7 +181,7 @@ C’est le choix à considérer pour une association, un laboratoire ou un étab
 
 Briques d’infrastructure temps réel, à retenir pour bâtir une solution sur mesure plutôt que pour un déploiement clés en main :
 
-- LiveKit, serveur SFU et jeu de SDK sous licence Apache 2.0, socle de La Suite Meet et d’Element Call: <https://livekit.io/>
+- LiveKit, serveur SFU et jeu de SDK sous licence Apache 2.0, socle de La Suite Meet et d’Element Call: <https://livekit.com/>
 - Janus, serveur WebRTC modulaire édité par l’italien Meetecho: <https://janus.conf.meetecho.com/>
 - mediasoup, bibliothèque SFU pour Node.js: <https://mediasoup.org/>
 - OpenVidu, plateforme complète bâtie au-dessus de LiveKit et de Kurento: <https://openvidu.io/>
@@ -191,4 +191,4 @@ Solutions intégrées à une suite collaborative :
 - Nextcloud Talk, qui gère les petites réunions en pair-à-pair et s’appuie sur un serveur dédié (*High Performance Back-end*) au-delà: <https://nextcloud.com/talk/>
 - Element Call, la visioconférence chiffrée de bout en bout de l’écosystème Matrix: <https://element.io/>
 
-Voir également les sections [VOIP / Téléphonie](voip-telephonie.md) pour la téléphonie sur IP, [Messagerie, Emailing & Groupware](messagerie-email-groupware.md) pour la messagerie électronique et le travail collaboratif, et [Réseaux sociaux d’entreprise (RSE)](reseaux-sociaux-entreprise-rse.md) pour les plateformes sociales d’entreprise.
+Voir également les sections [VoIP et téléphonie](voip-telephonie.md) pour la téléphonie sur IP, [Messagerie, emailing et groupware](messagerie-email-groupware.md) pour la messagerie électronique et le travail collaboratif et [Réseaux sociaux d’entreprise (RSE)](reseaux-sociaux-entreprise-rse.md) pour les plateformes sociales d’entreprise.

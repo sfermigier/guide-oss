@@ -12,7 +12,7 @@ Site
 : <https://glpi-project.org/>
 
 Porteur
-: une communauté et un éditeur français (Teclib')
+: une communauté et un éditeur (Teclib')
 
 Licence
 : GPL v3
@@ -40,7 +40,7 @@ Licence
 
 OCS Inventory NG est un outil d'inventaire automatique de postes informatiques, d’origine française, créé en 2001.
 
-OCS remonte aussi bien les caractéristiques matérielles des postes que les logiciels qui y sont installés. Toutes ces informations sont ensuite visualisables au travers d'une interface web avec des fonctions d'exports. Des dictionnaires de logiciels peuvent être également définis pour effectuer des regroupements (MAJ Windows par exemple). Au niveau du télédéploiement, OCS permet de gérer les installations de logiciels aussi bien pour les postes Windows que Mac ou Linux au travers de packages créés par les administrateurs. Les télédéploiements sont sécurisés et peuvent être planifiés ; de plus l'architecture des serveurs OCS peut être répartie pour ne pas congestionner le réseau lors de gros télédéploiements.
+OCS remonte aussi bien les caractéristiques matérielles des postes que les logiciels qui y sont installés. Toutes ces informations sont ensuite visualisables au travers d'une interface web avec des fonctions d'exports. Des dictionnaires de logiciels peuvent être également définis pour effectuer des regroupements (MAJ Windows par exemple). Au niveau du télédéploiement, OCS permet de gérer les installations de logiciels aussi bien pour les postes Windows que Mac ou Linux au travers de paquets créés par les administrateurs. Les télédéploiements sont sécurisés et peuvent être planifiés ; de plus l'architecture des serveurs OCS peut être répartie pour ne pas congestionner le réseau lors de gros télédéploiements.
 
 OCS repose sur les technologies Perl et MySQL principalement.
 
@@ -50,6 +50,7 @@ Parmi les produits de l’univers Gestion de parc et inventaires, on peut compl�
 
 - GLPI Agent, l'agent d'inventaire multiplateforme de GLPI, qui succède à FusionInventory (dont l'agent n'est plus maintenu): <https://github.com/glpi-project/glpi-agent>
 - Snipe-IT, gestion des actifs et des licences, à l'ergonomie très soignée: <https://snipeitapp.com/>
-- NetBox, référentiel d'infrastructure réseau et de centre de données (adressage, câblage, racks): <https://netbox.dev/>
+- NetBox, référentiel d'infrastructure réseau et de centre de données (adressage, câblage, racks): <https://netboxlabs.com/products/netbox/>
+- Clonezilla, FOG et l'installation des postes: voir [Déploiement de postes](deploiement-postes.md)
 - Foreman, gestion du cycle de vie des serveurs (provisionnement, configuration, correctifs): <https://theforeman.org/>
 - Uyuni, gestion de parc et de correctifs pour distributions Linux, amont de SUSE Manager: <https://www.uyuni-project.org/>

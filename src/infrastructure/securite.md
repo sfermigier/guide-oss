@@ -2,24 +2,9 @@
 
 Le domaine de la sécurité est très large, de l’antivirus aux systèmes de détection d’intrusion, on trouve de nombreuses solutions open source.
 
-Dans cette rubrique, on présente les vérificateurs d’intégrité, les détecteurs de virus, les détecteurs d’intrusions, les outils d’analyse de problèmes réseaux et les « testeurs » de failles de sécurité. Les briques de gestion des identités et des certificats font l'objet des sections [Authentification, fédération et gestion d’identité](authentification-federation-et-gestion-identite.md) et [PKI](pki.md).
+Dans cette rubrique, on présente les vérificateurs d’intégrité, les détecteurs de virus, les détecteurs d’intrusions, les outils d’analyse de problèmes réseaux et les « testeurs » de failles de sécurité. La supervision de la sécurité et les pare-feu applicatifs sont traités à la page [SIEM et WAF](siem-waf.md). Les briques de gestion des identités et des certificats font l'objet des sections [Authentification, fédération et gestion d’identité](authentification-federation-et-gestion-identite.md) et [PKI](pki.md).
 
 Tous ces outils sont de précieuses aides pour les administrateurs Systèmes et Réseaux pour garantir l’intégrité de leur parc.
-
-## Prelude SIEM
-
-Site
-: <https://www.prelude-siem.org/>
-
-Porteur
-: un éditeur (CS)
-
-Licence
-: GPL 2.0
-
-Prelude SIEM est un *security information management system* (SIEM), c'est-à-dire un outil de pilotage de la sécurité. Prelude collecte et centralise les informations de sécurité de l'entreprise pour offrir un point central de pilotage. Grâce à l'analyse et la corrélation des journaux et des flux, Prelude SIEM alerte en temps réel des tentatives d'intrusions et des menaces sur le réseau. Prelude SIEM offre plusieurs outils d'investigation et de reporting sur les Big Data permettant d'identifier les signaux faibles qui peuvent préfigurer des menaces persistantes avancées. Enfin, Prelude SIEM dispose de tous les outils d'aide à l'exploitation pour simplifier le travail des opérateurs et la gestion des risques.
-
-Prelude SIEM est l'évolution de Prelude IDS, projet open source de sonde IDS créé en 1998 par Yoann Vandoorselaere, et repris par CS Group. Attention au modèle de diffusion : seule la version « Prelude OSS », aux performances volontairement limitées, est librement disponible, l'essentiel des capacités relevant de l'offre commerciale.
 
 ## AIDE
 
@@ -32,9 +17,9 @@ Porteur
 Licence
 : GPL 2.0
 
-AIDE est un vérificateur d'intégrité pour système UNIX, développé depuis 1999. Rami Lehti and Pablo Virolainen ont initié les développements, suivi entre 2003 et 2010 par Richard van den Berg, puis désormais par Hannes von Haugwitz.
+AIDE est un vérificateur d'intégrité pour système UNIX, développé depuis 1999. Rami Lehti et Pablo Virolainen ont initié les développements, suivis entre 2003 et 2010 par Richard van den Berg, puis désormais par Hannes von Haugwitz.
 
-Son but est de calculer une empreinte des fichiers du système au moment de l'installation, et par la suite de valider la conformité du système avec cette empreinte. Ainsi, l'administrateur peut repérer toute modification de fichiers suspecte, généralement signe d'une intrusion sur le système.
+Son but est de calculer une empreinte des fichiers du système au moment de l'installation et par la suite de valider la conformité du système avec cette empreinte. Ainsi, l'administrateur peut repérer toute modification de fichiers suspecte, généralement signe d'une intrusion sur le système.
 
 ## ClamAV
 
@@ -85,22 +70,22 @@ OpenVAS (*Open Vulnerability Assessment Scanner*) est un projet né en 2005 du d
 
 Il permet de tester la présence de failles de sécurité sur les systèmes audités. Le flux de tests communautaire est gratuit ; l'éditeur allemand Greenbone propose en complément un flux d'entreprise, garanti et plus rapidement mis à jour, ainsi que des appliances.
 
-## WireShark
+## Wireshark
 
 Site
 : <https://www.wireshark.org>
 
 Porteur
-: une fondation (WireShark)
+: une fondation (Wireshark Foundation)
 
 Licence
 : GPL
 
 Wireshark (anciennement Ethereal) est un outil d'analyse de trafic réseau qui a vu le jour en 1998. Il fait partie de la famille des « packet sniffer ».
 
-Il est utilisé par grand nombre d'administrateurs pour diagnostiquer des problèmes réseaux complexes. Disponible sous forme d'une application graphique lourde ainsi qu'une interface en mode texte, il est capable de décoder un très grand nombre de protocoles, y compris chiffrés.
+Il est utilisé par un grand nombre d'administrateurs pour diagnostiquer des problèmes réseau complexes. Disponible sous forme d'une application graphique lourde ainsi qu'une interface en mode texte, il est capable de décoder un très grand nombre de protocoles, y compris chiffrés.
 
-Wireshark est multiplateforme : il fonctionne sous Windows, macOS, Linux et les systèmes BSD, et reconnaît plusieurs milliers de protocoles. Le projet est porté depuis 2023 par la Wireshark Foundation, qui en assure la gouvernance et le financement.
+Wireshark est multiplateforme : il fonctionne sous Windows, macOS, Linux et les systèmes BSD. Il reconnaît plusieurs milliers de protocoles. Le projet est porté depuis 2023 par la Wireshark Foundation, qui en assure la gouvernance et le financement.
 
 ## OSSEC
 
@@ -113,9 +98,9 @@ Porteur
 Licence
 : GPL 2.0
 
-OSSEC est un système de détection d'intrusion fondé sur l'hôte (HIDS, *Host Intrusion Detection System*), créé en 2004 par Daniel B. Cid. Il surveille en temps réel les journaux système, les modifications de fichiers et la base de registre Windows, et détecte les rootkits. Il permet une analyse approfondie de la sécurité du système grâce à des règles configurables, et dispose d'une fonction d'alerte par courriel.
+OSSEC est un système de détection d'intrusion fondé sur l'hôte (HIDS, *Host Intrusion Detection System*), créé en 2004 par Daniel B. Cid. Il surveille en temps réel les journaux système, les modifications de fichiers et la base de registre Windows. Il détecte les rootkits. Il permet une analyse approfondie de la sécurité du système grâce à des règles configurables et dispose d'une fonction d'alerte par courriel.
 
-À noter : **Wazuh** (<https://wazuh.com/>), fork d'OSSEC créé en 2015, a largement dépassé le projet d'origine. Il en conserve l'agent et les règles, mais y ajoute une interface web complète, la gestion des vulnérabilités, le suivi de conformité (PCI-DSS, RGPD, NIS 2), l'inventaire et l'intégration à OpenSearch, ce qui en fait une plateforme XDR/SIEM complète sous licence AGPL v3. C'est aujourd'hui la solution à évaluer en priorité dans cette catégorie.
+À noter : [Wazuh](siem-waf.md#wazuh), fork d'OSSEC créé en 2015, a largement dépassé le projet d'origine. C'est aujourd'hui la solution à évaluer en priorité dans cette catégorie.
 
 ## Suricata
 
@@ -128,7 +113,7 @@ Porteur
 Licence
 : GPL 2.0
 
-Suricata est un moteur de détection et de prévention des intrusions réseau (NIDS/NIPS) open source. Développé par la fondation OISF, il est conçu pour être une alternative et un complément à SNORT. Suricata offre des capacités avancées d'analyse de trafic, incluant la détection de menaces, l'inspection approfondie de paquets (DPI), et la prise en charge des formats de fichiers multiples pour l'analyse des fichiers capturés. Sa compatibilité avec les règles SNORT et sa prise en charge des systèmes multi-cœurs en font un outil adapté aux administrateurs réseau comme aux analystes de sécurité.
+Suricata est un moteur de détection et de prévention des intrusions réseau (NIDS/NIPS) open source. Développé par la fondation OISF, il est conçu pour être une alternative et un complément à SNORT. Suricata offre des capacités avancées d'analyse de trafic, incluant la détection de menaces, l'inspection approfondie de paquets (DPI) et la prise en charge des formats de fichiers multiples pour l'analyse des fichiers capturés. Sa compatibilité avec les règles SNORT et sa prise en charge des systèmes multi-cœurs en font un outil adapté aux administrateurs réseau comme aux analystes de sécurité.
 
 ## Metasploit Framework
 
@@ -141,7 +126,7 @@ Porteur
 Licence
 : BSD
 
-Metasploit Framework est un outil de test d'intrusion créé en 2003 par H.D. Moore. Il est devenu l'un des outils les plus utilisés pour les tests de pénétration et l'exploitation des vulnérabilités. Metasploit permet aux administrateurs et aux chercheurs en sécurité de découvrir, valider et exploiter des failles dans les systèmes informatiques. Le framework inclut une large base de données d'exploits, de payloads et de modules auxiliaires pour divers types d'attaques et de tests. Il est utilisé pour automatiser les tests de sécurité, évaluer les systèmes pour les vulnérabilités et améliorer la posture de sécurité globale.
+Metasploit Framework est un outil de test d'intrusion créé en 2003 par H.D. Moore. Il est devenu l'un des outils les plus utilisés pour les tests de pénétration et l'exploitation des vulnérabilités. Metasploit permet aux administrateurs et aux chercheurs en sécurité de découvrir des failles dans les systèmes informatiques, de les valider et d'en démontrer les effets. Le framework inclut une large base de données d'exploits, de payloads et de modules auxiliaires pour divers types d'attaques et de tests. Il est utilisé pour automatiser les tests de sécurité, évaluer les systèmes pour les vulnérabilités et améliorer la posture de sécurité globale.
 
 ## Zeek
 
@@ -156,19 +141,6 @@ Licence
 
 Zeek (anciennement connu sous le nom de Bro) est un framework de surveillance du réseau et de détection des intrusions réseau (NIDS) open source. Créé en 1995 par Vern Paxson, Zeek est conçu pour capturer et analyser le trafic réseau en profondeur. Il permet d'extraire des métadonnées détaillées et de détecter des activités anormales grâce à son langage de script dédié. Zeek est largement utilisé dans les environnements de recherche et de production pour son efficacité à fournir des informations contextuelles et des capacités de détection avancées.
 
-## Nmap
-
-Site
-: <https://nmap.org>
-
-Porteur
-: une communauté
-
-Licence
-: GPL 2.0
-
-Nmap (Network Mapper) est un scanner de sécurité réseau open source, créé par Gordon Lyon (Fyodor) en 1997. Il est utilisé pour découvrir les hôtes et les services sur un réseau informatique, créant ainsi une "carte" du réseau. Nmap offre une variété de fonctionnalités pour explorer les réseaux, incluant la découverte d'hôtes, la détection de services, l'identification de versions, et la détection de vulnérabilités. Nmap est essentiel pour les audits de sécurité, les tests de pénétration, et la gestion des inventaires réseau.
-
 ## OpenSCAP
 
 Site
@@ -178,9 +150,13 @@ Porteur
 : une communauté
 
 Licence
-: GPL 2.0
+: LGPL v2.1
 
 OpenSCAP est une suite d'outils open source pour l'audit de sécurité des systèmes d'information. Fondé sur les standards de sécurité développés par NIST, OpenSCAP permet l'évaluation de la conformité, la détection des vulnérabilités et la remédiation des configurations non conformes. Il est largement utilisé dans les environnements conformes aux réglementations comme PCI-DSS et HIPAA. OpenSCAP comprend un scanner de conformité, un éditeur de profils et divers outils d'analyse, permettant aux administrateurs de maintenir et de renforcer la sécurité de leurs systèmes.
+
+<span id="prelude-siem"></span>
+
+<span id="nmap"></span>
 
 ## Autres
 
@@ -193,4 +169,4 @@ Le domaine s'est considérablement étoffé ces dernières années ; parmi les p
 - Falco, détection d'anomalies à l'exécution dans les conteneurs et Kubernetes (projet CNCF): <https://falco.org/>
 - Trivy, analyse de vulnérabilités des images, dépendances et configurations: <https://trivy.dev/>
 - Lynis, audit de durcissement des systèmes UNIX: <https://cisofy.com/lynis/>
-- OpenBao, gestion des secrets, fork libre de HashiCorp Vault (section [PKI](pki.md)): <https://openbao.org/>
+- OpenBao, gestion des secrets, fork libre de HashiCorp Vault: voir [Secrets et mots de passe d'équipe](secrets-mots-de-passe.md#openbao)

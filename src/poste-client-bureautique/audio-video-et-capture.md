@@ -1,8 +1,8 @@
 # Audio, vidéo et capture
 
-La vidéo est devenue un outil de travail courant : tutoriels internes, captations de réunions, webinaires, formation à distance, communication externe. Les organisations qui produisaient une plaquette produisent aujourd'hui une vidéo, et l'outillage correspondant a quitté les services de communication pour se répandre dans les équipes.
+La vidéo est devenue un outil de travail courant : tutoriels internes, captations de réunions, webinaires, formation à distance, communication externe. Les organisations qui produisaient une plaquette produisent aujourd'hui une vidéo. L'outillage correspondant a quitté les services de communication pour se répandre dans les équipes.
 
-Ce domaine est, avec les serveurs web, l'un de ceux où l'open source domine : les bibliothèques qui décodent les formats vidéo, FFmpeg au premier chef, sont utilisées par la quasi-totalité des logiciels du marché, y compris propriétaires, et les outils de diffusion en direct sont devenus des standards professionnels.
+Ce domaine est, avec les serveurs web, l'un de ceux où l'open source domine : les bibliothèques qui décodent les formats vidéo, FFmpeg au premier chef, sont utilisées par la quasi-totalité des logiciels du marché, y compris propriétaires. Les outils de diffusion en direct sont devenus des standards professionnels.
 
 Un rappel utile en matière de conformité : la captation d'une réunion ou d'une formation est un traitement de données personnelles, qui suppose information des participants, base légale et durée de conservation définie. Le choix d'un outil auto-hébergé simplifie ce volet, mais ne l'épuise pas.
 
@@ -12,14 +12,14 @@ Site
 : <https://www.videolan.org/>
 
 Porteur
-: une association française (VideoLAN)
+: une association (VideoLAN)
 
 Licence
 : GPL v2 et LGPL v2.1
 
 VLC est le lecteur multimédia le plus déployé au monde, toutes catégories confondues, avec plusieurs milliards de téléchargements. Né en 1996 d'un projet étudiant de l'École centrale Paris, il est aujourd'hui porté par l'association VideoLAN, l'un des plus beaux succès du logiciel libre français.
 
-Sa réputation tient à une qualité simple : il lit à peu près tout, sans installation de codecs supplémentaires, sur à peu près tout : Windows, macOS, Linux, Android, iOS, et jusqu'aux téléviseurs et aux systèmes embarqués. Il assure également la conversion de formats, la capture d'écran, la diffusion en flux sur un réseau et la lecture de flux distants, ce qui en fait aussi un outil d'infrastructure pour la diffusion interne.
+Sa réputation tient à une qualité simple : il lit à peu près tout, sans installation de codecs supplémentaires, sur à peu près tout : Windows, macOS, Linux, Android, iOS et jusqu'aux téléviseurs et aux systèmes embarqués. Il assure également la conversion de formats, la capture d'écran, la diffusion en flux sur un réseau et la lecture de flux distants, ce qui en fait aussi un outil d'infrastructure pour la diffusion interne.
 
 La bibliothèque libVLC, sous licence LGPL, permet d'intégrer ces capacités dans une application tierce.
 
@@ -74,11 +74,11 @@ Porteur
 Licence
 : GPL v3
 
-Kdenlive est le logiciel de montage vidéo non linéaire du projet KDE, et le plus abouti des monteurs libres multiplateformes.
+Kdenlive est le logiciel de montage vidéo non linéaire du projet KDE et le plus abouti des monteurs libres multiplateformes.
 
 Il offre ce qu'on attend d'un monteur : pistes vidéo et audio illimitées, montage à trois points, effets et transitions, étalonnage, incrustation sur fond vert, titrage, proxy pour travailler sur des rushes lourds, rendu vers les formats courants. Sa gestion de projet (conservation des chutiers, sauvegarde automatique, récupération après incident) le rend utilisable sur des travaux de plusieurs heures de rushes.
 
-C'est le choix pertinent pour un service communication qui monte régulièrement des vidéos de format court à moyen. Pour la postproduction cinéma, on regardera plutôt du côté de DaVinci Resolve, gratuit mais propriétaire.
+C'est le choix pertinent pour un service communication qui monte régulièrement des vidéos de format court à moyen.
 
 Kdenlive est écrit en C++ (Qt) et s'appuie sur le framework MLT.
 
@@ -95,7 +95,7 @@ Licence
 
 Audacity est l'éditeur audio multipiste le plus répandu : enregistrement, découpe, mixage, réduction de bruit, normalisation, export vers les formats courants. C'est l'outil qu'on emploie pour nettoyer une captation de réunion, produire un podcast interne ou préparer une bande son.
 
-Son histoire récente compte avant tout déploiement : après le rachat du projet par Muse Group en 2021, l'annonce de l'ajout de télémétrie et la modification des conditions d'utilisation ont provoqué une rupture avec une partie de la communauté, et la création du fork **Tenacity** (<https://tenacityaudio.org/>). L'éditeur est largement revenu sur ces décisions, la télémétrie étant désormais optionnelle et désactivée par défaut, mais les organisations sensibles à ce point préféreront Tenacity, qui s'en tient au périmètre historique du logiciel.
+Son histoire récente compte avant tout déploiement : après le rachat du projet par Muse Group en 2021, l'annonce de l'ajout de télémétrie et la modification des conditions d'utilisation ont provoqué une rupture avec une partie de la communauté et la création du fork **Tenacity** (<https://tenacityaudio.org/>). L'éditeur est largement revenu sur ces décisions, la télémétrie étant désormais optionnelle et désactivée par défaut, mais les organisations sensibles à ce point préféreront Tenacity, qui s'en tient au périmètre historique du logiciel.
 
 Audacity est écrit en C++.
 

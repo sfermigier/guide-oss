@@ -1,4 +1,4 @@
-# Frameworks Web (backend)
+# Frameworks web (backend)
 
 La plupart des applications modernes s’appuient sur des frameworks ou bibliothèques web.
 
@@ -40,6 +40,25 @@ Le framework Ruby On Rails se caractérise par les principes *Don't Repeat Yours
 
 Ruby On Rails est développé en Ruby.
 
+## FastAPI
+
+Site
+: <https://fastapi.tiangolo.com/>
+
+Porteur
+: une communauté (projet initié par Sebastián Ramírez)
+
+Licence
+: MIT
+
+Publié en 2018 par Sebastián Ramírez, FastAPI est l'un des frameworks Python les plus utilisés pour écrire des API HTTP, en particulier autour des services d'IA et de données.
+
+Les annotations de type de Python y décrivent les paramètres et les corps de requête ; le framework en déduit la validation (Pydantic) et une documentation OpenAPI consultable dans le navigateur. Il repose sur Starlette, donc sur le standard asynchrone ASGI. Il intègre un mécanisme d'injection de dépendances. À la différence de Django, il n'impose ni ORM ni interface d'administration.
+
+Deux points sont à considérer : le projet reste en version 0.x, ce qui impose de suivre les notes de version. Sa conduite dépend beaucoup de son auteur, qui a fondé FastAPI Labs pour commercialiser une offre d'hébergement.
+
+FastAPI est écrit en Python.
+
 ## CubicWeb
 
 Site
@@ -51,11 +70,7 @@ Porteur
 Licence
 : LGPL
 
-CubicWeb est un framework Python orienté web sémantique, créé en 2001 par la société française Logilab et publié en open source en 2008. Son développement se poursuit, à un rythme modéré et pour une communauté restreinte.
-
-Au-delà des fonctionnalités habituelles de ce genre d'outil (CRUD, sécurité, RESTful, développement agile, tests unitaires, indépendance vis-à-vis de la base de données sous-jacente, etc), CubicWeb met l'accent sur la réutilisation et la fusion de données disponibles sur le Web (Linked Open Data) et leur visualisation dynamique dans un navigateur, le tout en respectant les standards du W3C (RDF, OWL, etc). Les applications typiques concernent la publication de catalogues de plusieurs dizaines de millions d'objets ou des bases dédiées à la recherche médicale.
-
-CubicWeb est développé en Python.
+CubicWeb est un framework Python orienté web sémantique, créé en 2001 par la société française Logilab et publié en open source en 2008. Il décrit une application par son schéma de données, expose les standards RDF et OWL et sert à publier des catalogues liés (*Linked Open Data*). Son développement se poursuit pour une communauté restreinte, sur des usages de niche comme la publication de grands catalogues de données.
 
 ## Symfony
 
@@ -63,7 +78,7 @@ Site
 : <https://symfony.com>
 
 Porteur
-: un éditeur (SensioLabs) et une communauté
+: un éditeur (Symfony SAS) et une communauté
 
 Licence
 : MIT
@@ -74,9 +89,28 @@ Symfony est un framework dont les principes de fonctionnement sont similaires à
 
 Son influence dépasse largement son propre périmètre : ses composants constituent le socle de Drupal, de Laravel, d'Ibexa, de TYPO3 et de nombreux autres produits présentés dans ce guide.
 
-Symfony fournit également un ensemble d'outils en ligne de commande permettant de gérer le cache, de générer le code de départ des contrôleurs et des entités, d'appliquer les migrations de base de données, etc. L'écosystème s'est enrichi d'API Platform pour la création d'API REST et GraphQL, et de Symfony UX pour l'intégration des composants front-end.
+Symfony comprend également un ensemble d'outils en ligne de commande permettant de gérer le cache, de générer le code de départ des contrôleurs et des entités, d'appliquer les migrations de base de données, etc. L'écosystème s'est enrichi d'API Platform pour la création d'API REST et GraphQL et de Symfony UX pour l'intégration des composants front-end.
 
-Symfony est développé par la société française SensioLabs et par une très large communauté.
+Symfony est porté par la société Symfony SAS (titulaire de la marque) et par une très large communauté. SensioLabs, la société d'origine de Fabien Potencier, en est distincte depuis 2018 ; elle appartient au groupe Smile et propose services et formations. Le logiciel est écrit en PHP.
+
+## Laravel
+
+Site
+: <https://laravel.com/>
+
+Porteur
+: un éditeur (Laravel) et une communauté
+
+Licence
+: MIT
+
+Créé par Taylor Otwell en 2011, Laravel est l'un des frameworks PHP les plus utilisés. Il s'appuie sur plusieurs composants Symfony.
+
+Il couvre l'ensemble d'une application web : routage, ORM Eloquent et migrations, gabarits Blade, files de tâches, notifications, planification, authentification et tests. Des bibliothèques officielles prolongent le cœur (Livewire et Inertia sont les deux voies courantes pour les interfaces interactives).
+
+Le framework est libre, mais une partie de son écosystème ne l'est pas : l'éditeur vit d'outils et de services commerciaux (Nova, Forge, Cloud). Il a levé 57 millions de dollars auprès d'Accel en 2024. On veillera à distinguer, dans un projet, ce qui relève du framework et ce qui crée une dépendance à ces services.
+
+Laravel est écrit en PHP.
 
 ## Spring
 
@@ -89,7 +123,7 @@ Porteur
 Licence
 : Apache 2.0
 
-Spring est un portefeuille d'outils et de bibliothèques qui propose une pile complète, alternative à la pile standard Jakarta EE. Le projet, né chez Interface21 puis passé chez SpringSource, VMware et enfin Broadcom (qui a racheté VMware en 2023), est devenu le standard de fait du développement Java d'entreprise.
+Spring est un portefeuille d'outils et de bibliothèques qui propose une pile complète, alternative à la pile standard Jakarta EE. Le projet, né chez Interface21 puis passé chez SpringSource, VMware et enfin Broadcom (qui a racheté VMware en 2023), est devenu la référence du développement Java d'entreprise.
 
 Spring s'appuie sur son conteneur léger permettant de gérer les dépendances entre les objets composant l'application. Par dessus ce conteneur léger, il est possible d'utiliser un des nombreux composants du portfolio. Les principaux étant Spring MVC, Spring ORM et Spring AOP. Spring MVC est un framework MVC full-REST et fondé sur les annotations. Les classes répondant aux actions utilisateur sont annotées afin d'indiquer la méthode à utiliser ainsi que la vue à retourner. Spring ORM est une bibliothèque d'abstraction des accès aux données. Il abstrait les frameworks de persistance usuels, Hibernate, JDO ou EclipseLink. Spring AOP est un framework de programmation orientée aspect. Plus simpliste que AspectJ, Spring AOP offre néanmoins les outils usuels de la POA avec différents types de greffons et différentes manières d'exprimer les points de coupe.
 
@@ -110,7 +144,7 @@ Licence
 
 Play! est un framework Java orienté Web créé par Guillaume Bort en 2007.
 
-Le principe de Play! est de réduire la durée du cycle de développement Java, ainsi que limiter la complexité applicative souvent associée aux projets Java. On y trouvera donc la transposition en Java des concepts principaux de frameworks tel que RoR, Django ou encore Symfony : MVC, Convention over Configuration, Don't Repeat Yourself, .... Play! dispose également de son propre gestionnaire technique de projets, permettant la création des interfaces CRUD, et de son propre serveur d'application (même s'il peut se déployer facilement dans un Tomcat), ce qui lui permet par exemple le rechargement transparent et à chaud du code modifié.
+Le principe de Play! est de réduire la durée du cycle de développement Java, ainsi que limiter la complexité applicative souvent associée aux projets Java. On y trouvera donc la transposition en Java des concepts principaux de frameworks tel que RoR, Django ou encore Symfony : MVC, Convention over Configuration, Don't Repeat Yourself, .... Play! dispose également de son propre gestionnaire technique de projets (création des interfaces CRUD) et de son propre serveur d'application (même s'il peut se déployer facilement dans un Tomcat), ce qui lui permet par exemple le rechargement transparent et à chaud du code modifié.
 
 Play! a été développé à l'origine par la société française Zenexity, puis porté par l'américaine Lightbend (devenue Akka). Celle-ci s'étant désengagée, le framework est aujourd'hui maintenu par sa communauté.
 
@@ -122,13 +156,11 @@ Parmi les produits de l’univers Frameworks et bibliothèques pour le développ
 
 Python :
 
-- FastAPI (API REST modernes, asynchrones, documentation OpenAPI générée): <https://fastapi.tiangolo.com/>
 - Flask: <https://flask.palletsprojects.com/>
 - Litestar: <https://litestar.dev/>
 
 PHP :
 
-- Laravel, aujourd'hui le framework PHP le plus utilisé au monde: <https://laravel.com/>
 - CakePHP: <https://cakephp.org/>
 - Laminas (successeur de Zend Framework): <https://getlaminas.org/>
 

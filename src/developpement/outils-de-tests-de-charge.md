@@ -19,7 +19,7 @@ Porteur
 Licence
 : MIT
 
-Locust est un outil de test de performance scriptable et facile à prendre en main. Vous définissez le comportement de vos utilisateurs dans un code Python ordinaire, au lieu d'utiliser une interface utilisateur maladroite ou un langage spécifique à un domaine. Cela rend Locust infiniment extensible et très convivial pour les développeurs.
+Locust est un outil de test de performance scriptable et facile à prendre en main. Vous définissez le comportement de vos utilisateurs dans un code Python ordinaire, au lieu d'utiliser une interface graphique ou un langage spécifique à un domaine. Les scénarios se versionnent et se relisent comme le reste du code.
 
 ## JMeter
 
@@ -32,9 +32,9 @@ Porteur
 Licence
 : Apache 2.0
 
-Jmeter est un outil d'injection de trafic édité par la fondation Apache.
+JMeter est un outil d'injection de trafic édité par la fondation Apache.
 
-Il est utilisé pour réaliser des tests de charge sur plusieurs types de serveurs : Web, LDAP, Bases de données, etc. Il dispose d'une interface graphique qui rend la création de scénarios d'utilisation plus facile. Les scénarios en eux-mêmes peuvent être d'une grande complexité, avec des boucles, conditions, extraction et réutilisation de variables, chargement de variables depuis un fichier externe, et de nombreux types de graphes et de statistiques.
+Il est utilisé pour réaliser des tests de charge sur plusieurs types de serveurs : Web, LDAP, Bases de données, etc. Il dispose d'une interface graphique qui rend la création de scénarios d'utilisation plus facile. Les scénarios en eux-mêmes peuvent être d'une grande complexité, avec des boucles, conditions, extraction et réutilisation de variables, chargement de variables depuis un fichier externe et de nombreux types de graphes et de statistiques.
 
 JMeter est distribué sous licence Apache.
 
@@ -49,13 +49,9 @@ Porteur
 : une communauté
 
 Licence
-: GPL
+: GPL v2
 
-Tsung est un outil d'injection de trafic, utilisé pour les tests de charge de différents types de serveurs.
-
-Il supporte HTTP et quelques dérivés (SOAP, WebDAV), les bases MySQL et PostgreSQL, ainsi que XMPP. Réalisé en Erlang, un langage spécialisé dans les applications hautes performances, il ne souffre pas des limites traditionnelles de ce type d'outils, et peut donc simuler un trafic très important. Il dispose d'un générateur automatique de statistiques.
-
-Initialement créé par la société française IDEALX, il est désormais maintenu par une communauté restreinte, à un rythme très ralenti.
+Tsung est un injecteur de charge écrit en Erlang, créé par la société française IDEALX. Il couvre HTTP, WebDAV, MySQL, PostgreSQL et XMPP. Ce dernier protocole reste son principal intérêt. Maintenu par une communauté restreinte, il ne reçoit plus guère que des correctifs de compatibilité : pour HTTP, on choisira k6, Gatling ou Locust.
 
 ## k6
 
@@ -78,14 +74,14 @@ Site
 : <https://gatling.io/>
 
 Porteur
-: une entreprise française (Gatling Corp)
+: une entreprise (Gatling Corp)
 
 Licence
 : Apache 2.0
 
 Créé en 2011 par le français Stéphane Landelle, Gatling est l'autre grand outil de test de charge open source, particulièrement présent dans les environnements Java.
 
-Ses scénarios s'écrivent sous forme de code (Scala, Java, Kotlin ou JavaScript) selon une syntaxe déclarative très lisible. Son architecture asynchrone lui permet de simuler un grand nombre d'utilisateurs avec peu de ressources, et ses rapports HTML détaillés sont l'un de ses points forts reconnus.
+Ses scénarios s'écrivent sous forme de code (Scala, Java, Kotlin ou JavaScript) selon une syntaxe déclarative très lisible. Son architecture asynchrone lui permet de simuler un grand nombre d'utilisateurs avec peu de ressources. Ses rapports HTML détaillés sont l'un de ses points forts reconnus.
 
 ## Autres
 
@@ -93,4 +89,4 @@ Ses scénarios s'écrivent sous forme de code (Scala, Java, Kotlin ou JavaScript
 - Artillery (scénarios en YAML, Node.js): <https://www.artillery.io/>
 - wrk et oha, pour des mesures rapides en ligne de commande: <https://github.com/wg/wrk> et <https://github.com/hatoo/oha>
 
-FunkLoad, outil de tests fonctionnels et de charge développé par la société française Nuxeo et présenté dans les éditions précédentes de ce guide, n'est plus maintenu : son dépôt est archivé depuis 2018.
+FunkLoad, outil de tests fonctionnels et de charge développé par la société française Nuxeo, n'est plus maintenu : son dépôt est archivé depuis 2018.

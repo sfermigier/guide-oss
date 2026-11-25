@@ -1,6 +1,6 @@
-# E-Commerce
+# E-commerce
 
-Le domaine de l’e-commerce est également très vaste. Que ce soit pour faire connaître sa e-boutique et obtenir du trafic, pour informer le client sur les produits, de lui faire vivre une expérience de shopping, d’assurer la vente, et l’après vente… de nombreuses solutions sont disponibles.
+Le domaine de l’e-commerce est également très vaste. Que ce soit pour faire connaître sa e-boutique et obtenir du trafic, pour informer le client sur les produits, de lui faire vivre une expérience de shopping, d’assurer la vente et l’après vente… de nombreuses solutions sont disponibles.
 
 Dans cette catégorie, toutefois, nous nous sommes focalisés sur les solutions open source de boutique en ligne, en présentant des outils phares comme WooCommerce, PrestaShop ou Magento Open Source. Au côté de ces solutions dominantes, la convergence ERP/CRM/CMS/e-business poussée par l'intégration du e-commerce au coeur de métier de l'entreprise a conduit plusieurs ERP open source et CMS open source à fournir des fonctions de e-commerce comparables avec une intégration plus forte d'autres fonctions métiers.
 
@@ -9,7 +9,7 @@ Le périmétre des e-boutiques est devenu très important avec des fonctionnalit
 ## Magento
 
 Site
-: <https://business.adobe.com/products/magento/magento-commerce.html>
+: <https://github.com/magento/magento2>
 
 Porteur
 : un éditeur (Adobe)
@@ -25,13 +25,13 @@ Magento a été racheté par eBay en 2011, puis par Adobe en 2018. L'édition co
 
 La solution est écrite en PHP : le socle historique reposait sur Zend Framework (aujourd'hui Laminas), la version 2 s'appuyant sur des composants Symfony et Laminas.
 
-## Prestashop
+## PrestaShop
 
 Site
 : <https://prestashop.com>
 
 Porteur
-: un éditeur français (PrestaShop SA, groupe MBE Worldwide)
+: un éditeur (PrestaShop, groupe cyber_Folks)
 
 Licence
 : AFL v3 pour le cœur, OSL v3 pour les modules
@@ -40,7 +40,7 @@ Sorti quelques mois après Magento (juillet 2008), PrestaShop est une solution e
 
 D'un point de vue fonctionnel, PrestaShop est très complet : catalogue, gestion des clients, des commandes, de la logistique et reporting, mais aussi fidélité client, multi-boutiques, multi-devises et multilinguisme. Plusieurs milliers de modules et de thèmes prêts à l'emploi sont disponibles sur sa place de marché.
 
-La société PrestaShop a été rachetée en 2021 par le groupe italien MBE Worldwide (Mail Boxes Etc.). Le produit reste développé en public sur GitHub, avec une communauté d'intégrateurs et d'agences très active en France.
+La société PrestaShop, rachetée en 2021 par le groupe italien MBE Worldwide (devenu Fortidia), a été cédée au groupe polonais cyber_Folks, en association avec les équipes de Sylius et de BitBag ; l'opération, annoncée en décembre 2025, est achevée. Le produit reste développé en public sur GitHub, avec une communauté d'intégrateurs et d'agences très active en France.
 
 PrestaShop est développé en PHP (avec des composants Symfony depuis la version 1.7) et s'appuie sur MySQL/MariaDB. Il dispose d'une API REST/*webservice* complète permettant de l'adapter à des contextes spécifiques.
 
@@ -76,7 +76,7 @@ Sortie en 2011, Drupal Commerce est la branche e-commerce du CMS mondialement co
 
 L'intérêt de Drupal Commerce reste inchangé : c'est la solution de référence pour les projets où le contenu éditorial et la vente en ligne sont indissociables, en s'appuyant sur les capacités de gestion de contenu de Drupal. C'est par ailleurs une solution très modulaire, adaptée aux modèles de vente atypiques (abonnements, licences, produits configurables).
 
-Drupal Commerce est développé en PHP. La version 2, puis la version 3, s'appuient sur les composants Symfony et sur la bibliothèque Commerce Guys, et fonctionnent avec les versions actuelles de Drupal (10 et 11).
+Drupal Commerce est développé en PHP. La version 2, puis la version 3, s'appuient sur les composants Symfony et sur la bibliothèque Commerce Guys et fonctionnent avec les versions actuelles de Drupal (10 et 11).
 
 ## WooCommerce
 
@@ -89,7 +89,7 @@ Porteur
 Licence
 : GPL v3
 
-Absent des éditions précédentes de ce guide, WooCommerce est devenu, depuis son rachat par Automattic (la société derrière WordPress.com) en 2015, la solution e-commerce la plus déployée au monde : il s'agit d'une extension de WordPress, ce qui lui donne accès à l'écosystème le plus vaste du web.
+WooCommerce est devenu, depuis son rachat par Automattic (la société derrière WordPress.com) en 2015, la solution e-commerce la plus déployée au monde : il s'agit d'une extension de WordPress, ce qui lui donne accès à l'écosystème le plus vaste du web.
 
 Son intérêt principal tient à cette intégration : contenu éditorial, référencement, blog et boutique partagent le même back-office, les mêmes thèmes et les mêmes extensions. La couverture fonctionnelle de base (catalogue, panier, commandes, taxes, expéditions, paiements) s'étend par extensions, gratuites ou payantes, pour les abonnements, les réservations, les places de marché, le paiement en plusieurs fois, etc.
 

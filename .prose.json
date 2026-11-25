@@ -1,0 +1,9 @@
+{
+  "allowlist": {
+    "R30-nominalisation": [
+      "fournisseur d'identité",
+      "fournisseur d’identité",
+      "fournisseurs d'identité"
+    ]
+  }
+}

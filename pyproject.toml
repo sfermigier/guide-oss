@@ -5,7 +5,7 @@ authors = [
     {name = "Stefane Fermigier", email = "sf@fermigier.com"},
 ]
 license = {text = "GNU Free Documentation License version 1.3"}
-requires-python = "<4.0,>=3.7"
+requires-python = ">=3.10"
 dependencies = []
 description = ""
 
@@ -15,4 +15,9 @@ includes = []
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
+
+[dependency-groups]
+dev = [
+    "zensical>=0.0.67",
+]
 

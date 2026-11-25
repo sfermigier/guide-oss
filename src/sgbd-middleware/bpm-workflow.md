@@ -1,10 +1,10 @@
-# BPM / Workflow
+# BPM et workflow { #bpm-workflow }
 
 Demande de congés, validation de documents, dématérialisation de la relation client : les processus sont au cœur du système d’informations des entreprises et collectivités.
 
 Les solutions de BPM (Business Process Management) offrent une approche moderne en affranchissant en grande partie les utilisateurs des contraintes techniques pour modéliser, déployer et optimiser leurs processus.
 
-Les solutions de BPM permettent la modélisation graphique des processus, la génération et l’adaptation des formulaires, et le suivi web des demandes.
+Les solutions de BPM permettent la modélisation graphique des processus, la génération et l’adaptation des formulaires et le suivi web des demandes.
 
 ## Bonita
 
@@ -12,7 +12,7 @@ Site
 : <https://www.ofelia.com/downloads>
 
 Porteur
-: un éditeur français (Ofelia, anciennement Bonitasoft)
+: un éditeur (Ofelia, anciennement Bonitasoft)
 
 Licence
 : GPL et propriétaire
@@ -72,10 +72,9 @@ Activiti est développé en Java.
 ## Autres
 
 - Flowable (Java), fork d'Activiti par ses auteurs d'origine: <https://www.flowable.com/>
+- CIB seven (Java), fork communautaire de Camunda 7: <https://cibseven.org/>
 - SpiffWorkflow (Python), moteur BPMN 2.0: <https://github.com/sartography/SpiffWorkflow>
 - Viewflow (Python/Django): <https://viewflow.io/>
 - Temporal (orchestration de workflows durables, plutôt orientée développeurs): <https://temporal.io/>
 - Windmill (plateforme de workflows et de scripts, alternative libre aux outils d'automatisation SaaS): <https://www.windmill.dev/>
 - Flor (Ruby): <https://github.com/floraison/flor>
-
-**Le cas Camunda.** Camunda 7, longtemps l'une des références du BPM open source (Apache 2.0), a atteint sa fin de vie en octobre 2025 : le dépôt de l'édition communautaire est archivé et ne reçoit plus de correctifs, y compris de sécurité. Son successeur, Camunda 8, n'est plus open source : depuis octobre 2024, ses composants sont publiés sous Camunda License 1.0, qui autorise la lecture du code et l'usage en développement, mais exige une licence commerciale en production. Les utilisateurs de Camunda 7 souhaitant rester en open source se tournent vers le fork **CIB seven** (<https://cibseven.org/>), vers Flowable ou vers Apache KIE.

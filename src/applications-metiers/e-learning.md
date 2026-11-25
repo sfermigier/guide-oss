@@ -1,4 +1,4 @@
-# E-Learning
+# E-learning
 
 L’e-learning, également appelé « Formation en ligne » consiste en l’apprentissage à travers des solutions électroniques, web notamment.
 
@@ -12,18 +12,18 @@ Site
 : <https://moodle.org>
 
 Porteur
-: une communauté
+: un éditeur (Moodle Pty Ltd)
 
 Licence
-: GPL
+: GPL v3
 
-Créée en 2002 par l'australien Martin Dougiamas (venu de la solution propriétaire WebCT), Moodle est la plateforme d'apprentissage en ligne la plus utilisée dans le monde. Elle est portée par la société australienne Moodle Pty Ltd et par un réseau international de partenaires certifiés.
+Créée en 2002 par l'australien Martin Dougiamas (venu de la solution propriétaire WebCT), Moodle est la plateforme d'apprentissage en ligne la plus utilisée dans le monde. Elle s'appuie sur un réseau international de partenaires certifiés.
 
 Elle permet de créer et mettre à disposition des apprenants, des cours et divers outils pédagogiques, d'évaluer leurs connaissances et de favoriser les communautés d'apprentissage autour d'outils collaboratifs. Son approche modulaire répond aux besoins d'un formateur isolé comme d'une grande institution. Parmi ses principales fonctionnalités, on peut citer : gestion des professeurs, élèves et cours, création de 9 types de ressources pédagogiques, compatibilité SCORM, questionnaires, outils collaboratifs (wiki, forums et blog), planning, supervision des apprenants.
 
 Moodle est soutenu par des communautés de pratiques actives qui participent à son développement. Des sociétés de services autorisées proposent diverses prestations (hébergement, création de modules, etc.).
 
-Moodle est une application LAMP (Linux, Apache, MySQL et PHP). Elle fonctionne aussi bien sur Unix, Linux, FreeBSD, Windows, Mac OS X, NetWare, ..., et avec les bases de données PostgreSQL, Oracle et Microsoft SQL Server.
+Moodle est une application LAMP (Linux, Apache, MySQL et PHP). Elle fonctionne sur la plupart des systèmes et avec plusieurs bases de données, dont PostgreSQL et MariaDB.
 
 ## Chamilo
 
@@ -52,5 +52,4 @@ Parmi les produits de l’univers E-Learning, on peut compléter la liste avec l
 - Canvas LMS (édition open source, AGPL): <https://github.com/instructure/canvas-lms>
 - Sakai: <https://www.sakailms.org/>
 - ILIAS: <https://www.ilias.de/>
-- Dokeos, désormais commercialisé comme une offre propriétaire: <https://www.dokeos.com/>
 - Opigno (LMS bâti sur Drupal): <https://www.opigno.org/>

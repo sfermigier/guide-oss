@@ -2,7 +2,7 @@
 
 La notion de firewall est souvent liée à celle de routage, c'est-à-dire l'acheminement des flux réseau entre les différentes machines.
 
-Les firewalls sont donc généralement installés sur des équipements de routage, dont ils sont une partie intégrante. Le routage peut donc être modifié par une décision du firewall, et le firewall appliquera des règles de filtrage différentes selon l'origine et la destination du trafic. C'est la mission principale du firewall.
+Les firewalls sont donc généralement installés sur des équipements de routage, dont ils sont une partie intégrante. Le routage peut donc être modifié par une décision du firewall. Le firewall appliquera des règles de filtrage différentes selon l'origine et la destination du trafic. C'est la mission principale du firewall.
 
 Le firewall peut également être utilisé dans un rôle plus qualitatif, plus fin, comme le volume de bande passante autorisé pour telle ou telle application dans tel ou tel contexte.
 
@@ -21,9 +21,9 @@ Licence
 
 pf (Packet Filter) est la couche de filtrage intégrée aux systèmes libres hérités de BSD UNIX (FreeBSD, NetBSD, OpenBSD...). pf a été créé en 2001 par Daniel Hartmeier en remplacement du logiciel IPFilter.
 
-Ce système présente l'avantage d'avoir un langage de configuration simple, et d'intégrer les fonctionnalités de NAT et de QoS. Packet Filter s'est imposé comme le pare-feu de référence des systèmes BSD. Il peut également servir pour équilibrer la charge et gérer le trafic réseau sur des Unix libres BSD.
+Ce système présente l'avantage d'avoir un langage de configuration simple et d'intégrer les fonctionnalités de NAT et de QoS. Packet Filter s'est imposé comme le pare-feu de référence des systèmes BSD. Il peut également servir pour équilibrer la charge et gérer le trafic réseau sur des Unix libres BSD.
 
-## NetFilter
+## Netfilter
 
 Site
 : <https://www.netfilter.org/>
@@ -36,26 +36,9 @@ Licence
 
 Netfilter, parfois appelé iptables, est la couche de filtrage intégrée au noyau Linux. Il a été créé en 1998 par Rusty Russell.
 
-Il s'agit d'un système extrêmement souple, qui s'intègre aux fonctionnalités de routage et de QoS du noyau et comprend les fonctions de NAT. Il dispose de nombreux critères de filtrage (temps, volume de données) et de modules de suivi de connexions pour les protocoles complexes (FTP, SIP, H.323). Il est en revanche complexe à configurer, et l'on utilise souvent un outil tiers pour générer sa configuration (firewalld, Shorewall, ferm, UFW…).
+Il s'agit d'un système extrêmement souple, qui s'intègre aux fonctionnalités de routage et de QoS du noyau et comprend les fonctions de NAT. Il dispose de nombreux critères de filtrage (temps, volume de données) et de modules de suivi de connexions pour les protocoles complexes (FTP, SIP, H.323). Il est en revanche complexe à configurer. On utilise souvent un outil tiers pour générer sa configuration (firewalld, Shorewall, ferm, UFW…).
 
-Un point important pour les déploiements actuels : **nftables** a remplacé iptables comme interface par défaut du sous-système Netfilter dans toutes les distributions récentes (Debian depuis la version 10, RHEL depuis la version 8). La syntaxe est unifiée entre IPv4 et IPv6, les règles sont plus performantes sur les gros jeux, et une couche de compatibilité (`iptables-nft`) permet la transition.
-
-## DynFi Firewall
-
-Site
-: <https://dynfi.com/dynfi-firewall/>
-
-Porteur
-: la société Française DynFi
-
-Licence
-: BSD
-
-DynFi Firewall est un pare-feu français dérivé de pfSense et OPNsense qui apporte des nouvelles fonctionnalités et un système de compilation issue de FreeBSD (projet poudrière).
-
-Il intègre directement un certain nombre de packages (zerotier, Clamav, Ntopng et Nprobe) ainsi q’un nouveau système de filtrage fondé sur les DNS.
-
-Le code est disponibile sur Github, le firewall est agrémenté d’un gestionnaire centralisé unique en son genre.
+Un point important pour les déploiements actuels : **nftables** a remplacé iptables comme interface par défaut du sous-système Netfilter dans toutes les distributions récentes (Debian depuis la version 10, RHEL depuis la version 8). La syntaxe est unifiée entre IPv4 et IPv6, les règles sont plus performantes sur les gros jeux et une couche de compatibilité (`iptables-nft`) permet la transition.
 
 ## pfSense
 
@@ -70,9 +53,9 @@ Licence
 
 pfSense est une distribution logicielle permettant de réaliser une passerelle réseau à partir d'un serveur x86. Elle date de 2004 à partir d'un fork de m0n0wall par Chris Buechler et Scott Ullrich.
 
-Très fréquemment rencontrée dans les PME et les petites structures, pfSense offre une solution complète de routage, filtrage, VPN et partage de connexion. Il est fondé sur pf, et intègre un grand nombre de composants tiers : serveur DHCP/DNS, serveur de temps, proxy web, monitoring... Toute la configuration passe par une interface web.
+Très fréquemment rencontrée dans les PME et les petites structures, pfSense offre une solution complète de routage, filtrage, VPN et partage de connexion. Fondé sur pf, il intègre un grand nombre de composants tiers : serveur DHCP/DNS, serveur de temps, proxy web, monitoring... Toute la configuration passe par une interface web.
 
-Depuis 2014, la solution est portée par la société Netgate, qui en propose le support officiel. Elle se décline en pfSense CE (Community Edition), librement téléchargeable, et pfSense Plus, réservée aux appliances de l'éditeur et aux souscriptions, laquelle concentre désormais les évolutions les plus significatives. Ce déséquilibre est à l'origine du fork OPNsense (voir ci-dessous), à examiner avant tout nouveau déploiement.
+Depuis 2014, la solution est portée par la société Netgate, qui en propose le support officiel. Elle se décline en pfSense CE (Community Edition, librement téléchargeable) et pfSense Plus, réservée aux appliances de l'éditeur et aux souscriptions, laquelle concentre désormais les évolutions les plus significatives. Ce déséquilibre est à l'origine du fork OPNsense (voir ci-dessous), à examiner avant tout nouveau déploiement.
 
 ## OPNsense
 
@@ -80,7 +63,7 @@ Site
 : <https://opnsense.org/>
 
 Porteur
-: une entreprise néerlandaise (Deciso) et une communauté
+: une entreprise (Deciso) et une communauté
 
 Licence
 : BSD 2-clauses
@@ -90,6 +73,8 @@ OPNsense est un fork de pfSense réalisé en 2015 par la société néerlandaise
 Le produit couvre le même périmètre (routage, filtrage, NAT, VPN IPsec, OpenVPN et WireGuard, proxy web, filtrage DNS, détection d'intrusion avec Suricata, portail captif, haute disponibilité), avec une interface web modernisée et, surtout, des mises à jour hebdomadaires et deux versions majeures par an, sans réserver de fonctionnalités à une édition payante. Deciso commercialise des appliances et du support.
 
 OPNsense est fondé sur FreeBSD et écrit en PHP, Python et C.
+
+<span id="dynfi-firewall"></span>
 
 ## Autres
 

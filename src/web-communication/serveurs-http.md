@@ -1,10 +1,8 @@
-# Serveurs http
+# Serveurs HTTP
 
-Dans cette rubrique, nous présentons les serveurs HTTP open source du marché.
+Les serveurs HTTP (également appelés serveurs web) répondent aux requêtes des navigateurs et des applications. Ils servent des contenus statiques, transmettent les requêtes dynamiques aux applications et terminent le plus souvent les connexions TLS.
 
-Les serveurs HTTP (également appelé serveurs Web) servent les requêtes (pages, images souvent) des internautes en respectant le protocole http.
-
-Dans l’univers des serveurs HTTP, le serveur Apache domine très largement avec une notoriété exceptionnelle. Il n’est pas difficile de trouver des prestataires pour du conseil ou de l’intégration.
+Deux familles sont présentées ici : les serveurs web et proxys inverses (Apache httpd, Nginx, Lighttpd, Caddy) et les serveurs d'application Python (Gunicorn, uWSGI), qui se placent derrière les premiers. Le choix dépend surtout de l'existant, du mode de configuration souhaité, de la gestion des certificats et de la gouvernance du projet.
 
 ## Apache Httpd
 
@@ -15,11 +13,13 @@ Porteur
 : une fondation (Apache)
 
 Licence
-: Apache
+: Apache 2.0
 
-Apache est le serveur web le plus utilisé au monde. Son développement a commencé en 1995 alors qu’il s'agissait uniquement d'une collection de correctifs et d'additions au serveur NCSA HTTPd 1.3.
+Né en 1995 d'un ensemble de correctifs apportés au serveur NCSA HTTPd, Apache httpd a longtemps été le serveur web le plus utilisé. Il reste l'un des plus déployés, derrière Nginx. Il demeure très présent dans l'hébergement mutualisé.
 
-Il offre une grande souplesse de configuration et un grand nombre modules pour une couverture fonctionnelle toujours inégalée. La version 2 a notamment apportée le support de plusieurs plateformes (dont Windows), une nouvelle API et le support d’IPv6. En plus de son périmétre initial, Apache est conçu pour être modulaire et permettre l’accueil de fonctionnalités additionnelles comme l’interprétation du language PERL, PHP, Python et Ruby, le support des tags SSI et des CGI, etc.
+Son architecture modulaire couvre l'authentification, la réécriture d'URL, le proxy inverse, TLS, HTTP/2 et l'exécution de langages comme PHP ou Perl. Les fichiers `.htaccess` permettent de déléguer une partie de la configuration aux responsables de chaque site, au prix d'un coût à l'exécution.
+
+Apache httpd est écrit en C.
 
 ## Nginx
 
@@ -27,28 +27,18 @@ Site
 : <https://nginx.org>
 
 Porteur
-: NGINX, Inc. (acquise par F5 Networks)
+: un éditeur (F5)
 
 Licence
-: 2-clause BSD
+: BSD 2 clauses
 
-Nginx est un serveur web open source et un reverse proxy fondé par Igor Sysoev en 2004. Il est conçu pour offrir des performances élevées, une faible utilisation des ressources et une grande stabilité.
+Nginx est un serveur web et un proxy inverse publié en 2004 par Igor Sysoev. Son architecture asynchrone et événementielle lui permet de tenir de nombreuses connexions simultanées avec une mémoire réduite.
 
-Nginx se distingue par son architecture asynchrone et événementielle, qui lui permet de gérer un grand nombre de connexions simultanées avec une empreinte mémoire réduite. Cette architecture le rend particulièrement adapté aux applications web modernes à fort trafic.
+Il sert de serveur de fichiers statiques, de proxy HTTP, TCP et de messagerie, de répartiteur de charge et de cache et transmet les requêtes aux applications par FastCGI, uwsgi ou SCGI. Certaines fonctions (administration par API, vérifications de santé actives) sont réservées à l'édition commerciale NGINX Plus.
 
-Caractéristiques et fonctionnalités :
+Un point de gouvernance est à suivre. À la suite d'un désaccord avec F5, propriétaire du projet depuis 2019, l'un des développeurs historiques a lancé en 2024 le fork *freenginx* (<https://freenginx.org/>). Un autre fork, Angie (<https://angie.software/>), est maintenu par d'anciens développeurs de Nginx. Ces projets restent pour l'instant marginaux.
 
-- Serveur HTTP statique, proxy inverse et proxy de messagerie
-- Équilibrage de charge avec gestion des sessions
-- SSL/TLS pour des connexions sécurisées
-- Compression et mise en cache des réponses HTTP
-- Support de FastCGI, SCGI, uWSGI, et des passerelles de serveurs d'applications
-- Gestion des redirections et réécritures d'URL
-- Module de streaming pour la diffusion en continu de contenu multimédia
-
-Nginx est également extensible grâce à ses modules dynamiques, permettant aux utilisateurs d'ajouter des fonctionnalités supplémentaires en fonction de leurs besoins spécifiques. En raison de ses performances et de sa flexibilité, Nginx est devenu un choix populaire pour les grandes entreprises et les services de cloud computing, surpassant même Apache dans de nombreux déploiements à grande échelle.
-
-Reste un point de gouvernance. À la suite d'un désaccord avec F5, propriétaire du projet depuis 2019, l'un des développeurs historiques a lancé en 2024 le fork *freenginx* (<https://freenginx.org/>). Un autre fork, Angie (<https://angie.software/>), est maintenu par d'anciens développeurs de Nginx. Ces projets restent pour l'instant marginaux face à Nginx, mais leur trajectoire est à suivre.
+Nginx est écrit en C.
 
 ## Lighttpd
 
@@ -56,26 +46,16 @@ Site
 : <https://www.lighttpd.net>
 
 Porteur
-: un projet open source (initié par Jan Kneschke)
+: une communauté (projet initié par Jan Kneschke)
 
 Licence
-: BSD
+: BSD 3 clauses
 
-Lighttpd, souvent prononcé "lighty", est un serveur web open source conçu pour être rapide, sobre et conforme aux standards. Il a été développé par Jan Kneschke en 2003 pour répondre aux besoins des environnements à haute performance avec une faible consommation de mémoire.
+Lighttpd, prononcé « lighty », a été créé en 2003 par Jan Kneschke pour servir de nombreuses connexions avec peu de ressources, grâce à une boucle d'événements asynchrone.
 
-Caractéristiques et fonctionnalités :
+Il prend en charge TLS, HTTP/2, la compression, la réécriture d'URL et l'exécution d'applications par FastCGI, SCGI ou CGI. Sa faible empreinte le destine aux systèmes embarqués, aux équipements réseau et aux petits serveurs. Le développement se poursuit, à un rythme modeste. L'écosystème est plus réduit que celui de Nginx.
 
-- Conception légère et optimisation pour les environnements à haute performance
-- Utilisation d'une architecture asynchrone fondée sur des événements pour gérer efficacement les connexions simultanées
-- Support complet de FastCGI, SCGI et CGI pour les applications dynamiques
-- Support de la compression HTTP (mod_compress) et de la mise en cache des réponses
-- Gestion avancée des redirections et réécritures d'URL
-- Support de SSL/TLS pour des connexions sécurisées
-- Modules pour la gestion des sessions, l'authentification, la génération de statistiques, et plus encore
-
-Lighttpd est particulièrement adapté aux environnements où la performance et la faible empreinte mémoire priment. Grâce à son architecture légère, il peut gérer un grand nombre de connexions simultanées avec une empreinte mémoire minimale, ce qui le rend idéal pour les serveurs web à faible coût ou les systèmes embarqués.
-
-De plus, Lighttpd offre une flexibilité importante via son système de modules, permettant aux administrateurs de configurer et d'étendre ses fonctionnalités en fonction des besoins spécifiques de leurs applications. Ses capacités de gestion de la charge et de performance en font un choix populaire pour les développeurs cherchant à optimiser l'efficacité de leurs serveurs web.
+Lighttpd est écrit en C.
 
 ## Caddy
 
@@ -83,29 +63,16 @@ Site
 : <https://caddyserver.com>
 
 Porteur
-: un projet communautaire soutenu par des entreprises, initié par Matthew Holt
+: une communauté (projet initié par Matthew Holt)
 
 Licence
 : Apache 2.0
 
-Caddy est un serveur web open source connu pour sa configuration facile et son support natif de HTTPS. Il a été créé par Matthew Holt en 2015 et se distingue par sa simplicité d'utilisation et ses fonctionnalités modernes.
+Caddy a été créé par Matthew Holt en 2015. Il se distingue par l'obtention et le renouvellement automatiques des certificats TLS auprès d'autorités ACME comme Let's Encrypt, actifs par défaut.
 
-Caractéristiques et fonctionnalités :
+La configuration tient dans un fichier court, le Caddyfile, ou passe par une API JSON. Caddy fait office de serveur de fichiers, de proxy inverse avec répartition de charge et de frontal FastCGI et gère HTTP/2 et HTTP/3. Les fonctions absentes du binaire standard s'ajoutent par des modules, ce qui demande de recompiler le serveur avec l'outil xcaddy.
 
-- Configuration simple et intuitive via un fichier de configuration Caddyfile ou en utilisant JSON
-- HTTPS automatique pour chaque site avec des certificats SSL/TLS obtenus et renouvelés automatiquement via Let's Encrypt
-- Support intégré de HTTP/2 et HTTP/3 pour des connexions web plus rapides et plus sécurisées
-- Architecture modulaire permettant une grande extensibilité avec des plugins
-- Capacités de reverse proxy avec gestion des équilibrages de charge et du clustering
-- Support de FastCGI, WebSockets et d'autres protocoles pour des applications dynamiques
-- Gestion des redirections, des réécritures d'URL et des en-têtes HTTP
-- Système de cache intégré pour améliorer les performances
-
-Caddy se distingue par sa capacité à gérer automatiquement les certificats SSL/TLS, simplifiant ainsi considérablement le déploiement de sites web sécurisés. Sa configuration via Caddyfile est conçue pour être accessible et facile à comprendre, même pour les utilisateurs moins expérimentés.
-
-En plus de ses fonctionnalités de serveur web, Caddy peut également être utilisé comme un reverse proxy, un équilibreur de charge et un serveur de streaming, offrant une solution tout-en-un pour diverses exigences de déploiement web. Sa conception modulaire permet aux développeurs de créer des plugins personnalisés pour étendre les capacités du serveur en fonction de leurs besoins spécifiques.
-
-La popularité de Caddy réside dans sa simplicité d'utilisation et sa capacité à automatiser les tâches courantes liées à la gestion de serveurs web sécurisés. Ces caractéristiques en font un choix privilégié pour les développeurs et les administrateurs système cherchant à minimiser la complexité tout en maintenant des standards de sécurité élevés.
+Caddy est écrit en Go.
 
 ## Gunicorn
 
@@ -113,29 +80,16 @@ Site
 : <https://gunicorn.org>
 
 Porteur
-: un projet open source (initié par Benoit Chesneau)
+: une communauté (projet initié par Benoît Chesneau)
 
 Licence
 : MIT
 
-Gunicorn, abréviation de "Green Unicorn", est un serveur HTTP pour les applications Python WSGI. Il a été développé par Benoit Chesneau et est conçu pour être simple à utiliser et compatible avec la plupart des frameworks Python.
+Gunicorn (« Green Unicorn ») est un serveur d'application pour les applications Python au standard WSGI, comme celles écrites avec Django ou Flask.
 
-Caractéristiques et fonctionnalités :
+Un processus maître pilote plusieurs processus de travail, synchrones, à threads ou asynchrones, dont le nombre se règle en fonction de la charge. Les journaux, les délais d'expiration et le rechargement se configurent en ligne de commande ou dans un fichier Python. En production, on le place derrière un proxy inverse, généralement Nginx.
 
-- Compatibilité avec les applications WSGI standard, permettant une intégration facile avec les frameworks comme Django, Flask, Pyramid, etc.
-- Modèle de concurrence fondé sur des travailleurs multiples (workers) pouvant être configurés pour utiliser des threads, des processus ou des coroutines
-- Gestion efficace des ressources avec une faible latence et une haute performance
-- Prise en charge des configurations de déploiement flexibles grâce à des options de ligne de commande et des fichiers de configuration
-- Capacité à gérer les connexions multiples avec une architecture robuste et résiliente
-- Fonctionnalités de logging et monitoring pour une gestion simplifiée en production
-- Support pour les sockets Unix et les sockets TCP
-- Extensible via des hooks et des plugins pour répondre à des besoins spécifiques
-
-Gunicorn est souvent utilisé en combinaison avec des serveurs proxy inverses comme Nginx pour créer des environnements de déploiement web performants et sécurisés. Son architecture de travailleurs multiples permet de gérer un grand nombre de requêtes simultanées, ce qui en fait un choix idéal pour les applications web à fort trafic.
-
-L'un des avantages de Gunicorn est sa simplicité d'utilisation, avec une configuration minimale nécessaire pour démarrer une application Python WSGI. Les utilisateurs peuvent ajuster le nombre de travailleurs et choisir parmi différents types de travailleurs (synchrones, asynchrones, gévent, etc.) en fonction des besoins de leur application.
-
-Gunicorn offre également des fonctionnalités avancées comme le rechargement à chaud, les délais de timeout configurables, et la gestion des erreurs, ce qui facilite la maintenance et la mise à jour des applications en production.
+Gunicorn est écrit en Python.
 
 ## uWSGI
 
@@ -143,37 +97,22 @@ Site
 : <https://uwsgi-docs.readthedocs.io>
 
 Porteur
-: un projet open source (initié par Roberto De Ioris)
+: une communauté (projet initié par Roberto De Ioris)
 
 Licence
-: GPL
+: GPL v2+ avec exception d'édition de liens
 
-uWSGI est un serveur d'application web pour les applications Python WSGI, mais il prend également en charge plusieurs autres langages et protocoles. Créé par Roberto De Ioris, uWSGI est conçu pour offrir des performances élevées, une grande flexibilité et une extensibilité robuste.
+uWSGI est un serveur d'application écrit en C, conçu pour Python (WSGI) et étendu à d'autres langages par des plugins.
 
-Attention toutefois : le projet est officiellement en mode maintenance depuis plusieurs années (corrections de bogues uniquement). Les nouveaux déploiements Python lui préfèrent généralement Gunicorn, ou, pour les applications asynchrones (ASGI), Uvicorn et Granian.
-
-Caractéristiques et fonctionnalités :
-
-- Support de multiples langages et protocoles, y compris Python, Perl, Ruby, Lua, et PHP, ainsi que des protocoles comme HTTP, FastCGI, SCGI, et uWSGI
-- Modèle de travail multi-processus et multi-thread avec gestion automatique des processus pour une haute performance et une résilience accrue
-- Capacité à gérer un grand nombre de connexions simultanées grâce à une architecture scalable et performante
-- Extensible via des plugins, permettant d'ajouter des fonctionnalités spécifiques en fonction des besoins de l'application
-- Outils de gestion et de monitoring intégrés, tels que uWSGI Emperor, pour une administration simplifiée des instances et des processus
-- Support de la journalisation avancée et des métriques pour une meilleure surveillance en production
-- Options de configuration flexibles via des fichiers ini, xml, yaml, ou directement en ligne de commande
-- Support des sockets Unix et TCP, ainsi que des fonctionnalités avancées comme les threads asynchrones, les coroutines, et le chargement à chaud des applications
-
-uWSGI est souvent utilisé conjointement avec des serveurs web comme Nginx ou Apache en tant que reverse proxy, créant une architecture robuste et scalable pour les applications web. Son support étendu de divers langages et protocoles le rend particulièrement adapté pour des environnements hétérogènes où plusieurs technologies coexistent.
-
-L'une des forces de uWSGI est sa capacité à être hautement configurable et extensible, permettant aux développeurs de fine-tuner leur environnement de déploiement pour des performances optimales. Les fonctionnalités comme le rechargement à chaud, la gestion des workers, et les capacités de clustering offrent une grande flexibilité pour le déploiement et la gestion des applications.
+Le projet est officiellement en mode maintenance : il ne reçoit plus que des corrections et des adaptations aux nouvelles versions des langages. Il reste utilisable dans les installations existantes ; les nouveaux déploiements Python lui préfèrent Gunicorn ou, pour les applications asynchrones (ASGI), Uvicorn et Granian.
 
 ## Comparaison
 
-| Serveur | Site | Porteur | Licence | Langages et protocoles pris en charge | Caractéristiques Distinctives | Année de Création |
+| Serveur | Site | Porteur | Licence | Langages et protocoles pris en charge | Caractéristiques distinctives | Année de création |
 |----|----|----|----|----|----|----|
-| Apache Httpd | <https://httpd.apache.org> | Apache Software Foundation | Apache License 2.0 | PERL, PHP, Python, Ruby, SSI, CGI | Grande souplesse de configuration, nombreux modules, support IPv6 | 1995 |
-| Nginx | <https://nginx.org> | NGINX, Inc. (acquise par F5 Networks) | 2-clause BSD | HTTP, FastCGI, SCGI, uWSGI, SSL/TLS | Architecture asynchrone, faible utilisation des ressources, haute performance | 2004 |
-| Lighttpd | <https://www.lighttpd.net> | un projet open source (initié par Jan Kneschke) | BSD | HTTP, FastCGI, SCGI, CGI, SSL/TLS | Conception légère, optimisation pour haute performance, faible utilisation des ressources | 2003 |
-| Caddy | <https://caddyserver.com> | un projet communautaire (initié par Matthew Holt) | Apache License 2.0 | HTTP/2, HTTP/3, FastCGI, WebSockets, SSL/TLS | Configuration facile, HTTPS automatique, architecture modulaire | 2015 |
-| Gunicorn | <https://gunicorn.org> | un projet open source (initié par Benoit Chesneau) | MIT | WSGI, Unix Sockets, TCP Sockets | Simplicité d'utilisation, gestion efficace des ressources, flexible | 2009 |
-| uWSGI | <https://uwsgi-docs.readthedocs.io> | un projet open source (initié par Roberto De Ioris) | GPL | HTTP, FastCGI, SCGI, uWSGI, Python, Perl, Ruby, Lua, PHP | Extensible via plugins, support multi-langages, haute configurabilité | 2008 |
+| Apache Httpd | <https://httpd.apache.org> | une fondation (Apache) | Apache License 2.0 | Perl, PHP, Python, Ruby, SSI, CGI | Souplesse de configuration, nombreux modules | 1995 |
+| Nginx | <https://nginx.org> | un éditeur (F5) | 2-clause BSD | HTTP, FastCGI, SCGI, uWSGI, SSL/TLS | Architecture asynchrone, proxy inverse et répartition de charge | 2004 |
+| Lighttpd | <https://www.lighttpd.net> | une communauté | BSD 3 clauses | HTTP, FastCGI, SCGI, CGI, SSL/TLS | Empreinte réduite, systèmes embarqués | 2003 |
+| Caddy | <https://caddyserver.com> | une communauté | Apache License 2.0 | HTTP/2, HTTP/3, FastCGI, WebSockets, SSL/TLS | Configuration facile, HTTPS automatique, architecture modulaire | 2015 |
+| Gunicorn | <https://gunicorn.org> | une communauté | MIT | WSGI, Unix Sockets, TCP Sockets | Serveur d'application Python à processus multiples | 2009 |
+| uWSGI | <https://uwsgi-docs.readthedocs.io> | une communauté | GPL v2+ avec exception d'édition de liens | HTTP, FastCGI, SCGI, uWSGI, Python, Perl, Ruby, Lua, PHP | Multi-langages, extensible par plugins, en mode maintenance | 2008 |

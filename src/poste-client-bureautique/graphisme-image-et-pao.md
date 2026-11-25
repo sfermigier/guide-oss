@@ -31,7 +31,7 @@ Site
 : <https://inkscape.org/>
 
 Porteur
-: une communauté (Inkscape Project, projet membre de Software Freedom Conservancy)
+: une communauté (Inkscape Project)
 
 Licence
 : GPL v3
@@ -50,7 +50,7 @@ Site
 : <https://krita.org/>
 
 Porteur
-: une fondation (Krita Foundation) et la communauté KDE
+: une fondation (Krita Foundation)
 
 Licence
 : GPL v3
@@ -59,7 +59,7 @@ Krita est un atelier de peinture numérique et d'illustration. Sa vocation est l
 
 Il propose des centaines de brosses paramétrables, la gestion de la pression et de l'inclinaison des stylets, les calques de groupe et de filtre, les masques, les assistants de perspective, la peinture symétrique, la gestion colorimétrique complète et un module d'animation image par image.
 
-Il est employé en production par des illustrateurs et des studios d'animation, et son financement (dons, vente sur les boutiques d'applications, subventions) a permis d'entretenir une équipe de développeurs à plein temps, ce qui est rare dans cette catégorie.
+Il est employé en production par des illustrateurs et des studios d'animation. Son financement (dons, vente sur les boutiques d'applications, subventions) a permis d'entretenir une équipe de développeurs à plein temps, ce qui est rare dans cette catégorie.
 
 Krita est écrit en C++ (Qt).
 
@@ -107,14 +107,14 @@ Site
 : <https://www.blender.org/>
 
 Porteur
-: une fondation néerlandaise (Blender Foundation)
+: une fondation (Blender Foundation)
 
 Licence
 : GPL
 
 Blender est la grande réussite du logiciel libre dans le domaine de la création : suite complète de création 3D (modélisation, sculpture, texturation, animation, simulation physique, rendu, montage vidéo, compositing) employée aujourd'hui dans la publicité, le jeu vidéo, l'architecture et le cinéma d'animation.
 
-Son modèle de financement fait école : le *Development Fund* de la fondation réunit des contributions d'entreprises, dont plusieurs grands studios et fabricants de matériel, et finance une équipe permanente. Le projet est ainsi passé en une décennie du statut d'outil marginal à celui de standard reconnu, avec des films d'animation produits intégralement sous Blender.
+Son modèle de financement fait école : le *Development Fund* de la fondation réunit des contributions d'entreprises, dont plusieurs grands studios et fabricants de matériel. Il finance une équipe permanente. Le projet est ainsi passé en une décennie du statut d'outil marginal à celui de standard reconnu, avec des films d'animation produits intégralement sous Blender.
 
 Pour une organisation, c'est aussi un outil de production de contenus de communication : visuels 3D, animations de présentation, visualisations de produits ou de bâtiments.
 

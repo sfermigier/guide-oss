@@ -1,6 +1,6 @@
 # Déploiement
 
-Les outils de déploiement permettent de préparer à distance des environnements selon des règles prédéfinies ou selon un état final attendu. Toutes les grandes entreprises utilisent des logiciels de déploiement pour faciliter l’administration de leur parc.
+Les outils de déploiement permettent de préparer à distance des environnements selon des règles prédéfinies ou selon un état final attendu. Ils facilitent l’administration d’un parc de serveurs et rendent ses changements reproductibles.
 
 Ces outils peuvent être classés en plusieurs sous-catégories:
 
@@ -12,25 +12,20 @@ Ces outils peuvent être classés en plusieurs sous-catégories:
   > - Salt
   > - Rudder
 
-- **Outils de sauvegarde et de clonage de disques** : Ces outils permettent de créer une copie exacte d'un disque ou d'une partition, qui peut ensuite être utilisée pour restaurer le disque ou la partition à un état précédent. Ils sont généralement utilisés pour la sauvegarde des données, la restauration du système après un incident, ou le déploiement de systèmes. Nous présentons:
+- **Outils de provisionnement d'infrastructure** : ils créent et détruisent les ressources (machines, réseaux, services managés) que les outils précédents configurent ensuite. Nous présentons OpenTofu.
 
-  > - Clonezilla
-  > - Partimage
-
-- **Outils d'inventaire et de suivi des actifs** : Ces outils aident à suivre et à gérer les actifs informatiques dans une organisation. Nous présentons:
-
-  > - OCS Inventory NG
+Le clonage de disques et l'installation de postes sont traités à la page [Déploiement de postes](../infrastructure/deploiement-postes.md), l'inventaire à la page [Gestion de parc et inventaires](../infrastructure/gestion-de-parc-et-inventaires.md).
 
 ## Cadre conceptuel
 
-Plusieurs des cités se fondent sur la théorie (*Promise Theory*), un cadre conceptuel développé par Mark Burgess, le créateur de CFEngine, pour aider à comprendre et à modéliser des systèmes distribués complexes.
+Plusieurs des outils cités se fondent sur la théorie des promesses (*Promise Theory*), un cadre conceptuel développé par Mark Burgess, le créateur de CFEngine, pour aider à comprendre et à modéliser des systèmes distribués complexes.
 
 Dans le cadre de la théorie des promesses, un système est compris comme un ensemble d'agents indépendants. Chaque agent peut faire des promesses concernant son propre comportement. Par exemple, dans un système informatique, un agent pourrait être un serveur qui promet de répondre à certaines requêtes, ou un logiciel qui promet de produire certains résultats lorsqu'il reçoit certaines entrées.
 
 Voici quelques principes clés de la théorie des promesses :
 
 - **Autonomie des agents** : Chaque agent est autonome et a le contrôle total sur les promesses qu'il fait. Aucun agent ne peut forcer un autre agent à faire une promesse.
-- **Promesses volontaires** : Les promesses sont faites volontairement par les agents. Un agent ne peut pas être contraint de faire une promesse qu'il ne veut pas faire.
+- **Promesses volontaires** : Les agents promettent volontairement. Un agent ne peut pas être contraint de faire une promesse qu'il ne veut pas faire.
 - **Promesses comme interface** : Les promesses servent d'interface entre les agents. Elles définissent ce qu'un agent est prêt à faire, mais ne spécifient pas comment l'agent doit accomplir ce qu'il promet.
 - **Promesses et observation** : La vérification du respect d'une promesse se fait par l'observation. Si un agent promet de faire quelque chose, les autres agents vérifient cette promesse en observant le comportement de l'agent.
 
@@ -47,7 +42,7 @@ Porteur
 Licence
 : GPL v3 (ansible-core)
 
-Ansible est une plate-forme logicielle open source qui offre des outils pour automatiser la gestion des systèmes et des réseaux. C'est un outil d'automatisation informatique qui permet de gérer à la fois le déploiement de logiciels, l'exécution de tâches ad-hoc (tâches qui ne sont pas nécessairement planifiées ou régulières), et la gestion de la configuration des systèmes.
+Ansible est une plate-forme logicielle open source qui offre des outils pour automatiser la gestion des systèmes et des réseaux. C'est un outil d'automatisation informatique qui permet de gérer à la fois le déploiement de logiciels, l'exécution de tâches ad-hoc (tâches qui ne sont pas nécessairement planifiées ou régulières) et la gestion de la configuration des systèmes.
 
 L'une des principales caractéristiques d'Ansible est sa simplicité d'utilisation. Il utilise le protocole SSH pour se connecter aux différents nœuds ou serveurs, ce qui signifie qu'il n'est pas nécessaire d'installer de logiciel supplémentaire sur les serveurs que vous souhaitez gérer. Cela réduit la complexité et les coûts associés à l'administration des systèmes.
 
@@ -55,7 +50,7 @@ Les « playbooks » sont au cœur d'Ansible. Un playbook est un fichier écrit e
 
 Ansible est écrit en Python, ce qui permet d'étendre ses fonctionnalités en écrivant ses propres modules.
 
-Depuis 2020, le projet est scindé en deux : `ansible-core`, le moteur, sous licence GPL v3, et les **collections**, qui regroupent modules et rôles par domaine et sont distribuées séparément via Ansible Galaxy. L'offre commerciale de Red Hat s'appelle Ansible Automation Platform. C'est aujourd'hui l'outil de gestion de configuration le plus utilisé, en grande partie grâce à son absence d'agent.
+Depuis 2020, le projet est scindé en deux : le moteur `ansible-core` (GPL v3) et les **collections**, qui regroupent modules et rôles par domaine et sont distribuées séparément via Ansible Galaxy. L'offre commerciale de Red Hat s'appelle Ansible Automation Platform. C'est aujourd'hui l'outil de gestion de configuration le plus utilisé, en grande partie grâce à son absence d'agent.
 
 ## Puppet
 
@@ -72,7 +67,7 @@ Puppet est une plateforme de gestion de configuration qui vous permet d'automati
 
 La particularité de Puppet réside dans son approche de la gestion de configuration fondée sur l'état désiré. Au lieu de scripter une séquence précise d'actions à effectuer sur un système, comme on le ferait avec des outils d'administration traditionnels, avec Puppet, vous définissez l'état final que vous souhaitez pour votre système. Cet état pourrait inclure des aspects tels que les permissions de fichiers, les logiciels à installer, les configurations à appliquer, etc. Puppet se charge ensuite de faire le nécessaire pour que le système atteigne cet état, quel que soit son état de départ.
 
-Cela offre plusieurs avantages. Tout d'abord, cela rend les configurations plus compréhensibles et maintenables, car vous décrivez ce que vous voulez, et non comment l'obtenir. Deuxièmement, cela rend l'automatisation plus robuste, car Puppet peut corriger les déviations de l'état désiré qui pourraient survenir au fil du temps.
+Cela offre plusieurs avantages. Tout d'abord, cela rend les configurations plus compréhensibles et maintenables : vous décrivez le résultat voulu. Deuxièmement, cela rend l'automatisation plus robuste, car Puppet peut corriger les déviations de l'état désiré qui pourraient survenir au fil du temps.
 
 Puppet est écrit en Ruby, un langage de programmation couramment utilisé pour les applications web et autres outils d'administration. Cela signifie que vous pouvez étendre Puppet avec vos propres modules et intégrations, si vous le souhaitez.
 
@@ -84,14 +79,14 @@ Site
 : <https://www.rudder.io/>
 
 Porteur
-: un éditeur français (Normation)
+: un éditeur (Normation)
 
 Licence
 : GPL v3
 
 Rudder est un outil d'automatisation et de gestion de configuration de serveurs open source. Conçu pour être facile à utiliser, il offre une interface web qui facilite la gestion de votre infrastructure informatique.
 
-Rudder fonctionne sur la base d'un modèle dirigé par les rôles, ce qui signifie que vous pouvez définir des configurations fondées sur le rôle d'un serveur dans votre infrastructure. Par exemple, vous pouvez avoir des rôles pour les serveurs web, les bases de données, les serveurs d'application, etc., et chaque rôle peut avoir une configuration spécifique qui lui est associée.
+Rudder fonctionne sur la base d'un modèle dirigé par les rôles, ce qui signifie que vous pouvez définir des configurations fondées sur le rôle d'un serveur dans votre infrastructure. Par exemple, vous pouvez avoir des rôles pour les serveurs web, les bases de données, les serveurs d'application, etc.. Chaque rôle peut avoir une configuration spécifique qui lui est associée.
 
 Rudder nécessite l'installation d'un agent léger sur chaque machine que vous souhaitez gérer. Cet agent communique avec le serveur Rudder pour recevoir les configurations à appliquer. L'utilisation d'agents locaux permet à Rudder de gérer efficacement la configuration même lorsque la connectivité réseau est interrompue ou limitée.
 
@@ -120,7 +115,7 @@ Chef permet également l'intégration avec les principales plateformes cloud, co
 
 Chef possède une communauté d'utilisateurs et de contributeurs qui ont créé un grand nombre de recettes prêtes à l'emploi pour diverses tâches de configuration.
 
-Deux points à connaître avant de s'engager : la société Chef Software a été rachetée en 2020 par Progress Software, et si le code reste sous licence Apache 2.0, les binaires officiels sont soumis depuis 2019 à une licence commerciale au-delà d'un certain périmètre d'usage. Le projet **Cinc** (<https://cinc.sh/>) fournit des binaires reconstruits à partir des sources libres, sans cette restriction.
+Deux points sont à connaître avant de s'engager. La société Chef Software a été rachetée en 2020 par Progress Software. Par ailleurs, si le code reste sous licence Apache 2.0, les binaires officiels sont soumis depuis 2019 à une licence commerciale au-delà d'un certain périmètre d'usage. Le projet **Cinc** (<https://cinc.sh/>) fournit des binaires reconstruits à partir des sources libres, sans cette restriction.
 
 ## Salt
 
@@ -145,80 +140,41 @@ Salt est écrit en Python, un langage de programmation populaire pour son access
 
 En outre, Salt est capable de gérer des environnements hétérogènes, ce qui le rend très souple pour les organisations qui utilisent une variété de systèmes d'exploitation et de plateformes. Le projet, racheté avec SaltStack par VMware en 2020, relève depuis 2023 de Broadcom ; il conserve une gouvernance communautaire (*Salt Project*) et une licence Apache 2.0.
 
-## OCS Inventory NG
+## OpenTofu
 
 Site
-: <https://ocsinventory-ng.org/>
+: <https://opentofu.org/>
 
-OCS Inventory NG (Open Computers and Software Inventory Next Generation) est un outil d'inventaire informatique open source qui aide à faire un suivi et à gérer les actifs informatiques au sein d'une organisation.
+Porteur
+: une fondation (Linux Foundation, CNCF)
 
-L'outil fonctionne en installant un agent sur chaque poste de travail ou serveur, qui collecte des informations sur le matériel et les logiciels installés, puis envoie ces informations à un serveur central OCS. Les données collectées peuvent inclure des informations telles que la configuration matérielle, le système d'exploitation, les logiciels installés, les logiciels en cours d'exécution, les mises à jour de logiciels, les adresses IP et bien d'autres.
+Licence
+: MPL 2.0
 
-OCS Inventory NG est très utile pour les grandes organisations avec de nombreux postes de travail et serveurs, où le suivi manuel des actifs informatiques serait une tâche énorme. Il permet aux administrateurs système de voir rapidement et facilement quels actifs ils ont, où ils se trouvent, et comment ils sont configurés.
+OpenTofu est un outil d'infrastructure décrite par le code, issu du fork de Terraform que la communauté a lancé après le passage de ce dernier sous licence BUSL, en août 2023. Hébergé par la Linux Foundation, il a été accepté en avril 2025 au niveau *sandbox* de la CNCF.
 
-Un autre avantage d'OCS Inventory NG est sa capacité à intégrer avec d'autres outils de gestion informatique, comme GLPI (Gestion Libre de Parc Informatique). Cette intégration peut permettre des fonctionnalités supplémentaires, comme le suivi des incidents, la gestion des demandes de service, la planification des changements, et bien d'autres.
+On décrit dans des fichiers HCL les ressources souhaitées : machines, réseaux, enregistrements DNS, bases managées. OpenTofu compare cette description à l'état connu, présente un plan, puis l'applique à travers des fournisseurs (*providers*) qui couvrent les principaux clouds, OpenStack, Proxmox VE ou Kubernetes. Il complète les outils de gestion de configuration, qui interviennent une fois la machine créée.
 
-OCS Inventory NG est écrit en Perl pour la partie agent, et utilise PHP pour l'interface web du serveur. Il est compatible avec de nombreux systèmes d'exploitation, y compris Linux, Windows et MacOS.
+Il reprend les configurations de Terraform antérieures à la séparation, mais les deux produits évoluent désormais différemment : le chiffrement du fichier d'état, par exemple, est une fonction d'OpenTofu. Ce fichier d'état, qui peut contenir des secrets, doit être partagé, verrouillé et protégé dès qu'une équipe est concernée.
 
-## CloneZilla
-
-Site
-: <https://clonezilla.org>
-
-Clonezilla est un outil de clonage et d'imagerie de disque open source qui permet de copier, cloner et restaurer des systèmes d'exploitation et des données sur des disques durs. Il est souvent utilisé pour la sauvegarde, la restauration et le déploiement de systèmes dans des environnements informatiques.
-
-Clonezilla est capable de cloner un disque ou une partition individuelle à un autre disque ou partition, ou de créer une image d'un disque ou d'une partition qui peut être stockée pour une utilisation ultérieure. Cette image peut ensuite être utilisée pour restaurer le système sur le même disque ou sur un autre disque, ce qui peut être utile pour la récupération de données ou le déploiement de systèmes.
-
-Clonezilla supporte une variété de systèmes de fichiers, y compris ceux couramment utilisés dans les environnements Windows (NTFS, FAT), Linux (ext2, ext3, ext4, xfs, btrfs) et MacOS (HFS+). Il peut également cloner des disques avec des partitions de démarrage UEFI, ce qui est de plus en plus courant dans les systèmes modernes.
-
-L'un des principaux avantages de Clonezilla est son efficacité. Il n'effectue la copie que des blocs de données utilisés sur le disque, ce qui permet de gagner du temps et de l'espace de stockage lors du clonage ou de la création d'images de disques qui ne sont pas entièrement utilisés.
-
-Clonezilla est généralement utilisé via une interface en ligne de commande, mais il existe aussi une version avec une interface graphique appelée Clonezilla Live. Clonezilla Live est un système d'exploitation autonome qui peut être démarré à partir d'un CD, d'une clé USB ou d'un réseau PXE, et qui peut être utilisé pour cloner ou restaurer des disques sans avoir besoin d'un système d'exploitation existant sur la machine.
-
-## Partimage
-
-Site
-: <https://www.partimage.org>
-
-!!! warning "Avertissement"
-
-    Partimage n'est plus maintenu depuis le début des années 2010 et ne gère pas les systèmes de fichiers récents ni les partitions chiffrées. Il est décrit ici pour mémoire ; utilisez Clonezilla, qui l'a supplanté, ou les outils de sauvegarde présentés dans la section [Sauvegarde](../infrastructure/sauvegarde.md).
-
-Partimage, qui signifie Partition Image, est un outil open-source de sauvegarde de disque et de partition. Il est spécifiquement conçu pour sauvegarder des partitions de disque en créant une image de la partition, ce qui peut ensuite être utilisé pour restaurer la partition à un état précédent.
-
-Partimage fonctionne en lisant une partition de disque bloc par bloc et en écrivant ces blocs dans un fichier image. Cette image peut ensuite être stockée sur un autre disque ou sur un serveur de réseau pour une utilisation future. Lorsque vous avez besoin de restaurer la partition, vous pouvez utiliser Partimage pour lire l'image et écrire les blocs de données sur la partition cible.
-
-L'un des avantages de Partimage est qu'il ne copie que les blocs de données utilisés sur la partition, ce qui signifie que les fichiers supprimés ou l'espace non utilisé sur la partition ne sont pas inclus dans l'image. Cela rend les images de sauvegarde plus petites et plus rapides à créer et à restaurer que si vous copiez simplement tous les blocs de la partition.
-
-Partimage supporte une variété de systèmes de fichiers, y compris ceux couramment utilisés dans les environnements Linux (comme ext2, ext3, ext4, ReiserFS, XFS) et Windows (FAT16, FAT32, NTFS). La prise en charge de certains systèmes de fichiers reste toutefois limitée ; pour ceux qu'il ne connaît pas, Partimage se contente de copier l'ensemble du disque.
-
-Partimage est généralement utilisé via une interface en ligne de commande, bien qu'il existe une interface graphique disponible appelée Partimage Is Not Ghost (PING), qui offre une interface utilisateur plus conviviale.
+OpenTofu est écrit en Go. Le même changement de licence a donné naissance à [OpenBao](../infrastructure/secrets-mots-de-passe.md#openbao), fork de Vault.
 
 ## Autres outils
 
 Gestion de configuration :
 
 - **CFEngine** : C'est l'un des premiers outils de gestion de configuration. Il est connu pour sa vitesse et sa capacité à gérer des milliers de nœuds.
-- **OpenTofu** : issu du fork de Terraform, cet outil relève du *provisioning* d'infrastructure (IaC) : il crée et détruit les ressources (machines, réseaux, services managés) que les outils ci-dessus configureront ensuite. HashiCorp ayant placé Terraform sous licence BSL en août 2023, la communauté a créé OpenTofu, aujourd'hui hébergé par la Linux Foundation et compatible avec les configurations Terraform existantes (<https://opentofu.org/>). Le même changement de licence a donné naissance à OpenBao, fork de Vault (<https://openbao.org/>).
-- **Terraform** : l'outil d'IaC de référence, désormais sous licence BSL 1.1 (source-available) et propriété d'IBM depuis le rachat de HashiCorp.
 - **Juju** : C'est un outil développé par Canonical (la société derrière Ubuntu) qui se concentre sur le déploiement et la gestion des services au-dessus du niveau du système d'exploitation.
-- **pyinfra** : Il s'agit d'un outil de déploiement de serveurs et d'outil de gestion de configuration écrit en Python. Il fonctionne en générant et en exécutant des commandes SSH sur les serveurs cibles. pyinfra est conçu pour être rapide, avec un temps de déploiement minimal, et pour fonctionner avec toute configuration de serveur, que vous ayez un seul serveur ou des milliers. Il offre également une API Python, ce qui signifie que vous pouvez intégrer pyinfra dans d'autres scripts ou outils Python.
-- **BundleWrap** : Est également un outil de gestion de configuration fondé sur Python. Comme pyinfra, il utilise SSH pour communiquer avec les serveurs cibles. BundleWrap se distingue par son approche de la gestion de configuration : chaque nœud a un bundle qui décrit l'état désiré pour ce nœud, et BundleWrap travaille pour amener le nœud à cet état. Il est conçu pour être simple à comprendre et à utiliser, avec un système de fichiers en texte brut et un ensemble minimal de concepts à apprendre.
-
-Clonage de disques :
-
-- **dd** : C'est un outil de ligne de commande Unix qui peut être utilisé pour copier et convertir des données à un niveau très bas. Il est souvent utilisé pour cloner des disques entiers.
-- **rsync** : C'est un outil de synchronisation de fichiers qui ne transfère que les différences entre la source et la destination. Bien qu'il ne clone pas les disques à proprement parler, il est souvent utilisé pour la sauvegarde de données.
-
-Inventaire et suivi des actifs :
-
-- **GLPI** : C'est un système de gestion des ressources informatiques (ITSM) qui couvre l'inventaire des actifs et de nombreuses autres fonctions de gestion informatique.
-- **GLPI Agent** : l'agent d'inventaire multiplateforme de GLPI. Il succède à FusionInventory, dont l'agent n'est plus maintenu : les déploiements existants doivent prévoir la migration.
-- **RackTables** et **NetBox** : solutions de gestion de centre de données et de réseau, qui aident à gérer le matériel, les emplacements, les adresses IP, les câbles et autres actifs.
-- **Snipe-IT** : gestion des actifs informatiques orientée suivi du matériel et des licences.
+- **pyinfra** : Il s'agit d'un outil de déploiement de serveurs et d'outil de gestion de configuration écrit en Python. Il fonctionne en générant et en exécutant des commandes SSH sur les serveurs cibles. pyinfra est conçu pour être rapide (temps de déploiement minimal) et pour fonctionner avec toute configuration de serveur, que vous ayez un seul serveur ou des milliers. Il offre également une API Python, ce qui signifie que vous pouvez intégrer pyinfra dans d'autres scripts ou outils Python.
+- **BundleWrap** : Est également un outil de gestion de configuration fondé sur Python. Comme pyinfra, il utilise SSH pour communiquer avec les serveurs cibles. BundleWrap se distingue par son approche de la gestion de configuration : chaque nœud a un bundle qui décrit l'état désiré pour ce nœud. BundleWrap travaille pour amener le nœud à cet état. Il est conçu pour être simple à comprendre et à utiliser, avec un système de fichiers en texte brut et un ensemble minimal de concepts à apprendre.
 
 Déploiement applicatif et conteneurs :
 
-- **Docker**, **Podman** et **Kubernetes** constituent aujourd'hui le socle dominant du déploiement applicatif ; ils sont présentés dans la section [Virtualisation](../infrastructure/virtualisation.md).
+- **Docker**, **Podman** et **Kubernetes** constituent aujourd'hui le socle dominant du déploiement applicatif ; ils sont présentés dans la section [Conteneurs et orchestration](../infrastructure/conteneurs-orchestration.md).
 - **Argo CD** (<https://argo-cd.readthedocs.io/>) et **Flux** (<https://fluxcd.io/>) mettent en œuvre l'approche GitOps, où l'état souhaité du système est décrit dans un dépôt Git et appliqué en continu par un agent : transposition directe, à l'échelle des conteneurs, de la logique d'état désiré décrite plus haut.
 - **Helm** (<https://helm.sh/>) pour l'empaquetage des applications Kubernetes.
+
+Présentés ailleurs :
+
+- [OCS Inventory NG](../infrastructure/gestion-de-parc-et-inventaires.md#ocs-inventory-ng){ #ocs-inventory-ng }, inventaire de parc
+- [Clonezilla](../infrastructure/deploiement-postes.md#clonezilla){ #clonezilla } et [Partimage](../infrastructure/deploiement-postes.md#partimage){ #partimage }, clonage de disques
