@@ -44,6 +44,29 @@ OCS remonte aussi bien les caractéristiques matérielles des postes que les log
 
 OCS repose sur les technologies Perl et MySQL principalement.
 
+## Medulla
+
+Site
+: <https://medulla-tech.io/>
+
+Porteur
+: un éditeur français (Natsu)
+
+Licence
+: GPL
+
+Medulla est une solution de gestion des postes de travail Windows, Linux et macOS, de type RMM (*Remote Monitoring and Management*). Un agent installé sur chaque poste reste relié au serveur par le protocole XMPP, ce qui permet d'agir sur les postes en temps réel.
+
+Elle permet :
+
+- l'inventaire automatique du matériel et des logiciels, produit par GLPI Agent et centralisé dans GLPI (installé par Medulla ou existant) ;
+- le télédéploiement planifié de logiciels, sur un poste ou un groupe de postes ;
+- la gestion des mises à jour Windows (approbation manuelle ou automatique, planification) et Linux ;
+- le suivi des vulnérabilités (CVE) des logiciels installés ;
+- la prise en main à distance des postes.
+
+Medulla s'installe sur les serveurs de l'organisation (Debian, installation automatisée par Ansible) ou s'utilise en SaaS hébergé en France. Elle est référencée au SILL et au Comptoir du Libre. Code source : <https://github.com/medulla-tech/medulla>
+
 ## Autres
 
 Parmi les produits de l’univers Gestion de parc et inventaires, on peut compléter la liste avec les outils ci-dessous :

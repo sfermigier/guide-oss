@@ -60,6 +60,7 @@ Comme la majorité des projets BSD, OpenSSH est écrit en C.
 - RustDesk, alternative libre à TeamViewer et AnyDesk, avec serveur de relais auto-hébergeable: <https://rustdesk.com/>
 - Apache Guacamole, passerelle d'accès distant (RDP, VNC, SSH) utilisable depuis un simple navigateur: voir [Bastions et accès privilégiés](bastions.md#apache-guacamole)
 - MeshCentral, administration de parc et prise en main à distance depuis le navigateur: <https://meshcentral.com/>
+- Medulla, gestion des postes de travail (inventaire, télédéploiement, mises à jour) avec prise en main à distance: <https://medulla-tech.io/>
 - FreeRDP, implémentation libre du protocole RDP: <https://www.freerdp.com/>
 - Remmina, client multiprotocole (RDP, VNC, SSH, SPICE) pour Linux: <https://remmina.org/>
 - KRDC: <https://apps.kde.org/krdc/>
